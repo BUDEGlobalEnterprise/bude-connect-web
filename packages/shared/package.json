@@ -10,9 +10,11 @@
     "./api": "./src/api/index.ts",
     "./stores": "./src/stores/index.ts",
     "./components": "./src/components/index.ts",
-    "./types": "./src/types/index.ts"
+    "./types": "./src/types/index.ts",
+    "./utils": "./src/utils/index.ts"
   },
   "dependencies": {
+    "frappe-ui": "^0.1.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.0"
   },
