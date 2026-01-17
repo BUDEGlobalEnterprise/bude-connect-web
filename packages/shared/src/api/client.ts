@@ -3,7 +3,8 @@
  * Handles authentication, CSRF tokens, and API communication
  */
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+// Use empty string for relative paths - Vite proxy forwards /api/* to Frappe backend
+const API_URL = '';
 
 interface RequestOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE';

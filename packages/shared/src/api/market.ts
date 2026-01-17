@@ -122,7 +122,7 @@ export async function uploadItemImage(file: File): Promise<{ file_url: string }>
   formData.append('doctype', 'Item');
   formData.append('is_private', '0');
 
-  const response = await fetch(`${import.meta.env.VITE_API_URL}/api/method/upload_file`, {
+  const response = await fetch('/api/method/upload_file', {
     method: 'POST',
     body: formData,
     credentials: 'include',

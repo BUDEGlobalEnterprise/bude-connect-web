@@ -6,8 +6,6 @@
 import { frappe, ApiError } from './client';
 import type { User } from '../types';
 
-const API_URL = import.meta.env.VITE_API_URL || '';
-
 export interface LoginResponse {
   message: string;
   home_page?: string;
@@ -24,7 +22,7 @@ export interface OAuthUrlResponse {
  * Login with username/email and password
  */
 export async function loginWithCredentials(usr: string, pwd: string): Promise<LoginResponse> {
-  const response = await fetch(`${API_URL}/api/method/login`, {
+  const response = await fetch('/api/method/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     credentials: 'include',
@@ -54,7 +52,7 @@ export async function getGoogleAuthUrl(redirectUri?: string): Promise<string> {
   });
   
   const response = await fetch(
-    `${API_URL}/api/method/frappe.integrations.oauth2_logins.get_oauth2_authorize_url?${params}`,
+    `/api/method/frappe.integrations.oauth2_logins.get_oauth2_authorize_url?${params}`,
     { credentials: 'include' }
   );
 
@@ -71,7 +69,7 @@ export async function getGoogleAuthUrl(redirectUri?: string): Promise<string> {
  */
 export async function handleOAuthCallback(code: string, state: string): Promise<LoginResponse> {
   const response = await fetch(
-    `${API_URL}/api/method/frappe.integrations.oauth2_logins.login_via_oauth2`,
+    '/api/method/frappe.integrations.oauth2_logins.login_via_oauth2',
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -140,7 +138,7 @@ export async function getCurrentUser(): Promise<User | null> {
  * Logout current user
  */
 export async function logout(): Promise<void> {
-  await fetch(`${API_URL}/api/method/logout`, {
+  await fetch('/api/method/logout', {
     method: 'POST',
     credentials: 'include',
   });
