@@ -43,6 +43,12 @@ const router = createRouter({
       meta: { requiresAuth: true },
     },
     {
+      path: '/onboarding',
+      name: 'onboarding',
+      component: () => import('../views/OnboardingView.vue'),
+      meta: { requiresAuth: true },
+    },
+    {
       path: '/oauth/callback',
       name: 'oauth-callback',
       component: () => import('../views/OAuthCallbackView.vue'),
@@ -55,15 +61,34 @@ const router = createRouter({
   ],
 });
 
-// Navigation guard for auth
+// Navigation guard for auth and onboarding
 router.beforeEach((to, _from, next) => {
   const userStore = useUserStore();
   
+  // Check if route requires auth
   if (to.meta.requiresAuth && !userStore.isLoggedIn) {
     next({ name: 'login', query: { redirect: to.fullPath } });
-  } else {
-    next();
+    return;
   }
+  
+  // Check if user needs onboarding (newly registered, no profile complete)
+  const isOnboardingComplete = localStorage.getItem('onboarding_complete') === 'true';
+  const isOnboardingSkipped = localStorage.getItem('onboarding_skipped') === 'true';
+  
+  if (
+    userStore.isLoggedIn &&
+    !isOnboardingComplete &&
+    !isOnboardingSkipped &&
+    !userStore.user?.full_name &&
+    to.name !== 'onboarding' &&
+    to.name !== 'login' &&
+    to.name !== 'oauth-callback'
+  ) {
+    next({ name: 'onboarding' });
+    return;
+  }
+  
+  next();
 });
 
 export default router;

@@ -16,6 +16,7 @@
   "dependencies": {
     "frappe-ui": "^0.1.0",
     "pinia": "^2.1.7",
+    "tailwindcss": "^3.4.19",
     "vue": "^3.4.0"
   },
   "peerDependencies": {

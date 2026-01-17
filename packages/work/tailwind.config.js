@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
     "../shared/src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/frappe-ui/src/**/*.{vue,js,ts}",
   ],
   theme: {
     extend: {
@@ -33,14 +34,17 @@ export default {
           800: '#2d42a3',
           900: '#293c81',
         },
-        // Success, Warning, etc.
-        success: {
-          500: '#10B981',
-          600: '#059669',
-        },
-        warning: {
-          500: '#F59E0B',
-          600: '#D97706',
+        gray: {
+          50: '#f9fafb',
+          100: '#f3f4f6',
+          200: '#e5e7eb',
+          300: '#d1d5db',
+          400: '#9ca3af',
+          500: '#6b7280',
+          600: '#4b5563',
+          700: '#374151',
+          800: '#1f2937',
+          900: '#111827',
         },
       },
       fontFamily: {
@@ -56,7 +60,6 @@ export default {
         'fade-in': 'fadeIn 0.5s ease-out',
         'fade-in-up': 'fadeInUp 0.7s ease-out',
         'scale-in': 'scaleIn 0.3s ease-out',
-        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
         'float': 'float 3s ease-in-out infinite',
       },
       keyframes: {
@@ -71,10 +74,6 @@ export default {
         scaleIn: {
           '0%': { transform: 'scale(0.95)', opacity: '0' },
           '100%': { transform: 'scale(1)', opacity: '1' },
-        },
-        pulseGlow: {
-          '0%, 100%': { boxShadow: '0 0 20px rgba(65, 105, 225, 0.3)' },
-          '50%': { boxShadow: '0 0 30px rgba(65, 105, 225, 0.6)' },
         },
         float: {
           '0%, 100%': { transform: 'translateY(0)' },

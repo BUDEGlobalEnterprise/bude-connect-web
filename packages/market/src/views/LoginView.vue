@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, onMounted, watch } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useUserStore, useWalletStore } from "@bude/shared";
 import { isValidEmail, isValidIndianMobile } from "@bude/shared/utils";
@@ -9,6 +9,18 @@ const router = useRouter();
 const route = useRoute();
 const userStore = useUserStore();
 const walletStore = useWalletStore();
+
+// Redirect if already logged in
+const redirectIfLoggedIn = () => {
+  if (userStore.isLoggedIn) {
+    router.push((route.query.redirect as string) || "/");
+  }
+};
+
+onMounted(redirectIfLoggedIn);
+watch(() => userStore.isLoggedIn, (isLoggedIn) => {
+  if (isLoggedIn) redirectIfLoggedIn();
+});
 
 type AuthTab = "credentials" | "otp";
 const activeTab = ref<AuthTab>("credentials");
