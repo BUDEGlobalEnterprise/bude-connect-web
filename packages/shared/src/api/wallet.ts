@@ -1,125 +1,126 @@
 /**
  * Wallet API
- * Handles credit system and contact unlocking
+ * Placeholder - requires custom backend implementation
+ * Credit system needs custom doctypes
  */
 
 import { frappe } from './client';
-import type { WalletTransaction, ContactInfo } from '../types';
+import type { WalletTransaction, PaginatedResponse } from '../types';
 
 export interface WalletBalance {
-  balance: number;
-  pending_credits: number;
+  credits: number;
+  currency: string;
+}
+
+export interface CreditPackage {
+  name: string;
+  credits: number;
+  price: number;
+  popular?: boolean;
 }
 
 export interface UnlockResult {
   success: boolean;
-  already_unlocked: boolean;
-  contact_info?: ContactInfo;
+  contact: {
+    phone?: string;
+    email?: string;
+  };
   credits_used: number;
-  new_balance: number;
-  message?: string;
-}
-
-export interface CreditPackage {
-  id: string;
-  name: string;
-  credits: number;
-  price: number;
-  discount_percent?: number;
 }
 
 /**
- * Get current wallet balance
+ * Get wallet balance
+ * Placeholder - needs custom Wallet doctype
  */
 export async function getBalance(): Promise<WalletBalance> {
-  return frappe.call<WalletBalance>('bude_core.wallet.get_balance');
+  // Return mock data until backend is implemented
+  return { credits: 0, currency: 'INR' };
 }
 
 /**
- * Unlock contact (costs 1 credit)
- * - Idempotent: returns cached if already unlocked
- * - Prevents self-unlock
+ * Unlock contact
+ * Placeholder - needs custom implementation
  */
-export async function unlockContact(
-  doctype: 'Item' | 'Supplier',
-  docname: string
-): Promise<UnlockResult> {
-  return frappe.call<UnlockResult>('bude_core.wallet.unlock_contact', {
-    doctype,
-    docname,
-  });
+export async function unlockContact(doctype: string, docname: string): Promise<UnlockResult> {
+  console.warn('Unlock contact requires custom backend implementation');
+  
+  // For development: return the contact info directly
+  try {
+    if (doctype === 'User') {
+      const user = await frappe.getDoc<any>('User', docname);
+      return {
+        success: true,
+        contact: { email: user.email, phone: user.mobile_no },
+        credits_used: 0,
+      };
+    }
+    if (doctype === 'Supplier') {
+      const supplier = await frappe.getDoc<any>('Supplier', docname);
+      return {
+        success: true,
+        contact: { email: supplier.email_id, phone: supplier.mobile_no },
+        credits_used: 0,
+      };
+    }
+  } catch (e) {
+    console.error('Failed to get contact:', e);
+  }
+  
+  return { success: false, contact: {}, credits_used: 0 };
 }
 
 /**
- * Check if contact is already unlocked
+ * Check if contact is unlocked
  */
-export async function isContactUnlocked(
-  doctype: 'Item' | 'Supplier',
-  docname: string
-): Promise<{ unlocked: boolean; contact_info?: ContactInfo }> {
-  return frappe.call('bude_core.wallet.is_unlocked', { doctype, docname });
+export async function isUnlocked(doctype: string, docname: string): Promise<{ unlocked: boolean }> {
+  // For development: always return true (no credit system yet)
+  return { unlocked: true };
 }
 
 /**
  * Get transaction history
  */
 export async function getTransactions(params: {
-  transaction_type?: 'Credit' | 'Debit';
   page?: number;
   page_size?: number;
-} = {}): Promise<{
-  transactions: WalletTransaction[];
-  total: number;
-}> {
-  return frappe.call('bude_core.wallet.get_transactions', params);
+} = {}): Promise<PaginatedResponse<WalletTransaction>> {
+  return { data: [], has_next: false, total_count: 0 };
 }
 
 /**
- * Get available credit packages
+ * Get credit packages
  */
 export async function getCreditPackages(): Promise<CreditPackage[]> {
-  return frappe.call<CreditPackage[]>('bude_core.wallet.get_credit_packages');
+  // Return sample packages
+  return [
+    { name: 'starter', credits: 10, price: 99 },
+    { name: 'popular', credits: 50, price: 449, popular: true },
+    { name: 'pro', credits: 100, price: 799 },
+  ];
 }
 
 /**
- * Initiate credit purchase
- * Returns payment gateway redirect URL
+ * Purchase credits
  */
-export async function purchaseCredits(packageId: string): Promise<{
-  order_id: string;
-  payment_url: string;
-}> {
-  return frappe.call('bude_core.wallet.purchase_credits', { package_id: packageId });
+export async function purchaseCredits(packageId: string): Promise<{ order_id: string; amount: number }> {
+  console.warn('Credit purchase requires payment integration');
+  return { order_id: '', amount: 0 };
 }
 
 /**
- * Verify payment and add credits (called after payment callback)
+ * Verify payment
  */
-export async function verifyPayment(orderId: string, paymentId: string): Promise<{
-  success: boolean;
-  credits_added: number;
-  new_balance: number;
-}> {
-  return frappe.call('bude_core.wallet.verify_payment', { 
-    order_id: orderId, 
-    payment_id: paymentId 
-  });
+export async function verifyPayment(orderId: string, paymentId: string, signature: string): Promise<{ success: boolean; new_balance: number }> {
+  console.warn('Payment verification requires backend implementation');
+  return { success: false, new_balance: 0 };
 }
 
 /**
- * Get all unlocked contacts
+ * Get unlocked contacts
  */
 export async function getUnlockedContacts(params: {
-  doctype?: 'Item' | 'Supplier';
   page?: number;
-} = {}): Promise<{
-  unlocks: Array<{
-    doctype: string;
-    docname: string;
-    contact_info: ContactInfo;
-    unlocked_at: string;
-  }>;
-  total: number;
-}> {
-  return frappe.call('bude_core.wallet.get_unlocked_contacts', params);
+  page_size?: number;
+} = {}): Promise<PaginatedResponse<{ doctype: string; docname: string; contact: { phone?: string; email?: string }; unlocked_at: string }>> {
+  return { data: [], has_next: false, total_count: 0 };
 }
