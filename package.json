@@ -1,0 +1,28 @@
+{
+  "name": "bude-connect-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BudeGlobal Enterprise Marketplace - Dual Frontend Platform",
+  "scripts": {
+    "dev:market": "pnpm --filter @bude/market dev",
+    "dev:work": "pnpm --filter @bude/work dev",
+    "dev": "pnpm run dev:market & pnpm run dev:work",
+    "build:market": "pnpm --filter @bude/market build",
+    "build:work": "pnpm --filter @bude/work build",
+    "build": "pnpm run build:market && pnpm run build:work",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check"
+  },
+  "keywords": [
+    "marketplace",
+    "freelance",
+    "vue",
+    "frappe"
+  ],
+  "author": "BudeGlobal",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
