@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { useRouter } from "vue-router";
 import { postJob, getSkills } from "@bude/shared/api";
+import { Button, Badge } from "@bude/shared/components";
 import type { Skill } from "@bude/shared/types";
 
 const router = useRouter();
 const skills = ref<Skill[]>([]);
 const isLoading = ref(false);
 const error = ref("");
+const skillInput = ref("");
 
 const form = ref({
   title: "",
@@ -16,8 +18,6 @@ const form = ref({
   skills_required: [] as string[],
   deadline: "",
 });
-
-const skillInput = ref("");
 
 async function loadSkills() {
   try {
@@ -72,7 +72,7 @@ async function handleSubmit() {
   }
 }
 
-loadSkills();
+onMounted(loadSkills);
 </script>
 
 <template>
@@ -82,9 +82,9 @@ loadSkills();
     <div class="card p-6">
       <form @submit.prevent="handleSubmit" class="space-y-6">
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">
-            Job Title *
-          </label>
+          <label class="block text-sm font-medium text-gray-700 mb-2"
+            >Job Title *</label
+          >
           <input
             v-model="form.title"
             type="text"
@@ -94,9 +94,9 @@ loadSkills();
         </div>
 
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">
-            Description *
-          </label>
+          <label class="block text-sm font-medium text-gray-700 mb-2"
+            >Description *</label
+          >
           <textarea
             v-model="form.description"
             rows="6"
@@ -106,9 +106,9 @@ loadSkills();
         </div>
 
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">
-            Budget Range *
-          </label>
+          <label class="block text-sm font-medium text-gray-700 mb-2"
+            >Budget Range *</label
+          >
           <input
             v-model="form.budget_range"
             type="text"
@@ -118,9 +118,9 @@ loadSkills();
         </div>
 
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">
-            Required Skills
-          </label>
+          <label class="block text-sm font-medium text-gray-700 mb-2"
+            >Required Skills</label
+          >
           <div class="flex gap-2 mb-2">
             <select v-model="skillInput" class="input flex-1">
               <option value="">Select a skill</option>
@@ -132,44 +132,39 @@ loadSkills();
                 {{ skill.skill_name }}
               </option>
             </select>
-            <button type="button" @click="addSkill" class="btn btn-secondary">
-              Add
-            </button>
+            <Button type="button" variant="secondary" @click="addSkill"
+              >Add</Button
+            >
           </div>
           <div class="flex flex-wrap gap-2">
-            <span
+            <Badge
               v-for="skill in form.skills_required"
               :key="skill"
-              class="flex items-center gap-1 px-3 py-1 bg-primary-50 text-primary-700 rounded-full text-sm"
+              variant="info"
+              class="flex items-center gap-1"
             >
               {{ skill }}
               <button
                 type="button"
                 @click="removeSkill(skill)"
-                class="text-primary-400 hover:text-primary-600"
+                class="text-primary-400 hover:text-primary-600 ml-1"
               >
                 ×
               </button>
-            </span>
+            </Badge>
           </div>
         </div>
 
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">
-            Deadline (optional)
-          </label>
+          <label class="block text-sm font-medium text-gray-700 mb-2"
+            >Deadline (optional)</label
+          >
           <input v-model="form.deadline" type="date" class="input" />
         </div>
 
         <p v-if="error" class="text-red-600 text-sm">{{ error }}</p>
 
-        <button
-          type="submit"
-          :disabled="isLoading"
-          class="w-full btn btn-primary py-3"
-        >
-          {{ isLoading ? "Posting..." : "Post Job" }}
-        </button>
+        <Button type="submit" :loading="isLoading" full-width>Post Job</Button>
       </form>
     </div>
   </div>

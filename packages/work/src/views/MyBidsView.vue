@@ -2,12 +2,18 @@
 import { ref, onMounted } from "vue";
 import { RouterLink } from "vue-router";
 import { getMyBids, withdrawProposal } from "@bude/shared/api";
+import { formatPrice } from "@bude/shared/utils";
+import {
+  Button,
+  Badge,
+  EmptyState,
+  LoadingSkeleton,
+} from "@bude/shared/components";
 import type { Bid, JobOpening } from "@bude/shared/types";
 
 const bids = ref<(Bid & { job: JobOpening })[]>([]);
 const isLoading = ref(true);
 const activeTab = ref<"pending" | "accepted" | "rejected">("pending");
-
 const statusMap: Record<string, string> = {
   pending: "Pending",
   accepted: "Accepted",
@@ -35,13 +41,16 @@ async function handleWithdraw(bidId: string) {
   }
 }
 
-function formatPrice(price: number) {
-  return new Intl.NumberFormat("en-IN", {
-    style: "currency",
-    currency: "INR",
-    maximumFractionDigits: 0,
-  }).format(price);
+function switchTab(tab: "pending" | "accepted" | "rejected") {
+  activeTab.value = tab;
+  loadBids();
 }
+
+const badgeVariant = (status: string) => {
+  if (status === "Accepted") return "success";
+  if (status === "Rejected") return "error";
+  return "default";
+};
 
 onMounted(loadBids);
 </script>
@@ -52,30 +61,20 @@ onMounted(loadBids);
 
     <!-- Tabs -->
     <div class="flex gap-2 mb-6">
-      <button
+      <Button
         v-for="tab in ['pending', 'accepted', 'rejected'] as const"
         :key="tab"
-        @click="
-          activeTab = tab;
-          loadBids();
-        "
-        :class="[
-          'px-4 py-2 rounded-lg font-medium transition-all capitalize',
-          activeTab === tab
-            ? 'bg-primary-600 text-white'
-            : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
-        ]"
+        :variant="activeTab === tab ? 'primary' : 'secondary'"
+        @click="switchTab(tab)"
+        class="capitalize"
       >
         {{ tab }}
-      </button>
+      </Button>
     </div>
 
     <!-- Loading -->
     <div v-if="isLoading" class="space-y-4">
-      <div v-for="i in 3" :key="i" class="card p-4 animate-pulse">
-        <div class="h-5 bg-gray-200 rounded w-3/4 mb-2"></div>
-        <div class="h-4 bg-gray-200 rounded w-1/4"></div>
-      </div>
+      <LoadingSkeleton variant="list" v-for="i in 3" :key="i" />
     </div>
 
     <!-- Bids -->
@@ -86,25 +85,13 @@ onMounted(loadBids);
             <RouterLink
               :to="`/jobs/${bid.job_opening}`"
               class="font-medium text-gray-900 hover:text-primary-600"
+              >{{ bid.job?.title || "Job" }}</RouterLink
             >
-              {{ bid.job?.title || "Job" }}
-            </RouterLink>
             <p class="text-sm text-gray-500">
               Your bid: {{ formatPrice(bid.bid_amount) }}
             </p>
           </div>
-          <span
-            :class="[
-              'badge',
-              bid.status === 'Accepted'
-                ? 'badge-verified'
-                : bid.status === 'Rejected'
-                  ? 'bg-red-100 text-red-800'
-                  : 'bg-gray-100 text-gray-700',
-            ]"
-          >
-            {{ bid.status }}
-          </span>
+          <Badge :variant="badgeVariant(bid.status)">{{ bid.status }}</Badge>
         </div>
         <p class="text-gray-600 text-sm line-clamp-2 mb-3">
           {{ bid.proposal_text }}
@@ -120,14 +107,14 @@ onMounted(loadBids);
     </div>
 
     <!-- Empty -->
-    <div v-else class="text-center py-16 text-gray-500">
-      <p>No {{ activeTab }} bids</p>
-      <RouterLink
-        to="/jobs"
-        class="text-primary-600 hover:underline mt-2 inline-block"
-      >
-        Browse Jobs
-      </RouterLink>
-    </div>
+    <EmptyState v-else :title="`No ${activeTab} bids`" icon="briefcase">
+      <template #action>
+        <RouterLink
+          to="/jobs"
+          class="text-primary-600 hover:underline mt-2 inline-block"
+          >Browse Jobs</RouterLink
+        >
+      </template>
+    </EmptyState>
   </div>
 </template>

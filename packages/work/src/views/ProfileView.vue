@@ -6,6 +6,12 @@ import {
   getSkills,
 } from "@bude/shared/api";
 import { useUserStore } from "@bude/shared";
+import {
+  Avatar,
+  Badge,
+  Button,
+  LoadingSkeleton,
+} from "@bude/shared/components";
 import type { Freelancer, Skill } from "@bude/shared/types";
 
 const userStore = useUserStore();
@@ -95,41 +101,26 @@ onMounted(loadProfile);
   <div class="max-w-2xl mx-auto px-4 py-8">
     <h1 class="text-2xl font-bold text-gray-900 mb-6">My Freelancer Profile</h1>
 
-    <div v-if="isLoading" class="card p-6 animate-pulse">
-      <div class="space-y-4">
-        <div class="h-10 bg-gray-200 rounded"></div>
-        <div class="h-24 bg-gray-200 rounded"></div>
-        <div class="h-10 bg-gray-200 rounded"></div>
-      </div>
+    <div v-if="isLoading" class="card p-6">
+      <LoadingSkeleton variant="text" />
+      <LoadingSkeleton variant="text" />
     </div>
 
     <div v-else class="card p-6">
       <form @submit.prevent="handleSave" class="space-y-6">
         <div class="flex items-center gap-4 mb-6">
-          <div
-            class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center"
-          >
-            <span class="text-primary-700 font-bold text-2xl">
-              {{ userStore.displayName.charAt(0).toUpperCase() }}
-            </span>
-          </div>
+          <Avatar
+            :name="userStore.displayName"
+            size="xl"
+            :verified="profile?.is_verified_expert"
+          />
           <div>
             <h2 class="text-xl font-semibold text-gray-900">
               {{ userStore.displayName }}
             </h2>
-            <p
-              v-if="profile?.is_verified_expert"
-              class="text-primary-600 text-sm flex items-center gap-1"
+            <Badge v-if="profile?.is_verified_expert" variant="success"
+              >Verified Expert</Badge
             >
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-              Verified Expert
-            </p>
           </div>
         </div>
 
@@ -172,25 +163,26 @@ onMounted(loadProfile);
                 {{ skill.skill_name }}
               </option>
             </select>
-            <button type="button" @click="addSkill" class="btn btn-secondary">
-              Add
-            </button>
+            <Button type="button" variant="secondary" @click="addSkill"
+              >Add</Button
+            >
           </div>
           <div class="flex flex-wrap gap-2">
-            <span
+            <Badge
               v-for="skill in form.skills"
               :key="skill"
-              class="flex items-center gap-1 px-3 py-1 bg-primary-50 text-primary-700 rounded-full text-sm"
+              variant="info"
+              class="flex items-center gap-1"
             >
               {{ skill }}
               <button
                 type="button"
                 @click="removeSkill(skill)"
-                class="text-primary-400 hover:text-primary-600"
+                class="text-primary-400 hover:text-primary-600 ml-1"
               >
                 ×
               </button>
-            </span>
+            </Badge>
           </div>
         </div>
 
@@ -211,13 +203,9 @@ onMounted(loadProfile);
               placeholder="URL"
               class="input flex-1"
             />
-            <button
-              type="button"
-              @click="addPortfolio"
-              class="btn btn-secondary"
+            <Button type="button" variant="secondary" @click="addPortfolio"
+              >Add</Button
             >
-              Add
-            </button>
           </div>
           <ul class="space-y-2">
             <li
@@ -245,13 +233,9 @@ onMounted(loadProfile);
         <p v-if="error" class="text-red-600 text-sm">{{ error }}</p>
         <p v-if="success" class="text-green-600 text-sm">{{ success }}</p>
 
-        <button
-          type="submit"
-          :disabled="isSaving"
-          class="w-full btn btn-primary py-3"
+        <Button type="submit" :loading="isSaving" full-width
+          >Save Profile</Button
         >
-          {{ isSaving ? "Saving..." : "Save Profile" }}
-        </button>
       </form>
     </div>
   </div>

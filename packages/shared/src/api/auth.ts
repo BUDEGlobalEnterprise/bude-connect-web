@@ -1,20 +1,98 @@
 /**
  * Authentication API
- * Handles OTP-based mobile login for Frappe backend
+ * Handles Frappe authentication: username/password, Google OAuth, and OTP
  */
 
 import { frappe, ApiError } from './client';
 import type { User } from '../types';
 
+const API_URL = import.meta.env.VITE_API_URL || '';
+
+export interface LoginResponse {
+  message: string;
+  home_page?: string;
+  full_name?: string;
+}
+
+export interface OAuthUrlResponse {
+  url: string;
+}
+
+// ============ Username/Password Auth ============
+
+/**
+ * Login with username/email and password
+ */
+export async function loginWithCredentials(usr: string, pwd: string): Promise<LoginResponse> {
+  const response = await fetch(`${API_URL}/api/method/login`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    credentials: 'include',
+    body: JSON.stringify({ usr, pwd }),
+  });
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new ApiError(error.message || 'Invalid credentials', response.status);
+  }
+
+  // Refresh CSRF token after login
+  frappe.clearCsrfToken();
+  
+  return response.json();
+}
+
+// ============ Google OAuth ============
+
+/**
+ * Get Google OAuth authorization URL
+ */
+export async function getGoogleAuthUrl(redirectUri?: string): Promise<string> {
+  const params = new URLSearchParams({
+    provider: 'google',
+    redirect_to: redirectUri || window.location.origin + '/oauth/callback',
+  });
+  
+  const response = await fetch(
+    `${API_URL}/api/method/frappe.integrations.oauth2_logins.get_oauth2_authorize_url?${params}`,
+    { credentials: 'include' }
+  );
+
+  if (!response.ok) {
+    throw new ApiError('Failed to get OAuth URL', response.status);
+  }
+
+  const data = await response.json();
+  return data.message;
+}
+
+/**
+ * Handle OAuth callback - exchange code for session
+ */
+export async function handleOAuthCallback(code: string, state: string): Promise<LoginResponse> {
+  const response = await fetch(
+    `${API_URL}/api/method/frappe.integrations.oauth2_logins.login_via_oauth2`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify({ code, state, provider: 'google' }),
+    }
+  );
+
+  if (!response.ok) {
+    throw new ApiError('OAuth login failed', response.status);
+  }
+
+  frappe.clearCsrfToken();
+  return response.json();
+}
+
+// ============ OTP Auth (Mobile) ============
+
 export interface OtpResponse {
   success: boolean;
   message: string;
-}
-
-export interface LoginResponse {
-  success: boolean;
-  user: User;
-  session_token?: string;
 }
 
 /**
@@ -27,19 +105,27 @@ export async function sendOtp(mobile: string): Promise<OtpResponse> {
 /**
  * Verify OTP and login
  */
-export async function verifyOtp(mobile: string, otp: string): Promise<LoginResponse> {
-  const response = await frappe.call<LoginResponse>('bude_core.auth.verify_otp', { 
-    mobile, 
-    otp 
-  });
+export async function verifyOtp(mobile: string, otp: string): Promise<{ success: boolean; user?: User }> {
+  const response = await frappe.call<{ success: boolean; user?: User }>('bude_core.auth.verify_otp', { mobile, otp });
+  if (response.success) {
+    frappe.clearCsrfToken();
+  }
   return response;
 }
+
+// ============ Session Management ============
 
 /**
  * Get current logged in user
  */
 export async function getCurrentUser(): Promise<User | null> {
   try {
+    // First check if logged in
+    const loggedUser = await frappe.call<string>('frappe.auth.get_logged_user');
+    if (!loggedUser || loggedUser === 'Guest') {
+      return null;
+    }
+    // Then get full user details
     const user = await frappe.call<User>('bude_core.auth.get_current_user');
     return user;
   } catch (error) {
@@ -54,7 +140,10 @@ export async function getCurrentUser(): Promise<User | null> {
  * Logout current user
  */
 export async function logout(): Promise<void> {
-  await frappe.call('logout');
+  await fetch(`${API_URL}/api/method/logout`, {
+    method: 'POST',
+    credentials: 'include',
+  });
   frappe.clearCsrfToken();
 }
 
@@ -66,12 +155,8 @@ export async function updateProfile(data: Partial<User>): Promise<User> {
 }
 
 /**
- * Request KYC verification
+ * Request password reset
  */
-export async function requestKycVerification(documents: {
-  id_type: string;
-  id_number: string;
-  id_image: string;
-}): Promise<{ status: string; message: string }> {
-  return frappe.call('bude_core.auth.request_kyc', documents);
+export async function requestPasswordReset(email: string): Promise<{ message: string }> {
+  return frappe.call<{ message: string }>('frappe.core.doctype.user.user.reset_password', { user: email });
 }

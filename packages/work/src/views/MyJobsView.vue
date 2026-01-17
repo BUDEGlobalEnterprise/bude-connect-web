@@ -2,6 +2,12 @@
 import { ref, onMounted } from "vue";
 import { RouterLink } from "vue-router";
 import { getMyPostedJobs, closeJob } from "@bude/shared/api";
+import {
+  Button,
+  Badge,
+  EmptyState,
+  LoadingSkeleton,
+} from "@bude/shared/components";
 import type { JobOpening } from "@bude/shared/types";
 
 const jobs = ref<JobOpening[]>([]);
@@ -32,6 +38,11 @@ async function handleCloseJob(jobId: string) {
   }
 }
 
+function switchTab(tab: "open" | "awarded" | "closed") {
+  activeTab.value = tab;
+  loadJobs();
+}
+
 onMounted(loadJobs);
 </script>
 
@@ -39,37 +50,25 @@ onMounted(loadJobs);
   <div class="max-w-4xl mx-auto px-4 py-8">
     <div class="flex items-center justify-between mb-6">
       <h1 class="text-2xl font-bold text-gray-900">My Jobs</h1>
-      <RouterLink to="/post-job" class="btn btn-primary">
-        Post New Job
-      </RouterLink>
+      <RouterLink to="/post-job"><Button>Post New Job</Button></RouterLink>
     </div>
 
     <!-- Tabs -->
     <div class="flex gap-2 mb-6">
-      <button
+      <Button
         v-for="tab in ['open', 'awarded', 'closed'] as const"
         :key="tab"
-        @click="
-          activeTab = tab;
-          loadJobs();
-        "
-        :class="[
-          'px-4 py-2 rounded-lg font-medium transition-all capitalize',
-          activeTab === tab
-            ? 'bg-primary-600 text-white'
-            : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
-        ]"
+        :variant="activeTab === tab ? 'primary' : 'secondary'"
+        @click="switchTab(tab)"
+        class="capitalize"
       >
         {{ tab }}
-      </button>
+      </Button>
     </div>
 
     <!-- Loading -->
     <div v-if="isLoading" class="space-y-4">
-      <div v-for="i in 3" :key="i" class="card p-4 animate-pulse">
-        <div class="h-5 bg-gray-200 rounded w-3/4 mb-2"></div>
-        <div class="h-4 bg-gray-200 rounded w-1/4"></div>
-      </div>
+      <LoadingSkeleton variant="list" v-for="i in 3" :key="i" />
     </div>
 
     <!-- Jobs -->
@@ -83,34 +82,28 @@ onMounted(loadJobs);
           <RouterLink
             :to="`/jobs/${job.name}`"
             class="font-medium text-gray-900 hover:text-primary-600"
+            >{{ job.title }}</RouterLink
           >
-            {{ job.title }}
-          </RouterLink>
           <p class="text-sm text-gray-500">
             {{ job.bids_count }} proposals • {{ job.budget_range }}
           </p>
         </div>
         <div class="flex gap-2">
-          <RouterLink
-            :to="`/jobs/${job.name}`"
-            class="btn btn-secondary text-sm"
+          <RouterLink :to="`/jobs/${job.name}`"
+            ><Button variant="secondary" size="sm">View</Button></RouterLink
           >
-            View
-          </RouterLink>
-          <button
+          <Button
             v-if="job.status === 'Open'"
+            variant="outline"
+            size="sm"
             @click="handleCloseJob(job.name)"
-            class="btn btn-outline text-sm"
+            >Close</Button
           >
-            Close
-          </button>
         </div>
       </div>
     </div>
 
     <!-- Empty -->
-    <div v-else class="text-center py-16 text-gray-500">
-      <p>No {{ activeTab }} jobs</p>
-    </div>
+    <EmptyState v-else :title="`No ${activeTab} jobs`" icon="briefcase" />
   </div>
 </template>

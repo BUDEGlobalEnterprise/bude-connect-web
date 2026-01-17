@@ -2,60 +2,74 @@
 import { ref, computed } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useUserStore, useWalletStore } from "@bude/shared";
+import { isValidEmail, isValidIndianMobile } from "@bude/shared/utils";
+import { Button, Input } from "@bude/shared/components";
 
 const router = useRouter();
 const route = useRoute();
 const userStore = useUserStore();
 const walletStore = useWalletStore();
 
+type AuthTab = "credentials" | "otp";
+const activeTab = ref<AuthTab>("credentials");
+
+// Credentials form
+const email = ref("");
+const password = ref("");
+const showPassword = ref(false);
+
+// OTP form
 const mobile = ref("");
 const otp = ref("");
-const error = ref("");
 
-const isOtpSent = computed(() => userStore.otpSent);
 const isLoading = computed(() => userStore.isLoading);
+const error = computed(() => userStore.error);
+const isOtpSent = computed(() => userStore.otpSent);
+
+async function handleCredentialsLogin() {
+  if (!email.value || !password.value) return;
+  userStore.clearError();
+  const result = await userStore.loginWithCredentials(
+    email.value,
+    password.value,
+  );
+  if (result.success) {
+    await walletStore.fetchBalance();
+    router.push((route.query.redirect as string) || "/");
+  }
+}
+
+function handleGoogleLogin() {
+  const redirect = (route.query.redirect as string) || "/";
+  sessionStorage.setItem("login_redirect", redirect);
+  userStore.initiateGoogleLogin();
+}
 
 async function handleSendOtp() {
-  if (!mobile.value || mobile.value.length < 10) {
-    error.value = "Please enter a valid mobile number";
+  if (!isValidIndianMobile(mobile.value)) {
     return;
   }
-
-  error.value = "";
-  const result = await userStore.sendOtp(mobile.value);
-
-  if (!result.success) {
-    error.value = result.message || "Failed to send OTP";
-  }
+  await userStore.sendOtp(mobile.value);
 }
 
 async function handleVerifyOtp() {
-  if (!otp.value || otp.value.length < 4) {
-    error.value = "Please enter a valid OTP";
-    return;
-  }
-
-  error.value = "";
+  if (!otp.value || otp.value.length < 4) return;
   const result = await userStore.verifyOtp(otp.value);
-
   if (result.success) {
     await walletStore.fetchBalance();
-    const redirect = (route.query.redirect as string) || "/";
-    router.push(redirect);
-  } else {
-    error.value = "Invalid OTP. Please try again.";
+    router.push((route.query.redirect as string) || "/");
   }
 }
 
-function handleChangeNumber() {
-  userStore.resetOtp();
-  otp.value = "";
-  error.value = "";
+function handleForgotPassword() {
+  router.push("/forgot-password");
 }
 </script>
 
 <template>
-  <div class="min-h-screen flex items-center justify-center py-12 px-4">
+  <div
+    class="min-h-screen flex items-center justify-center py-12 px-4 bg-gray-50"
+  >
     <div class="max-w-md w-full">
       <!-- Logo -->
       <div class="text-center mb-8">
@@ -67,96 +81,231 @@ function handleChangeNumber() {
         <h1 class="text-2xl font-bold text-gray-900">
           Welcome to BudeGlobal Market
         </h1>
-        <p class="text-gray-500 mt-2">Login with your mobile number</p>
+        <p class="text-gray-500 mt-2">Sign in to your account</p>
       </div>
 
-      <!-- Form -->
       <div class="card p-6">
-        <!-- Mobile Input -->
-        <div v-if="!isOtpSent">
-          <label class="block text-sm font-medium text-gray-700 mb-2">
-            Mobile Number
-          </label>
-          <div class="flex gap-2">
-            <div
-              class="flex items-center px-3 bg-gray-100 border border-gray-200 rounded-lg text-gray-600"
-            >
-              +91
-            </div>
-            <input
-              v-model="mobile"
-              type="tel"
-              maxlength="10"
-              placeholder="Enter mobile number"
-              class="input flex-1"
-              @keyup.enter="handleSendOtp"
-            />
-          </div>
-
+        <!-- Auth Tabs -->
+        <div class="flex gap-2 mb-6 border-b border-gray-200">
           <button
-            @click="handleSendOtp"
-            :disabled="isLoading"
-            class="w-full btn btn-primary mt-4 py-3"
+            @click="
+              activeTab = 'credentials';
+              userStore.clearError();
+            "
+            :class="[
+              'px-4 py-2 font-medium text-sm -mb-px border-b-2 transition-colors',
+              activeTab === 'credentials'
+                ? 'border-primary-600 text-primary-600'
+                : 'border-transparent text-gray-500 hover:text-gray-700',
+            ]"
           >
-            <template v-if="isLoading"> Sending OTP... </template>
-            <template v-else> Send OTP </template>
+            Email / Password
+          </button>
+          <button
+            @click="
+              activeTab = 'otp';
+              userStore.clearError();
+            "
+            :class="[
+              'px-4 py-2 font-medium text-sm -mb-px border-b-2 transition-colors',
+              activeTab === 'otp'
+                ? 'border-primary-600 text-primary-600'
+                : 'border-transparent text-gray-500 hover:text-gray-700',
+            ]"
+          >
+            Mobile OTP
           </button>
         </div>
 
-        <!-- OTP Input -->
-        <div v-else>
-          <div class="flex items-center justify-between mb-2">
-            <label class="block text-sm font-medium text-gray-700">
-              Enter OTP
-            </label>
+        <!-- Credentials Form -->
+        <div v-if="activeTab === 'credentials'" class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1"
+              >Email or Username</label
+            >
+            <input
+              v-model="email"
+              type="text"
+              placeholder="you@example.com"
+              class="input"
+              @keyup.enter="handleCredentialsLogin"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1"
+              >Password</label
+            >
+            <div class="relative">
+              <input
+                v-model="password"
+                :type="showPassword ? 'text' : 'password'"
+                placeholder="••••••••"
+                class="input pr-10"
+                @keyup.enter="handleCredentialsLogin"
+              />
+              <button
+                type="button"
+                @click="showPassword = !showPassword"
+                class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+              >
+                <svg
+                  v-if="!showPassword"
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                  />
+                </svg>
+                <svg
+                  v-else
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-end">
             <button
-              @click="handleChangeNumber"
+              @click="handleForgotPassword"
               class="text-sm text-primary-600 hover:underline"
             >
-              Change number
+              Forgot password?
             </button>
           </div>
-
-          <p class="text-sm text-gray-500 mb-4">
-            OTP sent to +91 {{ userStore.otpMobile }}
-          </p>
-
-          <input
-            v-model="otp"
-            type="text"
-            maxlength="6"
-            placeholder="Enter 6-digit OTP"
-            class="input text-center text-2xl tracking-widest"
-            @keyup.enter="handleVerifyOtp"
-          />
-
-          <button
-            @click="handleVerifyOtp"
-            :disabled="isLoading"
-            class="w-full btn btn-primary mt-4 py-3"
+          <Button
+            :loading="isLoading"
+            full-width
+            @click="handleCredentialsLogin"
+            >Sign In</Button
           >
-            <template v-if="isLoading"> Verifying... </template>
-            <template v-else> Verify & Login </template>
-          </button>
+        </div>
 
-          <button
-            @click="handleSendOtp"
-            :disabled="isLoading"
-            class="w-full text-sm text-gray-600 hover:text-primary-600 mt-4"
-          >
-            Didn't receive OTP? Resend
-          </button>
+        <!-- OTP Form -->
+        <div v-else-if="activeTab === 'otp'" class="space-y-4">
+          <div v-if="!isOtpSent">
+            <label class="block text-sm font-medium text-gray-700 mb-1"
+              >Mobile Number</label
+            >
+            <div class="flex gap-2">
+              <div
+                class="flex items-center px-3 bg-gray-100 border border-gray-200 rounded-lg text-gray-600"
+              >
+                +91
+              </div>
+              <input
+                v-model="mobile"
+                type="tel"
+                maxlength="10"
+                placeholder="Enter mobile number"
+                class="input flex-1"
+                @keyup.enter="handleSendOtp"
+              />
+            </div>
+            <Button
+              :loading="isLoading"
+              full-width
+              class="mt-4"
+              @click="handleSendOtp"
+              >Send OTP</Button
+            >
+          </div>
+          <div v-else>
+            <div class="flex items-center justify-between mb-2">
+              <label class="block text-sm font-medium text-gray-700"
+                >Enter OTP</label
+              >
+              <button
+                @click="userStore.resetOtp()"
+                class="text-sm text-primary-600 hover:underline"
+              >
+                Change number
+              </button>
+            </div>
+            <p class="text-sm text-gray-500 mb-4">
+              OTP sent to +91 {{ userStore.otpMobile }}
+            </p>
+            <input
+              v-model="otp"
+              type="text"
+              maxlength="6"
+              placeholder="Enter 6-digit OTP"
+              class="input text-center text-2xl tracking-widest"
+              @keyup.enter="handleVerifyOtp"
+            />
+            <Button
+              :loading="isLoading"
+              full-width
+              class="mt-4"
+              @click="handleVerifyOtp"
+              >Verify & Login</Button
+            >
+          </div>
         </div>
 
         <!-- Error -->
         <p v-if="error" class="text-red-600 text-sm mt-4 text-center">
           {{ error }}
         </p>
+
+        <!-- Divider -->
+        <div class="flex items-center gap-4 my-6">
+          <hr class="flex-1 border-gray-200" />
+          <span class="text-sm text-gray-400">or</span>
+          <hr class="flex-1 border-gray-200" />
+        </div>
+
+        <!-- Google OAuth -->
+        <Button
+          variant="outline"
+          full-width
+          @click="handleGoogleLogin"
+          class="flex items-center justify-center gap-3"
+        >
+          <svg class="w-5 h-5" viewBox="0 0 24 24">
+            <path
+              fill="#4285F4"
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+            />
+            <path
+              fill="#34A853"
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+            />
+            <path
+              fill="#FBBC05"
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+            />
+            <path
+              fill="#EA4335"
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+            />
+          </svg>
+          Continue with Google
+        </Button>
       </div>
 
-      <!-- Terms -->
       <p class="text-center text-xs text-gray-500 mt-6">
-        By logging in, you agree to our
+        By signing in, you agree to our
         <a href="#" class="text-primary-600 hover:underline"
           >Terms of Service</a
         >
