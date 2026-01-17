@@ -26,11 +26,11 @@ async function handleLogout() {
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <RouterLink to="/" class="flex items-center gap-2">
-          <div
-            class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center"
-          >
-            <span class="text-white font-bold text-sm">B</span>
-          </div>
+          <img
+            src="/logo.png"
+            alt="BudeGlobal"
+            class="w-8 h-8 rounded-lg object-contain"
+          />
           <span class="font-bold text-xl text-gray-900">Work</span>
         </RouterLink>
 
