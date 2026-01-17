@@ -2,8 +2,9 @@
 defineProps<{
   title: string;
   description: string;
-  icon: "verified" | "payment" | "network";
+  icon?: "verified" | "payment" | "network";
   color: "primary" | "accent" | "green";
+  emoji?: string;
 }>();
 
 const iconPaths = {
@@ -16,22 +17,42 @@ const iconPaths = {
 };
 
 const colorClasses = {
-  primary: { bg: "bg-primary-100", text: "text-primary-600" },
-  accent: { bg: "bg-accent-100", text: "text-accent-600" },
-  green: { bg: "bg-green-100", text: "text-green-600" },
+  primary: { 
+    bg: "bg-gradient-to-br from-primary-500 to-primary-600", 
+    text: "text-white",
+    shadow: "shadow-primary-500/25",
+    ring: "ring-primary-100"
+  },
+  accent: { 
+    bg: "bg-gradient-to-br from-accent-500 to-accent-600", 
+    text: "text-white",
+    shadow: "shadow-accent-500/25",
+    ring: "ring-accent-100"
+  },
+  green: { 
+    bg: "bg-gradient-to-br from-emerald-500 to-emerald-600", 
+    text: "text-white",
+    shadow: "shadow-emerald-500/25",
+    ring: "ring-emerald-100"
+  },
 };
 </script>
 
 <template>
-  <div class="text-center p-6">
+  <div class="group text-center p-8 bg-white rounded-2xl border border-gray-100 hover:shadow-xl hover:border-gray-200 transition-all duration-300">
+    <!-- Icon Container -->
     <div
       :class="[
         colorClasses[color].bg,
-        'w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4',
+        colorClasses[color].shadow,
+        'w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:scale-110 transition-transform duration-300',
       ]"
     >
+      <!-- Use emoji if provided, otherwise SVG icon -->
+      <span v-if="emoji" class="text-4xl">{{ emoji }}</span>
       <svg
-        :class="[colorClasses[color].text, 'w-8 h-8']"
+        v-else
+        :class="[colorClasses[color].text, 'w-10 h-10']"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
@@ -40,11 +61,17 @@ const colorClasses = {
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
-          :d="iconPaths[icon]"
+          :d="iconPaths[icon || 'verified']"
         />
       </svg>
     </div>
-    <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ title }}</h3>
-    <p class="text-gray-600">{{ description }}</p>
+    
+    <!-- Title -->
+    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+      {{ title }}
+    </h3>
+    
+    <!-- Description -->
+    <p class="text-gray-600 leading-relaxed">{{ description }}</p>
   </div>
 </template>

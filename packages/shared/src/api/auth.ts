@@ -1,6 +1,6 @@
 /**
  * Authentication API
- * Uses standard Frappe/ERPNext authentication endpoints
+ * Handles Frappe authentication: username/password, Google OAuth, and OTP
  */
 
 import { frappe, ApiError } from './client';
@@ -10,6 +10,10 @@ export interface LoginResponse {
   message: string;
   home_page?: string;
   full_name?: string;
+}
+
+export interface OAuthUrlResponse {
+  url: string;
 }
 
 // ============ Username/Password Auth ============
@@ -82,34 +86,51 @@ export async function handleOAuthCallback(code: string, state: string): Promise<
   return response.json();
 }
 
+// ============ OTP Auth (Mobile) ============
+
+export interface OtpResponse {
+  success: boolean;
+  message: string;
+}
+
+/**
+ * Send OTP to mobile number
+ */
+export async function sendOtp(mobile: string): Promise<OtpResponse> {
+  return frappe.call<OtpResponse>('bude_core.auth.send_otp', { mobile });
+}
+
+/**
+ * Verify OTP and login
+ */
+export async function verifyOtp(mobile: string, otp: string): Promise<{ success: boolean; user?: User }> {
+  const response = await frappe.call<{ success: boolean; user?: User }>('bude_core.auth.verify_otp', { mobile, otp });
+  if (response.success) {
+    frappe.clearCsrfToken();
+  }
+  return response;
+}
+
 // ============ Session Management ============
 
 /**
- * Get current logged in user - uses standard Frappe endpoint
+ * Get current logged in user
  */
 export async function getCurrentUser(): Promise<User | null> {
   try {
-    // Standard Frappe endpoint to get logged user
+    // First check if logged in
     const loggedUser = await frappe.call<string>('frappe.auth.get_logged_user');
     if (!loggedUser || loggedUser === 'Guest') {
       return null;
     }
-    
-    // Get user details from User doctype
-    const userDoc = await frappe.getDoc<User>('User', loggedUser);
-    return {
-      name: userDoc.name,
-      email: userDoc.email,
-      full_name: userDoc.full_name,
-      user_image: userDoc.user_image,
-      roles: userDoc.roles?.map((r: any) => r.role) || [],
-    } as User;
+    // Then get full user details from bude_core
+    const user = await frappe.call<User>('bude_core.auth.get_current_user');
+    return user;
   } catch (error) {
     if (error instanceof ApiError && error.isUnauthorized) {
       return null;
     }
-    // If any error, user is not logged in
-    return null;
+    throw error;
   }
 }
 
@@ -125,45 +146,22 @@ export async function logout(): Promise<void> {
 }
 
 /**
- * Update user profile - uses standard Frappe resource API
+ * Update user profile
  */
 export async function updateProfile(data: Partial<User>): Promise<User> {
-  const response = await frappe.call<User>('frappe.client.set_value', {
-    doctype: 'User',
-    name: data.name,
-    fieldname: data,
-  });
-  return response;
+  return frappe.call<User>('bude_core.auth.update_profile', data);
 }
 
 /**
- * Request password reset - standard Frappe endpoint
+ * Request password reset
  */
 export async function requestPasswordReset(email: string): Promise<{ message: string }> {
   return frappe.call<{ message: string }>('frappe.core.doctype.user.user.reset_password', { user: email });
 }
 
-// ============ OTP Auth (Optional - requires custom setup) ============
-
-export interface OtpResponse {
-  success: boolean;
-  message: string;
-}
-
 /**
- * Send OTP to mobile number
- * Note: Requires custom backend implementation or frappe_whatsapp/frappe_sms app
+ * Request KYC verification
  */
-export async function sendOtp(mobile: string): Promise<OtpResponse> {
-  // This would need a custom endpoint - for now return a placeholder
-  console.warn('OTP login requires custom backend implementation');
-  return { success: false, message: 'OTP login not configured' };
-}
-
-/**
- * Verify OTP and login
- */
-export async function verifyOtp(mobile: string, otp: string): Promise<{ success: boolean; user?: User }> {
-  console.warn('OTP login requires custom backend implementation');
-  return { success: false };
+export async function requestKyc(data: { id_type: string; id_number: string; id_image: string }): Promise<{ status: string; message: string }> {
+  return frappe.call('bude_core.auth.request_kyc', data);
 }

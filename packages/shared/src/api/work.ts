@@ -1,6 +1,6 @@
 /**
  * Work/Talent API
- * Uses standard ERPNext doctypes (Supplier, Job Opening, etc.)
+ * Handles talent marketplace operations
  */
 
 import { frappe } from './client';
@@ -18,80 +18,38 @@ export interface TalentSearchParams {
 }
 
 /**
- * Search for freelancers - uses Supplier doctype
+ * Search for freelancers
  */
 export async function searchTalent(params: TalentSearchParams = {}): Promise<PaginatedResponse<Freelancer>> {
-  const filters: any = { disabled: 0, supplier_type: 'Individual' };
-  
-  if (params.search) filters.supplier_name = ['like', `%${params.search}%`];
-  
-  const suppliers = await frappe.getList<any>('Supplier', {
-    fields: ['name', 'supplier_name', 'supplier_type', 'country'],
-    filters,
-    limit_start: (params.page || 0) * (params.page_size || 20),
-    limit_page_length: params.page_size || 20,
-  });
-
-  return {
-    data: suppliers.map(s => ({
-      name: s.name,
-      supplier_name: s.supplier_name,
-      hourly_rate: 0,
-      skills: [],
-      is_verified_expert: false,
-    })) as Freelancer[],
-    has_next: suppliers.length === (params.page_size || 20),
-    total_count: suppliers.length,
-  };
+  return frappe.call<PaginatedResponse<Freelancer>>('bude_core.work.search_talent', params);
 }
 
 /**
  * Get freelancer details
  */
 export async function getFreelancer(supplierId: string): Promise<Freelancer> {
-  const supplier = await frappe.getDoc<any>('Supplier', supplierId);
-  return {
-    name: supplier.name,
-    supplier_name: supplier.supplier_name,
-    hourly_rate: 0,
-    skills: [],
-    is_verified_expert: false,
-    bio: supplier.supplier_details || '',
-    completed_jobs: 0,
-    member_since: supplier.creation,
-  } as Freelancer;
+  return frappe.call<Freelancer>('bude_core.work.get_freelancer', { supplier_id: supplierId });
 }
 
 /**
- * Get available skills - placeholder
+ * Get available skills
  */
 export async function getSkills(): Promise<Skill[]> {
-  // Could use a custom doctype or hardcoded list
-  return [
-    { skill_name: 'JavaScript' },
-    { skill_name: 'Python' },
-    { skill_name: 'Vue.js' },
-    { skill_name: 'React' },
-    { skill_name: 'Node.js' },
-    { skill_name: 'ERPNext' },
-    { skill_name: 'Frappe' },
-  ];
+  return frappe.call<Skill[]>('bude_core.work.get_skills');
 }
 
 /**
  * Get freelancer's own profile
  */
 export async function getMyFreelancerProfile(): Promise<Freelancer | null> {
-  // Would need to link User to Supplier
-  return null;
+  return frappe.call<Freelancer | null>('bude_core.work.get_my_profile');
 }
 
 /**
  * Update freelancer profile
  */
 export async function updateFreelancerProfile(data: Partial<Freelancer>): Promise<Freelancer> {
-  console.warn('Update profile requires linking User to Supplier');
-  return data as Freelancer;
+  return frappe.call<Freelancer>('bude_core.work.update_profile', data);
 }
 
 // ============ Job Board ============
@@ -104,55 +62,21 @@ export interface JobSearchParams {
 }
 
 /**
- * Get open jobs - uses Job Opening doctype (part of HR module)
+ * Get open job listings
  */
 export async function getOpenJobs(params: JobSearchParams = {}): Promise<PaginatedResponse<JobOpening>> {
-  const filters: any = { status: 'Open' };
-  
-  if (params.search) filters.job_title = ['like', `%${params.search}%`];
-  
-  const jobs = await frappe.getList<any>('Job Opening', {
-    fields: ['name', 'job_title', 'description', 'status', 'creation'],
-    filters,
-    limit_start: (params.page || 0) * (params.page_size || 20),
-    limit_page_length: params.page_size || 20,
-  });
-
-  return {
-    data: jobs.map(j => ({
-      name: j.name,
-      title: j.job_title,
-      description: j.description,
-      status: j.status,
-      budget_range: 'Contact for pricing',
-      bids_count: 0,
-    })) as JobOpening[],
-    has_next: jobs.length === (params.page_size || 20),
-    total_count: jobs.length,
-  };
+  return frappe.call<PaginatedResponse<JobOpening>>('bude_core.work.get_open_jobs', params);
 }
 
 /**
- * Get single job
+ * Get single job with details
  */
 export async function getJob(jobId: string): Promise<JobOpening & { bids?: Bid[] }> {
-  const job = await frappe.getDoc<any>('Job Opening', jobId);
-  return {
-    name: job.name,
-    title: job.job_title,
-    description: job.description,
-    status: job.status,
-    budget_range: 'Contact for pricing',
-    bids_count: 0,
-    bids: [],
-    skills_required: [],
-    posted_by: job.owner,
-    poster_name: job.owner,
-  } as JobOpening & { bids?: Bid[] };
+  return frappe.call<JobOpening & { bids?: Bid[] }>('bude_core.work.get_job', { job_id: jobId });
 }
 
 /**
- * Post a job
+ * Post a new job
  */
 export async function postJob(data: {
   title: string;
@@ -161,87 +85,75 @@ export async function postJob(data: {
   skills_required?: string[];
   deadline?: string;
 }): Promise<JobOpening> {
-  const job = await frappe.createDoc<any>('Job Opening', {
-    job_title: data.title,
-    description: data.description,
-    status: 'Open',
-  });
-  
-  return {
-    name: job.name,
-    title: job.job_title,
-    status: 'Open',
-  } as JobOpening;
+  return frappe.call<JobOpening>('bude_core.work.post_job', data);
 }
 
 /**
- * Update job
+ * Update job posting
  */
 export async function updateJob(jobId: string, data: Partial<JobOpening>): Promise<JobOpening> {
-  const updateData: any = {};
-  if (data.title) updateData.job_title = data.title;
-  if (data.description) updateData.description = data.description;
-  
-  const job = await frappe.updateDoc<any>('Job Opening', jobId, updateData);
-  return job as JobOpening;
+  return frappe.call<JobOpening>('bude_core.work.update_job', { job_id: jobId, ...data });
 }
 
 /**
- * Close job
+ * Close a job
  */
 export async function closeJob(jobId: string): Promise<{ success: boolean }> {
-  await frappe.updateDoc('Job Opening', jobId, { status: 'Closed' });
-  return { success: true };
+  return frappe.call('bude_core.work.close_job', { job_id: jobId });
 }
 
 /**
  * Get my posted jobs
  */
-export async function getMyPostedJobs(params: { status?: string } = {}): Promise<PaginatedResponse<JobOpening>> {
-  const filters: any = {};
-  if (params.status) filters.status = params.status;
-  
-  const jobs = await frappe.getList<any>('Job Opening', {
-    fields: ['name', 'job_title', 'status'],
-    filters,
-    limit_page_length: 50,
-  });
-
-  return {
-    data: jobs.map(j => ({
-      name: j.name,
-      title: j.job_title,
-      status: j.status,
-      bids_count: 0,
-    })) as JobOpening[],
-    has_next: false,
-    total_count: jobs.length,
-  };
+export async function getMyPostedJobs(params: {
+  status?: string;
+  page?: number;
+  page_size?: number;
+} = {}): Promise<PaginatedResponse<JobOpening>> {
+  return frappe.call<PaginatedResponse<JobOpening>>('bude_core.work.get_my_posted_jobs', params);
 }
 
-// ============ Proposals/Bids (placeholder - needs custom doctype) ============
+// ============ Proposals/Bids ============
 
-export async function submitProposal(data: { job_id: string; bid_amount: number; proposal_text: string }): Promise<Bid> {
-  console.warn('Proposals require custom Bid doctype');
-  return {} as Bid;
+/**
+ * Submit a proposal for a job
+ */
+export async function submitProposal(data: {
+  job_id: string;
+  bid_amount: number;
+  proposal_text: string;
+}): Promise<Bid> {
+  return frappe.call<Bid>('bude_core.work.submit_proposal', data);
 }
 
+/**
+ * Update proposal
+ */
 export async function updateProposal(bidId: string, data: Partial<Bid>): Promise<Bid> {
-  console.warn('Proposals require custom Bid doctype');
-  return {} as Bid;
+  return frappe.call<Bid>('bude_core.work.update_proposal', { bid_id: bidId, ...data });
 }
 
+/**
+ * Withdraw proposal
+ */
 export async function withdrawProposal(bidId: string): Promise<{ success: boolean }> {
-  console.warn('Proposals require custom Bid doctype');
-  return { success: false };
+  return frappe.call('bude_core.work.withdraw_proposal', { bid_id: bidId });
 }
 
-export async function getMyBids(params: { status?: string } = {}): Promise<PaginatedResponse<Bid & { job: JobOpening }>> {
-  console.warn('Bids require custom Bid doctype');
-  return { data: [], has_next: false, total_count: 0 };
+/**
+ * Get my bids/proposals
+ */
+export async function getMyBids(params: {
+  status?: string;
+  page?: number;
+  page_size?: number;
+} = {}): Promise<PaginatedResponse<Bid & { job: JobOpening }>> {
+  return frappe.call<PaginatedResponse<Bid & { job: JobOpening }>>('bude_core.work.get_my_bids', params);
 }
 
+/**
+ * Award job to freelancer
+ */
 export async function awardJob(jobId: string, supplierId: string): Promise<{ success: boolean }> {
-  console.warn('Award job requires custom implementation');
-  return { success: false };
+  return frappe.call('bude_core.work.award_job', { job_id: jobId, supplier_id: supplierId });
 }

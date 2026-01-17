@@ -11,20 +11,22 @@ import * as walletApi from '../api/wallet';
 interface UnlockedContact {
   doctype: 'Item' | 'Supplier';
   docname: string;
-  contactInfo: ContactInfo;
+  contact: {
+    phone?: string;
+    email?: string;
+    name?: string;
+  };
 }
 
 export const useWalletStore = defineStore('wallet', () => {
   // State
   const balance = ref(0);
-  const pendingCredits = ref(0);
   const isLoading = ref(false);
   const transactions = ref<WalletTransaction[]>([]);
   const unlockedContacts = ref<Map<string, ContactInfo>>(new Map());
 
   // Getters
   const hasCredits = computed(() => balance.value > 0);
-  const totalCredits = computed(() => balance.value + pendingCredits.value);
 
   // Helper to create unlock key
   function getUnlockKey(doctype: string, docname: string): string {
@@ -46,8 +48,7 @@ export const useWalletStore = defineStore('wallet', () => {
     isLoading.value = true;
     try {
       const result = await walletApi.getBalance();
-      balance.value = result.balance;
-      pendingCredits.value = result.pending_credits;
+      balance.value = result.credits;
     } finally {
       isLoading.value = false;
     }
@@ -56,31 +57,49 @@ export const useWalletStore = defineStore('wallet', () => {
   async function unlockContact(
     doctype: 'Item' | 'Supplier',
     docname: string
-  ): Promise<{ success: boolean; contactInfo?: ContactInfo; error?: string }> {
+  ): Promise<{ success: boolean; contact?: ContactInfo; error?: string }> {
     // Check cache first
     const cached = getCachedContact(doctype, docname);
     if (cached) {
-      return { success: true, contactInfo: cached };
+      return { success: true, contact: cached };
+    }
+
+    // Check localStorage cache
+    const localCached = walletApi.getCachedUnlock(doctype, docname);
+    if (localCached?.contact) {
+      const contact: ContactInfo = {
+        phone: localCached.contact.phone,
+        email: localCached.contact.email,
+      };
+      unlockedContacts.value.set(getUnlockKey(doctype, docname), contact);
+      return { success: true, contact };
     }
 
     isLoading.value = true;
     try {
       const result = await walletApi.unlockContact(doctype, docname);
       
-      if (result.success && result.contact_info) {
-        // Cache the unlocked contact
-        unlockedContacts.value.set(
-          getUnlockKey(doctype, docname),
-          result.contact_info
-        );
+      if (result.success && result.contact) {
+        const contact: ContactInfo = {
+          phone: result.contact.phone,
+          email: result.contact.email,
+        };
         
-        // Update balance
-        balance.value = result.new_balance;
+        // Cache the unlocked contact in memory
+        unlockedContacts.value.set(getUnlockKey(doctype, docname), contact);
         
-        return { success: true, contactInfo: result.contact_info };
+        // Cache in localStorage
+        walletApi.cacheUnlock(doctype, docname, result);
+        
+        // Update balance (deduct credits if not already unlocked)
+        if (!result.already_unlocked) {
+          balance.value = Math.max(0, balance.value - result.credits_used);
+        }
+        
+        return { success: true, contact };
       }
       
-      return { success: false, error: result.message || 'Unlock failed' };
+      return { success: false, error: 'Unlock failed' };
     } catch (error) {
       return { 
         success: false, 
@@ -91,14 +110,14 @@ export const useWalletStore = defineStore('wallet', () => {
     }
   }
 
-  async function fetchTransactions(page = 1, pageSize = 20) {
+  async function fetchTransactions(page = 0, pageSize = 20) {
     isLoading.value = true;
     try {
       const result = await walletApi.getTransactions({ page, page_size: pageSize });
-      if (page === 1) {
-        transactions.value = result.transactions;
+      if (page === 0) {
+        transactions.value = result.data;
       } else {
-        transactions.value.push(...result.transactions);
+        transactions.value.push(...result.data);
       }
       return result;
     } finally {
@@ -109,10 +128,14 @@ export const useWalletStore = defineStore('wallet', () => {
   async function loadUnlockedContacts() {
     try {
       const result = await walletApi.getUnlockedContacts();
-      result.unlocks.forEach((unlock) => {
+      result.data.forEach((unlock) => {
+        const contact: ContactInfo = {
+          phone: unlock.contact.phone,
+          email: unlock.contact.email,
+        };
         unlockedContacts.value.set(
           getUnlockKey(unlock.doctype, unlock.docname),
-          unlock.contact_info
+          contact
         );
       });
     } catch (error) {
@@ -122,21 +145,19 @@ export const useWalletStore = defineStore('wallet', () => {
 
   function reset() {
     balance.value = 0;
-    pendingCredits.value = 0;
     transactions.value = [];
     unlockedContacts.value.clear();
+    walletApi.clearUnlockCache();
   }
 
   return {
     // State
     balance,
-    pendingCredits,
     isLoading,
     transactions,
     
     // Getters
     hasCredits,
-    totalCredits,
     
     // Helpers
     isUnlocked,
