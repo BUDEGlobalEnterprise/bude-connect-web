@@ -127,7 +127,7 @@ onUnmounted(() => {
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Carousel Section -->
-    <section class="relative h-[60vh] min-h-[500px] overflow-hidden">
+    <section class="relative h-[45vh] min-h-[350px] overflow-hidden">
       <!-- Background Images -->
       <div 
         v-for="(slide, index) in heroSlides" 
@@ -154,29 +154,29 @@ onUnmounted(() => {
       <!-- Content -->
       <div class="relative z-10 flex items-center h-full">
         <div class="max-w-7xl mx-auto px-6 w-full">
-          <div class="max-w-2xl">
-            <div :key="currentSlide" class="space-y-5 animate-fade-in-up">
+          <div class="max-w-xl">
+            <div :key="currentSlide" class="space-y-3 animate-fade-in-up">
               <!-- Badge -->
-              <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-semibold">
-                <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+              <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium">
+                <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
                 {{ heroSlides[currentSlide].subtitle }}
               </span>
               
               <!-- Title -->
-              <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight drop-shadow-xl">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
                 {{ heroSlides[currentSlide].title }}
               </h1>
               
               <!-- Description -->
-              <p class="text-lg md:text-xl text-white/90 max-w-xl leading-relaxed">
+              <p class="text-sm md:text-base text-white/90 max-w-lg leading-relaxed">
                 {{ heroSlides[currentSlide].description }}
               </p>
               
               <!-- CTA Buttons -->
-              <div class="flex flex-col sm:flex-row gap-4 pt-4">
+              <div class="flex flex-col sm:flex-row gap-3 pt-2">
                 <RouterLink 
                   :to="heroSlides[currentSlide].ctaLink"
-                  class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary-600 font-bold rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 group"
+                  class="inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-white text-primary-600 text-sm font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 group"
                 >
                   {{ heroSlides[currentSlide].cta }}
                   <span class="transition-transform group-hover:translate-x-1">→</span>

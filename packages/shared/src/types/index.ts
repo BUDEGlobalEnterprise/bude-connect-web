@@ -91,14 +91,26 @@ export interface JobOpening {
   title: string;
   description: string;
   budget_range: string;
+  budget_min?: number;
+  budget_max?: number;
   status: "Open" | "Awarded" | "Closed";
   posted_by: string;
   poster_name?: string;
+  client_name?: string;
   skills_required: string[];
+  skills?: Skill[];
   bids_count: number;
+  total_bids?: number;
   created: string;
+  creation?: string;
   deadline?: string;
+  duration?: string;
+  experience_level?: string;
+  is_remote?: boolean;
 }
+
+// Alias for convenience
+export type Job = JobOpening;
 
 export interface Bid {
   name: string;

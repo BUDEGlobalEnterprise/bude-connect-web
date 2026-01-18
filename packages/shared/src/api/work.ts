@@ -68,6 +68,9 @@ export async function getOpenJobs(params: JobSearchParams = {}): Promise<Paginat
   return frappe.call<PaginatedResponse<JobOpening>>('bude_core.work.get_open_jobs', params);
 }
 
+// Alias for convenience
+export const getJobs = getOpenJobs;
+
 /**
  * Get single job with details
  */
