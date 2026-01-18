@@ -56,13 +56,19 @@ class FrappeClient {
     }
 
     const url = `${this.baseUrl}${endpoint}`;
-    
+
     const response = await fetch(url, {
       method,
       headers: requestHeaders,
       credentials: 'include', // Important for session cookies
       body: body ? JSON.stringify(body) : undefined,
     });
+
+    // Handle session expiry (401/403)
+    if (response.status === 401 || response.status === 403) {
+      this.handleSessionExpiry();
+      throw new ApiError(response.status, 'Session expired. Please log in again.', {});
+    }
 
     if (!response.ok) {
       const error = await response.json().catch(() => ({
@@ -72,6 +78,30 @@ class FrappeClient {
     }
 
     return response.json();
+  }
+
+  /**
+   * Handle session expiry - redirect to login
+   */
+  private handleSessionExpiry(): void {
+    // Clear cached token
+    this.clearCsrfToken();
+
+    // Show toast notification (if toast system available)
+    if (typeof window !== 'undefined' && (window as any).showToast) {
+      (window as any).showToast({
+        type: 'error',
+        message: 'Your session has expired. Please log in again.',
+        duration: 5000,
+      });
+    }
+
+    // Redirect to login with return URL
+    if (typeof window !== 'undefined') {
+      const currentPath = window.location.pathname + window.location.search;
+      const returnUrl = encodeURIComponent(currentPath);
+      window.location.href = `/login?redirect=${returnUrl}`;
+    }
   }
 
   /**

@@ -4,12 +4,43 @@ export interface User {
   email: string;
   mobile_no: string;
   full_name: string;
+  user_image?: string;
+  location?: string; // Generic location from User.location
   wallet_balance: number;
   user_type_category: "Individual" | "Company";
   company_name?: string;
   kyc_status: "Pending" | "Verified" | "Rejected";
   default_geo_location?: GeoLocation;
   roles: string[];
+  profile?: UserProfile; // Extended profile data
+}
+
+export interface UserProfile {
+  slug?: string;
+  profile_type?: "freelancer" | "client" | "buyer" | "seller" | "both";
+  cover_image?: string;
+  tagline?: string;
+  headline?: string;
+  bio?: string;
+  description?: string;
+  primary_role?: string;
+  // Location fields (structured)
+  city?: string;
+  state?: string;
+  country?: string;
+  pincode?: string;
+  // Business info
+  business_name?: string;
+  gst_number?: string;
+  pan_number?: string;
+  // Freelancer fields
+  hourly_rate?: number;
+  availability?: "available" | "busy" | "away" | "not_available";
+  hours_per_week?: number;
+  // Settings
+  role?: "buyer" | "seller" | "freelancer" | "client" | "both";
+  onboarding_complete?: boolean;
+  onboarding_step?: number;
 }
 
 export interface GeoLocation {
@@ -84,6 +115,13 @@ export interface Skill {
 export interface PortfolioLink {
   title: string;
   url: string;
+  description?: string;
+}
+
+export interface PortfolioProject {
+  title: string;
+  url: string;
+  description?: string;
 }
 
 export interface JobOpening {

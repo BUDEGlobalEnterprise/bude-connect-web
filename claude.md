@@ -3356,13 +3356,21 @@ def after_request(response):
 
 ### 🔴 Critical (Do Immediately)
 
+0. **Fix Profile Field Mismatches** (Code breaking bug) ⚠️ **DO THIS FIRST**
+   - Add missing fields (city, state, country, pincode) to Bude Profile JSON
+   - Update Python code to match JSON schema
+   - Rename portfolio_links → portfolio_projects
+   - **See**: [ARCHITECTURE_CLEANUP.md](ARCHITECTURE_CLEANUP.md) for detailed instructions
+   - Estimate: 1 hour
+
 1. **SMS OTP Integration** (Production blocker)
    - Integrate MSG91 or Twilio
    - Estimate: 2-3 days
 
 2. **Profile Data to Database** (Data loss risk)
-   - Move from cache to Bude Profile doctype
-   - Estimate: 1-2 days
+   - Already using Bude Profile doctype ✅
+   - But fix field mismatches first (see #0 above)
+   - Estimate: 1 day (after #0 is done)
 
 3. **Privacy Policy & ToS** (Legal requirement)
    - Write policies (consult lawyer if needed)

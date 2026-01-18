@@ -145,11 +145,41 @@ export async function logout(): Promise<void> {
   frappe.clearCsrfToken();
 }
 
+export interface UpdateProfileData {
+  fullName?: string;
+  location?: string; // Generic location for User.location
+  headline?: string;
+  bio?: string;
+  city?: string; // Structured location
+  state?: string;
+  country?: string;
+  pincode?: string;
+  role?: "buyer" | "seller" | "freelancer" | "client" | "both";
+  businessName?: string;
+  gstNumber?: string;
+  hourlyRate?: number;
+  availability?: "available" | "busy" | "away" | "not_available";
+}
+
 /**
  * Update user profile
  */
-export async function updateProfile(data: Partial<User>): Promise<User> {
-  return frappe.call<User>('bude_core.auth.update_profile', data);
+export async function updateProfile(data: UpdateProfileData): Promise<User> {
+  return frappe.call<User>('bude_core.profile.user_profile.update_profile', {
+    full_name: data.fullName,
+    location: data.location,
+    headline: data.headline,
+    bio: data.bio,
+    city: data.city,
+    state: data.state,
+    country: data.country,
+    pincode: data.pincode,
+    role: data.role,
+    business_name: data.businessName,
+    gst_number: data.gstNumber,
+    hourly_rate: data.hourlyRate,
+    availability: data.availability,
+  });
 }
 
 /**
