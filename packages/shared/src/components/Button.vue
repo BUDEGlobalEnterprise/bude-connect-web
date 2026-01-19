@@ -1,44 +1,57 @@
 <script setup lang="ts">
-defineProps<{
-  variant?: "primary" | "secondary" | "outline" | "ghost" | "danger";
-  size?: "sm" | "md" | "lg";
+import { computed } from 'vue';
+
+const props = defineProps<{
+  variant?: 'default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link';
+  size?: 'default' | 'sm' | 'lg' | 'icon';
   loading?: boolean;
   disabled?: boolean;
   fullWidth?: boolean;
+  asChild?: boolean;
 }>();
 
+const baseClasses = `
+  inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium
+  transition-all duration-200 ease-out
+  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+  disabled:pointer-events-none disabled:opacity-50
+  active:scale-[0.98]
+`;
+
 const variantClasses = {
-  primary:
-    "bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500",
-  secondary: "bg-gray-100 text-gray-700 hover:bg-gray-200 focus:ring-gray-500",
-  outline:
-    "border-2 border-primary-600 text-primary-600 bg-transparent hover:bg-primary-50",
-  ghost: "text-gray-700 hover:bg-gray-100",
-  danger: "bg-red-600 text-white hover:bg-red-700 focus:ring-red-500",
+  default: 'bg-primary text-primary-foreground shadow hover:bg-primary-700 hover:shadow-md',
+  destructive: 'bg-destructive text-destructive-foreground shadow-sm hover:bg-red-600',
+  outline: 'border border-gray-200 bg-background shadow-sm hover:bg-gray-50 hover:text-gray-900 hover:border-gray-300',
+  secondary: 'bg-secondary text-secondary-foreground shadow-sm hover:bg-gray-200',
+  ghost: 'hover:bg-gray-100 hover:text-gray-900',
+  link: 'text-primary underline-offset-4 hover:underline',
 };
 
 const sizeClasses = {
-  sm: "px-3 py-1.5 text-sm",
-  md: "px-4 py-2 text-base",
-  lg: "px-6 py-3 text-lg",
+  default: 'h-9 px-4 py-2',
+  sm: 'h-8 rounded-md px-3 text-xs',
+  lg: 'h-11 rounded-md px-8 text-base',
+  icon: 'h-9 w-9',
 };
+
+const buttonClasses = computed(() => [
+  baseClasses,
+  variantClasses[props.variant || 'default'],
+  sizeClasses[props.size || 'default'],
+  props.fullWidth && 'w-full',
+]);
 </script>
 
 <template>
   <button
     :disabled="disabled || loading"
-    :class="[
-      'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200',
-      'focus:outline-none focus:ring-2 focus:ring-offset-2',
-      'disabled:opacity-50 disabled:cursor-not-allowed',
-      variantClasses[variant || 'primary'],
-      sizeClasses[size || 'md'],
-      fullWidth && 'w-full',
-    ]"
+    :class="buttonClasses"
   >
+    <!-- Loading Spinner -->
     <svg
       v-if="loading"
-      class="animate-spin -ml-1 mr-2 h-4 w-4"
+      class="h-4 w-4 animate-spin"
+      xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
     >
