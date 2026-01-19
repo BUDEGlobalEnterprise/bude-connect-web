@@ -1,14 +1,17 @@
-// Shared UI Components - ShadCN-inspired Design System
+// Shared UI Components - Enterprise Design System
+// Built with shadcn-vue (Radix Vue + Tailwind CSS)
 
-// Core Components
-export { default as Avatar } from './Avatar.vue';
-export { default as Badge } from './Badge.vue';
-export { default as Button } from './Button.vue';
-export { default as Card } from './Card.vue';
+// ============================================
+// shadcn-vue UI Components (Standard Library)
+// ============================================
+export * from './ui';
+
+// ============================================
+// Legacy/Custom Components (for backwards compatibility)
+// ============================================
+
+// Custom Icon component (Lucide-style SVGs)
 export { default as Icon } from './Icon.vue';
-export { default as Input } from './Input.vue';
-export { default as Modal } from './Modal.vue';
-export { default as Toast } from './Toast.vue';
 
 // Data Display
 export { default as DataTable } from './DataTable.vue';
@@ -37,3 +40,14 @@ export { default as NotificationBell } from './NotificationBell.vue';
 export { default as OnboardingWizard } from './OnboardingWizard.vue';
 export { default as ProfileCompletenessMeter } from './ProfileCompletenessMeter.vue';
 export { default as ReviewSection } from './ReviewSection.vue';
+
+// ============================================
+// Legacy Aliases (Deprecated - use ui/* instead)
+// ============================================
+export { default as Avatar } from './Avatar.vue';
+export { default as Badge } from './Badge.vue';
+export { default as Button } from './Button.vue';
+export { default as Card } from './Card.vue';
+export { default as Input } from './Input.vue';
+export { default as Modal } from './Modal.vue';
+export { default as Toast } from './Toast.vue';
