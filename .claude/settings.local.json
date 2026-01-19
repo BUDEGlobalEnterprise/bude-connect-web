@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bench:*)",
+      "Bash(find . -type d -exec sh -c 'ls -la \"\"$1\"\"/__init__.py 2>/dev/null || echo \"\"Missing: $1/__init__.py\"\"' _ {} ;)"
+    ]
+  }
+}

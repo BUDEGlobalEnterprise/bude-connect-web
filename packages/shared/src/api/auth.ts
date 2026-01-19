@@ -195,3 +195,34 @@ export async function requestPasswordReset(email: string): Promise<{ message: st
 export async function requestKyc(data: { id_type: string; id_number: string; id_image: string }): Promise<{ status: string; message: string }> {
   return frappe.call('bude_core.auth.request_kyc', data);
 }
+
+/**
+ * Get KYC status
+ */
+export async function getKycStatus(): Promise<{
+  status: string;
+  verified: boolean;
+  can_submit: boolean;
+  details?: {
+    id_type: string;
+    status: string;
+    rejection_reason?: string;
+    creation: string;
+  };
+}> {
+  return frappe.call('bude_core.auth.get_kyc_status');
+}
+
+/**
+ * Cancel pending KYC request
+ */
+export async function cancelKyc(): Promise<{ message: string }> {
+  return frappe.call('bude_core.auth.cancel_kyc_request');
+}
+
+/**
+ * Reset password with token
+ */
+export async function resetPassword(token: string, newPassword: string): Promise<{ message: string }> {
+  return frappe.call('bude_core.auth.reset_password', { token, new_password: newPassword });
+}

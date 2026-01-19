@@ -2,7 +2,7 @@
 import { ref, computed } from "vue";
 import { useRouter } from "vue-router";
 import { useUserStore, useWalletStore } from "@bude/shared";
-import { Button, Badge, LoadingSkeleton } from "@bude/shared/components";
+import { Button, Badge, LoadingSkeleton, ProfileCompletenessMeter } from "@bude/shared/components";
 
 const router = useRouter();
 const userStore = useUserStore();
@@ -117,6 +117,9 @@ async function handleLogout() {
           </form>
         </div>
       </div>
+
+      <!-- Profile Completeness -->
+      <ProfileCompletenessMeter :user="userStore.user" @navigate="router.push($event)" />
 
       <!-- Quick Actions -->
       <div class="grid grid-cols-3 gap-4">

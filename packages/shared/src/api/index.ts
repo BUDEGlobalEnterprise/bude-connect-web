@@ -5,3 +5,6 @@ export * from './market';
 export * from './work';
 export * from './wallet';
 export * from './cache';
+export * from './notifications';
+export * from './messaging';
+export * from './reviews';

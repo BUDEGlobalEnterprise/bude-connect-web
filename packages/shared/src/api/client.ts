@@ -70,6 +70,13 @@ class FrappeClient {
       throw new ApiError(response.status, 'Session expired. Please log in again.', {});
     }
 
+    // Handle rate limiting (429)
+    if (response.status === 429) {
+      const retryAfter = response.headers.get('Retry-After') || '60';
+      this.handleRateLimit(parseInt(retryAfter, 10));
+      throw new ApiError(response.status, `Too many requests. Please try again in ${retryAfter} seconds.`, { retryAfter });
+    }
+
     if (!response.ok) {
       const error = await response.json().catch(() => ({
         message: response.statusText,
@@ -78,6 +85,19 @@ class FrappeClient {
     }
 
     return response.json();
+  }
+
+  /**
+   * Handle rate limiting - show warning to user
+   */
+  private handleRateLimit(retryAfter: number): void {
+    if (typeof window !== 'undefined' && (window as any).showToast) {
+      (window as any).showToast({
+        type: 'warning',
+        message: `Too many requests. Please wait ${retryAfter} seconds before trying again.`,
+        duration: retryAfter * 1000,
+      });
+    }
   }
 
   /**

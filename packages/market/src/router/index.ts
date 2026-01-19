@@ -64,6 +64,28 @@ const router = createRouter({
       name: 'forgot-password',
       component: () => import('../views/ForgotPasswordView.vue'),
     },
+    {
+      path: '/reset-password',
+      name: 'reset-password',
+      component: () => import('../views/ResetPasswordView.vue'),
+    },
+    {
+      path: '/messages',
+      name: 'messages',
+      component: () => import('../views/MessagesView.vue'),
+      meta: { requiresAuth: true },
+    },
+    {
+      path: '/kyc',
+      name: 'kyc',
+      component: () => import('../views/KycView.vue'),
+      meta: { requiresAuth: true },
+    },
+    {
+      path: '/verify-email',
+      name: 'verify-email',
+      component: () => import('../views/VerifyEmailView.vue'),
+    },
   ],
 });
 

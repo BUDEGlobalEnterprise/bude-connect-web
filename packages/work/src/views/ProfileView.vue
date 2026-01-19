@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from "vue";
+import { useRouter } from "vue-router";
 import {
   getMyFreelancerProfile,
   updateFreelancerProfile,
@@ -11,6 +12,7 @@ import {
   Badge,
   Button,
   LoadingSkeleton,
+  ProfileCompletenessMeter,
 } from "@bude/shared/components";
 import type { Freelancer, Skill } from "@bude/shared/types";
 
@@ -101,6 +103,8 @@ async function handleSave() {
   }
 }
 
+const router = useRouter();
+
 onMounted(loadProfile);
 </script>
 
@@ -162,6 +166,9 @@ onMounted(loadProfile);
             </div>
           </div>
         </div>
+
+        <!-- Profile Completeness -->
+        <ProfileCompletenessMeter :user="userStore.user" @navigate="router.push($event)" />
 
         <!-- Edit Form -->
         <form @submit.prevent="handleSave" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 space-y-6">
