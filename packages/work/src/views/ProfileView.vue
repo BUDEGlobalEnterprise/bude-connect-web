@@ -7,15 +7,60 @@ import {
   getSkills,
 } from "@bude/shared/api";
 import { useUserStore } from "@bude/shared";
+import { LoadingSkeleton, ProfileCompletenessMeter } from "@bude/shared/components";
 import {
   Avatar,
+  AvatarFallback,
+  AvatarImage,
   Badge,
   Button,
-  LoadingSkeleton,
-  ProfileCompletenessMeter,
-} from "@bude/shared/components";
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  Input,
+  Label,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+  Separator,
+  Skeleton,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Textarea,
+} from "@bude/shared/components/ui";
+import {
+  Camera,
+  Briefcase,
+  Star,
+  DollarSign,
+  Plus,
+  X,
+  ExternalLink,
+  Settings,
+  Shield,
+  User,
+  LogOut,
+  Bell,
+  FileText,
+  ChevronRight,
+  CheckCircle,
+  Mail,
+} from "lucide-vue-next";
 import type { Freelancer, Skill } from "@bude/shared/types";
 
+const router = useRouter();
 const userStore = useUserStore();
 const profile = ref<Freelancer | null>(null);
 const allSkills = ref<Skill[]>([]);
@@ -23,6 +68,7 @@ const isLoading = ref(true);
 const isSaving = ref(false);
 const error = ref("");
 const success = ref("");
+const isEditDialogOpen = ref(false);
 
 const form = ref({
   hourly_rate: 0,
@@ -35,10 +81,20 @@ const newSkill = ref("");
 const newPortfolio = ref({ title: "", url: "" });
 
 const profileStats = computed(() => [
-  { label: "Jobs Done", value: profile.value?.completed_jobs || 0, icon: "✅" },
-  { label: "Rating", value: profile.value?.rating?.toFixed(1) || "N/A", icon: "⭐" },
-  { label: "Hourly Rate", value: `₹${form.value.hourly_rate}`, icon: "💰" },
+  { label: "Jobs Done", value: profile.value?.completed_jobs || 0, icon: Briefcase },
+  { label: "Rating", value: profile.value?.rating?.toFixed(1) || "N/A", icon: Star },
+  { label: "Hourly Rate", value: `₹${form.value.hourly_rate}`, icon: DollarSign },
 ]);
+
+const initials = computed(() => {
+  const name = userStore.displayName || "U";
+  return name
+    .split(" ")
+    .map((n) => n[0])
+    .join("")
+    .toUpperCase()
+    .slice(0, 2);
+});
 
 async function loadProfile() {
   isLoading.value = true;
@@ -95,7 +151,10 @@ async function handleSave() {
       portfolio_links: form.value.portfolio_links,
     });
     success.value = "Profile updated successfully!";
-    setTimeout(() => { success.value = ""; }, 3000);
+    isEditDialogOpen.value = false;
+    setTimeout(() => {
+      success.value = "";
+    }, 3000);
   } catch (e: any) {
     error.value = e.message || "Failed to update profile";
   } finally {
@@ -103,201 +162,402 @@ async function handleSave() {
   }
 }
 
-const router = useRouter();
+async function handleLogout() {
+  await userStore.logout();
+  router.push("/login");
+}
 
 onMounted(loadProfile);
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
+  <div class="min-h-screen bg-background">
     <!-- Header -->
-    <div class="bg-gradient-to-r from-primary-600 to-primary-500 text-white">
-      <div class="max-w-4xl mx-auto px-4 py-10">
-        <h1 class="text-3xl font-bold mb-2">👤 My Profile</h1>
-        <p class="text-primary-100">Manage your freelancer profile and portfolio</p>
+    <header class="border-b bg-card">
+      <div class="container flex h-14 items-center px-4">
+        <button @click="router.back()" class="mr-4 rounded-md p-2 hover:bg-accent">
+          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <h1 class="text-lg font-semibold">Profile</h1>
       </div>
-    </div>
+    </header>
 
-    <div class="max-w-4xl mx-auto px-4 py-8 -mt-6">
+    <main class="container max-w-4xl px-4 py-6">
       <!-- Loading State -->
-      <div v-if="isLoading" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
-        <div class="flex gap-6 mb-8">
-          <div class="w-24 h-24 rounded-2xl bg-gray-200 skeleton"></div>
-          <div class="flex-1 space-y-3">
-            <div class="h-6 bg-gray-200 rounded w-1/3 skeleton"></div>
-            <div class="h-4 bg-gray-200 rounded w-1/2 skeleton"></div>
-          </div>
-        </div>
-        <LoadingSkeleton variant="list" />
-      </div>
-
-      <!-- Profile Form -->
-      <div v-else class="space-y-6">
-        <!-- Profile Header Card -->
-        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
-          <div class="flex items-start gap-6">
-            <!-- Avatar -->
-            <div class="relative">
-              <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center text-white text-3xl font-bold shadow-lg">
-                {{ userStore.displayName.charAt(0).toUpperCase() }}
-              </div>
-              <button class="absolute -bottom-2 -right-2 w-8 h-8 bg-white rounded-full border-2 border-gray-200 flex items-center justify-center text-gray-600 hover:bg-gray-50 shadow-sm">
-                📷
-              </button>
-            </div>
-            
-            <!-- Info -->
-            <div class="flex-1">
-              <div class="flex items-center gap-3 mb-2">
-                <h2 class="text-2xl font-bold text-gray-900">{{ userStore.displayName }}</h2>
-                <Badge v-if="profile?.is_verified_expert" variant="success" class="flex items-center gap-1">
-                  ✓ Verified Expert
-                </Badge>
-              </div>
-              <p class="text-gray-500 mb-4">{{ userStore.user?.email }}</p>
-              
-              <!-- Stats -->
-              <div class="flex gap-6">
-                <div v-for="stat in profileStats" :key="stat.label" class="text-center">
-                  <p class="text-xl font-bold text-gray-900">{{ stat.icon }} {{ stat.value }}</p>
-                  <p class="text-xs text-gray-500">{{ stat.label }}</p>
+      <div v-if="isLoading" class="space-y-6">
+        <Card>
+          <CardHeader>
+            <div class="flex items-start gap-4">
+              <Skeleton class="h-20 w-20 rounded-full" />
+              <div class="flex-1 space-y-2">
+                <Skeleton class="h-6 w-40" />
+                <Skeleton class="h-4 w-32" />
+                <div class="flex gap-4 pt-2">
+                  <Skeleton class="h-10 w-16" />
+                  <Skeleton class="h-10 w-16" />
+                  <Skeleton class="h-10 w-16" />
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </CardHeader>
+        </Card>
+      </div>
 
-        <!-- Profile Completeness -->
-        <ProfileCompletenessMeter :user="userStore.user" @navigate="router.push($event)" />
-
-        <!-- Edit Form -->
-        <form @submit.prevent="handleSave" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 space-y-6">
-          <h3 class="text-lg font-bold text-gray-900 flex items-center gap-2">
-            ✏️ Edit Profile
-          </h3>
-          
-          <!-- Hourly Rate -->
-          <div>
-            <label class="block text-sm font-medium text-gray-700 mb-2">Hourly Rate (₹)</label>
-            <input
-              v-model.number="form.hourly_rate"
-              type="number"
-              min="0"
-              step="50"
-              class="input text-lg"
-              placeholder="500"
-            />
-          </div>
-
-          <!-- Bio -->
-          <div>
-            <label class="block text-sm font-medium text-gray-700 mb-2">Bio / About Me</label>
-            <textarea
-              v-model="form.bio"
-              rows="4"
-              class="input"
-              placeholder="Tell clients about your experience, expertise, and what makes you unique..."
-            ></textarea>
-            <p class="text-xs text-gray-400 mt-1">{{ form.bio.length }}/500 characters</p>
-          </div>
-
-          <!-- Skills -->
-          <div>
-            <label class="block text-sm font-medium text-gray-700 mb-2">Skills</label>
-            <div class="flex gap-2 mb-3">
-              <select v-model="newSkill" class="input flex-1">
-                <option value="">Select a skill to add</option>
-                <option
-                  v-for="skill in allSkills"
-                  :key="skill.skill_name"
-                  :value="skill.skill_name"
-                  :disabled="form.skills.includes(skill.skill_name)"
-                >
-                  {{ skill.skill_name }}
-                </option>
-              </select>
-              <Button type="button" variant="secondary" @click="addSkill" :disabled="!newSkill">
-                + Add
-              </Button>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <span
-                v-for="skill in form.skills"
-                :key="skill"
-                class="inline-flex items-center gap-1 px-3 py-1.5 bg-primary-100 text-primary-700 rounded-full text-sm font-medium"
-              >
-                {{ skill }}
+      <!-- Profile Content -->
+      <div v-else class="space-y-6">
+        <!-- Profile Header Card -->
+        <Card>
+          <CardHeader class="pb-4">
+            <div class="flex flex-col sm:flex-row items-start gap-4">
+              <!-- Avatar -->
+              <div class="relative">
+                <Avatar class="h-20 w-20">
+                  <AvatarImage :src="userStore.user?.userImage" :alt="userStore.displayName" />
+                  <AvatarFallback class="bg-primary text-primary-foreground text-xl">
+                    {{ initials }}
+                  </AvatarFallback>
+                </Avatar>
                 <button
-                  type="button"
-                  @click="removeSkill(skill)"
-                  class="w-4 h-4 rounded-full bg-primary-200 hover:bg-primary-300 flex items-center justify-center text-xs"
+                  class="absolute -bottom-1 -right-1 rounded-full bg-background p-1.5 shadow-md border hover:bg-accent"
                 >
-                  ×
-                </button>
-              </span>
-              <span v-if="form.skills.length === 0" class="text-gray-400 text-sm">No skills added yet</span>
-            </div>
-          </div>
-
-          <!-- Portfolio -->
-          <div>
-            <label class="block text-sm font-medium text-gray-700 mb-2">Portfolio Links</label>
-            <div class="flex gap-2 mb-3">
-              <input
-                v-model="newPortfolio.title"
-                type="text"
-                placeholder="Project title"
-                class="input flex-1"
-              />
-              <input
-                v-model="newPortfolio.url"
-                type="url"
-                placeholder="https://..."
-                class="input flex-1"
-              />
-              <Button type="button" variant="secondary" @click="addPortfolio" :disabled="!newPortfolio.title || !newPortfolio.url">
-                + Add
-              </Button>
-            </div>
-            <div v-if="form.portfolio_links.length" class="space-y-2">
-              <div
-                v-for="(link, index) in form.portfolio_links"
-                :key="index"
-                class="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
-              >
-                <a
-                  :href="link.url"
-                  target="_blank"
-                  class="text-primary-600 hover:underline font-medium flex items-center gap-2"
-                >
-                  🔗 {{ link.title }}
-                </a>
-                <button
-                  type="button"
-                  @click="removePortfolio(index)"
-                  class="text-red-500 hover:text-red-600 text-sm"
-                >
-                  Remove
+                  <Camera class="h-3.5 w-3.5" />
                 </button>
               </div>
+
+              <!-- Info -->
+              <div class="flex-1 space-y-2">
+                <div class="flex flex-wrap items-center gap-2">
+                  <h2 class="text-xl font-bold">{{ userStore.displayName }}</h2>
+                  <Badge v-if="profile?.is_verified_expert" variant="success">
+                    Verified Expert
+                  </Badge>
+                </div>
+                <p class="text-sm text-muted-foreground">{{ userStore.user?.email }}</p>
+
+                <!-- Stats -->
+                <div class="flex flex-wrap gap-4 pt-2">
+                  <div v-for="stat in profileStats" :key="stat.label" class="flex items-center gap-2">
+                    <component :is="stat.icon" class="h-4 w-4 text-muted-foreground" />
+                    <span class="font-semibold">{{ stat.value }}</span>
+                    <span class="text-xs text-muted-foreground">{{ stat.label }}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Edit Button -->
+              <Dialog v-model:open="isEditDialogOpen">
+                <DialogTrigger as-child>
+                  <Button size="sm">Edit Profile</Button>
+                </DialogTrigger>
+                <DialogContent class="max-w-lg max-h-[85vh] overflow-y-auto">
+                  <DialogHeader>
+                    <DialogTitle>Edit Profile</DialogTitle>
+                    <DialogDescription>
+                      Update your freelancer profile information.
+                    </DialogDescription>
+                  </DialogHeader>
+
+                  <form @submit.prevent="handleSave" class="space-y-4">
+                    <!-- Hourly Rate -->
+                    <div class="space-y-2">
+                      <Label for="hourly_rate">Hourly Rate (₹)</Label>
+                      <Input
+                        id="hourly_rate"
+                        v-model.number="form.hourly_rate"
+                        type="number"
+                        min="0"
+                        step="50"
+                        placeholder="500"
+                      />
+                    </div>
+
+                    <!-- Bio -->
+                    <div class="space-y-2">
+                      <Label for="bio">Bio / About Me</Label>
+                      <Textarea
+                        id="bio"
+                        v-model="form.bio"
+                        :rows="3"
+                        placeholder="Tell clients about yourself..."
+                      />
+                      <p class="text-xs text-muted-foreground">{{ form.bio.length }}/500</p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="space-y-2">
+                      <Label>Skills</Label>
+                      <div class="flex gap-2">
+                        <Select v-model="newSkill">
+                          <SelectTrigger class="flex-1">
+                            <SelectValue placeholder="Select skill" />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem
+                              v-for="skill in allSkills"
+                              :key="skill.skill_name"
+                              :value="skill.skill_name"
+                              :disabled="form.skills.includes(skill.skill_name)"
+                            >
+                              {{ skill.skill_name }}
+                            </SelectItem>
+                          </SelectContent>
+                        </Select>
+                        <Button type="button" variant="outline" size="icon" @click="addSkill" :disabled="!newSkill">
+                          <Plus class="h-4 w-4" />
+                        </Button>
+                      </div>
+                      <div class="flex flex-wrap gap-1.5">
+                        <Badge v-for="skill in form.skills" :key="skill" variant="secondary" class="gap-1 pr-1">
+                          {{ skill }}
+                          <button type="button" @click="removeSkill(skill)" class="ml-1 hover:text-destructive">
+                            <X class="h-3 w-3" />
+                          </button>
+                        </Badge>
+                      </div>
+                    </div>
+
+                    <!-- Portfolio -->
+                    <div class="space-y-2">
+                      <Label>Portfolio Links</Label>
+                      <div class="flex gap-2">
+                        <Input v-model="newPortfolio.title" placeholder="Title" class="flex-1" />
+                        <Input v-model="newPortfolio.url" type="url" placeholder="URL" class="flex-1" />
+                        <Button
+                          type="button"
+                          variant="outline"
+                          size="icon"
+                          @click="addPortfolio"
+                          :disabled="!newPortfolio.title || !newPortfolio.url"
+                        >
+                          <Plus class="h-4 w-4" />
+                        </Button>
+                      </div>
+                      <div v-if="form.portfolio_links.length" class="space-y-1.5">
+                        <div
+                          v-for="(link, index) in form.portfolio_links"
+                          :key="index"
+                          class="flex items-center justify-between p-2 bg-muted rounded-md text-sm"
+                        >
+                          <a :href="link.url" target="_blank" class="text-primary hover:underline flex items-center gap-1">
+                            <ExternalLink class="h-3 w-3" />
+                            {{ link.title }}
+                          </a>
+                          <button type="button" @click="removePortfolio(index)" class="text-muted-foreground hover:text-destructive">
+                            <X class="h-4 w-4" />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Error/Success -->
+                    <div v-if="error" class="p-3 rounded-md bg-destructive/10 text-destructive text-sm">
+                      {{ error }}
+                    </div>
+                    <div v-if="success" class="p-3 rounded-md bg-green-50 text-green-700 text-sm">
+                      {{ success }}
+                    </div>
+
+                    <DialogFooter>
+                      <Button type="button" variant="outline" @click="isEditDialogOpen = false">Cancel</Button>
+                      <Button type="submit" :disabled="isSaving">
+                        <svg v-if="isSaving" class="animate-spin -ml-1 mr-2 h-4 w-4" fill="none" viewBox="0 0 24 24">
+                          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                        </svg>
+                        Save
+                      </Button>
+                    </DialogFooter>
+                  </form>
+                </DialogContent>
+              </Dialog>
             </div>
-            <p v-else class="text-gray-400 text-sm">No portfolio links added yet</p>
-          </div>
+          </CardHeader>
+        </Card>
 
-          <!-- Messages -->
-          <div v-if="error" class="p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
-            ❌ {{ error }}
-          </div>
-          <div v-if="success" class="p-4 bg-green-50 border border-green-200 rounded-lg text-green-700">
-            ✅ {{ success }}
-          </div>
+        <!-- Tabs -->
+        <Tabs default-value="overview" class="w-full">
+          <TabsList class="w-full justify-start">
+            <TabsTrigger value="overview">Overview</TabsTrigger>
+            <TabsTrigger value="settings">Settings</TabsTrigger>
+            <TabsTrigger value="security">Security</TabsTrigger>
+          </TabsList>
 
-          <!-- Submit -->
-          <Button type="submit" :loading="isSaving" full-width size="lg">
-            💾 Save Changes
-          </Button>
-        </form>
+          <!-- Overview -->
+          <TabsContent value="overview" class="space-y-4 mt-4">
+            <!-- Bio -->
+            <Card>
+              <CardHeader class="pb-2">
+                <CardTitle class="text-base">About</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p v-if="form.bio" class="text-sm text-muted-foreground whitespace-pre-wrap">{{ form.bio }}</p>
+                <p v-else class="text-sm text-muted-foreground italic">No bio added yet.</p>
+              </CardContent>
+            </Card>
+
+            <!-- Skills -->
+            <Card>
+              <CardHeader class="pb-2">
+                <CardTitle class="text-base">Skills</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div v-if="form.skills.length" class="flex flex-wrap gap-1.5">
+                  <Badge v-for="skill in form.skills" :key="skill" variant="secondary">
+                    {{ skill }}
+                  </Badge>
+                </div>
+                <p v-else class="text-sm text-muted-foreground italic">No skills added.</p>
+              </CardContent>
+            </Card>
+
+            <!-- Portfolio -->
+            <Card>
+              <CardHeader class="pb-2">
+                <CardTitle class="text-base">Portfolio</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div v-if="form.portfolio_links.length" class="space-y-2">
+                  <a
+                    v-for="(link, index) in form.portfolio_links"
+                    :key="index"
+                    :href="link.url"
+                    target="_blank"
+                    class="flex items-center gap-2 p-2 rounded-md border hover:bg-accent transition-colors text-sm"
+                  >
+                    <ExternalLink class="h-4 w-4 text-primary" />
+                    <span>{{ link.title }}</span>
+                  </a>
+                </div>
+                <p v-else class="text-sm text-muted-foreground italic">No portfolio links.</p>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <!-- Settings -->
+          <TabsContent value="settings" class="space-y-4 mt-4">
+            <Card class="overflow-hidden">
+              <button
+                @click="isEditDialogOpen = true"
+                class="w-full flex items-center gap-3 p-4 hover:bg-accent transition-colors text-left"
+              >
+                <div class="h-9 w-9 rounded-md bg-muted flex items-center justify-center">
+                  <User class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Edit Profile</p>
+                  <p class="text-xs text-muted-foreground">Update your info</p>
+                </div>
+                <ChevronRight class="h-4 w-4 text-muted-foreground" />
+              </button>
+              <Separator />
+              <button
+                @click="router.push('/settings/notifications')"
+                class="w-full flex items-center gap-3 p-4 hover:bg-accent transition-colors text-left"
+              >
+                <div class="h-9 w-9 rounded-md bg-muted flex items-center justify-center">
+                  <Bell class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Notifications</p>
+                  <p class="text-xs text-muted-foreground">Manage alerts</p>
+                </div>
+                <ChevronRight class="h-4 w-4 text-muted-foreground" />
+              </button>
+            </Card>
+
+            <Card class="overflow-hidden">
+              <button
+                @click="handleLogout"
+                class="w-full flex items-center gap-3 p-4 hover:bg-destructive/5 transition-colors text-left text-destructive"
+              >
+                <div class="h-9 w-9 rounded-md bg-destructive/10 flex items-center justify-center">
+                  <LogOut class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Log Out</p>
+                  <p class="text-xs opacity-70">Sign out</p>
+                </div>
+              </button>
+            </Card>
+          </TabsContent>
+
+          <!-- Security -->
+          <TabsContent value="security" class="space-y-4 mt-4">
+            <Card class="overflow-hidden">
+              <div class="flex items-center gap-3 p-4">
+                <div class="h-9 w-9 rounded-md bg-green-50 text-green-600 flex items-center justify-center">
+                  <CheckCircle class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Phone Verified</p>
+                  <p class="text-xs text-muted-foreground">Your phone is verified</p>
+                </div>
+                <Badge variant="success">Verified</Badge>
+              </div>
+              <Separator />
+              <button
+                @click="router.push('/kyc')"
+                class="w-full flex items-center gap-3 p-4 hover:bg-accent transition-colors text-left"
+              >
+                <div class="h-9 w-9 rounded-md bg-muted flex items-center justify-center">
+                  <Shield class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Account Verification</p>
+                  <p class="text-xs text-muted-foreground">Complete KYC</p>
+                </div>
+                <Button variant="outline" size="sm">Verify</Button>
+              </button>
+              <Separator />
+              <button
+                @click="router.push('/verify-email')"
+                class="w-full flex items-center gap-3 p-4 hover:bg-accent transition-colors text-left"
+              >
+                <div class="h-9 w-9 rounded-md bg-muted flex items-center justify-center">
+                  <Mail class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Email Verification</p>
+                  <p class="text-xs text-muted-foreground">Verify your email</p>
+                </div>
+                <Button variant="outline" size="sm">Verify</Button>
+              </button>
+            </Card>
+
+            <Card class="overflow-hidden">
+              <a
+                href="https://budeglobal.in/privacy"
+                target="_blank"
+                class="flex items-center gap-3 p-4 hover:bg-accent transition-colors"
+              >
+                <div class="h-9 w-9 rounded-md bg-muted flex items-center justify-center">
+                  <FileText class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Privacy Policy</p>
+                </div>
+                <ExternalLink class="h-4 w-4 text-muted-foreground" />
+              </a>
+              <Separator />
+              <a
+                href="https://budeglobal.in/terms"
+                target="_blank"
+                class="flex items-center gap-3 p-4 hover:bg-accent transition-colors"
+              >
+                <div class="h-9 w-9 rounded-md bg-muted flex items-center justify-center">
+                  <FileText class="h-4 w-4" />
+                </div>
+                <div class="flex-1">
+                  <p class="text-sm font-medium">Terms of Service</p>
+                </div>
+                <ExternalLink class="h-4 w-4 text-muted-foreground" />
+              </a>
+            </Card>
+          </TabsContent>
+        </Tabs>
       </div>
-    </div>
+    </main>
   </div>
 </template>
