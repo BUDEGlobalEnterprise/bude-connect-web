@@ -10,8 +10,10 @@
     "./api": "./src/api/index.ts",
     "./stores": "./src/stores/index.ts",
     "./components": "./src/components/index.ts",
+    "./components/ui": "./src/components/ui/index.ts",
     "./types": "./src/types/index.ts",
-    "./utils": "./src/utils/index.ts"
+    "./utils": "./src/utils/index.ts",
+    "./lib/utils": "./src/lib/utils.ts"
   },
   "dependencies": {
     "@vueuse/core": "^14.1.0",

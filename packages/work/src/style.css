@@ -116,20 +116,20 @@
   }
 
   .btn-primary {
-    @apply bg-primary-600 text-white;
-    @apply hover:bg-primary-700 hover:shadow-md;
-    @apply focus:ring-primary-500;
+    @apply bg-primary text-primary-foreground;
+    @apply hover:bg-primary/90 hover:shadow-md;
+    @apply focus:ring-ring;
   }
 
   .btn-secondary {
-    @apply bg-gray-100 text-gray-700 hover:bg-gray-200;
-    @apply focus:ring-gray-500;
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80;
+    @apply focus:ring-ring;
   }
 
   .btn-accent {
-    @apply bg-gradient-to-r from-primary-600 to-purple-600 text-white;
-    @apply hover:shadow-lg hover:shadow-primary-500/20;
-    @apply focus:ring-primary-500;
+    @apply bg-gradient-to-r from-primary to-purple-600 text-primary-foreground;
+    @apply hover:shadow-lg hover:shadow-primary/20;
+    @apply focus:ring-ring;
   }
 
   .btn-outline {
@@ -155,10 +155,10 @@
   }
 
   .input {
-    @apply w-full px-3 py-2 rounded-lg border border-gray-200 bg-white text-sm;
-    @apply focus:border-primary-500 focus:ring-2 focus:ring-primary-500/10;
+    @apply w-full px-3 py-2 rounded-lg border border-input bg-background text-sm;
+    @apply focus:border-ring focus:ring-2 focus:ring-ring/10;
     @apply transition-all duration-150 outline-none;
-    @apply placeholder:text-gray-400;
+    @apply placeholder:text-muted-foreground;
   }
 
   .input-lg {
@@ -192,7 +192,7 @@
 
   /* Gradient text */
   .text-gradient {
-    @apply bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent;
   }
 
   /* Skeleton loading */
