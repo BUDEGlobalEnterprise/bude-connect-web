@@ -54,6 +54,12 @@ const router = createRouter({
       meta: { requiresAuth: true },
     },
     {
+      path: '/profile/complete',
+      name: 'complete-profile',
+      component: () => import('../components/profile/CompleteProfileForm.vue'),
+      meta: { requiresAuth: true },
+    },
+    {
       path: '/onboarding',
       name: 'onboarding',
       component: () => import('../views/OnboardingView.vue'),

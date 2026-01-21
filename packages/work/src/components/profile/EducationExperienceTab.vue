@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { Button, Input, Label, Checkbox } from '@bude/shared/components/ui';
+import { Button, Input, Label } from '@bude/shared/components/ui';
 import { Plus, Trash2 } from 'lucide-vue-next';
 
 interface EducationEntry {
@@ -248,10 +248,12 @@ const updateVolunteer = (index: number, field: string, value: any) => {
           </div>
 
           <div class="flex items-center space-x-2 pt-7">
-            <Checkbox
+            <input
+              type="checkbox"
               :id="`work-current-${index}`"
               :checked="work.isCurrent"
-              @update:checked="updateWork(index, 'isCurrent', $event)"
+              @change="updateWork(index, 'isCurrent', ($event.target as HTMLInputElement).checked)"
+              class="h-4 w-4 rounded border-gray-300"
             />
             <Label :for="`work-current-${index}`" class="cursor-pointer">I am currently working here</Label>
           </div>
@@ -338,10 +340,12 @@ const updateVolunteer = (index: number, field: string, value: any) => {
           </div>
 
           <div class="flex items-center space-x-2 pt-7">
-            <Checkbox
+            <input
+              type="checkbox"
               :id="`vol-current-${index}`"
               :checked="vol.isCurrent"
-              @update:checked="updateVolunteer(index, 'isCurrent', $event)"
+              @change="updateVolunteer(index, 'isCurrent', ($event.target as HTMLInputElement).checked)"
+              class="h-4 w-4 rounded border-gray-300"
             />
             <Label :for="`vol-current-${index}`" class="cursor-pointer">I am currently volunteering</Label>
           </div>

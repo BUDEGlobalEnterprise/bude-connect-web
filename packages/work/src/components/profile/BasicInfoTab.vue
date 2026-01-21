@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Checkbox, Textarea } from '@bude/shared/components/ui';
+import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
 import { User, Upload } from 'lucide-vue-next';
 
 const props = defineProps<{
@@ -219,19 +219,23 @@ const updateField = (field: string, value: any) => {
     <!-- Checkboxes -->
     <div class="space-y-3">
       <div class="flex items-center space-x-2">
-        <Checkbox
+        <input
+          type="checkbox"
           id="enabled"
           :checked="formData.enabled"
-          @update:checked="updateField('enabled', $event)"
+          @change="updateField('enabled', ($event.target as HTMLInputElement).checked)"
+          class="h-4 w-4 rounded border-gray-300"
         />
         <Label for="enabled" class="cursor-pointer">Enabled</Label>
       </div>
 
       <div class="flex items-center space-x-2">
-        <Checkbox
+        <input
+          type="checkbox"
           id="termsAccepted"
           :checked="formData.termsAccepted"
-          @update:checked="updateField('termsAccepted', $event)"
+          @change="updateField('termsAccepted', ($event.target as HTMLInputElement).checked)"
+          class="h-4 w-4 rounded border-gray-300"
         />
         <Label for="termsAccepted" class="cursor-pointer">
           Acceptance for Terms and/or Policies

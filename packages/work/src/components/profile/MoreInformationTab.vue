@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Checkbox, Textarea } from '@bude/shared/components/ui';
+import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
 
 const props = defineProps<{
   modelValue: any;
@@ -172,10 +172,12 @@ const updateField = (field: string, value: any) => {
 
     <!-- Hide Private Info Checkbox -->
     <div class="flex items-center space-x-2">
-      <Checkbox
+      <input
+        type="checkbox"
         id="hidePrivateInfo"
         :checked="formData.hidePrivateInfo"
-        @update:checked="updateField('hidePrivateInfo', $event)"
+        @change="updateField('hidePrivateInfo', ($event.target as HTMLInputElement).checked)"
+        class="h-4 w-4 rounded border-gray-300"
       />
       <Label for="hidePrivateInfo" class="cursor-pointer">
         Hide my Private Information from others
