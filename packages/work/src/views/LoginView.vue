@@ -13,7 +13,16 @@ const walletStore = useWalletStore();
 // Redirect if already logged in
 const redirectIfLoggedIn = () => {
   if (userStore.isLoggedIn) {
-    router.push((route.query.redirect as string) || "/");
+    let redirectPath = (route.query.redirect as string) || "/";
+    
+    // Prevent redirecting to the login page itself or nested login redirects
+    if (redirectPath.includes('/login')) {
+      console.warn('LoginView: Detected redirect loop, falling back to home');
+      redirectPath = "/";
+    }
+    
+    console.log(`LoginView: Redirecting authenticated user to ${redirectPath}`);
+    router.push(redirectPath);
   }
 };
 

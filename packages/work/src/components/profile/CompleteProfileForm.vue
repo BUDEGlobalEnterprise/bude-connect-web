@@ -428,10 +428,10 @@ const handleSave = async () => {
               <TabsTrigger 
                 value="user-details" 
                 class="text-xs sm:text-sm"
-                :class="validationErrors.userDetails?.length ? 'text-destructive' : ''"
+                :class="validationErrors['user-details']?.length ? 'text-destructive' : ''"
               >
                 User Details
-                <span v-if="validationErrors.userDetails?.length" class="ml-1 text-destructive">*</span>
+                <span v-if="validationErrors['user-details']?.length" class="ml-1 text-destructive">*</span>
               </TabsTrigger>
               <TabsTrigger value="more-info" class="text-xs sm:text-sm">
                 More Information

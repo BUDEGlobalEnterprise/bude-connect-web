@@ -106,11 +106,29 @@ const router = createRouter({
 });
 
 // Navigation guard for auth and onboarding
-router.beforeEach((to, _from, next) => {
+router.beforeEach(async (to, from, next) => {
   const userStore = useUserStore();
   
+  // Diagnostic log for debugging redirect loops
+  console.log(`Router Guard: ${from.path} -> ${to.path}`, { 
+    isLoggedIn: userStore.isLoggedIn, 
+    requiresAuth: to.meta.requiresAuth,
+    query: to.query
+  });
+
   // Check if route requires auth
   if (to.meta.requiresAuth && !userStore.isLoggedIn) {
+    // If the target is already /login, or it's a nested redirect pointing to /login
+    // we should just stop and stay at /login or go to /
+    const isTargetingLogin = to.path === '/login' || to.name === 'login';
+    const isNestedLoginRedirect = to.query.redirect?.toString().includes('/login');
+
+    if (isTargetingLogin || isNestedLoginRedirect) {
+      console.warn('Router Guard: Prevented nested login redirect loop', { to: to.fullPath });
+      next('/'); 
+      return;
+    }
+    
     next({ name: 'login', query: { redirect: to.fullPath } });
     return;
   }

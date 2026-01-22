@@ -33,3 +33,7 @@ Thumbs.db
 coverage
 /backend
 /frontend-company-profile
+/packages/work/playwright-report
+/packages/work/test-results
+/scripts
+/test-results

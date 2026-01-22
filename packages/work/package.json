@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.9",
     "@vitejs/plugin-vue": "^5.0.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
