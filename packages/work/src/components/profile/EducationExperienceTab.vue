@@ -1,34 +1,30 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { Button, Input, Label } from '@bude/shared/components/ui';
-import { Plus, Trash2 } from 'lucide-vue-next';
+import { 
+  ComboboxMultiSelect,
+  SearchInput,
+  type SearchResult
+} from '@bude/shared';
+import { Button, Input, Label, Textarea } from '@bude/shared/components/ui';
+import { Plus, Trash2, Briefcase, GraduationCap } from 'lucide-vue-next';
+import { universities, companies, degreeTypes, fieldsOfStudy } from '@bude/shared/data/profile-presets';
 
-interface EducationEntry {
+interface Education {
   institution: string;
-  location: string;
-  degreeType: string;
+  degree: string;
   fieldOfStudy: string;
   startDate: string;
   endDate: string;
-  isCurrent: boolean;
+  location?: string;
 }
 
-interface WorkEntry {
-  title: string;
+interface WorkExperience {
   company: string;
-  location: string;
-  isCurrent: boolean;
-  fromDate: string;
-  toDate: string;
-}
-
-interface VolunteerEntry {
   title: string;
-  company: string;
-  location: string;
-  isCurrent: boolean;
-  fromDate: string;
-  toDate: string;
+  description: string;
+  startDate: string;
+  endDate: string;
+  current: boolean;
 }
 
 const props = defineProps<{
@@ -38,20 +34,20 @@ const props = defineProps<{
 const emit = defineEmits(['update:modelValue']);
 
 const formData = computed({
-  get: () => props.modelValue || { education: [], workExperience: [], volunteerExperience: [] },
+  get: () => props.modelValue || { education: [], workExperience: [] },
   set: (val) => emit('update:modelValue', val)
 });
 
+// Education Methods
 const addEducation = () => {
   const education = [...(formData.value.education || [])];
   education.push({
     institution: '',
-    location: '',
-    degreeType: '',
+    degree: '',
     fieldOfStudy: '',
     startDate: '',
     endDate: '',
-    isCurrent: false
+    location: ''
   });
   emit('update:modelValue', { ...formData.value, education });
 };
@@ -62,314 +58,285 @@ const removeEducation = (index: number) => {
   emit('update:modelValue', { ...formData.value, education });
 };
 
-const addWork = () => {
-  const workExperience = [...(formData.value.workExperience || [])];
-  workExperience.push({
-    title: '',
-    company: '',
-    location: '',
-    isCurrent: false,
-    fromDate: '',
-    toDate: ''
-  });
-  emit('update:modelValue', { ...formData.value, workExperience });
-};
-
-const removeWork = (index: number) => {
-  const workExperience = [...(formData.value.workExperience || [])];
-  workExperience.splice(index, 1);
-  emit('update:modelValue', { ...formData.value, workExperience });
-};
-
-const addVolunteer = () => {
-  const volunteerExperience = [...(formData.value.volunteerExperience || [])];
-  volunteerExperience.push({
-    title: '',
-    company: '',
-    location: '',
-    isCurrent: false,
-    fromDate: '',
-    toDate: ''
-  });
-  emit('update:modelValue', { ...formData.value, volunteerExperience });
-};
-
-const removeVolunteer = (index: number) => {
-  const volunteerExperience = [...(formData.value.volunteerExperience || [])];
-  volunteerExperience.splice(index, 1);
-  emit('update:modelValue', { ...formData.value, volunteerExperience });
-};
-
 const updateEducation = (index: number, field: string, value: any) => {
   const education = [...(formData.value.education || [])];
   education[index] = { ...education[index], [field]: value };
   emit('update:modelValue', { ...formData.value, education });
 };
 
-const updateWork = (index: number, field: string, value: any) => {
+// Work Experience Methods
+const addWorkExperience = () => {
+  const workExperience = [...(formData.value.workExperience || [])];
+  workExperience.push({
+    company: '',
+    title: '',
+    description: '',
+    startDate: '',
+    endDate: '',
+    current: false
+  });
+  emit('update:modelValue', { ...formData.value, workExperience });
+};
+
+const removeWorkExperience = (index: number) => {
+  const workExperience = [...(formData.value.workExperience || [])];
+  workExperience.splice(index, 1);
+  emit('update:modelValue', { ...formData.value, workExperience });
+};
+
+const updateWorkExperience = (index: number, field: string, value: any) => {
   const workExperience = [...(formData.value.workExperience || [])];
   workExperience[index] = { ...workExperience[index], [field]: value };
   emit('update:modelValue', { ...formData.value, workExperience });
 };
 
-const updateVolunteer = (index: number, field: string, value: any) => {
-  const volunteerExperience = [...(formData.value.volunteerExperience || [])];
-  volunteerExperience[index] = { ...volunteerExperience[index], [field]: value };
-  emit('update:modelValue', { ...formData.value, volunteerExperience });
+// Search handlers for autocomplete
+const searchUniversities = (query: string): SearchResult[] => {
+  return universities
+    .filter(uni => uni.label.toLowerCase().includes(query.toLowerCase()))
+    .slice(0, 10)
+    .map(uni => ({
+      title: uni.label,
+      icon: GraduationCap,
+      data: uni.value
+    }));
+};
+
+const searchCompanies = (query: string): SearchResult[] => {
+  const allCompanies = [
+    ...companies,
+    // Add more common tech companies
+    { value: 'startups', label: 'Startup Company' },
+    { value: 'agency', label: 'Digital Agency' },
+    { value: 'freelance', label: 'Freelance/Self-Employed' }
+  ];
+  
+  return allCompanies
+    .filter(comp => comp.label.toLowerCase().includes(query.toLowerCase()))
+    .slice(0, 10)
+    .map(comp => ({
+      title: comp.label,
+      icon: Briefcase,
+      data: comp.value
+    }));
 };
 </script>
 
 <template>
   <div class="space-y-8">
-    <!-- Education Details -->
+    <!-- Education Section -->
     <div class="space-y-4">
       <div class="flex items-center justify-between">
-        <h3 class="text-lg font-semibold">Education Details</h3>
+        <div>
+          <h3 class="text-lg font-semibold flex items-center gap-2">
+            <GraduationCap class="h-5 w-5" />
+            Education
+          </h3>
+          <p class="text-sm text-muted-foreground mt-1">
+            Add your educational background
+          </p>
+        </div>
         <Button type="button" @click="addEducation" size="sm" variant="outline">
           <Plus class="h-4 w-4 mr-2" />
           Add Education
         </Button>
       </div>
 
-      <div v-if="!formData.education?.length" class="text-sm text-muted-foreground italic">
+      <div v-if="!formData.education?.length" class="text-sm text-muted-foreground italic border rounded-lg p-8 text-center">
         No education entries yet. Click "Add Education" to get started.
       </div>
 
-      <div v-for="(edu, index) in formData.education" :key="index" class="border rounded-lg p-4 space-y-3 relative">
+      <div v-for="(edu, index) in formData.education" :key="index" class="border rounded-lg p-4 space-y-4 relative bg-card">
         <button
           type="button"
           @click="removeEducation(index)"
-          class="absolute top-2 right-2 p-1 hover:bg-destructive/10 rounded text-destructive"
+          class="absolute top-2 right-2 p-1 hover:bg-destructive/10 rounded text-destructive transition-colors"
         >
           <Trash2 class="h-4 w-4" />
         </button>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="space-y-4 pr-8">
+          <!-- Institution with Autocomplete -->
           <div class="space-y-2">
-            <Label :for="`edu-institution-${index}`">Institution Name *</Label>
+            <Label>Institution / University *</Label>
+            <SearchInput
+              :placeholder="edu.institution || 'Search universities...'"
+              :on-search="searchUniversities"
+              @select="(result) => updateEducation(index, 'institution', result.title)"
+            />
             <Input
-              :id="`edu-institution-${index}`"
+              v-if="!edu.institution"
               :model-value="edu.institution"
               @update:model-value="updateEducation(index, 'institution', $event)"
-              placeholder="University Name"
-              required
+              placeholder="Or type institution name"
+              class="mt-2"
             />
           </div>
 
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Degree Type -->
+            <div class="space-y-2">
+              <Label>Degree Type *</Label>
+              <ComboboxMultiSelect
+                :options="degreeTypes"
+                :model-value="edu.degree ? [edu.degree] : []"
+                @update:model-value="(val) => updateEducation(index, 'degree', val[0])"
+                placeholder="Select degree..."
+              />
+            </div>
+
+            <!-- Field of Study -->
+            <div class="space-y-2">
+              <Label>Field of Study *</Label>
+              <ComboboxMultiSelect
+                :options="fieldsOfStudy"
+                :model-value="edu.fieldOfStudy ? [edu.fieldOfStudy] : []"
+                @update:model-value="(val) => updateEducation(index, 'fieldOfStudy', val[0])"
+                placeholder="Select field..."
+              />
+            </div>
+
+            <!-- Start Date -->
+            <div class="space-y-2">
+              <Label>Start Date *</Label>
+              <Input
+                type="month"
+                :model-value="edu.startDate"
+                @update:model-value="updateEducation(index, 'startDate', $event)"
+              />
+            </div>
+
+            <!-- End Date -->
+            <div class="space-y-2">
+              <Label>End Date</Label>
+              <Input
+                type="month"
+                :model-value="edu.endDate"
+                @update:model-value="updateEducation(index, 'endDate', $event)"
+                placeholder="Leave blank if ongoing"
+              />
+            </div>
+          </div>
+
+          <!-- Location -->
           <div class="space-y-2">
-            <Label :for="`edu-location-${index}`">Location *</Label>
+            <Label>Location</Label>
             <Input
-              :id="`edu-location-${index}`"
               :model-value="edu.location"
               @update:model-value="updateEducation(index, 'location', $event)"
               placeholder="City, Country"
-              required
-            />
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`edu-degree-${index}`">Degree Type *</Label>
-            <Input
-              :id="`edu-degree-${index}`"
-              :model-value="edu.degreeType"
-              @update:model-value="updateEducation(index, 'degreeType', $event)"
-              placeholder="Bachelor's, Master's, etc."
-              required
-            />
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`edu-field-${index}`">Field of Major/Study*</Label>
-            <Input
-              :id="`edu-field-${index}`"
-              :model-value="edu.fieldOfStudy"
-              @update:model-value="updateEducation(index, 'fieldOfStudy', $event)"
-              placeholder="Computer Science"
             />
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Work Experience Details -->
+    <!-- Work Experience Section -->
     <div class="space-y-4">
       <div class="flex items-center justify-between">
-        <h3 class="text-lg font-semibold">Work Experience Details</h3>
-        <Button type="button" @click="addWork" size="sm" variant="outline">
-          <Plus class="h-4 w-4 mr-2" />
-          Add Work Experience
-        </Button>
-      </div>
-
-      <div v-if="!formData.workExperience?.length" class="text-sm text-muted-foreground italic">
-        No work experience entries yet.
-      </div>
-
-      <div v-for="(work, index) in formData.workExperience" :key="index" class="border rounded-lg p-4 space-y-3 relative">
-        <button
-          type="button"
-          @click="removeWork(index)"
-          class="absolute top-2 right-2 p-1 hover:bg-destructive/10 rounded text-destructive"
-        >
-          <Trash2 class="h-4 w-4"  />
-        </button>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <div class="space-y-2">
-            <Label :for="`work-title-${index}`">Title *</Label>
-            <Input
-              :id="`work-title-${index}`"
-              :model-value="work.title"
-              @update:model-value="updateWork(index, 'title', $event)"
-              placeholder="Software Engineer"
-              required
-            />
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`work-company-${index}`">Company *</Label>
-            <Input
-              :id="`work-company-${index}`"
-              :model-value="work.company"
-              @update:model-value="updateWork(index, 'company', $event)"
-              placeholder="Company Name"
-              required
-            />
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`work-location-${index}`">Location *</Label>
-            <Input
-              :id="`work-location-${index}`"
-              :model-value="work.location"
-              @update:model-value="updateWork(index, 'location', $event)"
-              placeholder="City, Country"
-            />
-          </div>
-
-          <div class="flex items-center space-x-2 pt-7">
-            <input
-              type="checkbox"
-              :id="`work-current-${index}`"
-              :checked="work.isCurrent"
-              @change="updateWork(index, 'isCurrent', ($event.target as HTMLInputElement).checked)"
-              class="h-4 w-4 rounded border-gray-300"
-            />
-            <Label :for="`work-current-${index}`" class="cursor-pointer">I am currently working here</Label>
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`work-from-${index}`">From Date *</Label>
-            <Input
-              :id="`work-from-${index}`"
-              type="month"
-              :model-value="work.fromDate"
-              @update:model-value="updateWork(index, 'fromDate', $event)"
-              required
-            />
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`work-to-${index}`">To Date</Label>
-            <Input
-              :id="`work-to-${index}`"
-              type="month"
-              :model-value="work.toDate"
-              @update:model-value="updateWork(index, 'toDate', $event)"
-              :disabled="work.isCurrent"
-            />
-          </div>
+        <div>
+          <h3 class="text-lg font-semibold flex items-center gap-2">
+            <Briefcase class="h-5 w-5" />
+            Work Experience
+          </h3>
+          <p class="text-sm text-muted-foreground mt-1">
+            Add your professional experience
+          </p>
         </div>
-      </div>
-    </div>
-
-    <!-- Volunteering or Internship -->
-    <div class="space-y-4">
-      <div class="flex items-center justify-between">
-        <h3 class="text-lg font-semibold">Volunteering or Internship</h3>
-        <Button type="button" @click="addVolunteer" size="sm" variant="outline">
+        <Button type="button" @click="addWorkExperience" size="sm" variant="outline">
           <Plus class="h-4 w-4 mr-2" />
-          Add Volunteer Experience
+          Add Experience
         </Button>
       </div>
 
-      <div v-if="!formData.volunteerExperience?.length" class="text-sm text-muted-foreground italic">
-        No volunteer experience entries yet.
+      <div v-if="!formData.workExperience?.length" class="text-sm text-muted-foreground italic border rounded-lg p-8 text-center">
+        No work experience yet. Click "Add Experience" to get started.
       </div>
 
-      <div v-for="(vol, index) in formData.volunteerExperience" :key="index" class="border rounded-lg p-4 space-y-3 relative">
+      <div v-for="(work, index) in formData.workExperience" :key="index" class="border rounded-lg p-4 space-y-4 relative bg-card">
         <button
           type="button"
-          @click="removeVolunteer(index)"
-          class="absolute top-2 right-2 p-1 hover:bg-destructive/10 rounded text-destructive"
+          @click="removeWorkExperience(index)"
+          class="absolute top-2 right-2 p-1 hover:bg-destructive/10 rounded text-destructive transition-colors"
         >
           <Trash2 class="h-4 w-4" />
         </button>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="space-y-4 pr-8">
+          <!-- Company with Autocomplete -->
           <div class="space-y-2">
-            <Label :for="`vol-title-${index}`">Title *</Label>
+            <Label>Company *</Label>
+            <SearchInput
+              :placeholder="work.company || 'Search companies...'"
+              :on-search="searchCompanies"
+              @select="(result) => updateWorkExperience(index, 'company', result.title)"
+            />
             <Input
-              :id="`vol-title-${index}`"
-              :model-value="vol.title"
-              @update:model-value="updateVolunteer(index, 'title', $event)"
-              placeholder="Volunteer Role"
-              required
+              v-if="!work.company"
+              :model-value="work.company"
+              @update:model-value="updateWorkExperience(index, 'company', $event)"
+              placeholder="Or type company name"
+              class="mt-2"
             />
           </div>
 
+          <!-- Job Title -->
           <div class="space-y-2">
-            <Label :for="`vol-company-${index}`">Company *</Label>
+            <Label>Job Title *</Label>
             <Input
-              :id="`vol-company-${index}`"
-              :model-value="vol.company"
-              @update:model-value="updateVolunteer(index, 'company', $event)"
-              placeholder="Organization Name"
-              required
+              :model-value="work.title"
+              @update:model-value="updateWorkExperience(index, 'title', $event)"
+              placeholder="e.g., Senior Frontend Developer"
             />
           </div>
 
+          <!-- Description -->
           <div class="space-y-2">
-            <Label :for="`vol-location-${index}`">Location *</Label>
-            <Input
-              :id="`vol-location-${index}`"
-              :model-value="vol.location"
-              @update:model-value="updateVolunteer(index, 'location', $event)"
-              placeholder="City, Country"
+            <Label>Description</Label>
+            <Textarea
+              :model-value="work.description"
+              @update:model-value="updateWorkExperience(index, 'description', $event)"
+              :rows="3"
+              placeholder="Describe your responsibilities and achievements..."
             />
           </div>
 
-          <div class="flex items-center space-x-2 pt-7">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Start Date -->
+            <div class="space-y-2">
+              <Label>Start Date *</Label>
+              <Input
+                type="month"
+                :model-value="work.startDate"
+                @update:model-value="updateWorkExperience(index, 'startDate', $event)"
+              />
+            </div>
+
+            <!-- End Date -->
+            <div class="space-y-2">
+              <Label>End Date</Label>
+              <Input
+                type="month"
+                :model-value="work.endDate"
+                @update:model-value="updateWorkExperience(index, 'endDate', $event)"
+                :disabled="work.current"
+                placeholder="Leave blank if current"
+              />
+            </div>
+          </div>
+
+          <!-- Current Position Checkbox -->
+          <div class="flex items-center space-x-2">
             <input
               type="checkbox"
-              :id="`vol-current-${index}`"
-              :checked="vol.isCurrent"
-              @change="updateVolunteer(index, 'isCurrent', ($event.target as HTMLInputElement).checked)"
+              :id="`work-current-${index}`"
+              :checked="work.current"
+              @change="updateWorkExperience(index, 'current', ($event.target as HTMLInputElement).checked)"
               class="h-4 w-4 rounded border-gray-300"
             />
-            <Label :for="`vol-current-${index}`" class="cursor-pointer">I am currently volunteering</Label>
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`vol-from-${index}`">From Date *</Label>
-            <Input
-              :id="`vol-from-${index}`"
-              type="month"
-              :model-value="vol.fromDate"
-              @update:model-value="updateVolunteer(index, 'fromDate', $event)"
-              required
-            />
-          </div>
-
-          <div class="space-y-2">
-            <Label :for="`vol-to-${index}`">To Date</Label>
-            <Input
-              :id="`vol-to-${index}`"
-              type="month"
-              :model-value="vol.toDate"
-              @update:model-value="updateVolunteer(index, 'toDate', $event)"
-              :disabled="vol.isCurrent"
-            />
+            <Label :for="`work-current-${index}`" class="cursor-pointer">
+              I currently work here
+            </Label>
           </div>
         </div>
       </div>

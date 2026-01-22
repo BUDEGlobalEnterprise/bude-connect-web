@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
+import { ComboboxMultiSelect } from '@bude/shared';
+import { Input, Label, Textarea } from '@bude/shared/components/ui';
+import { jobTypes, workModes } from '@bude/shared/data/profile-presets';
 
 const props = defineProps<{
   modelValue: any;
@@ -13,12 +15,17 @@ const formData = computed({
   set: (val) => emit('update:modelValue', val)
 });
 
-const attireOptions = ['Casual Wear', 'Business Casual', 'Business Formal', 'No Preference'];
-const locationOptions = ['Remote', 'Onsite', 'Hybrid', 'Travel', 'No Preference'];
-const collaborationOptions = ['Individual Work', 'Team Work', 'Mixed', 'No Preference'];
-const timeOptions = ['Flexible Time', 'Fixed Hours', 'Shift Work', 'No Preference'];
-const roleOptions = ['Clearly Defined Role', 'Flexible Role', 'Evolving Role', 'No Preference'];
-const companyOptions = ['Startup', 'Corporate Organization', 'Non-profit', 'Government', 'No Preference'];
+const selectedJobTypes = ref<string[]>(
+  Array.isArray(formData.value.preferredJobTypes) 
+    ? formData.value.preferredJobTypes 
+    : []
+);
+
+const selectedWorkModes = ref<string[]>(
+  Array.isArray(formData.value.preferredWorkModes)
+    ? formData.value.preferredWorkModes
+    : []
+);
 
 const updateField = (field: string, value: any) => {
   emit('update:modelValue', {
@@ -26,175 +33,234 @@ const updateField = (field: string, value: any) => {
     [field]: value
   });
 };
+
+const updateJobTypes = (values: string[]) => {
+  selectedJobTypes.value = values;
+  updateField('preferredJobTypes', values);
+};
+
+const updateWorkModes = (values: string[]) => {
+  selectedWorkModes.value = values;
+  updateField('preferredWorkModes', values);
+};
 </script>
 
 <template>
   <div class="space-y-8">
-    <!-- Career Preference Details -->
+    <!-- Job Preferences -->
     <div class="space-y-4">
-      <h3 class="text-lg font-semibold">Career Preference Details</h3>
-      
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Job Preferences</h3>
+        <p class="text-sm text-muted-foreground">
+          Select your preferred job types and work arrangements
+        </p>
+      </div>
+
+      <!-- Preferred Job Types -->
+      <div class="space-y-2">
+        <Label>Preferred Job Types</Label>
+        <ComboboxMultiSelect
+          :options="jobTypes"
+          v-model="selectedJobTypes"
+          @update:model-value="updateJobTypes"
+          placeholder="Select job types..."
+        />
+        <p class="text-xs text-muted-foreground">
+          Select all types you're interested in
+        </p>
+      </div>
+
+      <!-- Preferred Work Mode -->
+      <div class="space-y-2">
+        <Label>Preferred Work Mode</Label>
+        <ComboboxMultiSelect
+          :options="workModes"
+          v-model="selectedWorkModes"
+          @update:model-value="updateWorkModes"
+          placeholder="Select work modes..."
+        />
+      </div>
+
+      <!-- Remote Only Toggle -->
+      <div class="flex items-center space-x-2">
+        <input
+          type="checkbox"
+          id="remoteOnly"
+          :checked="formData.remoteOnly"
+          @change="updateField('remoteOnly', ($event.target as HTMLInputElement).checked)"
+          class="h-4 w-4 rounded border-gray-300"
+        />
+        <Label for="remoteOnly" class="cursor-pointer">
+          Only interested in remote opportunities
+        </Label>
+      </div>
+    </div>
+
+    <!-- Rate & Availability -->
+    <div class="space-y-4">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Rate & Availability</h3>
+        <p class="text-sm text-muted-foreground">
+          Set your expected compensation and availability
+        </p>
+      </div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <!-- Preferred Functions -->
+        <!-- Hourly Rate Range -->
         <div class="space-y-2">
-          <Label for="preferredFunctions">Preferred Functions</Label>
-          <Textarea
-            id="preferredFunctions"
-            :model-value="formData.preferredFunctions"
-            @update:model-value="updateField('preferredFunctions', $event)"
-            :rows="2"
-            placeholder="Engineering, Product, Design..."
-          />
+          <Label for="minRate">Minimum Hourly Rate (USD)</Label>
+          <div class="flex items-center gap-2">
+            <span class="text-sm">$</span>
+            <Input
+              id="minRate"
+              type="number"
+              :model-value="formData.minHourlyRate"
+              @update:model-value="updateField('minHourlyRate', $event)"
+              placeholder="50"
+              min="0"
+            />
+          </div>
         </div>
 
-        <!-- Preferred Industries -->
         <div class="space-y-2">
-          <Label for="preferredIndustries">Preferred Industries</Label>
-          <Textarea
-            id="preferredIndustries"
-            :model-value="formData.preferredIndustries"
-            @update:model-value="updateField('preferredIndustries', $event)"
-            :rows="2"
-            placeholder="Tech, Finance, Healthcare..."
-          />
+          <Label for="maxRate">Maximum Hourly Rate (USD)</Label>
+          <div class="flex items-center gap-2">
+            <span class="text-sm">$</span>
+            <Input
+              id="maxRate"
+              type="number"
+              :model-value="formData.maxHourlyRate"
+              @update:model-value="updateField('maxHourlyRate', $event)"
+              placeholder="150"
+              min="0"
+            />
+          </div>
         </div>
 
-        <!-- Preferred Location -->
+        <!-- Hours per Week -->
         <div class="space-y-2">
-          <Label for="preferredLocation">Preferred Location</Label>
+          <Label for="hoursPerWeek">Available Hours per Week</Label>
           <Input
-            id="preferredLocation"
-            :model-value="formData.preferredLocation"
-            @update:model-value="updateField('preferredLocation', $event)"
-            placeholder="San Francisco, Remote, etc."
+            id="hoursPerWeek"
+            type="number"
+            :model-value="formData.hoursPerWeek"
+            @update:model-value="updateField('hoursPerWeek', $event)"
+            placeholder="40"
+            min="1"
+            max="168"
           />
         </div>
 
-        <!-- Dream Companies -->
+        <!-- Notice Period -->
         <div class="space-y-2">
-          <Label for="dreamCompanies">Dream Companies</Label>
+          <Label for="noticePeriod">Notice Period (days)</Label>
           <Input
-            id="dreamCompanies"
-            :model-value="formData.dreamCompanies"
-            @update:model-value="updateField('dreamCompanies', $event)"
-            placeholder="Google, Microsoft, Apple..."
+            id="noticePeriod"
+            type="number"
+            :model-value="formData.noticePeriod"
+            @update:model-value="updateField('noticePeriod', $event)"
+            placeholder="14"
+            min="0"
           />
         </div>
       </div>
     </div>
 
-    <!-- Work Environment Preferences -->
+    <!-- Preferred Locations -->
     <div class="space-y-4">
-      <h3 class="text-lg font-semibold">Work Environment</h3>
-      
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Preferred Locations</h3>
+        <p class="text-sm text-muted-foreground">
+          For on-site or hybrid roles, specify your preferred locations
+        </p>
+      </div>
+
+      <div class="space-y-2">
+        <Label for="preferredLocations">Preferred Cities/Countries</Label>
+        <Textarea
+          id="preferredLocations"
+          :model-value="formData.preferredLocations"
+          @update:model-value="updateField('preferredLocations', $event)"
+          :rows="3"
+          placeholder="e.g., New York, London, Remote from India"
+        />
+        <p class="text-xs text-muted-foreground">
+          Enter locations separated by commas
+        </p>
+      </div>
+    </div>
+
+    <!-- Additional Preferences -->
+    <div class="space-y-4">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Additional Preferences</h3>
+      </div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <!-- Attire Preference -->
+        <!-- Start Date -->
         <div class="space-y-2">
-          <Label for="attirePreference">Attire Preference</Label>
-          <Select
-            :model-value="formData.attirePreference"
-            @update:model-value="updateField('attirePreference', $event)"
-          >
-            <SelectTrigger id="attirePreference">
-              <SelectValue placeholder="Select attire preference" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem v-for="option in attireOptions" :key="option" :value="option">
-                {{ option }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
+          <Label for="availableFrom">Available From</Label>
+          <Input
+            id="availableFrom"
+            type="date"
+            :model-value="formData.availableFrom"
+            @update:model-value="updateField('availableFrom', $event)"
+          />
         </div>
 
-        <!-- Location Preference -->
+        <!-- Contract Duration -->
         <div class="space-y-2">
-          <Label for="locationPreference">Location Preference</Label>
-          <Select
-            :model-value="formData.locationPreference"
-            @update:model-value="updateField('locationPreference', $event)"
-          >
-            <SelectTrigger id="locationPreference">
-              <SelectValue placeholder="Select location preference" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem v-for="option in locationOptions" :key="option" :value="option">
-                {{ option }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
+          <Label for="preferredDuration">Preferred Contract Duration (months)</Label>
+          <Input
+            id="preferredDuration"
+            type="number"
+            :model-value="formData.preferredDuration"
+            @update:model-value="updateField('preferredDuration', $event)"
+            placeholder="6"
+            min="1"
+          />
         </div>
+      </div>
 
-        <!-- Collaboration Preference -->
-        <div class="space-y-2">
-          <Label for="collaborationPreference">Collaboration Preference</Label>
-          <Select
-            :model-value="formData.collaborationPreference"
-            @update:model-value="updateField('collaborationPreference', $event)"
-          >
-            <SelectTrigger id="collaborationPreference">
-              <SelectValue placeholder="Select collaboration preference" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem v-for="option in collaborationOptions" :key="option" :value="option">
-                {{ option }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
+      <!-- Additional Notes -->
+      <div class="space-y-2">
+        <Label for="careerNotes">Additional Notes</Label>
+        <Textarea
+          id="careerNotes"
+          :model-value="formData.careerNotes"
+          @update:model-value="updateField('careerNotes', $event)"
+          :rows="4"
+          placeholder="Any other preferences or requirements..."
+        />
+      </div>
+    </div>
 
-        <!-- Time Preference -->
-        <div class="space-y-2">
-          <Label for="timePreference">Time Preference</Label>
-          <Select
-            :model-value="formData.timePreference"
-            @update:model-value="updateField('timePreference', $event)"
-          >
-            <SelectTrigger id="timePreference">
-              <SelectValue placeholder="Select time preference" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem v-for="option in timeOptions" :key="option" :value="option">
-                {{ option }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
+    <!-- Checkboxes -->
+    <div class="space-y-3">
+      <div class="flex items-center space-x-2">
+        <input
+          type="checkbox"
+          id="openToRelocate"
+          :checked="formData.openToRelocate"
+          @change="updateField('openToRelocate', ($event.target as HTMLInputElement).checked)"
+          class="h-4 w-4 rounded border-gray-300"
+        />
+        <Label for="openToRelocate" class="cursor-pointer">
+          Open to relocation
+        </Label>
+      </div>
 
-        <!-- Role Preference -->
-        <div class="space-y-2">
-          <Label for="rolePreference">Role Preference</Label>
-          <Select
-            :model-value="formData.rolePreference"
-            @update:model-value="updateField('rolePreference', $event)"
-          >
-            <SelectTrigger id="rolePreference">
-              <SelectValue placeholder="Select role preference" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem v-for="option in roleOptions" :key="option" :value="option">
-                {{ option }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-
-        <!-- Company Type -->
-        <div class="space-y-2">
-          <Label for="companyType">Company Type</Label>
-          <Select
-            :model-value="formData.companyType"
-            @update:model-value="updateField('companyType', $event)"
-          >
-            <SelectTrigger id="companyType">
-              <SelectValue placeholder="Select company type" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem v-for="option in companyOptions" :key="option" :value="option">
-                {{ option }}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
+      <div class="flex items-center space-x-2">
+        <input
+          type="checkbox"
+          id="openToTravel"
+          :checked="formData.openToTravel"
+          @change="updateField('openToTravel', ($event.target as HTMLInputElement).checked)"
+          class="h-4 w-4 rounded border-gray-300"
+        />
+        <Label for="openToTravel" class="cursor-pointer">
+          Willing to travel for work
+        </Label>
       </div>
     </div>
   </div>

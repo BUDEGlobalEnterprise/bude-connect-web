@@ -1,7 +1,20 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { 
+  ComboboxMultiSelect,
+  FileUploadZone,
+  ColorPicker
+} from '@bude/shared';
 import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
 import { User, Upload } from 'lucide-vue-next';
+import { 
+  roles, 
+  industries, 
+  seniorityLevels,
+  userCategories,
+  openToOptions,
+  languages as languagePresets
+} from '@bude/shared/data/profile-presets';
 
 const props = defineProps<{
   modelValue: any;
@@ -14,19 +27,56 @@ const formData = computed({
   set: (val) => emit('update:modelValue', val)
 });
 
-// Language options
-const languageOptions = [
-  'English (United Kingdom)',
-  'English (United States)',
-  'Hindi',
-  'Tamil',
-  'Spanish',
-  'French',
-  'German',
-];
+const profilePhoto = ref<File[]>([]);
+const coverImage = ref<File[]>([]);
 
-// Country options
-const countryOptions = ['India', 'United States', 'United Kingdom', 'Canada', 'Australia'];
+const selectedRoles = ref<string[]>(
+  formData.value.primaryRole ? [formData.value.primaryRole] : []
+);
+const selectedIndustries = ref<string[]>(formData.value.industries || []);
+const selectedLanguages = ref<string[]>(formData.value.languages || []);
+const selectedCategories = ref<string[]>(
+  formData.value.userCategory ? [formData.value.userCategory] : []
+);
+const selectedOpenTo = ref<string[]>(
+  typeof formData.value.openTo === 'string' 
+    ? formData.value.openTo.split(',').map((s: string) => s.trim())
+    : formData.value.openTo || []
+);
+
+const updateField = (field: string, value: any) => {
+  emit('update:modelValue', {
+    ...formData.value,
+    [field]: value
+  });
+};
+
+const updateRoles = (values: string[]) => {
+  selectedRoles.value = values;
+  // Take first role as primary
+  updateField('primaryRole', values[0] || '');
+  updateField('roles', values);
+};
+
+const updateIndustries = (values: string[]) => {
+  selectedIndustries.value = values;
+  updateField('industries', values);
+};
+
+const updateLanguages = (values: string[]) => {
+  selectedLanguages.value = values;
+  updateField('languages', values);
+};
+
+const updateCategories = (values: string[]) => {
+  selectedCategories.value = values;
+  updateField('userCategory', values[0] || '');
+};
+
+const updateOpenTo = (values: string[]) => {
+  selectedOpenTo.value = values;
+  updateField('openTo', values.join(', '));
+};
 
 // Timezone options
 const timezoneOptions = [
@@ -37,18 +87,55 @@ const timezoneOptions = [
   'Australia/Sydney',
 ];
 
-const updateField = (field: string, value: any) => {
-  emit('update:modelValue', {
-    ...formData.value,
-    [field]: value
-  });
-};
+// Country options
+const countryOptions = ['India', 'United States', 'United Kingdom', 'Canada', 'Australia'];
 </script>
 
 <template>
-  <div class="space-y-6">
-    <!-- User Details Section -->
+  <div class="space-y-8">
+    <!-- Profile Photo Upload -->
+    <div class="space-y-4">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Profile Photo</h3>
+        <p class="text-sm text-muted-foreground">
+          Upload a professional photo. This will be visible on your profile.
+        </p>
+      </div>
+      
+      <FileUploadZone
+        v-model="profilePhoto"
+        accept="image/*"
+        :max-size="5 * 1024 * 1024"
+        :multiple="false"
+        @update:model-value="updateField('profilePhotoFile', profilePhoto[0])"
+      />
+    </div>
+
+    <!-- Basic Information -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- First Name -->
+      <div class="space-y-2">
+        <Label for="firstName">First Name *</Label>
+        <Input
+          id="firstName"
+          :model-value="formData.firstName"
+          @update:model-value="updateField('firstName', $event)"
+          placeholder="John"
+          required
+        />
+      </div>
+
+      <!-- Last Name -->
+      <div class="space-y-2">
+        <Label for="lastName">Last Name</Label>
+        <Input
+          id="lastName"
+          :model-value="formData.lastName"
+          @update:model-value="updateField('lastName', $event)"
+          placeholder="Doe"
+        />
+      </div>
+
       <!-- Email -->
       <div class="space-y-2">
         <Label for="email">Email *</Label>
@@ -62,32 +149,100 @@ const updateField = (field: string, value: any) => {
         />
       </div>
 
-      <!-- Language -->
+      <!-- Username -->
       <div class="space-y-2">
-        <Label for="language">Language</Label>
-        <Select
-          :model-value="formData.language"
-          @update:model-value="updateField('language', $event)"
-        >
-          <SelectTrigger id="language">
-            <SelectValue placeholder="Select language" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem v-for="lang in languageOptions" :key="lang" :value="lang">
-              {{ lang }}
-            </SelectItem>
-          </SelectContent>
-        </Select>
-      </div>
-
-      <!-- Full Name -->
-      <div class="space-y-2">
-        <Label for="fullName">Full Name</Label>
+        <Label for="username">Username</Label>
         <Input
-          id="fullName"
-          :model-value="formData.fullName"
-          @update:model-value="updateField('fullName', $event)"
-          placeholder="John Doe"
+          id="username"
+          :model-value="formData.username"
+          @update:model-value="updateField('username', $event)"
+          placeholder="johndoe"
+        />
+      </div>
+    </div>
+
+    <!-- Professional Information -->
+    <div class="space-y-4">
+      <h3 class="text-lg font-semibold">Professional Information</h3>
+      
+      <div class="space-y-4">
+        <!-- Primary Role (Multi-select, but we'll use first as primary) -->
+        <div class="space-y-2">
+          <Label>Primary Role *</Label>
+          <ComboboxMultiSelect
+            :options="roles"
+            v-model="selectedRoles"
+            @update:model-value="updateRoles"
+            placeholder="Select your role..."
+          />
+          <p class="text-xs text-muted-foreground">
+            Select one or more roles that describe you
+          </p>
+        </div>
+
+        <!-- Seniority Level -->
+        <div class="space-y-2">
+          <Label for="seniorityLevel">Seniority Level</Label>
+          <Select
+            :model-value="formData.seniorityLevel"
+            @update:model-value="updateField('seniorityLevel', $event)"
+          >
+            <SelectTrigger id="seniorityLevel">
+              <SelectValue placeholder="Select your experience level" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem v-for="level in seniorityLevels" :key="level.value" :value="level.value">
+                {{ level.label }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <!-- Industries -->
+        <div class="space-y-2">
+          <Label>Industries</Label>
+          <ComboboxMultiSelect
+            :options="industries"
+            v-model="selectedIndustries"
+            @update:model-value="updateIndustries"
+            placeholder="Select industries you work in..."
+          />
+        </div>
+
+        <!-- User Category -->
+        <div class="space-y-2">
+          <Label>User Category</Label>
+          <ComboboxMultiSelect
+            :options="userCategories"
+            v-model="selectedCategories"
+            @update:model-value="updateCategories"
+            placeholder="Select category..."
+          />
+        </div>
+
+        <!-- Open To -->
+        <div class="space-y-2">
+          <Label>Open To</Label>
+          <ComboboxMultiSelect
+            :options="openToOptions"
+            v-model="selectedOpenTo"
+            @update:model-value="updateOpenTo"
+            placeholder="What opportunities are you open to?"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Location & Timezone -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Languages -->
+      <div class="space-y-2">
+        <Label>Languages</Label>
+        <ComboboxMultiSelect
+          :options="languagePresets"
+          v-model="selectedLanguages"
+          @update:model-value="updateLanguages"
+          placeholder="Select languages..."
         />
       </div>
 
@@ -109,18 +264,6 @@ const updateField = (field: string, value: any) => {
         </Select>
       </div>
 
-      <!-- First Name -->
-      <div class="space-y-2">
-        <Label for="firstName">First Name *</Label>
-        <Input
-          id="firstName"
-          :model-value="formData.firstName"
-          @update:model-value="updateField('firstName', $event)"
-          placeholder="John"
-          required
-        />
-      </div>
-
       <!-- Country -->
       <div class="space-y-2">
         <Label for="country">Country</Label>
@@ -138,82 +281,40 @@ const updateField = (field: string, value: any) => {
           </SelectContent>
         </Select>
       </div>
+    </div>
 
-      <!-- Username -->
-      <div class="space-y-2">
-        <Label for="username">Username</Label>
-        <Input
-          id="username"
-          :model-value="formData.username"
-          @update:model-value="updateField('username', $event)"
-          placeholder="johndoe"
-        />
+    <!-- Theme Color (Branding) -->
+    <div class="space-y-4">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Profile Branding</h3>
+        <p class="text-sm text-muted-foreground">
+          Customize the color theme for your profile
+        </p>
       </div>
-
-      <!-- User Category -->
-      <div class="space-y-2">
-        <Label for="userCategory">User Category</Label>
-        <Input
-          id="userCategory"
-          :model-value="formData.userCategory"
-          @update:model-value="updateField('userCategory', $event)"
-          placeholder="Developer, Designer, etc."
-        />
-      </div>
-
-      <!-- Middle Name -->
-      <div class="space-y-2">
-        <Label for="middleName">Middle Name</Label>
-        <Input
-          id="middleName"
-          :model-value="formData.middleName"
-          @update:model-value="updateField('middleName', $event)"
-          placeholder="Michael"
-        />
-      </div>
-
-      <!-- Open to -->
-      <div class="space-y-2">
-        <Label for="openTo">Open to</Label>
-        <Input
-          id="openTo"
-          :model-value="formData.openTo"
-          @update:model-value="updateField('openTo', $event)"
-          placeholder="new projects, collaborations"
-        />
-      </div>
-
-      <!-- Last Name -->
-      <div class="space-y-2">
-        <Label for="lastName">Last Name</Label>
-        <Input
-          id="lastName"
-          :model-value="formData.lastName"
-          @update:model-value="updateField('lastName', $event)"
-          placeholder="Doe"
-        />
-      </div>
+      
+      <ColorPicker
+        label="Theme Color"
+        :model-value="formData.themeColor || '#3b82f6'"
+        @update:model-value="updateField('themeColor', $event)"
+      />
     </div>
 
     <!-- Cover Image Upload -->
-    <div class="space-y-2">
-      <Label for="coverImage">Cover Image</Label>
-      <div class="flex items-center gap-3">
-        <Input
-          id="coverImage"
-          type="file"
-          accept="image/*"
-          @change="(e: any) => updateField('coverImageFile', e.target.files[0])"
-          class="flex-1"
-        />
-        <button
-          type="button"
-          class="px-4 py-2 border rounded-md hover:bg-accent flex items-center gap-2"
-        >
-          <Upload class="h-4 w-4" />
-          Attach
-        </button>
+    <div class="space-y-4">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Cover Image</h3>
+        <p class="text-sm text-muted-foreground">
+          Upload a cover image for your profile (optional)
+        </p>
       </div>
+      
+      <FileUploadZone
+        v-model="coverImage"
+        accept="image/*"
+        :max-size="10 * 1024 * 1024"
+        :multiple="false"
+        @update:model-value="updateField('coverImageFile', coverImage[0])"
+      />
     </div>
 
     <!-- Checkboxes -->
@@ -226,7 +327,7 @@ const updateField = (field: string, value: any) => {
           @change="updateField('enabled', ($event.target as HTMLInputElement).checked)"
           class="h-4 w-4 rounded border-gray-300"
         />
-        <Label for="enabled" class="cursor-pointer">Enabled</Label>
+        <Label for="enabled" class="cursor-pointer">Profile Enabled</Label>
       </div>
 
       <div class="flex items-center space-x-2">
@@ -238,7 +339,7 @@ const updateField = (field: string, value: any) => {
           class="h-4 w-4 rounded border-gray-300"
         />
         <Label for="termsAccepted" class="cursor-pointer">
-          Acceptance for Terms and/or Policies
+          I accept the Terms and Conditions *
         </Label>
       </div>
     </div>

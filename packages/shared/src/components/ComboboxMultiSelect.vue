@@ -28,13 +28,14 @@
       <div class="p-2 border-b">
         <Input
           v-model="searchQuery"
-          placeholder="Search..."
+          placeholder="Search or type custom..."
           class="h-9"
         />
       </div>
       
       <div class="max-h-72 overflow-y-auto">
         <div class="p-2">
+          <!-- Show filtered options from preset list -->
           <div
             v-for="item in filteredOptions"
             :key="item.value"
@@ -50,8 +51,22 @@
             <span>{{ item.label }}</span>
           </div>
           
-          <div v-if="filteredOptions.length === 0" class="p-4 text-center text-sm text-muted-foreground">
-            No results found.
+          <!-- Add custom value option if searching and no exact match -->
+          <div
+            v-if="searchQuery && !exactMatch && searchQuery.length > 2"
+            class="flex items-center gap-2 px-2 py-1.5 text-sm rounded cursor-pointer hover:bg-accent border-t mt-1 pt-2"
+            @click="addCustomValue"
+          >
+            <Plus class="h-4 w-4 text-primary" />
+            <span class="text-primary font-medium">Add "{{ searchQuery }}"</span>
+          </div>
+          
+          <div v-if="filteredOptions.length === 0 && !searchQuery" class="p-4 text-center text-sm text-muted-foreground">
+            No options available
+          </div>
+          
+          <div v-if="filteredOptions.length === 0 && searchQuery && searchQuery.length <= 2" class="p-4 text-center text-sm text-muted-foreground">
+            Type at least 3 characters to add custom value
           </div>
         </div>
       </div>
@@ -73,7 +88,7 @@ import { ref, computed } from 'vue';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Badge } from './ui/badge';
-import { Check, ChevronDown } from 'lucide-vue-next';
+import { Check, ChevronDown, Plus } from 'lucide-vue-next';
 
 export interface ComboboxOption {
   value: string;
@@ -84,11 +99,13 @@ interface Props {
   options: ComboboxOption[];
   modelValue?: string[];
   placeholder?: string;
+  allowCustom?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   modelValue: () => [],
-  placeholder: 'Select items...'
+  placeholder: 'Select items...',
+  allowCustom: true
 });
 
 const emit = defineEmits<{
@@ -98,19 +115,33 @@ const emit = defineEmits<{
 const open = ref(false);
 const searchQuery = ref('');
 const selectedValues = ref<string[]>([...props.modelValue]);
+const customOptions = ref<ComboboxOption[]>([]);
+
+// Combine preset options with custom options
+const allOptions = computed(() => {
+  return [...props.options, ...customOptions.value];
+});
 
 const filteredOptions = computed(() => {
-  if (!searchQuery.value) return props.options;
+  if (!searchQuery.value) return allOptions.value;
   
   const query = searchQuery.value.toLowerCase();
-  return props.options.filter(option =>
+  return allOptions.value.filter(option =>
     option.label.toLowerCase().includes(query) ||
     option.value.toLowerCase().includes(query)
   );
 });
 
+const exactMatch = computed(() => {
+  const query = searchQuery.value.toLowerCase().trim();
+  return allOptions.value.some(opt => 
+    opt.label.toLowerCase() === query || 
+    opt.value.toLowerCase() === query
+  );
+});
+
 const selectedItems = computed(() =>
-  props.options.filter(option => selectedValues.value.includes(option.value))
+  allOptions.value.filter(option => selectedValues.value.includes(option.value))
 );
 
 const isSelected = (item: ComboboxOption) =>
@@ -126,6 +157,26 @@ const toggleItem = (item: ComboboxOption) => {
   }
   
   emit('update:modelValue', selectedValues.value);
+  searchQuery.value = '';
+};
+
+const addCustomValue = () => {
+  if (!props.allowCustom || !searchQuery.value || searchQuery.value.length < 3) return;
+  
+  const customValue = searchQuery.value.trim();
+  const customKey = `custom-${Date.now()}`;
+  
+  // Add to custom options
+  customOptions.value.push({
+    value: customKey,
+    label: customValue
+  });
+  
+  // Select it
+  selectedValues.value.push(customKey);
+  emit('update:modelValue', selectedValues.value);
+  
+  searchQuery.value = '';
 };
 
 const clearAll = () => {
