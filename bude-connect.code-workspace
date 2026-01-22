@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "name": "Work (App)",
+      "path": "packages/work"
+    },
+    {
+      "name": "Market (App)",
+      "path": "packages/market"
+    },
+    {
+      "name": "Shared (Lib)",
+      "path": "packages/shared"
+    },
+    {
+      "name": "Backend (Core)",
+      "path": "backend/bude_core"
+    },
+    {
+      "name": "Company Profile",
+      "path": "frontend-company-profile/bude-connect-all-in-one"
+    },
+    {
+      "name": "Root (Monorepo)",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.autoRepositoryDetection": true,
+    "git.scanRepositories": [
+      "backend/bude_core",
+      "frontend-company-profile/bude-connect-all-in-one",
+      "packages/market",
+      "packages/shared",
+      "packages/work"
+    ]
+  }
+}
