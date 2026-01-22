@@ -28,7 +28,7 @@ Thumbs.db
 
 # TypeScript
 *.tsbuildinfo
-
+*.md
 # Testing
 coverage
 /backend

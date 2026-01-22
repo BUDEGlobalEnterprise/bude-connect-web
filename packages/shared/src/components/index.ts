@@ -13,16 +13,55 @@ export * from './ui';
 // Custom Icon component (Lucide-style SVGs)
 export { default as Icon } from './Icon.vue';
 
-// Data Display
+// ============================================
+// New Feature Components (Built on shadcn/ui)
+// ============================================
+
+// File & Media
+export { default as FileUploadZone } from './FileUploadZone.vue';
+
+// Advanced Form Inputs
+export { default as ComboboxMultiSelect } from './ComboboxMultiSelect.vue';
+export { default as RatingInput } from './RatingInput.vue';
+export { default as TagInput } from './TagInput.vue';
+export { default as SkillSelector } from './SkillSelector.vue';
+export { default as TimezoneSelector } from './TimezoneSelector.vue';
+export { default as ColorPicker } from './ColorPicker.vue';
+
+// Data Display & Visualization
+export { default as TimelineView } from './TimelineView.vue';
 export { default as DataTable } from './DataTable.vue';
 export { default as StatCard } from './StatCard.vue';
+export { default as StatsGrid } from './StatsGrid.vue';
 export { default as EmptyState } from './EmptyState.vue';
-export { default as LoadingSkeleton } from './LoadingSkeleton.vue';
+export { default as ProgressBar } from './ProgressBar.vue';
+export { default as TestimonialCard } from './TestimonialCard.vue';
 
-// Navigation
+// Navigation & Notifications
+export { default as NotificationDropdown } from './NotificationDropdown.vue';
+export { default as BreadcrumbNav } from './BreadcrumbNav.vue';
 export { default as BottomNav } from './BottomNav.vue';
 export { default as Sidebar } from './Sidebar.vue';
 export { default as SearchBar } from './SearchBar.vue';
+export { default as SearchInput } from './SearchInput.vue';
+export { default as ScrollToTop } from './ScrollToTop.vue';
+
+// Layout & Dialogs
+export { default as SidePanel } from './SidePanel.vue';
+export { default as ConfirmDialog } from './ConfirmDialog.vue';
+export { default as PricingCard } from './PricingCard.vue';
+
+// Marketplace-Specific
+export { default as ProposalCard } from './ProposalCard.vue';
+export { default as ProjectMilestoneTracker } from './ProjectMilestoneTracker.vue';
+export { default as AvailabilityCalendar } from './AvailabilityCalendar.vue';
+export { default as ChatBubble } from './ChatBubble.vue';
+export { default as CommentBox } from './CommentBox.vue';
+
+// Utilities
+export { default as CopyToClipboard } from './CopyToClipboard.vue';
+export { default as ShareButton } from './ShareButton.vue';
+export { default as VirtualScrollList } from './VirtualScrollList.vue';
 
 // Media
 export { default as LazyImage } from './LazyImage.vue';
@@ -40,14 +79,3 @@ export { default as NotificationBell } from './NotificationBell.vue';
 export { default as OnboardingWizard } from './OnboardingWizard.vue';
 export { default as ProfileCompletenessMeter } from './ProfileCompletenessMeter.vue';
 export { default as ReviewSection } from './ReviewSection.vue';
-
-// ============================================
-// Legacy Aliases (Deprecated - use ui/* instead)
-// ============================================
-export { default as Avatar } from './Avatar.vue';
-export { default as Badge } from './Badge.vue';
-export { default as Button } from './Button.vue';
-export { default as Card } from './Card.vue';
-export { default as Input } from './Input.vue';
-export { default as Modal } from './Modal.vue';
-export { default as Toast } from './Toast.vue';
