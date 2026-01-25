@@ -37,7 +37,7 @@ const success = ref('');
 const userDetails = ref<any>({});
 const moreInfo = ref<any>({});
 const eduExp = ref<any>({ education: [], workExperience: [], volunteerExperience: [] });
-const certSkills = ref<any>({ certifications: [], skills: '' });
+const certSkills = ref<any>({ certifications: [], skills: [] });
 const careerPrefs = ref<any>({});
 
 // Validation errors
@@ -187,10 +187,9 @@ onMounted(async () => {
         volunteerExperience: profile.volunteer_experience || []
       };
 
-      // Populate certSkills tab
       certSkills.value = {
         certifications: profile.certifications || [],
-        skills: Array.isArray(profile.skills) ? profile.skills.join(', ') : (profile.skills || '')
+        skills: Array.isArray(profile.skills) ? profile.skills : []
       };
 
       // Populate careerPrefs tab

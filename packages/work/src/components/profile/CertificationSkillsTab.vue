@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import { 
   ComboboxMultiSelect,
   SkillSelector, 
@@ -27,15 +27,31 @@ const formData = computed({
   set: (val) => emit('update:modelValue', val)
 });
 
-const selectedSkills = ref<SelectedSkill[]>(
-  formData.value.skills?.map((skill: string) => ({ 
+const getSkillsFromData = (skills: any): SelectedSkill[] => {
+  if (!Array.isArray(skills)) return [];
+  return skills.map((skill: string) => ({ 
     name: skill, 
     category: 'Other' 
-  })) || []
-);
+  }));
+};
+
+const selectedSkills = ref<SelectedSkill[]>(getSkillsFromData(formData.value.skills));
+
+// Sync local state when external data changes
+watch(() => formData.value.skills, (newSkills: any) => {
+  const currentSkillNames = selectedSkills.value.map((s: SelectedSkill) => s.name);
+  const newSkillArray = Array.isArray(newSkills) ? newSkills : [];
+  
+  // Only update if they are actually different to avoid cycles
+  if (JSON.stringify(currentSkillNames) !== JSON.stringify(newSkillArray)) {
+    selectedSkills.value = getSkillsFromData(newSkills);
+  }
+}, { deep: true });
 
 const selectedCertifications = ref<string[]>(
-  formData.value.certifications?.map((c: Certification) => c.certificationName) || []
+  Array.isArray(formData.value.certifications)
+    ? formData.value.certifications.map((c: Certification) => c.certificationName)
+    : []
 );
 
 const certificateFiles = ref<File[]>([]);

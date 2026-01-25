@@ -34,6 +34,7 @@ export { default as DataTable } from './DataTable.vue';
 export { default as StatCard } from './StatCard.vue';
 export { default as StatsGrid } from './StatsGrid.vue';
 export { default as EmptyState } from './EmptyState.vue';
+export { default as LoadingSkeleton } from './LoadingSkeleton.vue';
 export { default as ProgressBar } from './ProgressBar.vue';
 export { default as TestimonialCard } from './TestimonialCard.vue';
 
@@ -43,6 +44,7 @@ export { default as BreadcrumbNav } from './BreadcrumbNav.vue';
 export { default as BottomNav } from './BottomNav.vue';
 export { default as Sidebar } from './Sidebar.vue';
 export { default as SearchBar } from './SearchBar.vue';
+export * from './SearchInput.vue';
 export { default as SearchInput } from './SearchInput.vue';
 export { default as ScrollToTop } from './ScrollToTop.vue';
 

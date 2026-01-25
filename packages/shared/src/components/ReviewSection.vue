@@ -1,124 +1,160 @@
 <template>
-  <div class="review-section">
-    <!-- Rating Summary -->
-    <div class="rating-summary">
-      <div class="average-rating">
-        <span class="rating-number">{{ averageRating.toFixed(1) }}</span>
-        <div class="stars">
-          <span
-            v-for="star in 5"
-            :key="star"
-            class="star"
-            :class="{ filled: star <= Math.round(averageRating) }"
-          >
-            ★
-          </span>
-        </div>
-        <span class="review-count">{{ totalReviews }} reviews</span>
-      </div>
-
-      <div class="rating-bars">
-        <div v-for="n in 5" :key="n" class="rating-bar-row">
-          <span class="star-label">{{ 6 - n }}</span>
-          <div class="bar-container">
-            <div
-              class="bar-fill"
-              :style="{ width: `${getPercentage(6 - n)}%` }"
-            ></div>
+  <div class="space-y-6">
+    <!-- Rating Summary Card -->
+    <Card class="bg-muted/30">
+      <CardContent class="p-6">
+        <div class="flex flex-col md:flex-row gap-8 items-center md:items-start">
+          <div class="text-center md:w-1/3 border-b md:border-b-0 md:border-r pb-6 md:pb-0 md:pr-8 border-border">
+            <span class="text-5xl font-extrabold tracking-tighter text-foreground">{{ averageRating.toFixed(1) }}</span>
+            <div class="flex justify-center my-2">
+              <RatingInput :model-value="averageRating" readonly size="md" />
+            </div>
+            <span class="text-sm font-medium text-muted-foreground">{{ totalReviews }} reviews</span>
           </div>
-          <span class="bar-count">{{ ratingBreakdown[6 - n] || 0 }}</span>
-        </div>
-      </div>
-    </div>
 
-    <!-- Write Review Button -->
-    <div v-if="canReview && !hasReviewed" class="write-review-section">
-      <Button @click="showReviewModal = true">Write a Review</Button>
-    </div>
-
-    <!-- Reviews List -->
-    <div class="reviews-list">
-      <div v-for="review in reviews" :key="review.name" class="review-item">
-        <div class="review-header">
-          <Avatar :src="review.reviewer_image" :alt="review.reviewer_name" size="sm" />
-          <div class="reviewer-info">
-            <h4>{{ review.reviewer_name }}</h4>
-            <div class="review-meta">
-              <div class="stars small">
-                <span
-                  v-for="star in 5"
-                  :key="star"
-                  class="star"
-                  :class="{ filled: star <= review.rating }"
-                >
-                  ★
-                </span>
+          <div class="flex-1 w-full space-y-2">
+            <div v-for="n in 5" :key="n" class="flex items-center gap-4">
+              <span class="text-sm font-semibold w-2">{{ 6 - n }}</span>
+              <Star class="h-3 w-3 fill-primary text-primary" />
+              <div class="flex-1">
+                <Progress :model-value="getPercentage(6 - n)" class="h-2" />
               </div>
-              <span class="review-date">{{ formatDate(review.creation) }}</span>
+              <span class="text-xs font-medium text-muted-foreground w-8 text-right">{{ ratingBreakdown[6 - n] || 0 }}</span>
             </div>
           </div>
         </div>
-        <p v-if="review.comment" class="review-comment">{{ review.comment }}</p>
-      </div>
+      </CardContent>
+    </Card>
 
-      <div v-if="reviews.length === 0" class="empty-reviews">
-        <p>No reviews yet</p>
+    <!-- Write Review Entry Point -->
+    <div v-if="canReview && !hasReviewed" class="flex flex-col items-center justify-center p-8 border-2 border-dashed rounded-xl bg-background/50 border-border">
+      <h3 class="text-lg font-semibold mb-2">Share your experience</h3>
+      <p class="text-sm text-muted-foreground mb-4 text-center max-w-sm">
+        Your feedback helps others make better decisions. It only takes a minute!
+      </p>
+      <Dialog v-model:open="showReviewModal">
+        <DialogTrigger as-child>
+          <Button size="lg" class="rounded-full px-8 shadow-lg shadow-primary/20">
+            <PenLine class="h-4 w-4 mr-2" />
+            Write a Review
+          </Button>
+        </DialogTrigger>
+        <DialogContent class="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Write a Review</DialogTitle>
+            <DialogDescription>
+              Share your honest feedback about your experience.
+            </DialogDescription>
+          </DialogHeader>
+          <div class="space-y-6 py-4">
+            <div class="flex flex-col items-center gap-4">
+              <Label class="text-base">Your Rating</Label>
+              <RatingInput v-model="newRating" size="lg" />
+              <span class="text-sm font-semibold text-primary h-5">
+                {{ ratingLabels[newRating - 1] || '' }}
+              </span>
+            </div>
+
+            <div class="space-y-3">
+              <Label for="review-comment">Review Details (Optional)</Label>
+              <Textarea
+                id="review-comment"
+                v-model="newComment"
+                placeholder="What did you like or dislike? How was the service?"
+                class="min-h-[120px] resize-none"
+              />
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="ghost" @click="showReviewModal = false">Cancel</Button>
+            <Button
+              @click="submitReviewHandler"
+              :disabled="!newRating || isSubmitting"
+            >
+              <Loader2 v-if="isSubmitting" class="h-4 w-4 mr-2 animate-spin" />
+              Submit Review
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+    </div>
+
+    <!-- Reviews List Header -->
+    <div class="flex items-center justify-between border-b pb-4">
+      <h3 class="text-xl font-bold tracking-tight">Recent Reviews</h3>
+      <div v-if="reviews.length > 0" class="text-sm text-muted-foreground">
+        Showing {{ reviews.length }} reviews
       </div>
     </div>
 
-    <!-- Review Modal -->
-    <Modal v-model="showReviewModal" title="Write a Review">
-      <div class="review-form">
-        <div class="rating-input">
-          <label>Your Rating</label>
-          <div class="star-selector">
-            <button
-              v-for="star in 5"
-              :key="star"
-              type="button"
-              class="star-button"
-              :class="{ active: star <= newRating }"
-              @click="newRating = star"
-              @mouseenter="hoverRating = star"
-              @mouseleave="hoverRating = 0"
-            >
-              ★
-            </button>
+    <!-- Reviews List -->
+    <div v-if="reviews.length > 0" class="space-y-4">
+      <Card v-for="review in reviews" :key="review.name" class="overflow-hidden transition-all hover:shadow-md border-border/50">
+        <CardContent class="p-5">
+          <div class="flex gap-4 items-start">
+            <Avatar class="h-10 w-10 border">
+              <AvatarImage v-if="review.reviewer_image" :src="review.reviewer_image" />
+              <AvatarFallback>{{ review.reviewer_name?.charAt(0).toUpperCase() }}</AvatarFallback>
+            </Avatar>
+            <div class="flex-1 space-y-1">
+              <div class="flex items-center justify-between">
+                <h4 class="font-bold text-sm">{{ review.reviewer_name }}</h4>
+                <span class="text-xs text-muted-foreground">{{ formatDate(review.creation) }}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <RatingInput :model-value="review.rating" readonly size="sm" />
+                <Badge v-if="review.rating >= 4" variant="secondary" class="h-5 text-[10px] uppercase tracking-wider bg-primary/10 text-primary border-none">
+                  Recommended
+                </Badge>
+              </div>
+              <div class="mt-3 text-sm leading-relaxed text-muted-foreground italic">
+                <Quote class="h-3 w-3 text-primary/30 inline-block -mt-2 mr-1" />
+                {{ review.comment || 'No comment provided' }}
+              </div>
+            </div>
           </div>
-          <span class="rating-label">{{ ratingLabels[newRating - 1] || 'Select rating' }}</span>
-        </div>
+        </CardContent>
+      </Card>
+    </div>
 
-        <div class="form-group">
-          <label>Your Review (Optional)</label>
-          <textarea
-            v-model="newComment"
-            placeholder="Share your experience..."
-            rows="4"
-          ></textarea>
-        </div>
-
-        <div class="modal-actions">
-          <Button variant="ghost" @click="showReviewModal = false">Cancel</Button>
-          <Button
-            @click="submitReviewHandler"
-            :loading="isSubmitting"
-            :disabled="!newRating"
-          >
-            Submit Review
-          </Button>
-        </div>
+    <div v-else-if="!isLoading" class="flex flex-col items-center justify-center py-20 text-center opacity-60">
+      <div class="h-16 w-16 bg-muted rounded-full flex items-center justify-center mb-4">
+        <MessageSquareDashed class="h-8 w-8 text-muted-foreground" />
       </div>
-    </Modal>
+      <p class="text-lg font-medium">No reviews yet</p>
+      <p class="text-sm max-w-xs mt-1">Be the first one to share your feedback!</p>
+    </div>
+    
+    <!-- Loading State -->
+    <div v-if="isLoading" class="space-y-4">
+      <Skeleton v-for="i in 2" :key="i" class="h-32 w-full rounded-xl" />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
-import type { Review, ReviewsResponse } from '../api/reviews';
+import type { Review } from '../api/reviews';
 import * as reviewsApi from '../api/reviews';
-import Avatar from './Avatar.vue';
-import Button from './Button.vue';
-import Modal from './Modal.vue';
+import { RatingInput } from './';
+import { 
+  Button, 
+  Card, CardContent,
+  Progress,
+  Avatar, AvatarImage, AvatarFallback,
+  Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, DialogTrigger,
+  Textarea,
+  Label,
+  Badge,
+  Skeleton
+} from './ui';
+import { 
+  Star, 
+  PenLine, 
+  Loader2, 
+  Quote, 
+  MessageSquareDashed 
+} from 'lucide-vue-next';
 
 const props = defineProps<{
   userId: string;
@@ -142,12 +178,8 @@ const isSubmitting = ref(false);
 const showReviewModal = ref(false);
 const newRating = ref(0);
 const newComment = ref('');
-const hoverRating = ref(0);
 
 const ratingLabels = ['Poor', 'Fair', 'Good', 'Very Good', 'Excellent'];
-
-// Computed
-const displayRating = computed(() => hoverRating.value || newRating.value);
 
 // Methods
 function getPercentage(rating: number): number {
@@ -217,7 +249,6 @@ async function submitReviewHandler() {
     emit('review-submitted');
   } catch (error: any) {
     console.error('Failed to submit review:', error);
-    alert(error.message || 'Failed to submit review');
   } finally {
     isSubmitting.value = false;
   }
@@ -228,226 +259,3 @@ onMounted(() => {
   checkCanReview();
 });
 </script>
-
-<style scoped>
-.review-section {
-  padding: 1rem;
-}
-
-.rating-summary {
-  display: flex;
-  gap: 2rem;
-  padding: 1rem;
-  background: #f9fafb;
-  border-radius: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.average-rating {
-  text-align: center;
-}
-
-.rating-number {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #1f2937;
-}
-
-.stars {
-  display: flex;
-  gap: 0.125rem;
-  justify-content: center;
-}
-
-.stars.small {
-  gap: 0;
-}
-
-.star {
-  color: #d1d5db;
-  font-size: 1.25rem;
-}
-
-.star.filled {
-  color: #fbbf24;
-}
-
-.review-count {
-  display: block;
-  font-size: 0.875rem;
-  color: #6b7280;
-  margin-top: 0.25rem;
-}
-
-.rating-bars {
-  flex: 1;
-}
-
-.rating-bar-row {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.25rem;
-}
-
-.star-label {
-  width: 1rem;
-  font-size: 0.875rem;
-  color: #6b7280;
-}
-
-.bar-container {
-  flex: 1;
-  height: 0.5rem;
-  background: #e5e7eb;
-  border-radius: 0.25rem;
-  overflow: hidden;
-}
-
-.bar-fill {
-  height: 100%;
-  background: #fbbf24;
-  transition: width 0.3s;
-}
-
-.bar-count {
-  width: 1.5rem;
-  font-size: 0.75rem;
-  color: #6b7280;
-  text-align: right;
-}
-
-.write-review-section {
-  margin-bottom: 1.5rem;
-}
-
-.reviews-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.review-item {
-  padding: 1rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
-}
-
-.review-header {
-  display: flex;
-  gap: 0.75rem;
-  margin-bottom: 0.5rem;
-}
-
-.reviewer-info h4 {
-  font-size: 0.875rem;
-  font-weight: 600;
-  margin: 0;
-}
-
-.review-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.review-date {
-  font-size: 0.75rem;
-  color: #9ca3af;
-}
-
-.review-comment {
-  font-size: 0.875rem;
-  color: #4b5563;
-  margin: 0;
-  line-height: 1.5;
-}
-
-.empty-reviews {
-  text-align: center;
-  padding: 2rem;
-  color: #9ca3af;
-}
-
-.review-form {
-  padding: 1rem;
-}
-
-.rating-input {
-  margin-bottom: 1.5rem;
-}
-
-.rating-input label {
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-
-.star-selector {
-  display: flex;
-  gap: 0.25rem;
-}
-
-.star-button {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  color: #d1d5db;
-  cursor: pointer;
-  transition: color 0.15s, transform 0.15s;
-}
-
-.star-button:hover,
-.star-button.active {
-  color: #fbbf24;
-  transform: scale(1.1);
-}
-
-.rating-label {
-  display: block;
-  font-size: 0.875rem;
-  color: #6b7280;
-  margin-top: 0.25rem;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-.form-group label {
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-
-.form-group textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #d1d5db;
-  border-radius: 0.375rem;
-  font-size: 0.875rem;
-  resize: vertical;
-}
-
-.form-group textarea:focus {
-  outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-}
-
-.modal-actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-@media (max-width: 640px) {
-  .rating-summary {
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
-</style>

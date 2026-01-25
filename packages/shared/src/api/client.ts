@@ -118,9 +118,20 @@ class FrappeClient {
 
     // Redirect to login with return URL
     if (typeof window !== 'undefined') {
-      const currentPath = window.location.pathname + window.location.search;
-      const returnUrl = encodeURIComponent(currentPath);
-      window.location.href = `/login?redirect=${returnUrl}`;
+      const currentPath = window.location.pathname;
+      
+      // Prevent loop if already on login page or redirected to oauth
+      if (currentPath === '/login' || currentPath === '/oauth/callback') {
+        console.warn('FrappeClient: Prevented redirect loop while already on auth page');
+        return;
+      }
+
+      const returnUrl = encodeURIComponent(window.location.pathname + window.location.search);
+      
+      // Only set redirect if we are not already going to /login
+      if (currentPath !== '/login') {
+        window.location.href = `/login?redirect=${returnUrl}`;
+      }
     }
   }
 

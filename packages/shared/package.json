@@ -13,6 +13,8 @@
     "./components/ui": "./src/components/ui/index.ts",
     "./types": "./src/types/index.ts",
     "./utils": "./src/utils/index.ts",
+    "./data/*": "./src/data/*.ts",
+    "./data": "./src/data/index.ts",
     "./lib/utils": "./src/lib/utils.ts"
   },
   "dependencies": {

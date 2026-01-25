@@ -1,31 +1,14 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { computed } from 'vue';
 import { 
   ComboboxMultiSelect,
   SearchInput,
-  type SearchResult
+  type SearchResult 
 } from '@bude/shared';
 import { Button, Input, Label, Textarea } from '@bude/shared/components/ui';
 import { Plus, Trash2, Briefcase, GraduationCap } from 'lucide-vue-next';
-import { universities, companies, degreeTypes, fieldsOfStudy } from '@bude/shared/data/profile-presets';
-
-interface Education {
-  institution: string;
-  degree: string;
-  fieldOfStudy: string;
-  startDate: string;
-  endDate: string;
-  location?: string;
-}
-
-interface WorkExperience {
-  company: string;
-  title: string;
-  description: string;
-  startDate: string;
-  endDate: string;
-  current: boolean;
-}
+// Education and WorkExperience interfaces are used by types in this file
+// SearchResult is imported from @bude/shared
 
 const props = defineProps<{
   modelValue: any;
@@ -142,11 +125,11 @@ const searchCompanies = (query: string): SearchResult[] => {
         </Button>
       </div>
 
-      <div v-if="!formData.education?.length" class="text-sm text-muted-foreground italic border rounded-lg p-8 text-center">
+      <div v-if="!Array.isArray(formData.education) || !formData.education.length" class="text-sm text-muted-foreground italic border rounded-lg p-8 text-center">
         No education entries yet. Click "Add Education" to get started.
       </div>
 
-      <div v-for="(edu, index) in formData.education" :key="index" class="border rounded-lg p-4 space-y-4 relative bg-card">
+      <div v-for="(edu, index) in (Array.isArray(formData.education) ? formData.education : [])" :key="index" class="border rounded-lg p-4 space-y-4 relative bg-card">
         <button
           type="button"
           @click="removeEducation(index)"
@@ -249,11 +232,11 @@ const searchCompanies = (query: string): SearchResult[] => {
         </Button>
       </div>
 
-      <div v-if="!formData.workExperience?.length" class="text-sm text-muted-foreground italic border rounded-lg p-8 text-center">
+      <div v-if="!Array.isArray(formData.workExperience) || !formData.workExperience.length" class="text-sm text-muted-foreground italic border rounded-lg p-8 text-center">
         No work experience yet. Click "Add Experience" to get started.
       </div>
 
-      <div v-for="(work, index) in formData.workExperience" :key="index" class="border rounded-lg p-4 space-y-4 relative bg-card">
+      <div v-for="(work, index) in (Array.isArray(formData.workExperience) ? formData.workExperience : [])" :key="index" class="border rounded-lg p-4 space-y-4 relative bg-card">
         <button
           type="button"
           @click="removeWorkExperience(index)"
@@ -331,7 +314,7 @@ const searchCompanies = (query: string): SearchResult[] => {
               type="checkbox"
               :id="`work-current-${index}`"
               :checked="work.current"
-              @change="updateWorkExperience(index, 'current', ($event.target as HTMLInputElement).checked)"
+              @change="updateWorkExperience(Number(index), 'current', ($event.target as HTMLInputElement).checked)"
               class="h-4 w-4 rounded border-gray-300"
             />
             <Label :for="`work-current-${index}`" class="cursor-pointer">

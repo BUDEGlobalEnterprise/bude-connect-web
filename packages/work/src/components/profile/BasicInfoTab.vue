@@ -5,8 +5,8 @@ import {
   FileUploadZone,
   ColorPicker
 } from '@bude/shared';
-import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
-import { User, Upload } from 'lucide-vue-next';
+import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@bude/shared/components/ui';
+// Removed unused imports
 import { 
   roles, 
   industries, 
@@ -33,8 +33,8 @@ const coverImage = ref<File[]>([]);
 const selectedRoles = ref<string[]>(
   formData.value.primaryRole ? [formData.value.primaryRole] : []
 );
-const selectedIndustries = ref<string[]>(formData.value.industries || []);
-const selectedLanguages = ref<string[]>(formData.value.languages || []);
+const selectedIndustries = ref<string[]>(Array.isArray(formData.value.industries) ? formData.value.industries : []);
+const selectedLanguages = ref<string[]>(Array.isArray(formData.value.languages) ? formData.value.languages : []);
 const selectedCategories = ref<string[]>(
   formData.value.userCategory ? [formData.value.userCategory] : []
 );
