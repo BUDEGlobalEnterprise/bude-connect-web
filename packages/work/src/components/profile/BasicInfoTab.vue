@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 import { 
   FileUploadZone,
   ColorPicker
@@ -10,6 +10,11 @@ import {
   timezones,
   countries
 } from '@bude/shared/data/profile-presets';
+import { 
+  getLocationData, 
+  stateAccesor, 
+  type LocationHierarchy 
+} from '@bude/shared/data/locations';
 
 const props = defineProps<{
   modelValue: any;
@@ -24,6 +29,8 @@ const formData = computed({
 
 const profilePhoto = ref<File[]>([]);
 const coverImage = ref<File[]>([]);
+const locationData = ref<LocationHierarchy | null>(null);
+const isLoadingLocation = ref(false);
 
 const updateField = (field: string, value: any) => {
   emit('update:modelValue', {
@@ -31,6 +38,88 @@ const updateField = (field: string, value: any) => {
     [field]: value
   });
 };
+
+// State options
+const stateOptions = computed(() => {
+  if (formData.value.country === 'India') {
+    return Object.keys(stateAccesor).sort();
+  }
+  return [];
+});
+
+// District options
+const districtOptions = computed(() => {
+  if (!locationData.value) return [];
+  return locationData.value.districts.map(d => d.name).sort();
+});
+
+// Taluka options
+const talukaOptions = computed(() => {
+  if (!locationData.value || !formData.value.district) return [];
+  const district = locationData.value.districts.find(d => d.name === formData.value.district);
+  return district ? district.talukas.map(t => t.name).sort() : [];
+});
+
+// Village options
+const villageOptions = computed(() => {
+  if (!locationData.value || !formData.value.district || !formData.value.taluka) return [];
+  const district = locationData.value.districts.find(d => d.name === formData.value.district);
+  if (!district) return [];
+  const taluka = district.talukas.find(t => t.name === formData.value.taluka);
+  return taluka ? taluka.villages.sort() : [];
+});
+
+// Load location data when state changes
+watch(() => formData.value.state, async (newState) => {
+  if (formData.value.country === 'India' && newState) {
+    isLoadingLocation.value = true;
+    locationData.value = await getLocationData(newState);
+    isLoadingLocation.value = false;
+  } else {
+    locationData.value = null;
+  }
+});
+
+// Clear dependent fields
+watch(() => formData.value.country, (newVal) => {
+  if (newVal !== 'India') {
+    updateField('state', '');
+    updateField('district', '');
+    updateField('taluka', '');
+    updateField('village', '');
+  }
+});
+
+watch(() => formData.value.state, (newVal, oldVal) => {
+  if (newVal !== oldVal) {
+    updateField('district', '');
+    updateField('taluka', '');
+    updateField('village', '');
+  }
+});
+
+watch(() => formData.value.district, (newVal, oldVal) => {
+  if (newVal !== oldVal) {
+    updateField('taluka', '');
+    updateField('village', '');
+  }
+});
+
+watch(() => formData.value.taluka, (newVal, oldVal) => {
+  if (newVal !== oldVal) {
+    updateField('village', '');
+  }
+});
+
+// Initial load if state is already selected
+onMounted(async () => {
+  if (formData.value.country === 'India' && formData.value.state) {
+    isLoadingLocation.value = true;
+    locationData.value = await getLocationData(formData.value.state);
+    isLoadingLocation.value = false;
+  }
+});
+
 </script>
 
 <template>
@@ -132,40 +221,126 @@ const updateField = (field: string, value: any) => {
     </div>
 
     <!-- Location & Timezone -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div class="space-y-2">
-        <Label for="timezone">Time Zone</Label>
-        <Select
-          :model-value="formData.timezone"
-          @update:model-value="updateField('timezone', $event)"
-        >
-          <SelectTrigger id="timezone">
-            <SelectValue placeholder="Select timezone" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem v-for="tz in timezones" :key="tz" :value="tz">
-              {{ tz }}
-            </SelectItem>
-          </SelectContent>
-        </Select>
+    <div class="space-y-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="space-y-2">
+          <Label for="timezone">Time Zone</Label>
+          <Select
+            :model-value="formData.timezone"
+            @update:model-value="updateField('timezone', $event)"
+          >
+            <SelectTrigger id="timezone">
+              <SelectValue placeholder="Select timezone" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem v-for="tz in timezones" :key="tz" :value="tz">
+                {{ tz }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <!-- Country (Syncs to HR) -->
+        <div class="space-y-2">
+          <Label for="country">Country (Syncs to HR Portal)</Label>
+          <Select
+            :model-value="formData.country"
+            @update:model-value="updateField('country', $event)"
+          >
+            <SelectTrigger id="country">
+              <SelectValue placeholder="Select country" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem v-for="c in countries" :key="c.value" :value="c.value">
+                {{ c.label }}
+              </SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
       </div>
 
-      <!-- Country (Syncs to HR) -->
-      <div class="space-y-2">
-        <Label for="country">Country (Syncs to HR Portal)</Label>
-        <Select
-          :model-value="formData.country"
-          @update:model-value="updateField('country', $event)"
-        >
-          <SelectTrigger id="country">
-            <SelectValue placeholder="Select country" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem v-for="c in countries" :key="c.value" :value="c.value">
-              {{ c.label }}
-            </SelectItem>
-          </SelectContent>
-        </Select>
+      <!-- Indian Location Hierarchy -->
+      <div v-if="formData.country === 'India'" class="space-y-4 border-l-2 border-primary-100 pl-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- State -->
+          <div class="space-y-2">
+            <Label for="state">State</Label>
+            <Select
+              :model-value="formData.state"
+              @update:model-value="updateField('state', $event)"
+            >
+              <SelectTrigger id="state">
+                <SelectValue placeholder="Select State" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem v-for="st in stateOptions" :key="st" :value="st">
+                  {{ st }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          <!-- District -->
+          <div class="space-y-2">
+            <Label for="district">District</Label>
+            <Select
+              :model-value="formData.district"
+              @update:model-value="updateField('district', $event)"
+              :disabled="!formData.state || isLoadingLocation"
+            >
+              <SelectTrigger id="district">
+                <SelectValue :placeholder="isLoadingLocation ? 'Loading...' : 'Select District'" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem v-for="dist in districtOptions" :key="dist" :value="dist">
+                  {{ dist }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        <!-- Taluka & Village -->
+        <div v-if="formData.district" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="space-y-2">
+            <Label for="taluka">Taluka</Label>
+            <Select
+              :model-value="formData.taluka"
+              @update:model-value="updateField('taluka', $event)"
+              :disabled="!formData.district"
+            >
+              <SelectTrigger id="taluka">
+                <SelectValue placeholder="Select Taluka" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem v-for="t in talukaOptions" :key="t" :value="t">
+                  {{ t }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          <div class="space-y-2">
+            <Label for="village">Village</Label>
+             <!-- Using a Select (Combobox ideally) for Village -->
+             <Select
+              :model-value="formData.village"
+              @update:model-value="updateField('village', $event)"
+              :disabled="!formData.taluka"
+            >
+              <SelectTrigger id="village">
+                <SelectValue placeholder="Select Village" />
+              </SelectTrigger>
+              <SelectContent>
+                <!-- Limit verification to avoid 1000s of items in DOM if using Select -->
+                <!-- Ideally use a Virtualized Combobox here -->
+                <SelectItem v-for="v in villageOptions" :key="v" :value="v">
+                  {{ v }}
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
       </div>
     </div>
 

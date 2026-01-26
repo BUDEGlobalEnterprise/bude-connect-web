@@ -6,7 +6,6 @@ import {
   Button,
   Input,
   LoadingSkeleton,
-  BottomNav,
 } from "@bude/shared/components";
 import * as authApi from "@bude/shared/api/auth";
 import { idTypes } from "@bude/shared/data/profile-presets";
@@ -339,7 +338,7 @@ onMounted(() => {
       </div>
     </div>
 
-    <BottomNav />
+
   </div>
 </template>
 
