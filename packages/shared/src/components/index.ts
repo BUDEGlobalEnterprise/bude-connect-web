@@ -46,6 +46,7 @@ export { default as Sidebar } from './Sidebar.vue';
 export { default as SearchBar } from './SearchBar.vue';
 export * from './SearchInput.vue';
 export { default as SearchInput } from './SearchInput.vue';
+export { default as MultiSearchInput } from './MultiSearchInput.vue';
 export { default as ScrollToTop } from './ScrollToTop.vue';
 
 // Layout & Dialogs

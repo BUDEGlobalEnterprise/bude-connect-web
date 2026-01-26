@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
 import { 
-  SkillSelector, 
-  FileUploadZone
+  MultiSearchInput, 
+  FileUploadZone,
+  type SearchResult
 } from '@bude/shared';
 import { Input, Label, Button } from '@bude/shared/components/ui';
-import { Plus, Trash2 } from 'lucide-vue-next';
+import { Plus, Trash2, Code } from 'lucide-vue-next';
 import { skillCategories } from '@bude/shared/data/profile-presets';
 
 interface SelectedSkill {
@@ -71,9 +72,14 @@ const updateCertification = (index: number, field: string, value: any) => {
   updateField('certifications', certifs);
 };
 
-const updateSkills = (skills: SelectedSkill[]) => {
-  selectedSkills.value = skills;
-  updateField('skills', skills);
+const updateSkills = (skills: (SelectedSkill | string)[]) => {
+  // Normalize strings to objects
+  const normalized = skills.map(s => {
+    if (typeof s === 'string') return { name: s, category: 'Technical' };
+    return s;
+  });
+  selectedSkills.value = normalized;
+  updateField('skills', normalized);
 };
 
 const updateField = (field: string, value: any) => {
@@ -81,6 +87,30 @@ const updateField = (field: string, value: any) => {
     ...formData.value,
     [field]: value
   });
+};
+
+// Flatten skills for search
+const allSkills = computed(() => {
+  const skills: SelectedSkill[] = [];
+  skillCategories.forEach(cat => {
+    cat.skills.forEach(skillName => {
+      skills.push({ name: skillName, category: cat.name });
+    });
+  });
+  return skills;
+});
+
+const searchSkills = (query: string): SearchResult[] => {
+  const lowerQuery = query.toLowerCase();
+  return allSkills.value
+    .filter(s => s.name.toLowerCase().includes(lowerQuery))
+    .slice(0, 50)
+    .map(s => ({
+      title: s.name,
+      description: s.category,
+      icon: Code,
+      data: s
+    }));
 };
 </script>
 
@@ -95,10 +125,12 @@ const updateField = (field: string, value: any) => {
         </p>
       </div>
 
-      <SkillSelector
-        :categories="skillCategories"
-        v-model="selectedSkills"
+      <MultiSearchInput
+        :model-value="selectedSkills"
         @update:model-value="updateSkills"
+        :on-search="searchSkills"
+        placeholder="Search skills (e.g. Vue.js, Python)..."
+        allow-custom
       />
     </div>
 

@@ -2,7 +2,9 @@
 import { ref, computed, watch, onMounted } from 'vue';
 import { 
   FileUploadZone,
-  ColorPicker
+  ColorPicker,
+  SearchInput,
+  type SearchResult 
 } from '@bude/shared';
 import { 
   Input, 
@@ -11,14 +13,36 @@ import {
   SelectContent, 
   SelectItem, 
   SelectTrigger, 
-  SelectValue,
-  Combobox 
+  SelectValue
 } from '@bude/shared/components/ui';
+import { MapPin } from 'lucide-vue-next';
 import { 
   seniorityLevels,
   timezones,
-  countries
+  countries,
+  roles 
 } from '@bude/shared/data/profile-presets';
+
+// ... (existing imports and code)
+
+// Helper to create simple search handler for presets
+const createSimpleSearchHandler = (options: { label: string, value: string }[], icon: any) => {
+  return (query: string): SearchResult[] => {
+    return options
+      .filter(opt => opt.label.toLowerCase().includes(query.toLowerCase()))
+      .slice(0, 50)
+      .map(opt => ({
+        title: opt.label,
+        data: opt.value,
+        icon: icon
+      }));
+  };
+};
+
+import { Briefcase } from 'lucide-vue-next';
+const searchRoles = computed(() => createSimpleSearchHandler(roles, Briefcase));
+
+
 import { 
   getLocationData, 
   stateAccesor, 
@@ -78,9 +102,42 @@ const villageOptions = computed(() => {
   return taluka ? taluka.villages.sort() : [];
 });
 
+// Search Handlers
+const createSearchHandler = (options: string[]) => {
+  return (query: string): SearchResult[] => {
+    const filtered = options
+      .filter(opt => opt.toLowerCase().includes(query.toLowerCase()))
+      .slice(0, 50); // Limit results for performance
+    
+    // Always add Other option
+    const results = filtered.map(opt => ({
+      title: opt,
+      icon: MapPin,
+      data: opt
+    }));
+
+    // Add Other if not exact match (or always?) 
+    // User wants "Other" option always available
+    if (!results.some(r => r.title === 'Other')) {
+       results.push({
+        title: 'Other',
+        icon: MapPin,
+        data: 'Other'
+      });
+    }
+
+    return results;
+  };
+};
+
+const searchStates = computed(() => createSearchHandler(stateOptions.value));
+const searchDistricts = computed(() => createSearchHandler(districtOptions.value));
+const searchTalukas = computed(() => createSearchHandler(talukaOptions.value));
+const searchVillages = computed(() => createSearchHandler(villageOptions.value));
+
 // Load location data when state changes
 watch(() => formData.value.state, async (newState) => {
-  if (formData.value.country === 'India' && newState) {
+  if (formData.value.country === 'India' && newState && newState !== 'Other') {
     isLoadingLocation.value = true;
     locationData.value = await getLocationData(newState);
     isLoadingLocation.value = false;
@@ -141,7 +198,7 @@ watch(() => formData.value.village, (newVal, oldVal) => {
 
 // Initial load if state is already selected
 onMounted(async () => {
-  if (formData.value.country === 'India' && formData.value.state) {
+  if (formData.value.country === 'India' && formData.value.state && formData.value.state !== 'Other') {
     isLoadingLocation.value = true;
     locationData.value = await getLocationData(formData.value.state);
     isLoadingLocation.value = false;
@@ -217,14 +274,12 @@ onMounted(async () => {
       <h3 class="text-lg font-semibold">Professional Information</h3>
       
       <div class="space-y-4">
-        <!-- Primary Role (Syncs to HR) -->
         <div class="space-y-2">
           <Label>Primary Role (Syncs to HR Portal)</Label>
-          <Input
-            id="primaryRole"
-            :model-value="formData.primaryRole"
-            @update:model-value="updateField('primaryRole', $event)"
-            placeholder="e.g. Software Engineer"
+          <SearchInput
+            :placeholder="formData.primaryRole || 'Search Roles (e.g. Software Engineer)'"
+            :on-search="searchRoles"
+            @select="(result) => updateField('primaryRole', result.title)"
           />
         </div>
 
@@ -293,12 +348,10 @@ onMounted(async () => {
           <!-- State -->
           <div class="space-y-2">
             <Label for="state">State</Label>
-            <Combobox
-              :model-value="formData.state"
-              @update:model-value="updateField('state', $event)"
-              :options="stateOptions"
-              placeholder="Select State..."
-              allow-other
+            <SearchInput
+              :placeholder="formData.state || 'Search State...'"
+              :on-search="searchStates"
+              @select="(result) => updateField('state', result.title)"
             />
             <Input 
               v-if="formData.state === 'Other'"
@@ -312,13 +365,10 @@ onMounted(async () => {
         <!-- District -->
           <div class="space-y-2">
             <Label for="district">District</Label>
-            <Combobox
-              :model-value="formData.district"
-              @update:model-value="updateField('district', $event)"
-              :options="districtOptions"
-              :disabled="!formData.state || isLoadingLocation"
-              :placeholder="isLoadingLocation ? 'Loading...' : 'Select District...'"
-              allow-other
+            <SearchInput
+              :placeholder="isLoadingLocation ? 'Loading...' : (formData.district || 'Search District...')"
+              :on-search="searchDistricts"
+              @select="(result) => updateField('district', result.title)"
             />
             <Input 
               v-if="formData.district === 'Other'"
@@ -334,13 +384,10 @@ onMounted(async () => {
         <div v-if="formData.district && formData.district !== 'Other'" class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class="space-y-2">
             <Label for="taluka">Taluka</Label>
-            <Combobox
-              :model-value="formData.taluka"
-              @update:model-value="updateField('taluka', $event)"
-              :options="talukaOptions"
-              :disabled="false"
-              placeholder="Select Taluka..."
-              allow-other
+            <SearchInput
+              :placeholder="formData.taluka || 'Search Taluka...'"
+              :on-search="searchTalukas"
+              @select="(result) => updateField('taluka', result.title)"
             />
             <Input 
               v-if="formData.taluka === 'Other'"
@@ -353,14 +400,10 @@ onMounted(async () => {
 
           <div class="space-y-2">
             <Label for="village">Village</Label>
-             <Combobox
-              :model-value="formData.village"
-              @update:model-value="updateField('village', $event)"
-              :options="villageOptions"
-              :disabled="!formData.taluka || formData.taluka === 'Other'"
-              placeholder="Select Village..."
-              allow-other
-              :min-search-length="3"
+             <SearchInput
+              :placeholder="formData.village || 'Search Village...'"
+              :on-search="searchVillages"
+              @select="(result) => updateField('village', result.title)"
             />
             <Input 
               v-if="formData.village === 'Other'"

@@ -1,7 +1,26 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
-import { genders } from '@bude/shared/data/profile-presets';
+import { 
+  Input, 
+  Label, 
+  Select, 
+  SelectContent, 
+  SelectItem, 
+  SelectTrigger, 
+  SelectValue, 
+  Textarea 
+} from '@bude/shared/components/ui';
+import { 
+  MultiSearchInput, 
+  SearchInput, 
+  type SearchResult 
+} from '@bude/shared';
+import { Globe, Building2 } from 'lucide-vue-next';
+import { 
+  genders, 
+  languages, 
+  industries 
+} from '@bude/shared/data/profile-presets';
 
 const props = defineProps<{
   modelValue: any;
@@ -10,7 +29,7 @@ const props = defineProps<{
 const emit = defineEmits(['update:modelValue']);
 
 const formData = computed({
-  get: () => props.modelValue || {},
+  get: () => props.modelValue || { languages: [] },
   set: (val) => emit('update:modelValue', val)
 });
 
@@ -19,6 +38,29 @@ const updateField = (field: string, value: any) => {
     ...formData.value,
     [field]: value
   });
+};
+
+// Search Handlers
+const searchLanguages = (query: string): SearchResult[] => {
+  return languages
+    .filter(l => l.label.toLowerCase().includes(query.toLowerCase()))
+    .slice(0, 50)
+    .map(l => ({
+      title: l.label,
+      data: l.value,
+      icon: Globe
+    }));
+};
+
+const searchIndustries = (query: string): SearchResult[] => {
+  return industries
+    .filter(i => i.label.toLowerCase().includes(query.toLowerCase()))
+    .slice(0, 50)
+    .map(i => ({
+      title: i.label,
+      data: i.value,
+      icon: Building2
+    }));
 };
 </script>
 
@@ -64,6 +106,18 @@ const updateField = (field: string, value: any) => {
           :model-value="formData.mobileNo"
           @update:model-value="updateField('mobileNo', $event)"
           placeholder="+91 98765 43210"
+        />
+      </div>
+
+      <!-- Languages -->
+      <div class="space-y-2 col-span-1 md:col-span-2">
+        <Label>Languages Spoken</Label>
+        <MultiSearchInput
+          :model-value="formData.languages || []"
+          @update:model-value="updateField('languages', $event)"
+          :on-search="searchLanguages"
+          placeholder="Search Languages..."
+          allow-custom
         />
       </div>
 
@@ -141,6 +195,16 @@ const updateField = (field: string, value: any) => {
           :model-value="formData.profession"
           @update:model-value="updateField('profession', $event)"
           placeholder="e.g. Architect"
+        />
+      </div>
+
+      <!-- Industry -->
+      <div class="space-y-2">
+        <Label>Industry</Label>
+        <SearchInput
+          :placeholder="formData.industry || 'Search Industry...'"
+          :on-search="searchIndustries"
+          @select="(result) => updateField('industry', result.title)"
         />
       </div>
     </div>

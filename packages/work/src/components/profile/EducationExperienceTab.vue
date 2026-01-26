@@ -11,8 +11,24 @@ import {
   degreeTypes, 
   fieldsOfStudy, 
   universities, 
-  companies 
+  companies,
+  roles
 } from '@bude/shared/data/profile-presets';
+
+// ... (existing imports)
+
+const searchRoles = (query: string): SearchResult[] => {
+  return roles
+    .filter(role => role.label.toLowerCase().includes(query.toLowerCase()))
+    .slice(0, 10)
+    .map(role => ({
+      title: role.label,
+      icon: Briefcase,
+      data: role.value
+    }));
+};
+
+
 
 const props = defineProps<{
   modelValue: any;
@@ -244,10 +260,10 @@ const searchCompanies = (query: string): SearchResult[] => {
           <!-- Job Title -->
           <div class="space-y-2">
             <Label>Job Title *</Label>
-            <Input
-              :model-value="work.title"
-              @update:model-value="updateWorkExperience(Number(index), 'title', $event)"
-              placeholder="e.g., Senior Frontend Developer"
+            <SearchInput
+              :placeholder="work.title || 'Search job titles...'"
+              :on-search="searchRoles"
+              @select="(result) => updateWorkExperience(Number(index), 'title', result.title)"
             />
           </div>
 
