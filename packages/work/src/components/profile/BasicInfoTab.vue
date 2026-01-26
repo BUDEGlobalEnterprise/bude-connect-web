@@ -6,9 +6,7 @@ import {
 } from '@bude/shared';
 import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@bude/shared/components/ui';
 import { 
-  seniorityLevels,
-  userCategories,
-  openToOptions
+  seniorityLevels
 } from '@bude/shared/data/profile-presets';
 
 const props = defineProps<{
@@ -25,36 +23,11 @@ const formData = computed({
 const profilePhoto = ref<File[]>([]);
 const coverImage = ref<File[]>([]);
 
-const selectedIndustries = ref<string[]>(Array.isArray(formData.value.industries) ? formData.value.industries : []);
-const selectedCategories = ref<string[]>(
-  formData.value.userCategory ? [formData.value.userCategory] : []
-);
-const selectedOpenTo = ref<string[]>(
-  typeof formData.value.openTo === 'string' 
-    ? formData.value.openTo.split(',').map((s: string) => s.trim())
-    : formData.value.openTo || []
-);
-
 const updateField = (field: string, value: any) => {
   emit('update:modelValue', {
     ...formData.value,
     [field]: value
   });
-};
-
-const updateIndustries = (values: string[]) => {
-  selectedIndustries.value = values;
-  updateField('industries', values);
-};
-
-const updateCategories = (values: string[]) => {
-  selectedCategories.value = values;
-  updateField('userCategory', values[0] || '');
-};
-
-const updateOpenTo = (values: string[]) => {
-  selectedOpenTo.value = values;
-  updateField('openTo', values.join(', '));
 };
 
 // Timezone options
@@ -69,7 +42,7 @@ const timezoneOptions = [
 
 <template>
   <div class="space-y-8">
-    <!-- Profile Photo Upload -->
+    <!-- Profile Photo -->
     <div class="space-y-4">
       <div>
         <h3 class="text-lg font-semibold mb-2">Profile Photo</h3>
@@ -89,30 +62,25 @@ const timezoneOptions = [
 
     <!-- Basic Information -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <!-- First Name -->
       <div class="space-y-2">
         <Label for="firstName">First Name *</Label>
         <Input
           id="firstName"
           :model-value="formData.firstName"
           @update:model-value="updateField('firstName', $event)"
-          placeholder="First Name"
           required
         />
       </div>
 
-      <!-- Last Name -->
       <div class="space-y-2">
         <Label for="lastName">Last Name</Label>
         <Input
           id="lastName"
           :model-value="formData.lastName"
           @update:model-value="updateField('lastName', $event)"
-          placeholder="Last Name"
         />
       </div>
 
-      <!-- Email -->
       <div class="space-y-2">
         <Label for="email">Email *</Label>
         <Input
@@ -120,19 +88,16 @@ const timezoneOptions = [
           type="email"
           :model-value="formData.email"
           @update:model-value="updateField('email', $event)"
-          placeholder="Email"
           required
         />
       </div>
 
-      <!-- Username -->
       <div class="space-y-2">
         <Label for="username">Username</Label>
         <Input
           id="username"
           :model-value="formData.username"
           @update:model-value="updateField('username', $event)"
-          placeholder="Username"
         />
       </div>
     </div>
@@ -142,13 +107,14 @@ const timezoneOptions = [
       <h3 class="text-lg font-semibold">Professional Information</h3>
       
       <div class="space-y-4">
-        <!-- Primary Role (Read-only from HRMS) -->
+        <!-- Primary Role (Syncs to HR) -->
         <div class="space-y-2">
-          <Label>Primary Role (Managed in HR Portal)</Label>
+          <Label>Primary Role (Syncs to HR Portal)</Label>
           <Input
+            id="primaryRole"
             :model-value="formData.primaryRole"
-            disabled
-            placeholder="Managed in HR Portal"
+            @update:model-value="updateField('primaryRole', $event)"
+            placeholder="e.g. Software Engineer"
           />
         </div>
 
@@ -169,36 +135,11 @@ const timezoneOptions = [
             </SelectContent>
           </Select>
         </div>
-
-        <!-- Industries (Read-only or limited) -->
-        <div class="space-y-2">
-          <Label>Industries</Label>
-          <div class="text-sm border rounded-md p-2 bg-muted/20 min-h-[40px]">
-             {{ Array.isArray(formData.industries) ? formData.industries.join(', ') : 'None' }}
-          </div>
-        </div>
-
-        <!-- User Category -->
-        <div class="space-y-2">
-          <Label>User Category</Label>
-          <div class="text-sm border rounded-md p-2 bg-muted/20">
-             {{ formData.userCategory || 'None' }}
-          </div>
-        </div>
-
-        <!-- Open To -->
-        <div class="space-y-2">
-          <Label>Open To</Label>
-          <div class="text-sm border rounded-md p-2 bg-muted/20">
-             {{ formData.openTo || 'None' }}
-          </div>
-        </div>
       </div>
     </div>
 
     <!-- Location & Timezone -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <!-- Time Zone -->
       <div class="space-y-2">
         <Label for="timezone">Time Zone</Label>
         <Select
@@ -216,30 +157,37 @@ const timezoneOptions = [
         </Select>
       </div>
 
-      <!-- Country (Read-only) -->
+      <!-- Country (Syncs to HR) -->
       <div class="space-y-2">
-        <Label for="country">Country (Managed in HR Portal)</Label>
-        <Input
-          id="country"
+        <Label for="country">Country (Syncs to HR Portal)</Label>
+        <Select
           :model-value="formData.country"
-          disabled
-          placeholder="India"
-        />
+          @update:model-value="updateField('country', $event)"
+        >
+          <SelectTrigger id="country">
+            <SelectValue placeholder="Select country" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="India">India</SelectItem>
+            <SelectItem value="United States">United States</SelectItem>
+            <SelectItem value="United Kingdom">United Kingdom</SelectItem>
+            <SelectItem value="Canada">Canada</SelectItem>
+            <SelectItem value="Australia">Australia</SelectItem>
+          </SelectContent>
+        </Select>
       </div>
     </div>
 
-    <!-- Theme Color -->
+    <!-- Branding -->
     <div class="space-y-4">
       <ColorPicker
         label="Theme Color"
         :model-value="formData.themeColor || '#3b82f6'"
         @update:model-value="updateField('themeColor', $event)"
       />
-    </div>
-
-    <!-- Cover Image -->
-    <div class="space-y-4">
+      
       <FileUploadZone
+        label="Cover Image"
         v-model="coverImage"
         accept="image/*"
         :max-size="10 * 1024 * 1024"
