@@ -6,7 +6,7 @@
       :placeholder="placeholder"
       class="pr-20"
       @input="handleInput"
-      @focus="showResults = true"
+      @focus="handleFocus"
     />
     
     <div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
@@ -77,7 +77,7 @@ const showResults = ref(false);
 const selectedIndex = ref(0);
 
 const handleInput = async () => {
-  if (!props.onSearch || query.value.length < 2) {
+  if (!props.onSearch) {
     results.value = [];
     return;
   }
@@ -85,6 +85,11 @@ const handleInput = async () => {
   const searchResults = await props.onSearch(query.value);
   results.value = Array.isArray(searchResults) ? searchResults : [];
   selectedIndex.value = 0;
+};
+
+const handleFocus = () => {
+  showResults.value = true;
+  handleInput();
 };
 
 const selectResult = (result: SearchResult) => {

@@ -27,7 +27,7 @@
         :placeholder="modelValue.length === 0 ? placeholder : ''"
         class="flex-1 min-w-[120px] bg-transparent outline-none placeholder:text-muted-foreground ml-1"
         @input="handleInput"
-        @focus="showResults = true"
+        @focus="handleFocus"
         @keydown.backspace="handleBackspace"
         @keydown.enter.prevent="handleEnter"
       />
@@ -116,11 +116,6 @@ const handleInput = async () => {
     return;
   }
   
-  if (query.value.length < 1) {
-    results.value = [];
-    return;
-  }
-  
   const searchResults = await props.onSearch(query.value);
   
   // Filter out already selected items
@@ -191,6 +186,11 @@ const handleEnter = () => {
   } else if (results.value.length > 0) {
     selectResult(results.value[0]);
   }
+};
+
+const handleFocus = () => {
+  showResults.value = true;
+  handleInput();
 };
 
 const focusInput = () => {

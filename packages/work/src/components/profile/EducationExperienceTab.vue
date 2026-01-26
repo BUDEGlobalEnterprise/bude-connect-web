@@ -12,7 +12,9 @@ import {
   fieldsOfStudy, 
   universities, 
   companies,
-  roles
+  roles,
+  jobTypes,
+  workModes
 } from '@bude/shared/data/profile-presets';
 
 // ... (existing imports)
@@ -265,6 +267,68 @@ const searchCompanies = (query: string): SearchResult[] => {
               :on-search="searchRoles"
               @select="(result) => updateWorkExperience(Number(index), 'title', result.title)"
             />
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Employment Type -->
+            <div class="space-y-2">
+              <Label>Employment Type</Label>
+              <ComboboxMultiSelect
+                :options="jobTypes"
+                :model-value="work.employmentType ? [work.employmentType] : []"
+                @update:model-value="(val) => updateWorkExperience(Number(index), 'employmentType', val[0])"
+                placeholder="Select type..."
+              />
+            </div>
+
+            <!-- Work Mode -->
+            <div class="space-y-2">
+              <Label>Location Type</Label>
+              <ComboboxMultiSelect
+                :options="workModes"
+                :model-value="work.workMode ? [work.workMode] : []"
+                @update:model-value="(val) => updateWorkExperience(Number(index), 'workMode', val[0])"
+                placeholder="Select mode..."
+              />
+            </div>
+
+            <!-- Start Date -->
+            <div class="space-y-2">
+              <Label>Start Date *</Label>
+              <Input
+                type="month"
+                :model-value="work.startDate"
+                @update:model-value="updateWorkExperience(Number(index), 'startDate', $event)"
+              />
+            </div>
+
+            <!-- End Date -->
+            <div class="space-y-2">
+              <div class="flex items-center justify-between">
+                <Label>End Date</Label>
+                <div class="flex items-center space-x-2">
+                  <input
+                    type="checkbox"
+                    :id="`current-${index}`"
+                    :checked="work.current"
+                    @change="updateWorkExperience(Number(index), 'current', ($event.target as HTMLInputElement).checked)"
+                    class="h-3 w-3 rounded border-gray-300"
+                  />
+                  <Label :for="`current-${index}`" class="text-xs font-normal cursor-pointer">
+                    I currently work here
+                  </Label>
+                </div>
+              </div>
+              <Input
+                v-if="!work.current"
+                type="month"
+                :model-value="work.endDate"
+                @update:model-value="updateWorkExperience(Number(index), 'endDate', $event)"
+              />
+              <div v-else class="h-10 flex items-center px-3 border rounded-md bg-muted text-muted-foreground text-sm">
+                Present
+              </div>
+            </div>
           </div>
 
           <!-- Description -->

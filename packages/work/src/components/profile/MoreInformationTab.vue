@@ -1,65 +1,64 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { 
-  Input, 
-  Label, 
-  Select, 
-  SelectContent, 
-  SelectItem, 
-  SelectTrigger, 
-  SelectValue, 
-  Textarea 
-} from '@bude/shared/components/ui';
-import { 
-  MultiSearchInput, 
-  SearchInput, 
-  type SearchResult 
-} from '@bude/shared';
-import { Globe, Building2 } from 'lucide-vue-next';
-import { 
-  genders, 
-  languages, 
-  industries 
-} from '@bude/shared/data/profile-presets';
+import { computed } from "vue";
+import {
+  Input,
+  Label,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+  Textarea,
+} from "@bude/shared/components/ui";
+import { MultiSearchInput, SearchInput, type SearchResult } from "@bude/shared";
+import { Globe, Building2 } from "lucide-vue-next";
+import {
+  genders,
+  languages,
+  industries,
+  salutations,
+  bloodGroups,
+  maritalStatuses,
+} from "@bude/shared/data/profile-presets";
 
 const props = defineProps<{
   modelValue: any;
 }>();
 
-const emit = defineEmits(['update:modelValue']);
+const emit = defineEmits(["update:modelValue"]);
 
 const formData = computed({
   get: () => props.modelValue || { languages: [] },
-  set: (val) => emit('update:modelValue', val)
+  set: (val) => emit("update:modelValue", val),
 });
 
 const updateField = (field: string, value: any) => {
-  emit('update:modelValue', {
+  emit("update:modelValue", {
     ...formData.value,
-    [field]: value
+    [field]: value,
   });
 };
 
 // Search Handlers
 const searchLanguages = (query: string): SearchResult[] => {
   return languages
-    .filter(l => l.label.toLowerCase().includes(query.toLowerCase()))
+    .filter((l) => l.label.toLowerCase().includes(query.toLowerCase()))
     .slice(0, 50)
-    .map(l => ({
+    .map((l) => ({
       title: l.label,
       data: l.value,
-      icon: Globe
+      icon: Globe,
     }));
 };
 
 const searchIndustries = (query: string): SearchResult[] => {
   return industries
-    .filter(i => i.label.toLowerCase().includes(query.toLowerCase()))
+    .filter((i) => i.label.toLowerCase().includes(query.toLowerCase()))
     .slice(0, 50)
-    .map(i => ({
+    .map((i) => ({
       title: i.label,
       data: i.value,
-      icon: Building2
+      icon: Building2,
     }));
 };
 </script>
@@ -67,6 +66,28 @@ const searchIndustries = (query: string): SearchResult[] => {
 <template>
   <div class="space-y-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Salutation -->
+      <div class="space-y-2">
+        <Label for="salutation">Salutation</Label>
+        <Select
+          :model-value="formData.salutation"
+          @update:model-value="updateField('salutation', $event)"
+        >
+          <SelectTrigger id="salutation">
+            <SelectValue placeholder="Title" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem
+              v-for="s in salutations"
+              :key="s.value"
+              :value="s.value"
+            >
+              {{ s.label }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
       <!-- Gender (Syncs to HR) -->
       <div class="space-y-2">
         <Label for="gender">Gender (Syncs to HR)</Label>
@@ -80,6 +101,61 @@ const searchIndustries = (query: string): SearchResult[] => {
           <SelectContent>
             <SelectItem v-for="g in genders" :key="g.value" :value="g.value">
               {{ g.label }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      <!-- Birth Date (Syncs to HR) -->
+      <div class="space-y-2">
+        <Label for="birthDate">Birth Date (Syncs to HR)</Label>
+        <Input
+          id="birthDate"
+          type="date"
+          :model-value="formData.birthDate"
+          @update:model-value="updateField('birthDate', $event)"
+        />
+      </div>
+
+      <!-- Blood Group -->
+      <div class="space-y-2">
+        <Label for="bloodGroup">Blood Group</Label>
+        <Select
+          :model-value="formData.bloodGroup"
+          @update:model-value="updateField('bloodGroup', $event)"
+        >
+          <SelectTrigger id="bloodGroup">
+            <SelectValue placeholder="Select Blood Group" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem
+              v-for="bg in bloodGroups"
+              :key="bg.value"
+              :value="bg.value"
+            >
+              {{ bg.label }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      <!-- Marital Status -->
+      <div class="space-y-2">
+        <Label for="maritalStatus">Marital Status</Label>
+        <Select
+          :model-value="formData.maritalStatus"
+          @update:model-value="updateField('maritalStatus', $event)"
+        >
+          <SelectTrigger id="maritalStatus">
+            <SelectValue placeholder="Select Status" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem
+              v-for="ms in maritalStatuses"
+              :key="ms.value"
+              :value="ms.value"
+            >
+              {{ ms.label }}
             </SelectItem>
           </SelectContent>
         </Select>
@@ -118,17 +194,6 @@ const searchIndustries = (query: string): SearchResult[] => {
           :on-search="searchLanguages"
           placeholder="Search Languages..."
           allow-custom
-        />
-      </div>
-
-      <!-- Birth Date (Syncs to HR) -->
-      <div class="space-y-2">
-        <Label for="birthDate">Birth Date (Syncs to HR)</Label>
-        <Input
-          id="birthDate"
-          type="date"
-          :model-value="formData.birthDate"
-          @update:model-value="updateField('birthDate', $event)"
         />
       </div>
 
@@ -209,6 +274,51 @@ const searchIndustries = (query: string): SearchResult[] => {
       </div>
     </div>
 
+    <!-- Identification Documents -->
+    <div class="space-y-4">
+      <h3 class="text-sm font-medium text-muted-foreground border-b pb-2">
+        Identification Documents
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- PAN Number -->
+        <div class="space-y-2">
+          <Label for="pan">PAN Number</Label>
+          <Input
+            id="pan"
+            :model-value="formData.pan"
+            @update:model-value="updateField('pan', $event.toUpperCase())"
+            placeholder="ABCDE1234F"
+            maxlength="10"
+          />
+        </div>
+
+        <!-- Aadhaar Number -->
+        <div class="space-y-2">
+          <Label for="aadhaar">Aadhaar Number</Label>
+          <Input
+            id="aadhaar"
+            :model-value="formData.aadhaar"
+            @update:model-value="
+              updateField('aadhaar', $event.replace(/\D/g, ''))
+            "
+            placeholder="1234 5678 9012"
+            maxlength="12"
+          />
+        </div>
+
+        <!-- Passport Number -->
+        <div class="space-y-2">
+          <Label for="passport">Passport Number</Label>
+          <Input
+            id="passport"
+            :model-value="formData.passport"
+            @update:model-value="updateField('passport', $event.toUpperCase())"
+            placeholder="A1234567"
+          />
+        </div>
+      </div>
+    </div>
+
     <!-- Interests -->
     <div class="space-y-2">
       <Label for="interests">Interests</Label>
@@ -239,7 +349,12 @@ const searchIndustries = (query: string): SearchResult[] => {
         type="checkbox"
         id="hidePrivateInfo"
         :checked="formData.hidePrivateInfo"
-        @change="updateField('hidePrivateInfo', ($event.target as HTMLInputElement).checked)"
+        @change="
+          updateField(
+            'hidePrivateInfo',
+            ($event.target as HTMLInputElement).checked,
+          )
+        "
         class="h-4 w-4 rounded border-gray-300"
       />
       <Label for="hidePrivateInfo" class="cursor-pointer">

@@ -1,13 +1,16 @@
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue';
-import { 
-  MultiSearchInput, 
+import { ref, computed, watch } from "vue";
+import {
+  MultiSearchInput,
   FileUploadZone,
-  type SearchResult
-} from '@bude/shared';
-import { Input, Label, Button } from '@bude/shared/components/ui';
-import { Plus, Trash2, Code } from 'lucide-vue-next';
-import { skillCategories } from '@bude/shared/data/profile-presets';
+  type SearchResult,
+} from "@bude/shared";
+import { Input, Label, Button } from "@bude/shared/components/ui";
+import { Plus, Trash2, Code, Award } from "lucide-vue-next";
+import {
+  skillCategories,
+  certifications,
+} from "@bude/shared/data/profile-presets";
 
 interface SelectedSkill {
   name: string;
@@ -20,80 +23,98 @@ const props = defineProps<{
   modelValue: any;
 }>();
 
-const emit = defineEmits(['update:modelValue']);
+const emit = defineEmits(["update:modelValue"]);
 
 const formData = computed({
-  get: () => props.modelValue || { certifications: [], skills: [], certificateFiles: [] },
-  set: (val) => emit('update:modelValue', val)
+  get: () =>
+    props.modelValue || {
+      certifications: [],
+      skills: [],
+      certificateFiles: [],
+    },
+  set: (val) => emit("update:modelValue", val),
 });
 
 const getSkillsFromData = (skills: any): SelectedSkill[] => {
   if (!Array.isArray(skills)) return [];
-  return skills.map((skill: any) => ({ 
-    name: typeof skill === 'string' ? skill : (skill.name || skill.skill_name), 
-    category: skill.category || 'Technical' 
+  return skills.map((skill: any) => ({
+    name: typeof skill === "string" ? skill : skill.name || skill.skill_name,
+    category: skill.category || "Technical",
   }));
 };
 
-const selectedSkills = ref<SelectedSkill[]>(getSkillsFromData(formData.value.skills));
+const selectedSkills = ref<SelectedSkill[]>(
+  getSkillsFromData(formData.value.skills),
+);
 
-watch(() => formData.value.skills, (newSkills: any) => {
-  const currentSkillNames = selectedSkills.value.map((s: SelectedSkill) => s.name);
-  const newSkillNames = Array.isArray(newSkills) 
-    ? newSkills.map(s => typeof s === 'string' ? s : (s.name || s.skill_name))
-    : [];
-  
-  if (JSON.stringify(currentSkillNames) !== JSON.stringify(newSkillNames)) {
-    selectedSkills.value = getSkillsFromData(newSkills);
-  }
-}, { deep: true });
+watch(
+  () => formData.value.skills,
+  (newSkills: any) => {
+    const currentSkillNames = selectedSkills.value.map(
+      (s: SelectedSkill) => s.name,
+    );
+    const newSkillNames = Array.isArray(newSkills)
+      ? newSkills.map((s) =>
+          typeof s === "string" ? s : s.name || s.skill_name,
+        )
+      : [];
+
+    if (JSON.stringify(currentSkillNames) !== JSON.stringify(newSkillNames)) {
+      selectedSkills.value = getSkillsFromData(newSkills);
+    }
+  },
+  { deep: true },
+);
 
 const certificateFiles = ref<File[]>([]);
 
 const addCertification = () => {
   const certifs = [...(formData.value.certifications || [])];
   certifs.push({
-    certificationName: '',
-    organization: '',
-    issueDate: ''
+    certificationName: "",
+    organization: "",
+    issueDate: "",
+    expiryDate: "",
+    credentialId: "",
+    credentialUrl: "",
   });
-  updateField('certifications', certifs);
+  updateField("certifications", certifs);
 };
 
 const removeCertification = (index: number) => {
   const certifs = [...(formData.value.certifications || [])];
   certifs.splice(index, 1);
-  updateField('certifications', certifs);
+  updateField("certifications", certifs);
 };
 
 const updateCertification = (index: number, field: string, value: any) => {
   const certifs = [...(formData.value.certifications || [])];
   certifs[index] = { ...certifs[index], [field]: value };
-  updateField('certifications', certifs);
+  updateField("certifications", certifs);
 };
 
 const updateSkills = (skills: (SelectedSkill | string)[]) => {
   // Normalize strings to objects
-  const normalized = skills.map(s => {
-    if (typeof s === 'string') return { name: s, category: 'Technical' };
+  const normalized = skills.map((s) => {
+    if (typeof s === "string") return { name: s, category: "Technical" };
     return s;
   });
   selectedSkills.value = normalized;
-  updateField('skills', normalized);
+  updateField("skills", normalized);
 };
 
 const updateField = (field: string, value: any) => {
-  emit('update:modelValue', {
+  emit("update:modelValue", {
     ...formData.value,
-    [field]: value
+    [field]: value,
   });
 };
 
 // Flatten skills for search
 const allSkills = computed(() => {
   const skills: SelectedSkill[] = [];
-  skillCategories.forEach(cat => {
-    cat.skills.forEach(skillName => {
+  skillCategories.forEach((cat) => {
+    cat.skills.forEach((skillName) => {
       skills.push({ name: skillName, category: cat.name });
     });
   });
@@ -103,13 +124,25 @@ const allSkills = computed(() => {
 const searchSkills = (query: string): SearchResult[] => {
   const lowerQuery = query.toLowerCase();
   return allSkills.value
-    .filter(s => s.name.toLowerCase().includes(lowerQuery))
+    .filter((s) => s.name.toLowerCase().includes(lowerQuery))
     .slice(0, 50)
-    .map(s => ({
+    .map((s) => ({
       title: s.name,
       description: s.category,
       icon: Code,
-      data: s
+      data: s,
+    }));
+};
+
+const searchCertifications = (query: string): SearchResult[] => {
+  const lowerQuery = query.toLowerCase();
+  return certifications
+    .filter((c) => c.label.toLowerCase().includes(lowerQuery))
+    .slice(0, 50)
+    .map((c) => ({
+      title: c.label,
+      data: c.value,
+      icon: Award,
     }));
 };
 </script>
@@ -143,16 +176,21 @@ const searchSkills = (query: string): SearchResult[] => {
             Add certifications (Syncs to Academy)
           </p>
         </div>
-        <Button type="button" @click="addCertification" size="sm" variant="outline">
+        <Button
+          type="button"
+          @click="addCertification"
+          size="sm"
+          variant="outline"
+        >
           <Plus class="h-4 w-4 mr-2" />
           Add Certification
         </Button>
       </div>
 
       <div v-if="formData.certifications?.length" class="space-y-3">
-        <div 
-          v-for="(cert, index) in formData.certifications" 
-          :key="index" 
+        <div
+          v-for="(cert, index) in formData.certifications"
+          :key="index"
           class="border rounded-lg p-4 space-y-3 relative bg-card"
         >
           <button
@@ -165,20 +203,80 @@ const searchSkills = (query: string): SearchResult[] => {
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pr-8">
             <div class="space-y-2">
-              <Label>Certification</Label>
-              <Input
-                :model-value="cert.certificationName"
-                @update:model-value="(val) => updateCertification(index as number, 'certificationName', val)"
-                placeholder="Certification Name"
+              <Label>Certification *</Label>
+              <SearchInput
+                :placeholder="
+                  cert.certificationName || 'Search Certification...'
+                "
+                :on-search="searchCertifications"
+                @select="
+                  (result) =>
+                    updateCertification(
+                      index as number,
+                      'certificationName',
+                      result.title,
+                    )
+                "
               />
             </div>
 
             <div class="space-y-2">
-              <Label>Issuing Organization</Label>
+              <Label>Issuing Organization *</Label>
               <Input
                 :model-value="cert.organization"
-                @update:model-value="(val) => updateCertification(index as number, 'organization', val)"
+                @update:model-value="
+                  (val) =>
+                    updateCertification(index as number, 'organization', val)
+                "
                 placeholder="e.g., AWS, Google"
+              />
+            </div>
+
+            <div class="space-y-2">
+              <Label>Issue Date</Label>
+              <Input
+                type="month"
+                :model-value="cert.issueDate"
+                @update:model-value="
+                  (val) =>
+                    updateCertification(index as number, 'issueDate', val)
+                "
+              />
+            </div>
+
+            <div class="space-y-2">
+              <Label>Expiry Date (Optional)</Label>
+              <Input
+                type="month"
+                :model-value="cert.expiryDate"
+                @update:model-value="
+                  (val) =>
+                    updateCertification(index as number, 'expiryDate', val)
+                "
+              />
+            </div>
+
+            <div class="space-y-2">
+              <Label>Credential ID</Label>
+              <Input
+                :model-value="cert.credentialId"
+                @update:model-value="
+                  (val) =>
+                    updateCertification(index as number, 'credentialId', val)
+                "
+                placeholder="Certificate Number"
+              />
+            </div>
+
+            <div class="space-y-2">
+              <Label>Credential URL</Label>
+              <Input
+                :model-value="cert.credentialUrl"
+                @update:model-value="
+                  (val) =>
+                    updateCertification(index as number, 'credentialUrl', val)
+                "
+                placeholder="https://..."
               />
             </div>
           </div>

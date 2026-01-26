@@ -951,3 +951,48 @@ export const countries: ComboboxOption[] = [
   { value: 'South Africa', label: 'South Africa' },
   { value: 'Other', label: 'Other' }
 ];
+
+export const salutations: ComboboxOption[] = [
+  { value: 'Mr', label: 'Mr' },
+  { value: 'Ms', label: 'Ms' },
+  { value: 'Mrs', label: 'Mrs' },
+  { value: 'Dr', label: 'Dr' },
+  { value: 'Prof', label: 'Prof' },
+  { value: 'Mx', label: 'Mx' },
+];
+
+export const bloodGroups: ComboboxOption[] = [
+  { value: 'A+', label: 'A+' },
+  { value: 'A-', label: 'A-' },
+  { value: 'B+', label: 'B+' },
+  { value: 'B-', label: 'B-' },
+  { value: 'AB+', label: 'AB+' },
+  { value: 'AB-', label: 'AB-' },
+  { value: 'O+', label: 'O+' },
+  { value: 'O-', label: 'O-' },
+];
+
+export const maritalStatuses: ComboboxOption[] = [
+  { value: 'Single', label: 'Single' },
+  { value: 'Married', label: 'Married' },
+  { value: 'Divorced', label: 'Divorced' },
+  { value: 'Widowed', label: 'Widowed' },
+  { value: 'Separated', label: 'Separated' },
+  { value: 'Other', label: 'Other' },
+];
+
+export const departments: ComboboxOption[] = [
+  { value: 'Engineering', label: 'Engineering' },
+  { value: 'Product', label: 'Product' },
+  { value: 'Design', label: 'Design' },
+  { value: 'Marketing', label: 'Marketing' },
+  { value: 'Sales', label: 'Sales' },
+  { value: 'HR', label: 'Human Resources' },
+  { value: 'Finance', label: 'Finance' },
+  { value: 'Operations', label: 'Operations' },
+  { value: 'Legal', label: 'Legal' },
+  { value: 'IT', label: 'IT / Support' },
+  { value: 'Customer Success', label: 'Customer Success' },
+  { value: 'R&D', label: 'Research & Development' },
+  { value: 'Administration', label: 'Administration' },
+];
