@@ -4,7 +4,16 @@ import {
   FileUploadZone,
   ColorPicker
 } from '@bude/shared';
-import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@bude/shared/components/ui';
+import { 
+  Input, 
+  Label, 
+  Select, 
+  SelectContent, 
+  SelectItem, 
+  SelectTrigger, 
+  SelectValue,
+  Combobox 
+} from '@bude/shared/components/ui';
 import { 
   seniorityLevels,
   timezones,
@@ -55,14 +64,14 @@ const districtOptions = computed(() => {
 
 // Taluka options
 const talukaOptions = computed(() => {
-  if (!locationData.value || !formData.value.district) return [];
+  if (!locationData.value || !formData.value.district || formData.value.district === 'Other') return [];
   const district = locationData.value.districts.find(d => d.name === formData.value.district);
   return district ? district.talukas.map(t => t.name).sort() : [];
 });
 
 // Village options
 const villageOptions = computed(() => {
-  if (!locationData.value || !formData.value.district || !formData.value.taluka) return [];
+  if (!locationData.value || !formData.value.district || !formData.value.taluka || formData.value.taluka === 'Other') return [];
   const district = locationData.value.districts.find(d => d.name === formData.value.district);
   if (!district) return [];
   const taluka = district.talukas.find(t => t.name === formData.value.taluka);
@@ -87,6 +96,10 @@ watch(() => formData.value.country, (newVal) => {
     updateField('district', '');
     updateField('taluka', '');
     updateField('village', '');
+    updateField('stateOther', '');
+    updateField('districtOther', '');
+    updateField('talukaOther', '');
+    updateField('villageOther', '');
   }
 });
 
@@ -95,6 +108,10 @@ watch(() => formData.value.state, (newVal, oldVal) => {
     updateField('district', '');
     updateField('taluka', '');
     updateField('village', '');
+    if (newVal !== 'Other') updateField('stateOther', '');
+    updateField('districtOther', '');
+    updateField('talukaOther', '');
+    updateField('villageOther', '');
   }
 });
 
@@ -102,12 +119,23 @@ watch(() => formData.value.district, (newVal, oldVal) => {
   if (newVal !== oldVal) {
     updateField('taluka', '');
     updateField('village', '');
+    if (newVal !== 'Other') updateField('districtOther', '');
+    updateField('talukaOther', '');
+    updateField('villageOther', '');
   }
 });
 
 watch(() => formData.value.taluka, (newVal, oldVal) => {
   if (newVal !== oldVal) {
     updateField('village', '');
+    if (newVal !== 'Other') updateField('talukaOther', '');
+    updateField('villageOther', '');
+  }
+});
+
+watch(() => formData.value.village, (newVal, oldVal) => {
+  if (newVal !== oldVal && newVal !== 'Other') {
+    updateField('villageOther', '');
   }
 });
 
@@ -265,80 +293,82 @@ onMounted(async () => {
           <!-- State -->
           <div class="space-y-2">
             <Label for="state">State</Label>
-            <Select
+            <Combobox
               :model-value="formData.state"
               @update:model-value="updateField('state', $event)"
-            >
-              <SelectTrigger id="state">
-                <SelectValue placeholder="Select State" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem v-for="st in stateOptions" :key="st" :value="st">
-                  {{ st }}
-                </SelectItem>
-              </SelectContent>
-            </Select>
+              :options="stateOptions"
+              placeholder="Select State..."
+              allow-other
+            />
+            <Input 
+              v-if="formData.state === 'Other'"
+              placeholder="Enter State Name"
+              :model-value="formData.stateOther"
+              @update:model-value="updateField('stateOther', $event)"
+              class="mt-2"
+            />
           </div>
 
-          <!-- District -->
+        <!-- District -->
           <div class="space-y-2">
             <Label for="district">District</Label>
-            <Select
+            <Combobox
               :model-value="formData.district"
               @update:model-value="updateField('district', $event)"
+              :options="districtOptions"
               :disabled="!formData.state || isLoadingLocation"
-            >
-              <SelectTrigger id="district">
-                <SelectValue :placeholder="isLoadingLocation ? 'Loading...' : 'Select District'" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem v-for="dist in districtOptions" :key="dist" :value="dist">
-                  {{ dist }}
-                </SelectItem>
-              </SelectContent>
-            </Select>
+              :placeholder="isLoadingLocation ? 'Loading...' : 'Select District...'"
+              allow-other
+            />
+            <Input 
+              v-if="formData.district === 'Other'"
+              placeholder="Enter District Name"
+              :model-value="formData.districtOther"
+              @update:model-value="updateField('districtOther', $event)"
+              class="mt-2"
+            />
           </div>
         </div>
 
         <!-- Taluka & Village -->
-        <div v-if="formData.district" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div v-if="formData.district && formData.district !== 'Other'" class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class="space-y-2">
             <Label for="taluka">Taluka</Label>
-            <Select
+            <Combobox
               :model-value="formData.taluka"
               @update:model-value="updateField('taluka', $event)"
-              :disabled="!formData.district"
-            >
-              <SelectTrigger id="taluka">
-                <SelectValue placeholder="Select Taluka" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem v-for="t in talukaOptions" :key="t" :value="t">
-                  {{ t }}
-                </SelectItem>
-              </SelectContent>
-            </Select>
+              :options="talukaOptions"
+              :disabled="false"
+              placeholder="Select Taluka..."
+              allow-other
+            />
+            <Input 
+              v-if="formData.taluka === 'Other'"
+              placeholder="Enter Taluka Name"
+              :model-value="formData.talukaOther"
+              @update:model-value="updateField('talukaOther', $event)"
+              class="mt-2"
+            />
           </div>
 
           <div class="space-y-2">
             <Label for="village">Village</Label>
-             <!-- Using a Select (Combobox ideally) for Village -->
-             <Select
+             <Combobox
               :model-value="formData.village"
               @update:model-value="updateField('village', $event)"
-              :disabled="!formData.taluka"
-            >
-              <SelectTrigger id="village">
-                <SelectValue placeholder="Select Village" />
-              </SelectTrigger>
-              <SelectContent>
-                <!-- Limit verification to avoid 1000s of items in DOM if using Select -->
-                <!-- Ideally use a Virtualized Combobox here -->
-                <SelectItem v-for="v in villageOptions" :key="v" :value="v">
-                  {{ v }}
-                </SelectItem>
-              </SelectContent>
-            </Select>
+              :options="villageOptions"
+              :disabled="!formData.taluka || formData.taluka === 'Other'"
+              placeholder="Select Village..."
+              allow-other
+              :min-search-length="3"
+            />
+            <Input 
+              v-if="formData.village === 'Other'"
+              placeholder="Enter Village Name"
+              :model-value="formData.villageOther"
+              @update:model-value="updateField('villageOther', $event)"
+              class="mt-2"
+            />
           </div>
         </div>
       </div>
