@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router';
 import { Card, CardContent, CardHeader, CardTitle, Tabs, TabsContent, TabsList, TabsTrigger, Button } from '@bude/shared/components/ui';
 import { Save, AlertCircle, CheckCircle2 } from 'lucide-vue-next';
 import {
-  getFullFreelancerProfile,
+  getEditableProfile,
   updateUserCoreFields,
   updateAdditionalInfo,
   updateBasicInfo,
@@ -14,7 +14,6 @@ import {
   updateCertifications,
   updateSkills,
   updateCareerPreferences,
-  updateSocialLinks,
   updateCoverImage,
   type CareerPreferences
 } from '@bude/shared/api';
@@ -133,24 +132,21 @@ const handleBack = () => {
   }
 };
 
-// Watch for changes
-const watchForChanges = () => {
-  hasUnsavedChanges.value = true;
-};
 
 // Load existing profile data
 onMounted(async () => {
   try {
     isLoading.value = true;
-    const profile = await getFullFreelancerProfile();
+    const result = await getEditableProfile();
+    const profile = result?.data;
     
     if (profile) {
       // Populate userDetails tab
       userDetails.value = {
         email: profile.email || '',
-        language: profile.language || '',
+        language: profile.language || 'en-GB',
         fullName: profile.full_name || '',
-        timezone: profile.time_zone || '',
+        timezone: profile.time_zone || profile.timezone || 'Asia/Kolkata',
         firstName: profile.first_name || '',
         country: profile.country || '',
         username: profile.username || '',
@@ -160,7 +156,8 @@ onMounted(async () => {
         lastName: profile.last_name || '',
         coverImage: profile.cover_image || '',
         enabled: !!profile.enabled,
-        termsAccepted: !!profile.terms_accepted
+        termsAccepted: !!profile.terms_accepted,
+        seniorityLevel: profile.seniority_level || ''
       };
 
       // Populate moreInfo tab
@@ -180,15 +177,41 @@ onMounted(async () => {
         hidePrivateInfo: !!profile.hide_private_info
       };
 
-      // Populate eduExp tab
+      // Populate eduExp tab with mapping to camelCase
       eduExp.value = {
-        education: profile.education || [],
-        workExperience: profile.work_experience || [],
-        volunteerExperience: profile.volunteer_experience || []
+        education: (profile.education || []).map((edu: any) => ({
+          institution: edu.institution || '',
+          location: edu.location || '',
+          degree: edu.degree || edu.degreeType || '',
+          fieldOfStudy: edu.field_of_study || edu.fieldOfStudy || '',
+          startDate: edu.start_date || edu.startDate || '',
+          endDate: edu.end_date || edu.endDate || '',
+          isCurrent: !!(edu.is_current || edu.isCurrent)
+        })),
+        workExperience: (profile.work_experience || []).map((work: any) => ({
+          company: work.company || '',
+          title: work.title || work.position || '',
+          description: work.description || '',
+          startDate: work.start_date || work.fromDate || '',
+          endDate: work.end_date || work.toDate || '',
+          current: !!(work.is_current || work.isCurrent)
+        })),
+        volunteerExperience: (profile.volunteer_experience || []).map((vol: any) => ({
+          title: vol.title || '',
+          company: vol.organization || vol.company || '',
+          location: vol.location || '',
+          startDate: vol.start_date || vol.fromDate || '',
+          endDate: vol.end_date || vol.toDate || '',
+          current: !!(vol.is_current || vol.isCurrent)
+        }))
       };
 
       certSkills.value = {
-        certifications: profile.certifications || [],
+        certifications: (profile.certifications || []).map((cert: any) => ({
+          certificationName: cert.certification_name || cert.certificationName || '',
+          organization: cert.organization || '',
+          issueDate: cert.issue_date || cert.issueDate || ''
+        })),
         skills: Array.isArray(profile.skills) ? profile.skills : []
       };
 
@@ -308,12 +331,8 @@ const handleSave = async () => {
     }
 
     // 8. Update skills
-    if (certSkills.value.skills) {
-      const skillsArray = certSkills.value.skills
-        .split(/[,\n]/)
-        .map((s: string) => s.trim())
-        .filter((s: string) => s);
-      await updateSkills(skillsArray);
+    if (Array.isArray(certSkills.value.skills) && certSkills.value.skills.length) {
+      await updateSkills(certSkills.value.skills);
     }
 
     // 9. Update career preferences

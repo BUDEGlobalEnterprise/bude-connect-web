@@ -94,6 +94,15 @@ export async function getFullFreelancerProfile(): Promise<any> {
 }
 
 /**
+ * Get current user's profile formatted for editing
+ * Returns data in snake_case format matching database fields
+ * Use this for populating the CompleteProfileForm
+ */
+export async function getEditableProfile(): Promise<any> {
+  return frappe.call('bude_core.profile.freelancer_profile.get_editable_profile');
+}
+
+/**
  * Update User core fields (gender, birth_date, middle_name)
  */
 export async function updateUserCoreFields(data: UserCoreFields): Promise<void> {

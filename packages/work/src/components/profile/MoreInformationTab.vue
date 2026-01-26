@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
-import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
+import { computed } from 'vue';
+import { Input, Label, Textarea } from '@bude/shared/components/ui';
 
 const props = defineProps<{
   modelValue: any;
@@ -13,8 +13,6 @@ const formData = computed({
   set: (val) => emit('update:modelValue', val)
 });
 
-const genderOptions = ['Male', 'Female', 'Non-binary', 'Prefer not to say'];
-
 const updateField = (field: string, value: any) => {
   emit('update:modelValue', {
     ...formData.value,
@@ -26,22 +24,15 @@ const updateField = (field: string, value: any) => {
 <template>
   <div class="space-y-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <!-- Gender -->
+      <!-- Gender (Read-only) -->
       <div class="space-y-2">
-        <Label for="gender">Gender</Label>
-        <Select
+        <Label for="gender">Gender (Managed in HR Portal)</Label>
+        <Input
+          id="gender"
           :model-value="formData.gender"
-          @update:model-value="updateField('gender', $event)"
-        >
-          <SelectTrigger id="gender">
-            <SelectValue placeholder="Select gender" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem v-for="g in genderOptions" :key="g" :value="g">
-              {{ g }}
-            </SelectItem>
-          </SelectContent>
-        </Select>
+          disabled
+          placeholder="Managed in HR Portal"
+        />
       </div>
 
       <!-- Phone -->
@@ -68,25 +59,24 @@ const updateField = (field: string, value: any) => {
         />
       </div>
 
-      <!-- Birth Date -->
+      <!-- Birth Date (Read-only) -->
       <div class="space-y-2">
-        <Label for="birthDate">Birth Date</Label>
+        <Label for="birthDate">Birth Date (Managed in HR Portal)</Label>
         <Input
           id="birthDate"
-          type="date"
           :model-value="formData.birthDate"
-          @update:model-value="updateField('birthDate', $event)"
+          disabled
         />
       </div>
 
-      <!-- Location -->
+      <!-- Location (Read-only) -->
       <div class="space-y-2">
-        <Label for="location">Location</Label>
+        <Label for="location">Location (Managed in HR Portal)</Label>
         <Input
           id="location"
           :model-value="formData.location"
-          @update:model-value="updateField('location', $event)"
-          placeholder="City, State, Country"
+          disabled
+          placeholder="Managed in HR Portal"
         />
       </div>
 
@@ -134,19 +124,19 @@ const updateField = (field: string, value: any) => {
         />
       </div>
 
-      <!-- Profession -->
+      <!-- Profession (Read-only) -->
       <div class="space-y-2">
-        <Label for="profession">Profession</Label>
+        <Label for="profession">Profession (Managed in HR Portal)</Label>
         <Input
           id="profession"
           :model-value="formData.profession"
-          @update:model-value="updateField('profession', $event)"
-          placeholder="Software Engineer"
+          disabled
+          placeholder="Managed in HR Portal"
         />
       </div>
     </div>
 
-    <!-- Interests (large textarea) -->
+    <!-- Interests -->
     <div class="space-y-2">
       <Label for="interests">Interests</Label>
       <Textarea
@@ -158,15 +148,15 @@ const updateField = (field: string, value: any) => {
       />
     </div>
 
-    <!-- Bio (large textarea) -->
+    <!-- Bio (Read-only) -->
     <div class="space-y-2">
-      <Label for="bio">Bio</Label>
+      <Label for="bio">Bio (Managed in HR Portal)</Label>
       <Textarea
         id="bio"
         :model-value="formData.bio"
-        @update:model-value="updateField('bio', $event)"
+        disabled
         :rows="4"
-        placeholder="Tell us about yourself..."
+        placeholder="Managed in HR Portal"
       />
     </div>
 

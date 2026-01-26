@@ -114,10 +114,11 @@ export const useWalletStore = defineStore('wallet', () => {
     isLoading.value = true;
     try {
       const result = await walletApi.getTransactions({ page, page_size: pageSize });
+      const data = Array.isArray(result.data) ? result.data : [];
       if (page === 0) {
-        transactions.value = result.data;
+        transactions.value = data;
       } else {
-        transactions.value.push(...result.data);
+        transactions.value.push(...data);
       }
       return result;
     } finally {
@@ -128,7 +129,8 @@ export const useWalletStore = defineStore('wallet', () => {
   async function loadUnlockedContacts() {
     try {
       const result = await walletApi.getUnlockedContacts();
-      result.data.forEach((unlock) => {
+      const data = Array.isArray(result.data) ? result.data : [];
+      data.forEach((unlock) => {
         const contact: ContactInfo = {
           phone: unlock.contact.phone,
           email: unlock.contact.email,
