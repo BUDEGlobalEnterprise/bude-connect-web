@@ -3,15 +3,15 @@ import { ref } from "vue";
 import { Button } from "@bude/shared/components";
 
 const emit = defineEmits<{
-  submit: [data: { bid_amount: number; proposal_text: string }];
+  submit: [data: { bidAmount: number; proposalText: string }];
   cancel: [];
 }>();
 
-const proposal = ref({ bid_amount: 0, proposal_text: "" });
+const proposal = ref({ bidAmount: 1000, proposalText: "" });
 const isSubmitting = ref(false);
 
 async function handleSubmit() {
-  if (!proposal.value.bid_amount || !proposal.value.proposal_text) return;
+  if (!proposal.value.bidAmount || !proposal.value.proposalText) return;
   isSubmitting.value = true;
   try {
     emit("submit", proposal.value);
@@ -30,7 +30,7 @@ async function handleSubmit() {
           >Bid Amount (₹)</label
         >
         <input
-          v-model.number="proposal.bid_amount"
+          v-model.number="proposal.bidAmount"
           type="number"
           min="0"
           class="input"
@@ -42,7 +42,7 @@ async function handleSubmit() {
           >Cover Letter</label
         >
         <textarea
-          v-model="proposal.proposal_text"
+          v-model="proposal.proposalText"
           rows="5"
           class="input"
           placeholder="Why are you the best fit for this job?"
@@ -51,7 +51,7 @@ async function handleSubmit() {
       <div class="flex gap-4">
         <Button
           :loading="isSubmitting"
-          :disabled="!proposal.bid_amount || !proposal.proposal_text"
+          :disabled="!proposal.bidAmount || !proposal.proposalText"
           @click="handleSubmit"
         >
           Submit Proposal

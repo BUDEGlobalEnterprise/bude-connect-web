@@ -3,8 +3,7 @@ import { ref, onMounted, computed } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { getJob, submitProposal } from "@bude/shared/api";
 import { useUserStore } from "@bude/shared";
-import { formatPrice } from "@bude/shared/utils";
-import { Button, Badge, LoadingSkeleton, Input } from "@bude/shared/components";
+import { Button, Badge, LoadingSkeleton } from "@bude/shared/components";
 import type { JobOpening, Bid } from "@bude/shared/types";
 import ProposalForm from "../components/ProposalForm.vue";
 import ProposalList from "../components/ProposalList.vue";
@@ -17,7 +16,7 @@ const job = ref<(JobOpening & { bids?: Bid[] }) | null>(null);
 const isLoading = ref(true);
 const showProposalForm = ref(false);
 
-const isOwner = computed(() => job.value?.posted_by === userStore.user?.name);
+const isOwner = computed(() => job.value?.postedBy === userStore.user?.name);
 const isFreelancer = computed(() => userStore.isServiceProvider);
 
 async function loadJob() {
@@ -33,11 +32,11 @@ async function loadJob() {
 }
 
 async function handleProposalSubmit(proposal: {
-  bid_amount: number;
-  proposal_text: string;
+  bidAmount: number;
+  proposalText: string;
 }) {
   if (!job.value) return;
-  await submitProposal({ job_id: job.value.name, ...proposal });
+  await submitProposal({ jobId: job.value.name, ...proposal });
   showProposalForm.value = false;
   loadJob();
 }
@@ -49,8 +48,8 @@ onMounted(loadJob);
   <div class="max-w-4xl mx-auto px-4 py-8">
     <!-- Loading -->
     <div v-if="isLoading" class="space-y-4">
-      <LoadingSkeleton variant="text" />
-      <LoadingSkeleton variant="text" />
+      <LoadingSkeleton variant="default" />
+      <LoadingSkeleton variant="default" />
     </div>
 
     <!-- Content -->
@@ -62,12 +61,12 @@ onMounted(loadJob);
               {{ job.title }}
             </h1>
             <p class="text-gray-500">
-              Posted by {{ job.poster_name || "Anonymous" }} •
-              {{ job.bids_count }} proposals
+              Posted by {{ job.clientName || job.posterName || "Anonymous" }} •
+              {{ job.bidsCount }} proposals
             </p>
           </div>
           <span class="text-2xl font-bold text-primary-600">{{
-            job.budget_range
+            job.budgetRange
           }}</span>
         </div>
 
@@ -77,9 +76,9 @@ onMounted(loadJob);
 
         <div class="flex flex-wrap gap-2 mb-6">
           <Badge
-            v-for="skill in job.skills_required"
+            v-for="skill in job.skillsRequired"
             :key="skill"
-            variant="info"
+            variant="secondary"
             >{{ skill }}</Badge
           >
         </div>

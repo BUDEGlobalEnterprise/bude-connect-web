@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, computed, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 import { RouterLink } from "vue-router";
 import { getFeed, getCategories } from "@bude/shared/api";
 import type { MarketItem } from "@bude/shared/types";
-import { LoadingSkeleton, EmptyState } from "@bude/shared/components";
+import { EmptyState } from "@bude/shared/components";
 import ItemCard from "../components/ItemCard.vue";
 import CategoryNav from "../components/CategoryNav.vue";
 
@@ -85,7 +85,7 @@ async function loadFeed() {
   try {
     const result = await getFeed({
       category: selectedCategory.value || undefined,
-      listing_type: (selectedListingType.value as any) || undefined,
+      listingType: (selectedListingType.value as any) || undefined,
     });
     items.value = result.data;
   } catch (error) {
@@ -255,7 +255,7 @@ onUnmounted(() => {
       <div class="max-w-7xl mx-auto px-6">
         <CategoryNav
           :categories="categories"
-          :selected-category="selectedCategory"
+          :selected="selectedCategory"
           @select="handleCategorySelect"
         />
       </div>

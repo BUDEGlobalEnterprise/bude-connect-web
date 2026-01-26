@@ -4,7 +4,6 @@ import { RouterLink } from "vue-router";
 import { getMyPostedJobs, closeJob } from "@bude/shared/api";
 import {
   Button,
-  Badge,
   EmptyState,
   LoadingSkeleton,
 } from "@bude/shared/components";
@@ -58,7 +57,7 @@ onMounted(loadJobs);
       <Button
         v-for="tab in ['open', 'awarded', 'closed'] as const"
         :key="tab"
-        :variant="activeTab === tab ? 'primary' : 'secondary'"
+        :variant="activeTab === tab ? 'default' : 'secondary'"
         @click="switchTab(tab)"
         class="capitalize"
       >
@@ -68,7 +67,7 @@ onMounted(loadJobs);
 
     <!-- Loading -->
     <div v-if="isLoading" class="space-y-4">
-      <LoadingSkeleton variant="list" v-for="i in 3" :key="i" />
+      <LoadingSkeleton variant="default" v-for="i in 3" :key="i" />
     </div>
 
     <!-- Jobs -->
@@ -85,7 +84,7 @@ onMounted(loadJobs);
             >{{ job.title }}</RouterLink
           >
           <p class="text-sm text-gray-500">
-            {{ job.bids_count }} proposals • {{ job.budget_range }}
+            {{ job.bidsCount }} proposals • {{ job.budgetRange }}
           </p>
         </div>
         <div class="flex gap-2">

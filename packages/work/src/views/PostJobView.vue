@@ -14,8 +14,8 @@ const skillInput = ref("");
 const form = ref({
   title: "",
   description: "",
-  budget_range: "",
-  skills_required: [] as string[],
+  budgetRange: "",
+  skillsRequired: [] as string[],
   deadline: "",
 });
 
@@ -30,15 +30,15 @@ async function loadSkills() {
 function addSkill() {
   if (
     skillInput.value &&
-    !form.value.skills_required.includes(skillInput.value)
+    !form.value.skillsRequired.includes(skillInput.value)
   ) {
-    form.value.skills_required.push(skillInput.value);
+    form.value.skillsRequired.push(skillInput.value);
     skillInput.value = "";
   }
 }
 
 function removeSkill(skill: string) {
-  form.value.skills_required = form.value.skills_required.filter(
+  form.value.skillsRequired = form.value.skillsRequired.filter(
     (s) => s !== skill,
   );
 }
@@ -47,7 +47,7 @@ async function handleSubmit() {
   if (
     !form.value.title ||
     !form.value.description ||
-    !form.value.budget_range
+    !form.value.budgetRange
   ) {
     error.value = "Please fill in all required fields";
     return;
@@ -60,8 +60,8 @@ async function handleSubmit() {
     await postJob({
       title: form.value.title,
       description: form.value.description,
-      budget_range: form.value.budget_range,
-      skills_required: form.value.skills_required,
+      budgetRange: form.value.budgetRange,
+      skillsRequired: form.value.skillsRequired,
       deadline: form.value.deadline || undefined,
     });
     router.push("/my-jobs");
@@ -110,7 +110,7 @@ onMounted(loadSkills);
             >Budget Range *</label
           >
           <input
-            v-model="form.budget_range"
+            v-model="form.budgetRange"
             type="text"
             placeholder="e.g., ₹10,000 - ₹20,000"
             class="input"
@@ -138,9 +138,9 @@ onMounted(loadSkills);
           </div>
           <div class="flex flex-wrap gap-2">
             <Badge
-              v-for="skill in form.skills_required"
+              v-for="skill in form.skillsRequired"
               :key="skill"
-              variant="info"
+              variant="secondary"
               class="flex items-center gap-1"
             >
               {{ skill }}

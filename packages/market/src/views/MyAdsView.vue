@@ -8,7 +8,6 @@ import {
   Badge,
   EmptyState,
   LoadingSkeleton,
-  LazyImage,
 } from "@bude/shared/components";
 import type { MarketItem } from "@bude/shared/types";
 
@@ -60,7 +59,7 @@ onMounted(loadListings);
       <Button
         v-for="tab in ['active', 'sold', 'expired'] as const"
         :key="tab"
-        :variant="activeTab === tab ? 'primary' : 'secondary'"
+        :variant="activeTab === tab ? 'default' : 'secondary'"
         @click="switchTab(tab)"
         class="capitalize"
       >
@@ -70,48 +69,48 @@ onMounted(loadListings);
 
     <!-- Loading -->
     <div v-if="isLoading" class="space-y-4">
-      <LoadingSkeleton variant="list" v-for="i in 3" :key="i" />
+      <LoadingSkeleton variant="default" v-for="i in 3" :key="i" />
     </div>
 
     <!-- Listings -->
     <div v-else-if="items.length > 0" class="space-y-4">
       <div v-for="item in items" :key="item.name" class="card p-4 flex gap-4">
-        <RouterLink :to="`/listing/${item.item_code}`" class="flex-shrink-0">
+        <RouterLink :to="`/listing/${item.itemCode}`" class="flex-shrink-0">
           <div class="w-24 h-24 rounded-lg overflow-hidden">
-            <LazyImage
+            <img
               :src="item.image || ''"
-              :alt="item.item_name"
-              aspect-ratio="1"
+              :alt="item.itemName"
+              class="w-full h-full object-cover"
             />
           </div>
         </RouterLink>
 
         <div class="flex-1 min-w-0">
-          <RouterLink :to="`/listing/${item.item_code}`">
+          <RouterLink :to="`/listing/${item.itemCode}`">
             <h3
               class="font-medium text-gray-900 truncate hover:text-primary-600"
             >
-              {{ item.item_name }}
+              {{ item.itemName }}
             </h3>
           </RouterLink>
           <p class="text-lg font-bold text-primary-600">
-            {{ formatPrice(item.standard_rate) }}
+            {{ formatPrice(item.standardRate) }}
           </p>
           <div class="flex gap-2 mt-2">
-            <Badge variant="info">{{ item.listing_type }}</Badge>
+            <Badge variant="secondary">{{ item.listingType }}</Badge>
             <Badge>{{ item.condition }}</Badge>
           </div>
         </div>
 
         <div class="flex flex-col gap-2">
-          <RouterLink :to="`/listing/${item.item_code}`">
+          <RouterLink :to="`/listing/${item.itemCode}`">
             <Button variant="secondary" size="sm">View</Button>
           </RouterLink>
           <Button
-            v-if="item.listing_status === 'Published'"
+            v-if="item.listingStatus === 'Published'"
             variant="outline"
             size="sm"
-            @click="handleMarkSold(item.item_code)"
+            @click="handleMarkSold(item.itemCode)"
           >
             Mark Sold
           </Button>

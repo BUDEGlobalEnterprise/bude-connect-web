@@ -9,6 +9,7 @@ import type { Freelancer, JobOpening, Bid, Skill, PaginatedResponse } from '../t
 // ============ Talent Search ============
 
 export interface TalentSearchParams {
+  [key: string]: any;
   skill?: string;
   max_rate?: number;
   verified_only?: boolean;
@@ -55,6 +56,7 @@ export async function updateFreelancerProfile(data: Partial<Freelancer>): Promis
 // ============ Job Board ============
 
 export interface JobSearchParams {
+  [key: string]: any;
   skill?: string;
   search?: string;
   page?: number;
@@ -84,11 +86,19 @@ export async function getJob(jobId: string): Promise<JobOpening & { bids?: Bid[]
 export async function postJob(data: {
   title: string;
   description: string;
-  budget_range: string;
-  skills_required?: string[];
+  budgetRange: string;
+  skillsRequired?: string[];
   deadline?: string;
+  isRemote?: boolean;
 }): Promise<JobOpening> {
-  return frappe.call<JobOpening>('bude_core.work.post_job', data);
+  return frappe.call<JobOpening>('bude_core.work.post_job', {
+    title: data.title,
+    description: data.description,
+    budgetRange: data.budgetRange,
+    skillsRequired: data.skillsRequired,
+    deadline: data.deadline,
+    isRemote: data.isRemote
+  });
 }
 
 /**
@@ -122,25 +132,29 @@ export async function getMyPostedJobs(params: {
  * Submit a proposal for a job
  */
 export async function submitProposal(data: {
-  job_id: string;
-  bid_amount: number;
-  proposal_text: string;
+  jobId: string;
+  bidAmount: number;
+  proposalText: string;
 }): Promise<Bid> {
-  return frappe.call<Bid>('bude_core.work.submit_proposal', data);
+  return frappe.call<Bid>('bude_core.work.submit_proposal', {
+    job_id: data.jobId,
+    bid_amount: data.bidAmount,
+    proposal_text: data.proposalText
+  });
 }
 
 /**
  * Update proposal
  */
-export async function updateProposal(bidId: string, data: Partial<Bid>): Promise<Bid> {
-  return frappe.call<Bid>('bude_core.work.update_proposal', { bid_id: bidId, ...data });
+export async function updateProposal(proposalId: string, data: Partial<Bid>): Promise<Bid> {
+  return frappe.call<Bid>('bude_core.work.update_proposal', { proposal_id: proposalId, ...data });
 }
 
 /**
  * Withdraw proposal
  */
-export async function withdrawProposal(bidId: string): Promise<{ success: boolean }> {
-  return frappe.call('bude_core.work.withdraw_proposal', { bid_id: bidId });
+export async function withdrawProposal(proposalId: string): Promise<{ success: boolean }> {
+  return frappe.call('bude_core.work.withdraw_proposal', { proposal_id: proposalId });
 }
 
 /**
@@ -155,8 +169,8 @@ export async function getMyBids(params: {
 }
 
 /**
- * Award job to freelancer
+ * Award job to an applicant
  */
-export async function awardJob(jobId: string, supplierId: string): Promise<{ success: boolean }> {
-  return frappe.call('bude_core.work.award_job', { job_id: jobId, supplier_id: supplierId });
+export async function awardJob(jobId: string, applicantId: string): Promise<{ success: boolean }> {
+  return frappe.call('bude_core.work.award_job', { job_id: jobId, applicant_id: applicantId });
 }

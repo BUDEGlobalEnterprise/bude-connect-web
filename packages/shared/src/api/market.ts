@@ -7,16 +7,17 @@ import { frappe } from './client';
 import type { MarketItem, MarketItemDetail, PaginatedResponse, SellerInfo } from '../types';
 
 export interface FeedParams {
+  [key: string]: any;
   category?: string;
-  listing_type?: 'Sell' | 'Rent' | 'Surplus' | 'Scrap';
+  listingType?: 'Sell' | 'Rent' | 'Surplus' | 'Scrap';
   condition?: string;
-  min_price?: number;
-  max_price?: number;
+  minPrice?: number;
+  maxPrice?: number;
   lat?: number;
   long?: number;
   radius?: number;
   page?: number;
-  page_size?: number;
+  pageSize?: number;
   search?: string;
 }
 
@@ -24,7 +25,19 @@ export interface FeedParams {
  * Get marketplace feed with geo-sorting
  */
 export async function getFeed(params: FeedParams = {}): Promise<PaginatedResponse<MarketItem>> {
-  return frappe.call<PaginatedResponse<MarketItem>>('bude_core.market.get_feed', params);
+  return frappe.call<PaginatedResponse<MarketItem>>('bude_core.market.get_feed', {
+    category: params.category,
+    listing_type: params.listingType,
+    condition: params.condition,
+    min_price: params.minPrice,
+    max_price: params.maxPrice,
+    lat: params.lat,
+    long: params.long,
+    radius: params.radius,
+    page: params.page,
+    page_size: params.pageSize,
+    search: params.search
+  });
 }
 
 /**
@@ -45,26 +58,38 @@ export async function getCategories(): Promise<{ name: string; count: number }[]
  * Create draft listing
  */
 export async function createDraftItem(data: {
-  item_name: string;
-  item_group: string;
+  itemName: string;
+  itemGroup: string;
   description: string;
   images: string[];
   condition: string;
-}): Promise<{ item_code: string }> {
-  return frappe.call('bude_core.market.create_draft_item', data);
+}): Promise<{ itemCode: string }> {
+  return frappe.call('bude_core.market.create_draft_item', {
+    item_name: data.itemName,
+    item_group: data.itemGroup,
+    description: data.description,
+    images: data.images,
+    condition: data.condition
+  });
 }
 
 /**
  * Publish listing (moves from Draft to Published)
  */
 export async function publishItem(data: {
-  item_code: string;
-  standard_rate: number;
-  listing_type: 'Sell' | 'Rent' | 'Surplus' | 'Scrap';
-  location_geo?: { latitude: number; longitude: number };
-  min_order_qty?: number;
+  itemCode: string;
+  standardRate: number;
+  listingType: 'Sell' | 'Rent' | 'Surplus' | 'Scrap';
+  locationGeo?: { latitude: number; longitude: number };
+  minOrderQty?: number;
 }): Promise<MarketItem> {
-  return frappe.call<MarketItem>('bude_core.market.publish_item', data);
+  return frappe.call<MarketItem>('bude_core.market.publish_item', {
+    item_code: data.itemCode,
+    standard_rate: data.standardRate,
+    listing_type: data.listingType,
+    location_geo: data.locationGeo,
+    min_order_qty: data.minOrderQty
+  });
 }
 
 /**
@@ -88,11 +113,16 @@ export async function markAsSold(itemCode: string): Promise<{ success: boolean }
  * Get user's own listings
  */
 export async function getMyListings(params: {
+  [key: string]: any;
   status?: string;
   page?: number;
-  page_size?: number;
+  pageSize?: number;
 } = {}): Promise<PaginatedResponse<MarketItem>> {
-  return frappe.call<PaginatedResponse<MarketItem>>('bude_core.market.get_my_listings', params);
+  return frappe.call<PaginatedResponse<MarketItem>>('bude_core.market.get_my_listings', {
+    status: params.status,
+    page: params.page,
+    page_size: params.pageSize
+  });
 }
 
 /**

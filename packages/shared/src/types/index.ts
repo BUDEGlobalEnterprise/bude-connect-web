@@ -51,39 +51,40 @@ export interface GeoLocation {
 // Marketplace Types
 export interface MarketItem {
   name: string;
-  item_code: string;
-  item_name: string;
+  itemCode: string;
+  itemName: string;
   description: string;
   image: string;
-  item_group: string;
-  standard_rate: number;
-  listing_type: "Sell" | "Rent" | "Surplus" | "Scrap";
+  itemGroup: string;
+  standardRate: number;
+  listingType: "Sell" | "Rent" | "Surplus" | "Scrap";
   condition: "New" | "Open Box" | "Refurbished" | "Used";
-  listing_expiry: string;
-  listing_status: "Draft" | "Published" | "Sold" | "Expired";
-  seller_contact_hidden: boolean;
-  location_geo?: GeoLocation;
-  min_order_qty?: number;
+  listingExpiry?: string;
+  listingStatus: "Draft" | "Published" | "Sold" | "Expired";
+  sellerContactHidden: boolean;
+  locationGeo?: GeoLocation;
+  minOrderQty?: number;
   owner: string;
-  seller_name?: string;
-  distance_km?: number;
-  created: string;
-  modified: string;
+  sellerName?: string;
+  distanceKm?: number;
+  createdAt: string;
+  modifiedAt: string;
 }
 
 export interface MarketItemDetail extends MarketItem {
   images: string[];
-  seller_info?: SellerInfo;
-  contact_unlocked?: boolean;
-  contact_info?: ContactInfo;
+  sellerInfo?: SellerInfo;
+  contactUnlocked?: boolean;
+  contactInfo?: ContactInfo;
 }
 
 export interface SellerInfo {
-  user_id: string;
+  userId: string;
   name: string;
-  member_since: string;
-  listing_count: number;
-  is_verified: boolean;
+  userImage?: string;
+  memberSince: string;
+  listingCount: number;
+  isVerified: boolean;
 }
 
 export interface ContactInfo {
@@ -128,23 +129,23 @@ export interface JobOpening {
   name: string;
   title: string;
   description: string;
-  budget_range: string;
-  budget_min?: number;
-  budget_max?: number;
-  status: "Open" | "Awarded" | "Closed";
-  posted_by: string;
-  poster_name?: string;
-  client_name?: string;
-  skills_required: string[];
+  budgetRange: string;
+  budgetMin?: number;
+  budgetMax?: number;
+  status: "Open" | "Awarded" | "Closed" | "Filled";
+  postedBy: string;
+  posterName?: string;
+  clientName?: string;
+  skillsRequired: string[];
   skills?: Skill[];
-  bids_count: number;
-  total_bids?: number;
+  bidsCount: number;
+  totalBids?: number;
   created: string;
-  creation?: string;
+  createdAt?: string;
   deadline?: string;
   duration?: string;
-  experience_level?: string;
-  is_remote?: boolean;
+  experienceLevel?: string;
+  isRemote?: boolean;
 }
 
 // Alias for convenience
@@ -152,12 +153,12 @@ export type Job = JobOpening;
 
 export interface Bid {
   name: string;
-  job_opening: string;
-  supplier: string;
-  supplier_name: string;
-  bid_amount: number;
-  proposal_text: string;
-  status: "Pending" | "Accepted" | "Rejected";
+  jobOpening: string;
+  applicantName?: string;
+  emailId?: string;
+  bidAmount: number;
+  proposalText: string;
+  status: "Open" | "Replied" | "Rejected" | "Hired";
   created: string;
 }
 

@@ -40,15 +40,15 @@ onMounted(loadSeller);
     <!-- Seller Profile -->
     <div v-if="seller" class="card p-6 mb-8">
       <div class="flex items-center gap-4">
-        <Avatar :name="seller.name" size="xl" :verified="seller.is_verified" />
+        <Avatar :name="seller.name" size="xl" :verified="seller.isVerified" />
         <div>
           <h1 class="text-2xl font-bold text-gray-900 flex items-center gap-2">
             {{ seller.name }}
-            <Badge v-if="seller.is_verified" variant="success">Verified</Badge>
+            <Badge v-if="seller.isVerified" variant="success">Verified</Badge>
           </h1>
-          <p class="text-gray-500">Member since {{ seller.member_since }}</p>
+          <p class="text-gray-500">Member since {{ seller.memberSince }}</p>
           <p class="text-sm text-gray-600 mt-1">
-            {{ seller.listing_count }} listings
+            {{ seller.listingCount }} listings
           </p>
         </div>
       </div>
@@ -64,7 +64,7 @@ onMounted(loadSeller);
       class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
     >
       <div v-for="i in 4" :key="i" class="card">
-        <LoadingSkeleton variant="card" />
+        <LoadingSkeleton variant="default" />
       </div>
     </div>
 

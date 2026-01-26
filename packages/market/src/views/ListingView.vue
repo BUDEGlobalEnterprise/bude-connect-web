@@ -7,7 +7,6 @@ import { formatPrice, timeAgo } from "@bude/shared/utils";
 import {
   Avatar,
   Badge,
-  LazyImage,
   LoadingSkeleton,
 } from "@bude/shared/components";
 import type { MarketItemDetail } from "@bude/shared/types";
@@ -32,6 +31,21 @@ const cachedContact = computed(
   () => item.value && walletStore.getCachedContact("Item", item.value.name),
 );
 
+const conditionConfig = computed(() => {
+  type BadgeVariant = "default" | "success" | "secondary" | "warning" | "destructive" | "outline";
+  if (!item.value) return { variant: "default" as BadgeVariant, icon: "📦" };
+  const config: Record<string, { variant: BadgeVariant; icon: string }> = {
+    New: { variant: "success", icon: "✨" },
+    "Like New": { variant: "secondary", icon: "👌" },
+    "Good": { variant: "secondary", icon: "👍" },
+    "Fair": { variant: "warning", icon: "📦" },
+    "Open Box": { variant: "secondary", icon: "📭" },
+    Refurbished: { variant: "warning", icon: "🔧" },
+    Used: { variant: "default", icon: "🔄" },
+  };
+  return config[item.value.condition] || { variant: "default" as BadgeVariant, icon: "📦" };
+});
+
 const listingTypeConfig = computed(() => {
   const config: Record<string, { bg: string; label: string; icon: string }> = {
     Sell: { bg: "bg-emerald-500", label: "For Sale", icon: "🛒" },
@@ -39,7 +53,7 @@ const listingTypeConfig = computed(() => {
     Surplus: { bg: "bg-amber-500", label: "Surplus", icon: "📦" },
     Scrap: { bg: "bg-slate-500", label: "Scrap", icon: "♻️" },
   };
-  return config[item.value?.listing_type || "Sell"] || config["Sell"];
+  return config[item.value?.listingType || "Sell"] || config["Sell"];
 });
 
 async function loadItem() {
@@ -82,9 +96,9 @@ onMounted(loadItem);
           <LoadingSkeleton variant="card" class="h-full" />
         </div>
         <div class="space-y-6">
-          <LoadingSkeleton variant="text" class="h-8 w-3/4" />
-          <LoadingSkeleton variant="text" class="h-12 w-1/3" />
-          <LoadingSkeleton variant="text" class="h-24" />
+          <LoadingSkeleton variant="default" class="h-8 w-3/4" />
+          <LoadingSkeleton variant="default" class="h-12 w-1/3" />
+          <LoadingSkeleton variant="default" class="h-24" />
         </div>
       </div>
 
@@ -93,8 +107,8 @@ onMounted(loadItem);
         <!-- Images -->
         <div class="space-y-4">
           <ImageGallery
-            :images="item.images || [item.image_url || item.image]"
-            :alt="item.item_name"
+            :images="item.images || [item.image]"
+            :alt="item.itemName"
             class="rounded-2xl overflow-hidden shadow-lg"
           />
         </div>
@@ -112,31 +126,33 @@ onMounted(loadItem);
               <span>{{ listingTypeConfig.icon }}</span>
               {{ listingTypeConfig.label }}
             </span>
-            <Badge variant="default">{{ item.item_group }}</Badge>
+            <Badge variant="default">{{ item.itemGroup }}</Badge>
           </div>
 
           <!-- Title -->
           <h1 class="text-3xl md:text-4xl font-bold text-gray-900">
-            {{ item.item_name }}
+            {{ item.itemName }}
           </h1>
 
           <!-- Price -->
           <div class="flex items-baseline gap-2">
             <span class="text-4xl font-bold text-gradient">
-              {{ formatPrice(item.standard_rate || item.price) }}
+              {{ formatPrice(item.standardRate) }}
             </span>
-            <span v-if="item.listing_type === 'Rent'" class="text-lg text-gray-500">/day</span>
+            <span v-if="item.listingType === 'Rent'" class="text-lg text-gray-500">/day</span>
           </div>
 
           <!-- Condition -->
           <div class="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
             <div class="flex-1">
               <p class="text-sm text-gray-500">Condition</p>
-              <p class="font-semibold text-gray-900">{{ item.condition }}</p>
+              <Badge :variant="conditionConfig.variant" class="font-semibold text-gray-900">
+                {{ conditionConfig.icon }} {{ item.condition }}
+              </Badge>
             </div>
             <div class="flex-1">
               <p class="text-sm text-gray-500">Posted</p>
-              <p class="font-semibold text-gray-900">{{ timeAgo(item.created_at || item.created) }}</p>
+              <p class="font-semibold text-gray-900">{{ timeAgo(item.createdAt) }}</p>
             </div>
           </div>
 
@@ -149,13 +165,13 @@ onMounted(loadItem);
           <!-- Seller Info & Contact Card -->
           <div class="card p-6">
             <div class="flex items-center gap-4 mb-4">
-              <Avatar :name="item.seller?.name || item.seller_name || 'Seller'" size="lg" />
+              <Avatar :name="item.sellerInfo?.name || item.sellerName || 'Seller'" size="lg" />
               <div class="flex-1">
                 <p class="font-semibold text-gray-900">
-                  {{ item.seller?.name || item.seller_name || "Seller" }}
+                  {{ item.sellerInfo?.name || item.sellerName || "Seller" }}
                 </p>
                 <p class="text-sm text-gray-500">
-                  Member since {{ new Date(item.seller?.member_since || item.created).getFullYear() }}
+                  Member since {{ new Date(item.sellerInfo?.memberSince || item.createdAt).getFullYear() }}
                 </p>
               </div>
               <RouterLink
