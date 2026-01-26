@@ -30,8 +30,8 @@ export async function loginWithCredentials(usr: string, pwd: string): Promise<Lo
   });
 
   if (!response.ok) {
-    const error = await response.json();
-    throw new ApiError(error.message || 'Invalid credentials', response.status);
+    const error = await response.json().catch(() => ({}));
+    throw new ApiError(response.status, error.message || 'Invalid credentials');
   }
 
   // Refresh CSRF token after login
@@ -57,7 +57,7 @@ export async function getGoogleAuthUrl(redirectUri?: string): Promise<string> {
   );
 
   if (!response.ok) {
-    throw new ApiError('Failed to get OAuth URL', response.status);
+    throw new ApiError(response.status, 'Failed to get OAuth URL');
   }
 
   const data = await response.json();
@@ -68,22 +68,13 @@ export async function getGoogleAuthUrl(redirectUri?: string): Promise<string> {
  * Handle OAuth callback - exchange code for session
  */
 export async function handleOAuthCallback(code: string, state: string): Promise<LoginResponse> {
-  const response = await fetch(
-    '/api/method/frappe.integrations.oauth2_logins.login_via_oauth2',
-    {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      credentials: 'include',
-      body: JSON.stringify({ code, state, provider: 'google' }),
-    }
-  );
-
-  if (!response.ok) {
-    throw new ApiError('OAuth login failed', response.status);
-  }
+  const result = await frappe.request<LoginResponse>('/api/method/frappe.integrations.oauth2_logins.login_via_oauth2', {
+    method: 'POST',
+    body: { code, state, provider: 'google' }
+  });
 
   frappe.clearCsrfToken();
-  return response.json();
+  return result;
 }
 
 // ============ OTP Auth (Mobile) ============
@@ -118,13 +109,13 @@ export async function verifyOtp(mobile: string, otp: string): Promise<{ success:
  */
 export async function getCurrentUser(): Promise<User | null> {
   try {
-    // First check if logged in
-    const loggedUser = await frappe.call<string>('frappe.auth.get_logged_user');
+    // First check if logged in (silent to prevent redirect loop on public pages)
+    const loggedUser = await frappe.call<string>('frappe.auth.get_logged_user', {}, true);
     if (!loggedUser || loggedUser === 'Guest') {
       return null;
     }
     // Then get full user details from bude_core
-    const user = await frappe.call<User>('bude_core.auth.get_current_user');
+    const user = await frappe.call<User>('bude_core.auth.get_current_user', {}, true);
     return user;
   } catch (error) {
     if (error instanceof ApiError && error.isUnauthorized) {
@@ -138,9 +129,8 @@ export async function getCurrentUser(): Promise<User | null> {
  * Logout current user
  */
 export async function logout(): Promise<void> {
-  await fetch('/api/method/logout', {
-    method: 'POST',
-    credentials: 'include',
+  await frappe.request('/api/method/logout', {
+    method: 'POST'
   });
   frappe.clearCsrfToken();
 }
@@ -210,7 +200,7 @@ export async function getKycStatus(): Promise<{
     creation: string;
   };
 }> {
-  return frappe.call('bude_core.auth.get_kyc_status');
+  return frappe.call('bude_core.auth.get_kyc_status', {}, true);
 }
 
 /**
@@ -224,5 +214,5 @@ export async function cancelKyc(): Promise<{ message: string }> {
  * Reset password with token
  */
 export async function resetPassword(token: string, newPassword: string): Promise<{ message: string }> {
-  return frappe.call('bude_core.auth.reset_password', { token, new_password: newPassword });
+  return frappe.call('bude_core.auth.reset_password', { token, new_password: newPassword }, true);
 }

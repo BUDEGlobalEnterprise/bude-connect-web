@@ -22,7 +22,7 @@ export interface TalentSearchParams {
  * Search for freelancers
  */
 export async function searchTalent(params: TalentSearchParams = {}): Promise<PaginatedResponse<Freelancer>> {
-  return frappe.call<PaginatedResponse<Freelancer>>('bude_core.work.search_talent', params);
+  return frappe.call<PaginatedResponse<Freelancer>>('bude_core.work.search_talent', params, true);
 }
 
 /**
@@ -36,7 +36,7 @@ export async function getFreelancer(supplierId: string): Promise<Freelancer> {
  * Get available skills
  */
 export async function getSkills(): Promise<Skill[]> {
-  return frappe.call<Skill[]>('bude_core.work.get_skills');
+  return frappe.call<Skill[]>('bude_core.work.get_skills', {}, true);
 }
 
 /**
@@ -67,7 +67,7 @@ export interface JobSearchParams {
  * Get open job listings
  */
 export async function getOpenJobs(params: JobSearchParams = {}): Promise<PaginatedResponse<JobOpening>> {
-  return frappe.call<PaginatedResponse<JobOpening>>('bude_core.work.get_open_jobs', params);
+  return frappe.call<PaginatedResponse<JobOpening>>('bude_core.work.get_open_jobs', params, true);
 }
 
 // Alias for convenience
@@ -77,7 +77,7 @@ export const getJobs = getOpenJobs;
  * Get single job with details
  */
 export async function getJob(jobId: string): Promise<JobOpening & { bids?: Bid[] }> {
-  return frappe.call<JobOpening & { bids?: Bid[] }>('bude_core.work.get_job', { job_id: jobId });
+  return frappe.call<JobOpening & { bids?: Bid[] }>('bude_core.work.get_job', { job_id: jobId }, true);
 }
 
 /**

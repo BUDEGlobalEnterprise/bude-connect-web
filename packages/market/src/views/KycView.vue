@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from "vue";
 import { useRouter } from "vue-router";
-import { useUserStore } from "@bude/shared";
+import { useUserStore, frappe } from "@bude/shared";
 import {
   Button,
   Input,
@@ -82,23 +82,11 @@ function handleFileUpload(event: Event) {
 }
 
 async function uploadFile(file: File): Promise<string> {
-  const formData = new FormData();
-  formData.append("file", file);
-  formData.append("is_private", "1");
-  formData.append("folder", "Home/KYC");
-
-  const response = await fetch("/api/method/upload_file", {
-    method: "POST",
-    credentials: "include",
-    body: formData,
+  const fileUrl = await frappe.upload(file, {
+    isPrivate: true,
+    folder: "Home/KYC"
   });
-
-  if (!response.ok) {
-    throw new Error("Failed to upload file");
-  }
-
-  const data = await response.json();
-  return data.message.file_url;
+  return fileUrl;
 }
 
 async function handleSubmit() {

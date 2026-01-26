@@ -196,32 +196,17 @@ export async function updateSocialLinks(social_links: SocialLink[]): Promise<voi
  * Upload and update cover image
  */
 export async function updateCoverImage(file: File): Promise<string> {
-  const formData = new FormData();
-  formData.append('file', file);
-  formData.append('is_private', '0');
-  formData.append('folder', 'Home/Attachments');
-  
-  const response = await fetch('/api/method/upload_file', {
-    method: 'POST',
-    body: formData,
-    credentials: 'include',
-    headers: {
-      'X-Frappe-CSRF-Token': document.cookie.match(/csrf_token=([^;]+)/)?.[1] || '',
-    },
+  const fileUrl = await frappe.upload(file, {
+    isPrivate: false,
+    folder: 'Home/Attachments'
   });
-  
-  if (!response.ok) {
-    throw new Error('Failed to upload cover image');
-  }
-  
-  const data = await response.json();
   
   // Update profile with new cover image URL
   await frappe.call('bude_core.profile.freelancer_profile.update_basic_info', {
-    cover_image: data.message.file_url
+    cover_image: fileUrl
   });
   
-  return data.message.file_url;
+  return fileUrl;
 }
 
 /**

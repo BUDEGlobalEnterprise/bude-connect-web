@@ -273,7 +273,14 @@ const handleSave = async () => {
       open_to: userDetails.value.openTo,
       user_category: userDetails.value.userCategory,
       hide_private_info: moreInfo.value.hidePrivateInfo,
-      terms_accepted: userDetails.value.termsAccepted
+      terms_accepted: userDetails.value.termsAccepted,
+      salutation: userDetails.value.salutation,
+      blood_group: moreInfo.value.bloodGroup,
+      marital_status: moreInfo.value.maritalStatus,
+      department: userDetails.value.department,
+      pan_number: moreInfo.value.panNumber,
+      aadhaar_number: moreInfo.value.aadhaarNumber,
+      passport_number: moreInfo.value.passportNumber
     });
 
     // 3. Update basic info
@@ -281,7 +288,10 @@ const handleSave = async () => {
       bio: moreInfo.value.bio,
       location: moreInfo.value.location,
       interests: moreInfo.value.interests,
-      phone_alternate: moreInfo.value.phone
+      phone_alternate: moreInfo.value.phone,
+      permanentAddress: userDetails.value.permanentAddress,
+      currentAddress: userDetails.value.currentAddress,
+      currentSameAsPermanent: userDetails.value.currentSameAsPermanent
     });
 
     // 4. Update education

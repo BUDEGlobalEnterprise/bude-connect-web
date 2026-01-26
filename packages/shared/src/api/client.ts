@@ -10,11 +10,11 @@ interface RequestOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE';
   body?: Record<string, unknown>;
   headers?: Record<string, string>;
+  silent?: boolean; // If true, don't trigger auto-redirect on session expiry
 }
 
 class FrappeClient {
   private baseUrl: string;
-  private csrfToken: string | null = null;
 
   constructor(baseUrl: string) {
     this.baseUrl = baseUrl;
@@ -23,19 +23,16 @@ class FrappeClient {
   /**
    * Get CSRF token from cookie (set by Frappe on login)
    */
-  private getCsrfToken(): string {
-    if (this.csrfToken) return this.csrfToken;
-    
+  getCsrfToken(): string {
     const match = document.cookie.match(/csrf_token=([^;]+)/);
-    this.csrfToken = match ? match[1] : '';
-    return this.csrfToken;
+    return match ? match[1] : '';
   }
 
   /**
    * Clear cached CSRF token (call on logout)
    */
   clearCsrfToken(): void {
-    this.csrfToken = null;
+    // CSRF token is read directly from document.cookie, no local caching
   }
 
   /**
@@ -66,8 +63,17 @@ class FrappeClient {
 
     // Handle session expiry (401/403)
     if (response.status === 401 || response.status === 403) {
-      this.handleSessionExpiry();
+      if (!options.silent) {
+        this.handleSessionExpiry();
+      }
       throw new ApiError(response.status, 'Session expired. Please log in again.', {});
+    }
+
+    // Handle CSRF token expiry (417)
+    if (response.status === 417) {
+      this.clearCsrfToken();
+      // Throw without auto-redirecting globally
+      throw new ApiError(417, 'Security token expired. Please refresh the page.', {});
     }
 
     // Handle rate limiting (429)
@@ -88,6 +94,82 @@ class FrappeClient {
   }
 
   /**
+   * Upload a file to Frappe
+   */
+  async upload(file: File, options: { 
+    isPrivate?: boolean; 
+    folder?: string; 
+    doctype?: string; 
+    docname?: string; 
+    fieldname?: string 
+  } = {}): Promise<any> {
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('is_private', options.isPrivate ? '1' : '0');
+    if (options.folder) formData.append('folder', options.folder);
+    if (options.doctype) formData.append('doctype', options.doctype);
+    if (options.docname) formData.append('docname', options.docname);
+    if (options.fieldname) formData.append('fieldname', options.fieldname);
+
+    const response = await fetch(`${this.baseUrl}/api/method/upload_file`, {
+      method: 'POST',
+      body: formData,
+      credentials: 'include',
+      headers: {
+        'X-Frappe-CSRF-Token': this.getCsrfToken(),
+      },
+    });
+
+    if (!response.ok) {
+      if (response.status === 417) {
+        this.handleSessionExpiry();
+        throw new ApiError(417, 'Security token expired. Please log in again.', {});
+      }
+      const error = await response.json().catch(() => ({ message: 'Upload failed' }));
+      throw new ApiError(response.status, error.message || 'Upload failed', error);
+    }
+
+    const result = await response.json();
+    return result.message;
+  }
+
+  /**
+   * Handle session expiry - redirect to login
+   */
+  private handleSessionExpiry(): void {
+    if (typeof window === 'undefined') return;
+
+    // Clear cached token
+    this.clearCsrfToken();
+
+    const currentPath = window.location.pathname;
+    const isAuthPage = currentPath === '/login' || currentPath === '/oauth/callback' || currentPath.includes('/verify-email');
+
+    // Show toast notification (if toast system available)
+    if ((window as any).showToast && !isAuthPage) {
+      (window as any).showToast({
+        type: 'error',
+        message: 'Your session has expired. Please log in again.',
+        duration: 5000,
+      });
+    }
+
+    // Prevent loop if already on login page or redirected to oauth
+    if (isAuthPage) {
+      console.warn('FrappeClient: Prevented redirect loop while already on auth page');
+      return;
+    }
+
+    const returnUrl = encodeURIComponent(window.location.pathname + window.location.search);
+    
+    // Only set redirect if we are not already going to /login
+    if (currentPath !== '/login') {
+      console.log('FrappeClient: Redirecting to login due to session expiry');
+      window.location.href = `/login?redirect=${returnUrl}`;
+    }
+  }
+
+  /**
    * Handle rate limiting - show warning to user
    */
   private handleRateLimit(retryAfter: number): void {
@@ -101,48 +183,14 @@ class FrappeClient {
   }
 
   /**
-   * Handle session expiry - redirect to login
-   */
-  private handleSessionExpiry(): void {
-    // Clear cached token
-    this.clearCsrfToken();
-
-    // Show toast notification (if toast system available)
-    if (typeof window !== 'undefined' && (window as any).showToast) {
-      (window as any).showToast({
-        type: 'error',
-        message: 'Your session has expired. Please log in again.',
-        duration: 5000,
-      });
-    }
-
-    // Redirect to login with return URL
-    if (typeof window !== 'undefined') {
-      const currentPath = window.location.pathname;
-      
-      // Prevent loop if already on login page or redirected to oauth
-      if (currentPath === '/login' || currentPath === '/oauth/callback') {
-        console.warn('FrappeClient: Prevented redirect loop while already on auth page');
-        return;
-      }
-
-      const returnUrl = encodeURIComponent(window.location.pathname + window.location.search);
-      
-      // Only set redirect if we are not already going to /login
-      if (currentPath !== '/login') {
-        window.location.href = `/login?redirect=${returnUrl}`;
-      }
-    }
-  }
-
-  /**
    * Call Frappe whitelisted method
    * Endpoint format: /api/method/{dotted.path.to.method}
    */
-  async call<T>(method: string, args: Record<string, unknown> = {}): Promise<T> {
+  async call<T>(method: string, args: Record<string, unknown> = {}, silent: boolean = false): Promise<T> {
     const response = await this.request<{ message: any }>(`/api/method/${method}`, {
       method: 'POST',
       body: args,
+      silent
     });
     
     const msg = response.message;
@@ -252,7 +300,7 @@ export class ApiError extends Error {
   }
 
   get isUnauthorized(): boolean {
-    return this.status === 401 || this.status === 403;
+    return this.status === 401 || this.status === 403 || this.status === 417;
   }
 
   get isNotFound(): boolean {

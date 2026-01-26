@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ap",
+    "name": "Animals & Pet Supplies",
+    "icon": "🐾",
+    "count": 417
+  },
+  {
+    "id": "aa",
+    "name": "Apparel & Accessories",
+    "icon": "👕",
+    "count": 463
+  },
+  {
+    "id": "ae",
+    "name": "Arts & Entertainment",
+    "icon": "🎨",
+    "count": 1219
+  },
+  {
+    "id": "bt",
+    "name": "Baby & Toddler",
+    "icon": "👶",
+    "count": 251
+  },
+  {
+    "id": "bu",
+    "name": "Bundles",
+    "icon": "📦",
+    "count": 0
+  },
+  {
+    "id": "bi",
+    "name": "Business & Industrial",
+    "icon": "🏭",
+    "count": 592
+  },
+  {
+    "id": "co",
+    "name": "Cameras & Optics",
+    "icon": "📷",
+    "count": 211
+  },
+  {
+    "id": "el",
+    "name": "Electronics",
+    "icon": "📱",
+    "count": 1174
+  },
+  {
+    "id": "fb",
+    "name": "Food, Beverages & Tobacco",
+    "icon": "🍔",
+    "count": 440
+  },
+  {
+    "id": "fr",
+    "name": "Furniture",
+    "icon": "🪑",
+    "count": 354
+  },
+  {
+    "id": "gc",
+    "name": "Gift Cards",
+    "icon": "🎁",
+    "count": 0
+  },
+  {
+    "id": "ha",
+    "name": "Hardware",
+    "icon": "🔧",
+    "count": 1121
+  },
+  {
+    "id": "hb",
+    "name": "Health & Beauty",
+    "icon": "💄",
+    "count": 897
+  },
+  {
+    "id": "hg",
+    "name": "Home & Garden",
+    "icon": "🏡",
+    "count": 2300
+  },
+  {
+    "id": "lb",
+    "name": "Luggage & Bags",
+    "icon": "👜",
+    "count": 35
+  },
+  {
+    "id": "ma",
+    "name": "Mature",
+    "icon": "🔞",
+    "count": 36
+  },
+  {
+    "id": "me",
+    "name": "Media",
+    "icon": "📀",
+    "count": 32
+  },
+  {
+    "id": "os",
+    "name": "Office Supplies",
+    "icon": "📎",
+    "count": 242
+  },
+  {
+    "id": "pa",
+    "name": "Product Add-Ons",
+    "icon": "➕",
+    "count": 7
+  },
+  {
+    "id": "rc",
+    "name": "Religious & Ceremonial",
+    "icon": "🕯️",
+    "count": 12
+  },
+  {
+    "id": "se",
+    "name": "Services",
+    "icon": "🛠️",
+    "count": 54
+  },
+  {
+    "id": "so",
+    "name": "Software",
+    "icon": "💻",
+    "count": 44
+  },
+  {
+    "id": "sg",
+    "name": "Sporting Goods",
+    "icon": "⚽",
+    "count": 1595
+  },
+  {
+    "id": "tg",
+    "name": "Toys & Games",
+    "icon": "🎮",
+    "count": 246
+  },
+  {
+    "id": "na",
+    "name": "Uncategorized",
+    "icon": "📋",
+    "count": 0
+  },
+  {
+    "id": "vp",
+    "name": "Vehicles & Parts",
+    "icon": "🚗",
+    "count": 604
+  }
+]

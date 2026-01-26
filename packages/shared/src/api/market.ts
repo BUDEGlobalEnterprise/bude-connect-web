@@ -37,21 +37,21 @@ export async function getFeed(params: FeedParams = {}): Promise<PaginatedRespons
     page: params.page,
     page_size: params.pageSize,
     search: params.search
-  });
+  }, true);
 }
 
 /**
  * Get single item detail (contact hidden unless unlocked)
  */
 export async function getItem(itemCode: string): Promise<MarketItemDetail> {
-  return frappe.call<MarketItemDetail>('bude_core.market.get_item', { item_code: itemCode });
+  return frappe.call<MarketItemDetail>('bude_core.market.get_item', { item_code: itemCode }, true);
 }
 
 /**
  * Get categories (Item Groups)
  */
 export async function getCategories(): Promise<{ name: string; count: number }[]> {
-  return frappe.call('bude_core.market.get_categories');
+  return frappe.call<{ name: string; count: number }[]>('bude_core.market.get_categories', {}, true);
 }
 
 /**
@@ -147,21 +147,10 @@ export async function boostListing(itemCode: string, days: number): Promise<{
  * Upload item images
  */
 export async function uploadItemImage(file: File): Promise<{ file_url: string }> {
-  const formData = new FormData();
-  formData.append('file', file);
-  formData.append('doctype', 'Item');
-  formData.append('is_private', '0');
-
-  const response = await fetch('/api/method/upload_file', {
-    method: 'POST',
-    body: formData,
-    credentials: 'include',
+  const fileUrl = await frappe.upload(file, {
+    doctype: 'Item',
+    isPrivate: false
   });
-
-  if (!response.ok) {
-    throw new Error('Image upload failed');
-  }
-
-  const result = await response.json();
-  return { file_url: result.message.file_url };
+  
+  return { file_url: fileUrl };
 }

@@ -130,6 +130,9 @@ export const useUserStore = defineStore('user', () => {
     isLoading.value = true;
     try {
       user.value = await authApi.getCurrentUser();
+    } catch (e: any) {
+      console.error('Failed to fetch current user:', e);
+      user.value = null;
     } finally {
       isLoading.value = false;
     }

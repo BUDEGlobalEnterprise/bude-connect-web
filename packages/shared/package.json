@@ -8,7 +8,9 @@
   "exports": {
     ".": "./src/index.ts",
     "./api": "./src/api/index.ts",
+    "./api/*": "./src/api/*.ts",
     "./stores": "./src/stores/index.ts",
+    "./stores/*": "./src/stores/*.ts",
     "./components": "./src/components/index.ts",
     "./components/ui": "./src/components/ui/index.ts",
     "./types": "./src/types/index.ts",
@@ -16,6 +18,7 @@
     "./data/locations": "./src/data/locations/index.ts",
     "./data/*": "./src/data/*.ts",
     "./data": "./src/data/index.ts",
+    "./composables/*": "./src/composables/*.ts",
     "./lib/utils": "./src/lib/utils.ts"
   },
   "dependencies": {

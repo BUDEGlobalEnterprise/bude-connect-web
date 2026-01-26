@@ -9,3 +9,4 @@ export * from './notifications';
 export * from './messaging';
 export * from './reviews';
 export * from './profile';
+export * from './taxonomy';
