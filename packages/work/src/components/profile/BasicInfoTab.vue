@@ -6,7 +6,9 @@ import {
 } from '@bude/shared';
 import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@bude/shared/components/ui';
 import { 
-  seniorityLevels
+  seniorityLevels,
+  timezones,
+  countries
 } from '@bude/shared/data/profile-presets';
 
 const props = defineProps<{
@@ -29,15 +31,6 @@ const updateField = (field: string, value: any) => {
     [field]: value
   });
 };
-
-// Timezone options
-const timezoneOptions = [
-  'Asia/Kolkata',
-  'America/New_York',
-  'Europe/London',
-  'Asia/Singapore',
-  'Australia/Sydney',
-];
 </script>
 
 <template>
@@ -150,7 +143,7 @@ const timezoneOptions = [
             <SelectValue placeholder="Select timezone" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem v-for="tz in timezoneOptions" :key="tz" :value="tz">
+            <SelectItem v-for="tz in timezones" :key="tz" :value="tz">
               {{ tz }}
             </SelectItem>
           </SelectContent>
@@ -168,11 +161,9 @@ const timezoneOptions = [
             <SelectValue placeholder="Select country" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="India">India</SelectItem>
-            <SelectItem value="United States">United States</SelectItem>
-            <SelectItem value="United Kingdom">United Kingdom</SelectItem>
-            <SelectItem value="Canada">Canada</SelectItem>
-            <SelectItem value="Australia">Australia</SelectItem>
+            <SelectItem v-for="c in countries" :key="c.value" :value="c.value">
+              {{ c.label }}
+            </SelectItem>
           </SelectContent>
         </Select>
       </div>

@@ -899,3 +899,55 @@ export const openToOptions: ComboboxOption[] = [
   { value: 'speaking', label: 'Speaking Opportunities' },
   { value: 'other', label: 'Other' }
 ];
+
+export const genders: ComboboxOption[] = [
+  { value: 'Male', label: 'Male' },
+  { value: 'Female', label: 'Female' },
+  { value: 'Non-binary', label: 'Non-binary' },
+  { value: 'Prefer not to say', label: 'Prefer not to say' },
+  { value: 'Other', label: 'Other' }
+];
+
+export const idTypes: (ComboboxOption & { placeholder?: string })[] = [
+  { value: 'aadhaar', label: 'Aadhaar Card', placeholder: '123456789012' },
+  { value: 'pan', label: 'PAN Card', placeholder: 'ABCDE1234F' },
+  { value: 'passport', label: 'Passport', placeholder: 'A1234567' },
+  { value: 'driving_license', label: 'Driving License', placeholder: 'DL-1234567890' },
+  { value: 'voter_id', label: 'Voter ID', placeholder: 'ABC1234567' },
+  { value: 'national_id', label: 'National ID', placeholder: 'ID Number' },
+  { value: 'other', label: 'Other', placeholder: 'ID Number' }
+];
+
+export const timezones: string[] = [
+  'Asia/Kolkata',
+  'America/New_York',
+  'America/Los_Angeles',
+  'America/Chicago',
+  'Europe/London',
+  'Europe/Paris',
+  'Europe/Berlin',
+  'Asia/Singapore',
+  'Asia/Tokyo',
+  'Asia/Dubai',
+  'Australia/Sydney',
+  'Australia/Melbourne',
+  'Pacific/Auckland',
+  'UTC'
+];
+
+export const countries: ComboboxOption[] = [
+  { value: 'India', label: 'India' },
+  { value: 'United States', label: 'United States' },
+  { value: 'United Kingdom', label: 'United Kingdom' },
+  { value: 'Canada', label: 'Canada' },
+  { value: 'Australia', label: 'Australia' },
+  { value: 'Germany', label: 'Germany' },
+  { value: 'France', label: 'France' },
+  { value: 'Singapore', label: 'Singapore' },
+  { value: 'UAE', label: 'United Arab Emirates' },
+  { value: 'Japan', label: 'Japan' },
+  { value: 'China', label: 'China' },
+  { value: 'Brazil', label: 'Brazil' },
+  { value: 'South Africa', label: 'South Africa' },
+  { value: 'Other', label: 'Other' }
+];

@@ -9,6 +9,7 @@ import {
   BottomNav,
 } from "@bude/shared/components";
 import * as authApi from "@bude/shared/api/auth";
+import { idTypes } from "@bude/shared/data/profile-presets";
 
 const router = useRouter();
 const userStore = useUserStore();
@@ -32,14 +33,6 @@ const kycStatus = ref<{
   };
 } | null>(null);
 const isLoading = ref(true);
-
-const idTypes = [
-  { value: "aadhaar", label: "Aadhaar Card", placeholder: "123456789012" },
-  { value: "pan", label: "PAN Card", placeholder: "ABCDE1234F" },
-  { value: "passport", label: "Passport", placeholder: "A1234567" },
-  { value: "driving_license", label: "Driving License", placeholder: "DL-1234567890" },
-  { value: "voter_id", label: "Voter ID", placeholder: "ABC1234567" },
-];
 
 const selectedIdType = computed(() => {
   return idTypes.find((t) => t.value === idType.value);

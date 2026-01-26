@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Textarea } from '@bude/shared/components/ui';
+import { genders } from '@bude/shared/data/profile-presets';
 
 const props = defineProps<{
   modelValue: any;
@@ -12,8 +13,6 @@ const formData = computed({
   get: () => props.modelValue || {},
   set: (val) => emit('update:modelValue', val)
 });
-
-const genderOptions = ['Male', 'Female', 'Non-binary', 'Prefer not to say'];
 
 const updateField = (field: string, value: any) => {
   emit('update:modelValue', {
@@ -37,8 +36,8 @@ const updateField = (field: string, value: any) => {
             <SelectValue placeholder="Select gender" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem v-for="g in genderOptions" :key="g" :value="g">
-              {{ g }}
+            <SelectItem v-for="g in genders" :key="g.value" :value="g.value">
+              {{ g.label }}
             </SelectItem>
           </SelectContent>
         </Select>
