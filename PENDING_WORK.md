@@ -1,0 +1,787 @@
+# BudeConnect - Pending Work & Implementation Plan
+
+**Generated:** 2026-01-26
+**Current Status:** ~65% Complete (Development Phase)
+**Target:** Production-Ready Launch
+
+---
+
+## 🔴 CRITICAL PRIORITIES (P0 - Must Fix Before Launch)
+
+### 1. SMS OTP Integration ⚠️ BLOCKER
+**Status:** Not Started
+**Priority:** P0 - Production Blocker
+**Estimate:** 2-3 days
+
+**Current Issue:**
+- OTP is hardcoded as "123456" in development mode
+- No SMS gateway integration
+
+**Required Actions:**
+```python
+# File: backend/bude_core/bude_core/auth/otp.py
+# Lines: 29-35
+
+# TODO: Integrate with SMS gateway for production
+# Recommended: MSG91 (₹0.15/SMS, 98% delivery) or Twilio
+```
+
+**Implementation Steps:**
+1. Sign up for MSG91 or Twilio account
+2. Get API credentials and DLT-approved template ID
+3. Add to `site_config.json`:
+   ```json
+   {
+     "msg91_api_key": "YOUR_API_KEY",
+     "msg91_template_id": "YOUR_DLT_TEMPLATE_ID"
+   }
+   ```
+4. Implement `send_sms_otp()` function
+5. Test with real phone numbers
+6. Add error handling and logging
+
+**Reference:** CLAUDE.md Section 1.1
+
+---
+
+### 2. Messaging/Chat System 💬 CORE FEATURE
+**Status:** Not Started
+**Priority:** P0 - Core Marketplace Feature
+**Estimate:** 5-7 days
+
+**Why Critical:**
+- Users need to negotiate before purchases
+- Essential for buyer-seller communication
+- Expected standard feature for marketplaces
+
+**Architecture:**
+- **Backend:** Create `Bude Chat` and `Bude Message` doctypes
+- **Real-time:** Use Frappe's built-in SocketIO
+- **Frontend:** Chat view with message list + input
+
+**Files to Create:**
+- `backend/bude_core/bude_core/chat/chat.py` - API endpoints
+- `backend/bude_core/bude_core/doctype/bude_chat/` - Chat doctype
+- `backend/bude_core/bude_core/doctype/bude_message/` - Message doctype
+- `packages/market/src/views/MessagesView.vue` - Chat UI
+
+**API Endpoints Needed:**
+- `get_or_create_chat(item_id, job_id)`
+- `send_message(chat_id, message)`
+- `get_messages(chat_id, page)`
+- `mark_chat_as_read(chat_id)`
+- `get_chats()` - List all user's chats
+
+**Reference:** CLAUDE.md Section 5.2
+
+---
+
+### 3. Notification System 🔔 CORE FEATURE
+**Status:** Not Started
+**Priority:** P0 - Core Feature
+**Estimate:** 4-5 days
+
+**Use Cases:**
+- New message from buyer/seller
+- Bid accepted/rejected
+- Item sold
+- Credit purchase confirmed
+- KYC status updated
+
+**Architecture:**
+- **Backend:** `Bude Notification` doctype
+- **Real-time:** Frappe SocketIO for push notifications
+- **Frontend:** Notification bell + dropdown list
+
+**Files to Create:**
+- `backend/bude_core/bude_core/notifications/notifications.py` - API
+- `backend/bude_core/bude_core/doctype/bude_notification/` - Doctype
+- `packages/shared/src/stores/notifications.ts` - Store
+- `packages/shared/src/components/NotificationBell.vue` - UI Component
+
+**API Endpoints Needed:**
+- `send_notification(user, type, title, message, action_url)`
+- `get_notifications(page, page_size)`
+- `mark_as_read(notification_id)`
+- `mark_all_as_read()`
+
+**Reference:** CLAUDE.md Section 5.1
+
+---
+
+### 4. Payment Gateway Integration 💳 BLOCKER
+**Status:** Partially Implemented
+**Priority:** P0 - Revenue Blocker
+**Estimate:** 3-4 days
+
+**Current State:**
+- Backend endpoints exist but not fully tested
+- No frontend integration
+- Credits system exists but payment flow incomplete
+
+**Required Actions:**
+1. Complete Razorpay/Stripe integration testing
+2. Build credit purchase UI flow
+3. Add payment success/failure pages
+4. Implement webhook handling for payment confirmations
+5. Test sandbox → production migration
+6. Add GST/tax calculations for Indian market
+
+**Files to Update:**
+- `backend/bude_core/bude_core/wallet/payment.py` - Complete integration
+- `packages/shared/src/views/PurchaseCreditsView.vue` - Create UI
+- `packages/shared/src/api/wallet.ts` - Add payment methods
+
+**Reference:** CLAUDE.md Executive Summary
+
+---
+
+### 5. Privacy Policy & Terms of Service 📄 LEGAL REQUIREMENT
+**Status:** Not Started
+**Priority:** P0 - Legal Requirement
+**Estimate:** 2-3 days
+
+**Required Pages:**
+- `/privacy` - Privacy Policy
+- `/terms` - Terms of Service
+- `/contact` - Contact/Support
+
+**Content Needed:**
+- Data collection practices
+- User rights (GDPR compliance)
+- Refund policy
+- Dispute resolution
+- Contact information
+
+**Files to Create:**
+- `packages/shared/src/views/PrivacyPolicyView.vue`
+- `packages/shared/src/views/TermsOfServiceView.vue`
+- `packages/shared/src/views/ContactView.vue`
+
+**Add to Footer:** Links to all legal pages
+
+**Reference:** CLAUDE.md Section 7.1
+
+---
+
+### 6. Database Indexing ⚡ PERFORMANCE
+**Status:** Not Implemented
+**Priority:** P0 - Performance at Scale
+**Estimate:** 1 day
+
+**Problem:**
+- No indexes on frequently queried fields
+- Will cause slowdowns as data grows
+
+**Required Indexes:**
+```sql
+-- User lookup by phone
+CREATE INDEX idx_user_mobile ON `tabUser` (mobile_no);
+
+-- Marketplace feed queries
+CREATE INDEX idx_item_status_category ON `tabItem` (custom_status, item_group, modified DESC);
+
+-- Freelancer search
+CREATE INDEX idx_supplier_rate ON `tabSupplier` (custom_hourly_rate, custom_verified_expert);
+
+-- Job search
+CREATE INDEX idx_job_status ON `tabJob Opening` (status, modified DESC);
+
+-- Wallet transactions
+CREATE INDEX idx_transaction_user_timestamp ON `tabBude Transaction` (user, timestamp DESC);
+
+-- Unlocked contacts
+CREATE INDEX idx_unlock_user_target ON `tabBude Unlock` (user, target_doctype, target_name);
+```
+
+**Implementation:**
+- Add to migration script in `backend/bude_core/bude_core/hooks.py`
+- Run `bench migrate` to apply
+
+**Reference:** CLAUDE.md Section 4.1
+
+---
+
+### 7. Production CORS Configuration 🔒 DEPLOYMENT
+**Status:** Dev Only (Vite Proxy)
+**Priority:** P0 - Deployment Blocker
+**Estimate:** 1 hour
+
+**Current:** Vite proxy handles dev, but production CORS not configured
+
+**Required:** Add to `site_config.json`:
+```json
+{
+  "allow_cors": "*",
+  "cors_allowed_origins": [
+    "https://market.budeglobal.com",
+    "https://work.budeglobal.com"
+  ],
+  "cors_allow_credentials": true,
+  "cors_max_age": 86400
+}
+```
+
+**Reference:** CLAUDE.md Section 1.7
+
+---
+
+## 🟡 HIGH PRIORITY (P1 - Launch Week)
+
+### 8. Email Verification Flow 📧
+**Status:** Backend Exists, No Frontend
+**Priority:** P1 - Security/UX
+**Estimate:** 2 days
+
+**Issue:**
+- Users sign up with OTP → get dummy email `+919876543210@budeglobal.local`
+- No email collection/verification
+
+**Solution:**
+- Add email collection step after OTP verification
+- Send verification code to email
+- Link verified email to user account
+
+**Reference:** CLAUDE.md Section 1.2
+
+---
+
+### 9. Password Strength Indicator 🔐
+**Status:** Backend Validation Only
+**Priority:** P1 - UX
+**Estimate:** 1 day
+
+**Add to Login/Signup:**
+- Real-time password strength meter
+- Visual feedback (Weak/Fair/Good/Strong)
+- Requirements checklist (8+ chars, uppercase, number, special)
+
+**Files to Update:**
+- `packages/market/src/views/LoginView.vue`
+- `packages/market/src/views/SignupView.vue`
+
+**Reference:** CLAUDE.md Section 1.3
+
+---
+
+### 10. Forgot Password UI 🔑
+**Status:** Backend Exists, No Frontend
+**Priority:** P1 - Expected Feature
+**Estimate:** 1 day
+
+**Backend Ready:** `request_password_reset()` exists in `signup.py`
+
+**Need:**
+- Forgot password form view
+- "Check your email" confirmation page
+- Reset password with token page
+
+**Files to Create:**
+- `packages/market/src/views/ForgotPasswordView.vue`
+
+**Reference:** CLAUDE.md Section 1.4
+
+---
+
+### 11. Session Timeout Handling ⏱️
+**Status:** No UI Indication
+**Priority:** P1 - UX
+**Estimate:** 1 day
+
+**Issue:**
+- Session expires → API calls fail silently
+- User not informed
+
+**Solution:**
+- Add axios interceptor for 401/403
+- Show toast: "Session expired. Please log in again."
+- Redirect to login with return URL
+
+**Files to Update:**
+- `packages/shared/src/api/client.ts`
+
+**Reference:** CLAUDE.md Section 1.4
+
+---
+
+### 12. Reviews & Ratings System ⭐
+**Status:** Not Started
+**Priority:** P1 - Trust/Social Proof
+**Estimate:** 3-4 days
+
+**Architecture:**
+- **Doctype:** `Bude Review` (reviewer, reviewee, rating, comment)
+- **Display:** User profile shows average rating + review list
+- **Validation:** Can only review after transaction/contact unlock
+
+**Files to Create:**
+- `backend/bude_core/bude_core/reviews/reviews.py`
+- `backend/bude_core/bude_core/doctype/bude_review/`
+- `packages/shared/src/components/ReviewSection.vue`
+
+**Reference:** CLAUDE.md Section 5.4
+
+---
+
+### 13. Search Autocomplete 🔍
+**Status:** Basic Search Exists
+**Priority:** P1 - Discovery
+**Estimate:** 2 days
+
+**Enhance:**
+- Add autocomplete dropdown
+- Show item thumbnails in suggestions
+- Debounced search (300ms delay)
+- Full-text search with relevance scoring
+
+**Files to Update:**
+- `packages/market/src/components/Navbar.vue`
+- Backend: Enhance `get_search_suggestions()`
+
+**Reference:** CLAUDE.md Section 5.3
+
+---
+
+### 14. Error Tracking (Sentry) 📊
+**Status:** Not Implemented
+**Priority:** P1 - Production Monitoring
+**Estimate:** 1 day
+
+**Add:**
+- Sentry integration for frontend
+- Error tracking with user context
+- Performance monitoring
+- Session replay on errors
+
+**Files to Create:**
+- `packages/shared/src/plugins/sentry.ts`
+
+**Reference:** CLAUDE.md Section 6.4
+
+---
+
+### 15. API Pagination (All Endpoints) 📄
+**Status:** Inconsistent
+**Priority:** P1 - Scalability
+**Estimate:** 2 days
+
+**Issue:**
+- `get_feed()` has pagination ✅
+- `get_my_listings()` does NOT ❌
+- Will break with 1000+ listings
+
+**Solution:**
+- Add pagination to ALL list endpoints
+- Implement infinite scroll in frontend
+
+**Reference:** CLAUDE.md Section 4.2
+
+---
+
+## 🟢 MEDIUM PRIORITY (P2 - Post-Launch Week 1)
+
+### 16. Profile Form Data Loading (COMPLETED ✅)
+**Status:** Fixed
+**Details:**
+- Created `get_editable_profile()` backend function
+- Returns snake_case format for form compatibility
+- Fixed career_preferences field access
+- Form now loads existing data correctly
+
+---
+
+### 17. OTP Input Enhancement 📱
+**Status:** Single Input Box
+**Priority:** P2 - UX Polish
+**Estimate:** 1 day
+
+**Enhance:**
+- Separate input boxes for each digit (6 boxes)
+- Auto-focus next box on input
+- Paste support for 6-digit codes
+- Auto-submit when all digits entered
+
+**Reference:** CLAUDE.md Section 2.2
+
+---
+
+### 18. Resend OTP Timer ⏲️
+**Status:** No Resend Option
+**Priority:** P2 - Common User Need
+**Estimate:** 1 day
+
+**Add:**
+- 60-second countdown timer
+- "Resend OTP" button (enabled after countdown)
+- Track resend attempts
+
+**Reference:** CLAUDE.md Section 2.3
+
+---
+
+### 19. KYC Verification UI Flow 🆔
+**Status:** Backend Exists, No Frontend
+**Priority:** P2 - Trust/Safety
+**Estimate:** 2 days
+
+**Backend Ready:** `request_kyc()` endpoint exists
+
+**Need:**
+- KYC submission form (ID type, ID number, photo upload)
+- Status tracking page (Pending/Verified/Rejected)
+- Benefits display (why verify?)
+
+**Files to Create:**
+- `packages/shared/src/views/KycView.vue`
+
+**Reference:** CLAUDE.md Section 3.4
+
+---
+
+### 20. Image Optimization 🖼️
+**Status:** Basic Upload
+**Priority:** P2 - Performance/Cost
+**Estimate:** 3 days
+
+**Issues:**
+- No compression
+- No responsive variants
+- No CDN integration
+- No lazy loading for thumbnails
+
+**Solution:**
+- Add PIL/Pillow image processing
+- Generate multiple sizes (original, optimized, thumbnail)
+- Compress with quality=85
+- Plan CDN migration
+
+**Reference:** CLAUDE.md Section 4.4
+
+---
+
+### 21. Design System & Color Refactor 🎨
+**Status:** Inconsistent Styling
+**Priority:** P2 - Brand Consistency
+**Estimate:** 4-5 days
+
+**Issues:**
+- Multiple color definitions scattered
+- Inconsistent spacing
+- No central design tokens
+
+**Solution:**
+- Create `design-tokens.css` with CSS variables
+- Standardize colors, spacing, typography
+- Update all components to use tokens
+- Match freelanly.com quality standards
+
+**Reference:** CLAUDE.md Section 9 (from 77-task checklist)
+
+---
+
+### 22. Component Polish 💎
+**Status:** Basic Implementation
+**Priority:** P2 - UX Quality
+**Estimate:** 3-4 days
+
+**Enhance:**
+- Button: Add loading spinner, disabled state, size variants
+- Input: Add error state, helper text, validation icons
+- Modal: Add animations, close on backdrop click, keyboard shortcuts
+- Toast: Better positioning, multiple toasts, action buttons
+
+**Reference:** CLAUDE.md Section 9
+
+---
+
+## 🔵 LOW PRIORITY (P3 - Post-Launch Month 1)
+
+### 23. Profile Completeness Meter
+**Status:** Not Started
+**Estimate:** 1 day
+
+**Add:**
+- Progress bar showing % profile completion
+- Checklist of missing fields
+- Links to complete each section
+
+**Reference:** CLAUDE.md Section 3.3
+
+---
+
+### 24. Activity Feed/Timeline
+**Status:** Not Started
+**Estimate:** 2-3 days
+
+**Show:**
+- Items posted
+- Bids submitted
+- Messages sent/received
+- Transactions history
+
+---
+
+### 25. Favorites/Wishlist
+**Status:** Not Started
+**Estimate:** 1-2 days
+
+**Allow users to:**
+- Save items for later
+- Create wish lists
+- Share wishlists
+
+---
+
+### 26. Report Listings
+**Status:** Not Started
+**Estimate:** 1-2 days
+
+**Add:**
+- Flag inappropriate content
+- Report spam
+- Moderation queue for admins
+
+---
+
+### 27. Admin Dashboard
+**Status:** Not Started
+**Estimate:** 5-7 days
+
+**Features:**
+- User management
+- Content moderation
+- Transaction monitoring
+- Analytics & insights
+- KYC approval workflow
+
+---
+
+### 28. API Response Caching
+**Status:** Not Implemented
+**Estimate:** 1 day
+
+**Cache:**
+- Categories (15 min TTL)
+- Skills list (15 min TTL)
+- Static data
+
+**Reference:** CLAUDE.md Section 6.1
+
+---
+
+### 29. Bundle Size Optimization
+**Status:** Default Build
+**Estimate:** 1 day
+
+**Optimize:**
+- Code splitting
+- Vendor chunk separation
+- Tree shaking
+- Bundle analysis
+- Remove console.log in production
+
+**Reference:** CLAUDE.md Section 6.6
+
+---
+
+### 30. Content Security Policy Headers
+**Status:** Not Configured
+**Estimate:** 1 hour
+
+**Add CSP headers:**
+- Script sources
+- Style sources
+- Image sources
+- Frame ancestors
+- XSS protection
+
+**Reference:** CLAUDE.md Section 7.4
+
+---
+
+## 📋 CURRENT BUGS & FIXES
+
+### ✅ FIXED
+1. **Profile data in cache** - Moved to Bude Profile database ✅
+2. **Field name bugs in user_profile.py** - Fixed proficiency → level ✅
+3. **Portfolio field bugs** - Fixed url → live_url/github_url ✅
+4. **Orphan doctype** - Removed Bude Profile Portfolio ✅
+5. **Export script** - Enhanced with comprehensive data ✅
+6. **API response format** - Fixed for frappe.call() ✅
+7. **Career preferences field** - Fixed to use preferences JSON ✅
+
+### ⚠️ KNOWN ISSUES
+1. **Wallet unlocked contacts** - `result.data.forEach is not a function` error
+   - Need to fix response format in wallet API
+
+---
+
+## 🏗️ ARCHITECTURE IMPROVEMENTS
+
+### Database
+- [ ] Add indexes to all frequently queried fields
+- [ ] Set up database backup strategy
+- [ ] Configure connection pooling for production
+- [ ] Plan sharding strategy for scale
+
+### Backend
+- [ ] Add API rate limiting monitoring
+- [ ] Implement request logging
+- [ ] Set up error tracking (Sentry backend)
+- [ ] Add health check endpoints
+- [ ] Configure Redis for caching
+
+### Frontend
+- [ ] Implement service worker for offline support
+- [ ] Add PWA manifest
+- [ ] Set up bundle analysis in CI/CD
+- [ ] Configure CDN for static assets
+- [ ] Add performance monitoring
+
+### Security
+- [ ] Security audit
+- [ ] Penetration testing
+- [ ] Dependency vulnerability scanning
+- [ ] OWASP compliance check
+- [ ] Rate limit testing
+
+---
+
+## 📊 ESTIMATED TIMELINE
+
+### Phase 1: Critical (Launch Blockers) - 3-4 Weeks
+- SMS OTP Integration: 3 days
+- Messaging System: 7 days
+- Notification System: 5 days
+- Payment Gateway: 4 days
+- Privacy/Terms Pages: 3 days
+- Database Indexing: 1 day
+- CORS Configuration: 0.5 days
+**Total: ~23 days**
+
+### Phase 2: High Priority (Launch Week) - 2 Weeks
+- Email Verification: 2 days
+- Password Strength: 1 day
+- Forgot Password: 1 day
+- Session Timeout: 1 day
+- Reviews System: 4 days
+- Search Autocomplete: 2 days
+- Sentry Integration: 1 day
+- API Pagination: 2 days
+**Total: ~14 days**
+
+### Phase 3: Medium Priority (Post-Launch) - 2-3 Weeks
+- OTP Enhancement: 1 day
+- Resend OTP Timer: 1 day
+- KYC UI: 2 days
+- Image Optimization: 3 days
+- Design System: 5 days
+- Component Polish: 4 days
+**Total: ~16 days**
+
+### Phase 4: Low Priority (Month 1-2) - 4-6 Weeks
+- Feature enhancements
+- Admin dashboard
+- Analytics
+- Performance optimization
+
+---
+
+## ✅ PRE-LAUNCH CHECKLIST
+
+### Security ✅
+- [ ] SMS OTP working in production
+- [ ] Email verification enforced
+- [ ] Password strength validated
+- [ ] Session timeout handled
+- [ ] CORS configured
+- [ ] CSRF protection tested
+- [ ] Rate limiting enabled
+- [ ] Security headers added
+
+### Features ✅
+- [ ] Messaging system live
+- [ ] Notifications functional
+- [ ] Payment gateway working
+- [ ] Reviews system active
+- [ ] Search working
+- [ ] KYC flow complete
+
+### Performance ✅
+- [ ] Database indexes added
+- [ ] API pagination implemented
+- [ ] Images optimized
+- [ ] Bundle size < 500KB
+- [ ] Page load < 3s
+- [ ] Time to interactive < 5s
+
+### Legal ✅
+- [ ] Privacy policy published
+- [ ] Terms of service published
+- [ ] Contact page live
+- [ ] Refund policy defined
+- [ ] GDPR compliance
+
+### Monitoring ✅
+- [ ] Sentry error tracking
+- [ ] Performance monitoring
+- [ ] Analytics setup
+- [ ] Uptime monitoring
+- [ ] Alert system configured
+
+### Testing ✅
+- [ ] End-to-end tests
+- [ ] Payment flow tested
+- [ ] Mobile responsive tested
+- [ ] Cross-browser tested
+- [ ] Security audit passed
+
+### Deployment ✅
+- [ ] Production environment set up
+- [ ] Domain configured
+- [ ] SSL certificate installed
+- [ ] CDN configured
+- [ ] Backup strategy in place
+- [ ] Rollback plan ready
+
+---
+
+## 📝 NOTES
+
+### Current Completion Status
+- **Backend:** ~70% complete
+- **Frontend:** ~60% complete
+- **Overall:** ~65% complete
+
+### Key Strengths
+- ✅ Solid monorepo architecture
+- ✅ Strong security foundation
+- ✅ Type-safe codebase
+- ✅ Mobile-first design
+- ✅ Clean component library
+
+### Critical Gaps
+- ❌ SMS delivery not implemented
+- ❌ Messaging system missing
+- ❌ Notifications missing
+- ❌ Payment flow incomplete
+- ❌ No production monitoring
+
+### Target Launch Date
+- **Phase 1 Complete:** ~3-4 weeks
+- **Soft Launch:** ~5-6 weeks
+- **Public Launch:** ~8-10 weeks
+
+---
+
+## 🔗 REFERENCES
+
+- **CLAUDE.md** - Senior Product & Technical Audit (comprehensive analysis)
+- **ARCHITECTURE_CLEANUP.md** - Field mismatches and fixes
+- **README.md** - Project setup and development guide
+
+---
+
+**Last Updated:** 2026-01-26
+**Next Review:** After Phase 1 completion
+

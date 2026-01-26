@@ -140,11 +140,19 @@ class FrappeClient {
    * Endpoint format: /api/method/{dotted.path.to.method}
    */
   async call<T>(method: string, args: Record<string, unknown> = {}): Promise<T> {
-    const response = await this.request<{ message: T }>(`/api/method/${method}`, {
+    const response = await this.request<{ message: any }>(`/api/method/${method}`, {
       method: 'POST',
       body: args,
     });
-    return response.message;
+    
+    const msg = response.message;
+    
+    // Automatically unwrap Bude success_response if it contains a data key
+    if (msg && typeof msg === 'object' && msg.success === true && 'data' in msg) {
+      return msg.data as T;
+    }
+    
+    return msg as T;
   }
 
   /**

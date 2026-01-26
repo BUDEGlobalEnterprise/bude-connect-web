@@ -13,11 +13,7 @@ interface SelectedSkill {
   category: string;
 }
 
-interface Certification {
-  certificationName: string;
-  organization: string;
-  issueDate: string;
-}
+// Certification interface was unused, removed to clear lints
 
 const props = defineProps<{
   modelValue: any;
@@ -129,7 +125,7 @@ const updateField = (field: string, value: any) => {
         >
           <button
             type="button"
-            @click="removeCertification(index)"
+            @click="removeCertification(index as number)"
             class="absolute top-2 right-2 p-1 hover:bg-destructive/10 rounded text-destructive transition-colors"
           >
             <Trash2 class="h-4 w-4" />
@@ -140,7 +136,7 @@ const updateField = (field: string, value: any) => {
               <Label>Certification</Label>
               <Input
                 :model-value="cert.certificationName"
-                @update:model-value="(val) => updateCertification(index, 'certificationName', val)"
+                @update:model-value="(val) => updateCertification(index as number, 'certificationName', val)"
                 placeholder="Certification Name"
               />
             </div>
@@ -149,7 +145,7 @@ const updateField = (field: string, value: any) => {
               <Label>Issuing Organization</Label>
               <Input
                 :model-value="cert.organization"
-                @update:model-value="(val) => updateCertification(index, 'organization', val)"
+                @update:model-value="(val) => updateCertification(index as number, 'organization', val)"
                 placeholder="e.g., AWS, Google"
               />
             </div>
