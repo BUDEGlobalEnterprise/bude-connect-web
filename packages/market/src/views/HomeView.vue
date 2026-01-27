@@ -4,7 +4,7 @@ import { RouterLink, useRoute, useRouter } from "vue-router";
 import { getFeed, getTaxonomyVerticals } from "@bude/shared/api";
 import type { MarketItem } from "@bude/shared/types";
 import type { TaxonomyVertical } from "@bude/shared/api";
-import { EmptyState } from "@bude/shared/components";
+import { EmptyState, ListingSkeleton } from "@bude/shared/components";
 import ItemCard from "../components/ItemCard.vue";
 import CategoryNav from "../components/CategoryNav.vue";
 
@@ -14,9 +14,15 @@ const router = useRouter();
 const items = ref<MarketItem[]>([]);
 const verticals = ref<TaxonomyVertical[]>([]);
 const isLoading = ref(true);
+const isFetchingMore = ref(false);
+const hasMore = ref(false);
+const lastId = ref<string | null>(null);
 const selectedCategory = ref<string | null>(null);
 const selectedListingType = ref<string | null>(null);
 const searchQuery = ref<string>((route.query.search as string) || "");
+
+const loadMoreSentinel = ref<HTMLElement | null>(null);
+let observer: IntersectionObserver | null = null;
 
 const selectedCategoryName = computed(() => {
   if (searchQuery.value) return `Results for "${searchQuery.value}"`;
@@ -64,13 +70,6 @@ const trustStats = [
   { value: "24/7", label: "Support", pulse: "orange" },
 ];
 
-const listingTypes = [
-  { value: "Sell", label: "Buy", icon: "🛒", color: "from-blue-500 to-blue-600" },
-  { value: "Rent", label: "Rent", icon: "🔄", color: "from-green-500 to-green-600" },
-  { value: "Surplus", label: "Surplus", icon: "📦", color: "from-amber-500 to-amber-600" },
-  { value: "Scrap", label: "Scrap", icon: "♻️", color: "from-emerald-500 to-emerald-600" },
-];
-
 function nextSlide() {
   if (isTransitioning.value) return;
   isTransitioning.value = true;
@@ -92,19 +91,37 @@ function goToSlide(index: number) {
   setTimeout(() => isTransitioning.value = false, 700);
 }
 
-async function loadFeed() {
-  isLoading.value = true;
+async function loadFeed(isInitial = true) {
+  if (isInitial) {
+    isLoading.value = true;
+    items.value = [];
+    lastId.value = null;
+  } else {
+    isFetchingMore.value = true;
+  }
+
   try {
     const result = await getFeed({
       category: selectedCategory.value || undefined,
       listingType: (selectedListingType.value as any) || undefined,
       search: searchQuery.value || undefined,
+      lastId: lastId.value || undefined,
+      pageSize: 20
     });
-    items.value = result.data;
+    
+    if (isInitial) {
+      items.value = result.data;
+    } else {
+      items.value = [...items.value, ...result.data];
+    }
+    
+    hasMore.value = result.has_more;
+    lastId.value = result.last_id;
   } catch (error) {
     console.error("Failed to load feed:", error);
   } finally {
     isLoading.value = false;
+    isFetchingMore.value = false;
   }
 }
 
@@ -132,6 +149,24 @@ function handleListingTypeSelect(type: string | null) {
   loadFeed();
 }
 
+/**
+ * Keyset Pagination Infinite Scroll
+ */
+function setupIntersectionObserver() {
+  if (observer) observer.disconnect();
+  
+  observer = new IntersectionObserver((entries) => {
+    // Trigger when bottom sentinel is visible and we have more data
+    if (entries[0].isIntersecting && hasMore.value && !isFetchingMore.value && !isLoading.value) {
+      loadFeed(false);
+    }
+  }, { threshold: 0.1, rootMargin: '200px' });
+
+  if (loadMoreSentinel.value) {
+    observer.observe(loadMoreSentinel.value);
+  }
+}
+
 // React to search query changes from SearchBar navigation
 watch(() => route.query.search, (newSearch) => {
   searchQuery.value = (newSearch as string) || "";
@@ -141,10 +176,13 @@ watch(() => route.query.search, (newSearch) => {
 onMounted(() => {
   loadFeed();
   loadCategories();
+  // Wait for DOM to render sentinel
+  setTimeout(setupIntersectionObserver, 1000);
   slideInterval = setInterval(nextSlide, 6000);
 });
 
 onUnmounted(() => {
+  if (observer) observer.disconnect();
   clearInterval(slideInterval);
 });
 </script>
@@ -314,13 +352,9 @@ onUnmounted(() => {
           </RouterLink>
         </div>
 
-        <!-- Loading State -->
+        <!-- Initial Loading State (Premium skeletons) -->
         <div v-if="isLoading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          <div v-for="i in 8" :key="i" class="bg-white rounded-2xl shadow-sm p-4 animate-pulse">
-            <div class="aspect-square bg-gray-200 rounded-xl mb-4"></div>
-            <div class="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
-            <div class="h-4 bg-gray-200 rounded w-1/2"></div>
-          </div>
+          <ListingSkeleton v-for="i in 8" :key="i" />
         </div>
 
         <!-- Products -->
@@ -330,7 +364,6 @@ onUnmounted(() => {
             :key="item.name"
             :item="item"
             class="animate-fade-in-up"
-            :style="{ animationDelay: `${index * 50}ms` }"
           />
         </div>
 
@@ -345,11 +378,21 @@ onUnmounted(() => {
             Post Your Ad
           </RouterLink>
         </EmptyState>
+
+        <!-- Infinite Scroll Skeletons -->
+        <div v-if="isFetchingMore" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
+          <ListingSkeleton v-for="i in 4" :key="i" />
+        </div>
+
+        <!-- Loading Sentinel -->
+        <div ref="loadMoreSentinel" class="h-20 flex items-center justify-center">
+            <div v-if="hasMore && !isFetchingMore" class="text-gray-400 text-sm">Scroll for more...</div>
+        </div>
       </div>
     </section>
 
     <!-- Why BudeGlobal Market Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-white border-t border-gray-100">
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-12">
           <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-100 text-primary-600 text-sm font-semibold mb-4">
