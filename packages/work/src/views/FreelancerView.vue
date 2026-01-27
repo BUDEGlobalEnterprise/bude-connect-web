@@ -4,7 +4,7 @@ import { useRoute } from "vue-router";
 import { getFreelancer } from "@bude/shared/api";
 import { useUserStore, useWalletStore } from "@bude/shared";
 import { formatPrice } from "@bude/shared/utils";
-import { Avatar, Badge, LoadingSkeleton } from "@bude/shared/components";
+import { Avatar, Badge, LoadingSkeleton, ReviewSection } from "@bude/shared/components";
 import type { Freelancer } from "@bude/shared/types";
 import UnlockButton from "../components/UnlockButton.vue";
 import ContactCard from "../components/ContactCard.vue";
@@ -101,6 +101,16 @@ onMounted(loadFreelancer);
           />
           <UnlockButton v-else doctype="Supplier" :docname="freelancer.name" />
         </div>
+      </div>
+
+      <!-- Reviews -->
+      <div class="mt-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-4">Reviews</h2>
+        <ReviewSection
+          :user-id="(route.params.id as string)"
+          reference-doctype="Supplier"
+          :reference-name="freelancer.name"
+        />
       </div>
     </div>
   </div>

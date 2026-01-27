@@ -7,6 +7,7 @@ import {
   Badge,
   EmptyState,
   LoadingSkeleton,
+  ReviewSection,
 } from "@bude/shared/components";
 import type { MarketItem, SellerInfo } from "@bude/shared/types";
 import ItemCard from "../components/ItemCard.vue";
@@ -81,5 +82,11 @@ onMounted(loadSeller);
       message="This seller has no active listings"
       icon="inbox"
     />
+
+    <!-- Reviews -->
+    <div v-if="seller" class="mt-10">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Reviews</h2>
+      <ReviewSection :user-id="(route.params.id as string)" />
+    </div>
   </div>
 </template>

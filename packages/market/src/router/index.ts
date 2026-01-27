@@ -86,6 +86,12 @@ const router = createRouter({
       name: 'verify-email',
       component: () => import('../views/VerifyEmailView.vue'),
     },
+    {
+      path: '/notifications',
+      name: 'notifications',
+      component: () => import('../views/NotificationsView.vue'),
+      meta: { requiresAuth: true },
+    },
   ],
 });
 

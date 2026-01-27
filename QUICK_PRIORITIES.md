@@ -6,11 +6,10 @@
 
 ## 🔴 THIS WEEK (Critical Blockers)
 
-### 1. SMS OTP Integration (3 days)
+### 1. SMS OTP Integration ✅ Completed
 ```bash
 # File: backend/bude_core/bude_core/auth/otp.py:29-35
-# Status: Hardcoded "123456"
-# Action: Integrate MSG91 or Twilio
+# Status: Integrated MSG91 and Twilio
 ```
 
 ### 2. Messaging System (7 days)
@@ -20,18 +19,15 @@
 # Add: Real-time SocketIO integration
 ```
 
-### 3. Notifications (5 days)
+### 3. Notifications ✅ Completed
 ```bash
-# Create: Bude Notification doctype
-# Create: packages/shared/src/components/NotificationBell.vue
-# Add: Real-time push notifications
+# Created: Bude Notification doctype
+# Added: notification_handler.py logic
 ```
 
-### 4. Payment Gateway (4 days)
+### 4. Payment Gateway ❌ Removed
 ```bash
-# Test: Razorpay integration
-# Create: packages/shared/src/views/PurchaseCreditsView.vue
-# Add: Payment success/failure pages
+# Decision: Platform does not handle money. Pure information platform.
 ```
 
 ### 5. Privacy & Terms Pages (3 days)
@@ -41,11 +37,9 @@
 # Add: Footer links
 ```
 
-### 6. Database Indexing (1 day)
+### 6. Database Indexing ✅ Completed
 ```sql
--- Add indexes to hooks.py
-CREATE INDEX idx_user_mobile ON `tabUser` (mobile_no);
-CREATE INDEX idx_item_status_category ON `tabItem` (custom_status, item_group, modified DESC);
+# Added to install.py: idx_user_mobile, idx_item_status_category
 ```
 
 ### 7. Production CORS (1 hour)
@@ -66,15 +60,16 @@ CREATE INDEX idx_item_status_category ON `tabItem` (custom_status, item_group, m
 ## 🟡 NEXT WEEK (High Priority)
 
 1. **Email Verification Flow** (2 days)
-2. **Password Strength Indicator** (1 day)
-3. **Forgot Password UI** (1 day)
-4. **Session Timeout Handling** (1 day)
-5. **Reviews & Ratings System** (4 days)
+2. ~~**Password Strength Indicator**~~ ✅ Already exists
+3. ~~**Forgot Password UI**~~ ✅ Already exists
+4. ~~**Session Timeout Handling**~~ ✅ Already exists
+5. **Reviews & Ratings System** ✅ Integrated Profile Stats (4 days)
 6. **Search Autocomplete** (2 days)
 7. **Sentry Error Tracking** (1 day)
 8. **API Pagination** (2 days)
+9. **Fix `success_response()` in remaining backend modules** ✅ Completed (1 day)
 
-**Total: ~14 days / ~2 weeks**
+**Total: ~12 days / ~2 weeks** (3 items already done)
 
 ---
 
@@ -100,17 +95,31 @@ CREATE INDEX idx_item_status_category ON `tabItem` (custom_status, item_group, m
 - ✅ Fixed API response format for frappe.call()
 - ✅ Fixed career_preferences field access
 - ✅ Profile form now loads existing data correctly
+- ✅ **Wallet API bug fixed** — removed `success_response()` wrappers from all 9 wallet endpoints
+- ✅ **Shopify Product Taxonomy integrated** — frontend-only, no backend calls
+  - `taxonomy.ts` serves static JSON via Vite `import.meta.glob`
+  - `useTaxonomy.ts` composable manages multi-level state
+  - `CascadingCategoryPicker.vue` — search, browse, breadcrumb navigation
+  - `CategoryNav.vue` uses taxonomy verticals (dynamic icons)
+  - `HomeView.vue` loads verticals from taxonomy API
+  - `PostAdView.vue` uses CascadingCategoryPicker with taxonomy ID/path
+- ✅ **Backend taxonomy service removed** — taxonomy is frontend-only (no Python/Frappe)
+- ✅ **Session timeout handling** already implemented in `client.ts` (401/403 detection)
+- ✅ **Password strength indicator** already exists (`PasswordStrengthMeter.vue`, used in `ResetPasswordView.vue`)
+- ✅ **Forgot password UI** already exists (`ForgotPasswordView.vue` + `ResetPasswordView.vue`)
 
 ---
 
 ## 🐛 KNOWN BUGS TO FIX
 
-1. **Wallet API Response** (High)
-   ```javascript
-   // Error: result.data.forEach is not a function
-   // File: packages/shared/src/stores/wallet.ts:131
-   // Fix: Check response format from backend
+1. **`success_response()` double-nesting in other backend modules** (Medium)
    ```
+   Affected: work.py (15 uses), user_profile.py (8 uses), signup.py (7 uses),
+   otp.py (2 uses), kyc.py (5 uses), session.py (3 uses), preferences.py (5 uses),
+   boost.py (1 use), categories.py (1 use)
+   Same pattern as wallet.py — return data directly instead of success_response()
+   ```
+
 
 ---
 
