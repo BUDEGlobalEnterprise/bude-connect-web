@@ -1,3 +1,5 @@
+@import "../../shared/src/styles/design-tokens.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -144,6 +146,7 @@
   .card {
     @apply bg-white rounded-xl shadow-sm border border-gray-100;
     @apply hover:shadow-md hover:border-gray-200 transition-all duration-200;
+    @apply bude-hover-lift;
   }
 
   .card-flat {
@@ -187,7 +190,7 @@
 
   /* Glass effect */
   .glass {
-    @apply bg-white/80 backdrop-blur-md border border-white/20;
+    @apply bude-glass;
   }
 
   /* Gradient text */

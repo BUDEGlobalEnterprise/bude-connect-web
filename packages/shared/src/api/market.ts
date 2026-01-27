@@ -19,6 +19,7 @@ export interface FeedParams {
   page?: number;
   pageSize?: number;
   search?: string;
+  lastId?: string;
 }
 
 /**
@@ -36,7 +37,8 @@ export async function getFeed(params: FeedParams = {}): Promise<PaginatedRespons
     radius: params.radius,
     page: params.page,
     page_size: params.pageSize,
-    search: params.search
+    search: params.search,
+    last_id: params.lastId
   }, true);
 }
 

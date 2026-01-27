@@ -35,6 +35,7 @@ export { default as StatCard } from './StatCard.vue';
 export { default as StatsGrid } from './StatsGrid.vue';
 export { default as EmptyState } from './EmptyState.vue';
 export { default as LoadingSkeleton } from './LoadingSkeleton.vue';
+export { default as ListingSkeleton } from './ListingSkeleton.vue';
 export { default as ProgressBar } from './ProgressBar.vue';
 export { default as TestimonialCard } from './TestimonialCard.vue';
 

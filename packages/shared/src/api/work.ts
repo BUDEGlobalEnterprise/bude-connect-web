@@ -16,13 +16,17 @@ export interface TalentSearchParams {
   search?: string;
   page?: number;
   page_size?: number;
+  lastId?: string;
 }
 
 /**
  * Search for freelancers
  */
 export async function searchTalent(params: TalentSearchParams = {}): Promise<PaginatedResponse<Freelancer>> {
-  return frappe.call<PaginatedResponse<Freelancer>>('bude_core.work.search_talent', params, true);
+  return frappe.call<PaginatedResponse<Freelancer>>('bude_core.work.search_talent', {
+    ...params,
+    last_id: params.lastId
+  }, true);
 }
 
 /**
@@ -61,13 +65,17 @@ export interface JobSearchParams {
   search?: string;
   page?: number;
   page_size?: number;
+  lastId?: string;
 }
 
 /**
  * Get open job listings
  */
 export async function getOpenJobs(params: JobSearchParams = {}): Promise<PaginatedResponse<JobOpening>> {
-  return frappe.call<PaginatedResponse<JobOpening>>('bude_core.work.get_open_jobs', params, true);
+  return frappe.call<PaginatedResponse<JobOpening>>('bude_core.work.get_open_jobs', {
+    ...params,
+    last_id: params.lastId
+  }, true);
 }
 
 // Alias for convenience
