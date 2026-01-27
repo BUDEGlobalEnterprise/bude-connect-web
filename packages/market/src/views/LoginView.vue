@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from "vue";
+import { ref, computed, onMounted, onUnmounted, watch } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useUserStore, useWalletStore } from "@bude/shared";
 import { isValidEmail, isValidIndianMobile } from "@bude/shared/utils";
-import { Button, Input } from "@bude/shared/components";
+import { Button, Input, OtpInput } from "@bude/shared/components";
 
 const router = useRouter();
 const route = useRoute();
@@ -57,11 +57,43 @@ function handleGoogleLogin() {
   userStore.initiateGoogleLogin();
 }
 
+// Resend OTP timer
+const resendCountdown = ref(0);
+const isResending = ref(false);
+let resendTimer: ReturnType<typeof setInterval> | null = null;
+
+function startResendTimer() {
+  resendCountdown.value = 60;
+  if (resendTimer) clearInterval(resendTimer);
+  resendTimer = setInterval(() => {
+    resendCountdown.value--;
+    if (resendCountdown.value <= 0) {
+      clearInterval(resendTimer!);
+      resendTimer = null;
+    }
+  }, 1000);
+}
+
+const canResend = computed(() => resendCountdown.value <= 0 && isOtpSent.value);
+
 async function handleSendOtp() {
   if (!isValidIndianMobile(mobile.value)) {
     return;
   }
   await userStore.sendOtp(mobile.value);
+  startResendTimer();
+}
+
+async function handleResendOtp() {
+  if (!canResend.value) return;
+  isResending.value = true;
+  try {
+    await userStore.sendOtp(userStore.otpMobile);
+    otp.value = "";
+    startResendTimer();
+  } finally {
+    isResending.value = false;
+  }
 }
 
 async function handleVerifyOtp() {
@@ -76,6 +108,10 @@ async function handleVerifyOtp() {
 function handleForgotPassword() {
   router.push("/forgot-password");
 }
+
+onUnmounted(() => {
+  if (resendTimer) clearInterval(resendTimer);
+});
 </script>
 
 <template>
@@ -257,14 +293,23 @@ function handleForgotPassword() {
             <p class="text-sm text-gray-500 mb-4">
               OTP sent to +91 {{ userStore.otpMobile }}
             </p>
-            <input
+            <OtpInput
               v-model="otp"
-              type="text"
-              maxlength="6"
-              placeholder="Enter 6-digit OTP"
-              class="input text-center text-2xl tracking-widest"
-              @keyup.enter="handleVerifyOtp"
+              @complete="handleVerifyOtp"
             />
+            <div class="flex justify-center mt-3">
+              <button
+                v-if="canResend"
+                @click="handleResendOtp"
+                :disabled="isResending"
+                class="text-sm font-medium text-primary-600 hover:text-primary-700 hover:underline disabled:opacity-50"
+              >
+                {{ isResending ? 'Sending...' : 'Resend OTP' }}
+              </button>
+              <p v-else class="text-sm text-gray-400">
+                Resend in {{ resendCountdown }}s
+              </p>
+            </div>
             <Button
               :loading="isLoading"
               full-width

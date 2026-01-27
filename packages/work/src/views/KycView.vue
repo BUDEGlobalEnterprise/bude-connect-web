@@ -189,8 +189,10 @@ onMounted(() => {
         </Button>
       </div>
 
-      <div v-else-if="kycStatus?.status === 'Rejected'" class="space-y-4">
-        <div class="card p-6 bg-red-50 border-red-200">
+      <!-- Form State (initial submission or resubmission after rejection) -->
+      <div v-else class="space-y-6">
+        <!-- Rejection Banner -->
+        <div v-if="kycStatus?.status === 'Rejected'" class="card p-6 bg-red-50 border-red-200">
           <div class="flex items-start gap-3">
             <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
               <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -205,9 +207,6 @@ onMounted(() => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div v-else class="space-y-6">
         <div class="grid grid-cols-3 gap-3">
           <div class="card p-4 text-center">
             <div class="text-2xl mb-2">&#10004;</div>

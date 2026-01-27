@@ -76,6 +76,7 @@ export { default as VirtualList } from './VirtualList.vue';
 
 // Forms & Validation
 export { default as PasswordStrengthMeter } from './PasswordStrengthMeter.vue';
+export { default as OtpInput } from './OtpInput.vue';
 
 // Features
 export { default as ChatWindow } from './ChatWindow.vue';

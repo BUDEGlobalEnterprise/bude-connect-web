@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from "vue";
-import { RouterLink } from "vue-router";
+import { ref, computed, onMounted, onUnmounted, watch } from "vue";
+import { RouterLink, useRoute, useRouter } from "vue-router";
 import { getFeed, getTaxonomyVerticals } from "@bude/shared/api";
 import type { MarketItem } from "@bude/shared/types";
 import type { TaxonomyVertical } from "@bude/shared/api";
@@ -8,13 +8,18 @@ import { EmptyState } from "@bude/shared/components";
 import ItemCard from "../components/ItemCard.vue";
 import CategoryNav from "../components/CategoryNav.vue";
 
+const route = useRoute();
+const router = useRouter();
+
 const items = ref<MarketItem[]>([]);
 const verticals = ref<TaxonomyVertical[]>([]);
 const isLoading = ref(true);
 const selectedCategory = ref<string | null>(null);
 const selectedListingType = ref<string | null>(null);
+const searchQuery = ref<string>((route.query.search as string) || "");
 
 const selectedCategoryName = computed(() => {
+  if (searchQuery.value) return `Results for "${searchQuery.value}"`;
   if (!selectedCategory.value) return "All Products";
   const v = verticals.value.find((v) => v.id === selectedCategory.value);
   return v?.name || selectedCategory.value;
@@ -93,6 +98,7 @@ async function loadFeed() {
     const result = await getFeed({
       category: selectedCategory.value || undefined,
       listingType: (selectedListingType.value as any) || undefined,
+      search: searchQuery.value || undefined,
     });
     items.value = result.data;
   } catch (error) {
@@ -100,6 +106,12 @@ async function loadFeed() {
   } finally {
     isLoading.value = false;
   }
+}
+
+function clearSearch() {
+  searchQuery.value = "";
+  router.replace({ query: {} });
+  loadFeed();
 }
 
 async function loadCategories() {
@@ -119,6 +131,12 @@ function handleListingTypeSelect(type: string | null) {
   selectedListingType.value = selectedListingType.value === type ? null : type;
   loadFeed();
 }
+
+// React to search query changes from SearchBar navigation
+watch(() => route.query.search, (newSearch) => {
+  searchQuery.value = (newSearch as string) || "";
+  loadFeed();
+});
 
 onMounted(() => {
   loadFeed();
@@ -277,7 +295,19 @@ onUnmounted(() => {
             <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
               {{ selectedCategoryName }}
             </h2>
-            <p class="text-gray-500 mt-1">{{ items.length }} items found</p>
+            <div class="flex items-center gap-3 mt-1">
+              <p class="text-gray-500">{{ items.length }} items found</p>
+              <button
+                v-if="searchQuery"
+                @click="clearSearch"
+                class="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
+              >
+                Clear search
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
           </div>
           <RouterLink to="/post" class="hidden md:flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors">
             <span>+</span> Post Your Ad
