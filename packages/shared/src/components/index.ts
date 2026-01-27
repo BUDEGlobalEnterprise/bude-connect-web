@@ -36,17 +36,16 @@ export { default as StatsGrid } from './StatsGrid.vue';
 export { default as EmptyState } from './EmptyState.vue';
 export { default as LoadingSkeleton } from './LoadingSkeleton.vue';
 export { default as ListingSkeleton } from './ListingSkeleton.vue';
+export { default as BottomNav } from './BottomNav.vue';
 export { default as ProgressBar } from './ProgressBar.vue';
 export { default as TestimonialCard } from './TestimonialCard.vue';
 
 // Navigation & Notifications
 export { default as NotificationDropdown } from './NotificationDropdown.vue';
 export { default as BreadcrumbNav } from './BreadcrumbNav.vue';
-export { default as BottomNav } from './BottomNav.vue';
 export { default as Sidebar } from './Sidebar.vue';
 export { default as SearchBar } from './SearchBar.vue';
 export * from './SearchInput.vue';
-export { default as SearchInput } from './SearchInput.vue';
 export { default as MultiSearchInput } from './MultiSearchInput.vue';
 export { default as ScrollToTop } from './ScrollToTop.vue';
 

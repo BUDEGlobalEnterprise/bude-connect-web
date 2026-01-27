@@ -4,9 +4,27 @@ import App from './App.vue';
 import router from './router';
 import './style.css';
 
+import { createHead } from '@unhead/vue';
+import * as Sentry from '@sentry/vue';
+
 const app = createApp(App);
+const head = createHead();
+
+// Sentry Initialization (Placeholder DSN)
+Sentry.init({
+  app,
+  dsn: "https://placeholder@sentry.io/bude-market",
+  integrations: [
+    Sentry.browserTracingIntegration({ router }),
+    Sentry.replayIntegration(),
+  ],
+  tracesSampleRate: 1.0,
+  replaysSessionSampleRate: 0.1,
+  replaysOnErrorSampleRate: 1.0,
+});
 
 app.use(createPinia());
 app.use(router);
+app.use(head);
 
 app.mount('#app');

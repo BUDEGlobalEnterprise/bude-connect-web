@@ -130,3 +130,5 @@ export function timeAgo(date: string | Date): string {
   if (diffDays < 7) return `${diffDays}d ago`;
   return past.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' });
 }
+
+export * from './seo';
