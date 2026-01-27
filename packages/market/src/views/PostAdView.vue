@@ -5,15 +5,29 @@ import {
   createDraftItem,
   publishItem,
   uploadItemImage,
-  getCategories,
 } from "@bude/shared/api";
+import { CascadingCategoryPicker } from "@bude/shared/components";
+import type { TaxonomySelection } from "@bude/shared/composables/useTaxonomy";
 
 const router = useRouter();
 
 const step = ref(1);
 const isLoading = ref(false);
 const error = ref("");
-const categories = ref<{ name: string; count: number }[]>([]);
+
+// Taxonomy selection
+const taxonomyId = ref("");
+const taxonomySelection = ref<TaxonomySelection | null>(null);
+
+function onCategorySelect(selection: TaxonomySelection | null) {
+  taxonomySelection.value = selection;
+  if (selection) {
+    // Set itemGroup to the vertical name for backward compatibility
+    form.value.itemGroup = selection.verticalName;
+  } else {
+    form.value.itemGroup = "";
+  }
+}
 
 // Form data
 const form = ref({
@@ -35,20 +49,12 @@ const listingTypes = [
 ];
 
 const isStep1Valid = computed(() => {
-  return form.value.itemName && form.value.itemGroup && form.value.condition;
+  return form.value.itemName && taxonomyId.value && form.value.condition;
 });
 
 const isStep2Valid = computed(() => {
   return form.value.standardRate > 0;
 });
-
-async function loadCategories() {
-  try {
-    categories.value = await getCategories();
-  } catch (e) {
-    console.error("Failed to load categories:", e);
-  }
-}
 
 async function handleImageUpload(event: Event) {
   const input = event.target as HTMLInputElement;
@@ -88,6 +94,8 @@ async function handleSubmit() {
       description: form.value.description,
       images: form.value.images,
       condition: form.value.condition,
+      taxonomyId: taxonomyId.value,
+      taxonomyPath: taxonomySelection.value?.path || '',
     });
 
     // Publish
@@ -105,8 +113,7 @@ async function handleSubmit() {
   }
 }
 
-// Load categories on mount
-loadCategories();
+// No categories to load - CascadingCategoryPicker handles it internally
 </script>
 
 <template>
@@ -144,12 +151,11 @@ loadCategories();
           <label class="block text-sm font-medium text-gray-700 mb-2">
             Category *
           </label>
-          <select v-model="form.itemGroup" class="input">
-            <option value="">Select a category</option>
-            <option v-for="cat in categories" :key="cat.name" :value="cat.name">
-              {{ cat.name }}
-            </option>
-          </select>
+          <CascadingCategoryPicker
+            v-model="taxonomyId"
+            @update:selection="onCategorySelect"
+            placeholder="Search or browse categories..."
+          />
         </div>
 
         <div>

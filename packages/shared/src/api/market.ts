@@ -63,13 +63,17 @@ export async function createDraftItem(data: {
   description: string;
   images: string[];
   condition: string;
+  taxonomyId?: string;
+  taxonomyPath?: string;
 }): Promise<{ itemCode: string }> {
   return frappe.call('bude_core.market.create_draft_item', {
     item_name: data.itemName,
     item_group: data.itemGroup,
     description: data.description,
     images: data.images,
-    condition: data.condition
+    condition: data.condition,
+    taxonomy_id: data.taxonomyId,
+    taxonomy_path: data.taxonomyPath,
   });
 }
 

@@ -1,17 +1,24 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, computed, onMounted, onUnmounted } from "vue";
 import { RouterLink } from "vue-router";
-import { getFeed, getCategories } from "@bude/shared/api";
+import { getFeed, getTaxonomyVerticals } from "@bude/shared/api";
 import type { MarketItem } from "@bude/shared/types";
+import type { TaxonomyVertical } from "@bude/shared/api";
 import { EmptyState } from "@bude/shared/components";
 import ItemCard from "../components/ItemCard.vue";
 import CategoryNav from "../components/CategoryNav.vue";
 
 const items = ref<MarketItem[]>([]);
-const categories = ref<{ name: string; count: number }[]>([]);
+const verticals = ref<TaxonomyVertical[]>([]);
 const isLoading = ref(true);
 const selectedCategory = ref<string | null>(null);
 const selectedListingType = ref<string | null>(null);
+
+const selectedCategoryName = computed(() => {
+  if (!selectedCategory.value) return "All Products";
+  const v = verticals.value.find((v) => v.id === selectedCategory.value);
+  return v?.name || selectedCategory.value;
+});
 
 // Hero Carousel
 const currentSlide = ref(0);
@@ -97,9 +104,9 @@ async function loadFeed() {
 
 async function loadCategories() {
   try {
-    categories.value = await getCategories();
+    verticals.value = await getTaxonomyVerticals();
   } catch (error) {
-    console.error("Failed to load categories:", error);
+    console.error("Failed to load taxonomy verticals:", error);
   }
 }
 
@@ -254,7 +261,7 @@ onUnmounted(() => {
     <section class="py-6 bg-white">
       <div class="max-w-7xl mx-auto px-6">
         <CategoryNav
-          :categories="categories"
+          :categories="verticals"
           :selected="selectedCategory"
           @select="handleCategorySelect"
         />
@@ -268,7 +275,7 @@ onUnmounted(() => {
         <div class="flex items-center justify-between mb-8">
           <div>
             <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
-              {{ selectedCategory || 'All Products' }}
+              {{ selectedCategoryName }}
             </h2>
             <p class="text-gray-500 mt-1">{{ items.length }} items found</p>
           </div>

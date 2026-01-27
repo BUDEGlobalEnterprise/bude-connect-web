@@ -55,6 +55,7 @@ export { default as ConfirmDialog } from './ConfirmDialog.vue';
 export { default as PricingCard } from './PricingCard.vue';
 
 // Marketplace-Specific
+export { default as CascadingCategoryPicker } from './CascadingCategoryPicker.vue';
 export { default as ProposalCard } from './ProposalCard.vue';
 export { default as ProjectMilestoneTracker } from './ProjectMilestoneTracker.vue';
 export { default as AvailabilityCalendar } from './AvailabilityCalendar.vue';
