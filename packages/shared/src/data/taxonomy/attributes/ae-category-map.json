@@ -1,0 +1,6339 @@
+{
+  "gid://shopify/TaxonomyCategory/ae-1": [
+    "age-restrictions",
+    "event-type",
+    "ticket-additional-features",
+    "ticket-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1": [
+    "age-group",
+    "alcohol-solvent-content",
+    "battery-size",
+    "color",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-1": [
+    "age-group",
+    "candle-kit-items-included",
+    "candle-type",
+    "wax-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-2": [
+    "age-group",
+    "alcohol-solvent-content",
+    "color",
+    "drawing-painting-kit-items-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-3": [
+    "age-group",
+    "alcohol-solvent-content",
+    "color",
+    "pattern",
+    "suitable-for-fabric-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-4": [
+    "age-group",
+    "incense-fragrance",
+    "incense-kit-items-included",
+    "incense-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-5": [
+    "age-group",
+    "color",
+    "jewelry-material",
+    "jewelry-set-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-6": [
+    "age-group"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-7": [
+    "age-group",
+    "color",
+    "material",
+    "needlecraft-kit-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-10": [
+    "perfumery-instruments-included"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-8": [
+    "age-group",
+    "album-type",
+    "embellishments",
+    "scrapbook-paper-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-9": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-9-1": [
+    "age-group"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-1-9-2": [
+    "age-group"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2": [
+    "alcohol-solvent-content",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-1": [
+    "color",
+    "paper-finish",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-1-1": [
+    "color",
+    "paper-finish",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-1-2": [
+    "color",
+    "paper-finish",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-2": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-4": [
+    "color",
+    "paper-format",
+    "paper-size",
+    "paper-texture",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-6": [
+    "color",
+    "creative-art-project-type",
+    "paper-size",
+    "pattern",
+    "transfer-paper-technique"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-1-7": [
+    "color",
+    "paper-finish",
+    "paper-size",
+    "pattern",
+    "suitable-for-art-technique"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-1": [
+    "accessory-size",
+    "button-snap-closure-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "fastener-material",
+    "jewelry-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-1-1": [
+    "accessory-size",
+    "button-snap-closure-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "fastener-material",
+    "jewelry-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-1-2": [
+    "accessory-size",
+    "button-snap-closure-type",
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-2": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "fastener-material",
+    "jewelry-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-3": [
+    "accessory-size",
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-3-1": [
+    "accessory-size",
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-3-2": [
+    "accessory-size",
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-3-3": [
+    "accessory-size",
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-4": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-4-1": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-4-2": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-4-3": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-4-4": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-5": [
+    "color",
+    "fastener-material",
+    "pattern",
+    "shape",
+    "zipper-pull-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-6": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-6-1": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-6-2": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-6-3": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-2-6-4": [
+    "color",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3": [
+    "alcohol-solvent-content",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-1": [
+    "alcohol-solvent-content",
+    "color",
+    "dispenser-type",
+    "paint-dye-form",
+    "paint-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-2": [
+    "alcohol-solvent-content",
+    "art-fixative-application-method",
+    "finish",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3": [
+    "alcohol-solvent-content",
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3-1": [
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3-2": [
+    "alcohol-solvent-content",
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3-3": [
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3-4": [
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3-5": [
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3-6": [
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-3-7": [
+    "color",
+    "ink-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-4": [
+    "color",
+    "glaze-finish",
+    "pattern",
+    "visual-effect"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-5": [
+    "paint-dye-form",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-6": [
+    "alcohol-solvent-content",
+    "finish",
+    "ink-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-3-7": [
+    "alcohol-solvent-content",
+    "color",
+    "paint-medium-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-1": [
+    "foam-form",
+    "thickness-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2": [
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2-1": [
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2-2": [
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2-3": [
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2-4": [
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2-5": [
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2-6": [
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-2-7": [
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-3": [
+    "papier-mache-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-4-4": [
+    "material-treatment",
+    "plant-material",
+    "shape",
+    "wreath-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5": [
+    "alcohol-solvent-content",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1": [
+    "alcohol-solvent-content",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1-1": [
+    "alcohol-solvent-content",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1-2": [
+    "alcohol-solvent-content",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1-3": [
+    "alcohol-solvent-content",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1-4": [
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1-5": [
+    "alcohol-solvent-content",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1-6": [
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-1-7": [
+    "alcohol-solvent-content",
+    "fiber-art-project-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-2": [
+    "magnet-type",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-3": [
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-5-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-5-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-5-5-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-1-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-1-2": [
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material",
+    "product-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-2": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-2-1": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-2-2": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-2-4": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-2-6": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-2-7": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3-1": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3-2": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3-3": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3-4": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3-5": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3-6": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-3-7": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-6-4": [
+    "color",
+    "fabric",
+    "knitting-padding-project-type",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "yarn-weight-category"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-1": [
+    "color",
+    "craft-pipe-cleaner-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-2": [
+    "color",
+    "floral-wire-design",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3-1": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3-2": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3-3": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3-4": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3-5": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3-6": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-7-3-7": [
+    "color",
+    "jewelry-project-type",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-treatment",
+    "pattern",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1": [
+    "applique-patch-shape",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-1": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-origin",
+    "applique-patch-shape",
+    "pattern",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-2": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "applique-patch-shape",
+    "pattern",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-3": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "applique-patch-shape",
+    "pattern",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-4": [
+    "color",
+    "embellishment-trim-material",
+    "material-treatment",
+    "applique-patch-shape",
+    "pattern",
+    "plant-material",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-5": [
+    "applique-patch-shape",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-6": [
+    "color",
+    "embellishment-trim-material",
+    "applique-patch-shape",
+    "pattern",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-7": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-treatment",
+    "applique-patch-shape",
+    "pattern",
+    "plant-material",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-1-8": [
+    "applique-patch-shape",
+    "color",
+    "embellishment-trim-material",
+    "pattern",
+    "textile-craft-project-type",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-2": [
+    "bead-shape",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-origin",
+    "pattern",
+    "product-classification",
+    "product-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-3": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-4": [
+    "adhesive-type",
+    "alcohol-solvent-content",
+    "celebration-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "lumber-wood-type",
+    "pattern",
+    "theme",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-4-1": [
+    "adhesive-type",
+    "celebration-type",
+    "color",
+    "embellishment-trim-material",
+    "pattern",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-4-2": [
+    "adhesive-type",
+    "celebration-type",
+    "color",
+    "embellishment-trim-material",
+    "pattern",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-4-4": [
+    "adhesive-type",
+    "celebration-type",
+    "color",
+    "embellishment-trim-material",
+    "pattern",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-5": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-5-1": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-5-2": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-5-3": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-5-4": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-5-5": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-5-6": [
+    "color",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6-1": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6-2": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6-3": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6-4": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6-5": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6-6": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-6-7": [
+    "color",
+    "craft-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-7": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-finding-type",
+    "jewelry-material",
+    "material-origin",
+    "pattern",
+    "product-classification",
+    "product-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8": [
+    "color",
+    "material-origin",
+    "pattern",
+    "product-classification",
+    "product-use",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8-1": [
+    "color",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8-2": [
+    "color",
+    "material-origin",
+    "pattern",
+    "product-classification",
+    "product-use",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8-3": [
+    "authenticity",
+    "color",
+    "material-origin",
+    "pattern",
+    "product-classification",
+    "product-use",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8-4": [
+    "color",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8-5": [
+    "color",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8-6": [
+    "color",
+    "material-origin",
+    "pattern",
+    "product-classification",
+    "product-use",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-8-7": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-origin",
+    "pattern",
+    "product-classification",
+    "product-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-9": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-9-1": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-9-2": [
+    "color",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-9-3": [
+    "alcohol-solvent-content",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-9-4": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "stone-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-1": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-2": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-3": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-4": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-5": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-6": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-7": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-8": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-9": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-10": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-10-11": [
+    "color",
+    "craft-project-type",
+    "embellishment-trim-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-11": [
+    "color",
+    "craft-project-type",
+    "pattern",
+    "sequin-glitter-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-11-1": [
+    "color",
+    "craft-project-type",
+    "sequin-glitter-shape",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-11-2": [
+    "color",
+    "craft-project-type",
+    "sequin-glitter-shape",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-11-3": [
+    "color",
+    "craft-project-type",
+    "sequin-glitter-shape",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-11-4": [
+    "color",
+    "craft-project-type",
+    "sequin-glitter-shape",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-11-5": [
+    "color",
+    "craft-project-type",
+    "pattern",
+    "sequin-glitter-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-12": [
+    "color",
+    "embellishment-trim-material",
+    "labeling-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-12-1": [
+    "color",
+    "embellishment-trim-material",
+    "labeling-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-12-2": [
+    "color",
+    "embellishment-trim-material",
+    "labeling-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-12-3": [
+    "color",
+    "embellishment-trim-material",
+    "labeling-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-12-4": [
+    "color",
+    "embellishment-trim-material",
+    "labeling-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-8-12-5": [
+    "color",
+    "embellishment-trim-material",
+    "labeling-project-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-9": [
+    "color",
+    "embossing-project-type",
+    "finish",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-10": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-10-1": [
+    "knitting-padding-project-type",
+    "material",
+    "thickness-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-10-2": [
+    "knitting-padding-project-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-10-3": [
+    "knitting-padding-project-type",
+    "material",
+    "pillow-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-11": [
+    "color",
+    "craft-sculpting-project-type",
+    "leather-vinyl-texture",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-1": [
+    "color",
+    "pattern",
+    "fragrance"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-1-1": [
+    "color",
+    "pattern",
+    "fragrance"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-1-2": [
+    "color",
+    "pattern",
+    "fragrance"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-1-3": [
+    "color",
+    "pattern",
+    "fragrance"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-1-4": [
+    "color",
+    "pattern",
+    "fragrance"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-1-5": [
+    "color",
+    "pattern",
+    "fragrance"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-2": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-2-1": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-2-2": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-3-2": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-1-3-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-2-2": [
+    "fragrance-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-17-2-1": [
+    "ingredient-origin",
+    "olfactory-family"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1-1": [
+    "clay-slip-texture",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1-1-1": [
+    "clay-slip-texture",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1-1-2": [
+    "clay-slip-texture",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1-1-3": [
+    "clay-slip-texture",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1-1-4": [
+    "clay-slip-texture",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1-1-5": [
+    "clay-slip-texture",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-2": [
+    "color",
+    "drying-speed",
+    "pattern",
+    "craft-sculpting-project-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-3": [
+    "color",
+    "pattern",
+    "craft-sculpting-project-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-3-1": [
+    "color",
+    "pattern",
+    "craft-sculpting-project-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-3-2": [
+    "color",
+    "pattern",
+    "craft-sculpting-project-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-12-4": [
+    "color",
+    "pattern",
+    "clay-slip-texture"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1": [
+    "canvas-material",
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-1": [
+    "color",
+    "material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-1-1": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-1-2": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-1-3": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-2": [
+    "canvas-finish",
+    "canvas-material",
+    "canvas-texture",
+    "color",
+    "painting-canvas-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-2-1": [
+    "canvas-finish",
+    "canvas-texture",
+    "color",
+    "painting-canvas-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-2-2": [
+    "canvas-finish",
+    "canvas-texture",
+    "color",
+    "painting-canvas-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-2-3": [
+    "canvas-finish",
+    "canvas-texture",
+    "color",
+    "painting-canvas-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-3": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-3-1": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-3-2": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-1-3-3": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2": [
+    "care-instructions",
+    "color",
+    "fabric",
+    "material-treatment",
+    "mesh-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-1": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-2": [
+    "care-instructions",
+    "color",
+    "fabric",
+    "material-treatment",
+    "mesh-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-3": [
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-4": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-5": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-6": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-7": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-8": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-9": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-2-10": [
+    "care-instructions",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-3": [
+    "care-instructions",
+    "color",
+    "fabric-structure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-3-1": [
+    "care-instructions",
+    "color",
+    "fabric-structure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-3-2": [
+    "care-instructions",
+    "color",
+    "fabric-structure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-4": [
+    "care-instructions",
+    "color",
+    "compatible-printer",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-4-1": [
+    "care-instructions",
+    "color",
+    "compatible-printer",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-4-2": [
+    "care-instructions",
+    "color",
+    "compatible-printer",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-4-3": [
+    "care-instructions",
+    "color",
+    "compatible-printer",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-2-14-4-4": [
+    "care-instructions",
+    "color",
+    "compatible-printer",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-2": [
+    "bag-closure",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "cover-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-3": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-4": [
+    "lumber-wood-type",
+    "material",
+    "sewing-foot-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-5": [
+    "material",
+    "sewing-machine-part-category"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-4": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-5": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-7": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-8": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-9": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-11": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-12": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-13": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-14": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-15": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-17": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-18": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-19": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-6-20": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-3-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-1": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-1-1": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-1-2": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-2": [
+    "wire-thickness",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-2-1": [
+    "wire-thickness",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-2-2": [
+    "wire-thickness",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-2-3": [
+    "wire-thickness",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-2-4": [
+    "wire-thickness",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-2-5": [
+    "wire-thickness",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-2-6": [
+    "art-crafting-tool-material",
+    "wire-thickness"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3": [
+    "art-crafting-tool-material",
+    "battery-size",
+    "battery-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-1": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-2": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-3": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-4": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-5": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-6": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-7": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-1-8": [
+    "art-crafting-tool-material",
+    "palette-knife-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-3-2": [
+    "art-crafting-tool-material",
+    "palette-design",
+    "shape",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-1": [
+    "blade-material",
+    "handle-material",
+    "scissor-blade-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-1-1": [
+    "blade-material",
+    "handle-material",
+    "scissor-blade-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-1-2": [
+    "blade-material",
+    "handle-material",
+    "scissor-blade-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-1-3": [
+    "blade-material",
+    "handle-material",
+    "scissor-blade-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-1-4": [
+    "blade-material",
+    "handle-material",
+    "scissor-blade-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-2": [
+    "art-crafting-tool-material",
+    "color",
+    "craft-cutter-embosser-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-3": [
+    "blade-material",
+    "craft-knife-design",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-4": [
+    "art-crafting-tool-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-4-1": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-4-2": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-5": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-6": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-6-1": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-6-2": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-7": [
+    "art-crafting-tool-material",
+    "battery-size",
+    "battery-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-8": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-8-1": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-8-2": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-8-3": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-4-8-4": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-5": [
+    "art-crafting-tool-material",
+    "battery-size",
+    "battery-type",
+    "craft-decoration-maker-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6": [
+    "color",
+    "construction",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-1": [
+    "bristle-material",
+    "bristle-shape",
+    "brush-application",
+    "brush-size",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-2": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "ink-application-technique"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-3": [
+    "art-crafting-tool-material",
+    "craft-project-type",
+    "decorative-stamp-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-4": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-4-1": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-4-2": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-5": [
+    "craft-project-type",
+    "material",
+    "squeegee-blade-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-7": [
+    "art-crafting-tool-material",
+    "color",
+    "pattern",
+    "mold-cut-shape",
+    "suitable-for-crafting-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-8": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-8-1": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-8-2": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-8-3": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-9": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-9-1": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-9-2": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-9-3": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-6-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-7": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "crafting-mat-pad-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-8": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "dress-form-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-9": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "crafting-mat-pad-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-10": [
+    "crafting-frame-stretcher-features",
+    "material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-10-1": [
+    "crafting-frame-stretcher-features",
+    "material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-10-2": [
+    "crafting-frame-stretcher-features",
+    "material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-10-3": [
+    "crafting-frame-stretcher-features",
+    "material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-10-4": [
+    "crafting-frame-stretcher-features",
+    "material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-10-5": [
+    "crafting-frame-stretcher-features",
+    "material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-11": [
+    "accessory-size",
+    "glue-gun-features",
+    "tool-mobility",
+    "glue-gun-technology",
+    "power-source",
+    "temperature"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-20": [
+    "color",
+    "kiln-features",
+    "kiln-loading-style",
+    "material",
+    "pattern",
+    "power-source",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-20-1": [
+    "color",
+    "kiln-features",
+    "kiln-loading-style",
+    "material",
+    "pattern",
+    "power-source",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-20-2": [
+    "color",
+    "kiln-features",
+    "kiln-loading-style",
+    "material",
+    "pattern",
+    "power-source",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-20-3": [
+    "color",
+    "kiln-features",
+    "kiln-loading-style",
+    "material",
+    "pattern",
+    "power-source",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-20-4": [
+    "color",
+    "kiln-features",
+    "kiln-loading-style",
+    "material",
+    "pattern",
+    "power-source",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-12": [
+    "battery-size",
+    "battery-type",
+    "light-source",
+    "lighting-features",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-1": [
+    "art-crafting-tool-material",
+    "hook-grip-design",
+    "hook-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-2": [
+    "needle-eye-type",
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-2-1": [
+    "needle-eye-type",
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-2-2": [
+    "needle-eye-type",
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-2-3": [
+    "needle-eye-type",
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-2-4": [
+    "needle-eye-type",
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-2-5": [
+    "needle-eye-type",
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-2-6": [
+    "needle-eye-type",
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-3": [
+    "lumber-wood-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-3-1": [
+    "lumber-wood-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-3-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-3-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-4": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-13-5": [
+    "needle-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-19": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-19-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-19-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-19-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-14": [
+    "art-crafting-tool-material",
+    "pin-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-15": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-1": [
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-2": [
+    "accessory-size",
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-2-1": [
+    "accessory-size",
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-2-2": [
+    "accessory-size",
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-2-3": [
+    "accessory-size",
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-2-4": [
+    "accessory-size",
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-3": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-3-1": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-3-2": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-3-3": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-3-4": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-4": [
+    "battery-size",
+    "battery-type",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-4-1": [
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-4-2": [
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-4-3": [
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-4-4": [
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-5": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-5-1": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-5-2": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-5-3": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-16-5-4": [
+    "material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-17": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-17-1": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-17-2": [
+    "accessory-size",
+    "art-crafting-tool-material",
+    "textile-craft-machine-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-1": [
+    "bristle-material",
+    "brush-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-1-1": [
+    "brush-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-1-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-1-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-1-4": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-1-5": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-2": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-2-1": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-2-2": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-2-3": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-3": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-3-1": [
+    "art-crafting-tool-material",
+    "battery-size",
+    "battery-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-3-2": [
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-4": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-4-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-4-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-4-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-4-4": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-5": [
+    "accessory-size",
+    "art-crafting-tool-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-6": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-6-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-6-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-7": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-7-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-7-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-7-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-7-4": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-8": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-8-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-8-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-8-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-4-18-8-4": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-7": [
+    "color",
+    "fabric",
+    "fastener-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-1": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-1-1": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-1-2": [
+    "accessory-size",
+    "bag-case-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-1-3": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-1-4": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-2": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-2-1": [
+    "accessory-size",
+    "lumber-wood-type",
+    "material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-2-2": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-2-3": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-3": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-3-1": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-3-2": [
+    "accessory-size",
+    "lumber-wood-type",
+    "material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-3-3": [
+    "accessory-size",
+    "bag-case-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-3-4": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-5-3-5": [
+    "accessory-size",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-1": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-1-1": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-1-2": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-2": [
+    "color",
+    "material",
+    "mold-cut-shape",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-3": [
+    "mold-cut-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-3-1": [
+    "mold-cut-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-3-2": [
+    "mold-cut-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-4": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-4-5": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-4-1": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-4-2": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-4-4": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-4-3": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-5": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-5-1": [
+    "color",
+    "pattern",
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-5-2": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-1-6-5-3": [
+    "pattern-distribution-format",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2": [
+    "color",
+    "condition",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-1": [
+    "autograph-type",
+    "condition",
+    "medium",
+    "signature-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-2": [
+    "condition",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-origin",
+    "product-classification",
+    "product-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-2-1": [
+    "condition",
+    "country",
+    "denomination"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-2-2": [
+    "coin-material",
+    "condition",
+    "construction",
+    "country",
+    "denomination",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-origin",
+    "product-classification",
+    "product-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-2-2-1": [
+    "coin-material",
+    "condition",
+    "country",
+    "denomination"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-2-2-2": [
+    "coin-material",
+    "condition",
+    "construction",
+    "country",
+    "denomination",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-origin",
+    "product-classification",
+    "product-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-2-2-3": [
+    "coin-material",
+    "condition",
+    "country",
+    "denomination"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-3": [
+    "card-attributes",
+    "condition",
+    "grading",
+    "product-classification",
+    "product-use",
+    "rarity",
+    "recommended-age-group",
+    "sports-theme",
+    "theme",
+    "trading-card-packaging"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-3-1": [
+    "card-attributes",
+    "condition",
+    "grading",
+    "rarity",
+    "theme",
+    "trading-card-packaging"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-3-2": [
+    "card-attributes",
+    "condition",
+    "grading",
+    "rarity",
+    "recommended-age-group",
+    "trading-card-packaging"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-3-3": [
+    "card-attributes",
+    "condition",
+    "grading",
+    "rarity",
+    "theme",
+    "trading-card-packaging"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-3-4": [
+    "card-attributes",
+    "condition",
+    "grading",
+    "rarity",
+    "sports-theme",
+    "trading-card-packaging"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4": [
+    "condition"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-1": [
+    "condition",
+    "era",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-1-1": [
+    "condition",
+    "era",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-1-2": [
+    "condition",
+    "era",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-1-3": [
+    "condition",
+    "era",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-1-4": [
+    "condition",
+    "era",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-1-5": [
+    "condition",
+    "era",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-2": [
+    "blade-material",
+    "condition",
+    "handle-material",
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-2-1": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-2-2": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-2-3": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-2-4": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-2-5": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-2-6": [
+    "blade-material",
+    "condition",
+    "handle-material",
+    "lumber-wood-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-3": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-3-1": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-3-2": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-3-3": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-3-4": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-3-5": [
+    "blade-material",
+    "condition",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-4-4": [
+    "accessory-size",
+    "condition",
+    "lumber-wood-type",
+    "material",
+    "stand-display-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-12": [
+    "comic-edition",
+    "comic-tradition",
+    "condition",
+    "genre",
+    "language-version"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-5": [
+    "condition",
+    "country",
+    "denomination",
+    "postage-stamp-features",
+    "printing-method",
+    "rarity",
+    "stamp-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-5-1": [
+    "condition",
+    "country",
+    "denomination",
+    "postage-stamp-features",
+    "printing-method",
+    "rarity",
+    "stamp-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-5-2": [
+    "condition",
+    "country",
+    "denomination",
+    "postage-stamp-features",
+    "printing-method",
+    "rarity",
+    "stamp-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-5-3": [
+    "condition",
+    "country",
+    "denomination",
+    "postage-stamp-features",
+    "printing-method",
+    "rarity",
+    "stamp-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-5-4": [
+    "condition",
+    "country",
+    "denomination",
+    "postage-stamp-features",
+    "printing-method",
+    "rarity",
+    "stamp-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-5-6": [
+    "condition",
+    "country",
+    "denomination",
+    "postage-stamp-features",
+    "printing-method",
+    "rarity",
+    "stamp-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-6": [
+    "authenticity",
+    "color",
+    "condition",
+    "crystal-system",
+    "fossil-type",
+    "geological-era",
+    "mineral-class",
+    "pattern",
+    "rarity",
+    "rock-composition",
+    "rock-formation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-6-1": [
+    "authenticity",
+    "condition",
+    "crystal-system",
+    "fossil-type",
+    "geological-era",
+    "mineral-class",
+    "rarity",
+    "rock-composition",
+    "rock-formation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-6-2": [
+    "authenticity",
+    "color",
+    "condition",
+    "construction",
+    "crystal-system",
+    "embellishment-trim-material",
+    "fossil-type",
+    "geological-era",
+    "jewelry-material",
+    "material-origin",
+    "mineral-class",
+    "pattern",
+    "product-classification",
+    "product-use",
+    "rarity",
+    "rock-composition",
+    "rock-formation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-6-3": [
+    "authenticity",
+    "color",
+    "condition",
+    "crystal-system",
+    "fossil-type",
+    "geological-era",
+    "mineral-class",
+    "pattern",
+    "rarity",
+    "rock-composition",
+    "rock-formation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-6-4": [
+    "authenticity",
+    "color",
+    "condition",
+    "crystal-system",
+    "fossil-type",
+    "geological-era",
+    "mineral-class",
+    "pattern",
+    "rarity",
+    "rock-composition",
+    "rock-formation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-7": [
+    "color",
+    "condition",
+    "material",
+    "pattern",
+    "scale-model-accessory-type",
+    "scale-model-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8": [
+    "color",
+    "condition",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "kit-construction-type",
+    "lumber-wood-type",
+    "pattern",
+    "recommended-age-group",
+    "scale-model-material",
+    "skill-level",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-1": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-2": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-3": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-4": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-5": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-6": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-7": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-8": [
+    "battery-size",
+    "battery-type",
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-9": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-10": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-11": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-12": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-13": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-8-14": [
+    "condition",
+    "kit-construction-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-9": [
+    "accessory-size",
+    "material",
+    "seal-stamp-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10": [
+    "color",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1": [
+    "color",
+    "condition",
+    "pattern",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-1": [
+    "condition",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "condition",
+    "headwear-features",
+    "pattern",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-3": [
+    "condition",
+    "lumber-wood-type",
+    "activity",
+    "sports-logo",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-4": [
+    "condition",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-5": [
+    "age-group",
+    "color",
+    "condition",
+    "handwear-material",
+    "pattern",
+    "size",
+    "activity",
+    "sports-logo",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-6": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "condition",
+    "fabric",
+    "headwear-features",
+    "pattern",
+    "activity",
+    "sports-logo",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-7": [
+    "age-group",
+    "clothing-features",
+    "color",
+    "condition",
+    "fabric",
+    "neckline",
+    "pattern",
+    "size",
+    "sleeve-length-type",
+    "activity",
+    "sports-logo",
+    "target-gender",
+    "top-length-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-8": [
+    "age-group",
+    "clothing-features",
+    "color",
+    "condition",
+    "fabric",
+    "neckline",
+    "pattern",
+    "size",
+    "sleeve-length-type",
+    "activity",
+    "sports-logo",
+    "target-gender",
+    "top-length-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-9": [
+    "color",
+    "condition",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-10": [
+    "color",
+    "condition",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-11": [
+    "condition",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-12": [
+    "age-group",
+    "color",
+    "condition",
+    "fabric",
+    "pattern",
+    "activity",
+    "sports-logo",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-14": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "condition",
+    "fabric",
+    "pattern",
+    "activity",
+    "sports-logo",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-15": [
+    "age-group",
+    "clothing-features",
+    "color",
+    "condition",
+    "fabric",
+    "neckline",
+    "pattern",
+    "size",
+    "sleeve-length-type",
+    "activity",
+    "sports-logo",
+    "target-gender",
+    "top-length-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-10-1-16": [
+    "condition",
+    "activity",
+    "sports-logo"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-2-11": [
+    "art-style",
+    "color",
+    "condition",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-1": [
+    "beer-style",
+    "country",
+    "flavor-profile",
+    "lovibond",
+    "potential-extract"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-1-1": [
+    "beer-style",
+    "country",
+    "flavor-profile",
+    "lovibond",
+    "potential-extract"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-1-2": [
+    "beer-style",
+    "country",
+    "flavor-profile",
+    "lovibond",
+    "potential-extract"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-1-3": [
+    "beer-style",
+    "country",
+    "flavor-profile",
+    "lovibond",
+    "potential-extract"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-1-4": [
+    "beer-style",
+    "country",
+    "flavor-profile",
+    "lovibond",
+    "potential-extract"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-2": [
+    "bottle-closure-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-3": [
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-3-1": [
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-3-2": [
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-3-3": [
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-4": [
+    "grape-variety",
+    "region",
+    "wine-sweetness"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-4-1": [
+    "grape-variety",
+    "region",
+    "wine-sweetness"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-4-2": [
+    "grape-variety",
+    "region",
+    "wine-sweetness"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-4-3": [
+    "grape-variety",
+    "region",
+    "wine-sweetness"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-3-4-4": [
+    "grape-variety",
+    "region",
+    "wine-sweetness"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4-1": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4-2": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4-3": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4-4": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4-5": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4-6": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-4-7": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "weight-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-5": [
+    "color",
+    "pattern",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6": [
+    "color",
+    "pattern",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-1": [
+    "battery-size",
+    "battery-type",
+    "material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-1-1": [
+    "material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-1-2": [
+    "material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-1-3": [
+    "material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-1-4": [
+    "material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-2": [
+    "model-train-accessory-type",
+    "model-train-theme",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-3": [
+    "battery-size",
+    "battery-type",
+    "model-control-technology",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-3-1": [
+    "model-control-technology",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-3-2": [
+    "model-control-technology",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-3-3": [
+    "model-control-technology",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-3-4": [
+    "model-control-technology",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-3-5": [
+    "model-control-technology",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-6-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "scale-model-kit-type",
+    "scale-model-material",
+    "skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-2": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-2-1": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-2-2": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-2-3": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-2-4": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-3": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-4": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-4-1": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-4-2": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-4-3": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-4-4": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-5": [
+    "compatible-brass-instrument",
+    "dispenser-type",
+    "lubricant-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-1-6": [
+    "color",
+    "instrument-accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-2": [
+    "bag-case-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-3": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-4": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-4-1": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-4-2": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-4-3": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-4-4": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-4-5": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-5": [
+    "compatible-brass-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-1-6": [
+    "instrument-accessory-material",
+    "instrument-support-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-2": [
+    "baton-grip-design",
+    "instrument-accessory-material",
+    "tip-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-3": [
+    "battery-size",
+    "battery-type",
+    "display-technology",
+    "power-source",
+    "tuner-design",
+    "tuning-modes",
+    "tuning-range"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-4": [
+    "battery-size",
+    "battery-type",
+    "beat-subdivisions",
+    "display-technology",
+    "power-source",
+    "sound-options",
+    "time-signatures"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-5": [
+    "furniture-fixture-material",
+    "height-adjustment",
+    "seat-cushioning",
+    "seat-shape",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-6": [
+    "compatible-instrument",
+    "instrument-accessory-material",
+    "lyre-flip-folder-attachment-type",
+    "orientation",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7-2": [
+    "light-source",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7-3": [
+    "accessory-size",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7-3-1": [
+    "accessory-size",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7-3-2": [
+    "accessory-size",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7-3-3": [
+    "accessory-size",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-7-3-4": [
+    "accessory-size",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-8": [
+    "accessory-size",
+    "instrument-accessory-material",
+    "music-stand-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-9-1": [
+    "instrument-accessory-material",
+    "speaker-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-9-2": [
+    "bag-closure",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type",
+    "compatible-amplifier",
+    "cover-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-9-3": [
+    "compatible-amplifier",
+    "control-functions"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-9-4": [
+    "color",
+    "instrument-accessory-material",
+    "knob-function",
+    "knob-style",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-9-5": [
+    "color",
+    "compatible-electric-acoustic-instrument",
+    "instrument-accessory-material",
+    "music-stand-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-9-6": [
+    "power-source",
+    "tube-component",
+    "tube-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-10": [
+    "input-output-ports",
+    "sound-controls"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-10-1": [
+    "battery-size",
+    "battery-type",
+    "input-output-ports",
+    "sound-controls"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-10-2": [
+    "battery-size",
+    "battery-type",
+    "input-output-ports",
+    "sound-controls"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-10-3": [
+    "battery-size",
+    "battery-type",
+    "input-output-ports",
+    "sound-controls"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-10-4": [
+    "input-output-ports",
+    "sound-controls"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "compatible-keyboard-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-1-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "compatible-keyboard-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-1-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "compatible-keyboard-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-1-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "compatible-keyboard-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-1-4": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "compatible-keyboard-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-2": [
+    "compatible-keyboard-configuration",
+    "instrument-accessory-material",
+    "mount-stand-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-2-1": [
+    "compatible-keyboard-configuration",
+    "instrument-accessory-material",
+    "lumber-wood-type",
+    "mount-stand-features",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-2-2": [
+    "compatible-keyboard-configuration",
+    "instrument-accessory-material",
+    "mount-stand-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-2-3": [
+    "compatible-keyboard-configuration",
+    "instrument-accessory-material",
+    "mount-stand-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-2-4": [
+    "compatible-keyboard-configuration",
+    "instrument-accessory-material",
+    "mount-stand-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-2-5": [
+    "compatible-keyboard-configuration",
+    "instrument-accessory-material",
+    "mount-stand-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-3": [
+    "connection-method",
+    "instrument-accessory-material",
+    "pedal-polarity"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-3-1": [
+    "connection-method",
+    "instrument-accessory-material",
+    "pedal-polarity"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-11-3-2": [
+    "connection-method",
+    "instrument-accessory-material",
+    "pedal-polarity"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-1": [
+    "bag-case-material",
+    "color",
+    "compatible-percussion-instrument",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-1-1": [
+    "bag-case-material",
+    "color",
+    "compatible-percussion-instrument",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-1-2": [
+    "bag-case-material",
+    "color",
+    "compatible-percussion-instrument",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-1-3": [
+    "bag-case-material",
+    "color",
+    "compatible-percussion-instrument",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-2": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-2-1": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-2-2": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-3": [
+    "color",
+    "drum-hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-3-1": [
+    "color",
+    "drum-hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-3-2": [
+    "color",
+    "drum-hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-3-3": [
+    "color",
+    "drum-hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-4": [
+    "compatible-percussion-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-4-1": [
+    "compatible-percussion-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-1": [
+    "accessory-size",
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-2": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-2-1": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-2-2": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-2-3": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-2-4": [
+    "drum-hardware-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-2-5": [
+    "mount-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-3": [
+    "compatible-drum-configuration",
+    "drum-hardware-adjustability",
+    "drum-hardware-material",
+    "footboard-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-3-1": [
+    "compatible-drum-configuration",
+    "drum-hardware-adjustability",
+    "drum-hardware-material",
+    "footboard-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-3-2": [
+    "compatible-drum-configuration",
+    "drum-hardware-adjustability",
+    "drum-hardware-material",
+    "footboard-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-3-3": [
+    "compatible-drum-configuration",
+    "drum-hardware-adjustability",
+    "drum-hardware-material",
+    "footboard-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-3-4": [
+    "compatible-drum-configuration",
+    "drum-hardware-adjustability",
+    "drum-hardware-material",
+    "footboard-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-5-3-5": [
+    "compatible-drum-configuration",
+    "drum-hardware-adjustability",
+    "drum-hardware-material",
+    "footboard-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-6": [
+    "brush-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-6-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-7": [
+    "brush-material",
+    "grip-texture",
+    "percussion-tip-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-7-1": [
+    "brush-material",
+    "grip-texture",
+    "percussion-tip-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-7-2": [
+    "drum-hardware-material",
+    "grip-texture",
+    "percussion-tip-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-8": [
+    "input-output-ports",
+    "midi-connectivity",
+    "sound-effects"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-8-1": [
+    "input-output-ports",
+    "midi-connectivity",
+    "sound-effects"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-8-2": [
+    "input-output-ports",
+    "midi-connectivity",
+    "sound-effects"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-8-3": [
+    "input-output-ports",
+    "midi-connectivity",
+    "sound-effects"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-9": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-9-1": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-9-2": [
+    "compatible-percussion-instrument",
+    "mount-material",
+    "mount-stand-features",
+    "orientation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-9-2-1": [
+    "compatible-percussion-instrument",
+    "mount-material",
+    "mount-stand-features",
+    "orientation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-9-2-2": [
+    "compatible-percussion-instrument",
+    "instrument-accessory-material",
+    "mount-stand-features",
+    "orientation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-9-2-3": [
+    "compatible-percussion-instrument",
+    "mount-material",
+    "mount-stand-features",
+    "orientation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-9-2-4": [
+    "compatible-percussion-instrument",
+    "instrument-accessory-material",
+    "mount-stand-features",
+    "orientation"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-10": [
+    "grip-texture",
+    "handle-material",
+    "mallet-material",
+    "percussion-tip-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-11": [
+    "compatible-percussion-instrument",
+    "instrument-accessory-material",
+    "mount-stand-features",
+    "percussion-stand-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-12-11-1": [
+    "compatible-percussion-instrument",
+    "instrument-accessory-material",
+    "mount-stand-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-string-instrument",
+    "output-level",
+    "pattern",
+    "pickup-mounting-type",
+    "pickup-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-2": [
+    "color",
+    "compatible-string-instrument",
+    "instrument-accessory-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-2-1": [
+    "color",
+    "compatible-string-instrument",
+    "instrument-accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-2-2": [
+    "color",
+    "compatible-string-instrument",
+    "instrument-accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-2-3": [
+    "color",
+    "compatible-string-instrument",
+    "instrument-accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-2-4": [
+    "color",
+    "compatible-string-instrument",
+    "instrument-accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-string-instrument",
+    "magnet-type",
+    "output-level",
+    "pattern",
+    "pickup-mounting-type",
+    "pickup-position",
+    "pickup-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-4": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "compatible-string-instrument",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-5": [
+    "compatible-string-instrument",
+    "guitar-fitting-part-type",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-6": [
+    "battery-size",
+    "battery-type",
+    "compatible-string-instrument",
+    "humidifier-design",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-6-1": [
+    "compatible-string-instrument",
+    "humidifier-design",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-6-2": [
+    "compatible-string-instrument",
+    "humidifier-design",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-6-3": [
+    "compatible-string-instrument",
+    "humidifier-design",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-14": [
+    "accessory-size",
+    "battery-size",
+    "battery-type",
+    "compatible-string-instrument",
+    "instrument-accessory-finish",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-7": [
+    "color",
+    "grip-texture",
+    "instrument-accessory-material",
+    "pattern",
+    "pick-design",
+    "thickness-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-7-1": [
+    "color",
+    "grip-texture",
+    "instrument-accessory-material",
+    "pattern",
+    "pick-design",
+    "thickness-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-7-2": [
+    "color",
+    "grip-texture",
+    "instrument-accessory-material",
+    "pattern",
+    "pick-design",
+    "thickness-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-8": [
+    "accessory-size",
+    "color",
+    "compatible-string-instrument",
+    "instrument-accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-9": [
+    "color",
+    "compatible-string-instrument",
+    "instrument-accessory-material",
+    "mount-stand-features",
+    "music-stand-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-10": [
+    "color",
+    "instrument-accessory-material",
+    "pattern",
+    "strap-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-11": [
+    "compatible-string-instrument",
+    "winder-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-11-1": [
+    "battery-size",
+    "battery-type",
+    "compatible-string-instrument",
+    "winder-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-11-2": [
+    "compatible-string-instrument",
+    "winder-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-12": [
+    "instrument-string-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-12-1": [
+    "instrument-string-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-12-2": [
+    "instrument-string-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-12-3": [
+    "instrument-string-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-12-4": [
+    "instrument-string-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-1-13": [
+    "compatible-string-instrument",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type",
+    "compatible-orchestral-string-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-1-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type",
+    "compatible-orchestral-string-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-1-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type",
+    "compatible-orchestral-string-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-1-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type",
+    "compatible-orchestral-string-instrument"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-2": [
+    "bow-hair-material",
+    "compatible-orchestral-string-instrument",
+    "instrument-part-material",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "closure-type",
+    "color",
+    "compatible-orchestral-string-instrument",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-4": [
+    "compatible-orchestral-string-instrument",
+    "instrument-part-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-5": [
+    "compatible-orchestral-string-instrument",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-orchestral-string-instrument",
+    "pattern",
+    "pickup-design",
+    "pickup-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-7": [
+    "compatible-orchestral-string-instrument",
+    "instrument-accessory-material",
+    "music-stand-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-2-8": [
+    "compatible-orchestral-string-instrument",
+    "instrument-string-material",
+    "tension"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-3": [
+    "alcohol-solvent-content",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-3-1": [
+    "instrument-accessory-material",
+    "package-type",
+    "rosin-form",
+    "rosin-grade"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-3-2": [
+    "accessory-size",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-3-3": [
+    "application-method",
+    "ingredient-origin"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-3-3-1": [
+    "application-method",
+    "ingredient-origin"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-3-3-2": [
+    "alcohol-solvent-content",
+    "application-method",
+    "ingredient-origin"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-13-3-3-3": [
+    "application-method",
+    "ingredient-origin"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-1": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-1-1": [
+    "swab-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-3": [
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-3-1": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-3-2": [
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-4": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-4-1": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-4-2": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-4-3": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-4-4": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-5": [
+    "instrument-accessory-material",
+    "mount-stand-features",
+    "music-stand-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-1-6": [
+    "color",
+    "instrument-accessory-material",
+    "instrument-support-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-1-1": [
+    "woodwind-care-items-included"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-1-2": [
+    "color",
+    "instrument-accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-1-3": [
+    "swab-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-3": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-3-1": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-3-2": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-3-3": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-4": [
+    "compatible-clarinet-type",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-4-1": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-4-2": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material",
+    "instrument-accessory-finish",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-4-2-1": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-4-2-2": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-4-3": [
+    "color",
+    "compatible-clarinet-type",
+    "instrument-accessory-material",
+    "pattern",
+    "tip-opening"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-4-4": [
+    "compatible-clarinet-type",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-5": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material",
+    "music-stand-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-6": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-2-7": [
+    "compatible-clarinet-type",
+    "instrument-accessory-material",
+    "instrument-support-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-1-1": [
+    "woodwind-care-items-included"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-1-2": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-1-3": [
+    "swab-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-3": [
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-3-1": [
+    "embouchure-hole-shape",
+    "instrument-accessory-material",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-3-1-1": [
+    "embouchure-hole-shape",
+    "instrument-accessory-material",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-3-1-2": [
+    "embouchure-hole-shape",
+    "instrument-accessory-material",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-3-2": [
+    "compatible-flute-type",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-3-4": [
+    "compatible-flute-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-4": [
+    "battery-size",
+    "battery-type",
+    "instrument-accessory-material",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-4-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-4-2": [
+    "compatible-harmonica-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-4-2-1": [
+    "compatible-harmonica-type",
+    "instrument-accessory-material",
+    "lumber-wood-type",
+    "material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-4-2-2": [
+    "compatible-harmonica-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-1-1": [
+    "woodwind-care-items-included"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-1-2": [
+    "swab-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-3-1": [
+    "compatible-oboe-type",
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-4": [
+    "compatible-oboe-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-5": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-5-6": [
+    "compatible-oboe-type",
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-6-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-6-3": [
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-1-1": [
+    "woodwind-care-items-included"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-1-2": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-1-3": [
+    "swab-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-3": [
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4-1": [
+    "instrument-accessory-material",
+    "tip-opening"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4-1-1": [
+    "instrument-accessory-material",
+    "tip-opening"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4-1-2": [
+    "instrument-accessory-material",
+    "tip-opening"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4-1-3": [
+    "instrument-accessory-material",
+    "tip-opening"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4-1-4": [
+    "instrument-accessory-material",
+    "tip-opening"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4-2": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-4-3": [
+    "instrument-part-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-5": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-6": [
+    "instrument-accessory-material",
+    "reed-strength"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-7-7": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-9": [
+    "instrument-accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-10": [
+    "bag-case-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-7-14-11": [
+    "blade-material",
+    "handle-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-1-1": [
+    "accordion-tuning",
+    "bass-button-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-1-2": [
+    "concertina-button-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-2-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-2-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-2-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-2-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-2-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-1": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-1-1": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-1-2": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-1-3": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-2": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-3": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-3-1": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-3-2": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-4": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-4-1": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-4-2": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-5": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-5-1": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-5-2": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-5-3": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-6": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-3-6-1": [
+    "accessory-size",
+    "instrument-material",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4": [
+    "battery-size",
+    "battery-type",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-1": [
+    "battery-size",
+    "battery-type",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-1-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-1-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-2": [
+    "battery-size",
+    "battery-type",
+    "instrument-material",
+    "interface-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-2-1": [
+    "instrument-material",
+    "interface-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-2-2": [
+    "instrument-material",
+    "interface-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-3": [
+    "battery-size",
+    "battery-type",
+    "instrument-material",
+    "interface-type",
+    "keyboard-key-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-3-1": [
+    "battery-size",
+    "battery-type",
+    "instrument-material",
+    "interface-type",
+    "keyboard-key-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-3-3": [
+    "instrument-material",
+    "interface-type",
+    "keyboard-key-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-3-4": [
+    "battery-size",
+    "battery-type",
+    "instrument-material",
+    "interface-type",
+    "keyboard-key-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-4": [
+    "battery-size",
+    "battery-type",
+    "instrument-material",
+    "polyphony",
+    "synthesis-method"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-4-1": [
+    "instrument-material",
+    "polyphony",
+    "synthesis-method"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-4-2": [
+    "instrument-material",
+    "polyphony",
+    "synthesis-method"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-4-3": [
+    "instrument-material",
+    "polyphony",
+    "synthesis-method"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-4-4-4": [
+    "instrument-material",
+    "polyphony",
+    "synthesis-method"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-1-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-1-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2-7": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-2-6": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3": [
+    "drum-configuration",
+    "instrument-material",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-1": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-2": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-3": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-4": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-5": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-6": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-7": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-8": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-3-9": [
+    "drum-configuration",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-4": [
+    "electronic-drum-components",
+    "instrument-material",
+    "interface-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-4-1": [
+    "electronic-drum-components",
+    "instrument-material",
+    "interface-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-4-2": [
+    "electronic-drum-components",
+    "instrument-material",
+    "interface-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-4-3": [
+    "electronic-drum-components",
+    "instrument-material",
+    "interface-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-5-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-5-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-5-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-5-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-6": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-6-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-6-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-6-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-1-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-1-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-1-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-2-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-2-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-2-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-3": [
+    "battery-size",
+    "battery-type",
+    "embellishment-trim-material",
+    "instrument-material",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-3-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-3-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-3-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-3-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-1-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-2": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-2-1": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-2-2": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-2-3": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-3-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-3-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-3-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-4-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-4-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-4-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-5-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-5-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-5-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-6": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-6-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-6-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-6-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-7": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-7-1": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-7-2": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-4-7-3": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-5": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-6": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-6-1": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-6-2": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-6-3": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-7": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-7-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-7-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-7-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-8": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-8-1": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-8-2": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-8-3": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-8-4": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-9": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-10": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-10-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-10-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-10-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-11": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-11-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-7-11-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-8": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-9": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-10": [
+    "instrument-material",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-10-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-10-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-10-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-11": [
+    "instrument-material",
+    "tom-tom-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-11-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-5-11-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-6": [
+    "battery-size",
+    "battery-type",
+    "instrument-material",
+    "interface-type",
+    "keyboard-action",
+    "piano-additional-features",
+    "piano-pedals",
+    "piano-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-6-1": [
+    "instrument-material",
+    "interface-type",
+    "keyboard-action",
+    "piano-additional-features",
+    "piano-pedals",
+    "piano-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-6-2": [
+    "instrument-material",
+    "interface-type",
+    "keyboard-action",
+    "piano-additional-features",
+    "piano-pedals",
+    "piano-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-6-3": [
+    "instrument-material",
+    "interface-type",
+    "keyboard-action",
+    "piano-additional-features",
+    "piano-pedals",
+    "piano-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-6-4": [
+    "instrument-material",
+    "interface-type",
+    "keyboard-action",
+    "piano-additional-features",
+    "piano-pedals",
+    "piano-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7": [
+    "battery-size",
+    "battery-type",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-7": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-7-1": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-7-2": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-7-3": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-1": [
+    "instrument-material",
+    "instrument-material",
+    "string-instrument-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-1-1": [
+    "instrument-material",
+    "instrument-material",
+    "string-instrument-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-1-2": [
+    "instrument-material",
+    "instrument-material",
+    "string-instrument-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "instrument-part-material",
+    "pattern",
+    "guitar-size",
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "color",
+    "instrument-part-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-2-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "instrument-part-material",
+    "pattern",
+    "guitar-size",
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "color",
+    "instrument-part-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-2-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "instrument-part-material",
+    "pattern",
+    "guitar-size",
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "color",
+    "instrument-part-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-2-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "instrument-part-material",
+    "pattern",
+    "guitar-size",
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "color",
+    "instrument-part-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-2-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "instrument-part-material",
+    "pattern",
+    "guitar-size",
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "color",
+    "instrument-part-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-3": [
+    "harp-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-3-1": [
+    "harp-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-3-2": [
+    "harp-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-3-3": [
+    "harp-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-3-4": [
+    "harp-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-8": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-8-1": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "mandolin-back-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-8-3": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "mandolin-back-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-8-2": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern",
+    "mandolin-back-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9-4": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9-2": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9-7": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9-5": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9-1": [
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-9-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "instrument-material",
+    "pattern",
+    "color",
+    "instrument-string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-4": [
+    "instrument-material",
+    "instrument-material",
+    "string-instrument-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-4-1": [
+    "instrument-material",
+    "instrument-material",
+    "string-instrument-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-4-2": [
+    "instrument-material",
+    "instrument-material",
+    "string-instrument-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-5": [
+    "instrument-material",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-7-6": [
+    "battery-size",
+    "battery-type",
+    "instrument-material",
+    "instrument-material",
+    "string-instrument-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-1": [
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-1-1": [
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-1-2": [
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-1-3": [
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2-1": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2-2": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2-3": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2-4": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2-5": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2-6": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-2-7": [
+    "clarinet-key-system",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "mouthpiece"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-15": [
+    "accessory-size",
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-3": [
+    "flute-configuration",
+    "headjoint-cut",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-3-1": [
+    "flute-configuration",
+    "headjoint-cut",
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-3-2": [
+    "flute-configuration",
+    "headjoint-cut",
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-3-3": [
+    "flute-configuration",
+    "headjoint-cut",
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-3-4": [
+    "flute-configuration",
+    "headjoint-cut",
+    "instrument-material",
+    "instrument-accessory-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-4": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-4-1": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-4-2": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-4-3": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-4-4": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5-1": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5-2": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5-3": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5-4": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5-5": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5-6": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-5-7": [
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-6": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-6-1": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-6-2": [
+    "accessory-size",
+    "instrument-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-7": [
+    "color",
+    "instrument-material",
+    "melodica-style",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-7-1": [
+    "color",
+    "instrument-material",
+    "melodica-style",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-7-2": [
+    "color",
+    "instrument-material",
+    "melodica-style",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-8": [
+    "instrument-material",
+    "musical-key"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-8-1": [
+    "instrument-material",
+    "musical-key"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-8-2": [
+    "instrument-material",
+    "musical-key"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-8-3": [
+    "instrument-material",
+    "musical-key"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-9": [
+    "instrument-material",
+    "oboe-key-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-9-1": [
+    "instrument-material",
+    "oboe-key-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-9-2": [
+    "instrument-material",
+    "oboe-key-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-10": [
+    "instrument-material",
+    "ocarina-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-10-1": [
+    "instrument-material",
+    "ocarina-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-10-2": [
+    "instrument-material",
+    "ocarina-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-10-3": [
+    "instrument-material",
+    "ocarina-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11-1": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11-2": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11-3": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11-4": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11-5": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11-6": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-11-7": [
+    "instrument-material",
+    "recorder-fingering-system"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-12": [
+    "extended-saxophone-range",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-12-1": [
+    "extended-saxophone-range",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-12-2": [
+    "extended-saxophone-range",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-12-3": [
+    "extended-saxophone-range",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-12-4": [
+    "extended-saxophone-range",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-12-5": [
+    "extended-saxophone-range",
+    "instrument-material",
+    "instrument-accessory-finish",
+    "tuning-pitch"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-13": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-13-1": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-13-2": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-13-3": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-13-4": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-13-5": [
+    "color",
+    "instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-14": [
+    "accessory-size",
+    "instrument-material",
+    "musical-key"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-14-1": [
+    "accessory-size",
+    "instrument-material",
+    "musical-key"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-2-8-8-14-2": [
+    "accessory-size",
+    "instrument-material",
+    "musical-key"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-1": [
+    "attachment-options",
+    "color",
+    "item-style",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-2": [
+    "color",
+    "corsage-boutonniere-design",
+    "material-treatment",
+    "pattern",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-3": [
+    "arrangement",
+    "color",
+    "color",
+    "material-treatment",
+    "pattern",
+    "plant-characteristics",
+    "plant-class",
+    "plant-material",
+    "plant-name",
+    "stem-length",
+    "suitable-space",
+    "sunlight"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-3-1": [
+    "arrangement",
+    "color",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "stem-length"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-3-2": [
+    "arrangement",
+    "color",
+    "pattern",
+    "stem-length"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-3-3": [
+    "arrangement",
+    "color",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "stem-length"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-3-4": [
+    "arrangement",
+    "color",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "stem-length"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-3-5": [
+    "arrangement",
+    "color",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "stem-length"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-3-6": [
+    "arrangement",
+    "color",
+    "pattern",
+    "stem-length"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-5-1": [
+    "accessory-size",
+    "bag-case-material",
+    "color",
+    "gift-bag-handle-design",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-5-2": [
+    "accessory-size",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-5-3": [
+    "color",
+    "construction",
+    "material",
+    "pattern",
+    "shape",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-5-4": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-5-5": [
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-6": [
+    "battery-size",
+    "battery-type",
+    "paper-size",
+    "celebration-type",
+    "color",
+    "item-style",
+    "material-treatment",
+    "pattern",
+    "personalization-design",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-6-2": [
+    "battery-size",
+    "battery-type",
+    "paper-size",
+    "celebration-type",
+    "color",
+    "embellishment-trim-material",
+    "item-style",
+    "material",
+    "pattern",
+    "personalization-design",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-6-3": [
+    "paper-size",
+    "celebration-type",
+    "color",
+    "item-style",
+    "pattern",
+    "personalization-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-1-6-4": [
+    "paper-size",
+    "celebration-type",
+    "item-style",
+    "personalization-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2": [
+    "celebration-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-1": [
+    "paper-size",
+    "item-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-2": [
+    "balloon-kit-items-included",
+    "battery-size",
+    "battery-type",
+    "celebration-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-3": [
+    "accessory-size",
+    "balloon-shape",
+    "celebration-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-4": [
+    "banner-design",
+    "battery-size",
+    "battery-type",
+    "celebration-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-5": [
+    "birthday-candle-design",
+    "birthday-candle-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-6": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-6-1": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-6-2": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-6-3": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-6-4": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-7": [
+    "cocktail-decoration-design",
+    "accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-7-1": [
+    "cocktail-decoration-design",
+    "accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-7-2": [
+    "cocktail-decoration-design",
+    "accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-7-3": [
+    "cocktail-decoration-design",
+    "accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-7-4": [
+    "cocktail-decoration-design",
+    "accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-7-5": [
+    "cocktail-decoration-design",
+    "accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-8": [
+    "color",
+    "embellishment-trim-material",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-9": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-10": [
+    "game-components",
+    "game-difficulty",
+    "game-name"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-11": [
+    "accessory-size",
+    "color",
+    "embellishment-trim-material",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "straw-stirrer-design",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-12": [
+    "envelope-seal-design",
+    "material",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-13": [
+    "celebration-type",
+    "item-style",
+    "paper-size",
+    "program-format"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-14": [
+    "accessory-size",
+    "noise-intensity"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-14-1": [
+    "accessory-size",
+    "noise-intensity"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-14-2": [
+    "accessory-size",
+    "noise-intensity"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-14-3": [
+    "accessory-size",
+    "noise-intensity"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-15": [
+    "decoration-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-16": [
+    "card-format",
+    "celebration-type",
+    "embellishment-trim-material",
+    "invitation-personalization-design",
+    "item-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-17": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-17-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-17-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-17-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-17-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-17-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-18": [
+    "celebration-type",
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "theme",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-19": [
+    "age-group",
+    "color",
+    "game-difficulty",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-20": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-21": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-21-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-21-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-21-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-21-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-21-5": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material-treatment",
+    "pattern",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-22": [
+    "celebration-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-23": [
+    "accessory-size",
+    "celebration-type",
+    "material",
+    "pinata-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-24": [
+    "card-holder-design",
+    "celebration-type",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-25": [
+    "card-design",
+    "celebration-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-26": [
+    "card-design",
+    "celebration-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-27": [
+    "accessory-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-28": [
+    "celebration-type",
+    "item-style",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-2-29": [
+    "accessory-size",
+    "celebration-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-1": [
+    "accessory-size",
+    "light-source",
+    "material",
+    "mounting-type",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-2": [
+    "battery-size",
+    "battery-type",
+    "fluid-type",
+    "sfx-control-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-3": [
+    "battery-size",
+    "battery-type",
+    "compatible-special-effects-device",
+    "connection-method",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-3-1": [
+    "compatible-special-effects-device",
+    "connection-method",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-3-2": [
+    "compatible-special-effects-device",
+    "connection-method",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-3-3": [
+    "compatible-special-effects-device",
+    "connection-method",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-4": [
+    "compatible-special-effects-device",
+    "load-capacity",
+    "material",
+    "mounting-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "mounting-type",
+    "power-source",
+    "sfx-control-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-5-1": [
+    "color",
+    "pattern",
+    "mounting-type",
+    "power-source",
+    "sfx-control-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-5-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "mounting-type",
+    "power-source",
+    "sfx-control-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-5-2": [
+    "color",
+    "pattern",
+    "mounting-type",
+    "power-source",
+    "sfx-control-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-5-4": [
+    "color",
+    "pattern",
+    "mounting-type",
+    "power-source",
+    "sfx-control-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-3-5-5": [
+    "color",
+    "pattern",
+    "mounting-type",
+    "power-source",
+    "sfx-control-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4": [
+    "award-occasion"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-1": [
+    "award-design",
+    "award-occasion",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-2": [
+    "award-occasion",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-2-1": [
+    "award-occasion",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-2-2": [
+    "award-occasion",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-2-3": [
+    "award-occasion",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-2-4": [
+    "award-occasion",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-3": [
+    "award-occasion",
+    "lumber-wood-type",
+    "material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-4": [
+    "accessory-size",
+    "award-occasion",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-4-1": [
+    "accessory-size",
+    "award-occasion",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-4-2": [
+    "accessory-size",
+    "award-occasion",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ae-3-4-5": [
+    "accessory-size",
+    "award-occasion",
+    "battery-size",
+    "battery-type",
+    "construction",
+    "embellishment-trim-material",
+    "engraving",
+    "jewelry-material",
+    "material",
+    "trophy-design"
+  ]
+}

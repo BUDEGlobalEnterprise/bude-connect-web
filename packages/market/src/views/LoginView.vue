@@ -17,7 +17,15 @@ const redirectIfLoggedIn = () => {
   }
 };
 
-onMounted(redirectIfLoggedIn);
+onMounted(() => {
+  // Clear any potential redirect loops in session storage if we just landed here
+  if (route.query.redirect === '/login') {
+    router.replace('/login');
+    return;
+  }
+  redirectIfLoggedIn();
+});
+
 watch(() => userStore.isLoggedIn, (isLoggedIn) => {
   if (isLoggedIn) redirectIfLoggedIn();
 });

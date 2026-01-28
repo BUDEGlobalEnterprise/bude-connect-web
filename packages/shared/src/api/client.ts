@@ -38,7 +38,7 @@ class FrappeClient {
   /**
    * Make API request to Frappe backend
    */
-  async request<T>(endpoint: string, options: RequestOptions = {}): Promise<T> {
+  async request<T>(endpoint: string, options: RequestOptions = {}, retryCount = 0): Promise<T> {
     const { method = 'GET', body, headers = {} } = options;
 
     const requestHeaders: Record<string, string> = {
@@ -71,8 +71,18 @@ class FrappeClient {
 
     // Handle CSRF token expiry (417)
     if (response.status === 417) {
+      // Re-fetch token and retry once
+      if (retryCount === 0) {
+        console.warn('FrappeClient: CSRF token mismatch/expired. Retrying with fresh token...');
+        // Small delay to allow cookie to settle if it was just rotated
+        await new Promise(resolve => setTimeout(resolve, 100));
+        return this.request<T>(endpoint, options, retryCount + 1);
+      }
+      
       this.clearCsrfToken();
-      // Throw without auto-redirecting globally
+      if (!options.silent) {
+        this.handleSessionExpiry();
+      }
       throw new ApiError(417, 'Security token expired. Please refresh the page.', {});
     }
 
@@ -102,7 +112,7 @@ class FrappeClient {
     doctype?: string; 
     docname?: string; 
     fieldname?: string 
-  } = {}): Promise<any> {
+  } = {}, retryCount = 0): Promise<any> {
     const formData = new FormData();
     formData.append('file', file);
     formData.append('is_private', options.isPrivate ? '1' : '0');
@@ -122,6 +132,11 @@ class FrappeClient {
 
     if (!response.ok) {
       if (response.status === 417) {
+        if (retryCount === 0) {
+          console.warn('FrappeClient: CSRF token mismatch/expired during upload. Retrying...');
+          await new Promise(resolve => setTimeout(resolve, 100));
+          return this.upload(file, options, retryCount + 1);
+        }
         this.handleSessionExpiry();
         throw new ApiError(417, 'Security token expired. Please log in again.', {});
       }
@@ -142,8 +157,17 @@ class FrappeClient {
     // Clear cached token
     this.clearCsrfToken();
 
-    const currentPath = window.location.pathname;
-    const isAuthPage = currentPath === '/login' || currentPath === '/oauth/callback' || currentPath.includes('/verify-email');
+    const currentPath = window.location.pathname.toLowerCase();
+    const currentSearch = window.location.search;
+    
+    // Normalize path (ensure no trailing slash for comparison)
+    const normalizedPath = currentPath.endsWith('/') && currentPath !== '/' 
+      ? currentPath.slice(0, -1) 
+      : currentPath;
+
+    const isAuthPage = normalizedPath === '/login' || 
+                       normalizedPath === '/oauth/callback' || 
+                       normalizedPath.includes('/verify-email');
 
     // Show toast notification (if toast system available)
     if ((window as any).showToast && !isAuthPage) {
@@ -156,17 +180,21 @@ class FrappeClient {
 
     // Prevent loop if already on login page or redirected to oauth
     if (isAuthPage) {
-      console.warn('FrappeClient: Prevented redirect loop while already on auth page');
+      console.warn('FrappeClient: Prevented redirect loop. Path:', normalizedPath);
       return;
     }
 
-    const returnUrl = encodeURIComponent(window.location.pathname + window.location.search);
+    const returnUrl = encodeURIComponent(window.location.pathname + currentSearch);
     
-    // Only set redirect if we are not already going to /login
-    if (currentPath !== '/login') {
-      console.log('FrappeClient: Redirecting to login due to session expiry');
-      window.location.href = `/login?redirect=${returnUrl}`;
+    // Safety check: Don't redirect if we are already in a state that looks like a login redirect
+    const isRedirectingToLogin = currentSearch.includes('redirect=%2Flogin');
+    if (isRedirectingToLogin) {
+      console.warn('FrappeClient: Prevented nested login redirect loop in search params');
+      return;
     }
+
+    console.log('FrappeClient: Redirecting to login due to session expiry. From:', window.location.pathname);
+    window.location.href = `/login?redirect=${returnUrl}`;
   }
 
   /**

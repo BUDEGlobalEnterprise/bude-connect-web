@@ -1,0 +1,5840 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3182",
+      "name": "Air mattress features",
+      "handle": "air-mattress-features",
+      "description": "Describes unique characteristics of an air mattress, like easy to inflate or puncture resistant",
+      "values": [
+        {
+          "name": "Easy to inflate",
+          "handle": "air-mattress-features__easy-to-inflate"
+        },
+        {
+          "name": "Puncture resistant",
+          "handle": "air-mattress-features__puncture-resistant"
+        },
+        {
+          "name": "Weather resistant",
+          "handle": "air-mattress-features__weather-resistant"
+        },
+        {
+          "name": "Other",
+          "handle": "air-mattress-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1289",
+      "name": "Angling style",
+      "handle": "angling-style",
+      "description": "Defines the fishing technique the product is designed, such as surfcasting or fly fishing",
+      "values": [
+        {
+          "name": "Baitcasting",
+          "handle": "angling-style__baitcasting"
+        },
+        {
+          "name": "Centerpin",
+          "handle": "angling-style__centerpin"
+        },
+        {
+          "name": "Fly fishing",
+          "handle": "angling-style__fly-fishing"
+        },
+        {
+          "name": "Ice fishing",
+          "handle": "angling-style__ice-fishing"
+        },
+        {
+          "name": "Spinning",
+          "handle": "angling-style__spinning"
+        },
+        {
+          "name": "Surfcasting",
+          "handle": "angling-style__surfcasting"
+        },
+        {
+          "name": "Trolling",
+          "handle": "angling-style__trolling"
+        },
+        {
+          "name": "Other",
+          "handle": "angling-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1302",
+      "name": "Archery activity",
+      "handle": "archery-activity",
+      "description": "Specifies the type of archery activity, e.g. outdoor hunting, targets practice",
+      "values": [
+        {
+          "name": "Competition",
+          "handle": "archery-activity__competition"
+        },
+        {
+          "name": "Outdoor hunting",
+          "handle": "archery-activity__outdoor-hunting"
+        },
+        {
+          "name": "Targets practice",
+          "handle": "archery-activity__targets-practice"
+        },
+        {
+          "name": "Other",
+          "handle": "archery-activity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2888",
+      "name": "Archery equipment included",
+      "handle": "archery-equipment-included",
+      "description": "Specifies included archery accessories, e.g. stabilizer mount, safety glass arrows",
+      "values": [
+        {
+          "name": "Armguard",
+          "handle": "archery-equipment-included__armguard"
+        },
+        {
+          "name": "Arrow rest",
+          "handle": "archery-equipment-included__arrow-rest"
+        },
+        {
+          "name": "Bow stringer",
+          "handle": "archery-equipment-included__bow-stringer"
+        },
+        {
+          "name": "Quiver",
+          "handle": "archery-equipment-included__quiver"
+        },
+        {
+          "name": "Safety glass arrows",
+          "handle": "archery-equipment-included__safety-glass-arrows"
+        },
+        {
+          "name": "Sight mount",
+          "handle": "archery-equipment-included__sight-mount"
+        },
+        {
+          "name": "Sight pin",
+          "handle": "archery-equipment-included__sight-pin"
+        },
+        {
+          "name": "Stabilizer mount",
+          "handle": "archery-equipment-included__stabilizer-mount"
+        },
+        {
+          "name": "Other",
+          "handle": "archery-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1303",
+      "name": "Archery style",
+      "handle": "archery-style",
+      "description": "Defines the specific type of archery the product is designed for, e.g. 3D archery, bowhunting",
+      "values": [
+        {
+          "name": "3D archery",
+          "handle": "archery-style__3d-archery"
+        },
+        {
+          "name": "Bowhunting",
+          "handle": "archery-style__bowhunting"
+        },
+        {
+          "name": "Compound target",
+          "handle": "archery-style__compound-target"
+        },
+        {
+          "name": "Olympic recurve",
+          "handle": "archery-style__olympic-recurve"
+        },
+        {
+          "name": "Recreational",
+          "handle": "archery-style__recreational"
+        },
+        {
+          "name": "Traditional",
+          "handle": "archery-style__traditional"
+        },
+        {
+          "name": "Other",
+          "handle": "archery-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2883",
+      "name": "Arrow fletching material",
+      "handle": "arrow-fletching-material",
+      "description": "Identifies the material used in arrow fletchings, such as synthetic or plastic",
+      "values": [
+        {
+          "name": "Feathers",
+          "handle": "arrow-fletching-material__feathers"
+        },
+        {
+          "name": "Plastic",
+          "handle": "arrow-fletching-material__plastic"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "arrow-fletching-material__synthetic"
+        },
+        {
+          "name": "Other",
+          "handle": "arrow-fletching-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2969",
+      "name": "Arrow/Bolt material",
+      "handle": "arrow-bolt-material",
+      "description": "Identifies the construction material of arrows or bolts, such as aluminum or bamboo",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "arrow-bolt-material__aluminum"
+        },
+        {
+          "name": "Bamboo",
+          "handle": "arrow-bolt-material__bamboo"
+        },
+        {
+          "name": "Carbon fiber",
+          "handle": "arrow-bolt-material__carbon-fiber"
+        },
+        {
+          "name": "Carbon fiber reinforced polymer (CFRP)",
+          "handle": "arrow-bolt-material__carbon-fiber-reinforced-polymer-cfrp"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "arrow-bolt-material__fiberglass"
+        },
+        {
+          "name": "Wood",
+          "handle": "arrow-bolt-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "arrow-bolt-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3387",
+      "name": "Assisted braking technology",
+      "handle": "assisted-braking-technology",
+      "description": "Indicates the type of assisted braking in belay devices, e.g. active, passive",
+      "values": [
+        {
+          "name": "Active",
+          "handle": "assisted-braking-technology__active"
+        },
+        {
+          "name": "No assisted braking",
+          "handle": "assisted-braking-technology__no-assisted-braking"
+        },
+        {
+          "name": "Passive",
+          "handle": "assisted-braking-technology__passive"
+        },
+        {
+          "name": "Other",
+          "handle": "assisted-braking-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2844",
+      "name": "Ball material",
+      "handle": "ball-material",
+      "description": "Identifies the main material used in a ball's construction, such as leather or rubber",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "ball-material__acrylic"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "ball-material__ceramic"
+        },
+        {
+          "name": "Cork",
+          "handle": "ball-material__cork"
+        },
+        {
+          "name": "Cotton",
+          "handle": "ball-material__cotton"
+        },
+        {
+          "name": "Ethylene vinyl acetate (EVA)",
+          "handle": "ball-material__ethylene-vinyl-acetate-eva"
+        },
+        {
+          "name": "Faux leather",
+          "handle": "ball-material__faux-leather"
+        },
+        {
+          "name": "Foam",
+          "handle": "ball-material__foam"
+        },
+        {
+          "name": "Latex",
+          "handle": "ball-material__latex"
+        },
+        {
+          "name": "Leather",
+          "handle": "ball-material__leather"
+        },
+        {
+          "name": "Microfiber",
+          "handle": "ball-material__microfiber"
+        },
+        {
+          "name": "Neoprene",
+          "handle": "ball-material__neoprene"
+        },
+        {
+          "name": "Nylon",
+          "handle": "ball-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "ball-material__plastic"
+        },
+        {
+          "name": "Polyester",
+          "handle": "ball-material__polyester"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "ball-material__polyurethane-pu"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "ball-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Resin",
+          "handle": "ball-material__resin"
+        },
+        {
+          "name": "Rubber",
+          "handle": "ball-material__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "ball-material__silicone"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "ball-material__synthetic"
+        },
+        {
+          "name": "Thermoplastic polyurethane (TPU)",
+          "handle": "ball-material__thermoplastic-polyurethane-tpu"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "ball-material__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "ball-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2860",
+      "name": "Bar mounting type",
+      "handle": "bar-mounting-type",
+      "description": "Specifies the setup method for exercise bars, such as door or joist",
+      "values": [
+        {
+          "name": "Ceiling",
+          "handle": "bar-mounting-type__ceiling"
+        },
+        {
+          "name": "Door",
+          "handle": "bar-mounting-type__door"
+        },
+        {
+          "name": "Joist",
+          "handle": "bar-mounting-type__joist"
+        },
+        {
+          "name": "Wall",
+          "handle": "bar-mounting-type__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "bar-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1970",
+      "name": "Baseball/Softball ball type",
+      "handle": "baseball-softball-ball-type",
+      "description": "Specifies if a ball is designed for softball or baseball",
+      "values": [
+        {
+          "name": "Baseball",
+          "handle": "baseball-softball-ball-type__baseball"
+        },
+        {
+          "name": "Softball",
+          "handle": "baseball-softball-ball-type__softball"
+        },
+        {
+          "name": "Other",
+          "handle": "baseball-softball-ball-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2846",
+      "name": "Basketball equipment included",
+      "handle": "basketball-equipment-included",
+      "description": "Specifies the basketball gear that comes with the product, such as net and post",
+      "values": [
+        {
+          "name": "Basketball ball",
+          "handle": "basketball-equipment-included__basketball-ball"
+        },
+        {
+          "name": "Hoop",
+          "handle": "basketball-equipment-included__hoop"
+        },
+        {
+          "name": "Net",
+          "handle": "basketball-equipment-included__net"
+        },
+        {
+          "name": "Post",
+          "handle": "basketball-equipment-included__post"
+        },
+        {
+          "name": "Other",
+          "handle": "basketball-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2845",
+      "name": "Bat material",
+      "handle": "bat-material",
+      "description": "Specifies the type of material used in a bat, for example, aluminum or carbon fiber",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "bat-material__aluminum"
+        },
+        {
+          "name": "Carbon fiber",
+          "handle": "bat-material__carbon-fiber"
+        },
+        {
+          "name": "Composite",
+          "handle": "bat-material__composite"
+        },
+        {
+          "name": "Metal",
+          "handle": "bat-material__metal"
+        },
+        {
+          "name": "Wood",
+          "handle": "bat-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "bat-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1209",
+      "name": "Bat standard",
+      "handle": "bat-standard",
+      "description": "Defines the certification of baseball or softball bats, such as Little League or NCAA",
+      "values": [
+        {
+          "name": "ASA",
+          "handle": "bat-standard__asa"
+        },
+        {
+          "name": "BBCOR",
+          "handle": "bat-standard__bbcor"
+        },
+        {
+          "name": "BESR",
+          "handle": "bat-standard__besr"
+        },
+        {
+          "name": "ISA",
+          "handle": "bat-standard__isa"
+        },
+        {
+          "name": "ISF",
+          "handle": "bat-standard__isf"
+        },
+        {
+          "name": "Little league",
+          "handle": "bat-standard__little-league"
+        },
+        {
+          "name": "NCAA",
+          "handle": "bat-standard__ncaa"
+        },
+        {
+          "name": "NFHS",
+          "handle": "bat-standard__nfhs"
+        },
+        {
+          "name": "NSA",
+          "handle": "bat-standard__nsa"
+        },
+        {
+          "name": "USA bat standard",
+          "handle": "bat-standard__usa-bat-standard"
+        },
+        {
+          "name": "USSSA",
+          "handle": "bat-standard__usssa"
+        },
+        {
+          "name": "Other",
+          "handle": "bat-standard__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1275",
+      "name": "Bicycle brake type",
+      "handle": "bicycle-brake-type",
+      "description": "Specifies the brake system on a bicycle, such as V-brake or disc",
+      "values": [
+        {
+          "name": "Cantilever",
+          "handle": "bicycle-brake-type__cantilever"
+        },
+        {
+          "name": "Center-pull",
+          "handle": "bicycle-brake-type__center-pull"
+        },
+        {
+          "name": "Coaster",
+          "handle": "bicycle-brake-type__coaster"
+        },
+        {
+          "name": "Disc",
+          "handle": "bicycle-brake-type__disc"
+        },
+        {
+          "name": "Drum",
+          "handle": "bicycle-brake-type__drum"
+        },
+        {
+          "name": "Hydraulic disc",
+          "handle": "bicycle-brake-type__hydraulic-disc"
+        },
+        {
+          "name": "Hydraulic rim",
+          "handle": "bicycle-brake-type__hydraulic-rim"
+        },
+        {
+          "name": "N-brake",
+          "handle": "bicycle-brake-type__n-brake"
+        },
+        {
+          "name": "Rim",
+          "handle": "bicycle-brake-type__rim"
+        },
+        {
+          "name": "Roller",
+          "handle": "bicycle-brake-type__roller"
+        },
+        {
+          "name": "U-brake",
+          "handle": "bicycle-brake-type__u-brake"
+        },
+        {
+          "name": "V-brake",
+          "handle": "bicycle-brake-type__v-brake"
+        },
+        {
+          "name": "Other",
+          "handle": "bicycle-brake-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3184",
+      "name": "Bicycle features",
+      "handle": "bicycle-features",
+      "description": "Specifies special characteristics of a bike, e.g. puncture resistant tires, luggage rack",
+      "values": [
+        {
+          "name": "Adjustable handlebar",
+          "handle": "bicycle-features__adjustable-handlebar"
+        },
+        {
+          "name": "Built-in brake light",
+          "handle": "bicycle-features__built-in-brake-light"
+        },
+        {
+          "name": "Built-in front light",
+          "handle": "bicycle-features__built-in-front-light"
+        },
+        {
+          "name": "Certified safety",
+          "handle": "bicycle-features__certified-safety"
+        },
+        {
+          "name": "Heavy duty brakes",
+          "handle": "bicycle-features__heavy-duty-brakes"
+        },
+        {
+          "name": "LED control panel",
+          "handle": "bicycle-features__led-control-panel"
+        },
+        {
+          "name": "Luggage rack",
+          "handle": "bicycle-features__luggage-rack"
+        },
+        {
+          "name": "Puncture resistant tires",
+          "handle": "bicycle-features__puncture-resistant-tires"
+        },
+        {
+          "name": "Telescoping seat",
+          "handle": "bicycle-features__telescoping-seat"
+        },
+        {
+          "name": "Other",
+          "handle": "bicycle-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1319",
+      "name": "Binding mount",
+      "handle": "binding-mount",
+      "description": "Defines the type of binding attachment for winter sports equipment, e.g. 2x2 disc",
+      "values": [
+        {
+          "name": "4D",
+          "handle": "binding-mount__4d"
+        },
+        {
+          "name": "3D disc",
+          "handle": "binding-mount__3d-disc"
+        },
+        {
+          "name": "2x2 disc",
+          "handle": "binding-mount__2x2-disc"
+        },
+        {
+          "name": "4x4 disc",
+          "handle": "binding-mount__4x4-disc"
+        },
+        {
+          "name": "EST channel system",
+          "handle": "binding-mount__est-channel-system"
+        },
+        {
+          "name": "Other",
+          "handle": "binding-mount__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1255",
+      "name": "Board concave shape",
+      "handle": "board-concave-shape",
+      "description": "Defines the concave curve of surfboards or paddleboards; e.g. V-concave, flat",
+      "values": [
+        {
+          "name": "Convex",
+          "handle": "board-concave-shape__convex"
+        },
+        {
+          "name": "Double-concave",
+          "handle": "board-concave-shape__double-concave"
+        },
+        {
+          "name": "Flat",
+          "handle": "board-concave-shape__flat"
+        },
+        {
+          "name": "Radial",
+          "handle": "board-concave-shape__radial"
+        },
+        {
+          "name": "V-concave",
+          "handle": "board-concave-shape__v-concave"
+        },
+        {
+          "name": "W-concave",
+          "handle": "board-concave-shape__w-concave"
+        },
+        {
+          "name": "Other",
+          "handle": "board-concave-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1256",
+      "name": "Board profile",
+      "handle": "board-profile",
+      "description": "Defines the profile of a surfboard, e.g. flat, rocker",
+      "values": [
+        {
+          "name": "Camber",
+          "handle": "board-profile__camber"
+        },
+        {
+          "name": "Flat",
+          "handle": "board-profile__flat"
+        },
+        {
+          "name": "Rocker",
+          "handle": "board-profile__rocker"
+        },
+        {
+          "name": "Other",
+          "handle": "board-profile__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1312",
+      "name": "Board type",
+      "handle": "board-type",
+      "description": "Classifies skateboards based on their design and purpose, such as classic or cruiser",
+      "values": [
+        {
+          "name": "Classic",
+          "handle": "board-type__classic"
+        },
+        {
+          "name": "Cruiser",
+          "handle": "board-type__cruiser"
+        },
+        {
+          "name": "Longboard",
+          "handle": "board-type__longboard"
+        },
+        {
+          "name": "Mini-cruiser",
+          "handle": "board-type__mini-cruiser"
+        },
+        {
+          "name": "Mountainboard",
+          "handle": "board-type__mountainboard"
+        },
+        {
+          "name": "Special shape",
+          "handle": "board-type__special-shape"
+        },
+        {
+          "name": "Other",
+          "handle": "board-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2190",
+      "name": "Body material",
+      "handle": "body-material",
+      "description": "Specifies the primary material of a product, typically fishing rods; e.g. composite, aluminum",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "body-material__aluminum"
+        },
+        {
+          "name": "Composite",
+          "handle": "body-material__composite"
+        },
+        {
+          "name": "Graphite",
+          "handle": "body-material__graphite"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "body-material__stainless-steel"
+        },
+        {
+          "name": "Other",
+          "handle": "body-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1284",
+      "name": "Boot type",
+      "handle": "boot-type",
+      "description": "Classifies the boot style, e.g. soft boot, hard boot",
+      "values": [
+        {
+          "name": "Full chaps",
+          "handle": "boot-type__full-chaps"
+        },
+        {
+          "name": "Half chaps",
+          "handle": "boot-type__half-chaps"
+        },
+        {
+          "name": "Hard boot",
+          "handle": "boot-type__hard-boot"
+        },
+        {
+          "name": "Reinforced boot",
+          "handle": "boot-type__reinforced-boot"
+        },
+        {
+          "name": "Semi-soft boot",
+          "handle": "boot-type__semi-soft-boot"
+        },
+        {
+          "name": "Soft boot",
+          "handle": "boot-type__soft-boot"
+        },
+        {
+          "name": "Other",
+          "handle": "boot-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2970",
+      "name": "Bow material",
+      "handle": "bow-material",
+      "description": "Specifies the type of material used in archery bows, i.e. aluminum, fiberglass",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "bow-material__aluminum"
+        },
+        {
+          "name": "Carbon fiber",
+          "handle": "bow-material__carbon-fiber"
+        },
+        {
+          "name": "Composite",
+          "handle": "bow-material__composite"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "bow-material__fiberglass"
+        },
+        {
+          "name": "Foam",
+          "handle": "bow-material__foam"
+        },
+        {
+          "name": "Wood",
+          "handle": "bow-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "bow-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3187",
+      "name": "Bow/Crossbow features",
+      "handle": "bow-crossbow-features",
+      "description": "Describes special features of bows/crossbows, like an adjustable draw or illuminated scope",
+      "values": [
+        {
+          "name": "Adjustable draw",
+          "handle": "bow-crossbow-features__adjustable-draw"
+        },
+        {
+          "name": "Anti-dry fire mechanism",
+          "handle": "bow-crossbow-features__anti-dry-fire-mechanism"
+        },
+        {
+          "name": "Illuminated scope",
+          "handle": "bow-crossbow-features__illuminated-scope"
+        },
+        {
+          "name": "International limb fitting system (ILF)",
+          "handle": "bow-crossbow-features__international-limb-fitting-system-ilf"
+        },
+        {
+          "name": "Quick detach quiver",
+          "handle": "bow-crossbow-features__quick-detach-quiver"
+        },
+        {
+          "name": "Safety auto-engage",
+          "handle": "bow-crossbow-features__safety-auto-engage"
+        },
+        {
+          "name": "Other",
+          "handle": "bow-crossbow-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4366",
+      "name": "Broadhead design",
+      "handle": "broadhead-design",
+      "description": "Indicates the design type of the broadhead used in archery, e.g. fixed blade, mechanical",
+      "values": [
+        {
+          "name": "Fixed blade",
+          "handle": "broadhead-design__fixed-blade"
+        },
+        {
+          "name": "Mechanical",
+          "handle": "broadhead-design__mechanical"
+        },
+        {
+          "name": "Other",
+          "handle": "broadhead-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2885",
+      "name": "Broadhead/Field point material",
+      "handle": "broadhead-field-point-material",
+      "description": "Identifies the material used in archery broadheads or field points, like stainless steel or carbon steel",
+      "values": [
+        {
+          "name": "Carbon steel",
+          "handle": "broadhead-field-point-material__carbon-steel"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "broadhead-field-point-material__stainless-steel"
+        },
+        {
+          "name": "Other",
+          "handle": "broadhead-field-point-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1292",
+      "name": "Butt cap material",
+      "handle": "butt-cap-material",
+      "description": "Defines the composition of the handle's bottom end on sporting goods, e.g. EVA (Ethylene Vinyl Acetate), cork",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "butt-cap-material__aluminum"
+        },
+        {
+          "name": "Composite",
+          "handle": "butt-cap-material__composite"
+        },
+        {
+          "name": "Cork",
+          "handle": "butt-cap-material__cork"
+        },
+        {
+          "name": "Ethylene vinyl acetate (EVA)",
+          "handle": "butt-cap-material__ethylene-vinyl-acetate-eva"
+        },
+        {
+          "name": "Hypalon",
+          "handle": "butt-cap-material__hypalon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "butt-cap-material__plastic"
+        },
+        {
+          "name": "Rubber",
+          "handle": "butt-cap-material__rubber"
+        },
+        {
+          "name": "Wood",
+          "handle": "butt-cap-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "butt-cap-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1276",
+      "name": "Cable type",
+      "handle": "cable-type",
+      "description": "Classifies the variety of cable, typically in cycling equipment; e.g. brake, gear",
+      "values": [
+        {
+          "name": "Brake",
+          "handle": "cable-type__brake"
+        },
+        {
+          "name": "Cable housing",
+          "handle": "cable-type__cable-housing"
+        },
+        {
+          "name": "Dropper post cable",
+          "handle": "cable-type__dropper-post-cable"
+        },
+        {
+          "name": "Electric",
+          "handle": "cable-type__electric"
+        },
+        {
+          "name": "Gear",
+          "handle": "cable-type__gear"
+        },
+        {
+          "name": "Hydraulic brake hose",
+          "handle": "cable-type__hydraulic-brake-hose"
+        },
+        {
+          "name": "Tandem",
+          "handle": "cable-type__tandem"
+        },
+        {
+          "name": "Other",
+          "handle": "cable-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3390",
+      "name": "Cam system",
+      "handle": "cam-system",
+      "description": "Specifies the cam system used in archery equipment, e.g. hybrid, single",
+      "values": [
+        {
+          "name": "Binary",
+          "handle": "cam-system__binary"
+        },
+        {
+          "name": "Dual",
+          "handle": "cam-system__dual"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "cam-system__hybrid"
+        },
+        {
+          "name": "Single",
+          "handle": "cam-system__single"
+        },
+        {
+          "name": "Other",
+          "handle": "cam-system__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1266",
+      "name": "Carabiner gate type",
+      "handle": "carabiner-gate-type",
+      "description": "Defines the type of gate on climbing carabiners, such as screw gate or snap gate",
+      "values": [
+        {
+          "name": "Auto-locking",
+          "handle": "carabiner-gate-type__auto-locking"
+        },
+        {
+          "name": "Bent gate",
+          "handle": "carabiner-gate-type__bent-gate"
+        },
+        {
+          "name": "Non-locking",
+          "handle": "carabiner-gate-type__non-locking"
+        },
+        {
+          "name": "Screw gate",
+          "handle": "carabiner-gate-type__screw-gate"
+        },
+        {
+          "name": "Snap gate",
+          "handle": "carabiner-gate-type__snap-gate"
+        },
+        {
+          "name": "Straight gate",
+          "handle": "carabiner-gate-type__straight-gate"
+        },
+        {
+          "name": "Twist lock",
+          "handle": "carabiner-gate-type__twist-lock"
+        },
+        {
+          "name": "Wire gate",
+          "handle": "carabiner-gate-type__wire-gate"
+        },
+        {
+          "name": "Other",
+          "handle": "carabiner-gate-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2872",
+      "name": "Carabiner shape",
+      "handle": "carabiner-shape",
+      "description": "Identifies the form of carabiners used in climbing, like HMS or pear",
+      "values": [
+        {
+          "name": "D-shaped",
+          "handle": "carabiner-shape__d-shaped"
+        },
+        {
+          "name": "HMS",
+          "handle": "carabiner-shape__hms"
+        },
+        {
+          "name": "Offset-D",
+          "handle": "carabiner-shape__offset-d"
+        },
+        {
+          "name": "Oval",
+          "handle": "carabiner-shape__oval"
+        },
+        {
+          "name": "Pear",
+          "handle": "carabiner-shape__pear"
+        },
+        {
+          "name": "Rectangle",
+          "handle": "carabiner-shape__rectangle"
+        },
+        {
+          "name": "S-shaped",
+          "handle": "carabiner-shape__s-shaped"
+        },
+        {
+          "name": "Triangle",
+          "handle": "carabiner-shape__triangle"
+        },
+        {
+          "name": "Other",
+          "handle": "carabiner-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2874",
+      "name": "Child seat placement",
+      "handle": "child-seat-placement",
+      "description": "Specifies the location of the child seat on a bike, such as front or rear",
+      "values": [
+        {
+          "name": "Front",
+          "handle": "child-seat-placement__front"
+        },
+        {
+          "name": "Rear",
+          "handle": "child-seat-placement__rear"
+        },
+        {
+          "name": "Other",
+          "handle": "child-seat-placement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1268",
+      "name": "Climbing activity",
+      "handle": "climbing-activity",
+      "description": "Specifies the type of climbing the product is designed for, such as mountaineering or ice climbing",
+      "values": [
+        {
+          "name": "Ice climbing",
+          "handle": "climbing-activity__ice-climbing"
+        },
+        {
+          "name": "Mountaineering",
+          "handle": "climbing-activity__mountaineering"
+        },
+        {
+          "name": "Sport climbing",
+          "handle": "climbing-activity__sport-climbing"
+        },
+        {
+          "name": "Trad climbing",
+          "handle": "climbing-activity__trad-climbing"
+        },
+        {
+          "name": "Other",
+          "handle": "climbing-activity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1298",
+      "name": "Club subset",
+      "handle": "club-subset",
+      "description": "Classifies golf clubs into specific subcategories, e.g. sand wedge, blade putter ",
+      "values": [
+        {
+          "name": "Blade putter",
+          "handle": "club-subset__blade-putter"
+        },
+        {
+          "name": "Fairway wood",
+          "handle": "club-subset__fairway-wood"
+        },
+        {
+          "name": "Gap wedge",
+          "handle": "club-subset__gap-wedge"
+        },
+        {
+          "name": "Lob wedge",
+          "handle": "club-subset__lob-wedge"
+        },
+        {
+          "name": "Long iron",
+          "handle": "club-subset__long-iron"
+        },
+        {
+          "name": "Mallet putter",
+          "handle": "club-subset__mallet-putter"
+        },
+        {
+          "name": "Mid iron",
+          "handle": "club-subset__mid-iron"
+        },
+        {
+          "name": "Mid mallet putter",
+          "handle": "club-subset__mid-mallet-putter"
+        },
+        {
+          "name": "Peripheral weighted putter",
+          "handle": "club-subset__peripheral-weighted-putter"
+        },
+        {
+          "name": "Pitching wedge",
+          "handle": "club-subset__pitching-wedge"
+        },
+        {
+          "name": "Sand wedge",
+          "handle": "club-subset__sand-wedge"
+        },
+        {
+          "name": "Short iron",
+          "handle": "club-subset__short-iron"
+        },
+        {
+          "name": "Traditional blade putter",
+          "handle": "club-subset__traditional-blade-putter"
+        },
+        {
+          "name": "Ultra lob wedge",
+          "handle": "club-subset__ultra-lob-wedge"
+        },
+        {
+          "name": "Other",
+          "handle": "club-subset__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1299",
+      "name": "Club type",
+      "handle": "club-type",
+      "description": "Classifies golf clubs based on their specific use, e.g. driver, iron",
+      "values": [
+        {
+          "name": "Chipper",
+          "handle": "club-type__chipper"
+        },
+        {
+          "name": "Driver",
+          "handle": "club-type__driver"
+        },
+        {
+          "name": "Fairway",
+          "handle": "club-type__fairway"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "club-type__hybrid"
+        },
+        {
+          "name": "Iron",
+          "handle": "club-type__iron"
+        },
+        {
+          "name": "Putter",
+          "handle": "club-type__putter"
+        },
+        {
+          "name": "Utility",
+          "handle": "club-type__utility"
+        },
+        {
+          "name": "Wedge",
+          "handle": "club-type__wedge"
+        },
+        {
+          "name": "Wood",
+          "handle": "club-type__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "club-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2861",
+      "name": "Collar lock type",
+      "handle": "collar-lock-type",
+      "description": "Specifies the type of collar lock on weight lifting equipment, like spinlock or spring clamp",
+      "values": [
+        {
+          "name": "Spinlock",
+          "handle": "collar-lock-type__spinlock"
+        },
+        {
+          "name": "Spring clamp",
+          "handle": "collar-lock-type__spring-clamp"
+        },
+        {
+          "name": "Other",
+          "handle": "collar-lock-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2871",
+      "name": "Compass style",
+      "handle": "compass-style",
+      "description": "Specifies the style of navigational compasses, like dive compass or gyrocompass",
+      "values": [
+        {
+          "name": "Car compass",
+          "handle": "compass-style__car-compass"
+        },
+        {
+          "name": "Dive compass",
+          "handle": "compass-style__dive-compass"
+        },
+        {
+          "name": "Hand compass",
+          "handle": "compass-style__hand-compass"
+        },
+        {
+          "name": "Other",
+          "handle": "compass-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1212",
+      "name": "Compatible ball type",
+      "handle": "compatible-ball-type",
+      "description": "Identifies the ball types suitable for use with the product, e.g. tennis, wiffle",
+      "values": [
+        {
+          "name": "Baseball",
+          "handle": "compatible-ball-type__baseball"
+        },
+        {
+          "name": "Golf",
+          "handle": "compatible-ball-type__golf"
+        },
+        {
+          "name": "Softballs",
+          "handle": "compatible-ball-type__softballs"
+        },
+        {
+          "name": "Tennis",
+          "handle": "compatible-ball-type__tennis"
+        },
+        {
+          "name": "Wiffle",
+          "handle": "compatible-ball-type__wiffle"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-ball-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1231",
+      "name": "Compatible bench positions",
+      "handle": "compatible-bench-positions",
+      "description": "Specifies the range of positions, typically for a workout bench; e.g. flat or decline",
+      "values": [
+        {
+          "name": "Decline",
+          "handle": "compatible-bench-positions__decline"
+        },
+        {
+          "name": "Flat",
+          "handle": "compatible-bench-positions__flat"
+        },
+        {
+          "name": "Incline",
+          "handle": "compatible-bench-positions__incline"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-bench-positions__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1270",
+      "name": "Compatible bike type",
+      "handle": "compatible-bike-type",
+      "description": "Specifies the type of bicycle the product is designed for, like electric or road",
+      "values": [
+        {
+          "name": "Downhill",
+          "handle": "compatible-bike-type__downhill"
+        },
+        {
+          "name": "Electric",
+          "handle": "compatible-bike-type__electric"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "compatible-bike-type__hybrid"
+        },
+        {
+          "name": "Mountain",
+          "handle": "compatible-bike-type__mountain"
+        },
+        {
+          "name": "Road",
+          "handle": "compatible-bike-type__road"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-bike-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1232",
+      "name": "Compatible exercises",
+      "handle": "compatible-exercises",
+      "description": "Specifies the exercises that can be performed with the product, such as chin-ups or dips",
+      "values": [
+        {
+          "name": "Chin-ups",
+          "handle": "compatible-exercises__chin-ups"
+        },
+        {
+          "name": "Dips",
+          "handle": "compatible-exercises__dips"
+        },
+        {
+          "name": "Inverted rows",
+          "handle": "compatible-exercises__inverted-rows"
+        },
+        {
+          "name": "Knee raises",
+          "handle": "compatible-exercises__knee-raises"
+        },
+        {
+          "name": "L-sits",
+          "handle": "compatible-exercises__l-sits"
+        },
+        {
+          "name": "Leg raises",
+          "handle": "compatible-exercises__leg-raises"
+        },
+        {
+          "name": "Pull-ups",
+          "handle": "compatible-exercises__pull-ups"
+        },
+        {
+          "name": "Push-ups",
+          "handle": "compatible-exercises__push-ups"
+        },
+        {
+          "name": "Split squats",
+          "handle": "compatible-exercises__split-squats"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-exercises__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1235",
+      "name": "Compatible weight lifting accessory",
+      "handle": "compatible-weight-lifting-accessory",
+      "description": "Specifies the weight lifting equipment the product is compatible with, such as barbell or dumbbell",
+      "values": [
+        {
+          "name": "Barbell",
+          "handle": "compatible-weight-lifting-accessory__barbell"
+        },
+        {
+          "name": "Dumbbell",
+          "handle": "compatible-weight-lifting-accessory__dumbbell"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-weight-lifting-accessory__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2873",
+      "name": "Crampon attachment type",
+      "handle": "crampon-attachment-type",
+      "description": "Identifies how crampons attach to footwear, such as hybrid or step-in",
+      "values": [
+        {
+          "name": "Hybrid",
+          "handle": "crampon-attachment-type__hybrid"
+        },
+        {
+          "name": "Step-in",
+          "handle": "crampon-attachment-type__step-in"
+        },
+        {
+          "name": "Strap-on",
+          "handle": "crampon-attachment-type__strap-on"
+        },
+        {
+          "name": "Other",
+          "handle": "crampon-attachment-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2849",
+      "name": "Cricket equipment included",
+      "handle": "cricket-equipment-included",
+      "description": "Identifies the specific cricket items included in a set, such as helmet or stumps",
+      "values": [
+        {
+          "name": "Abdominal guard",
+          "handle": "cricket-equipment-included__abdominal-guard"
+        },
+        {
+          "name": "Bails",
+          "handle": "cricket-equipment-included__bails"
+        },
+        {
+          "name": "Cricket ball",
+          "handle": "cricket-equipment-included__cricket-ball"
+        },
+        {
+          "name": "Cricket bat",
+          "handle": "cricket-equipment-included__cricket-bat"
+        },
+        {
+          "name": "Gloves",
+          "handle": "cricket-equipment-included__gloves"
+        },
+        {
+          "name": "Helmet",
+          "handle": "cricket-equipment-included__helmet"
+        },
+        {
+          "name": "Kit bag",
+          "handle": "cricket-equipment-included__kit-bag"
+        },
+        {
+          "name": "Pads",
+          "handle": "cricket-equipment-included__pads"
+        },
+        {
+          "name": "Stumps",
+          "handle": "cricket-equipment-included__stumps"
+        },
+        {
+          "name": "Thigh guard",
+          "handle": "cricket-equipment-included__thigh-guard"
+        },
+        {
+          "name": "Other",
+          "handle": "cricket-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1239",
+      "name": "Cue style",
+      "handle": "cue-style",
+      "description": "Specifies the style of a billiard shaft, e.g. straight, conical",
+      "values": [
+        {
+          "name": "Conical",
+          "handle": "cue-style__conical"
+        },
+        {
+          "name": "Double",
+          "handle": "cue-style__double"
+        },
+        {
+          "name": "European",
+          "handle": "cue-style__european"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "cue-style__hybrid"
+        },
+        {
+          "name": "Pro",
+          "handle": "cue-style__pro"
+        },
+        {
+          "name": "Straight",
+          "handle": "cue-style__straight"
+        },
+        {
+          "name": "Other",
+          "handle": "cue-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1240",
+      "name": "Cue type",
+      "handle": "cue-type",
+      "description": "Specifies the cue type of a billiard shaft, e.g. break, jump",
+      "values": [
+        {
+          "name": "Break",
+          "handle": "cue-type__break"
+        },
+        {
+          "name": "Carom",
+          "handle": "cue-type__carom"
+        },
+        {
+          "name": "House",
+          "handle": "cue-type__house"
+        },
+        {
+          "name": "Jump",
+          "handle": "cue-type__jump"
+        },
+        {
+          "name": "Masse",
+          "handle": "cue-type__masse"
+        },
+        {
+          "name": "Play",
+          "handle": "cue-type__play"
+        },
+        {
+          "name": "Short",
+          "handle": "cue-type__short"
+        },
+        {
+          "name": "Snooker",
+          "handle": "cue-type__snooker"
+        },
+        {
+          "name": "Other",
+          "handle": "cue-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1241",
+      "name": "Cue wrap",
+      "handle": "cue-wrap",
+      "description": "Identifies the type of wrap on a billiard cue, such as Irish linen or no wrap",
+      "values": [
+        {
+          "name": "Cork",
+          "handle": "cue-wrap__cork"
+        },
+        {
+          "name": "Irish linen",
+          "handle": "cue-wrap__irish-linen"
+        },
+        {
+          "name": "Leather",
+          "handle": "cue-wrap__leather"
+        },
+        {
+          "name": "Leatherette",
+          "handle": "cue-wrap__leatherette"
+        },
+        {
+          "name": "Luxury leather",
+          "handle": "cue-wrap__luxury-leather"
+        },
+        {
+          "name": "No wrap",
+          "handle": "cue-wrap__no-wrap"
+        },
+        {
+          "name": "Nylon",
+          "handle": "cue-wrap__nylon"
+        },
+        {
+          "name": "Rubber",
+          "handle": "cue-wrap__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "cue-wrap__silicone"
+        },
+        {
+          "name": "Sport",
+          "handle": "cue-wrap__sport"
+        },
+        {
+          "name": "Ultra skin",
+          "handle": "cue-wrap__ultra-skin"
+        },
+        {
+          "name": "Other",
+          "handle": "cue-wrap__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1278",
+      "name": "Cycling style",
+      "handle": "cycling-style",
+      "description": "Defines the intended use or riding style of cycling products, like road racing or BMX racing",
+      "values": [
+        {
+          "name": "BMX racing",
+          "handle": "cycling-style__bmx-racing"
+        },
+        {
+          "name": "City cycling",
+          "handle": "cycling-style__city-cycling"
+        },
+        {
+          "name": "Cross-country cycling",
+          "handle": "cycling-style__cross-country-cycling"
+        },
+        {
+          "name": "Mountain cycling",
+          "handle": "cycling-style__mountain-cycling"
+        },
+        {
+          "name": "MTB racing",
+          "handle": "cycling-style__mtb-racing"
+        },
+        {
+          "name": "Recreational cycling",
+          "handle": "cycling-style__recreational-cycling"
+        },
+        {
+          "name": "Road racing",
+          "handle": "cycling-style__road-racing"
+        },
+        {
+          "name": "Track racing",
+          "handle": "cycling-style__track-racing"
+        },
+        {
+          "name": "Training",
+          "handle": "cycling-style__training"
+        },
+        {
+          "name": "Triathlon",
+          "handle": "cycling-style__triathlon"
+        },
+        {
+          "name": "Other",
+          "handle": "cycling-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3418",
+      "name": "Dance style",
+      "handle": "dance-style",
+      "description": "Indicates the specific genre or types of dance, e.g. flamenco, ballet",
+      "values": [
+        {
+          "name": "Ballet",
+          "handle": "dance-style__ballet"
+        },
+        {
+          "name": "Ballroom",
+          "handle": "dance-style__ballroom"
+        },
+        {
+          "name": "Contemporary",
+          "handle": "dance-style__contemporary"
+        },
+        {
+          "name": "Flamenco",
+          "handle": "dance-style__flamenco"
+        },
+        {
+          "name": "Hip hop",
+          "handle": "dance-style__hip-hop"
+        },
+        {
+          "name": "Irish dance",
+          "handle": "dance-style__irish-dance"
+        },
+        {
+          "name": "Jazz",
+          "handle": "dance-style__jazz"
+        },
+        {
+          "name": "Salsa",
+          "handle": "dance-style__salsa"
+        },
+        {
+          "name": "Swing dance",
+          "handle": "dance-style__swing-dance"
+        },
+        {
+          "name": "Tap dance",
+          "handle": "dance-style__tap-dance"
+        },
+        {
+          "name": "Other",
+          "handle": "dance-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3176",
+      "name": "Display features",
+      "handle": "display-features",
+      "description": "Describes the type of display on a product, such as touchscreen or button controls",
+      "values": [
+        {
+          "name": "Button controls",
+          "handle": "display-features__button-controls"
+        },
+        {
+          "name": "Touchscreen",
+          "handle": "display-features__touchscreen"
+        },
+        {
+          "name": "Other",
+          "handle": "display-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3386",
+      "name": "Dive computer items included",
+      "handle": "dive-computer-items-included",
+      "description": "Specifies what items are included with a dive computer, such as a transmitter or strap",
+      "values": [
+        {
+          "name": "Transmitter",
+          "handle": "dive-computer-items-included__transmitter"
+        },
+        {
+          "name": "Other",
+          "handle": "dive-computer-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2866",
+      "name": "Diving regulator style",
+      "handle": "diving-regulator-style",
+      "description": "Specifies the style of diving regulator, such as unbalanced piston or diaphragm",
+      "values": [
+        {
+          "name": "Balanced piston",
+          "handle": "diving-regulator-style__balanced-piston"
+        },
+        {
+          "name": "Diaphragm",
+          "handle": "diving-regulator-style__diaphragm"
+        },
+        {
+          "name": "Unbalanced piston",
+          "handle": "diving-regulator-style__unbalanced-piston"
+        },
+        {
+          "name": "Other",
+          "handle": "diving-regulator-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2864",
+      "name": "Diving/Snorkeling equipment included",
+      "handle": "diving-snorkeling-equipment-included",
+      "description": "Specifies the diving/snorkeling accessories included, such as wetsuit or snorkel",
+      "values": [
+        {
+          "name": "Dive bag",
+          "handle": "diving-snorkeling-equipment-included__dive-bag"
+        },
+        {
+          "name": "Dive computer",
+          "handle": "diving-snorkeling-equipment-included__dive-computer"
+        },
+        {
+          "name": "Dive knife",
+          "handle": "diving-snorkeling-equipment-included__dive-knife"
+        },
+        {
+          "name": "Fins",
+          "handle": "diving-snorkeling-equipment-included__fins"
+        },
+        {
+          "name": "Mask",
+          "handle": "diving-snorkeling-equipment-included__mask"
+        },
+        {
+          "name": "Snorkel",
+          "handle": "diving-snorkeling-equipment-included__snorkel"
+        },
+        {
+          "name": "Wetsuit",
+          "handle": "diving-snorkeling-equipment-included__wetsuit"
+        },
+        {
+          "name": "Other",
+          "handle": "diving-snorkeling-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1223",
+      "name": "Dynamic level",
+      "handle": "dynamic-level",
+      "description": "Categorizes racquetball and squash balls based on speed and bounce, e.g. green dot, red dot",
+      "values": [
+        {
+          "name": "Blue dot",
+          "handle": "dynamic-level__blue-dot"
+        },
+        {
+          "name": "Double yellow dot",
+          "handle": "dynamic-level__double-yellow-dot"
+        },
+        {
+          "name": "Green dot",
+          "handle": "dynamic-level__green-dot"
+        },
+        {
+          "name": "Orange dot",
+          "handle": "dynamic-level__orange-dot"
+        },
+        {
+          "name": "Red dot",
+          "handle": "dynamic-level__red-dot"
+        },
+        {
+          "name": "White dot",
+          "handle": "dynamic-level__white-dot"
+        },
+        {
+          "name": "Yellow dot",
+          "handle": "dynamic-level__yellow-dot"
+        },
+        {
+          "name": "Other",
+          "handle": "dynamic-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4995",
+      "name": "Electric scooter motor type",
+      "handle": "electric-scooter-motor-type",
+      "description": "Specifies the type and configuration of scooter motors, such as brushed DC or brushless dc",
+      "values": [
+        {
+          "name": "Brushed DC motor",
+          "handle": "electric-scooter-motor-type__brushed-dc-motor"
+        },
+        {
+          "name": "Brushless DC motor",
+          "handle": "electric-scooter-motor-type__brushless-dc-motor"
+        },
+        {
+          "name": "Other",
+          "handle": "electric-scooter-motor-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2859",
+      "name": "Exercise equipment included",
+      "handle": "exercise-equipment-included",
+      "description": "Identifies the specific exercise items included in a set, like a yoga mat or dumbbells",
+      "values": [
+        {
+          "name": "Barbell",
+          "handle": "exercise-equipment-included__barbell"
+        },
+        {
+          "name": "Dumbbells",
+          "handle": "exercise-equipment-included__dumbbells"
+        },
+        {
+          "name": "Elliptical machine",
+          "handle": "exercise-equipment-included__elliptical-machine"
+        },
+        {
+          "name": "Exercise ball",
+          "handle": "exercise-equipment-included__exercise-ball"
+        },
+        {
+          "name": "Exercise bike",
+          "handle": "exercise-equipment-included__exercise-bike"
+        },
+        {
+          "name": "Exercise guide",
+          "handle": "exercise-equipment-included__exercise-guide"
+        },
+        {
+          "name": "Handle",
+          "handle": "exercise-equipment-included__handle"
+        },
+        {
+          "name": "Jump rope",
+          "handle": "exercise-equipment-included__jump-rope"
+        },
+        {
+          "name": "Pump",
+          "handle": "exercise-equipment-included__pump"
+        },
+        {
+          "name": "Resistance bands",
+          "handle": "exercise-equipment-included__resistance-bands"
+        },
+        {
+          "name": "Treadmill",
+          "handle": "exercise-equipment-included__treadmill"
+        },
+        {
+          "name": "Weight bench",
+          "handle": "exercise-equipment-included__weight-bench"
+        },
+        {
+          "name": "Yoga mat",
+          "handle": "exercise-equipment-included__yoga-mat"
+        },
+        {
+          "name": "Other",
+          "handle": "exercise-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2858",
+      "name": "Exercise equipment material",
+      "handle": "exercise-equipment-material",
+      "description": "Identifies the main material used in fitness equipment, like steel or rubber",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "exercise-equipment-material__aluminum"
+        },
+        {
+          "name": "Foam",
+          "handle": "exercise-equipment-material__foam"
+        },
+        {
+          "name": "High density polyethylene (HDPE)",
+          "handle": "exercise-equipment-material__high-density-polyethylene-hdpe"
+        },
+        {
+          "name": "Nylon",
+          "handle": "exercise-equipment-material__nylon"
+        },
+        {
+          "name": "Polyethylene (PE)",
+          "handle": "exercise-equipment-material__polyethylene-pe"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "exercise-equipment-material__polypropylene-pp"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "exercise-equipment-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Rubber",
+          "handle": "exercise-equipment-material__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "exercise-equipment-material__silicone"
+        },
+        {
+          "name": "Steel",
+          "handle": "exercise-equipment-material__steel"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "exercise-equipment-material__synthetic"
+        },
+        {
+          "name": "Other",
+          "handle": "exercise-equipment-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2865",
+      "name": "Fin material",
+      "handle": "fin-material",
+      "description": "Specifies the type of material in diving or snorkeling fins, such as plastic or rubber",
+      "values": [
+        {
+          "name": "Neoprene",
+          "handle": "fin-material__neoprene"
+        },
+        {
+          "name": "Plastic",
+          "handle": "fin-material__plastic"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "fin-material__polypropylene-pp"
+        },
+        {
+          "name": "Rubber",
+          "handle": "fin-material__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "fin-material__silicone"
+        },
+        {
+          "name": "Other",
+          "handle": "fin-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1250",
+      "name": "Fin pocket type",
+      "handle": "fin-pocket-type",
+      "description": "Specifies the design of the foot pocket on diving fins; e.g. full foot, open heel",
+      "values": [
+        {
+          "name": "Full foot",
+          "handle": "fin-pocket-type__full-foot"
+        },
+        {
+          "name": "Open heel",
+          "handle": "fin-pocket-type__open-heel"
+        },
+        {
+          "name": "Other",
+          "handle": "fin-pocket-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1254",
+      "name": "Fin profile",
+      "handle": "fin-profile",
+      "description": "Classifies surfboard based on fin configuration, e.g. five-fin, twin",
+      "values": [
+        {
+          "name": "Five-fin",
+          "handle": "fin-profile__five-fin"
+        },
+        {
+          "name": "Quad",
+          "handle": "fin-profile__quad"
+        },
+        {
+          "name": "Single",
+          "handle": "fin-profile__single"
+        },
+        {
+          "name": "Thruster",
+          "handle": "fin-profile__thruster"
+        },
+        {
+          "name": "Twin",
+          "handle": "fin-profile__twin"
+        },
+        {
+          "name": "Other",
+          "handle": "fin-profile__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1293",
+      "name": "Fishing rod action",
+      "handle": "fishing-rod-action",
+      "description": "Indicates the responsiveness of a fishing rod, such as slow or extra fast",
+      "values": [
+        {
+          "name": "Extra fast",
+          "handle": "fishing-rod-action__extra-fast"
+        },
+        {
+          "name": "Fast",
+          "handle": "fishing-rod-action__fast"
+        },
+        {
+          "name": "Moderate",
+          "handle": "fishing-rod-action__moderate"
+        },
+        {
+          "name": "Moderate-fast",
+          "handle": "fishing-rod-action__moderate-fast"
+        },
+        {
+          "name": "Slow",
+          "handle": "fishing-rod-action__slow"
+        },
+        {
+          "name": "Other",
+          "handle": "fishing-rod-action__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1294",
+      "name": "Fishing rod power",
+      "handle": "fishing-rod-power",
+      "description": "Indicates the strength of the fishing rod, e.g. ultra light, extra heavy",
+      "values": [
+        {
+          "name": "Extra heavy",
+          "handle": "fishing-rod-power__extra-heavy"
+        },
+        {
+          "name": "Heavy",
+          "handle": "fishing-rod-power__heavy"
+        },
+        {
+          "name": "Light",
+          "handle": "fishing-rod-power__light"
+        },
+        {
+          "name": "Medium",
+          "handle": "fishing-rod-power__medium"
+        },
+        {
+          "name": "Medium-heavy",
+          "handle": "fishing-rod-power__medium-heavy"
+        },
+        {
+          "name": "Medium-light",
+          "handle": "fishing-rod-power__medium-light"
+        },
+        {
+          "name": "Ultra light",
+          "handle": "fishing-rod-power__ultra-light"
+        },
+        {
+          "name": "Other",
+          "handle": "fishing-rod-power__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2880",
+      "name": "Fishing wire material",
+      "handle": "fishing-wire-material",
+      "description": "Identifies the composition of fishing wire, such as nylon or stainless steel",
+      "values": [
+        {
+          "name": "Fluorocarbon",
+          "handle": "fishing-wire-material__fluorocarbon"
+        },
+        {
+          "name": "Nylon",
+          "handle": "fishing-wire-material__nylon"
+        },
+        {
+          "name": "Polyethylene (PE)",
+          "handle": "fishing-wire-material__polyethylene-pe"
+        },
+        {
+          "name": "Polyethylene terephthalate (PET)",
+          "handle": "fishing-wire-material__polyethylene-terephthalate-pet"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "fishing-wire-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Polyvinylidene fluoride (PVDF)",
+          "handle": "fishing-wire-material__polyvinylidene-fluoride-pvdf"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "fishing-wire-material__stainless-steel"
+        },
+        {
+          "name": "Other",
+          "handle": "fishing-wire-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1320",
+      "name": "Flexibility rating",
+      "handle": "flexibility-rating",
+      "description": "Indicates the flexibility level of snowboard or snowshoe bindings, e.g. 4",
+      "values": [
+        {
+          "name": "1",
+          "handle": "flexibility-rating__1"
+        },
+        {
+          "name": "2",
+          "handle": "flexibility-rating__2"
+        },
+        {
+          "name": "3",
+          "handle": "flexibility-rating__3"
+        },
+        {
+          "name": "4",
+          "handle": "flexibility-rating__4"
+        },
+        {
+          "name": "5",
+          "handle": "flexibility-rating__5"
+        },
+        {
+          "name": "6",
+          "handle": "flexibility-rating__6"
+        },
+        {
+          "name": "7",
+          "handle": "flexibility-rating__7"
+        },
+        {
+          "name": "8",
+          "handle": "flexibility-rating__8"
+        },
+        {
+          "name": "9",
+          "handle": "flexibility-rating__9"
+        },
+        {
+          "name": "10",
+          "handle": "flexibility-rating__10"
+        },
+        {
+          "name": "Other",
+          "handle": "flexibility-rating__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1245",
+      "name": "Games included",
+      "handle": "games-included",
+      "description": "Lists the games that come with the product, such as cards or checkers",
+      "values": [
+        {
+          "name": "Air hockey",
+          "handle": "games-included__air-hockey"
+        },
+        {
+          "name": "Backgammon",
+          "handle": "games-included__backgammon"
+        },
+        {
+          "name": "Billiard",
+          "handle": "games-included__billiard"
+        },
+        {
+          "name": "Blackjack",
+          "handle": "games-included__blackjack"
+        },
+        {
+          "name": "Bowling",
+          "handle": "games-included__bowling"
+        },
+        {
+          "name": "Cards",
+          "handle": "games-included__cards"
+        },
+        {
+          "name": "Checkers",
+          "handle": "games-included__checkers"
+        },
+        {
+          "name": "Chess",
+          "handle": "games-included__chess"
+        },
+        {
+          "name": "Chinese checkers",
+          "handle": "games-included__chinese-checkers"
+        },
+        {
+          "name": "Darts",
+          "handle": "games-included__darts"
+        },
+        {
+          "name": "Dominoes",
+          "handle": "games-included__dominoes"
+        },
+        {
+          "name": "Foosball",
+          "handle": "games-included__foosball"
+        },
+        {
+          "name": "Ludo",
+          "handle": "games-included__ludo"
+        },
+        {
+          "name": "Manji",
+          "handle": "games-included__manji"
+        },
+        {
+          "name": "Marbles",
+          "handle": "games-included__marbles"
+        },
+        {
+          "name": "Nok hockey",
+          "handle": "games-included__nok-hockey"
+        },
+        {
+          "name": "Pick-up sticks",
+          "handle": "games-included__pick-up-sticks"
+        },
+        {
+          "name": "Poker dice",
+          "handle": "games-included__poker-dice"
+        },
+        {
+          "name": "Shuffleboard",
+          "handle": "games-included__shuffleboard"
+        },
+        {
+          "name": "Snakes & ladders",
+          "handle": "games-included__snakes-ladders"
+        },
+        {
+          "name": "Steeplechase",
+          "handle": "games-included__steeplechase"
+        },
+        {
+          "name": "Table tennis",
+          "handle": "games-included__table-tennis"
+        },
+        {
+          "name": "Tic-tac-toe",
+          "handle": "games-included__tic-tac-toe"
+        },
+        {
+          "name": "Train chess",
+          "handle": "games-included__train-chess"
+        },
+        {
+          "name": "Other",
+          "handle": "games-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1282",
+      "name": "Gearing type",
+      "handle": "gearing-type",
+      "description": "Specifies the type of gear system in cycling products, like chain or belt",
+      "values": [
+        {
+          "name": "Belt",
+          "handle": "gearing-type__belt"
+        },
+        {
+          "name": "Chain",
+          "handle": "gearing-type__chain"
+        },
+        {
+          "name": "Chainless",
+          "handle": "gearing-type__chainless"
+        },
+        {
+          "name": "Other",
+          "handle": "gearing-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1972",
+      "name": "Golf ball type",
+      "handle": "golf-ball-type",
+      "description": "Specifies the performance characteristics of golf balls, such as tour performance or soft distance",
+      "values": [
+        {
+          "name": "Soft distance",
+          "handle": "golf-ball-type__soft-distance"
+        },
+        {
+          "name": "Straight distance",
+          "handle": "golf-ball-type__straight-distance"
+        },
+        {
+          "name": "Tour performance",
+          "handle": "golf-ball-type__tour-performance"
+        },
+        {
+          "name": "Tour value",
+          "handle": "golf-ball-type__tour-value"
+        },
+        {
+          "name": "Other",
+          "handle": "golf-ball-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2882",
+      "name": "Golf equipment included",
+      "handle": "golf-equipment-included",
+      "description": "Identifies the extra golf items included in the set, such as a divot tool or golf ball case",
+      "values": [
+        {
+          "name": "Balance stripe",
+          "handle": "golf-equipment-included__balance-stripe"
+        },
+        {
+          "name": "Ball holder",
+          "handle": "golf-equipment-included__ball-holder"
+        },
+        {
+          "name": "Ball marker",
+          "handle": "golf-equipment-included__ball-marker"
+        },
+        {
+          "name": "Brush",
+          "handle": "golf-equipment-included__brush"
+        },
+        {
+          "name": "Cleaner",
+          "handle": "golf-equipment-included__cleaner"
+        },
+        {
+          "name": "Cup",
+          "handle": "golf-equipment-included__cup"
+        },
+        {
+          "name": "Direction cross",
+          "handle": "golf-equipment-included__direction-cross"
+        },
+        {
+          "name": "Divot tool",
+          "handle": "golf-equipment-included__divot-tool"
+        },
+        {
+          "name": "Finger support",
+          "handle": "golf-equipment-included__finger-support"
+        },
+        {
+          "name": "Flag",
+          "handle": "golf-equipment-included__flag"
+        },
+        {
+          "name": "Golf ball case",
+          "handle": "golf-equipment-included__golf-ball-case"
+        },
+        {
+          "name": "Golf scope",
+          "handle": "golf-equipment-included__golf-scope"
+        },
+        {
+          "name": "GPS navigation",
+          "handle": "golf-equipment-included__gps-navigation"
+        },
+        {
+          "name": "Grip",
+          "handle": "golf-equipment-included__grip"
+        },
+        {
+          "name": "Head cover",
+          "handle": "golf-equipment-included__head-cover"
+        },
+        {
+          "name": "Nameplate",
+          "handle": "golf-equipment-included__nameplate"
+        },
+        {
+          "name": "Polishing pad",
+          "handle": "golf-equipment-included__polishing-pad"
+        },
+        {
+          "name": "Putter cover",
+          "handle": "golf-equipment-included__putter-cover"
+        },
+        {
+          "name": "Scoop",
+          "handle": "golf-equipment-included__scoop"
+        },
+        {
+          "name": "Score counter",
+          "handle": "golf-equipment-included__score-counter"
+        },
+        {
+          "name": "Spare ball",
+          "handle": "golf-equipment-included__spare-ball"
+        },
+        {
+          "name": "Spike wrench",
+          "handle": "golf-equipment-included__spike-wrench"
+        },
+        {
+          "name": "Stinger",
+          "handle": "golf-equipment-included__stinger"
+        },
+        {
+          "name": "Tee",
+          "handle": "golf-equipment-included__tee"
+        },
+        {
+          "name": "Tee holder",
+          "handle": "golf-equipment-included__tee-holder"
+        },
+        {
+          "name": "Other",
+          "handle": "golf-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1216",
+      "name": "Grip type",
+      "handle": "grip-type",
+      "description": "Defines the style of grip on fencing equipment, e.g. French, pistol",
+      "values": [
+        {
+          "name": "Belgian",
+          "handle": "grip-type__belgian"
+        },
+        {
+          "name": "Bent french",
+          "handle": "grip-type__bent-french"
+        },
+        {
+          "name": "French",
+          "handle": "grip-type__french"
+        },
+        {
+          "name": "German",
+          "handle": "grip-type__german"
+        },
+        {
+          "name": "Hungarian",
+          "handle": "grip-type__hungarian"
+        },
+        {
+          "name": "Italian",
+          "handle": "grip-type__italian"
+        },
+        {
+          "name": "Pistol",
+          "handle": "grip-type__pistol"
+        },
+        {
+          "name": "Russian",
+          "handle": "grip-type__russian"
+        },
+        {
+          "name": "Schermasport",
+          "handle": "grip-type__schermasport"
+        },
+        {
+          "name": "Straight French",
+          "handle": "grip-type__straight-french"
+        },
+        {
+          "name": "Visconti",
+          "handle": "grip-type__visconti"
+        },
+        {
+          "name": "Other",
+          "handle": "grip-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3183",
+      "name": "Hand warmer type",
+      "handle": "hand-warmer-type",
+      "description": "Identifies the kind of hand warmer, such as air-activated or battery-powered",
+      "values": [
+        {
+          "name": "Air-activated",
+          "handle": "hand-warmer-type__air-activated"
+        },
+        {
+          "name": "Battery-powered",
+          "handle": "hand-warmer-type__battery-powered"
+        },
+        {
+          "name": "Charcoal",
+          "handle": "hand-warmer-type__charcoal"
+        },
+        {
+          "name": "Lighter fuel",
+          "handle": "hand-warmer-type__lighter-fuel"
+        },
+        {
+          "name": "Supersaturated",
+          "handle": "hand-warmer-type__supersaturated"
+        },
+        {
+          "name": "Other",
+          "handle": "hand-warmer-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1269",
+      "name": "Harness closure type",
+      "handle": "harness-closure-type",
+      "description": "Specifies the type of closure used in harnesses, such as side release buckle or zipper",
+      "values": [
+        {
+          "name": "Drop seat buckle",
+          "handle": "harness-closure-type__drop-seat-buckle"
+        },
+        {
+          "name": "Grommet",
+          "handle": "harness-closure-type__grommet"
+        },
+        {
+          "name": "Hook & loop",
+          "handle": "harness-closure-type__hook-loop"
+        },
+        {
+          "name": "Side release buckle",
+          "handle": "harness-closure-type__side-release-buckle"
+        },
+        {
+          "name": "Zipper",
+          "handle": "harness-closure-type__zipper"
+        },
+        {
+          "name": "Other",
+          "handle": "harness-closure-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1274",
+      "name": "Hitch type",
+      "handle": "hitch-type",
+      "description": "Specifies the mounting method for bicycle trailers, such as axle-mounted or seat post",
+      "values": [
+        {
+          "name": "Axle-mounted",
+          "handle": "hitch-type__axle-mounted"
+        },
+        {
+          "name": "Frame-mounted",
+          "handle": "hitch-type__frame-mounted"
+        },
+        {
+          "name": "Seat post",
+          "handle": "hitch-type__seat-post"
+        },
+        {
+          "name": "Trailer arm",
+          "handle": "hitch-type__trailer-arm"
+        },
+        {
+          "name": "Other",
+          "handle": "hitch-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2852",
+      "name": "Hockey equipment included",
+      "handle": "hockey-equipment-included",
+      "description": "Specifies the items in a lacrosse equipment set, such as lacrosse stick or shoulder pads",
+      "values": [
+        {
+          "name": "Athletic cup",
+          "handle": "hockey-equipment-included__athletic-cup"
+        },
+        {
+          "name": "Chest protector",
+          "handle": "hockey-equipment-included__chest-protector"
+        },
+        {
+          "name": "Goalie blocker",
+          "handle": "hockey-equipment-included__goalie-blocker"
+        },
+        {
+          "name": "Goalie catcher",
+          "handle": "hockey-equipment-included__goalie-catcher"
+        },
+        {
+          "name": "Goalie mask",
+          "handle": "hockey-equipment-included__goalie-mask"
+        },
+        {
+          "name": "Goalie pads",
+          "handle": "hockey-equipment-included__goalie-pads"
+        },
+        {
+          "name": "Skates",
+          "handle": "hockey-equipment-included__skates"
+        },
+        {
+          "name": "Stick",
+          "handle": "hockey-equipment-included__stick"
+        },
+        {
+          "name": "Other",
+          "handle": "hockey-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1288",
+      "name": "Hoop shape",
+      "handle": "hoop-shape",
+      "description": "Describes the shape of a hoop-based item, typically fishing nets; e.g. D-shaped",
+      "values": [
+        {
+          "name": "D-shaped",
+          "handle": "hoop-shape__d-shaped"
+        },
+        {
+          "name": "Rectangle",
+          "handle": "hoop-shape__rectangle"
+        },
+        {
+          "name": "Round",
+          "handle": "hoop-shape__round"
+        },
+        {
+          "name": "Teardrop",
+          "handle": "hoop-shape__teardrop"
+        },
+        {
+          "name": "Other",
+          "handle": "hoop-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1286",
+      "name": "Horse category",
+      "handle": "horse-category",
+      "description": "Classifies horse tack based on horse size and breed, e.g. pony, standard",
+      "values": [
+        {
+          "name": "Cob",
+          "handle": "horse-category__cob"
+        },
+        {
+          "name": "Draft horse",
+          "handle": "horse-category__draft-horse"
+        },
+        {
+          "name": "Miniature horse",
+          "handle": "horse-category__miniature-horse"
+        },
+        {
+          "name": "Pony",
+          "handle": "horse-category__pony"
+        },
+        {
+          "name": "Standard",
+          "handle": "horse-category__standard"
+        },
+        {
+          "name": "Warmblood",
+          "handle": "horse-category__warmblood"
+        },
+        {
+          "name": "Other",
+          "handle": "horse-category__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2879",
+      "name": "Horse grooming accessories included",
+      "handle": "horse-grooming-accessories-included",
+      "description": "Identifies additional items included with horse grooming products, like blades or carrying case",
+      "values": [
+        {
+          "name": "Blades",
+          "handle": "horse-grooming-accessories-included__blades"
+        },
+        {
+          "name": "Carrying case",
+          "handle": "horse-grooming-accessories-included__carrying-case"
+        },
+        {
+          "name": "Cleaning brush",
+          "handle": "horse-grooming-accessories-included__cleaning-brush"
+        },
+        {
+          "name": "Lubricating oil",
+          "handle": "horse-grooming-accessories-included__lubricating-oil"
+        },
+        {
+          "name": "Other",
+          "handle": "horse-grooming-accessories-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3391",
+      "name": "Hunting blind design",
+      "handle": "hunting-blind-design",
+      "description": "Specifies the type of hunting blind design, e.g. no screen, one-way see-through",
+      "values": [
+        {
+          "name": "No screen",
+          "handle": "hunting-blind-design__no-screen"
+        },
+        {
+          "name": "One way see-through",
+          "handle": "hunting-blind-design__one-way-see-through"
+        },
+        {
+          "name": "Other",
+          "handle": "hunting-blind-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2870",
+      "name": "Hunting/Survival knife design",
+      "handle": "hunting-survival-knife-design",
+      "description": "Identifies the design of a hunting/survival knife, such as spear point or tanto point",
+      "values": [
+        {
+          "name": "Clip point",
+          "handle": "hunting-survival-knife-design__clip-point"
+        },
+        {
+          "name": "Dagger",
+          "handle": "hunting-survival-knife-design__dagger"
+        },
+        {
+          "name": "Drop point",
+          "handle": "hunting-survival-knife-design__drop-point"
+        },
+        {
+          "name": "Needle point",
+          "handle": "hunting-survival-knife-design__needle-point"
+        },
+        {
+          "name": "Pen",
+          "handle": "hunting-survival-knife-design__pen"
+        },
+        {
+          "name": "Sheepsfoot",
+          "handle": "hunting-survival-knife-design__sheepsfoot"
+        },
+        {
+          "name": "Spear point",
+          "handle": "hunting-survival-knife-design__spear-point"
+        },
+        {
+          "name": "Spey point",
+          "handle": "hunting-survival-knife-design__spey-point"
+        },
+        {
+          "name": "Tanto point",
+          "handle": "hunting-survival-knife-design__tanto-point"
+        },
+        {
+          "name": "Wharncliffe",
+          "handle": "hunting-survival-knife-design__wharncliffe"
+        },
+        {
+          "name": "Other",
+          "handle": "hunting-survival-knife-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1310",
+      "name": "Inline skating style",
+      "handle": "inline-skating-style",
+      "description": "Defines the specific style of inline skating the product is designed for, such as recreational or speed inline skating",
+      "values": [
+        {
+          "name": "Aggressive inline skating",
+          "handle": "inline-skating-style__aggressive-inline-skating"
+        },
+        {
+          "name": "Artistic inline skating",
+          "handle": "inline-skating-style__artistic-inline-skating"
+        },
+        {
+          "name": "Downhill inline skating",
+          "handle": "inline-skating-style__downhill-inline-skating"
+        },
+        {
+          "name": "Freestyle slalom inline skating",
+          "handle": "inline-skating-style__freestyle-slalom-inline-skating"
+        },
+        {
+          "name": "Recreational inline skating",
+          "handle": "inline-skating-style__recreational-inline-skating"
+        },
+        {
+          "name": "Roller hockey inline skating",
+          "handle": "inline-skating-style__roller-hockey-inline-skating"
+        },
+        {
+          "name": "Speed inline skating",
+          "handle": "inline-skating-style__speed-inline-skating"
+        },
+        {
+          "name": "Other",
+          "handle": "inline-skating-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1237",
+      "name": "J-cup type",
+      "handle": "j-cup-type",
+      "description": "Defines the style of J-cups on weight lifting equipment, e.g. flat, sandwich",
+      "values": [
+        {
+          "name": "Flat",
+          "handle": "j-cup-type__flat"
+        },
+        {
+          "name": "Lowered",
+          "handle": "j-cup-type__lowered"
+        },
+        {
+          "name": "Regular",
+          "handle": "j-cup-type__regular"
+        },
+        {
+          "name": "Sandwich",
+          "handle": "j-cup-type__sandwich"
+        },
+        {
+          "name": "Other",
+          "handle": "j-cup-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3172",
+      "name": "Joint connection",
+      "handle": "joint-connection",
+      "description": "Specifies the joint connection in billiard cues, e.g. composite, no joint",
+      "values": [
+        {
+          "name": "Composite",
+          "handle": "joint-connection__composite"
+        },
+        {
+          "name": "No joint",
+          "handle": "joint-connection__no-joint"
+        },
+        {
+          "name": "Steel",
+          "handle": "joint-connection__steel"
+        },
+        {
+          "name": "Wood-to-wood",
+          "handle": "joint-connection__wood-to-wood"
+        },
+        {
+          "name": "Other",
+          "handle": "joint-connection__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3173",
+      "name": "Joint face type",
+      "handle": "joint-face-type",
+      "description": "Specifies the type of joint face on billiard shafts, such as full or piloted",
+      "values": [
+        {
+          "name": "Curved",
+          "handle": "joint-face-type__curved"
+        },
+        {
+          "name": "Flat",
+          "handle": "joint-face-type__flat"
+        },
+        {
+          "name": "Flush",
+          "handle": "joint-face-type__flush"
+        },
+        {
+          "name": "Full",
+          "handle": "joint-face-type__full"
+        },
+        {
+          "name": "Piloted",
+          "handle": "joint-face-type__piloted"
+        },
+        {
+          "name": "Other",
+          "handle": "joint-face-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1242",
+      "name": "Joint style",
+      "handle": "joint-style",
+      "description": "Defines the type of joint used in billiard cues, such as uni-loc or radial",
+      "values": [
+        {
+          "name": "5/16 x 11",
+          "handle": "joint-style__5-16-x-11"
+        },
+        {
+          "name": "5/16 x 12",
+          "handle": "joint-style__5-16-x-12"
+        },
+        {
+          "name": "5/16 x 14",
+          "handle": "joint-style__5-16-x-14"
+        },
+        {
+          "name": "5/16 x 18",
+          "handle": "joint-style__5-16-x-18"
+        },
+        {
+          "name": "3/8 x 8",
+          "handle": "joint-style__3-8-x-8"
+        },
+        {
+          "name": "3/8 x 10",
+          "handle": "joint-style__3-8-x-10"
+        },
+        {
+          "name": "3/8 x 11",
+          "handle": "joint-style__3-8-x-11"
+        },
+        {
+          "name": "3/8 x 14",
+          "handle": "joint-style__3-8-x-14"
+        },
+        {
+          "name": "1/2 x 13",
+          "handle": "joint-style__1-2-x-13"
+        },
+        {
+          "name": "Bullet",
+          "handle": "joint-style__bullet"
+        },
+        {
+          "name": "Quick release",
+          "handle": "joint-style__quick-release"
+        },
+        {
+          "name": "Radial",
+          "handle": "joint-style__radial"
+        },
+        {
+          "name": "Speed-loc",
+          "handle": "joint-style__speed-loc"
+        },
+        {
+          "name": "True-loc",
+          "handle": "joint-style__true-loc"
+        },
+        {
+          "name": "Uni-loc",
+          "handle": "joint-style__uni-loc"
+        },
+        {
+          "name": "Wavy",
+          "handle": "joint-style__wavy"
+        },
+        {
+          "name": "Other",
+          "handle": "joint-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3382",
+      "name": "Jump rope design",
+      "handle": "jump-rope-design",
+      "description": "Describes the type of jump rope, such as regular or smart",
+      "values": [
+        {
+          "name": "Regular",
+          "handle": "jump-rope-design__regular"
+        },
+        {
+          "name": "Smart",
+          "handle": "jump-rope-design__smart"
+        },
+        {
+          "name": "Other",
+          "handle": "jump-rope-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1253",
+      "name": "Kitesurfing style",
+      "handle": "kitesurfing-style",
+      "description": "Defines the specific style of kitesurfing the product is designed for, such as wave riding",
+      "values": [
+        {
+          "name": "Big air kitesurfing",
+          "handle": "kitesurfing-style__big-air-kitesurfing"
+        },
+        {
+          "name": "Foiling kitesurfing",
+          "handle": "kitesurfing-style__foiling-kitesurfing"
+        },
+        {
+          "name": "Freeride kitesurfing",
+          "handle": "kitesurfing-style__freeride-kitesurfing"
+        },
+        {
+          "name": "Freestyle kitesurfing",
+          "handle": "kitesurfing-style__freestyle-kitesurfing"
+        },
+        {
+          "name": "Snow kitesurfing",
+          "handle": "kitesurfing-style__snow-kitesurfing"
+        },
+        {
+          "name": "Speed kitesurfing",
+          "handle": "kitesurfing-style__speed-kitesurfing"
+        },
+        {
+          "name": "Wave riding",
+          "handle": "kitesurfing-style__wave-riding"
+        },
+        {
+          "name": "Other",
+          "handle": "kitesurfing-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1263",
+      "name": "Knife type",
+      "handle": "knife-type",
+      "description": "Classifies knives based on their intended use or design, such as multi-tool or EDC",
+      "values": [
+        {
+          "name": "Barlow",
+          "handle": "knife-type__barlow"
+        },
+        {
+          "name": "Camper",
+          "handle": "knife-type__camper"
+        },
+        {
+          "name": "Canoe",
+          "handle": "knife-type__canoe"
+        },
+        {
+          "name": "Collector",
+          "handle": "knife-type__collector"
+        },
+        {
+          "name": "Congress",
+          "handle": "knife-type__congress"
+        },
+        {
+          "name": "Cotton sampler",
+          "handle": "knife-type__cotton-sampler"
+        },
+        {
+          "name": "EDC",
+          "handle": "knife-type__edc"
+        },
+        {
+          "name": "Hunting",
+          "handle": "knife-type__hunting"
+        },
+        {
+          "name": "Melon tester",
+          "handle": "knife-type__melon-tester"
+        },
+        {
+          "name": "Multi-tool",
+          "handle": "knife-type__multi-tool"
+        },
+        {
+          "name": "Mushroom",
+          "handle": "knife-type__mushroom"
+        },
+        {
+          "name": "Muskrat",
+          "handle": "knife-type__muskrat"
+        },
+        {
+          "name": "Peanut",
+          "handle": "knife-type__peanut"
+        },
+        {
+          "name": "Pen",
+          "handle": "knife-type__pen"
+        },
+        {
+          "name": "Sodbuster",
+          "handle": "knife-type__sodbuster"
+        },
+        {
+          "name": "Stockman",
+          "handle": "knife-type__stockman"
+        },
+        {
+          "name": "Sunfish",
+          "handle": "knife-type__sunfish"
+        },
+        {
+          "name": "Toothpick",
+          "handle": "knife-type__toothpick"
+        },
+        {
+          "name": "Trapper",
+          "handle": "knife-type__trapper"
+        },
+        {
+          "name": "Utensil",
+          "handle": "knife-type__utensil"
+        },
+        {
+          "name": "Other",
+          "handle": "knife-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2851",
+      "name": "Lacrosse equipment included",
+      "handle": "lacrosse-equipment-included",
+      "description": "Specifies the items in a lacrosse equipment set, such as lacrosse stick or shoulder pads",
+      "values": [
+        {
+          "name": "Arm pads",
+          "handle": "lacrosse-equipment-included__arm-pads"
+        },
+        {
+          "name": "Athletic cup",
+          "handle": "lacrosse-equipment-included__athletic-cup"
+        },
+        {
+          "name": "Cleats",
+          "handle": "lacrosse-equipment-included__cleats"
+        },
+        {
+          "name": "Gloves",
+          "handle": "lacrosse-equipment-included__gloves"
+        },
+        {
+          "name": "Helmet",
+          "handle": "lacrosse-equipment-included__helmet"
+        },
+        {
+          "name": "Lacrosse ball",
+          "handle": "lacrosse-equipment-included__lacrosse-ball"
+        },
+        {
+          "name": "Lacrosse stick",
+          "handle": "lacrosse-equipment-included__lacrosse-stick"
+        },
+        {
+          "name": "Mouthguard",
+          "handle": "lacrosse-equipment-included__mouthguard"
+        },
+        {
+          "name": "Rib pads",
+          "handle": "lacrosse-equipment-included__rib-pads"
+        },
+        {
+          "name": "Shoulder pads",
+          "handle": "lacrosse-equipment-included__shoulder-pads"
+        },
+        {
+          "name": "Other",
+          "handle": "lacrosse-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3175",
+      "name": "Life jacket features",
+      "handle": "life-jacket-features",
+      "description": "Highlights the unique characteristics of life jackets, like reflective or buoyant",
+      "values": [
+        {
+          "name": "Inflatable",
+          "handle": "life-jacket-features__inflatable"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "life-jacket-features__lightweight"
+        },
+        {
+          "name": "Reflective",
+          "handle": "life-jacket-features__reflective"
+        },
+        {
+          "name": "Other",
+          "handle": "life-jacket-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1222",
+      "name": "Material hardness",
+      "handle": "material-hardness",
+      "description": "Defines the product's firmness, typically for sport or fitness equipment; e.g. extra soft, high resistance",
+      "values": [
+        {
+          "name": "Extra hard",
+          "handle": "material-hardness__extra-hard"
+        },
+        {
+          "name": "Extra soft",
+          "handle": "material-hardness__extra-soft"
+        },
+        {
+          "name": "Hard",
+          "handle": "material-hardness__hard"
+        },
+        {
+          "name": "High resistance",
+          "handle": "material-hardness__high-resistance"
+        },
+        {
+          "name": "Low resistance",
+          "handle": "material-hardness__low-resistance"
+        },
+        {
+          "name": "Medium",
+          "handle": "material-hardness__medium"
+        },
+        {
+          "name": "Soft",
+          "handle": "material-hardness__soft"
+        },
+        {
+          "name": "Other",
+          "handle": "material-hardness__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3381",
+      "name": "Mouthgard design",
+      "handle": "mouthgard-design",
+      "description": "Identifies the design of sports mouthguards, such as single or double",
+      "values": [
+        {
+          "name": "Double",
+          "handle": "mouthgard-design__double"
+        },
+        {
+          "name": "Single",
+          "handle": "mouthgard-design__single"
+        },
+        {
+          "name": "Other",
+          "handle": "mouthgard-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2855",
+      "name": "Net mounting type",
+      "handle": "net-mounting-type",
+      "description": "Identifies how a tennis net is mounted, such as clip-on or tripod stand",
+      "values": [
+        {
+          "name": "C-clamp",
+          "handle": "net-mounting-type__c-clamp"
+        },
+        {
+          "name": "Clip-on",
+          "handle": "net-mounting-type__clip-on"
+        },
+        {
+          "name": "I-bolt",
+          "handle": "net-mounting-type__i-bolt"
+        },
+        {
+          "name": "Stand-mounted",
+          "handle": "net-mounting-type__stand-mounted"
+        },
+        {
+          "name": "Tripod stand",
+          "handle": "net-mounting-type__tripod-stand"
+        },
+        {
+          "name": "Other",
+          "handle": "net-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2884",
+      "name": "Nock material",
+      "handle": "nock-material",
+      "description": "Specifies the type of material used for arrow nocks, such as aluminum or plastic",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "nock-material__aluminum"
+        },
+        {
+          "name": "Plastic",
+          "handle": "nock-material__plastic"
+        },
+        {
+          "name": "Other",
+          "handle": "nock-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1264",
+      "name": "Outdoor walking activity",
+      "handle": "outdoor-walking-activity",
+      "description": "Classifies products based on intended outdoor walking activity, e.g. trekking, trail running",
+      "values": [
+        {
+          "name": "Hiking",
+          "handle": "outdoor-walking-activity__hiking"
+        },
+        {
+          "name": "Nordic walking",
+          "handle": "outdoor-walking-activity__nordic-walking"
+        },
+        {
+          "name": "Trail running",
+          "handle": "outdoor-walking-activity__trail-running"
+        },
+        {
+          "name": "Trekking",
+          "handle": "outdoor-walking-activity__trekking"
+        },
+        {
+          "name": "Other",
+          "handle": "outdoor-walking-activity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2891",
+      "name": "Paddle equipment included",
+      "handle": "paddle-equipment-included",
+      "description": "Specifies the supplementary equipment in paddle sets, such as posts or paddle balls",
+      "values": [
+        {
+          "name": "Net",
+          "handle": "paddle-equipment-included__net"
+        },
+        {
+          "name": "Paddle balls",
+          "handle": "paddle-equipment-included__paddle-balls"
+        },
+        {
+          "name": "Paddles",
+          "handle": "paddle-equipment-included__paddles"
+        },
+        {
+          "name": "Posts",
+          "handle": "paddle-equipment-included__posts"
+        },
+        {
+          "name": "Other",
+          "handle": "paddle-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3383",
+      "name": "Paddle/Oar material",
+      "handle": "paddle-oar-material",
+      "description": "Identifies the material used in the construction of paddles or oars, like aluminum or wood",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "paddle-oar-material__aluminum"
+        },
+        {
+          "name": "Carbon fiber",
+          "handle": "paddle-oar-material__carbon-fiber"
+        },
+        {
+          "name": "Composite",
+          "handle": "paddle-oar-material__composite"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "paddle-oar-material__fiberglass"
+        },
+        {
+          "name": "Wood",
+          "handle": "paddle-oar-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "paddle-oar-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2889",
+      "name": "Paintball/Airsoft equipment included",
+      "handle": "paintball-airsoft-equipment-included",
+      "description": "Specifies the paintball or airsoft equipment included, like protective eyewear or tactical vest",
+      "values": [
+        {
+          "name": "Batteries",
+          "handle": "paintball-airsoft-equipment-included__batteries"
+        },
+        {
+          "name": "Charger",
+          "handle": "paintball-airsoft-equipment-included__charger"
+        },
+        {
+          "name": "Protective eyewear",
+          "handle": "paintball-airsoft-equipment-included__protective-eyewear"
+        },
+        {
+          "name": "Tactical vest",
+          "handle": "paintball-airsoft-equipment-included__tactical-vest"
+        },
+        {
+          "name": "Other",
+          "handle": "paintball-airsoft-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1301",
+      "name": "Parachuting activity",
+      "handle": "parachuting-activity",
+      "description": "Defines the parachuting discipline the product is designed for, like skydiving or paragliding",
+      "values": [
+        {
+          "name": "BASE jumping",
+          "handle": "parachuting-activity__base-jumping"
+        },
+        {
+          "name": "Hang gliding",
+          "handle": "parachuting-activity__hang-gliding"
+        },
+        {
+          "name": "High altitude balloon jumping",
+          "handle": "parachuting-activity__high-altitude-balloon-jumping"
+        },
+        {
+          "name": "Military parachuting",
+          "handle": "parachuting-activity__military-parachuting"
+        },
+        {
+          "name": "Parachute acrobatics",
+          "handle": "parachuting-activity__parachute-acrobatics"
+        },
+        {
+          "name": "Parachute racing",
+          "handle": "parachuting-activity__parachute-racing"
+        },
+        {
+          "name": "Parachute rescue",
+          "handle": "parachuting-activity__parachute-rescue"
+        },
+        {
+          "name": "Parachute skiing",
+          "handle": "parachuting-activity__parachute-skiing"
+        },
+        {
+          "name": "Parachute surfing",
+          "handle": "parachuting-activity__parachute-surfing"
+        },
+        {
+          "name": "Parachute testing",
+          "handle": "parachuting-activity__parachute-testing"
+        },
+        {
+          "name": "Paragliding",
+          "handle": "parachuting-activity__paragliding"
+        },
+        {
+          "name": "Skydiving",
+          "handle": "parachuting-activity__skydiving"
+        },
+        {
+          "name": "Smoke jumping",
+          "handle": "parachuting-activity__smoke-jumping"
+        },
+        {
+          "name": "Other",
+          "handle": "parachuting-activity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2862",
+      "name": "Ping pong equipment included",
+      "handle": "ping-pong-equipment-included",
+      "description": "Specifies the type of ping pong gear included in the set, such as net or ping pong paddles",
+      "values": [
+        {
+          "name": "Net",
+          "handle": "ping-pong-equipment-included__net"
+        },
+        {
+          "name": "Ping pong balls",
+          "handle": "ping-pong-equipment-included__ping-pong-balls"
+        },
+        {
+          "name": "Ping pong paddles",
+          "handle": "ping-pong-equipment-included__ping-pong-paddles"
+        },
+        {
+          "name": "Posts",
+          "handle": "ping-pong-equipment-included__posts"
+        },
+        {
+          "name": "Other",
+          "handle": "ping-pong-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3174",
+      "name": "Ping pong robot features",
+      "handle": "ping-pong-robot-features",
+      "description": "Describes the functionalities of a ping pong robot, such as drill grouping or remote control",
+      "values": [
+        {
+          "name": "Drill grouping",
+          "handle": "ping-pong-robot-features__drill-grouping"
+        },
+        {
+          "name": "Drill mirroring",
+          "handle": "ping-pong-robot-features__drill-mirroring"
+        },
+        {
+          "name": "Drill sharing",
+          "handle": "ping-pong-robot-features__drill-sharing"
+        },
+        {
+          "name": "Drill tagging",
+          "handle": "ping-pong-robot-features__drill-tagging"
+        },
+        {
+          "name": "Pre-programmed drills",
+          "handle": "ping-pong-robot-features__pre-programmed-drills"
+        },
+        {
+          "name": "Random settings",
+          "handle": "ping-pong-robot-features__random-settings"
+        },
+        {
+          "name": "Remote control",
+          "handle": "ping-pong-robot-features__remote-control"
+        },
+        {
+          "name": "Other",
+          "handle": "ping-pong-robot-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1217",
+      "name": "Player position",
+      "handle": "player-position",
+      "description": "Specifies the player position the product is intended for, e.g. goalie, midfielder",
+      "values": [
+        {
+          "name": "Attacker",
+          "handle": "player-position__attacker"
+        },
+        {
+          "name": "Defender",
+          "handle": "player-position__defender"
+        },
+        {
+          "name": "Field player",
+          "handle": "player-position__field-player"
+        },
+        {
+          "name": "Goalie",
+          "handle": "player-position__goalie"
+        },
+        {
+          "name": "Midfielder",
+          "handle": "player-position__midfielder"
+        },
+        {
+          "name": "Other",
+          "handle": "player-position__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1238",
+      "name": "Pull-up bar",
+      "handle": "pull-up-bar",
+      "description": "Specifies the type of grip on fitness equipment, such as standard or raw",
+      "values": [
+        {
+          "name": "Globe grip",
+          "handle": "pull-up-bar__globe-grip"
+        },
+        {
+          "name": "Multi-grip",
+          "handle": "pull-up-bar__multi-grip"
+        },
+        {
+          "name": "Raw",
+          "handle": "pull-up-bar__raw"
+        },
+        {
+          "name": "Standard",
+          "handle": "pull-up-bar__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "pull-up-bar__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2847",
+      "name": "Punching/Training bag material",
+      "handle": "punching-training-bag-material",
+      "description": "Identifies the main material used in a punching/training bag, such as leather or canvas",
+      "values": [
+        {
+          "name": "Canvas",
+          "handle": "punching-training-bag-material__canvas"
+        },
+        {
+          "name": "Cotton",
+          "handle": "punching-training-bag-material__cotton"
+        },
+        {
+          "name": "Fabric",
+          "handle": "punching-training-bag-material__fabric"
+        },
+        {
+          "name": "Faux leather",
+          "handle": "punching-training-bag-material__faux-leather"
+        },
+        {
+          "name": "Fleece",
+          "handle": "punching-training-bag-material__fleece"
+        },
+        {
+          "name": "Foam",
+          "handle": "punching-training-bag-material__foam"
+        },
+        {
+          "name": "Latex",
+          "handle": "punching-training-bag-material__latex"
+        },
+        {
+          "name": "Leather",
+          "handle": "punching-training-bag-material__leather"
+        },
+        {
+          "name": "Mesh",
+          "handle": "punching-training-bag-material__mesh"
+        },
+        {
+          "name": "Neoprene",
+          "handle": "punching-training-bag-material__neoprene"
+        },
+        {
+          "name": "Nylon",
+          "handle": "punching-training-bag-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "punching-training-bag-material__plastic"
+        },
+        {
+          "name": "Polyester",
+          "handle": "punching-training-bag-material__polyester"
+        },
+        {
+          "name": "Rubber",
+          "handle": "punching-training-bag-material__rubber"
+        },
+        {
+          "name": "Sand",
+          "handle": "punching-training-bag-material__sand"
+        },
+        {
+          "name": "Sawdust",
+          "handle": "punching-training-bag-material__sawdust"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "punching-training-bag-material__synthetic"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "punching-training-bag-material__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "punching-training-bag-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1307",
+      "name": "Quiver style",
+      "handle": "quiver-style",
+      "description": "Specifies the style of the quiver in archery, e.g. hip, back",
+      "values": [
+        {
+          "name": "Back",
+          "handle": "quiver-style__back"
+        },
+        {
+          "name": "Belt",
+          "handle": "quiver-style__belt"
+        },
+        {
+          "name": "Bow",
+          "handle": "quiver-style__bow"
+        },
+        {
+          "name": "Field",
+          "handle": "quiver-style__field"
+        },
+        {
+          "name": "Ground",
+          "handle": "quiver-style__ground"
+        },
+        {
+          "name": "Hip",
+          "handle": "quiver-style__hip"
+        },
+        {
+          "name": "Modern",
+          "handle": "quiver-style__modern"
+        },
+        {
+          "name": "Pocket",
+          "handle": "quiver-style__pocket"
+        },
+        {
+          "name": "Shoulder",
+          "handle": "quiver-style__shoulder"
+        },
+        {
+          "name": "Traditional",
+          "handle": "quiver-style__traditional"
+        },
+        {
+          "name": "Other",
+          "handle": "quiver-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3426",
+      "name": "Racket balance",
+      "handle": "racket-balance",
+      "description": "Indicates the weight distribution of a racket, e.g. head-heavy, even balance",
+      "values": [
+        {
+          "name": "Even balance",
+          "handle": "racket-balance__even-balance"
+        },
+        {
+          "name": "Head-heavy",
+          "handle": "racket-balance__head-heavy"
+        },
+        {
+          "name": "Head-light",
+          "handle": "racket-balance__head-light"
+        },
+        {
+          "name": "Other",
+          "handle": "racket-balance__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1227",
+      "name": "Racket gauge",
+      "handle": "racket-gauge",
+      "description": "Specifies the thickness of tennis racket strings, e.g. 16",
+      "values": [
+        {
+          "name": "13",
+          "handle": "racket-gauge__13"
+        },
+        {
+          "name": "14",
+          "handle": "racket-gauge__14"
+        },
+        {
+          "name": "15",
+          "handle": "racket-gauge__15"
+        },
+        {
+          "name": "16",
+          "handle": "racket-gauge__16"
+        },
+        {
+          "name": "17",
+          "handle": "racket-gauge__17"
+        },
+        {
+          "name": "18",
+          "handle": "racket-gauge__18"
+        },
+        {
+          "name": "19",
+          "handle": "racket-gauge__19"
+        },
+        {
+          "name": "20",
+          "handle": "racket-gauge__20"
+        },
+        {
+          "name": "21",
+          "handle": "racket-gauge__21"
+        },
+        {
+          "name": "22",
+          "handle": "racket-gauge__22"
+        },
+        {
+          "name": "15L",
+          "handle": "racket-gauge__15l"
+        },
+        {
+          "name": "16L",
+          "handle": "racket-gauge__16l"
+        },
+        {
+          "name": "Other",
+          "handle": "racket-gauge__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3427",
+      "name": "Racket head shape",
+      "handle": "racket-head-shape",
+      "description": "Defines the shape of the racket head, e.g. oval, isometric",
+      "values": [
+        {
+          "name": "Diamond",
+          "handle": "racket-head-shape__diamond"
+        },
+        {
+          "name": "Fan",
+          "handle": "racket-head-shape__fan"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "racket-head-shape__hybrid"
+        },
+        {
+          "name": "Isometric",
+          "handle": "racket-head-shape__isometric"
+        },
+        {
+          "name": "Oval",
+          "handle": "racket-head-shape__oval"
+        },
+        {
+          "name": "Quadraform",
+          "handle": "racket-head-shape__quadraform"
+        },
+        {
+          "name": "Teardrop",
+          "handle": "racket-head-shape__teardrop"
+        },
+        {
+          "name": "Traditional",
+          "handle": "racket-head-shape__traditional"
+        },
+        {
+          "name": "Other",
+          "handle": "racket-head-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2854",
+      "name": "Racket material",
+      "handle": "racket-material",
+      "description": "Specifies the type of material from which a sport racket is made, such as wood or carbon fiber",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "racket-material__aluminum"
+        },
+        {
+          "name": "Carbon",
+          "handle": "racket-material__carbon"
+        },
+        {
+          "name": "Carbon fiber",
+          "handle": "racket-material__carbon-fiber"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "racket-material__fiberglass"
+        },
+        {
+          "name": "Graphite",
+          "handle": "racket-material__graphite"
+        },
+        {
+          "name": "Kevlar",
+          "handle": "racket-material__kevlar"
+        },
+        {
+          "name": "Metal",
+          "handle": "racket-material__metal"
+        },
+        {
+          "name": "Nylon",
+          "handle": "racket-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "racket-material__plastic"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "racket-material__polyurethane-pu"
+        },
+        {
+          "name": "Rubber",
+          "handle": "racket-material__rubber"
+        },
+        {
+          "name": "Thermoplastic elastomer (TPE)",
+          "handle": "racket-material__thermoplastic-elastomer-tpe"
+        },
+        {
+          "name": "Titanium",
+          "handle": "racket-material__titanium"
+        },
+        {
+          "name": "Wood",
+          "handle": "racket-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "racket-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2856",
+      "name": "Racket string design",
+      "handle": "racket-string-design",
+      "description": "Identifies the string construction in tennis rackets, such as mono-filament and multi-filament",
+      "values": [
+        {
+          "name": "Mono-filament",
+          "handle": "racket-string-design__mono-filament"
+        },
+        {
+          "name": "Multi-filament",
+          "handle": "racket-string-design__multi-filament"
+        },
+        {
+          "name": "Other",
+          "handle": "racket-string-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2857",
+      "name": "Racket string material",
+      "handle": "racket-string-material",
+      "description": "Specifies the composition of tennis racket strings, such as Kevlar or Polyurethane (PU)",
+      "values": [
+        {
+          "name": "Kevlar",
+          "handle": "racket-string-material__kevlar"
+        },
+        {
+          "name": "Nylon",
+          "handle": "racket-string-material__nylon"
+        },
+        {
+          "name": "Polyamide (PA)",
+          "handle": "racket-string-material__polyamide-pa"
+        },
+        {
+          "name": "Polyester",
+          "handle": "racket-string-material__polyester"
+        },
+        {
+          "name": "Polyolefin",
+          "handle": "racket-string-material__polyolefin"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "racket-string-material__polyurethane-pu"
+        },
+        {
+          "name": "Vectran",
+          "handle": "racket-string-material__vectran"
+        },
+        {
+          "name": "Other",
+          "handle": "racket-string-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1311",
+      "name": "Ramp type",
+      "handle": "ramp-type",
+      "description": "Specifies the design or style of skateboarding ramps, such as half-pipe or fun box",
+      "values": [
+        {
+          "name": "Bank ramp",
+          "handle": "ramp-type__bank-ramp"
+        },
+        {
+          "name": "Bowl",
+          "handle": "ramp-type__bowl"
+        },
+        {
+          "name": "Drop-in ramp",
+          "handle": "ramp-type__drop-in-ramp"
+        },
+        {
+          "name": "Fly box",
+          "handle": "ramp-type__fly-box"
+        },
+        {
+          "name": "Fun box",
+          "handle": "ramp-type__fun-box"
+        },
+        {
+          "name": "Grind box",
+          "handle": "ramp-type__grind-box"
+        },
+        {
+          "name": "Half-pipe",
+          "handle": "ramp-type__half-pipe"
+        },
+        {
+          "name": "Kicker ramp",
+          "handle": "ramp-type__kicker-ramp"
+        },
+        {
+          "name": "Launch ramp",
+          "handle": "ramp-type__launch-ramp"
+        },
+        {
+          "name": "Ledge",
+          "handle": "ramp-type__ledge"
+        },
+        {
+          "name": "Manual pad",
+          "handle": "ramp-type__manual-pad"
+        },
+        {
+          "name": "Mini-ramp",
+          "handle": "ramp-type__mini-ramp"
+        },
+        {
+          "name": "Pyramid",
+          "handle": "ramp-type__pyramid"
+        },
+        {
+          "name": "Quarter-pipe",
+          "handle": "ramp-type__quarter-pipe"
+        },
+        {
+          "name": "Rail",
+          "handle": "ramp-type__rail"
+        },
+        {
+          "name": "Snake run",
+          "handle": "ramp-type__snake-run"
+        },
+        {
+          "name": "Spine ramp",
+          "handle": "ramp-type__spine-ramp"
+        },
+        {
+          "name": "Step-up ramp",
+          "handle": "ramp-type__step-up-ramp"
+        },
+        {
+          "name": "Vert ramp",
+          "handle": "ramp-type__vert-ramp"
+        },
+        {
+          "name": "Wall ride",
+          "handle": "ramp-type__wall-ride"
+        },
+        {
+          "name": "Other",
+          "handle": "ramp-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1230",
+      "name": "Resistance level",
+      "handle": "resistance-level",
+      "description": "Indicates the product's resistance level, typically for exercise bands; e.g. very heavy",
+      "values": [
+        {
+          "name": "Heavy",
+          "handle": "resistance-level__heavy"
+        },
+        {
+          "name": "Light",
+          "handle": "resistance-level__light"
+        },
+        {
+          "name": "Medium",
+          "handle": "resistance-level__medium"
+        },
+        {
+          "name": "Very heavy",
+          "handle": "resistance-level__very-heavy"
+        },
+        {
+          "name": "Very light",
+          "handle": "resistance-level__very-light"
+        },
+        {
+          "name": "Other",
+          "handle": "resistance-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1229",
+      "name": "Resistance system",
+      "handle": "resistance-system",
+      "description": "Defines the mechanism used to create resistance in fitness equipment, e.g. water, air",
+      "values": [
+        {
+          "name": "Air",
+          "handle": "resistance-system__air"
+        },
+        {
+          "name": "Electromagnetic",
+          "handle": "resistance-system__electromagnetic"
+        },
+        {
+          "name": "Hydraulic piston",
+          "handle": "resistance-system__hydraulic-piston"
+        },
+        {
+          "name": "Magnetic",
+          "handle": "resistance-system__magnetic"
+        },
+        {
+          "name": "Water",
+          "handle": "resistance-system__water"
+        },
+        {
+          "name": "Other",
+          "handle": "resistance-system__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1318",
+      "name": "Riding style",
+      "handle": "riding-style",
+      "description": "Specifies the intended use or riding style for winter sports equipment, e.g. slalom, freestyle",
+      "values": [
+        {
+          "name": "All-mountain",
+          "handle": "riding-style__all-mountain"
+        },
+        {
+          "name": "Freeride",
+          "handle": "riding-style__freeride"
+        },
+        {
+          "name": "Freestyle",
+          "handle": "riding-style__freestyle"
+        },
+        {
+          "name": "Park",
+          "handle": "riding-style__park"
+        },
+        {
+          "name": "Slalom",
+          "handle": "riding-style__slalom"
+        },
+        {
+          "name": "Other",
+          "handle": "riding-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1257",
+      "name": "Rocker type",
+      "handle": "rocker-type",
+      "description": "Specifies the curvature style of snowboards or skis, e.g. flat, rocker",
+      "values": [
+        {
+          "name": "Camber",
+          "handle": "rocker-type__camber"
+        },
+        {
+          "name": "Early rise",
+          "handle": "rocker-type__early-rise"
+        },
+        {
+          "name": "Flat",
+          "handle": "rocker-type__flat"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "rocker-type__hybrid"
+        },
+        {
+          "name": "Rocker",
+          "handle": "rocker-type__rocker"
+        },
+        {
+          "name": "Other",
+          "handle": "rocker-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1296",
+      "name": "Rod material",
+      "handle": "rod-material",
+      "description": "Identifies the material used in rod-based sporting goods, such as graphite or fiberglass",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "rod-material__aluminum"
+        },
+        {
+          "name": "Bamboo",
+          "handle": "rod-material__bamboo"
+        },
+        {
+          "name": "Cork",
+          "handle": "rod-material__cork"
+        },
+        {
+          "name": "Ethylene vinyl acetate (EVA)",
+          "handle": "rod-material__ethylene-vinyl-acetate-eva"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "rod-material__fiberglass"
+        },
+        {
+          "name": "Graphite",
+          "handle": "rod-material__graphite"
+        },
+        {
+          "name": "Plastic",
+          "handle": "rod-material__plastic"
+        },
+        {
+          "name": "Rubber",
+          "handle": "rod-material__rubber"
+        },
+        {
+          "name": "Wood",
+          "handle": "rod-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "rod-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2968",
+      "name": "Saddle material",
+      "handle": "saddle-material",
+      "description": "Specifies the material used in bicycle saddles, such as rubber or leather",
+      "values": [
+        {
+          "name": "Carbon fiber",
+          "handle": "saddle-material__carbon-fiber"
+        },
+        {
+          "name": "Foam",
+          "handle": "saddle-material__foam"
+        },
+        {
+          "name": "Leather",
+          "handle": "saddle-material__leather"
+        },
+        {
+          "name": "Metal",
+          "handle": "saddle-material__metal"
+        },
+        {
+          "name": "Microfiber",
+          "handle": "saddle-material__microfiber"
+        },
+        {
+          "name": "Nylon",
+          "handle": "saddle-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "saddle-material__plastic"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "saddle-material__polypropylene-pp"
+        },
+        {
+          "name": "Rubber",
+          "handle": "saddle-material__rubber"
+        },
+        {
+          "name": "Steel",
+          "handle": "saddle-material__steel"
+        },
+        {
+          "name": "Titanium",
+          "handle": "saddle-material__titanium"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "saddle-material__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "saddle-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4994",
+      "name": "Scooter brake type",
+      "handle": "scooter-brake-type",
+      "description": "Specifies the mechanism and design of scooter brakes, such as disc or drum",
+      "values": [
+        {
+          "name": "Combination",
+          "handle": "scooter-brake-type__combination"
+        },
+        {
+          "name": "Disc",
+          "handle": "scooter-brake-type__disc"
+        },
+        {
+          "name": "Drum",
+          "handle": "scooter-brake-type__drum"
+        },
+        {
+          "name": "Foot",
+          "handle": "scooter-brake-type__foot"
+        },
+        {
+          "name": "Regenerative",
+          "handle": "scooter-brake-type__regenerative"
+        },
+        {
+          "name": "Other",
+          "handle": "scooter-brake-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1300",
+      "name": "Shaft flex",
+      "handle": "shaft-flex",
+      "description": "Indicates the flexibility level of golf club shafts, e.g. stiff, ladies",
+      "values": [
+        {
+          "name": "Active",
+          "handle": "shaft-flex__active"
+        },
+        {
+          "name": "Extra stiff",
+          "handle": "shaft-flex__extra-stiff"
+        },
+        {
+          "name": "Ladies",
+          "handle": "shaft-flex__ladies"
+        },
+        {
+          "name": "Regular",
+          "handle": "shaft-flex__regular"
+        },
+        {
+          "name": "Senior",
+          "handle": "shaft-flex__senior"
+        },
+        {
+          "name": "Stiff",
+          "handle": "shaft-flex__stiff"
+        },
+        {
+          "name": "Other",
+          "handle": "shaft-flex__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2890",
+      "name": "Shell/Frame material",
+      "handle": "shell-frame-material",
+      "description": "Specifies the composition of a product's shell or frame, typically for roller or inline skates; e.g. rubber, composite",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "shell-frame-material__aluminum"
+        },
+        {
+          "name": "Composite",
+          "handle": "shell-frame-material__composite"
+        },
+        {
+          "name": "Plastic",
+          "handle": "shell-frame-material__plastic"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "shell-frame-material__polyurethane-pu"
+        },
+        {
+          "name": "Rubber",
+          "handle": "shell-frame-material__rubber"
+        },
+        {
+          "name": "Other",
+          "handle": "shell-frame-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1321",
+      "name": "Shoe binding type",
+      "handle": "shoe-binding-type",
+      "description": "Defines the mechanism used to secure shoes to equipment, such as step-in or speed entry",
+      "values": [
+        {
+          "name": "Boa",
+          "handle": "shoe-binding-type__boa"
+        },
+        {
+          "name": "Hyperlink",
+          "handle": "shoe-binding-type__hyperlink"
+        },
+        {
+          "name": "Quick release buckle",
+          "handle": "shoe-binding-type__quick-release-buckle"
+        },
+        {
+          "name": "Ratchet strap",
+          "handle": "shoe-binding-type__ratchet-strap"
+        },
+        {
+          "name": "Speed entry",
+          "handle": "shoe-binding-type__speed-entry"
+        },
+        {
+          "name": "Step-in",
+          "handle": "shoe-binding-type__step-in"
+        },
+        {
+          "name": "Strap-in",
+          "handle": "shoe-binding-type__strap-in"
+        },
+        {
+          "name": "Webbing strap",
+          "handle": "shoe-binding-type__webbing-strap"
+        },
+        {
+          "name": "Other",
+          "handle": "shoe-binding-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2881",
+      "name": "Sinker material",
+      "handle": "sinker-material",
+      "description": "Specifies the composition of fishing sinkers, such as lead or zinc",
+      "values": [
+        {
+          "name": "Lead",
+          "handle": "sinker-material__lead"
+        },
+        {
+          "name": "Tungsten",
+          "handle": "sinker-material__tungsten"
+        },
+        {
+          "name": "Zinc",
+          "handle": "sinker-material__zinc"
+        },
+        {
+          "name": "Other",
+          "handle": "sinker-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1313",
+      "name": "Skateboarding style",
+      "handle": "skateboarding-style",
+      "description": "Defines the type of skateboarding the product is designed for, such as freestyle or off-road",
+      "values": [
+        {
+          "name": "Cruising",
+          "handle": "skateboarding-style__cruising"
+        },
+        {
+          "name": "Downhill",
+          "handle": "skateboarding-style__downhill"
+        },
+        {
+          "name": "Freestyle",
+          "handle": "skateboarding-style__freestyle"
+        },
+        {
+          "name": "Off-road",
+          "handle": "skateboarding-style__off-road"
+        },
+        {
+          "name": "Park",
+          "handle": "skateboarding-style__park"
+        },
+        {
+          "name": "Ramp",
+          "handle": "skateboarding-style__ramp"
+        },
+        {
+          "name": "Slalom",
+          "handle": "skateboarding-style__slalom"
+        },
+        {
+          "name": "Street",
+          "handle": "skateboarding-style__street"
+        },
+        {
+          "name": "Other",
+          "handle": "skateboarding-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2868",
+      "name": "Ski construction",
+      "handle": "ski-construction",
+      "description": "Identifies the type of ski construction, such as hybrid cap or partial cap",
+      "values": [
+        {
+          "name": "Cap",
+          "handle": "ski-construction__cap"
+        },
+        {
+          "name": "Hybrid cap",
+          "handle": "ski-construction__hybrid-cap"
+        },
+        {
+          "name": "Partial cap",
+          "handle": "ski-construction__partial-cap"
+        },
+        {
+          "name": "Sidewall",
+          "handle": "ski-construction__sidewall"
+        },
+        {
+          "name": "Other",
+          "handle": "ski-construction__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1317",
+      "name": "Skiing style",
+      "handle": "skiing-style",
+      "description": "Classifies products based on skiing technique and style, such as downhill or Nordic",
+      "values": [
+        {
+          "name": "All-mountain skiing",
+          "handle": "skiing-style__all-mountain-skiing"
+        },
+        {
+          "name": "Alpine skiing",
+          "handle": "skiing-style__alpine-skiing"
+        },
+        {
+          "name": "Backcountry skiing",
+          "handle": "skiing-style__backcountry-skiing"
+        },
+        {
+          "name": "Carve skiing",
+          "handle": "skiing-style__carve-skiing"
+        },
+        {
+          "name": "Cross-country skiing",
+          "handle": "skiing-style__cross-country-skiing"
+        },
+        {
+          "name": "Downhill skiing",
+          "handle": "skiing-style__downhill-skiing"
+        },
+        {
+          "name": "Freeride skiing",
+          "handle": "skiing-style__freeride-skiing"
+        },
+        {
+          "name": "Freestyle skiing",
+          "handle": "skiing-style__freestyle-skiing"
+        },
+        {
+          "name": "Nordic skiing",
+          "handle": "skiing-style__nordic-skiing"
+        },
+        {
+          "name": "Park skiing",
+          "handle": "skiing-style__park-skiing"
+        },
+        {
+          "name": "Piste skiing",
+          "handle": "skiing-style__piste-skiing"
+        },
+        {
+          "name": "Powder skiing",
+          "handle": "skiing-style__powder-skiing"
+        },
+        {
+          "name": "Race skiing",
+          "handle": "skiing-style__race-skiing"
+        },
+        {
+          "name": "Ski racing",
+          "handle": "skiing-style__ski-racing"
+        },
+        {
+          "name": "Ski touring",
+          "handle": "skiing-style__ski-touring"
+        },
+        {
+          "name": "Touring",
+          "handle": "skiing-style__touring"
+        },
+        {
+          "name": "Other",
+          "handle": "skiing-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2867",
+      "name": "Snorkel shape",
+      "handle": "snorkel-shape",
+      "description": "Describes the form of a snorkel, such as J-shaped or flexible",
+      "values": [
+        {
+          "name": "Contoured",
+          "handle": "snorkel-shape__contoured"
+        },
+        {
+          "name": "Flexible",
+          "handle": "snorkel-shape__flexible"
+        },
+        {
+          "name": "J-shaped",
+          "handle": "snorkel-shape__j-shaped"
+        },
+        {
+          "name": "Other",
+          "handle": "snorkel-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2894",
+      "name": "Snowboard construction",
+      "handle": "snowboard-construction",
+      "description": "Identifies the construction style of snowboards, such as camber or rocker",
+      "values": [
+        {
+          "name": "Camber",
+          "handle": "snowboard-construction__camber"
+        },
+        {
+          "name": "Flat",
+          "handle": "snowboard-construction__flat"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "snowboard-construction__hybrid"
+        },
+        {
+          "name": "Rocker",
+          "handle": "snowboard-construction__rocker"
+        },
+        {
+          "name": "Other",
+          "handle": "snowboard-construction__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1325",
+      "name": "Snowboard design",
+      "handle": "snowboard-design",
+      "description": "Defines the shape and style of a snowboard, such as twin tip or directional twin",
+      "values": [
+        {
+          "name": "Directional",
+          "handle": "snowboard-design__directional"
+        },
+        {
+          "name": "Directional twin",
+          "handle": "snowboard-design__directional-twin"
+        },
+        {
+          "name": "Tapered",
+          "handle": "snowboard-design__tapered"
+        },
+        {
+          "name": "Twin tip",
+          "handle": "snowboard-design__twin-tip"
+        },
+        {
+          "name": "Other",
+          "handle": "snowboard-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1323",
+      "name": "Snowboarding style",
+      "handle": "snowboarding-style",
+      "description": "Defines the type of snowboarding the product is designed for, such as backcountry or freeriding",
+      "values": [
+        {
+          "name": "All-mountain snowboarding",
+          "handle": "snowboarding-style__all-mountain-snowboarding"
+        },
+        {
+          "name": "Backcountry snowboarding",
+          "handle": "snowboarding-style__backcountry-snowboarding"
+        },
+        {
+          "name": "Freeriding",
+          "handle": "snowboarding-style__freeriding"
+        },
+        {
+          "name": "Freestyle snowboarding",
+          "handle": "snowboarding-style__freestyle-snowboarding"
+        },
+        {
+          "name": "Park snowboarding",
+          "handle": "snowboarding-style__park-snowboarding"
+        },
+        {
+          "name": "Powder snowboarding",
+          "handle": "snowboarding-style__powder-snowboarding"
+        },
+        {
+          "name": "Race snowboarding",
+          "handle": "snowboarding-style__race-snowboarding"
+        },
+        {
+          "name": "Other",
+          "handle": "snowboarding-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3169",
+      "name": "Softball discipline",
+      "handle": "softball-discipline",
+      "description": "Defines the specific type of softball, such as fastpitch or slowpitch ",
+      "values": [
+        {
+          "name": "Fastpitch softball",
+          "handle": "softball-discipline__fastpitch-softball"
+        },
+        {
+          "name": "Slowpitch softball",
+          "handle": "softball-discipline__slowpitch-softball"
+        },
+        {
+          "name": "Other",
+          "handle": "softball-discipline__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1291",
+      "name": "Spool material",
+      "handle": "spool-material",
+      "description": "Defines the material used in fishing reel spool, such as plastic or graphite",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "spool-material__aluminum"
+        },
+        {
+          "name": "Carbon",
+          "handle": "spool-material__carbon"
+        },
+        {
+          "name": "Duralumin",
+          "handle": "spool-material__duralumin"
+        },
+        {
+          "name": "Graphite",
+          "handle": "spool-material__graphite"
+        },
+        {
+          "name": "Magnesium",
+          "handle": "spool-material__magnesium"
+        },
+        {
+          "name": "Plastic",
+          "handle": "spool-material__plastic"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "spool-material__stainless-steel"
+        },
+        {
+          "name": "Other",
+          "handle": "spool-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1306",
+      "name": "String material",
+      "handle": "string-material",
+      "description": "Identifies the material used in archery string, such as dacron or fastflight",
+      "values": [
+        {
+          "name": "Dacron",
+          "handle": "string-material__dacron"
+        },
+        {
+          "name": "High-modulus polyethylene (HMPE)",
+          "handle": "string-material__high-modulus-polyethylene-hmpe"
+        },
+        {
+          "name": "Kevlar",
+          "handle": "string-material__kevlar"
+        },
+        {
+          "name": "Vectran",
+          "handle": "string-material__vectran"
+        },
+        {
+          "name": "Other",
+          "handle": "string-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3384",
+      "name": "Suitable for boat type",
+      "handle": "suitable-for-boat-type",
+      "description": "Identifies the type of boat a product is designed for, such as a kayak or raft",
+      "values": [
+        {
+          "name": "Canoe",
+          "handle": "suitable-for-boat-type__canoe"
+        },
+        {
+          "name": "Dragon boat",
+          "handle": "suitable-for-boat-type__dragon-boat"
+        },
+        {
+          "name": "Foldboat",
+          "handle": "suitable-for-boat-type__foldboat"
+        },
+        {
+          "name": "Inflatable boat",
+          "handle": "suitable-for-boat-type__inflatable-boat"
+        },
+        {
+          "name": "Kayak",
+          "handle": "suitable-for-boat-type__kayak"
+        },
+        {
+          "name": "Outrigger canoe",
+          "handle": "suitable-for-boat-type__outrigger-canoe"
+        },
+        {
+          "name": "Raft",
+          "handle": "suitable-for-boat-type__raft"
+        },
+        {
+          "name": "Rowboat",
+          "handle": "suitable-for-boat-type__rowboat"
+        },
+        {
+          "name": "Sculling boat",
+          "handle": "suitable-for-boat-type__sculling-boat"
+        },
+        {
+          "name": "Stand-up paddleboard (SUP)",
+          "handle": "suitable-for-boat-type__stand-up-paddleboard-sup"
+        },
+        {
+          "name": "White water raft",
+          "handle": "suitable-for-boat-type__white-water-raft"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-boat-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1971",
+      "name": "Suitable for camping activity",
+      "handle": "suitable-for-camping-activity",
+      "description": "Specifies compatibility with specific camping activities, typically for tents; e.g. beach, backpacking",
+      "values": [
+        {
+          "name": "Backpacking",
+          "handle": "suitable-for-camping-activity__backpacking"
+        },
+        {
+          "name": "Beach",
+          "handle": "suitable-for-camping-activity__beach"
+        },
+        {
+          "name": "Camping",
+          "handle": "suitable-for-camping-activity__camping"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-camping-activity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1975",
+      "name": "Suitable for snowshoeing activity",
+      "handle": "suitable-for-snowshoeing-activity",
+      "description": "Specifies compatibility with different snowshoeing types, such as running or work",
+      "values": [
+        {
+          "name": "Backcountry skiing",
+          "handle": "suitable-for-snowshoeing-activity__backcountry-skiing"
+        },
+        {
+          "name": "Fitness",
+          "handle": "suitable-for-snowshoeing-activity__fitness"
+        },
+        {
+          "name": "Hiking",
+          "handle": "suitable-for-snowshoeing-activity__hiking"
+        },
+        {
+          "name": "Recreational use",
+          "handle": "suitable-for-snowshoeing-activity__recreational-use"
+        },
+        {
+          "name": "Running",
+          "handle": "suitable-for-snowshoeing-activity__running"
+        },
+        {
+          "name": "Work",
+          "handle": "suitable-for-snowshoeing-activity__work"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-snowshoeing-activity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3178",
+      "name": "Surfboard features",
+      "handle": "surfboard-features",
+      "description": "Specifies unique characteristics of a surfboard, like inflatable or hard top",
+      "values": [
+        {
+          "name": "Adjustable strap",
+          "handle": "surfboard-features__adjustable-strap"
+        },
+        {
+          "name": "Anti-slip",
+          "handle": "surfboard-features__anti-slip"
+        },
+        {
+          "name": "Hard top",
+          "handle": "surfboard-features__hard-top"
+        },
+        {
+          "name": "Inflatable",
+          "handle": "surfboard-features__inflatable"
+        },
+        {
+          "name": "Soft top",
+          "handle": "surfboard-features__soft-top"
+        },
+        {
+          "name": "Other",
+          "handle": "surfboard-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1228",
+      "name": "Swing style",
+      "handle": "swing-style",
+      "description": "Classifies based on swing technique, typically for tennis rackets; e.g. long strokes",
+      "values": [
+        {
+          "name": "Compact strokes",
+          "handle": "swing-style__compact-strokes"
+        },
+        {
+          "name": "Long strokes",
+          "handle": "swing-style__long-strokes"
+        },
+        {
+          "name": "Moderate strokes",
+          "handle": "swing-style__moderate-strokes"
+        },
+        {
+          "name": "Other",
+          "handle": "swing-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1210",
+      "name": "Swing weighting",
+      "handle": "swing-weighting",
+      "description": "Indicates the weight distribution of a baseball or softball bat, e.g. balanced, endload",
+      "values": [
+        {
+          "name": "Balanced",
+          "handle": "swing-weighting__balanced"
+        },
+        {
+          "name": "Endload",
+          "handle": "swing-weighting__endload"
+        },
+        {
+          "name": "Other",
+          "handle": "swing-weighting__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1326",
+      "name": "Terrain",
+      "handle": "terrain",
+      "description": "Specifies the type of ground a product is designed for, typically for outdoor equipment; e.g. mountain, rolling",
+      "values": [
+        {
+          "name": "Flat",
+          "handle": "terrain__flat"
+        },
+        {
+          "name": "Mountain",
+          "handle": "terrain__mountain"
+        },
+        {
+          "name": "Rolling",
+          "handle": "terrain__rolling"
+        },
+        {
+          "name": "Other",
+          "handle": "terrain__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2892",
+      "name": "Tetherball equipment included",
+      "handle": "tetherball-equipment-included",
+      "description": "Indicates the inclusion of essential items in a tetherball set, such as rope or tetherball",
+      "values": [
+        {
+          "name": "Rope",
+          "handle": "tetherball-equipment-included__rope"
+        },
+        {
+          "name": "Tetherball",
+          "handle": "tetherball-equipment-included__tetherball"
+        },
+        {
+          "name": "Tetherball pole",
+          "handle": "tetherball-equipment-included__tetherball-pole"
+        },
+        {
+          "name": "Other",
+          "handle": "tetherball-equipment-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1297",
+      "name": "Tip type",
+      "handle": "tip-type",
+      "description": "Defines the type of tip on fishing spears, like chisel or double barb",
+      "values": [
+        {
+          "name": "Cable",
+          "handle": "tip-type__cable"
+        },
+        {
+          "name": "Chisel",
+          "handle": "tip-type__chisel"
+        },
+        {
+          "name": "Double barb",
+          "handle": "tip-type__double-barb"
+        },
+        {
+          "name": "Harpoon",
+          "handle": "tip-type__harpoon"
+        },
+        {
+          "name": "Paralyzer",
+          "handle": "tip-type__paralyzer"
+        },
+        {
+          "name": "Single barb",
+          "handle": "tip-type__single-barb"
+        },
+        {
+          "name": "Slip",
+          "handle": "tip-type__slip"
+        },
+        {
+          "name": "Spring-loaded",
+          "handle": "tip-type__spring-loaded"
+        },
+        {
+          "name": "Trident",
+          "handle": "tip-type__trident"
+        },
+        {
+          "name": "Other",
+          "handle": "tip-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1281",
+      "name": "Tire bead type",
+      "handle": "tire-bead-type",
+      "description": "Specifies the type of bead in bicycle tires, such as folding or rigid",
+      "values": [
+        {
+          "name": "Flexible",
+          "handle": "tire-bead-type__flexible"
+        },
+        {
+          "name": "Folding",
+          "handle": "tire-bead-type__folding"
+        },
+        {
+          "name": "Rigid",
+          "handle": "tire-bead-type__rigid"
+        },
+        {
+          "name": "TR",
+          "handle": "tire-bead-type__tr"
+        },
+        {
+          "name": "TS",
+          "handle": "tire-bead-type__ts"
+        },
+        {
+          "name": "Other",
+          "handle": "tire-bead-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1322",
+      "name": "Toe strap type",
+      "handle": "toe-strap-type",
+      "description": "Specifies the design of the toe strap, typically for snowboard or snowshoe bindings; e.g. toe cap or traditional",
+      "values": [
+        {
+          "name": "3D",
+          "handle": "toe-strap-type__3d"
+        },
+        {
+          "name": "Hybrid toe strap",
+          "handle": "toe-strap-type__hybrid-toe-strap"
+        },
+        {
+          "name": "One piece strap",
+          "handle": "toe-strap-type__one-piece-strap"
+        },
+        {
+          "name": "Toe cap strap",
+          "handle": "toe-strap-type__toe-cap-strap"
+        },
+        {
+          "name": "Traditional toe strap",
+          "handle": "toe-strap-type__traditional-toe-strap"
+        },
+        {
+          "name": "Other",
+          "handle": "toe-strap-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2877",
+      "name": "Tricycle design",
+      "handle": "tricycle-design",
+      "description": "Describes the style of a tricycle, such as upright or recumbent",
+      "values": [
+        {
+          "name": "Recumbent",
+          "handle": "tricycle-design__recumbent"
+        },
+        {
+          "name": "Upright",
+          "handle": "tricycle-design__upright"
+        },
+        {
+          "name": "Other",
+          "handle": "tricycle-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2878",
+      "name": "Tricycle propulsion type",
+      "handle": "tricycle-propulsion-type",
+      "description": "Specifies how a tricycle is driven, such as push or front drive",
+      "values": [
+        {
+          "name": "Front drive",
+          "handle": "tricycle-propulsion-type__front-drive"
+        },
+        {
+          "name": "Push",
+          "handle": "tricycle-propulsion-type__push"
+        },
+        {
+          "name": "Rear drive",
+          "handle": "tricycle-propulsion-type__rear-drive"
+        },
+        {
+          "name": "Other",
+          "handle": "tricycle-propulsion-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1280",
+      "name": "Valve type",
+      "handle": "valve-type",
+      "description": "Specifies the type of valve in bicycle parts, e.g. Presta, Schrader",
+      "values": [
+        {
+          "name": "Presta",
+          "handle": "valve-type__presta"
+        },
+        {
+          "name": "Schrader",
+          "handle": "valve-type__schrader"
+        },
+        {
+          "name": "Woods",
+          "handle": "valve-type__woods"
+        },
+        {
+          "name": "Other",
+          "handle": "valve-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1271",
+      "name": "Vehicle placement",
+      "handle": "vehicle-placement",
+      "description": "Specifies where on a bicycle the product can be placed, e.g. frame, front",
+      "values": [
+        {
+          "name": "Frame",
+          "handle": "vehicle-placement__frame"
+        },
+        {
+          "name": "Front",
+          "handle": "vehicle-placement__front"
+        },
+        {
+          "name": "Left side",
+          "handle": "vehicle-placement__left-side"
+        },
+        {
+          "name": "Rear",
+          "handle": "vehicle-placement__rear"
+        },
+        {
+          "name": "Right side",
+          "handle": "vehicle-placement__right-side"
+        },
+        {
+          "name": "Saddle",
+          "handle": "vehicle-placement__saddle"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-placement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3185",
+      "name": "Wader type",
+      "handle": "wader-type",
+      "description": "Defines the specific style of fishing or hunting waders, such as hip or waist",
+      "values": [
+        {
+          "name": "Bootfoot",
+          "handle": "wader-type__bootfoot"
+        },
+        {
+          "name": "Chest",
+          "handle": "wader-type__chest"
+        },
+        {
+          "name": "Hip",
+          "handle": "wader-type__hip"
+        },
+        {
+          "name": "Stockingfoot",
+          "handle": "wader-type__stockingfoot"
+        },
+        {
+          "name": "Thigh",
+          "handle": "wader-type__thigh"
+        },
+        {
+          "name": "Waist",
+          "handle": "wader-type__waist"
+        },
+        {
+          "name": "Other",
+          "handle": "wader-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1249",
+      "name": "Water sport",
+      "handle": "water-sport",
+      "description": "Specifies the water sport for which the product is designed, such as scuba diving or kayaking",
+      "values": [
+        {
+          "name": "Freediving",
+          "handle": "water-sport__freediving"
+        },
+        {
+          "name": "Kayaking",
+          "handle": "water-sport__kayaking"
+        },
+        {
+          "name": "Scuba diving",
+          "handle": "water-sport__scuba-diving"
+        },
+        {
+          "name": "Snorkeling",
+          "handle": "water-sport__snorkeling"
+        },
+        {
+          "name": "Synchronized swimming",
+          "handle": "water-sport__synchronized-swimming"
+        },
+        {
+          "name": "Universal",
+          "handle": "water-sport__universal"
+        },
+        {
+          "name": "Waterdance",
+          "handle": "water-sport__waterdance"
+        },
+        {
+          "name": "Other",
+          "handle": "water-sport__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2863",
+      "name": "Watercraft propulsion type",
+      "handle": "watercraft-propulsion-type",
+      "description": "Specifies how a watercraft is propelled, such as manual or motorized",
+      "values": [
+        {
+          "name": "Manual",
+          "handle": "watercraft-propulsion-type__manual"
+        },
+        {
+          "name": "Motorized",
+          "handle": "watercraft-propulsion-type__motorized"
+        },
+        {
+          "name": "Other",
+          "handle": "watercraft-propulsion-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2893",
+      "name": "Wax application method",
+      "handle": "wax-application-method",
+      "description": "Specifies the technique used to apply wax to winter sports gear, such as cold or hot",
+      "values": [
+        {
+          "name": "Cold",
+          "handle": "wax-application-method__cold"
+        },
+        {
+          "name": "Hot",
+          "handle": "wax-application-method__hot"
+        },
+        {
+          "name": "Other",
+          "handle": "wax-application-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1233",
+      "name": "Weight bar activity",
+      "handle": "weight-bar-activity",
+      "description": "Specifies the intended use of weightlifting bars, e.g. powerlifting, technique training",
+      "values": [
+        {
+          "name": "Mixed use",
+          "handle": "weight-bar-activity__mixed-use"
+        },
+        {
+          "name": "Powerlifting",
+          "handle": "weight-bar-activity__powerlifting"
+        },
+        {
+          "name": "Specialty",
+          "handle": "weight-bar-activity__specialty"
+        },
+        {
+          "name": "Technique training",
+          "handle": "weight-bar-activity__technique-training"
+        },
+        {
+          "name": "Weightlifting",
+          "handle": "weight-bar-activity__weightlifting"
+        },
+        {
+          "name": "Other",
+          "handle": "weight-bar-activity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1234",
+      "name": "Weight bar type",
+      "handle": "weight-bar-type",
+      "description": "Specifies the design of weightlifting bars, such as trap or curl",
+      "values": [
+        {
+          "name": "Cambered",
+          "handle": "weight-bar-type__cambered"
+        },
+        {
+          "name": "Curl",
+          "handle": "weight-bar-type__curl"
+        },
+        {
+          "name": "Safety squat",
+          "handle": "weight-bar-type__safety-squat"
+        },
+        {
+          "name": "Solid",
+          "handle": "weight-bar-type__solid"
+        },
+        {
+          "name": "Swiss",
+          "handle": "weight-bar-type__swiss"
+        },
+        {
+          "name": "Trap",
+          "handle": "weight-bar-type__trap"
+        },
+        {
+          "name": "Other",
+          "handle": "weight-bar-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1314",
+      "name": "Wheel hardness",
+      "handle": "wheel-hardness",
+      "description": "Specifies the hardness level of skateboard wheels, e.g. 75A",
+      "values": [
+        {
+          "name": "75A",
+          "handle": "wheel-hardness__75a"
+        },
+        {
+          "name": "78A",
+          "handle": "wheel-hardness__78a"
+        },
+        {
+          "name": "80A",
+          "handle": "wheel-hardness__80a"
+        },
+        {
+          "name": "81A",
+          "handle": "wheel-hardness__81a"
+        },
+        {
+          "name": "82A",
+          "handle": "wheel-hardness__82a"
+        },
+        {
+          "name": "83A",
+          "handle": "wheel-hardness__83a"
+        },
+        {
+          "name": "84A",
+          "handle": "wheel-hardness__84a"
+        },
+        {
+          "name": "86A",
+          "handle": "wheel-hardness__86a"
+        },
+        {
+          "name": "90A",
+          "handle": "wheel-hardness__90a"
+        },
+        {
+          "name": "97A",
+          "handle": "wheel-hardness__97a"
+        },
+        {
+          "name": "101A",
+          "handle": "wheel-hardness__101a"
+        },
+        {
+          "name": "Other",
+          "handle": "wheel-hardness__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1315",
+      "name": "Wheel hub placement",
+      "handle": "wheel-hub-placement",
+      "description": "Specifies the position of the wheel hub in skateboards, like centerset or offset",
+      "values": [
+        {
+          "name": "Centerset wheel",
+          "handle": "wheel-hub-placement__centerset-wheel"
+        },
+        {
+          "name": "Offset wheel",
+          "handle": "wheel-hub-placement__offset-wheel"
+        },
+        {
+          "name": "Side-set wheel",
+          "handle": "wheel-hub-placement__side-set-wheel"
+        },
+        {
+          "name": "Other",
+          "handle": "wheel-hub-placement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2869",
+      "name": "Windsurfing board style",
+      "handle": "windsurfing-board-style",
+      "description": "Specifies the type of windsurfing board, such as freestyle or slalom",
+      "values": [
+        {
+          "name": "Formula",
+          "handle": "windsurfing-board-style__formula"
+        },
+        {
+          "name": "Freeride",
+          "handle": "windsurfing-board-style__freeride"
+        },
+        {
+          "name": "Freestyle",
+          "handle": "windsurfing-board-style__freestyle"
+        },
+        {
+          "name": "Slalom",
+          "handle": "windsurfing-board-style__slalom"
+        },
+        {
+          "name": "Wave",
+          "handle": "windsurfing-board-style__wave"
+        },
+        {
+          "name": "Other",
+          "handle": "windsurfing-board-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3389",
+      "name": "Work capacity",
+      "handle": "work-capacity",
+      "description": "Describes the performance level of a product, such as heavy-duty or light-duty",
+      "values": [
+        {
+          "name": "Heavy-duty",
+          "handle": "work-capacity__heavy-duty"
+        },
+        {
+          "name": "Light-duty",
+          "handle": "work-capacity__light-duty"
+        },
+        {
+          "name": "Medium-duty",
+          "handle": "work-capacity__medium-duty"
+        },
+        {
+          "name": "Other",
+          "handle": "work-capacity__other"
+        }
+      ]
+    }
+  ]
+}

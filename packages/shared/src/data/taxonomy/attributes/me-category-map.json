@@ -1,0 +1,171 @@
+{
+  "gid://shopify/TaxonomyCategory/me-8": [
+    "academic-level",
+    "publication-type",
+    "research-focus",
+    "research-methodology",
+    "subject-area",
+    "time-period"
+  ],
+  "gid://shopify/TaxonomyCategory/me-1": [
+    "genre",
+    "language-version",
+    "recommended-age-group",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-1-1": [
+    "genre",
+    "language-version",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-1-2": [
+    "genre",
+    "language-version",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-1-3": [
+    "book-cover-type",
+    "genre",
+    "language-version",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2": [
+    "language-version",
+    "media-access"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-1": [
+    "genre",
+    "language-version",
+    "media-access",
+    "media-theme",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-1-1": [
+    "language-version",
+    "media-access",
+    "media-theme",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-1-2": [
+    "language-version",
+    "media-access",
+    "media-theme",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-1-3": [
+    "language-version",
+    "media-access",
+    "media-theme",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-2": [
+    "language-version",
+    "media-access",
+    "media-section",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-2-1": [
+    "language-version",
+    "media-access",
+    "media-section",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-2-2": [
+    "language-version",
+    "media-access",
+    "media-section",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-2-2-3": [
+    "language-version",
+    "media-access",
+    "media-section",
+    "publication-frequency"
+  ],
+  "gid://shopify/TaxonomyCategory/me-3": [
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-3-1": [
+    "audio-codecs-formats-supported",
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-3-3": [
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-3-2": [
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-3-4": [
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-3-5": [
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-3-6": [
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-4": [
+    "genre",
+    "language",
+    "release-schedule"
+  ],
+  "gid://shopify/TaxonomyCategory/me-4-1": [
+    "genre",
+    "language",
+    "release-schedule"
+  ],
+  "gid://shopify/TaxonomyCategory/me-4-2": [
+    "genre",
+    "language",
+    "release-schedule"
+  ],
+  "gid://shopify/TaxonomyCategory/me-4-3": [
+    "genre",
+    "language",
+    "release-schedule"
+  ],
+  "gid://shopify/TaxonomyCategory/me-5": [
+    "language-version",
+    "product-manual-area"
+  ],
+  "gid://shopify/TaxonomyCategory/me-6": [
+    "book-cover-type",
+    "compatible-instrument",
+    "music-genre"
+  ],
+  "gid://shopify/TaxonomyCategory/me-7": [
+    "genre",
+    "language-version",
+    "mpaa-rating",
+    "media-content-type",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-7-1": [
+    "genre",
+    "language-version",
+    "mpaa-rating",
+    "media-content-type",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-7-3": [
+    "genre",
+    "language-version",
+    "mpaa-rating",
+    "media-content-type",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-7-2": [
+    "genre",
+    "language-version",
+    "mpaa-rating",
+    "media-content-type",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/me-7-4": [
+    "genre",
+    "language-version",
+    "mpaa-rating",
+    "media-content-type",
+    "target-audience"
+  ]
+}

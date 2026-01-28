@@ -1,0 +1,5520 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3329",
+      "name": "Airbrush feed type",
+      "handle": "airbrush-feed-type",
+      "description": "Identifies the method of paint delivery in airbrushes, like gravity or siphon",
+      "values": [
+        {
+          "name": "Gravity",
+          "handle": "airbrush-feed-type__gravity"
+        },
+        {
+          "name": "Side",
+          "handle": "airbrush-feed-type__side"
+        },
+        {
+          "name": "Siphon",
+          "handle": "airbrush-feed-type__siphon"
+        },
+        {
+          "name": "Other",
+          "handle": "airbrush-feed-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3328",
+      "name": "Airbrush operation method",
+      "handle": "airbrush-operation-method",
+      "description": "Specifies the operation style of airbrushes, for example, double action or single action",
+      "values": [
+        {
+          "name": "Double action",
+          "handle": "airbrush-operation-method__double-action"
+        },
+        {
+          "name": "Single action",
+          "handle": "airbrush-operation-method__single-action"
+        },
+        {
+          "name": "Other",
+          "handle": "airbrush-operation-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2198",
+      "name": "Anemometer application",
+      "handle": "anemometer-application",
+      "description": "Identifies the intended use of an anemometer, such as industrial or meteorological",
+      "values": [
+        {
+          "name": "Industrial",
+          "handle": "anemometer-application__industrial"
+        },
+        {
+          "name": "Meteorological",
+          "handle": "anemometer-application__meteorological"
+        },
+        {
+          "name": "Other",
+          "handle": "anemometer-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2185",
+      "name": "Backing material",
+      "handle": "backing-material",
+      "description": "Identifies the material used on the back of products like sanding accessories, e.g. polyester, PVC",
+      "values": [
+        {
+          "name": "Plastic",
+          "handle": "backing-material__plastic"
+        },
+        {
+          "name": "Polyester",
+          "handle": "backing-material__polyester"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "backing-material__polyurethane-pu"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "backing-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Rubber",
+          "handle": "backing-material__rubber"
+        },
+        {
+          "name": "Other",
+          "handle": "backing-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2141",
+      "name": "Bathtub base design",
+      "handle": "bathtub-base-design",
+      "description": "Identifies the design of bathtub bases and feet, for example, clawfoot or platform",
+      "values": [
+        {
+          "name": "Clawfoot",
+          "handle": "bathtub-base-design__clawfoot"
+        },
+        {
+          "name": "Free-standing",
+          "handle": "bathtub-base-design__free-standing"
+        },
+        {
+          "name": "Platform",
+          "handle": "bathtub-base-design__platform"
+        },
+        {
+          "name": "Other",
+          "handle": "bathtub-base-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3117",
+      "name": "Bathtub features",
+      "handle": "bathtub-features",
+      "description": "Identifies unique features of a bathtub, such as overflow protection or whirlpool",
+      "values": [
+        {
+          "name": "Air jets",
+          "handle": "bathtub-features__air-jets"
+        },
+        {
+          "name": "Anti-slip",
+          "handle": "bathtub-features__anti-slip"
+        },
+        {
+          "name": "Handheld shower",
+          "handle": "bathtub-features__handheld-shower"
+        },
+        {
+          "name": "Overflow protection",
+          "handle": "bathtub-features__overflow-protection"
+        },
+        {
+          "name": "Whirlpool",
+          "handle": "bathtub-features__whirlpool"
+        },
+        {
+          "name": "Other",
+          "handle": "bathtub-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2142",
+      "name": "Bathtub skirt shape",
+      "handle": "bathtub-skirt-shape",
+      "description": "Describes the form of a bathtub skirt, such as straight or curved",
+      "values": [
+        {
+          "name": "Corner",
+          "handle": "bathtub-skirt-shape__corner"
+        },
+        {
+          "name": "Curved",
+          "handle": "bathtub-skirt-shape__curved"
+        },
+        {
+          "name": "Straight",
+          "handle": "bathtub-skirt-shape__straight"
+        },
+        {
+          "name": "Other",
+          "handle": "bathtub-skirt-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2213",
+      "name": "Bevel type",
+      "handle": "bevel-type",
+      "description": "Specifies the type of bevel on tools, such as single or double",
+      "values": [
+        {
+          "name": "Double",
+          "handle": "bevel-type__double"
+        },
+        {
+          "name": "Single",
+          "handle": "bevel-type__single"
+        },
+        {
+          "name": "Other",
+          "handle": "bevel-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2123",
+      "name": "Bolt form",
+      "handle": "bolt-form",
+      "description": "Describes the form of hardware bolts, e.g. hex, machine",
+      "values": [
+        {
+          "name": "Anchor",
+          "handle": "bolt-form__anchor"
+        },
+        {
+          "name": "Carriage",
+          "handle": "bolt-form__carriage"
+        },
+        {
+          "name": "Elevator",
+          "handle": "bolt-form__elevator"
+        },
+        {
+          "name": "Flange",
+          "handle": "bolt-form__flange"
+        },
+        {
+          "name": "Hex",
+          "handle": "bolt-form__hex"
+        },
+        {
+          "name": "J-bolt",
+          "handle": "bolt-form__j-bolt"
+        },
+        {
+          "name": "Lag",
+          "handle": "bolt-form__lag"
+        },
+        {
+          "name": "Machine",
+          "handle": "bolt-form__machine"
+        },
+        {
+          "name": "Plow",
+          "handle": "bolt-form__plow"
+        },
+        {
+          "name": "Roofing",
+          "handle": "bolt-form__roofing"
+        },
+        {
+          "name": "Shackle",
+          "handle": "bolt-form__shackle"
+        },
+        {
+          "name": "Shoulder",
+          "handle": "bolt-form__shoulder"
+        },
+        {
+          "name": "Socket",
+          "handle": "bolt-form__socket"
+        },
+        {
+          "name": "Stove",
+          "handle": "bolt-form__stove"
+        },
+        {
+          "name": "Structural",
+          "handle": "bolt-form__structural"
+        },
+        {
+          "name": "Tension control",
+          "handle": "bolt-form__tension-control"
+        },
+        {
+          "name": "Toggle",
+          "handle": "bolt-form__toggle"
+        },
+        {
+          "name": "U-bolt",
+          "handle": "bolt-form__u-bolt"
+        },
+        {
+          "name": "Other",
+          "handle": "bolt-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2115",
+      "name": "Bracket/Brace design",
+      "handle": "bracket-brace-design",
+      "description": "Describes the style of brackets or braces, e.g. angle bracket, corner brace",
+      "values": [
+        {
+          "name": "Angle bracket",
+          "handle": "bracket-brace-design__angle-bracket"
+        },
+        {
+          "name": "Corner brace",
+          "handle": "bracket-brace-design__corner-brace"
+        },
+        {
+          "name": "Countertop bracket",
+          "handle": "bracket-brace-design__countertop-bracket"
+        },
+        {
+          "name": "Decorative bracket",
+          "handle": "bracket-brace-design__decorative-bracket"
+        },
+        {
+          "name": "Flat brace",
+          "handle": "bracket-brace-design__flat-brace"
+        },
+        {
+          "name": "Floating shelf bracket",
+          "handle": "bracket-brace-design__floating-shelf-bracket"
+        },
+        {
+          "name": "Mending plate",
+          "handle": "bracket-brace-design__mending-plate"
+        },
+        {
+          "name": "Shelf bracket",
+          "handle": "bracket-brace-design__shelf-bracket"
+        },
+        {
+          "name": "Strap brace",
+          "handle": "bracket-brace-design__strap-brace"
+        },
+        {
+          "name": "T-plate",
+          "handle": "bracket-brace-design__t-plate"
+        },
+        {
+          "name": "Other",
+          "handle": "bracket-brace-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2912",
+      "name": "Building board material",
+      "handle": "building-board-material",
+      "description": "Specifies the type of material used in construction boards, such as plywood or cement",
+      "values": [
+        {
+          "name": "Cement",
+          "handle": "building-board-material__cement"
+        },
+        {
+          "name": "Gypsum",
+          "handle": "building-board-material__gypsum"
+        },
+        {
+          "name": "Hardboard",
+          "handle": "building-board-material__hardboard"
+        },
+        {
+          "name": "Medium density fiberboard (MDF)",
+          "handle": "building-board-material__medium-density-fiberboard-mdf"
+        },
+        {
+          "name": "Particle board",
+          "handle": "building-board-material__particle-board"
+        },
+        {
+          "name": "Plywood",
+          "handle": "building-board-material__plywood"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "building-board-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "building-board-material__vinyl"
+        },
+        {
+          "name": "Wood",
+          "handle": "building-board-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "building-board-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2076",
+      "name": "Building consumable form",
+      "handle": "building-consumable-form",
+      "description": "Specifies the form of wall patching compounds, such as liquid or powder",
+      "values": [
+        {
+          "name": "Liquid",
+          "handle": "building-consumable-form__liquid"
+        },
+        {
+          "name": "Paste",
+          "handle": "building-consumable-form__paste"
+        },
+        {
+          "name": "Powder",
+          "handle": "building-consumable-form__powder"
+        },
+        {
+          "name": "Other",
+          "handle": "building-consumable-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2055",
+      "name": "Chemical application",
+      "handle": "chemical-application",
+      "description": "Identifies the primary use of a chemical product, e.g. waterproofing, cleaning",
+      "values": [
+        {
+          "name": "Bonding",
+          "handle": "chemical-application__bonding"
+        },
+        {
+          "name": "Cleaning",
+          "handle": "chemical-application__cleaning"
+        },
+        {
+          "name": "Waterproofing",
+          "handle": "chemical-application__waterproofing"
+        },
+        {
+          "name": "Other",
+          "handle": "chemical-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2058",
+      "name": "Chemical container type",
+      "handle": "chemical-container-type",
+      "description": "Specifies the type of container for drain cleaners, like jerrican or portion pack",
+      "values": [
+        {
+          "name": "Blister",
+          "handle": "chemical-container-type__blister"
+        },
+        {
+          "name": "Bottles",
+          "handle": "chemical-container-type__bottles"
+        },
+        {
+          "name": "Jerrican",
+          "handle": "chemical-container-type__jerrican"
+        },
+        {
+          "name": "Portion pack",
+          "handle": "chemical-container-type__portion-pack"
+        },
+        {
+          "name": "Other",
+          "handle": "chemical-container-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2192",
+      "name": "Chuck type",
+      "handle": "chuck-type",
+      "description": "Specifies the kind of chuck in hardware tools, such as SDS or SDS max",
+      "values": [
+        {
+          "name": "Key",
+          "handle": "chuck-type__key"
+        },
+        {
+          "name": "Keyless",
+          "handle": "chuck-type__keyless"
+        },
+        {
+          "name": "SDS",
+          "handle": "chuck-type__sds"
+        },
+        {
+          "name": "SDS max",
+          "handle": "chuck-type__sds-max"
+        },
+        {
+          "name": "SDS plus",
+          "handle": "chuck-type__sds-plus"
+        },
+        {
+          "name": "SDS top",
+          "handle": "chuck-type__sds-top"
+        },
+        {
+          "name": "Other",
+          "handle": "chuck-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2164",
+      "name": "Circuit breaker design",
+      "handle": "circuit-breaker-design",
+      "description": "Describes the mounting style of a circuit breaker, like bolt-on or plug-in",
+      "values": [
+        {
+          "name": "Bolt-on",
+          "handle": "circuit-breaker-design__bolt-on"
+        },
+        {
+          "name": "Plug-in",
+          "handle": "circuit-breaker-design__plug-in"
+        },
+        {
+          "name": "Unit mount",
+          "handle": "circuit-breaker-design__unit-mount"
+        },
+        {
+          "name": "Other",
+          "handle": "circuit-breaker-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2163",
+      "name": "Circuit breaker panel form",
+      "handle": "circuit-breaker-panel-form",
+      "description": "Identifies the type of circuit breaker panel, such as miniature or molded case",
+      "values": [
+        {
+          "name": "Miniature",
+          "handle": "circuit-breaker-panel-form__miniature"
+        },
+        {
+          "name": "Molded case",
+          "handle": "circuit-breaker-panel-form__molded-case"
+        },
+        {
+          "name": "Motor protective",
+          "handle": "circuit-breaker-panel-form__motor-protective"
+        },
+        {
+          "name": "Residual-current",
+          "handle": "circuit-breaker-panel-form__residual-current"
+        },
+        {
+          "name": "String",
+          "handle": "circuit-breaker-panel-form__string"
+        },
+        {
+          "name": "Other",
+          "handle": "circuit-breaker-panel-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2165",
+      "name": "Circuit breaker type",
+      "handle": "circuit-breaker-type",
+      "description": "Identifies the type of circuit breaker, such as standard or AFCI",
+      "values": [
+        {
+          "name": "Arc-fault circuit interrupter (AFCI)",
+          "handle": "circuit-breaker-type__arc-fault-circuit-interrupter-afci"
+        },
+        {
+          "name": "Circuit breaker disconnect",
+          "handle": "circuit-breaker-type__circuit-breaker-disconnect"
+        },
+        {
+          "name": "Dual function (AFCI/GFCI)",
+          "handle": "circuit-breaker-type__dual-function-afci-gfci"
+        },
+        {
+          "name": "Ground-fault circuit interrupter (GFCI)",
+          "handle": "circuit-breaker-type__ground-fault-circuit-interrupter-gfci"
+        },
+        {
+          "name": "Standard",
+          "handle": "circuit-breaker-type__standard"
+        },
+        {
+          "name": "Thermal-magnetic circuit breaker",
+          "handle": "circuit-breaker-type__thermal-magnetic-circuit-breaker"
+        },
+        {
+          "name": "Other",
+          "handle": "circuit-breaker-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2070",
+      "name": "Coating/Sealant application",
+      "handle": "coating-sealant-application",
+      "description": "Describes the function of protective coatings and sealants, e.g. weatherproofing, rust prevention",
+      "values": [
+        {
+          "name": "Heat control",
+          "handle": "coating-sealant-application__heat-control"
+        },
+        {
+          "name": "Leak proofing",
+          "handle": "coating-sealant-application__leak-proofing"
+        },
+        {
+          "name": "Weatherproofing",
+          "handle": "coating-sealant-application__weatherproofing"
+        },
+        {
+          "name": "Other",
+          "handle": "coating-sealant-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2144",
+      "name": "Connecting thread",
+      "handle": "connecting-thread",
+      "description": "Specifies the thread type for joining plumbing parts, e.g. 1/2 inch IPS",
+      "values": [
+        {
+          "name": "55/64 inch-27",
+          "handle": "connecting-thread__55-64-inch-27"
+        },
+        {
+          "name": "15/16 inch-27",
+          "handle": "connecting-thread__15-16-inch-27"
+        },
+        {
+          "name": "3/4 inch FHT",
+          "handle": "connecting-thread__3-4-inch-fht"
+        },
+        {
+          "name": "3/4 inch GHT",
+          "handle": "connecting-thread__3-4-inch-ght"
+        },
+        {
+          "name": "3/8 inch IPS",
+          "handle": "connecting-thread__3-8-inch-ips"
+        },
+        {
+          "name": "1/2 inch IPS",
+          "handle": "connecting-thread__1-2-inch-ips"
+        },
+        {
+          "name": "3/4 inch IPS",
+          "handle": "connecting-thread__3-4-inch-ips"
+        },
+        {
+          "name": "3/4 inch MHT",
+          "handle": "connecting-thread__3-4-inch-mht"
+        },
+        {
+          "name": "1/8 inch NPT",
+          "handle": "connecting-thread__1-8-inch-npt"
+        },
+        {
+          "name": "1/4 inch NPT",
+          "handle": "connecting-thread__1-4-inch-npt"
+        },
+        {
+          "name": "3/8 inch NPT",
+          "handle": "connecting-thread__3-8-inch-npt"
+        },
+        {
+          "name": "1/2 inch NPT",
+          "handle": "connecting-thread__1-2-inch-npt"
+        },
+        {
+          "name": "3/4 inch NPT",
+          "handle": "connecting-thread__3-4-inch-npt"
+        },
+        {
+          "name": "1 inch NPT",
+          "handle": "connecting-thread__1-inch-npt"
+        },
+        {
+          "name": "1-1/4 inch NPT",
+          "handle": "connecting-thread__1-1-4-inch-npt"
+        },
+        {
+          "name": "1-1/2 inch NPT",
+          "handle": "connecting-thread__1-1-2-inch-npt"
+        },
+        {
+          "name": "2 inch NPT",
+          "handle": "connecting-thread__2-inch-npt"
+        },
+        {
+          "name": "Other",
+          "handle": "connecting-thread__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2129",
+      "name": "Connector design",
+      "handle": "connector-design",
+      "description": "Identifies the design of chain connectors or links, such as open end or snap",
+      "values": [
+        {
+          "name": "Closed end",
+          "handle": "connector-design__closed-end"
+        },
+        {
+          "name": "Open end",
+          "handle": "connector-design__open-end"
+        },
+        {
+          "name": "Snap",
+          "handle": "connector-design__snap"
+        },
+        {
+          "name": "Other",
+          "handle": "connector-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2118",
+      "name": "Cord fastening system",
+      "handle": "cord-fastening-system",
+      "description": "Specifies the type of fastening system for bungee cords, e.g. toggle ball, hook",
+      "values": [
+        {
+          "name": "Carabiner",
+          "handle": "cord-fastening-system__carabiner"
+        },
+        {
+          "name": "Hook",
+          "handle": "cord-fastening-system__hook"
+        },
+        {
+          "name": "Toggle ball",
+          "handle": "cord-fastening-system__toggle-ball"
+        },
+        {
+          "name": "Other",
+          "handle": "cord-fastening-system__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2080",
+      "name": "Door closer design",
+      "handle": "door-closer-design",
+      "description": "Identifies the design style of door closers, such as floor or overhead concealed",
+      "values": [
+        {
+          "name": "Floor",
+          "handle": "door-closer-design__floor"
+        },
+        {
+          "name": "Overhead concealed",
+          "handle": "door-closer-design__overhead-concealed"
+        },
+        {
+          "name": "Parallel arm",
+          "handle": "door-closer-design__parallel-arm"
+        },
+        {
+          "name": "Regular arm",
+          "handle": "door-closer-design__regular-arm"
+        },
+        {
+          "name": "Slide-track arm",
+          "handle": "door-closer-design__slide-track-arm"
+        },
+        {
+          "name": "Top jamb",
+          "handle": "door-closer-design__top-jamb"
+        },
+        {
+          "name": "Other",
+          "handle": "door-closer-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2085",
+      "name": "Door frame finish",
+      "handle": "door-frame-finish",
+      "description": "Specifies the surface finish of a door frame, such as pre-finished or ready to finish",
+      "values": [
+        {
+          "name": "Pre-finished",
+          "handle": "door-frame-finish__pre-finished"
+        },
+        {
+          "name": "Ready to finish",
+          "handle": "door-frame-finish__ready-to-finish"
+        },
+        {
+          "name": "Other",
+          "handle": "door-frame-finish__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2089",
+      "name": "Door glass finish",
+      "handle": "door-glass-finish",
+      "description": "Specifies the type of glass finish on doors, such as lead or pattern",
+      "values": [
+        {
+          "name": "Clear",
+          "handle": "door-glass-finish__clear"
+        },
+        {
+          "name": "Frost",
+          "handle": "door-glass-finish__frost"
+        },
+        {
+          "name": "Lead",
+          "handle": "door-glass-finish__lead"
+        },
+        {
+          "name": "No glass",
+          "handle": "door-glass-finish__no-glass"
+        },
+        {
+          "name": "Opaque",
+          "handle": "door-glass-finish__opaque"
+        },
+        {
+          "name": "Pattern",
+          "handle": "door-glass-finish__pattern"
+        },
+        {
+          "name": "Other",
+          "handle": "door-glass-finish__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3322",
+      "name": "Door insulation",
+      "handle": "door-insulation",
+      "description": "Specifies the insulation status of doors, e.g. insulated, non-insulated",
+      "values": [
+        {
+          "name": "Insulated",
+          "handle": "door-insulation__insulated"
+        },
+        {
+          "name": "Non-insulated",
+          "handle": "door-insulation__non-insulated"
+        },
+        {
+          "name": "Other",
+          "handle": "door-insulation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2086",
+      "name": "Door knob function",
+      "handle": "door-knob-function",
+      "description": "Specifies the function of door knobs and handles, like passage or privacy",
+      "values": [
+        {
+          "name": "Dummy",
+          "handle": "door-knob-function__dummy"
+        },
+        {
+          "name": "Entry",
+          "handle": "door-knob-function__entry"
+        },
+        {
+          "name": "Passage",
+          "handle": "door-knob-function__passage"
+        },
+        {
+          "name": "Privacy",
+          "handle": "door-knob-function__privacy"
+        },
+        {
+          "name": "Other",
+          "handle": "door-knob-function__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2087",
+      "name": "Door stop placement",
+      "handle": "door-stop-placement",
+      "description": "Identifies where a door stop is installed, such as on the floor or wall",
+      "values": [
+        {
+          "name": "Baseboard",
+          "handle": "door-stop-placement__baseboard"
+        },
+        {
+          "name": "Door",
+          "handle": "door-stop-placement__door"
+        },
+        {
+          "name": "Floor",
+          "handle": "door-stop-placement__floor"
+        },
+        {
+          "name": "Hinge pin",
+          "handle": "door-stop-placement__hinge-pin"
+        },
+        {
+          "name": "Wall",
+          "handle": "door-stop-placement__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "door-stop-placement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2090",
+      "name": "Door suitable location",
+      "handle": "door-suitable-location",
+      "description": "Identifies the ideal placement for a door, such as front or patio",
+      "values": [
+        {
+          "name": "Back",
+          "handle": "door-suitable-location__back"
+        },
+        {
+          "name": "Front",
+          "handle": "door-suitable-location__front"
+        },
+        {
+          "name": "Patio",
+          "handle": "door-suitable-location__patio"
+        },
+        {
+          "name": "Other",
+          "handle": "door-suitable-location__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2091",
+      "name": "Door surface finish",
+      "handle": "door-surface-finish",
+      "description": "Specifies the surface finish on home doors, such as glazed or unglazed",
+      "values": [
+        {
+          "name": "Glazed",
+          "handle": "door-surface-finish__glazed"
+        },
+        {
+          "name": "Unglazed",
+          "handle": "door-surface-finish__unglazed"
+        },
+        {
+          "name": "Other",
+          "handle": "door-surface-finish__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2960",
+      "name": "Door/Frame application",
+      "handle": "door-frame-application",
+      "description": "Identifies where the door frame is intended to be used, e.g. internal, external",
+      "values": [
+        {
+          "name": "External",
+          "handle": "door-frame-application__external"
+        },
+        {
+          "name": "Internal",
+          "handle": "door-frame-application__internal"
+        },
+        {
+          "name": "Other",
+          "handle": "door-frame-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2146",
+      "name": "Drain location",
+      "handle": "drain-location",
+      "description": "Specifies the drain placement in bathtubs or showers,such as center or left",
+      "values": [
+        {
+          "name": "Center",
+          "handle": "drain-location__center"
+        },
+        {
+          "name": "Left",
+          "handle": "drain-location__left"
+        },
+        {
+          "name": "Right",
+          "handle": "drain-location__right"
+        },
+        {
+          "name": "Other",
+          "handle": "drain-location__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3120",
+      "name": "Drill features",
+      "handle": "drill-features",
+      "description": "Identifies special characteristics of a drill, like adjustable speed or built-in lighting",
+      "values": [
+        {
+          "name": "Adjustable speed",
+          "handle": "drill-features__adjustable-speed"
+        },
+        {
+          "name": "Adjustable torque",
+          "handle": "drill-features__adjustable-torque"
+        },
+        {
+          "name": "Anger drilling",
+          "handle": "drill-features__anger-drilling"
+        },
+        {
+          "name": "Built-in lighting",
+          "handle": "drill-features__built-in-lighting"
+        },
+        {
+          "name": "Hammer drilling",
+          "handle": "drill-features__hammer-drilling"
+        },
+        {
+          "name": "Screwdriving",
+          "handle": "drill-features__screwdriving"
+        },
+        {
+          "name": "Other",
+          "handle": "drill-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2217",
+      "name": "Drive size",
+      "handle": "drive-size",
+      "description": "Describes the drive size of socket and torque wrenches, e.g. 1 inch",
+      "values": [
+        {
+          "name": "1/4 inch",
+          "handle": "drive-size__1-4-inch"
+        },
+        {
+          "name": "3/8 inch",
+          "handle": "drive-size__3-8-inch"
+        },
+        {
+          "name": "1/2 inch",
+          "handle": "drive-size__1-2-inch"
+        },
+        {
+          "name": "3/4 inch",
+          "handle": "drive-size__3-4-inch"
+        },
+        {
+          "name": "1 inch",
+          "handle": "drive-size__1-inch"
+        },
+        {
+          "name": "1-1/2 inch",
+          "handle": "drive-size__1-1-2-inch"
+        },
+        {
+          "name": "2-1/2 inch",
+          "handle": "drive-size__2-1-2-inch"
+        },
+        {
+          "name": "Other",
+          "handle": "drive-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2134",
+      "name": "Dryer technology",
+      "handle": "dryer-technology",
+      "description": "Specifies the technology of drying in HVAC systems, e.g. desiccant, refrigerated",
+      "values": [
+        {
+          "name": "Desiccant",
+          "handle": "dryer-technology__desiccant"
+        },
+        {
+          "name": "Refrigerated",
+          "handle": "dryer-technology__refrigerated"
+        },
+        {
+          "name": "Other",
+          "handle": "dryer-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3326",
+      "name": "Duct design",
+      "handle": "duct-design",
+      "description": "Identifies the form of air ducts in HVAC systems, e.g solid, flexible",
+      "values": [
+        {
+          "name": "Expandable",
+          "handle": "duct-design__expandable"
+        },
+        {
+          "name": "Flexible",
+          "handle": "duct-design__flexible"
+        },
+        {
+          "name": "Solid",
+          "handle": "duct-design__solid"
+        },
+        {
+          "name": "Other",
+          "handle": "duct-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2135",
+      "name": "Duct shape",
+      "handle": "duct-shape",
+      "description": "Describes the form of air ducts in HVAC systems, such as round or flat",
+      "values": [
+        {
+          "name": "Flat",
+          "handle": "duct-shape__flat"
+        },
+        {
+          "name": "Round",
+          "handle": "duct-shape__round"
+        },
+        {
+          "name": "Other",
+          "handle": "duct-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2078",
+      "name": "Edge style",
+      "handle": "edge-style",
+      "description": "Specifies the shape of the edges on items like countertops, e.g. bullnose, eased",
+      "values": [
+        {
+          "name": "Beveled",
+          "handle": "edge-style__beveled"
+        },
+        {
+          "name": "Bullnose",
+          "handle": "edge-style__bullnose"
+        },
+        {
+          "name": "Eased",
+          "handle": "edge-style__eased"
+        },
+        {
+          "name": "Ogee",
+          "handle": "edge-style__ogee"
+        },
+        {
+          "name": "Square",
+          "handle": "edge-style__square"
+        },
+        {
+          "name": "Other",
+          "handle": "edge-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2176",
+      "name": "Engine purpose",
+      "handle": "engine-purpose",
+      "description": "Identifies the intended use of a small engine, such as lawnmower or chainsaw",
+      "values": [
+        {
+          "name": "ATV",
+          "handle": "engine-purpose__atv"
+        },
+        {
+          "name": "Chainsaw",
+          "handle": "engine-purpose__chainsaw"
+        },
+        {
+          "name": "Generator",
+          "handle": "engine-purpose__generator"
+        },
+        {
+          "name": "Lawnmower",
+          "handle": "engine-purpose__lawnmower"
+        },
+        {
+          "name": "Leaf blower",
+          "handle": "engine-purpose__leaf-blower"
+        },
+        {
+          "name": "Motorcycle",
+          "handle": "engine-purpose__motorcycle"
+        },
+        {
+          "name": "Outboard",
+          "handle": "engine-purpose__outboard"
+        },
+        {
+          "name": "Pressure washer",
+          "handle": "engine-purpose__pressure-washer"
+        },
+        {
+          "name": "Snow blower",
+          "handle": "engine-purpose__snow-blower"
+        },
+        {
+          "name": "Weed trimmer",
+          "handle": "engine-purpose__weed-trimmer"
+        },
+        {
+          "name": "Other",
+          "handle": "engine-purpose__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2122",
+      "name": "Fastener finish",
+      "handle": "fastener-finish",
+      "description": "Describes the surface coating of a hardware accessory, like brass or chrome",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "fastener-finish__aluminum"
+        },
+        {
+          "name": "Anodized",
+          "handle": "fastener-finish__anodized"
+        },
+        {
+          "name": "Black oxide",
+          "handle": "fastener-finish__black-oxide"
+        },
+        {
+          "name": "Brass",
+          "handle": "fastener-finish__brass"
+        },
+        {
+          "name": "Bright zinc plated (BZP) steel",
+          "handle": "fastener-finish__bright-zinc-plated-bzp-steel"
+        },
+        {
+          "name": "Bronze",
+          "handle": "fastener-finish__bronze"
+        },
+        {
+          "name": "Cadmium",
+          "handle": "fastener-finish__cadmium"
+        },
+        {
+          "name": "Chrome",
+          "handle": "fastener-finish__chrome"
+        },
+        {
+          "name": "Copper",
+          "handle": "fastener-finish__copper"
+        },
+        {
+          "name": "Galvanized steel",
+          "handle": "fastener-finish__galvanized-steel"
+        },
+        {
+          "name": "Gold",
+          "handle": "fastener-finish__gold"
+        },
+        {
+          "name": "Nickel",
+          "handle": "fastener-finish__nickel"
+        },
+        {
+          "name": "Nylon",
+          "handle": "fastener-finish__nylon"
+        },
+        {
+          "name": "Painted",
+          "handle": "fastener-finish__painted"
+        },
+        {
+          "name": "Plated steel",
+          "handle": "fastener-finish__plated-steel"
+        },
+        {
+          "name": "Powder coated",
+          "handle": "fastener-finish__powder-coated"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "fastener-finish__stainless-steel"
+        },
+        {
+          "name": "Titanium",
+          "handle": "fastener-finish__titanium"
+        },
+        {
+          "name": "Zinc",
+          "handle": "fastener-finish__zinc"
+        },
+        {
+          "name": "Zinc alloy",
+          "handle": "fastener-finish__zinc-alloy"
+        },
+        {
+          "name": "Other",
+          "handle": "fastener-finish__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2145",
+      "name": "Faucet thread",
+      "handle": "faucet-thread",
+      "description": "Specifies the type of faucet thread connection, such as dual or female",
+      "values": [
+        {
+          "name": "Dual",
+          "handle": "faucet-thread__dual"
+        },
+        {
+          "name": "Female",
+          "handle": "faucet-thread__female"
+        },
+        {
+          "name": "Male",
+          "handle": "faucet-thread__male"
+        },
+        {
+          "name": "Other",
+          "handle": "faucet-thread__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2107",
+      "name": "Fencing components",
+      "handle": "fencing-components",
+      "description": "Identifies parts of a fencing system, such as a rail or panel",
+      "values": [
+        {
+          "name": "Barbed wire",
+          "handle": "fencing-components__barbed-wire"
+        },
+        {
+          "name": "Fabric",
+          "handle": "fencing-components__fabric"
+        },
+        {
+          "name": "Fence topper",
+          "handle": "fencing-components__fence-topper"
+        },
+        {
+          "name": "Gate",
+          "handle": "fencing-components__gate"
+        },
+        {
+          "name": "Panel",
+          "handle": "fencing-components__panel"
+        },
+        {
+          "name": "Picket",
+          "handle": "fencing-components__picket"
+        },
+        {
+          "name": "Post",
+          "handle": "fencing-components__post"
+        },
+        {
+          "name": "Rail",
+          "handle": "fencing-components__rail"
+        },
+        {
+          "name": "Slat",
+          "handle": "fencing-components__slat"
+        },
+        {
+          "name": "Other",
+          "handle": "fencing-components__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2915",
+      "name": "Flashing material",
+      "handle": "flashing-material",
+      "description": "Identifies the material used in roof flashings, such as plastic or copper",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "flashing-material__aluminum"
+        },
+        {
+          "name": "Copper",
+          "handle": "flashing-material__copper"
+        },
+        {
+          "name": "Galvanized steel",
+          "handle": "flashing-material__galvanized-steel"
+        },
+        {
+          "name": "Plastic",
+          "handle": "flashing-material__plastic"
+        },
+        {
+          "name": "Rubber",
+          "handle": "flashing-material__rubber"
+        },
+        {
+          "name": "Other",
+          "handle": "flashing-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2157",
+      "name": "Flush system",
+      "handle": "flush-system",
+      "description": "Specifies the flush system used in plumbing fixtures, such as single or double",
+      "values": [
+        {
+          "name": "Double",
+          "handle": "flush-system__double"
+        },
+        {
+          "name": "Single",
+          "handle": "flush-system__single"
+        },
+        {
+          "name": "Other",
+          "handle": "flush-system__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2201",
+      "name": "Frequency weighting",
+      "handle": "frequency-weighting",
+      "description": "Describes a sound meter's frequency response, such as A-weighting",
+      "values": [
+        {
+          "name": "A-weighting",
+          "handle": "frequency-weighting__a-weighting"
+        },
+        {
+          "name": "C-weighting",
+          "handle": "frequency-weighting__c-weighting"
+        },
+        {
+          "name": "Z-weighting",
+          "handle": "frequency-weighting__z-weighting"
+        },
+        {
+          "name": "Other",
+          "handle": "frequency-weighting__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2109",
+      "name": "Fuel additives",
+      "handle": "fuel-additives",
+      "description": "Identifies the type of additive in fuel products, such as anti-gel or corrosion inhibitor",
+      "values": [
+        {
+          "name": "Anti-gel",
+          "handle": "fuel-additives__anti-gel"
+        },
+        {
+          "name": "Corrosion inhibitor",
+          "handle": "fuel-additives__corrosion-inhibitor"
+        },
+        {
+          "name": "Dye",
+          "handle": "fuel-additives__dye"
+        },
+        {
+          "name": "Stabilizer",
+          "handle": "fuel-additives__stabilizer"
+        },
+        {
+          "name": "Other",
+          "handle": "fuel-additives__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3114",
+      "name": "Fuel container features",
+      "handle": "fuel-container-features",
+      "description": "Describes specific features of fuel tanks, such as spill-proof spout or fuel gauge",
+      "values": [
+        {
+          "name": "Child-resistant cap",
+          "handle": "fuel-container-features__child-resistant-cap"
+        },
+        {
+          "name": "Flame shield",
+          "handle": "fuel-container-features__flame-shield"
+        },
+        {
+          "name": "Fuel gauge",
+          "handle": "fuel-container-features__fuel-gauge"
+        },
+        {
+          "name": "Leakproof",
+          "handle": "fuel-container-features__leakproof"
+        },
+        {
+          "name": "Pressure relief valve",
+          "handle": "fuel-container-features__pressure-relief-valve"
+        },
+        {
+          "name": "Rustproof",
+          "handle": "fuel-container-features__rustproof"
+        },
+        {
+          "name": "Spill-proof spout",
+          "handle": "fuel-container-features__spill-proof-spout"
+        },
+        {
+          "name": "Vent cap",
+          "handle": "fuel-container-features__vent-cap"
+        },
+        {
+          "name": "Other",
+          "handle": "fuel-container-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2110",
+      "name": "Fuel grade",
+      "handle": "fuel-grade",
+      "description": "Specifies the grade of fuel products, for example, Bioheat or 2-K",
+      "values": [
+        {
+          "name": "1-K",
+          "handle": "fuel-grade__1-k"
+        },
+        {
+          "name": "2-K",
+          "handle": "fuel-grade__2-k"
+        },
+        {
+          "name": "Bioheat",
+          "handle": "fuel-grade__bioheat"
+        },
+        {
+          "name": "Premium",
+          "handle": "fuel-grade__premium"
+        },
+        {
+          "name": "Standard",
+          "handle": "fuel-grade__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "fuel-grade__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2113",
+      "name": "Fuel purity",
+      "handle": "fuel-purity",
+      "description": "Specifies the purity level of propane fuel, e.g. HD-5, commercial",
+      "values": [
+        {
+          "name": "Commercial",
+          "handle": "fuel-purity__commercial"
+        },
+        {
+          "name": "HD-5",
+          "handle": "fuel-purity__hd-5"
+        },
+        {
+          "name": "HD-10",
+          "handle": "fuel-purity__hd-10"
+        },
+        {
+          "name": "Other",
+          "handle": "fuel-purity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2962",
+      "name": "Gases detected",
+      "handle": "gases-detected",
+      "description": "Identifies the specific gases a detector can sense, such as methane or radon",
+      "values": [
+        {
+          "name": "Butane",
+          "handle": "gases-detected__butane"
+        },
+        {
+          "name": "Carbon dioxide (CO2)",
+          "handle": "gases-detected__carbon-dioxide-co2"
+        },
+        {
+          "name": "Carbon monoxide (CO)",
+          "handle": "gases-detected__carbon-monoxide-co"
+        },
+        {
+          "name": "Difluoromethane",
+          "handle": "gases-detected__difluoromethane"
+        },
+        {
+          "name": "LPG",
+          "handle": "gases-detected__lpg"
+        },
+        {
+          "name": "Methane",
+          "handle": "gases-detected__methane"
+        },
+        {
+          "name": "Natural gas",
+          "handle": "gases-detected__natural-gas"
+        },
+        {
+          "name": "Propane",
+          "handle": "gases-detected__propane"
+        },
+        {
+          "name": "Radon",
+          "handle": "gases-detected__radon"
+        },
+        {
+          "name": "Trichloromethane",
+          "handle": "gases-detected__trichloromethane"
+        },
+        {
+          "name": "Other",
+          "handle": "gases-detected__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2106",
+      "name": "Glazing type",
+      "handle": "glazing-type",
+      "description": "Identifies the type of window glazing, such as double-pane or single-pane",
+      "values": [
+        {
+          "name": "Double-pane",
+          "handle": "glazing-type__double-pane"
+        },
+        {
+          "name": "Single-pane",
+          "handle": "glazing-type__single-pane"
+        },
+        {
+          "name": "Triple-pane",
+          "handle": "glazing-type__triple-pane"
+        },
+        {
+          "name": "Other",
+          "handle": "glazing-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2098",
+      "name": "Gutter fitting type",
+      "handle": "gutter-fitting-type",
+      "description": "Identifies the type of fitting used in gutter systems, like a downspout connector or end cap",
+      "values": [
+        {
+          "name": "Downspout connector",
+          "handle": "gutter-fitting-type__downspout-connector"
+        },
+        {
+          "name": "End cap",
+          "handle": "gutter-fitting-type__end-cap"
+        },
+        {
+          "name": "Gutter connector",
+          "handle": "gutter-fitting-type__gutter-connector"
+        },
+        {
+          "name": "Gutter elbow",
+          "handle": "gutter-fitting-type__gutter-elbow"
+        },
+        {
+          "name": "Gutter inside corner",
+          "handle": "gutter-fitting-type__gutter-inside-corner"
+        },
+        {
+          "name": "Gutter outside corner",
+          "handle": "gutter-fitting-type__gutter-outside-corner"
+        },
+        {
+          "name": "Gutter P-trap",
+          "handle": "gutter-fitting-type__gutter-p-trap"
+        },
+        {
+          "name": "Gutter pipe bend",
+          "handle": "gutter-fitting-type__gutter-pipe-bend"
+        },
+        {
+          "name": "Gutter pipe reducer",
+          "handle": "gutter-fitting-type__gutter-pipe-reducer"
+        },
+        {
+          "name": "Gutter pipe tee",
+          "handle": "gutter-fitting-type__gutter-pipe-tee"
+        },
+        {
+          "name": "Gutter pit trap",
+          "handle": "gutter-fitting-type__gutter-pit-trap"
+        },
+        {
+          "name": "Gutter running outlet",
+          "handle": "gutter-fitting-type__gutter-running-outlet"
+        },
+        {
+          "name": "Gutter S-trap",
+          "handle": "gutter-fitting-type__gutter-s-trap"
+        },
+        {
+          "name": "Gutter U-trap",
+          "handle": "gutter-fitting-type__gutter-u-trap"
+        },
+        {
+          "name": "Stop end running outlet",
+          "handle": "gutter-fitting-type__stop-end-running-outlet"
+        },
+        {
+          "name": "Other",
+          "handle": "gutter-fitting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3112",
+      "name": "Gutter style",
+      "handle": "gutter-style",
+      "description": "Specifies the type of gutter, such as deepflow or industrial",
+      "values": [
+        {
+          "name": "Deepflow",
+          "handle": "gutter-style__deepflow"
+        },
+        {
+          "name": "Half-round",
+          "handle": "gutter-style__half-round"
+        },
+        {
+          "name": "Industrial",
+          "handle": "gutter-style__industrial"
+        },
+        {
+          "name": "K-style",
+          "handle": "gutter-style__k-style"
+        },
+        {
+          "name": "Mini",
+          "handle": "gutter-style__mini"
+        },
+        {
+          "name": "Square",
+          "handle": "gutter-style__square"
+        },
+        {
+          "name": "Other",
+          "handle": "gutter-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2137",
+      "name": "HVAC control type",
+      "handle": "hvac-control-type",
+      "description": "Identifies the kind of HVAC control, such as digital or manual",
+      "values": [
+        {
+          "name": "Digital",
+          "handle": "hvac-control-type__digital"
+        },
+        {
+          "name": "Manual",
+          "handle": "hvac-control-type__manual"
+        },
+        {
+          "name": "Programmable",
+          "handle": "hvac-control-type__programmable"
+        },
+        {
+          "name": "Smart",
+          "handle": "hvac-control-type__smart"
+        },
+        {
+          "name": "Other",
+          "handle": "hvac-control-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2920",
+      "name": "Hammer head material",
+      "handle": "hammer-head-material",
+      "description": "Identifies the composition of a hammer's head, like steel or fiberglass",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "hammer-head-material__aluminum"
+        },
+        {
+          "name": "Brass",
+          "handle": "hammer-head-material__brass"
+        },
+        {
+          "name": "Bronze",
+          "handle": "hammer-head-material__bronze"
+        },
+        {
+          "name": "Carbon steel",
+          "handle": "hammer-head-material__carbon-steel"
+        },
+        {
+          "name": "Copper",
+          "handle": "hammer-head-material__copper"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "hammer-head-material__fiberglass"
+        },
+        {
+          "name": "Graphite",
+          "handle": "hammer-head-material__graphite"
+        },
+        {
+          "name": "Iron",
+          "handle": "hammer-head-material__iron"
+        },
+        {
+          "name": "Nylon",
+          "handle": "hammer-head-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "hammer-head-material__plastic"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "hammer-head-material__polyurethane-pu"
+        },
+        {
+          "name": "Rubber",
+          "handle": "hammer-head-material__rubber"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "hammer-head-material__stainless-steel"
+        },
+        {
+          "name": "Steel",
+          "handle": "hammer-head-material__steel"
+        },
+        {
+          "name": "Wood",
+          "handle": "hammer-head-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "hammer-head-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2132",
+      "name": "Hardware mounting type",
+      "handle": "hardware-mounting-type",
+      "description": "Identifies how a hardware product is installed or placed, e.g. wall-mounted, free-standing",
+      "values": [
+        {
+          "name": "Benchtop",
+          "handle": "hardware-mounting-type__benchtop"
+        },
+        {
+          "name": "Countertop",
+          "handle": "hardware-mounting-type__countertop"
+        },
+        {
+          "name": "Floor-mounted",
+          "handle": "hardware-mounting-type__floor-mounted"
+        },
+        {
+          "name": "Free-standing",
+          "handle": "hardware-mounting-type__free-standing"
+        },
+        {
+          "name": "Portable",
+          "handle": "hardware-mounting-type__portable"
+        },
+        {
+          "name": "Wall-mounted",
+          "handle": "hardware-mounting-type__wall-mounted"
+        },
+        {
+          "name": "Other",
+          "handle": "hardware-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2094",
+      "name": "Hardwood lumber grade",
+      "handle": "hardwood-lumber-grade",
+      "description": "Classifies hardwood lumber quality, e.g. No. 2A common",
+      "values": [
+        {
+          "name": "Firsts and seconds (FAS)",
+          "handle": "hardwood-lumber-grade__firsts-and-seconds-fas"
+        },
+        {
+          "name": "No. 1 common",
+          "handle": "hardwood-lumber-grade__no-1-common"
+        },
+        {
+          "name": "No. 2A common",
+          "handle": "hardwood-lumber-grade__no-2a-common"
+        },
+        {
+          "name": "No. 2B common",
+          "handle": "hardwood-lumber-grade__no-2b-common"
+        },
+        {
+          "name": "No. 2 common",
+          "handle": "hardwood-lumber-grade__no-2-common"
+        },
+        {
+          "name": "No. 3A common",
+          "handle": "hardwood-lumber-grade__no-3a-common"
+        },
+        {
+          "name": "No. 3B common",
+          "handle": "hardwood-lumber-grade__no-3b-common"
+        },
+        {
+          "name": "Select",
+          "handle": "hardwood-lumber-grade__select"
+        },
+        {
+          "name": "Other",
+          "handle": "hardwood-lumber-grade__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2093",
+      "name": "Hatch suitable location",
+      "handle": "hatch-suitable-location",
+      "description": "Identifies the ideal placement for hatches, such as floor or wall",
+      "values": [
+        {
+          "name": "Ceiling",
+          "handle": "hatch-suitable-location__ceiling"
+        },
+        {
+          "name": "Floor",
+          "handle": "hatch-suitable-location__floor"
+        },
+        {
+          "name": "Roof",
+          "handle": "hatch-suitable-location__roof"
+        },
+        {
+          "name": "Wall",
+          "handle": "hatch-suitable-location__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "hatch-suitable-location__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2130",
+      "name": "Hook design",
+      "handle": "hook-design",
+      "description": "Identifies the design of hooks, buckles, and fasteners, e.g. spring, double-ended",
+      "values": [
+        {
+          "name": "Double-ended",
+          "handle": "hook-design__double-ended"
+        },
+        {
+          "name": "Fixed",
+          "handle": "hook-design__fixed"
+        },
+        {
+          "name": "Screw",
+          "handle": "hook-design__screw"
+        },
+        {
+          "name": "Spring",
+          "handle": "hook-design__spring"
+        },
+        {
+          "name": "Swing",
+          "handle": "hook-design__swing"
+        },
+        {
+          "name": "Swivel",
+          "handle": "hook-design__swivel"
+        },
+        {
+          "name": "Other",
+          "handle": "hook-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2169",
+      "name": "Ignition system",
+      "handle": "ignition-system",
+      "description": "Identifies the type of ignition system in generators, such as manual or electronic",
+      "values": [
+        {
+          "name": "Automatic",
+          "handle": "ignition-system__automatic"
+        },
+        {
+          "name": "Electronic",
+          "handle": "ignition-system__electronic"
+        },
+        {
+          "name": "Manual",
+          "handle": "ignition-system__manual"
+        },
+        {
+          "name": "Other",
+          "handle": "ignition-system__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2913",
+      "name": "Insulation material",
+      "handle": "insulation-material",
+      "description": "Specifies the composition of insulation, such as mineral wool or polyurethane (PU)",
+      "values": [
+        {
+          "name": "Cellulose",
+          "handle": "insulation-material__cellulose"
+        },
+        {
+          "name": "Cotton",
+          "handle": "insulation-material__cotton"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "insulation-material__fiberglass"
+        },
+        {
+          "name": "Mineral wool",
+          "handle": "insulation-material__mineral-wool"
+        },
+        {
+          "name": "Phenolic foam",
+          "handle": "insulation-material__phenolic-foam"
+        },
+        {
+          "name": "Polyisocyanurate (PIR)",
+          "handle": "insulation-material__polyisocyanurate-pir"
+        },
+        {
+          "name": "Polystyrene (PS)",
+          "handle": "insulation-material__polystyrene-ps"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "insulation-material__polyurethane-pu"
+        },
+        {
+          "name": "Straw",
+          "handle": "insulation-material__straw"
+        },
+        {
+          "name": "Wool",
+          "handle": "insulation-material__wool"
+        },
+        {
+          "name": "Other",
+          "handle": "insulation-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2063",
+      "name": "Intended application",
+      "handle": "intended-application",
+      "description": "Identifies the specific use of paints and stains, e.g. doors, decks/fences",
+      "values": [
+        {
+          "name": "Cabinets",
+          "handle": "intended-application__cabinets"
+        },
+        {
+          "name": "Ceilings",
+          "handle": "intended-application__ceilings"
+        },
+        {
+          "name": "Concrete",
+          "handle": "intended-application__concrete"
+        },
+        {
+          "name": "Decks/Fences",
+          "handle": "intended-application__decks-fences"
+        },
+        {
+          "name": "Doors",
+          "handle": "intended-application__doors"
+        },
+        {
+          "name": "Drywall",
+          "handle": "intended-application__drywall"
+        },
+        {
+          "name": "Exterior walls",
+          "handle": "intended-application__exterior-walls"
+        },
+        {
+          "name": "Floors",
+          "handle": "intended-application__floors"
+        },
+        {
+          "name": "Furniture",
+          "handle": "intended-application__furniture"
+        },
+        {
+          "name": "Interior walls",
+          "handle": "intended-application__interior-walls"
+        },
+        {
+          "name": "Marine transport",
+          "handle": "intended-application__marine-transport"
+        },
+        {
+          "name": "Metal",
+          "handle": "intended-application__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "intended-application__plastic"
+        },
+        {
+          "name": "Radiators",
+          "handle": "intended-application__radiators"
+        },
+        {
+          "name": "Trim/Molding",
+          "handle": "intended-application__trim-molding"
+        },
+        {
+          "name": "Windows",
+          "handle": "intended-application__windows"
+        },
+        {
+          "name": "Wood",
+          "handle": "intended-application__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "intended-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2112",
+      "name": "Kerosene application",
+      "handle": "kerosene-application",
+      "description": "Identifies the specific use of kerosene, such as for heaters or jet fuel",
+      "values": [
+        {
+          "name": "Heater",
+          "handle": "kerosene-application__heater"
+        },
+        {
+          "name": "Jet fuel",
+          "handle": "kerosene-application__jet-fuel"
+        },
+        {
+          "name": "Lamp",
+          "handle": "kerosene-application__lamp"
+        },
+        {
+          "name": "Other",
+          "handle": "kerosene-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2138",
+      "name": "Key purpose",
+      "handle": "key-purpose",
+      "description": "Specifies where a key or key blank is designed to be used, e.g. door, padlock",
+      "values": [
+        {
+          "name": "Car",
+          "handle": "key-purpose__car"
+        },
+        {
+          "name": "Door",
+          "handle": "key-purpose__door"
+        },
+        {
+          "name": "Padlock",
+          "handle": "key-purpose__padlock"
+        },
+        {
+          "name": "Window",
+          "handle": "key-purpose__window"
+        },
+        {
+          "name": "Other",
+          "handle": "key-purpose__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2116",
+      "name": "Knob/Handle design",
+      "handle": "knob-handle-design",
+      "description": "Describes the style of cabinet hardware, such as a round knob or bar pull",
+      "values": [
+        {
+          "name": "Bail pull",
+          "handle": "knob-handle-design__bail-pull"
+        },
+        {
+          "name": "Bar pull",
+          "handle": "knob-handle-design__bar-pull"
+        },
+        {
+          "name": "Cup pull",
+          "handle": "knob-handle-design__cup-pull"
+        },
+        {
+          "name": "Novelty knob",
+          "handle": "knob-handle-design__novelty-knob"
+        },
+        {
+          "name": "Pendant pull",
+          "handle": "knob-handle-design__pendant-pull"
+        },
+        {
+          "name": "Recessed pull",
+          "handle": "knob-handle-design__recessed-pull"
+        },
+        {
+          "name": "Ring pull",
+          "handle": "knob-handle-design__ring-pull"
+        },
+        {
+          "name": "Round knob",
+          "handle": "knob-handle-design__round-knob"
+        },
+        {
+          "name": "Square knob",
+          "handle": "knob-handle-design__square-knob"
+        },
+        {
+          "name": "T-bar",
+          "handle": "knob-handle-design__t-bar"
+        },
+        {
+          "name": "Other",
+          "handle": "knob-handle-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2196",
+      "name": "Lathe application",
+      "handle": "lathe-application",
+      "description": "Specifies the type of work a lathe is designed for, like acrylic spinning or glass-working",
+      "values": [
+        {
+          "name": "Acrylic spinning",
+          "handle": "lathe-application__acrylic-spinning"
+        },
+        {
+          "name": "Glass-working",
+          "handle": "lathe-application__glass-working"
+        },
+        {
+          "name": "Metal spinning",
+          "handle": "lathe-application__metal-spinning"
+        },
+        {
+          "name": "Metalworking",
+          "handle": "lathe-application__metalworking"
+        },
+        {
+          "name": "Pottery",
+          "handle": "lathe-application__pottery"
+        },
+        {
+          "name": "Woodworking",
+          "handle": "lathe-application__woodworking"
+        },
+        {
+          "name": "Other",
+          "handle": "lathe-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2910",
+      "name": "Masonry material",
+      "handle": "masonry-material",
+      "description": "Specifies the composition of masonry items, such as cement or limestone",
+      "values": [
+        {
+          "name": "Brick",
+          "handle": "masonry-material__brick"
+        },
+        {
+          "name": "Calcium silicate",
+          "handle": "masonry-material__calcium-silicate"
+        },
+        {
+          "name": "Cement",
+          "handle": "masonry-material__cement"
+        },
+        {
+          "name": "Clay",
+          "handle": "masonry-material__clay"
+        },
+        {
+          "name": "Concrete",
+          "handle": "masonry-material__concrete"
+        },
+        {
+          "name": "Dolomite",
+          "handle": "masonry-material__dolomite"
+        },
+        {
+          "name": "Fly ash",
+          "handle": "masonry-material__fly-ash"
+        },
+        {
+          "name": "Granite",
+          "handle": "masonry-material__granite"
+        },
+        {
+          "name": "Grout",
+          "handle": "masonry-material__grout"
+        },
+        {
+          "name": "Limestone",
+          "handle": "masonry-material__limestone"
+        },
+        {
+          "name": "Marble",
+          "handle": "masonry-material__marble"
+        },
+        {
+          "name": "Mortar",
+          "handle": "masonry-material__mortar"
+        },
+        {
+          "name": "Plaster",
+          "handle": "masonry-material__plaster"
+        },
+        {
+          "name": "Sandstone",
+          "handle": "masonry-material__sandstone"
+        },
+        {
+          "name": "Slate",
+          "handle": "masonry-material__slate"
+        },
+        {
+          "name": "Stone",
+          "handle": "masonry-material__stone"
+        },
+        {
+          "name": "Other",
+          "handle": "masonry-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2061",
+      "name": "Masonry product form",
+      "handle": "masonry-product-form",
+      "description": "Specifies the form of masonry products, such as paste or powder",
+      "values": [
+        {
+          "name": "Liquid",
+          "handle": "masonry-product-form__liquid"
+        },
+        {
+          "name": "Paste",
+          "handle": "masonry-product-form__paste"
+        },
+        {
+          "name": "Powder",
+          "handle": "masonry-product-form__powder"
+        },
+        {
+          "name": "Other",
+          "handle": "masonry-product-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2131",
+      "name": "Metal molding application",
+      "handle": "metal-molding-application",
+      "description": "Identifies the intended use of metal casting molds, such as jewelry or figurines",
+      "values": [
+        {
+          "name": "Dental appliances",
+          "handle": "metal-molding-application__dental-appliances"
+        },
+        {
+          "name": "Figurines",
+          "handle": "metal-molding-application__figurines"
+        },
+        {
+          "name": "Ingots",
+          "handle": "metal-molding-application__ingots"
+        },
+        {
+          "name": "Jewelry",
+          "handle": "metal-molding-application__jewelry"
+        },
+        {
+          "name": "Machinery",
+          "handle": "metal-molding-application__machinery"
+        },
+        {
+          "name": "Sculpture",
+          "handle": "metal-molding-application__sculpture"
+        },
+        {
+          "name": "Tools",
+          "handle": "metal-molding-application__tools"
+        },
+        {
+          "name": "Other",
+          "handle": "metal-molding-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4364",
+      "name": "Micrometer type",
+      "handle": "micrometer-type",
+      "description": "Identifies the specific application or design of a micrometer, such as blade or bore",
+      "values": [
+        {
+          "name": "Blade",
+          "handle": "micrometer-type__blade"
+        },
+        {
+          "name": "Bore",
+          "handle": "micrometer-type__bore"
+        },
+        {
+          "name": "Depth",
+          "handle": "micrometer-type__depth"
+        },
+        {
+          "name": "Disc",
+          "handle": "micrometer-type__disc"
+        },
+        {
+          "name": "Groove",
+          "handle": "micrometer-type__groove"
+        },
+        {
+          "name": "Inside",
+          "handle": "micrometer-type__inside"
+        },
+        {
+          "name": "Outside",
+          "handle": "micrometer-type__outside"
+        },
+        {
+          "name": "Screw",
+          "handle": "micrometer-type__screw"
+        },
+        {
+          "name": "Other",
+          "handle": "micrometer-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2097",
+      "name": "Molding application",
+      "handle": "molding-application",
+      "description": "Specifies the type of molding used in construction, such as casing or chair rail",
+      "values": [
+        {
+          "name": "Astragal",
+          "handle": "molding-application__astragal"
+        },
+        {
+          "name": "Baseboard",
+          "handle": "molding-application__baseboard"
+        },
+        {
+          "name": "Bead/Reel",
+          "handle": "molding-application__bead-reel"
+        },
+        {
+          "name": "Casing",
+          "handle": "molding-application__casing"
+        },
+        {
+          "name": "Chair rail",
+          "handle": "molding-application__chair-rail"
+        },
+        {
+          "name": "Cove",
+          "handle": "molding-application__cove"
+        },
+        {
+          "name": "Crown",
+          "handle": "molding-application__crown"
+        },
+        {
+          "name": "Dentil",
+          "handle": "molding-application__dentil"
+        },
+        {
+          "name": "Picture rail",
+          "handle": "molding-application__picture-rail"
+        },
+        {
+          "name": "Quarter round",
+          "handle": "molding-application__quarter-round"
+        },
+        {
+          "name": "Shoe molding",
+          "handle": "molding-application__shoe-molding"
+        },
+        {
+          "name": "Other",
+          "handle": "molding-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2119",
+      "name": "Molding shape",
+      "handle": "molding-shape",
+      "description": "Describes the form or pattern of a concrete mold, like block or column",
+      "values": [
+        {
+          "name": "Baluster",
+          "handle": "molding-shape__baluster"
+        },
+        {
+          "name": "Bench",
+          "handle": "molding-shape__bench"
+        },
+        {
+          "name": "Block",
+          "handle": "molding-shape__block"
+        },
+        {
+          "name": "Brick",
+          "handle": "molding-shape__brick"
+        },
+        {
+          "name": "Column",
+          "handle": "molding-shape__column"
+        },
+        {
+          "name": "Figurine",
+          "handle": "molding-shape__figurine"
+        },
+        {
+          "name": "Panel",
+          "handle": "molding-shape__panel"
+        },
+        {
+          "name": "Paver",
+          "handle": "molding-shape__paver"
+        },
+        {
+          "name": "Planter",
+          "handle": "molding-shape__planter"
+        },
+        {
+          "name": "Sphere",
+          "handle": "molding-shape__sphere"
+        },
+        {
+          "name": "Stepping stone",
+          "handle": "molding-shape__stepping-stone"
+        },
+        {
+          "name": "Other",
+          "handle": "molding-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2162",
+      "name": "Motor starting method",
+      "handle": "motor-starting-method",
+      "description": "Identifies the method used to start a motor, such as DOL or auto-transformer",
+      "values": [
+        {
+          "name": "Auto-transformer",
+          "handle": "motor-starting-method__auto-transformer"
+        },
+        {
+          "name": "DOL",
+          "handle": "motor-starting-method__dol"
+        },
+        {
+          "name": "Frequency converter",
+          "handle": "motor-starting-method__frequency-converter"
+        },
+        {
+          "name": "SD",
+          "handle": "motor-starting-method__sd"
+        },
+        {
+          "name": "Soft",
+          "handle": "motor-starting-method__soft"
+        },
+        {
+          "name": "Other",
+          "handle": "motor-starting-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2124",
+      "name": "Nut form",
+      "handle": "nut-form",
+      "description": "Describes the form of hardware nuts, e.g. square, wing",
+      "values": [
+        {
+          "name": "Acorn",
+          "handle": "nut-form__acorn"
+        },
+        {
+          "name": "Barrel",
+          "handle": "nut-form__barrel"
+        },
+        {
+          "name": "Blind",
+          "handle": "nut-form__blind"
+        },
+        {
+          "name": "Cage",
+          "handle": "nut-form__cage"
+        },
+        {
+          "name": "Castle",
+          "handle": "nut-form__castle"
+        },
+        {
+          "name": "Coupling",
+          "handle": "nut-form__coupling"
+        },
+        {
+          "name": "Durlok",
+          "handle": "nut-form__durlok"
+        },
+        {
+          "name": "Flange",
+          "handle": "nut-form__flange"
+        },
+        {
+          "name": "Flat",
+          "handle": "nut-form__flat"
+        },
+        {
+          "name": "Full",
+          "handle": "nut-form__full"
+        },
+        {
+          "name": "Half moon",
+          "handle": "nut-form__half-moon"
+        },
+        {
+          "name": "Hexagon",
+          "handle": "nut-form__hexagon"
+        },
+        {
+          "name": "K-nut",
+          "handle": "nut-form__k-nut"
+        },
+        {
+          "name": "Lug",
+          "handle": "nut-form__lug"
+        },
+        {
+          "name": "Nyloc",
+          "handle": "nut-form__nyloc"
+        },
+        {
+          "name": "Rivet",
+          "handle": "nut-form__rivet"
+        },
+        {
+          "name": "Self-locking",
+          "handle": "nut-form__self-locking"
+        },
+        {
+          "name": "Shear",
+          "handle": "nut-form__shear"
+        },
+        {
+          "name": "Slotted",
+          "handle": "nut-form__slotted"
+        },
+        {
+          "name": "Spring",
+          "handle": "nut-form__spring"
+        },
+        {
+          "name": "Square",
+          "handle": "nut-form__square"
+        },
+        {
+          "name": "T-nut",
+          "handle": "nut-form__t-nut"
+        },
+        {
+          "name": "Threaded",
+          "handle": "nut-form__threaded"
+        },
+        {
+          "name": "U-nut",
+          "handle": "nut-form__u-nut"
+        },
+        {
+          "name": "Weld",
+          "handle": "nut-form__weld"
+        },
+        {
+          "name": "Wing",
+          "handle": "nut-form__wing"
+        },
+        {
+          "name": "Other",
+          "handle": "nut-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2207",
+      "name": "Paint brush design",
+      "handle": "paint-brush-design",
+      "description": "Describes the shape or style of a paint brush, like round or flat",
+      "values": [
+        {
+          "name": "Angle",
+          "handle": "paint-brush-design__angle"
+        },
+        {
+          "name": "Bright",
+          "handle": "paint-brush-design__bright"
+        },
+        {
+          "name": "Fan",
+          "handle": "paint-brush-design__fan"
+        },
+        {
+          "name": "Filbert",
+          "handle": "paint-brush-design__filbert"
+        },
+        {
+          "name": "Flat",
+          "handle": "paint-brush-design__flat"
+        },
+        {
+          "name": "Rigger",
+          "handle": "paint-brush-design__rigger"
+        },
+        {
+          "name": "Round",
+          "handle": "paint-brush-design__round"
+        },
+        {
+          "name": "Triangle",
+          "handle": "paint-brush-design__triangle"
+        },
+        {
+          "name": "Other",
+          "handle": "paint-brush-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2140",
+      "name": "Pipe clamp design",
+      "handle": "pipe-clamp-design",
+      "description": "Describes the design of a pipe clamp, such as snap or C-clamp",
+      "values": [
+        {
+          "name": "Band hanger",
+          "handle": "pipe-clamp-design__band-hanger"
+        },
+        {
+          "name": "Bell hanger",
+          "handle": "pipe-clamp-design__bell-hanger"
+        },
+        {
+          "name": "C-clamp",
+          "handle": "pipe-clamp-design__c-clamp"
+        },
+        {
+          "name": "Hose",
+          "handle": "pipe-clamp-design__hose"
+        },
+        {
+          "name": "Insulated pipe",
+          "handle": "pipe-clamp-design__insulated-pipe"
+        },
+        {
+          "name": "Pipe support",
+          "handle": "pipe-clamp-design__pipe-support"
+        },
+        {
+          "name": "Repair",
+          "handle": "pipe-clamp-design__repair"
+        },
+        {
+          "name": "Riser",
+          "handle": "pipe-clamp-design__riser"
+        },
+        {
+          "name": "Saddle",
+          "handle": "pipe-clamp-design__saddle"
+        },
+        {
+          "name": "Snap",
+          "handle": "pipe-clamp-design__snap"
+        },
+        {
+          "name": "U-bolt",
+          "handle": "pipe-clamp-design__u-bolt"
+        },
+        {
+          "name": "Other",
+          "handle": "pipe-clamp-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2161",
+      "name": "Placement supported",
+      "handle": "placement-supported",
+      "description": "Identifies where a product can be installed or used, e.g. wall, floor",
+      "values": [
+        {
+          "name": "Bike",
+          "handle": "placement-supported__bike"
+        },
+        {
+          "name": "Ceiling",
+          "handle": "placement-supported__ceiling"
+        },
+        {
+          "name": "Floor",
+          "handle": "placement-supported__floor"
+        },
+        {
+          "name": "Ground",
+          "handle": "placement-supported__ground"
+        },
+        {
+          "name": "Hand",
+          "handle": "placement-supported__hand"
+        },
+        {
+          "name": "In-wall",
+          "handle": "placement-supported__in-wall"
+        },
+        {
+          "name": "Pole",
+          "handle": "placement-supported__pole"
+        },
+        {
+          "name": "Sink",
+          "handle": "placement-supported__sink"
+        },
+        {
+          "name": "Table",
+          "handle": "placement-supported__table"
+        },
+        {
+          "name": "TV bracket",
+          "handle": "placement-supported__tv-bracket"
+        },
+        {
+          "name": "Wall",
+          "handle": "placement-supported__wall"
+        },
+        {
+          "name": "Window",
+          "handle": "placement-supported__window"
+        },
+        {
+          "name": "Other",
+          "handle": "placement-supported__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2069",
+      "name": "Plumbing primer application",
+      "handle": "plumbing-primer-application",
+      "description": "Specifies where plumbing primer can be used, for example on pipes or fittings",
+      "values": [
+        {
+          "name": "Fittings",
+          "handle": "plumbing-primer-application__fittings"
+        },
+        {
+          "name": "Pipes",
+          "handle": "plumbing-primer-application__pipes"
+        },
+        {
+          "name": "Other",
+          "handle": "plumbing-primer-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2143",
+      "name": "Plumbing trap design",
+      "handle": "plumbing-trap-design",
+      "description": "Specifies the type of plumbing trap, such as drum or bottle",
+      "values": [
+        {
+          "name": "Bell",
+          "handle": "plumbing-trap-design__bell"
+        },
+        {
+          "name": "Bottle",
+          "handle": "plumbing-trap-design__bottle"
+        },
+        {
+          "name": "Drum",
+          "handle": "plumbing-trap-design__drum"
+        },
+        {
+          "name": "Grease interceptor",
+          "handle": "plumbing-trap-design__grease-interceptor"
+        },
+        {
+          "name": "HepvO",
+          "handle": "plumbing-trap-design__hepvo"
+        },
+        {
+          "name": "P-trap",
+          "handle": "plumbing-trap-design__p-trap"
+        },
+        {
+          "name": "Running",
+          "handle": "plumbing-trap-design__running"
+        },
+        {
+          "name": "S-trap",
+          "handle": "plumbing-trap-design__s-trap"
+        },
+        {
+          "name": "Other",
+          "handle": "plumbing-trap-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2208",
+      "name": "Plunger shape",
+      "handle": "plunger-shape",
+      "description": "Specifies the form of a plunger head, such as cup or accordion",
+      "values": [
+        {
+          "name": "Accordion",
+          "handle": "plunger-shape__accordion"
+        },
+        {
+          "name": "Cup",
+          "handle": "plunger-shape__cup"
+        },
+        {
+          "name": "Other",
+          "handle": "plunger-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2095",
+      "name": "Plywood grade",
+      "handle": "plywood-grade",
+      "description": "Specifies the classification of plywood for building materials, like grade C or D",
+      "values": [
+        {
+          "name": "A",
+          "handle": "plywood-grade__a"
+        },
+        {
+          "name": "B",
+          "handle": "plywood-grade__b"
+        },
+        {
+          "name": "C",
+          "handle": "plywood-grade__c"
+        },
+        {
+          "name": "D",
+          "handle": "plywood-grade__d"
+        },
+        {
+          "name": "Other",
+          "handle": "plywood-grade__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2064",
+      "name": "Primer use",
+      "handle": "primer-use",
+      "description": "Specifies the function of a primer, such as base paint or sealer",
+      "values": [
+        {
+          "name": "1K",
+          "handle": "primer-use__1k"
+        },
+        {
+          "name": "2K",
+          "handle": "primer-use__2k"
+        },
+        {
+          "name": "3K",
+          "handle": "primer-use__3k"
+        },
+        {
+          "name": "2 in 1",
+          "handle": "primer-use__2-in-1"
+        },
+        {
+          "name": "Base paint",
+          "handle": "primer-use__base-paint"
+        },
+        {
+          "name": "Coloring",
+          "handle": "primer-use__coloring"
+        },
+        {
+          "name": "Filler",
+          "handle": "primer-use__filler"
+        },
+        {
+          "name": "Finish",
+          "handle": "primer-use__finish"
+        },
+        {
+          "name": "Impregnating",
+          "handle": "primer-use__impregnating"
+        },
+        {
+          "name": "Insulating",
+          "handle": "primer-use__insulating"
+        },
+        {
+          "name": "Protective coating",
+          "handle": "primer-use__protective-coating"
+        },
+        {
+          "name": "Sealer",
+          "handle": "primer-use__sealer"
+        },
+        {
+          "name": "Other",
+          "handle": "primer-use__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2065",
+      "name": "Product formulation",
+      "handle": "product-formulation",
+      "description": "Identifies the composition of building consumables, e.g. base substance, ready mixed",
+      "values": [
+        {
+          "name": "Base substance",
+          "handle": "product-formulation__base-substance"
+        },
+        {
+          "name": "Ready mixed",
+          "handle": "product-formulation__ready-mixed"
+        },
+        {
+          "name": "Other",
+          "handle": "product-formulation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2114",
+      "name": "Propane application",
+      "handle": "propane-application",
+      "description": "Specifies the purpose of propane, such as heating or grill",
+      "values": [
+        {
+          "name": "Forklift",
+          "handle": "propane-application__forklift"
+        },
+        {
+          "name": "Grill",
+          "handle": "propane-application__grill"
+        },
+        {
+          "name": "Heating",
+          "handle": "propane-application__heating"
+        },
+        {
+          "name": "Recreational vehicles (RV)",
+          "handle": "propane-application__recreational-vehicles-rv"
+        },
+        {
+          "name": "Torch",
+          "handle": "propane-application__torch"
+        },
+        {
+          "name": "Other",
+          "handle": "propane-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2082",
+      "name": "Recommended use",
+      "handle": "recommended-use",
+      "description": "Identifies the primary use or domain a hardware product has been designed for, e.g. industrial, residential",
+      "values": [
+        {
+          "name": "Commercial",
+          "handle": "recommended-use__commercial"
+        },
+        {
+          "name": "Industrial",
+          "handle": "recommended-use__industrial"
+        },
+        {
+          "name": "Residential",
+          "handle": "recommended-use__residential"
+        },
+        {
+          "name": "Universal",
+          "handle": "recommended-use__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "recommended-use__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2125",
+      "name": "Rivet form",
+      "handle": "rivet-form",
+      "description": "Describes the form of hardware rivets, e.g. solid, split",
+      "values": [
+        {
+          "name": "Blind",
+          "handle": "rivet-form__blind"
+        },
+        {
+          "name": "Drive",
+          "handle": "rivet-form__drive"
+        },
+        {
+          "name": "Flush",
+          "handle": "rivet-form__flush"
+        },
+        {
+          "name": "Friction-lock",
+          "handle": "rivet-form__friction-lock"
+        },
+        {
+          "name": "Oscar",
+          "handle": "rivet-form__oscar"
+        },
+        {
+          "name": "Self-piercing",
+          "handle": "rivet-form__self-piercing"
+        },
+        {
+          "name": "Semi-tubular",
+          "handle": "rivet-form__semi-tubular"
+        },
+        {
+          "name": "Shoulder",
+          "handle": "rivet-form__shoulder"
+        },
+        {
+          "name": "Solid",
+          "handle": "rivet-form__solid"
+        },
+        {
+          "name": "Split",
+          "handle": "rivet-form__split"
+        },
+        {
+          "name": "Tubular",
+          "handle": "rivet-form__tubular"
+        },
+        {
+          "name": "Other",
+          "handle": "rivet-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2183",
+      "name": "Rotating direction",
+      "handle": "rotating-direction",
+      "description": "Specifies the turning direction of drill and screwdriver bits, like left-hand or right-hand",
+      "values": [
+        {
+          "name": "Left-hand",
+          "handle": "rotating-direction__left-hand"
+        },
+        {
+          "name": "Right-hand",
+          "handle": "rotating-direction__right-hand"
+        },
+        {
+          "name": "Other",
+          "handle": "rotating-direction__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2181",
+      "name": "Sandblaster application",
+      "handle": "sandblaster-application",
+      "description": "Defines the intended function of sandblasting tools, like polishing or sanding",
+      "values": [
+        {
+          "name": "Polishing",
+          "handle": "sandblaster-application__polishing"
+        },
+        {
+          "name": "Sanding",
+          "handle": "sandblaster-application__sanding"
+        },
+        {
+          "name": "Other",
+          "handle": "sandblaster-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2182",
+      "name": "Sander type",
+      "handle": "sander-type",
+      "description": "Classifies the type of sander tool, e.g. belt, random orbital",
+      "values": [
+        {
+          "name": "Belt",
+          "handle": "sander-type__belt"
+        },
+        {
+          "name": "Detail",
+          "handle": "sander-type__detail"
+        },
+        {
+          "name": "Disc",
+          "handle": "sander-type__disc"
+        },
+        {
+          "name": "File",
+          "handle": "sander-type__file"
+        },
+        {
+          "name": "Random orbital",
+          "handle": "sander-type__random-orbital"
+        },
+        {
+          "name": "Sanding roller",
+          "handle": "sander-type__sanding-roller"
+        },
+        {
+          "name": "Sheet",
+          "handle": "sander-type__sheet"
+        },
+        {
+          "name": "Tube belt",
+          "handle": "sander-type__tube-belt"
+        },
+        {
+          "name": "Other",
+          "handle": "sander-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2187",
+      "name": "Sanding application",
+      "handle": "sanding-application",
+      "description": "Specifies the purpose of sanding accessories, like finishing work or removing paint",
+      "values": [
+        {
+          "name": "Deburring",
+          "handle": "sanding-application__deburring"
+        },
+        {
+          "name": "Finishing work",
+          "handle": "sanding-application__finishing-work"
+        },
+        {
+          "name": "Removing paint",
+          "handle": "sanding-application__removing-paint"
+        },
+        {
+          "name": "Removing rust",
+          "handle": "sanding-application__removing-rust"
+        },
+        {
+          "name": "Removing scale",
+          "handle": "sanding-application__removing-scale"
+        },
+        {
+          "name": "Other",
+          "handle": "sanding-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2195",
+      "name": "Scaffolding mounting type",
+      "handle": "scaffolding-mounting-type",
+      "description": "Specifies the setup style of scaffolding, e.g. frame, mobile",
+      "values": [
+        {
+          "name": "Frame",
+          "handle": "scaffolding-mounting-type__frame"
+        },
+        {
+          "name": "Mobile",
+          "handle": "scaffolding-mounting-type__mobile"
+        },
+        {
+          "name": "Other",
+          "handle": "scaffolding-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2139",
+      "name": "Security level",
+      "handle": "security-level",
+      "description": "Specifies the safety standard of items like locks and latches, e.g. low, medium, high",
+      "values": [
+        {
+          "name": "High",
+          "handle": "security-level__high"
+        },
+        {
+          "name": "Low",
+          "handle": "security-level__low"
+        },
+        {
+          "name": "Medium",
+          "handle": "security-level__medium"
+        },
+        {
+          "name": "Other",
+          "handle": "security-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2178",
+      "name": "Shaft orientation",
+      "handle": "shaft-orientation",
+      "description": "Identifies the direction of the shaft in small engines, for example, horizontal or vertical",
+      "values": [
+        {
+          "name": "Horizontal",
+          "handle": "shaft-orientation__horizontal"
+        },
+        {
+          "name": "Vertical",
+          "handle": "shaft-orientation__vertical"
+        },
+        {
+          "name": "Other",
+          "handle": "shaft-orientation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2066",
+      "name": "Sheen/Gloss level",
+      "handle": "sheen-gloss-level",
+      "description": "Specifies the shine level of paint or varnish products, such as semi-gloss or satin",
+      "values": [
+        {
+          "name": "Dead-matte",
+          "handle": "sheen-gloss-level__dead-matte"
+        },
+        {
+          "name": "Deep-matte",
+          "handle": "sheen-gloss-level__deep-matte"
+        },
+        {
+          "name": "Dull-matte",
+          "handle": "sheen-gloss-level__dull-matte"
+        },
+        {
+          "name": "Eggshell",
+          "handle": "sheen-gloss-level__eggshell"
+        },
+        {
+          "name": "Extra-matte",
+          "handle": "sheen-gloss-level__extra-matte"
+        },
+        {
+          "name": "Flat-matte",
+          "handle": "sheen-gloss-level__flat-matte"
+        },
+        {
+          "name": "Gloss",
+          "handle": "sheen-gloss-level__gloss"
+        },
+        {
+          "name": "Hammer",
+          "handle": "sheen-gloss-level__hammer"
+        },
+        {
+          "name": "High-gloss",
+          "handle": "sheen-gloss-level__high-gloss"
+        },
+        {
+          "name": "Matte",
+          "handle": "sheen-gloss-level__matte"
+        },
+        {
+          "name": "Metallic gloss",
+          "handle": "sheen-gloss-level__metallic-gloss"
+        },
+        {
+          "name": "Mirror",
+          "handle": "sheen-gloss-level__mirror"
+        },
+        {
+          "name": "Satin",
+          "handle": "sheen-gloss-level__satin"
+        },
+        {
+          "name": "Satin-gloss",
+          "handle": "sheen-gloss-level__satin-gloss"
+        },
+        {
+          "name": "Semi-gloss",
+          "handle": "sheen-gloss-level__semi-gloss"
+        },
+        {
+          "name": "Semi-matte",
+          "handle": "sheen-gloss-level__semi-matte"
+        },
+        {
+          "name": "Semi-satin",
+          "handle": "sheen-gloss-level__semi-satin"
+        },
+        {
+          "name": "Silk",
+          "handle": "sheen-gloss-level__silk"
+        },
+        {
+          "name": "Silk-gloss",
+          "handle": "sheen-gloss-level__silk-gloss"
+        },
+        {
+          "name": "Silk-matte",
+          "handle": "sheen-gloss-level__silk-matte"
+        },
+        {
+          "name": "Smooth",
+          "handle": "sheen-gloss-level__smooth"
+        },
+        {
+          "name": "Soft gloss",
+          "handle": "sheen-gloss-level__soft-gloss"
+        },
+        {
+          "name": "Soft sheen",
+          "handle": "sheen-gloss-level__soft-sheen"
+        },
+        {
+          "name": "Other",
+          "handle": "sheen-gloss-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2916",
+      "name": "Shingle/Tile material",
+      "handle": "shingle-tile-material",
+      "description": "Identifies the composition of roofing shingles or tiles, such as cement or rubber",
+      "values": [
+        {
+          "name": "Asphalt",
+          "handle": "shingle-tile-material__asphalt"
+        },
+        {
+          "name": "Cedar wood",
+          "handle": "shingle-tile-material__cedar-wood"
+        },
+        {
+          "name": "Clay",
+          "handle": "shingle-tile-material__clay"
+        },
+        {
+          "name": "Composite",
+          "handle": "shingle-tile-material__composite"
+        },
+        {
+          "name": "Concrete",
+          "handle": "shingle-tile-material__concrete"
+        },
+        {
+          "name": "Metal",
+          "handle": "shingle-tile-material__metal"
+        },
+        {
+          "name": "Rubber",
+          "handle": "shingle-tile-material__rubber"
+        },
+        {
+          "name": "Slate",
+          "handle": "shingle-tile-material__slate"
+        },
+        {
+          "name": "Other",
+          "handle": "shingle-tile-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2147",
+      "name": "Shower base design",
+      "handle": "shower-base-design",
+      "description": "Specifies the design of shower bases, such as angular or quadrant",
+      "values": [
+        {
+          "name": "Angular",
+          "handle": "shower-base-design__angular"
+        },
+        {
+          "name": "Quadrant",
+          "handle": "shower-base-design__quadrant"
+        },
+        {
+          "name": "Rectangular",
+          "handle": "shower-base-design__rectangular"
+        },
+        {
+          "name": "Square",
+          "handle": "shower-base-design__square"
+        },
+        {
+          "name": "Other",
+          "handle": "shower-base-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2152",
+      "name": "Shower design",
+      "handle": "shower-design",
+      "description": "Identifies the configuration of shower stalls & kits, such as alcove or corner",
+      "values": [
+        {
+          "name": "Alcove",
+          "handle": "shower-design__alcove"
+        },
+        {
+          "name": "Corner",
+          "handle": "shower-design__corner"
+        },
+        {
+          "name": "Free-standing",
+          "handle": "shower-design__free-standing"
+        },
+        {
+          "name": "Other",
+          "handle": "shower-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3118",
+      "name": "Shower features",
+      "handle": "shower-features",
+      "description": "Describes the unique elements of a shower, such as a built-in seat or handheld shower",
+      "values": [
+        {
+          "name": "Built-in seat",
+          "handle": "shower-features__built-in-seat"
+        },
+        {
+          "name": "Framed",
+          "handle": "shower-features__framed"
+        },
+        {
+          "name": "Frameless",
+          "handle": "shower-features__frameless"
+        },
+        {
+          "name": "Grab bars",
+          "handle": "shower-features__grab-bars"
+        },
+        {
+          "name": "Handheld shower",
+          "handle": "shower-features__handheld-shower"
+        },
+        {
+          "name": "Shower tray",
+          "handle": "shower-features__shower-tray"
+        },
+        {
+          "name": "Storage options",
+          "handle": "shower-features__storage-options"
+        },
+        {
+          "name": "Thermostatic controls",
+          "handle": "shower-features__thermostatic-controls"
+        },
+        {
+          "name": "Other",
+          "handle": "shower-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3327",
+      "name": "Shower opening type",
+      "handle": "shower-opening-type",
+      "description": "Identifies the style of shower door opening, such as hinged or sliding",
+      "values": [
+        {
+          "name": "Bypass",
+          "handle": "shower-opening-type__bypass"
+        },
+        {
+          "name": "Folding",
+          "handle": "shower-opening-type__folding"
+        },
+        {
+          "name": "Hinged",
+          "handle": "shower-opening-type__hinged"
+        },
+        {
+          "name": "Neo-angle",
+          "handle": "shower-opening-type__neo-angle"
+        },
+        {
+          "name": "Pivot",
+          "handle": "shower-opening-type__pivot"
+        },
+        {
+          "name": "Screen",
+          "handle": "shower-opening-type__screen"
+        },
+        {
+          "name": "Sliding",
+          "handle": "shower-opening-type__sliding"
+        },
+        {
+          "name": "Steam door",
+          "handle": "shower-opening-type__steam-door"
+        },
+        {
+          "name": "Walk-in",
+          "handle": "shower-opening-type__walk-in"
+        },
+        {
+          "name": "Other",
+          "handle": "shower-opening-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2167",
+      "name": "Shrink ratio",
+      "handle": "shrink-ratio",
+      "description": "Specifies the contraction rate of heat-shrink tubing, e.g. 2:1",
+      "values": [
+        {
+          "name": "2:1",
+          "handle": "shrink-ratio__21"
+        },
+        {
+          "name": "3:1",
+          "handle": "shrink-ratio__31"
+        },
+        {
+          "name": "4:1",
+          "handle": "shrink-ratio__41"
+        },
+        {
+          "name": "Other",
+          "handle": "shrink-ratio__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2099",
+      "name": "Shutter finish",
+      "handle": "shutter-finish",
+      "description": "Describes the surface treatment of shutters, like painted or primed",
+      "values": [
+        {
+          "name": "Painted",
+          "handle": "shutter-finish__painted"
+        },
+        {
+          "name": "Primed",
+          "handle": "shutter-finish__primed"
+        },
+        {
+          "name": "Stained",
+          "handle": "shutter-finish__stained"
+        },
+        {
+          "name": "Unfinished",
+          "handle": "shutter-finish__unfinished"
+        },
+        {
+          "name": "Other",
+          "handle": "shutter-finish__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2917",
+      "name": "Siding material",
+      "handle": "siding-material",
+      "description": "Identifies the type of material used in siding products, such as wood or vinyl",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "siding-material__aluminum"
+        },
+        {
+          "name": "Brick",
+          "handle": "siding-material__brick"
+        },
+        {
+          "name": "Cement",
+          "handle": "siding-material__cement"
+        },
+        {
+          "name": "Fiber cement",
+          "handle": "siding-material__fiber-cement"
+        },
+        {
+          "name": "Metal",
+          "handle": "siding-material__metal"
+        },
+        {
+          "name": "Stone",
+          "handle": "siding-material__stone"
+        },
+        {
+          "name": "Stucco",
+          "handle": "siding-material__stucco"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "siding-material__vinyl"
+        },
+        {
+          "name": "Wood",
+          "handle": "siding-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "siding-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2154",
+      "name": "Sink mounting type",
+      "handle": "sink-mounting-type",
+      "description": "Specifies the installation method for sinks, e.g. counter, wall-hung",
+      "values": [
+        {
+          "name": "Counter",
+          "handle": "sink-mounting-type__counter"
+        },
+        {
+          "name": "Wall-hung",
+          "handle": "sink-mounting-type__wall-hung"
+        },
+        {
+          "name": "Other",
+          "handle": "sink-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2155",
+      "name": "Sink type",
+      "handle": "sink-type",
+      "description": "Specifies the design of kitchen or utility sinks, such as half bowl",
+      "values": [
+        {
+          "name": "Double bowl",
+          "handle": "sink-type__double-bowl"
+        },
+        {
+          "name": "Half bowl",
+          "handle": "sink-type__half-bowl"
+        },
+        {
+          "name": "One and half bowls",
+          "handle": "sink-type__one-and-half-bowls"
+        },
+        {
+          "name": "Single bowl",
+          "handle": "sink-type__single-bowl"
+        },
+        {
+          "name": "Other",
+          "handle": "sink-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2214",
+      "name": "Socket driver tip",
+      "handle": "socket-driver-tip",
+      "description": "Identifies the type of tip on a socket driver, such as square or hex",
+      "values": [
+        {
+          "name": "Hex",
+          "handle": "socket-driver-tip__hex"
+        },
+        {
+          "name": "Pentalobe",
+          "handle": "socket-driver-tip__pentalobe"
+        },
+        {
+          "name": "Phillips",
+          "handle": "socket-driver-tip__phillips"
+        },
+        {
+          "name": "Pozidriv",
+          "handle": "socket-driver-tip__pozidriv"
+        },
+        {
+          "name": "Slotted",
+          "handle": "socket-driver-tip__slotted"
+        },
+        {
+          "name": "Spanner",
+          "handle": "socket-driver-tip__spanner"
+        },
+        {
+          "name": "Spline",
+          "handle": "socket-driver-tip__spline"
+        },
+        {
+          "name": "Square",
+          "handle": "socket-driver-tip__square"
+        },
+        {
+          "name": "Torq-set",
+          "handle": "socket-driver-tip__torq-set"
+        },
+        {
+          "name": "Torx",
+          "handle": "socket-driver-tip__torx"
+        },
+        {
+          "name": "Tri-wing",
+          "handle": "socket-driver-tip__tri-wing"
+        },
+        {
+          "name": "Twelve-point",
+          "handle": "socket-driver-tip__twelve-point"
+        },
+        {
+          "name": "Other",
+          "handle": "socket-driver-tip__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2170",
+      "name": "Socket type",
+      "handle": "socket-type",
+      "description": "Identifies the type of socket in power outlets, such as USB or Ethernet",
+      "values": [
+        {
+          "name": "Ethernet",
+          "handle": "socket-type__ethernet"
+        },
+        {
+          "name": "Multimedia",
+          "handle": "socket-type__multimedia"
+        },
+        {
+          "name": "Plug",
+          "handle": "socket-type__plug"
+        },
+        {
+          "name": "Satellite",
+          "handle": "socket-type__satellite"
+        },
+        {
+          "name": "Shaver",
+          "handle": "socket-type__shaver"
+        },
+        {
+          "name": "Telephone",
+          "handle": "socket-type__telephone"
+        },
+        {
+          "name": "TV",
+          "handle": "socket-type__tv"
+        },
+        {
+          "name": "USB",
+          "handle": "socket-type__usb"
+        },
+        {
+          "name": "Other",
+          "handle": "socket-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2096",
+      "name": "Softwood lumber grade",
+      "handle": "softwood-lumber-grade",
+      "description": "Identifies the quality of softwood lumber, such as C select or No. 1",
+      "values": [
+        {
+          "name": "C select",
+          "handle": "softwood-lumber-grade__c-select"
+        },
+        {
+          "name": "Construction grade",
+          "handle": "softwood-lumber-grade__construction-grade"
+        },
+        {
+          "name": "D select",
+          "handle": "softwood-lumber-grade__d-select"
+        },
+        {
+          "name": "No. 1",
+          "handle": "softwood-lumber-grade__no-1"
+        },
+        {
+          "name": "No. 2",
+          "handle": "softwood-lumber-grade__no-2"
+        },
+        {
+          "name": "No. 3",
+          "handle": "softwood-lumber-grade__no-3"
+        },
+        {
+          "name": "Other",
+          "handle": "softwood-lumber-grade__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2172",
+      "name": "Solar cell type",
+      "handle": "solar-cell-type",
+      "description": "Specifies the technology of solar cells, such as thin-film or monocrystalline silicon",
+      "values": [
+        {
+          "name": "Monocrystalline silicon",
+          "handle": "solar-cell-type__monocrystalline-silicon"
+        },
+        {
+          "name": "Polycrystalline silicon",
+          "handle": "solar-cell-type__polycrystalline-silicon"
+        },
+        {
+          "name": "Thin-film",
+          "handle": "solar-cell-type__thin-film"
+        },
+        {
+          "name": "Other",
+          "handle": "solar-cell-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2173",
+      "name": "Solar panel connections",
+      "handle": "solar-panel-connections",
+      "description": "Specifies the connector used with solar panels, e.g. alligator clips or DC connector",
+      "values": [
+        {
+          "name": "Alligator clips",
+          "handle": "solar-panel-connections__alligator-clips"
+        },
+        {
+          "name": "Anderson powerpole",
+          "handle": "solar-panel-connections__anderson-powerpole"
+        },
+        {
+          "name": "DC connector",
+          "handle": "solar-panel-connections__dc-connector"
+        },
+        {
+          "name": "MC4",
+          "handle": "solar-panel-connections__mc4"
+        },
+        {
+          "name": "SAE",
+          "handle": "solar-panel-connections__sae"
+        },
+        {
+          "name": "USB type-A",
+          "handle": "solar-panel-connections__usb-type-a"
+        },
+        {
+          "name": "USB type-C",
+          "handle": "solar-panel-connections__usb-type-c"
+        },
+        {
+          "name": "XT60",
+          "handle": "solar-panel-connections__xt60"
+        },
+        {
+          "name": "Other",
+          "handle": "solar-panel-connections__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2171",
+      "name": "Solar panel design",
+      "handle": "solar-panel-design",
+      "description": "Describes the installation style of solar panels, like freestanding or roof-mounted",
+      "values": [
+        {
+          "name": "Freestanding",
+          "handle": "solar-panel-design__freestanding"
+        },
+        {
+          "name": "Roof-mounted",
+          "handle": "solar-panel-design__roof-mounted"
+        },
+        {
+          "name": "Other",
+          "handle": "solar-panel-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2071",
+      "name": "Solder/Flux application",
+      "handle": "solder-flux-application",
+      "description": "Specifies the application area for solder/flux products, e.g. electronics, plumbing",
+      "values": [
+        {
+          "name": "Electronics",
+          "handle": "solder-flux-application__electronics"
+        },
+        {
+          "name": "Plumbing",
+          "handle": "solder-flux-application__plumbing"
+        },
+        {
+          "name": "Other",
+          "handle": "solder-flux-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2072",
+      "name": "Solvent/Thinner application",
+      "handle": "solvent-thinner-application",
+      "description": "Specifies the coating or adhesive material that a product is designed to dissolve or thin, e.g. epoxy, paint",
+      "values": [
+        {
+          "name": "Adhesive remover",
+          "handle": "solvent-thinner-application__adhesive-remover"
+        },
+        {
+          "name": "Epoxy",
+          "handle": "solvent-thinner-application__epoxy"
+        },
+        {
+          "name": "Lacquer",
+          "handle": "solvent-thinner-application__lacquer"
+        },
+        {
+          "name": "Paint",
+          "handle": "solvent-thinner-application__paint"
+        },
+        {
+          "name": "Polyurethane",
+          "handle": "solvent-thinner-application__polyurethane"
+        },
+        {
+          "name": "Shellac",
+          "handle": "solvent-thinner-application__shellac"
+        },
+        {
+          "name": "Stain",
+          "handle": "solvent-thinner-application__stain"
+        },
+        {
+          "name": "Varnish",
+          "handle": "solvent-thinner-application__varnish"
+        },
+        {
+          "name": "Other",
+          "handle": "solvent-thinner-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3323",
+      "name": "Sound insulation",
+      "handle": "sound-insulation",
+      "description": "Identifies the soundproofing capabilities of a product, such as acoustic or non-insulated",
+      "values": [
+        {
+          "name": "Acoustic",
+          "handle": "sound-insulation__acoustic"
+        },
+        {
+          "name": "Non-insulated",
+          "handle": "sound-insulation__non-insulated"
+        },
+        {
+          "name": "Soundproof",
+          "handle": "sound-insulation__soundproof"
+        },
+        {
+          "name": "Other",
+          "handle": "sound-insulation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2121",
+      "name": "Spike design",
+      "handle": "spike-design",
+      "description": "Identifies the style of spikes, such as tent or landscape fabric",
+      "values": [
+        {
+          "name": "Fence post",
+          "handle": "spike-design__fence-post"
+        },
+        {
+          "name": "Garden hose guide",
+          "handle": "spike-design__garden-hose-guide"
+        },
+        {
+          "name": "Ground base",
+          "handle": "spike-design__ground-base"
+        },
+        {
+          "name": "Landscape fabric",
+          "handle": "spike-design__landscape-fabric"
+        },
+        {
+          "name": "Solar light",
+          "handle": "spike-design__solar-light"
+        },
+        {
+          "name": "Spiral ground anchor",
+          "handle": "spike-design__spiral-ground-anchor"
+        },
+        {
+          "name": "Tent",
+          "handle": "spike-design__tent"
+        },
+        {
+          "name": "Tree",
+          "handle": "spike-design__tree"
+        },
+        {
+          "name": "Umbrella",
+          "handle": "spike-design__umbrella"
+        },
+        {
+          "name": "Other",
+          "handle": "spike-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3113",
+      "name": "Staircase features",
+      "handle": "staircase-features",
+      "description": "Highlights unique aspects of staircases, such as open risers or stair landing",
+      "values": [
+        {
+          "name": "Balusters",
+          "handle": "staircase-features__balusters"
+        },
+        {
+          "name": "Central pole",
+          "handle": "staircase-features__central-pole"
+        },
+        {
+          "name": "Closed risers",
+          "handle": "staircase-features__closed-risers"
+        },
+        {
+          "name": "Handrail",
+          "handle": "staircase-features__handrail"
+        },
+        {
+          "name": "Newel",
+          "handle": "staircase-features__newel"
+        },
+        {
+          "name": "Open risers",
+          "handle": "staircase-features__open-risers"
+        },
+        {
+          "name": "Railing",
+          "handle": "staircase-features__railing"
+        },
+        {
+          "name": "Stair landing",
+          "handle": "staircase-features__stair-landing"
+        },
+        {
+          "name": "Other",
+          "handle": "staircase-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2179",
+      "name": "Start type",
+      "handle": "start-type",
+      "description": "Identifies the method used to start small engines, like electric or pull",
+      "values": [
+        {
+          "name": "Electric",
+          "handle": "start-type__electric"
+        },
+        {
+          "name": "Pull",
+          "handle": "start-type__pull"
+        },
+        {
+          "name": "Other",
+          "handle": "start-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2180",
+      "name": "Storage tank application",
+      "handle": "storage-tank-application",
+      "description": "Specifies what a storage tank is designed to hold, like fuel or waste",
+      "values": [
+        {
+          "name": "Chemicals",
+          "handle": "storage-tank-application__chemicals"
+        },
+        {
+          "name": "Fuel",
+          "handle": "storage-tank-application__fuel"
+        },
+        {
+          "name": "Waste",
+          "handle": "storage-tank-application__waste"
+        },
+        {
+          "name": "Water",
+          "handle": "storage-tank-application__water"
+        },
+        {
+          "name": "Other",
+          "handle": "storage-tank-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2083",
+      "name": "Suitable for door type",
+      "handle": "suitable-for-door-type",
+      "description": "Identifies the type of door the product is designed for, e.g. double-leaf, single-leaf",
+      "values": [
+        {
+          "name": "Double-leaf",
+          "handle": "suitable-for-door-type__double-leaf"
+        },
+        {
+          "name": "Single-leaf",
+          "handle": "suitable-for-door-type__single-leaf"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-door-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2059",
+      "name": "Suitable for material type",
+      "handle": "suitable-for-material-type",
+      "description": "Identifies the material a product is suitable for, typically for tools; e.g. ceramic, stone",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "suitable-for-material-type__acrylic"
+        },
+        {
+          "name": "Aluminum",
+          "handle": "suitable-for-material-type__aluminum"
+        },
+        {
+          "name": "Brass",
+          "handle": "suitable-for-material-type__brass"
+        },
+        {
+          "name": "Brick",
+          "handle": "suitable-for-material-type__brick"
+        },
+        {
+          "name": "Bronze",
+          "handle": "suitable-for-material-type__bronze"
+        },
+        {
+          "name": "Cardboard",
+          "handle": "suitable-for-material-type__cardboard"
+        },
+        {
+          "name": "Cement",
+          "handle": "suitable-for-material-type__cement"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "suitable-for-material-type__ceramic"
+        },
+        {
+          "name": "Concrete",
+          "handle": "suitable-for-material-type__concrete"
+        },
+        {
+          "name": "Copper",
+          "handle": "suitable-for-material-type__copper"
+        },
+        {
+          "name": "Enamel",
+          "handle": "suitable-for-material-type__enamel"
+        },
+        {
+          "name": "Epoxy",
+          "handle": "suitable-for-material-type__epoxy"
+        },
+        {
+          "name": "Fiberboard",
+          "handle": "suitable-for-material-type__fiberboard"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "suitable-for-material-type__fiberglass"
+        },
+        {
+          "name": "Flint",
+          "handle": "suitable-for-material-type__flint"
+        },
+        {
+          "name": "Glass",
+          "handle": "suitable-for-material-type__glass"
+        },
+        {
+          "name": "Granite",
+          "handle": "suitable-for-material-type__granite"
+        },
+        {
+          "name": "Grout",
+          "handle": "suitable-for-material-type__grout"
+        },
+        {
+          "name": "Hardboard",
+          "handle": "suitable-for-material-type__hardboard"
+        },
+        {
+          "name": "Iron",
+          "handle": "suitable-for-material-type__iron"
+        },
+        {
+          "name": "Leather",
+          "handle": "suitable-for-material-type__leather"
+        },
+        {
+          "name": "Limestone",
+          "handle": "suitable-for-material-type__limestone"
+        },
+        {
+          "name": "Linen",
+          "handle": "suitable-for-material-type__linen"
+        },
+        {
+          "name": "Marble",
+          "handle": "suitable-for-material-type__marble"
+        },
+        {
+          "name": "Metal",
+          "handle": "suitable-for-material-type__metal"
+        },
+        {
+          "name": "Mortar",
+          "handle": "suitable-for-material-type__mortar"
+        },
+        {
+          "name": "Nylon",
+          "handle": "suitable-for-material-type__nylon"
+        },
+        {
+          "name": "Paper",
+          "handle": "suitable-for-material-type__paper"
+        },
+        {
+          "name": "Plaster",
+          "handle": "suitable-for-material-type__plaster"
+        },
+        {
+          "name": "Plastic",
+          "handle": "suitable-for-material-type__plastic"
+        },
+        {
+          "name": "Plywood",
+          "handle": "suitable-for-material-type__plywood"
+        },
+        {
+          "name": "Porcelain",
+          "handle": "suitable-for-material-type__porcelain"
+        },
+        {
+          "name": "Rubber",
+          "handle": "suitable-for-material-type__rubber"
+        },
+        {
+          "name": "Sandstone",
+          "handle": "suitable-for-material-type__sandstone"
+        },
+        {
+          "name": "Steel",
+          "handle": "suitable-for-material-type__steel"
+        },
+        {
+          "name": "Stone",
+          "handle": "suitable-for-material-type__stone"
+        },
+        {
+          "name": "Stucco",
+          "handle": "suitable-for-material-type__stucco"
+        },
+        {
+          "name": "Wood",
+          "handle": "suitable-for-material-type__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-material-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2191",
+      "name": "Suitable for pipe type",
+      "handle": "suitable-for-pipe-type",
+      "description": "Identifies the type of pipe a tool can be used with, such as PVC or copper",
+      "values": [
+        {
+          "name": "Acrylonitrile butadiene styrene (ABS)",
+          "handle": "suitable-for-pipe-type__acrylonitrile-butadiene-styrene-abs"
+        },
+        {
+          "name": "Cast iron",
+          "handle": "suitable-for-pipe-type__cast-iron"
+        },
+        {
+          "name": "Chlorinated polyvinyl chloride (CPVC)",
+          "handle": "suitable-for-pipe-type__chlorinated-polyvinyl-chloride-cpvc"
+        },
+        {
+          "name": "Copper",
+          "handle": "suitable-for-pipe-type__copper"
+        },
+        {
+          "name": "Galvanized steel",
+          "handle": "suitable-for-pipe-type__galvanized-steel"
+        },
+        {
+          "name": "Multilayer",
+          "handle": "suitable-for-pipe-type__multilayer"
+        },
+        {
+          "name": "PEX",
+          "handle": "suitable-for-pipe-type__pex"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "suitable-for-pipe-type__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "suitable-for-pipe-type__stainless-steel"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-pipe-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2133",
+      "name": "Suitable for water feature type",
+      "handle": "suitable-for-water-feature-type",
+      "description": "Identifies the type of water feature the product is suitable for, such as a pond or fountain",
+      "values": [
+        {
+          "name": "Drainage",
+          "handle": "suitable-for-water-feature-type__drainage"
+        },
+        {
+          "name": "Fountain",
+          "handle": "suitable-for-water-feature-type__fountain"
+        },
+        {
+          "name": "Garden",
+          "handle": "suitable-for-water-feature-type__garden"
+        },
+        {
+          "name": "Irrigation system",
+          "handle": "suitable-for-water-feature-type__irrigation-system"
+        },
+        {
+          "name": "Pond",
+          "handle": "suitable-for-water-feature-type__pond"
+        },
+        {
+          "name": "Water purification system",
+          "handle": "suitable-for-water-feature-type__water-purification-system"
+        },
+        {
+          "name": "Water supply system",
+          "handle": "suitable-for-water-feature-type__water-supply-system"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-water-feature-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2111",
+      "name": "Sulfur content",
+      "handle": "sulfur-content",
+      "description": "Specifies the sulfur concentration in home heating oil, e.g. ultra-low or high",
+      "values": [
+        {
+          "name": "High",
+          "handle": "sulfur-content__high"
+        },
+        {
+          "name": "Low",
+          "handle": "sulfur-content__low"
+        },
+        {
+          "name": "Ultra-low",
+          "handle": "sulfur-content__ultra-low"
+        },
+        {
+          "name": "Other",
+          "handle": "sulfur-content__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2168",
+      "name": "Switch control type",
+      "handle": "switch-control-type",
+      "description": "Describes how a light switch is controlled, such as button or sensor",
+      "values": [
+        {
+          "name": "Button",
+          "handle": "switch-control-type__button"
+        },
+        {
+          "name": "Lever",
+          "handle": "switch-control-type__lever"
+        },
+        {
+          "name": "Rotary",
+          "handle": "switch-control-type__rotary"
+        },
+        {
+          "name": "Scrollbar",
+          "handle": "switch-control-type__scrollbar"
+        },
+        {
+          "name": "Sensor",
+          "handle": "switch-control-type__sensor"
+        },
+        {
+          "name": "Slider",
+          "handle": "switch-control-type__slider"
+        },
+        {
+          "name": "Tilt",
+          "handle": "switch-control-type__tilt"
+        },
+        {
+          "name": "Touch",
+          "handle": "switch-control-type__touch"
+        },
+        {
+          "name": "Other",
+          "handle": "switch-control-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2199",
+      "name": "System of measurement",
+      "handle": "system-of-measurement",
+      "description": "Identifies the unit of measurement used in a product, such as imperial or metric",
+      "values": [
+        {
+          "name": "Imperial",
+          "handle": "system-of-measurement__imperial"
+        },
+        {
+          "name": "Metric",
+          "handle": "system-of-measurement__metric"
+        },
+        {
+          "name": "Other",
+          "handle": "system-of-measurement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2204",
+      "name": "Thermal detector type",
+      "handle": "thermal-detector-type",
+      "description": "Specifies the technology used for thermal detection in devices, such as Amorphous silicon (a Si) detector",
+      "values": [
+        {
+          "name": "Amorphous silicon (a Si) detector",
+          "handle": "thermal-detector-type__amorphous-silicon-a-si-detector"
+        },
+        {
+          "name": "Indium antimonide (InSb) detector",
+          "handle": "thermal-detector-type__indium-antimonide-insb-detector"
+        },
+        {
+          "name": "Mercury cadmium telluride (MCT) detector",
+          "handle": "thermal-detector-type__mercury-cadmium-telluride-mct-detector"
+        },
+        {
+          "name": "Microbolometer",
+          "handle": "thermal-detector-type__microbolometer"
+        },
+        {
+          "name": "QWIP",
+          "handle": "thermal-detector-type__qwip"
+        },
+        {
+          "name": "VOx detector",
+          "handle": "thermal-detector-type__vox-detector"
+        },
+        {
+          "name": "Other",
+          "handle": "thermal-detector-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2205",
+      "name": "Thermocouple type",
+      "handle": "thermocouple-type",
+      "description": "Specifies the thermocouple category in sensors, e.g. Type J, Type S",
+      "values": [
+        {
+          "name": "Type B",
+          "handle": "thermocouple-type__type-b"
+        },
+        {
+          "name": "Type E",
+          "handle": "thermocouple-type__type-e"
+        },
+        {
+          "name": "Type J",
+          "handle": "thermocouple-type__type-j"
+        },
+        {
+          "name": "Type K",
+          "handle": "thermocouple-type__type-k"
+        },
+        {
+          "name": "Type N",
+          "handle": "thermocouple-type__type-n"
+        },
+        {
+          "name": "Type R",
+          "handle": "thermocouple-type__type-r"
+        },
+        {
+          "name": "Type S",
+          "handle": "thermocouple-type__type-s"
+        },
+        {
+          "name": "Type T",
+          "handle": "thermocouple-type__type-t"
+        },
+        {
+          "name": "Other",
+          "handle": "thermocouple-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2126",
+      "name": "Thread direction",
+      "handle": "thread-direction",
+      "description": "Identifies the direction of thread on hardware items, like left-hand or right-hand",
+      "values": [
+        {
+          "name": "Left-hand",
+          "handle": "thread-direction__left-hand"
+        },
+        {
+          "name": "Right-hand",
+          "handle": "thread-direction__right-hand"
+        },
+        {
+          "name": "Other",
+          "handle": "thread-direction__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2127",
+      "name": "Threaded rod size",
+      "handle": "threaded-rod-size",
+      "description": "Specifies the diameter of a threaded rod, e.g. M10, M20",
+      "values": [
+        {
+          "name": "M1.6",
+          "handle": "threaded-rod-size__m1-6"
+        },
+        {
+          "name": "M2",
+          "handle": "threaded-rod-size__m2"
+        },
+        {
+          "name": "M2.5",
+          "handle": "threaded-rod-size__m2-5"
+        },
+        {
+          "name": "M3",
+          "handle": "threaded-rod-size__m3"
+        },
+        {
+          "name": "M4",
+          "handle": "threaded-rod-size__m4"
+        },
+        {
+          "name": "M5",
+          "handle": "threaded-rod-size__m5"
+        },
+        {
+          "name": "M6",
+          "handle": "threaded-rod-size__m6"
+        },
+        {
+          "name": "M8",
+          "handle": "threaded-rod-size__m8"
+        },
+        {
+          "name": "M10",
+          "handle": "threaded-rod-size__m10"
+        },
+        {
+          "name": "M12",
+          "handle": "threaded-rod-size__m12"
+        },
+        {
+          "name": "M14",
+          "handle": "threaded-rod-size__m14"
+        },
+        {
+          "name": "M16",
+          "handle": "threaded-rod-size__m16"
+        },
+        {
+          "name": "M18",
+          "handle": "threaded-rod-size__m18"
+        },
+        {
+          "name": "M20",
+          "handle": "threaded-rod-size__m20"
+        },
+        {
+          "name": "M22",
+          "handle": "threaded-rod-size__m22"
+        },
+        {
+          "name": "M24",
+          "handle": "threaded-rod-size__m24"
+        },
+        {
+          "name": "M27",
+          "handle": "threaded-rod-size__m27"
+        },
+        {
+          "name": "M30",
+          "handle": "threaded-rod-size__m30"
+        },
+        {
+          "name": "M33",
+          "handle": "threaded-rod-size__m33"
+        },
+        {
+          "name": "M36",
+          "handle": "threaded-rod-size__m36"
+        },
+        {
+          "name": "M39",
+          "handle": "threaded-rod-size__m39"
+        },
+        {
+          "name": "M42",
+          "handle": "threaded-rod-size__m42"
+        },
+        {
+          "name": "M45",
+          "handle": "threaded-rod-size__m45"
+        },
+        {
+          "name": "M48",
+          "handle": "threaded-rod-size__m48"
+        },
+        {
+          "name": "M52",
+          "handle": "threaded-rod-size__m52"
+        },
+        {
+          "name": "M56",
+          "handle": "threaded-rod-size__m56"
+        },
+        {
+          "name": "M60",
+          "handle": "threaded-rod-size__m60"
+        },
+        {
+          "name": "M64",
+          "handle": "threaded-rod-size__m64"
+        },
+        {
+          "name": "Other",
+          "handle": "threaded-rod-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2101",
+      "name": "Tile design",
+      "handle": "tile-design",
+      "description": "Describes the pattern or style of a tile, such as geometric or herringbone",
+      "values": [
+        {
+          "name": "Acoustic",
+          "handle": "tile-design__acoustic"
+        },
+        {
+          "name": "Arabesque",
+          "handle": "tile-design__arabesque"
+        },
+        {
+          "name": "Basketweave",
+          "handle": "tile-design__basketweave"
+        },
+        {
+          "name": "Chevron",
+          "handle": "tile-design__chevron"
+        },
+        {
+          "name": "Fish scale",
+          "handle": "tile-design__fish-scale"
+        },
+        {
+          "name": "Geometric",
+          "handle": "tile-design__geometric"
+        },
+        {
+          "name": "Herringbone",
+          "handle": "tile-design__herringbone"
+        },
+        {
+          "name": "Hexagonal",
+          "handle": "tile-design__hexagonal"
+        },
+        {
+          "name": "Mosaic",
+          "handle": "tile-design__mosaic"
+        },
+        {
+          "name": "Spanish",
+          "handle": "tile-design__spanish"
+        },
+        {
+          "name": "Subway",
+          "handle": "tile-design__subway"
+        },
+        {
+          "name": "Other",
+          "handle": "tile-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3324",
+      "name": "Tile installation method",
+      "handle": "tile-installation-method",
+      "description": "Describes how a product is installed, typically ceiling or wall tiles; e.g. lay-in installation",
+      "values": [
+        {
+          "name": "Lay-in installation",
+          "handle": "tile-installation-method__lay-in-installation"
+        },
+        {
+          "name": "Surface mount",
+          "handle": "tile-installation-method__surface-mount"
+        },
+        {
+          "name": "Other",
+          "handle": "tile-installation-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2102",
+      "name": "Tile look",
+      "handle": "tile-look",
+      "description": "Describes the appearance or style of a tile, such as marble or 3D",
+      "values": [
+        {
+          "name": "3D",
+          "handle": "tile-look__3d"
+        },
+        {
+          "name": "Cement",
+          "handle": "tile-look__cement"
+        },
+        {
+          "name": "Glass",
+          "handle": "tile-look__glass"
+        },
+        {
+          "name": "Marble",
+          "handle": "tile-look__marble"
+        },
+        {
+          "name": "Metal",
+          "handle": "tile-look__metal"
+        },
+        {
+          "name": "Stone",
+          "handle": "tile-look__stone"
+        },
+        {
+          "name": "Wood",
+          "handle": "tile-look__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "tile-look__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2918",
+      "name": "Tile material",
+      "handle": "tile-material",
+      "description": "Identifies the composition of tiles, such as ceramic or stone",
+      "values": [
+        {
+          "name": "Acoustic materials",
+          "handle": "tile-material__acoustic-materials"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "tile-material__ceramic"
+        },
+        {
+          "name": "Glass",
+          "handle": "tile-material__glass"
+        },
+        {
+          "name": "Gypsum",
+          "handle": "tile-material__gypsum"
+        },
+        {
+          "name": "Metal",
+          "handle": "tile-material__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "tile-material__plastic"
+        },
+        {
+          "name": "Stone",
+          "handle": "tile-material__stone"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "tile-material__vinyl"
+        },
+        {
+          "name": "Wood",
+          "handle": "tile-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "tile-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2103",
+      "name": "Tile texture",
+      "handle": "tile-texture",
+      "description": "Describes the surface feel of a tile, such as smooth or textured",
+      "values": [
+        {
+          "name": "Acoustic",
+          "handle": "tile-texture__acoustic"
+        },
+        {
+          "name": "Coffered",
+          "handle": "tile-texture__coffered"
+        },
+        {
+          "name": "Fissured",
+          "handle": "tile-texture__fissured"
+        },
+        {
+          "name": "Glue-up",
+          "handle": "tile-texture__glue-up"
+        },
+        {
+          "name": "Sand",
+          "handle": "tile-texture__sand"
+        },
+        {
+          "name": "Smooth",
+          "handle": "tile-texture__smooth"
+        },
+        {
+          "name": "Textured",
+          "handle": "tile-texture__textured"
+        },
+        {
+          "name": "Other",
+          "handle": "tile-texture__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2202",
+      "name": "Time weighting",
+      "handle": "time-weighting",
+      "description": "Used to specify how quickly a sound meter responds to sound fluctuations, e.g. slow, fast",
+      "values": [
+        {
+          "name": "Fast",
+          "handle": "time-weighting__fast"
+        },
+        {
+          "name": "Impulse",
+          "handle": "time-weighting__impulse"
+        },
+        {
+          "name": "Slow",
+          "handle": "time-weighting__slow"
+        },
+        {
+          "name": "Other",
+          "handle": "time-weighting__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2149",
+      "name": "Toilet cover design",
+      "handle": "toilet-cover-design",
+      "description": "Describes the shape of toilet covers, such as round or elongated",
+      "values": [
+        {
+          "name": "Elongated",
+          "handle": "toilet-cover-design__elongated"
+        },
+        {
+          "name": "Round",
+          "handle": "toilet-cover-design__round"
+        },
+        {
+          "name": "Other",
+          "handle": "toilet-cover-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3116",
+      "name": "Toilet cover features",
+      "handle": "toilet-cover-features",
+      "description": "Describes the special characteristics of a toilet cover, like quick release or soft-close",
+      "values": [
+        {
+          "name": "Quick release",
+          "handle": "toilet-cover-features__quick-release"
+        },
+        {
+          "name": "Soft-close",
+          "handle": "toilet-cover-features__soft-close"
+        },
+        {
+          "name": "Standard closing",
+          "handle": "toilet-cover-features__standard-closing"
+        },
+        {
+          "name": "Other",
+          "handle": "toilet-cover-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2159",
+      "name": "Toilet shape",
+      "handle": "toilet-shape",
+      "description": "Describes the form of a toilet, such as round or rectangular",
+      "values": [
+        {
+          "name": "Elongated",
+          "handle": "toilet-shape__elongated"
+        },
+        {
+          "name": "Rectangular",
+          "handle": "toilet-shape__rectangular"
+        },
+        {
+          "name": "Round",
+          "handle": "toilet-shape__round"
+        },
+        {
+          "name": "Other",
+          "handle": "toilet-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2961",
+      "name": "Toilet/Bidet mounting type",
+      "handle": "toilet-bidet-mounting-type",
+      "description": "Identifies how a toilet or bidet is installed, such as floor-mounted or wall-mounted",
+      "values": [
+        {
+          "name": "Floor-mounted",
+          "handle": "toilet-bidet-mounting-type__floor-mounted"
+        },
+        {
+          "name": "Wall-mounted",
+          "handle": "toilet-bidet-mounting-type__wall-mounted"
+        },
+        {
+          "name": "Other",
+          "handle": "toilet-bidet-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2108",
+      "name": "Trellis design",
+      "handle": "trellis-design",
+      "description": "Identifies the design of lattice in fencing or barriers, e.g. square, diamond",
+      "values": [
+        {
+          "name": "Diamond",
+          "handle": "trellis-design__diamond"
+        },
+        {
+          "name": "Square",
+          "handle": "trellis-design__square"
+        },
+        {
+          "name": "Other",
+          "handle": "trellis-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2166",
+      "name": "Trip type",
+      "handle": "trip-type",
+      "description": "Specifies the type of trip in a circuit breaker, e.g. non-interchangeable",
+      "values": [
+        {
+          "name": "Interchangeable",
+          "handle": "trip-type__interchangeable"
+        },
+        {
+          "name": "Non-interchangeable",
+          "handle": "trip-type__non-interchangeable"
+        },
+        {
+          "name": "Other",
+          "handle": "trip-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2067",
+      "name": "Varnish/Finish application",
+      "handle": "varnish-finish-application",
+      "description": "Specifies the suitable application areas for a varnish or finish, such as walls or doors",
+      "values": [
+        {
+          "name": "Baseboard",
+          "handle": "varnish-finish-application__baseboard"
+        },
+        {
+          "name": "Bathtubs",
+          "handle": "varnish-finish-application__bathtubs"
+        },
+        {
+          "name": "Ceiling",
+          "handle": "varnish-finish-application__ceiling"
+        },
+        {
+          "name": "Cooker hoods",
+          "handle": "varnish-finish-application__cooker-hoods"
+        },
+        {
+          "name": "Doors",
+          "handle": "varnish-finish-application__doors"
+        },
+        {
+          "name": "Facades",
+          "handle": "varnish-finish-application__facades"
+        },
+        {
+          "name": "Fences",
+          "handle": "varnish-finish-application__fences"
+        },
+        {
+          "name": "Frames",
+          "handle": "varnish-finish-application__frames"
+        },
+        {
+          "name": "Furniture",
+          "handle": "varnish-finish-application__furniture"
+        },
+        {
+          "name": "Garden furniture",
+          "handle": "varnish-finish-application__garden-furniture"
+        },
+        {
+          "name": "Gates",
+          "handle": "varnish-finish-application__gates"
+        },
+        {
+          "name": "Grills",
+          "handle": "varnish-finish-application__grills"
+        },
+        {
+          "name": "Pipes",
+          "handle": "varnish-finish-application__pipes"
+        },
+        {
+          "name": "Radiators",
+          "handle": "varnish-finish-application__radiators"
+        },
+        {
+          "name": "Roofs",
+          "handle": "varnish-finish-application__roofs"
+        },
+        {
+          "name": "Stairs",
+          "handle": "varnish-finish-application__stairs"
+        },
+        {
+          "name": "Trims",
+          "handle": "varnish-finish-application__trims"
+        },
+        {
+          "name": "Universal",
+          "handle": "varnish-finish-application__universal"
+        },
+        {
+          "name": "Walls",
+          "handle": "varnish-finish-application__walls"
+        },
+        {
+          "name": "Window shutters",
+          "handle": "varnish-finish-application__window-shutters"
+        },
+        {
+          "name": "Windows",
+          "handle": "varnish-finish-application__windows"
+        },
+        {
+          "name": "Other",
+          "handle": "varnish-finish-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2077",
+      "name": "Wall patching application",
+      "handle": "wall-patching-application",
+      "description": "Identifies the suitable surface for a patching compound, like wood or plaster",
+      "values": [
+        {
+          "name": "Ceiling",
+          "handle": "wall-patching-application__ceiling"
+        },
+        {
+          "name": "Drywall",
+          "handle": "wall-patching-application__drywall"
+        },
+        {
+          "name": "Masonry",
+          "handle": "wall-patching-application__masonry"
+        },
+        {
+          "name": "Plaster",
+          "handle": "wall-patching-application__plaster"
+        },
+        {
+          "name": "Stucco",
+          "handle": "wall-patching-application__stucco"
+        },
+        {
+          "name": "Wood",
+          "handle": "wall-patching-application__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "wall-patching-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2174",
+      "name": "Wall plate style",
+      "handle": "wall-plate-style",
+      "description": "Describes the design of wall plates or covers, like conventional or screwless",
+      "values": [
+        {
+          "name": "Conventional",
+          "handle": "wall-plate-style__conventional"
+        },
+        {
+          "name": "Screwless",
+          "handle": "wall-plate-style__screwless"
+        },
+        {
+          "name": "Other",
+          "handle": "wall-plate-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2128",
+      "name": "Washer form",
+      "handle": "washer-form",
+      "description": "Describes the specific type of washer in hardware accessories, like flat or spring",
+      "values": [
+        {
+          "name": "Disc lock",
+          "handle": "washer-form__disc-lock"
+        },
+        {
+          "name": "Fender",
+          "handle": "washer-form__fender"
+        },
+        {
+          "name": "Flat",
+          "handle": "washer-form__flat"
+        },
+        {
+          "name": "Lock washer",
+          "handle": "washer-form__lock-washer"
+        },
+        {
+          "name": "Nordlock",
+          "handle": "washer-form__nordlock"
+        },
+        {
+          "name": "Red fiber",
+          "handle": "washer-form__red-fiber"
+        },
+        {
+          "name": "Safety",
+          "handle": "washer-form__safety"
+        },
+        {
+          "name": "Serrated shake proof",
+          "handle": "washer-form__serrated-shake-proof"
+        },
+        {
+          "name": "Spring",
+          "handle": "washer-form__spring"
+        },
+        {
+          "name": "Square plate",
+          "handle": "washer-form__square-plate"
+        },
+        {
+          "name": "Starlock",
+          "handle": "washer-form__starlock"
+        },
+        {
+          "name": "Tab",
+          "handle": "washer-form__tab"
+        },
+        {
+          "name": "Taper",
+          "handle": "washer-form__taper"
+        },
+        {
+          "name": "Other",
+          "handle": "washer-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2105",
+      "name": "Weather strip design",
+      "handle": "weather-strip-design",
+      "description": "Describes the shape of weather stripping materials, like round or flat",
+      "values": [
+        {
+          "name": "Flat",
+          "handle": "weather-strip-design__flat"
+        },
+        {
+          "name": "Round",
+          "handle": "weather-strip-design__round"
+        },
+        {
+          "name": "Other",
+          "handle": "weather-strip-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3325",
+      "name": "Weather supply application method",
+      "handle": "weather-supply-application-method",
+      "description": "Describes how weatherization supplies are applied, like self-adhesive or non-adhesive",
+      "values": [
+        {
+          "name": "Non-adhesive",
+          "handle": "weather-supply-application-method__non-adhesive"
+        },
+        {
+          "name": "Self-adhesive",
+          "handle": "weather-supply-application-method__self-adhesive"
+        },
+        {
+          "name": "Other",
+          "handle": "weather-supply-application-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2104",
+      "name": "Weatherization application",
+      "handle": "weatherization-application",
+      "description": "Identifies where a weatherization product is applied, such as windows or doors",
+      "values": [
+        {
+          "name": "Doors",
+          "handle": "weatherization-application__doors"
+        },
+        {
+          "name": "Windows",
+          "handle": "weatherization-application__windows"
+        },
+        {
+          "name": "Other",
+          "handle": "weatherization-application__other"
+        }
+      ]
+    }
+  ]
+}

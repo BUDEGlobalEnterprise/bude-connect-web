@@ -1,0 +1,222 @@
+{
+  "version": "2026-02-unstable",
+  "generated": "2026-01-28T19:02:51.536Z",
+  "stats": {
+    "totalAttributes": 2679,
+    "totalCategories": 11627,
+    "verticals": [
+      {
+        "prefix": "ap",
+        "name": "Animals & Pet Supplies",
+        "categoryCount": 418,
+        "attributeCount": 94
+      },
+      {
+        "prefix": "aa",
+        "name": "Apparel & Accessories",
+        "categoryCount": 464,
+        "attributeCount": 112
+      },
+      {
+        "prefix": "ae",
+        "name": "Arts & Entertainment",
+        "categoryCount": 1220,
+        "attributeCount": 356
+      },
+      {
+        "prefix": "bt",
+        "name": "Baby & Toddler",
+        "categoryCount": 252,
+        "attributeCount": 127
+      },
+      {
+        "prefix": "bu",
+        "name": "Bundles",
+        "categoryCount": 1,
+        "attributeCount": 0
+      },
+      {
+        "prefix": "bi",
+        "name": "Business & Industrial",
+        "categoryCount": 593,
+        "attributeCount": 178
+      },
+      {
+        "prefix": "co",
+        "name": "Cameras & Optics",
+        "categoryCount": 212,
+        "attributeCount": 110
+      },
+      {
+        "prefix": "el",
+        "name": "Electronics",
+        "categoryCount": 1175,
+        "attributeCount": 741
+      },
+      {
+        "prefix": "fb",
+        "name": "Food, Beverages & Tobacco",
+        "categoryCount": 441,
+        "attributeCount": 71
+      },
+      {
+        "prefix": "fr",
+        "name": "Furniture",
+        "categoryCount": 355,
+        "attributeCount": 48
+      },
+      {
+        "prefix": "gc",
+        "name": "Gift Cards",
+        "categoryCount": 1,
+        "attributeCount": 0
+      },
+      {
+        "prefix": "ha",
+        "name": "Hardware",
+        "categoryCount": 1122,
+        "attributeCount": 211
+      },
+      {
+        "prefix": "hb",
+        "name": "Health & Beauty",
+        "categoryCount": 898,
+        "attributeCount": 637
+      },
+      {
+        "prefix": "hg",
+        "name": "Home & Garden",
+        "categoryCount": 2301,
+        "attributeCount": 217
+      },
+      {
+        "prefix": "lb",
+        "name": "Luggage & Bags",
+        "categoryCount": 36,
+        "attributeCount": 26
+      },
+      {
+        "prefix": "ma",
+        "name": "Mature",
+        "categoryCount": 37,
+        "attributeCount": 9
+      },
+      {
+        "prefix": "me",
+        "name": "Media",
+        "categoryCount": 33,
+        "attributeCount": 23
+      },
+      {
+        "prefix": "os",
+        "name": "Office Supplies",
+        "categoryCount": 243,
+        "attributeCount": 100
+      },
+      {
+        "prefix": "pa",
+        "name": "Product Add-Ons",
+        "categoryCount": 8,
+        "attributeCount": 0
+      },
+      {
+        "prefix": "rc",
+        "name": "Religious & Ceremonial",
+        "categoryCount": 13,
+        "attributeCount": 3
+      },
+      {
+        "prefix": "se",
+        "name": "Services",
+        "categoryCount": 55,
+        "attributeCount": 6
+      },
+      {
+        "prefix": "so",
+        "name": "Software",
+        "categoryCount": 45,
+        "attributeCount": 48
+      },
+      {
+        "prefix": "sg",
+        "name": "Sporting Goods",
+        "categoryCount": 1596,
+        "attributeCount": 238
+      },
+      {
+        "prefix": "tg",
+        "name": "Toys & Games",
+        "categoryCount": 247,
+        "attributeCount": 60
+      },
+      {
+        "prefix": "na",
+        "name": "Uncategorized",
+        "categoryCount": 1,
+        "attributeCount": 0
+      },
+      {
+        "prefix": "vp",
+        "name": "Vehicles & Parts",
+        "categoryCount": 605,
+        "attributeCount": 171
+      }
+    ],
+    "sharedAttributeCount": 359
+  },
+  "files": {
+    "categoryMappings": [
+      "ap-category-map.json",
+      "aa-category-map.json",
+      "ae-category-map.json",
+      "bt-category-map.json",
+      "bu-category-map.json",
+      "bi-category-map.json",
+      "co-category-map.json",
+      "el-category-map.json",
+      "fb-category-map.json",
+      "fr-category-map.json",
+      "gc-category-map.json",
+      "ha-category-map.json",
+      "hb-category-map.json",
+      "hg-category-map.json",
+      "lb-category-map.json",
+      "ma-category-map.json",
+      "me-category-map.json",
+      "os-category-map.json",
+      "pa-category-map.json",
+      "rc-category-map.json",
+      "se-category-map.json",
+      "so-category-map.json",
+      "sg-category-map.json",
+      "tg-category-map.json",
+      "na-category-map.json",
+      "vp-category-map.json"
+    ],
+    "attributeDefinitions": [
+      "shared-attributes.json",
+      "el-attributes.json",
+      "so-attributes.json",
+      "vp-attributes.json",
+      "fb-attributes.json",
+      "me-attributes.json",
+      "ae-attributes.json",
+      "hb-attributes.json",
+      "aa-attributes.json",
+      "hg-attributes.json",
+      "sg-attributes.json",
+      "ha-attributes.json",
+      "ap-attributes.json",
+      "os-attributes.json",
+      "co-attributes.json",
+      "bi-attributes.json",
+      "bt-attributes.json",
+      "fr-attributes.json",
+      "tg-attributes.json",
+      "lb-attributes.json",
+      "se-attributes.json"
+    ],
+    "index": "attribute-index.json",
+    "combinedMap": "category-attributes-map.json"
+  }
+}

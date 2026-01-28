@@ -1,0 +1,1988 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2980",
+      "name": "Aquarium filter features",
+      "handle": "aquarium-filter-features",
+      "description": "Describes special features of aquarium filters, e.g. quick cartridge change, multi-stage filtration",
+      "values": [
+        {
+          "name": "Adjustable flow rate",
+          "handle": "aquarium-filter-features__adjustable-flow-rate"
+        },
+        {
+          "name": "Compact design",
+          "handle": "aquarium-filter-features__compact-design"
+        },
+        {
+          "name": "Media included",
+          "handle": "aquarium-filter-features__media-included"
+        },
+        {
+          "name": "Multi-stage filtration",
+          "handle": "aquarium-filter-features__multi-stage-filtration"
+        },
+        {
+          "name": "Quick cartridge change",
+          "handle": "aquarium-filter-features__quick-cartridge-change"
+        },
+        {
+          "name": "Quiet operation",
+          "handle": "aquarium-filter-features__quiet-operation"
+        },
+        {
+          "name": "Self-priming",
+          "handle": "aquarium-filter-features__self-priming"
+        },
+        {
+          "name": "Other",
+          "handle": "aquarium-filter-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1708",
+      "name": "Aquarium light spectrum",
+      "handle": "aquarium-light-spectrum",
+      "description": "Specifies the type of light spectrum for aquarium lighting, e.g. blue, daylight",
+      "values": [
+        {
+          "name": "Blue (actinic)",
+          "handle": "aquarium-light-spectrum__blue-actinic"
+        },
+        {
+          "name": "Daylight full spectrum",
+          "handle": "aquarium-light-spectrum__daylight-full-spectrum"
+        },
+        {
+          "name": "Moonlight nocturnal",
+          "handle": "aquarium-light-spectrum__moonlight-nocturnal"
+        },
+        {
+          "name": "Multi-color RGB",
+          "handle": "aquarium-light-spectrum__multi-color-rgb"
+        },
+        {
+          "name": "Other",
+          "handle": "aquarium-light-spectrum__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3228",
+      "name": "Aquarium overflow box design",
+      "handle": "aquarium-overflow-box-design",
+      "description": "Describes the setup style of an aquarium overflow box, such as external or hang-on",
+      "values": [
+        {
+          "name": "External",
+          "handle": "aquarium-overflow-box-design__external"
+        },
+        {
+          "name": "Hang-on",
+          "handle": "aquarium-overflow-box-design__hang-on"
+        },
+        {
+          "name": "Internal",
+          "handle": "aquarium-overflow-box-design__internal"
+        },
+        {
+          "name": "Other",
+          "handle": "aquarium-overflow-box-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3218",
+      "name": "Bird cage/stand design",
+      "handle": "bird-cage-stand-design",
+      "description": "Identifies the style of bird cage or stand, e.g. dometop cage, wheeled stand",
+      "values": [
+        {
+          "name": "Aviary cage",
+          "handle": "bird-cage-stand-design__aviary-cage"
+        },
+        {
+          "name": "Breeding cage",
+          "handle": "bird-cage-stand-design__breeding-cage"
+        },
+        {
+          "name": "Canary cage",
+          "handle": "bird-cage-stand-design__canary-cage"
+        },
+        {
+          "name": "Cockatiel cage",
+          "handle": "bird-cage-stand-design__cockatiel-cage"
+        },
+        {
+          "name": "Dometop cage",
+          "handle": "bird-cage-stand-design__dometop-cage"
+        },
+        {
+          "name": "Hanging stand",
+          "handle": "bird-cage-stand-design__hanging-stand"
+        },
+        {
+          "name": "Macaw cage",
+          "handle": "bird-cage-stand-design__macaw-cage"
+        },
+        {
+          "name": "Multi-level stand",
+          "handle": "bird-cage-stand-design__multi-level-stand"
+        },
+        {
+          "name": "Parrot cage",
+          "handle": "bird-cage-stand-design__parrot-cage"
+        },
+        {
+          "name": "Playtop cage",
+          "handle": "bird-cage-stand-design__playtop-cage"
+        },
+        {
+          "name": "Shelf stand",
+          "handle": "bird-cage-stand-design__shelf-stand"
+        },
+        {
+          "name": "Standard cage",
+          "handle": "bird-cage-stand-design__standard-cage"
+        },
+        {
+          "name": "Tabletop stand",
+          "handle": "bird-cage-stand-design__tabletop-stand"
+        },
+        {
+          "name": "Travel cage",
+          "handle": "bird-cage-stand-design__travel-cage"
+        },
+        {
+          "name": "Wheeled stand",
+          "handle": "bird-cage-stand-design__wheeled-stand"
+        },
+        {
+          "name": "Other",
+          "handle": "bird-cage-stand-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3219",
+      "name": "Bird food form",
+      "handle": "bird-food-form",
+      "description": "Describes the physical form of bird food, such as seeds or pellets",
+      "values": [
+        {
+          "name": "Crumbles",
+          "handle": "bird-food-form__crumbles"
+        },
+        {
+          "name": "Nectar",
+          "handle": "bird-food-form__nectar"
+        },
+        {
+          "name": "Pellets",
+          "handle": "bird-food-form__pellets"
+        },
+        {
+          "name": "Seeds",
+          "handle": "bird-food-form__seeds"
+        },
+        {
+          "name": "Other",
+          "handle": "bird-food-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3220",
+      "name": "Bird food ingredients",
+      "handle": "bird-food-ingredients",
+      "description": "Specifies the type of ingredients in bird feed, such as worms or sunflower seeds",
+      "values": [
+        {
+          "name": "Corn",
+          "handle": "bird-food-ingredients__corn"
+        },
+        {
+          "name": "Fruits",
+          "handle": "bird-food-ingredients__fruits"
+        },
+        {
+          "name": "Millet",
+          "handle": "bird-food-ingredients__millet"
+        },
+        {
+          "name": "Soybean meal",
+          "handle": "bird-food-ingredients__soybean-meal"
+        },
+        {
+          "name": "Sunflower seeds",
+          "handle": "bird-food-ingredients__sunflower-seeds"
+        },
+        {
+          "name": "Worms",
+          "handle": "bird-food-ingredients__worms"
+        },
+        {
+          "name": "Other",
+          "handle": "bird-food-ingredients__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3221",
+      "name": "Bird treat type",
+      "handle": "bird-treat-type",
+      "description": "Identifies the category of bird treats, such as biscuits or fruit",
+      "values": [
+        {
+          "name": "Bakery",
+          "handle": "bird-treat-type__bakery"
+        },
+        {
+          "name": "Biscuits",
+          "handle": "bird-treat-type__biscuits"
+        },
+        {
+          "name": "Conditioning",
+          "handle": "bird-treat-type__conditioning"
+        },
+        {
+          "name": "Cuttlebone",
+          "handle": "bird-treat-type__cuttlebone"
+        },
+        {
+          "name": "Egg",
+          "handle": "bird-treat-type__egg"
+        },
+        {
+          "name": "Fruit",
+          "handle": "bird-treat-type__fruit"
+        },
+        {
+          "name": "Grit",
+          "handle": "bird-treat-type__grit"
+        },
+        {
+          "name": "Honey sticks",
+          "handle": "bird-treat-type__honey-sticks"
+        },
+        {
+          "name": "Mineral block",
+          "handle": "bird-treat-type__mineral-block"
+        },
+        {
+          "name": "Nectar",
+          "handle": "bird-treat-type__nectar"
+        },
+        {
+          "name": "Nuts",
+          "handle": "bird-treat-type__nuts"
+        },
+        {
+          "name": "Pellets",
+          "handle": "bird-treat-type__pellets"
+        },
+        {
+          "name": "Pollen",
+          "handle": "bird-treat-type__pollen"
+        },
+        {
+          "name": "Vegetables",
+          "handle": "bird-treat-type__vegetables"
+        },
+        {
+          "name": "Other",
+          "handle": "bird-treat-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1699",
+      "name": "Cat age group",
+      "handle": "cat-age-group",
+      "description": "Defines products suitable for specific cat life stages, e.g. kitten, senior",
+      "values": [
+        {
+          "name": "Adult",
+          "handle": "cat-age-group__adult"
+        },
+        {
+          "name": "Kitten",
+          "handle": "cat-age-group__kitten"
+        },
+        {
+          "name": "Senior",
+          "handle": "cat-age-group__senior"
+        },
+        {
+          "name": "Other",
+          "handle": "cat-age-group__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1702",
+      "name": "Cat litter formula",
+      "handle": "cat-litter-formula",
+      "description": "Defines the composition of cat litter, like granules or clay",
+      "values": [
+        {
+          "name": "Clay",
+          "handle": "cat-litter-formula__clay"
+        },
+        {
+          "name": "Crystals",
+          "handle": "cat-litter-formula__crystals"
+        },
+        {
+          "name": "Granules",
+          "handle": "cat-litter-formula__granules"
+        },
+        {
+          "name": "Wood pellets",
+          "handle": "cat-litter-formula__wood-pellets"
+        },
+        {
+          "name": "Other",
+          "handle": "cat-litter-formula__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1705",
+      "name": "Compatible aquarium",
+      "handle": "compatible-aquarium",
+      "description": "Specifies which aquarium types a product is suitable for, e.g. all aquariums, saltwater",
+      "values": [
+        {
+          "name": "All aquarium types",
+          "handle": "compatible-aquarium__all-aquarium-types"
+        },
+        {
+          "name": "Freshwater aquariums",
+          "handle": "compatible-aquarium__freshwater-aquariums"
+        },
+        {
+          "name": "Saltwater aquariums",
+          "handle": "compatible-aquarium__saltwater-aquariums"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-aquarium__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1703",
+      "name": "Dog age group",
+      "handle": "dog-age-group",
+      "description": "Helps sort dog supplies according to the dog's life stage, e.g. puppy, senior",
+      "values": [
+        {
+          "name": "Adult",
+          "handle": "dog-age-group__adult"
+        },
+        {
+          "name": "Junior",
+          "handle": "dog-age-group__junior"
+        },
+        {
+          "name": "Puppy",
+          "handle": "dog-age-group__puppy"
+        },
+        {
+          "name": "Senior",
+          "handle": "dog-age-group__senior"
+        },
+        {
+          "name": "Other",
+          "handle": "dog-age-group__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3225",
+      "name": "Dog diaper type",
+      "handle": "dog-diaper-type",
+      "description": "Identifies the specific type of dog diaper, e.g. female adult, puppy",
+      "values": [
+        {
+          "name": "Female adult",
+          "handle": "dog-diaper-type__female-adult"
+        },
+        {
+          "name": "Male adult",
+          "handle": "dog-diaper-type__male-adult"
+        },
+        {
+          "name": "Puppy",
+          "handle": "dog-diaper-type__puppy"
+        },
+        {
+          "name": "Other",
+          "handle": "dog-diaper-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3226",
+      "name": "Dog toy type",
+      "handle": "dog-toy-type",
+      "description": "Classifies the type of dog toy, such as plush or squeaky",
+      "values": [
+        {
+          "name": "Aggressive chewer",
+          "handle": "dog-toy-type__aggressive-chewer"
+        },
+        {
+          "name": "Chew",
+          "handle": "dog-toy-type__chew"
+        },
+        {
+          "name": "Interactive",
+          "handle": "dog-toy-type__interactive"
+        },
+        {
+          "name": "Plush",
+          "handle": "dog-toy-type__plush"
+        },
+        {
+          "name": "Rope",
+          "handle": "dog-toy-type__rope"
+        },
+        {
+          "name": "Squeaky",
+          "handle": "dog-toy-type__squeaky"
+        },
+        {
+          "name": "Training",
+          "handle": "dog-toy-type__training"
+        },
+        {
+          "name": "Other",
+          "handle": "dog-toy-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1706",
+      "name": "Filter type",
+      "handle": "filter-type",
+      "description": "Distinguishes between filters, typically for aquariums; e.g. mechanical, chemical",
+      "values": [
+        {
+          "name": "Biological",
+          "handle": "filter-type__biological"
+        },
+        {
+          "name": "Chemical",
+          "handle": "filter-type__chemical"
+        },
+        {
+          "name": "Mechanical",
+          "handle": "filter-type__mechanical"
+        },
+        {
+          "name": "Other",
+          "handle": "filter-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1712",
+      "name": "First aid kit components",
+      "handle": "first-aid-kit-components",
+      "description": "Details the contents of first aid kits, e.g. bandages, scissors",
+      "values": [
+        {
+          "name": "Antiseptic wipes",
+          "handle": "first-aid-kit-components__antiseptic-wipes"
+        },
+        {
+          "name": "Bandages",
+          "handle": "first-aid-kit-components__bandages"
+        },
+        {
+          "name": "Cold compress",
+          "handle": "first-aid-kit-components__cold-compress"
+        },
+        {
+          "name": "Disposable gloves",
+          "handle": "first-aid-kit-components__disposable-gloves"
+        },
+        {
+          "name": "Emergency blanket",
+          "handle": "first-aid-kit-components__emergency-blanket"
+        },
+        {
+          "name": "Gauze pads",
+          "handle": "first-aid-kit-components__gauze-pads"
+        },
+        {
+          "name": "Hydrogen peroxide",
+          "handle": "first-aid-kit-components__hydrogen-peroxide"
+        },
+        {
+          "name": "Medical tape",
+          "handle": "first-aid-kit-components__medical-tape"
+        },
+        {
+          "name": "Scissors",
+          "handle": "first-aid-kit-components__scissors"
+        },
+        {
+          "name": "Styptic powder",
+          "handle": "first-aid-kit-components__styptic-powder"
+        },
+        {
+          "name": "Thermometer",
+          "handle": "first-aid-kit-components__thermometer"
+        },
+        {
+          "name": "Tweezers",
+          "handle": "first-aid-kit-components__tweezers"
+        },
+        {
+          "name": "Other",
+          "handle": "first-aid-kit-components__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1709",
+      "name": "Fish type",
+      "handle": "fish-type",
+      "description": "Helps match to specific fish species, such as tropical or cold water",
+      "values": [
+        {
+          "name": "Betta",
+          "handle": "fish-type__betta"
+        },
+        {
+          "name": "Bottom feeder",
+          "handle": "fish-type__bottom-feeder"
+        },
+        {
+          "name": "Cichlid",
+          "handle": "fish-type__cichlid"
+        },
+        {
+          "name": "Cold water",
+          "handle": "fish-type__cold-water"
+        },
+        {
+          "name": "Discus",
+          "handle": "fish-type__discus"
+        },
+        {
+          "name": "Goldfish",
+          "handle": "fish-type__goldfish"
+        },
+        {
+          "name": "Koi",
+          "handle": "fish-type__koi"
+        },
+        {
+          "name": "Marine",
+          "handle": "fish-type__marine"
+        },
+        {
+          "name": "Tropical",
+          "handle": "fish-type__tropical"
+        },
+        {
+          "name": "Other",
+          "handle": "fish-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2897",
+      "name": "Gravel/Substrate material",
+      "handle": "gravel-substrate-material",
+      "description": "Specifies the composition of aquarium gravel or substrates, e.g. clay, quartz",
+      "values": [
+        {
+          "name": "Clay",
+          "handle": "gravel-substrate-material__clay"
+        },
+        {
+          "name": "Coral",
+          "handle": "gravel-substrate-material__coral"
+        },
+        {
+          "name": "Glass",
+          "handle": "gravel-substrate-material__glass"
+        },
+        {
+          "name": "Quartz",
+          "handle": "gravel-substrate-material__quartz"
+        },
+        {
+          "name": "Stone",
+          "handle": "gravel-substrate-material__stone"
+        },
+        {
+          "name": "Other",
+          "handle": "gravel-substrate-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2898",
+      "name": "Habitat material",
+      "handle": "habitat-material",
+      "description": "Identifies the main material of pet habitats, like acrylic or wood",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "habitat-material__acrylic"
+        },
+        {
+          "name": "Glass",
+          "handle": "habitat-material__glass"
+        },
+        {
+          "name": "Mesh",
+          "handle": "habitat-material__mesh"
+        },
+        {
+          "name": "Plastic",
+          "handle": "habitat-material__plastic"
+        },
+        {
+          "name": "Wood",
+          "handle": "habitat-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "habitat-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3233",
+      "name": "Leash design",
+      "handle": "leash-design",
+      "description": "Describes the functionality of pet leashes, such as detachable or retractable",
+      "values": [
+        {
+          "name": "Detachable",
+          "handle": "leash-design__detachable"
+        },
+        {
+          "name": "Retractable",
+          "handle": "leash-design__retractable"
+        },
+        {
+          "name": "Shock absorbing",
+          "handle": "leash-design__shock-absorbing"
+        },
+        {
+          "name": "Other",
+          "handle": "leash-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2984",
+      "name": "Pet apparel/bedding features",
+      "handle": "pet-apparel-bedding-features",
+      "description": "Highlights unique features of pet items, such as orthopedic or eco-friendly",
+      "values": [
+        {
+          "name": "Anti-microbial",
+          "handle": "pet-apparel-bedding-features__anti-microbial"
+        },
+        {
+          "name": "Anti-slip",
+          "handle": "pet-apparel-bedding-features__anti-slip"
+        },
+        {
+          "name": "Arch support",
+          "handle": "pet-apparel-bedding-features__arch-support"
+        },
+        {
+          "name": "Breathable design",
+          "handle": "pet-apparel-bedding-features__breathable-design"
+        },
+        {
+          "name": "Chew resistant",
+          "handle": "pet-apparel-bedding-features__chew-resistant"
+        },
+        {
+          "name": "Cushioned",
+          "handle": "pet-apparel-bedding-features__cushioned"
+        },
+        {
+          "name": "Eco friendly",
+          "handle": "pet-apparel-bedding-features__eco-friendly"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "pet-apparel-bedding-features__lightweight"
+        },
+        {
+          "name": "Orthopedic",
+          "handle": "pet-apparel-bedding-features__orthopedic"
+        },
+        {
+          "name": "Recycled materials",
+          "handle": "pet-apparel-bedding-features__recycled-materials"
+        },
+        {
+          "name": "Removable cover",
+          "handle": "pet-apparel-bedding-features__removable-cover"
+        },
+        {
+          "name": "Slip resistant",
+          "handle": "pet-apparel-bedding-features__slip-resistant"
+        },
+        {
+          "name": "Vegan friendly",
+          "handle": "pet-apparel-bedding-features__vegan-friendly"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "pet-apparel-bedding-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-apparel-bedding-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2986",
+      "name": "Pet control accessory features",
+      "handle": "pet-control-accessory-features",
+      "description": "Describes special features of pet control accessories, like adjustable or glow-in-the-dark",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "pet-control-accessory-features__adjustable"
+        },
+        {
+          "name": "Comfort padding",
+          "handle": "pet-control-accessory-features__comfort-padding"
+        },
+        {
+          "name": "Customizable",
+          "handle": "pet-control-accessory-features__customizable"
+        },
+        {
+          "name": "Glow-in-the-dark",
+          "handle": "pet-control-accessory-features__glow-in-the-dark"
+        },
+        {
+          "name": "Quick release",
+          "handle": "pet-control-accessory-features__quick-release"
+        },
+        {
+          "name": "Reflective",
+          "handle": "pet-control-accessory-features__reflective"
+        },
+        {
+          "name": "Washable",
+          "handle": "pet-control-accessory-features__washable"
+        },
+        {
+          "name": "Weather resistant",
+          "handle": "pet-control-accessory-features__weather-resistant"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-control-accessory-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3238",
+      "name": "Pet dietary preferences",
+      "handle": "pet-dietary-preferences",
+      "description": "Identifies the dietary needs or restrictions of a pet, like grain-free or non-GMO",
+      "values": [
+        {
+          "name": "All natural ingredients",
+          "handle": "pet-dietary-preferences__all-natural-ingredients"
+        },
+        {
+          "name": "Grain free",
+          "handle": "pet-dietary-preferences__grain-free"
+        },
+        {
+          "name": "Made in the USA",
+          "handle": "pet-dietary-preferences__made-in-the-usa"
+        },
+        {
+          "name": "No artificial colors or flavors",
+          "handle": "pet-dietary-preferences__no-artificial-colors-or-flavors"
+        },
+        {
+          "name": "Non-GMO",
+          "handle": "pet-dietary-preferences__non-gmo"
+        },
+        {
+          "name": "Veterinarian recommended",
+          "handle": "pet-dietary-preferences__veterinarian-recommended"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-dietary-preferences__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1700",
+      "name": "Pet dietary requirements",
+      "handle": "pet-dietary-requirements",
+      "description": "Defines the nutritional benefits provided by a pet product, such as weight control or dental health",
+      "values": [
+        {
+          "name": "Allergy & food sensitivity",
+          "handle": "pet-dietary-requirements__allergy-food-sensitivity"
+        },
+        {
+          "name": "Cardiovascular care",
+          "handle": "pet-dietary-requirements__cardiovascular-care"
+        },
+        {
+          "name": "Dental health",
+          "handle": "pet-dietary-requirements__dental-health"
+        },
+        {
+          "name": "Diabetes care",
+          "handle": "pet-dietary-requirements__diabetes-care"
+        },
+        {
+          "name": "Digestive health",
+          "handle": "pet-dietary-requirements__digestive-health"
+        },
+        {
+          "name": "Gluten-free",
+          "handle": "pet-dietary-requirements__gluten-free"
+        },
+        {
+          "name": "Grain-free",
+          "handle": "pet-dietary-requirements__grain-free"
+        },
+        {
+          "name": "Hairball control",
+          "handle": "pet-dietary-requirements__hairball-control"
+        },
+        {
+          "name": "High protein",
+          "handle": "pet-dietary-requirements__high-protein"
+        },
+        {
+          "name": "Joint & mobility care",
+          "handle": "pet-dietary-requirements__joint-mobility-care"
+        },
+        {
+          "name": "Kidney care",
+          "handle": "pet-dietary-requirements__kidney-care"
+        },
+        {
+          "name": "Liver care",
+          "handle": "pet-dietary-requirements__liver-care"
+        },
+        {
+          "name": "Sensitive stomach",
+          "handle": "pet-dietary-requirements__sensitive-stomach"
+        },
+        {
+          "name": "Skin & coat care",
+          "handle": "pet-dietary-requirements__skin-coat-care"
+        },
+        {
+          "name": "Thyroid care",
+          "handle": "pet-dietary-requirements__thyroid-care"
+        },
+        {
+          "name": "Urinary health",
+          "handle": "pet-dietary-requirements__urinary-health"
+        },
+        {
+          "name": "Weight control",
+          "handle": "pet-dietary-requirements__weight-control"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-dietary-requirements__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1701",
+      "name": "Pet food flavor",
+      "handle": "pet-food-flavor",
+      "description": "Specifies the taste profile of pet food products, e.g. banana, turkey",
+      "values": [
+        {
+          "name": "Apple",
+          "handle": "pet-food-flavor__apple"
+        },
+        {
+          "name": "Avocado",
+          "handle": "pet-food-flavor__avocado"
+        },
+        {
+          "name": "Bacon",
+          "handle": "pet-food-flavor__bacon"
+        },
+        {
+          "name": "Banana",
+          "handle": "pet-food-flavor__banana"
+        },
+        {
+          "name": "Beef",
+          "handle": "pet-food-flavor__beef"
+        },
+        {
+          "name": "Beet",
+          "handle": "pet-food-flavor__beet"
+        },
+        {
+          "name": "Blueberry",
+          "handle": "pet-food-flavor__blueberry"
+        },
+        {
+          "name": "Bone",
+          "handle": "pet-food-flavor__bone"
+        },
+        {
+          "name": "Brown rice",
+          "handle": "pet-food-flavor__brown-rice"
+        },
+        {
+          "name": "Carrot",
+          "handle": "pet-food-flavor__carrot"
+        },
+        {
+          "name": "Cheese",
+          "handle": "pet-food-flavor__cheese"
+        },
+        {
+          "name": "Chicken",
+          "handle": "pet-food-flavor__chicken"
+        },
+        {
+          "name": "Cranberry",
+          "handle": "pet-food-flavor__cranberry"
+        },
+        {
+          "name": "Duck",
+          "handle": "pet-food-flavor__duck"
+        },
+        {
+          "name": "Fish",
+          "handle": "pet-food-flavor__fish"
+        },
+        {
+          "name": "Fruit",
+          "handle": "pet-food-flavor__fruit"
+        },
+        {
+          "name": "Grains",
+          "handle": "pet-food-flavor__grains"
+        },
+        {
+          "name": "Grass",
+          "handle": "pet-food-flavor__grass"
+        },
+        {
+          "name": "Ham",
+          "handle": "pet-food-flavor__ham"
+        },
+        {
+          "name": "Lamb",
+          "handle": "pet-food-flavor__lamb"
+        },
+        {
+          "name": "Liver",
+          "handle": "pet-food-flavor__liver"
+        },
+        {
+          "name": "Mango",
+          "handle": "pet-food-flavor__mango"
+        },
+        {
+          "name": "Meat",
+          "handle": "pet-food-flavor__meat"
+        },
+        {
+          "name": "Mixed flavors",
+          "handle": "pet-food-flavor__mixed-flavors"
+        },
+        {
+          "name": "Peanut butter",
+          "handle": "pet-food-flavor__peanut-butter"
+        },
+        {
+          "name": "Peas",
+          "handle": "pet-food-flavor__peas"
+        },
+        {
+          "name": "Peppermint",
+          "handle": "pet-food-flavor__peppermint"
+        },
+        {
+          "name": "Pork",
+          "handle": "pet-food-flavor__pork"
+        },
+        {
+          "name": "Potatoes",
+          "handle": "pet-food-flavor__potatoes"
+        },
+        {
+          "name": "Rabbit",
+          "handle": "pet-food-flavor__rabbit"
+        },
+        {
+          "name": "Rice",
+          "handle": "pet-food-flavor__rice"
+        },
+        {
+          "name": "Salami",
+          "handle": "pet-food-flavor__salami"
+        },
+        {
+          "name": "Salmon",
+          "handle": "pet-food-flavor__salmon"
+        },
+        {
+          "name": "Seafood",
+          "handle": "pet-food-flavor__seafood"
+        },
+        {
+          "name": "Spinach",
+          "handle": "pet-food-flavor__spinach"
+        },
+        {
+          "name": "Sweet potatoes",
+          "handle": "pet-food-flavor__sweet-potatoes"
+        },
+        {
+          "name": "Tuna",
+          "handle": "pet-food-flavor__tuna"
+        },
+        {
+          "name": "Turkey",
+          "handle": "pet-food-flavor__turkey"
+        },
+        {
+          "name": "Unflavored",
+          "handle": "pet-food-flavor__unflavored"
+        },
+        {
+          "name": "Veal",
+          "handle": "pet-food-flavor__veal"
+        },
+        {
+          "name": "Vegetables",
+          "handle": "pet-food-flavor__vegetables"
+        },
+        {
+          "name": "Venison",
+          "handle": "pet-food-flavor__venison"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-food-flavor__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3222",
+      "name": "Pet food form",
+      "handle": "pet-food-form",
+      "description": "Indicates the consistency of pet food products, such as wet or dry",
+      "values": [
+        {
+          "name": "Dry",
+          "handle": "pet-food-form__dry"
+        },
+        {
+          "name": "Semi-moist",
+          "handle": "pet-food-form__semi-moist"
+        },
+        {
+          "name": "Wet",
+          "handle": "pet-food-form__wet"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-food-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3223",
+      "name": "Pet food supplements",
+      "handle": "pet-food-supplements",
+      "description": "Identifies additives in pet food for nutritional benefits, like fish oil or probiotics",
+      "values": [
+        {
+          "name": "Canola oil",
+          "handle": "pet-food-supplements__canola-oil"
+        },
+        {
+          "name": "CBD oil",
+          "handle": "pet-food-supplements__cbd-oil"
+        },
+        {
+          "name": "Fish oil",
+          "handle": "pet-food-supplements__fish-oil"
+        },
+        {
+          "name": "Flaxseed oil",
+          "handle": "pet-food-supplements__flaxseed-oil"
+        },
+        {
+          "name": "Omega-3",
+          "handle": "pet-food-supplements__omega-3"
+        },
+        {
+          "name": "Omega-6",
+          "handle": "pet-food-supplements__omega-6"
+        },
+        {
+          "name": "Probiotics",
+          "handle": "pet-food-supplements__probiotics"
+        },
+        {
+          "name": "Sunflower oil",
+          "handle": "pet-food-supplements__sunflower-oil"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-food-supplements__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3230",
+      "name": "Pet hair dryer design",
+      "handle": "pet-hair-dryer-design",
+      "description": "Describes the style of a pet hair dryer, such as cage or handheld",
+      "values": [
+        {
+          "name": "Cage",
+          "handle": "pet-hair-dryer-design__cage"
+        },
+        {
+          "name": "Handheld",
+          "handle": "pet-hair-dryer-design__handheld"
+        },
+        {
+          "name": "Stand",
+          "handle": "pet-hair-dryer-design__stand"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-hair-dryer-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3231",
+      "name": "Pet hair dryer speed settings",
+      "handle": "pet-hair-dryer-speed-settings",
+      "description": "Describes the adjustable speed settings on pet hair dryers, e.g. variable speed, fixed speed",
+      "values": [
+        {
+          "name": "Fixed speed",
+          "handle": "pet-hair-dryer-speed-settings__fixed-speed"
+        },
+        {
+          "name": "High-velocity",
+          "handle": "pet-hair-dryer-speed-settings__high-velocity"
+        },
+        {
+          "name": "Variable speed",
+          "handle": "pet-hair-dryer-speed-settings__variable-speed"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-hair-dryer-speed-settings__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3234",
+      "name": "Pet medical collar design",
+      "handle": "pet-medical-collar-design",
+      "description": "Describes the style of a pet medical collar, such as cone or inflatable",
+      "values": [
+        {
+          "name": "Cone",
+          "handle": "pet-medical-collar-design__cone"
+        },
+        {
+          "name": "Inflatable",
+          "handle": "pet-medical-collar-design__inflatable"
+        },
+        {
+          "name": "Recovery suit",
+          "handle": "pet-medical-collar-design__recovery-suit"
+        },
+        {
+          "name": "Soft",
+          "handle": "pet-medical-collar-design__soft"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-medical-collar-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3235",
+      "name": "Pet medical supply type",
+      "handle": "pet-medical-supply-type",
+      "description": "Specifies the type of pet medical item, e.g. elastic bandage, gauze bandage",
+      "values": [
+        {
+          "name": "Adhesive medical tape",
+          "handle": "pet-medical-supply-type__adhesive-medical-tape"
+        },
+        {
+          "name": "Cohesive bandage",
+          "handle": "pet-medical-supply-type__cohesive-bandage"
+        },
+        {
+          "name": "Elastic bandage",
+          "handle": "pet-medical-supply-type__elastic-bandage"
+        },
+        {
+          "name": "Gauze bandage",
+          "handle": "pet-medical-supply-type__gauze-bandage"
+        },
+        {
+          "name": "Non-adhesive medical tape",
+          "handle": "pet-medical-supply-type__non-adhesive-medical-tape"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-medical-supply-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1711",
+      "name": "Pet monitor items included",
+      "handle": "pet-monitor-items-included",
+      "description": "Specifies the components included with a pet glucose meter, such as carrying case or test strips",
+      "values": [
+        {
+          "name": "Carrying case",
+          "handle": "pet-monitor-items-included__carrying-case"
+        },
+        {
+          "name": "Lancets",
+          "handle": "pet-monitor-items-included__lancets"
+        },
+        {
+          "name": "Lancing device",
+          "handle": "pet-monitor-items-included__lancing-device"
+        },
+        {
+          "name": "Test strips",
+          "handle": "pet-monitor-items-included__test-strips"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-monitor-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3232",
+      "name": "Pet nail tool type",
+      "handle": "pet-nail-tool-type",
+      "description": "Identifies the kind of pet nail grooming tool, such as guillotine nail clippers or nail grinders",
+      "values": [
+        {
+          "name": "Guillotine nail clippers",
+          "handle": "pet-nail-tool-type__guillotine-nail-clippers"
+        },
+        {
+          "name": "Nail caps",
+          "handle": "pet-nail-tool-type__nail-caps"
+        },
+        {
+          "name": "Nail files",
+          "handle": "pet-nail-tool-type__nail-files"
+        },
+        {
+          "name": "Nail grinders",
+          "handle": "pet-nail-tool-type__nail-grinders"
+        },
+        {
+          "name": "Scissor nail clippers",
+          "handle": "pet-nail-tool-type__scissor-nail-clippers"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-nail-tool-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3237",
+      "name": "Pet spray/solution type",
+      "handle": "pet-spray-solution-type",
+      "description": "Identifies the purpose of pet sprays or solutions, like calming or deodorizing",
+      "values": [
+        {
+          "name": "Behavior correction",
+          "handle": "pet-spray-solution-type__behavior-correction"
+        },
+        {
+          "name": "Bitter deterrent",
+          "handle": "pet-spray-solution-type__bitter-deterrent"
+        },
+        {
+          "name": "Calming",
+          "handle": "pet-spray-solution-type__calming"
+        },
+        {
+          "name": "Deodorizing",
+          "handle": "pet-spray-solution-type__deodorizing"
+        },
+        {
+          "name": "Pheromone",
+          "handle": "pet-spray-solution-type__pheromone"
+        },
+        {
+          "name": "Potty training",
+          "handle": "pet-spray-solution-type__potty-training"
+        },
+        {
+          "name": "Repellent",
+          "handle": "pet-spray-solution-type__repellent"
+        },
+        {
+          "name": "Training",
+          "handle": "pet-spray-solution-type__training"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-spray-solution-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1698",
+      "name": "Pet supply product form",
+      "handle": "pet-supply-product-form",
+      "description": "Defines the format of a pet product, such as liquid, tablet, or spray",
+      "values": [
+        {
+          "name": "Balm",
+          "handle": "pet-supply-product-form__balm"
+        },
+        {
+          "name": "Capsules",
+          "handle": "pet-supply-product-form__capsules"
+        },
+        {
+          "name": "Cream",
+          "handle": "pet-supply-product-form__cream"
+        },
+        {
+          "name": "Drops",
+          "handle": "pet-supply-product-form__drops"
+        },
+        {
+          "name": "Dry",
+          "handle": "pet-supply-product-form__dry"
+        },
+        {
+          "name": "Gel",
+          "handle": "pet-supply-product-form__gel"
+        },
+        {
+          "name": "Liquid",
+          "handle": "pet-supply-product-form__liquid"
+        },
+        {
+          "name": "Lotion",
+          "handle": "pet-supply-product-form__lotion"
+        },
+        {
+          "name": "Oil",
+          "handle": "pet-supply-product-form__oil"
+        },
+        {
+          "name": "Pills",
+          "handle": "pet-supply-product-form__pills"
+        },
+        {
+          "name": "Powder",
+          "handle": "pet-supply-product-form__powder"
+        },
+        {
+          "name": "Soft chews",
+          "handle": "pet-supply-product-form__soft-chews"
+        },
+        {
+          "name": "Spray",
+          "handle": "pet-supply-product-form__spray"
+        },
+        {
+          "name": "Tablets",
+          "handle": "pet-supply-product-form__tablets"
+        },
+        {
+          "name": "Wet",
+          "handle": "pet-supply-product-form__wet"
+        },
+        {
+          "name": "Wipes",
+          "handle": "pet-supply-product-form__wipes"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-supply-product-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3229",
+      "name": "Pet thermometer design",
+      "handle": "pet-thermometer-design",
+      "description": "Describes the type of pet thermometer, such as analog or digital",
+      "values": [
+        {
+          "name": "Analog",
+          "handle": "pet-thermometer-design__analog"
+        },
+        {
+          "name": "Digital",
+          "handle": "pet-thermometer-design__digital"
+        },
+        {
+          "name": "Infrared",
+          "handle": "pet-thermometer-design__infrared"
+        },
+        {
+          "name": "Stick-on",
+          "handle": "pet-thermometer-design__stick-on"
+        },
+        {
+          "name": "Submersible",
+          "handle": "pet-thermometer-design__submersible"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-thermometer-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3236",
+      "name": "Pet trainer type",
+      "handle": "pet-trainer-type",
+      "description": "Identifies the type of pet training aid, such as a standard clicker or automatic treat dispenser",
+      "values": [
+        {
+          "name": "Automatic treat dispenser",
+          "handle": "pet-trainer-type__automatic-treat-dispenser"
+        },
+        {
+          "name": "Dispenser clicker",
+          "handle": "pet-trainer-type__dispenser-clicker"
+        },
+        {
+          "name": "Standard clicker",
+          "handle": "pet-trainer-type__standard-clicker"
+        },
+        {
+          "name": "Treat dispensing puzzle",
+          "handle": "pet-trainer-type__treat-dispensing-puzzle"
+        },
+        {
+          "name": "Treat dispensing toy",
+          "handle": "pet-trainer-type__treat-dispensing-toy"
+        },
+        {
+          "name": "Wrist strap clicker",
+          "handle": "pet-trainer-type__wrist-strap-clicker"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-trainer-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1704",
+      "name": "Pet treat texture",
+      "handle": "pet-treat-texture",
+      "description": "Defines the feel or consistency of pet treats, like soft or crunchy",
+      "values": [
+        {
+          "name": "Chewy",
+          "handle": "pet-treat-texture__chewy"
+        },
+        {
+          "name": "Crunchy",
+          "handle": "pet-treat-texture__crunchy"
+        },
+        {
+          "name": "Hard",
+          "handle": "pet-treat-texture__hard"
+        },
+        {
+          "name": "Soft",
+          "handle": "pet-treat-texture__soft"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-treat-texture__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3224",
+      "name": "Pet treat type",
+      "handle": "pet-treat-type",
+      "description": "Identifies the kind of pet treat, such as chewy or crunchy",
+      "values": [
+        {
+          "name": "Biscuits",
+          "handle": "pet-treat-type__biscuits"
+        },
+        {
+          "name": "CBD",
+          "handle": "pet-treat-type__cbd"
+        },
+        {
+          "name": "Chewy",
+          "handle": "pet-treat-type__chewy"
+        },
+        {
+          "name": "Crunchy",
+          "handle": "pet-treat-type__crunchy"
+        },
+        {
+          "name": "Dental",
+          "handle": "pet-treat-type__dental"
+        },
+        {
+          "name": "Interactive",
+          "handle": "pet-treat-type__interactive"
+        },
+        {
+          "name": "Seeds",
+          "handle": "pet-treat-type__seeds"
+        },
+        {
+          "name": "Soft",
+          "handle": "pet-treat-type__soft"
+        },
+        {
+          "name": "Training",
+          "handle": "pet-treat-type__training"
+        },
+        {
+          "name": "Other",
+          "handle": "pet-treat-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3239",
+      "name": "Reptile/Amphibian food form",
+      "handle": "reptile-amphibian-food-form",
+      "description": "Specifies the form of reptile/amphibian food, for example freeze-dried or pellets",
+      "values": [
+        {
+          "name": "Canned",
+          "handle": "reptile-amphibian-food-form__canned"
+        },
+        {
+          "name": "Flakes",
+          "handle": "reptile-amphibian-food-form__flakes"
+        },
+        {
+          "name": "Freeze-dried",
+          "handle": "reptile-amphibian-food-form__freeze-dried"
+        },
+        {
+          "name": "Live food",
+          "handle": "reptile-amphibian-food-form__live-food"
+        },
+        {
+          "name": "Pellets",
+          "handle": "reptile-amphibian-food-form__pellets"
+        },
+        {
+          "name": "Other",
+          "handle": "reptile-amphibian-food-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3240",
+      "name": "Reptile/Amphibian habitat supply type",
+      "handle": "reptile-amphibian-habitat-supply-type",
+      "description": "Identifies the type of heating or lighting supply for reptile/amphibian habitats, like a heat lamp or UVB lamp",
+      "values": [
+        {
+          "name": "Ceramic heat emitter",
+          "handle": "reptile-amphibian-habitat-supply-type__ceramic-heat-emitter"
+        },
+        {
+          "name": "Heat lamp",
+          "handle": "reptile-amphibian-habitat-supply-type__heat-lamp"
+        },
+        {
+          "name": "Heat mat",
+          "handle": "reptile-amphibian-habitat-supply-type__heat-mat"
+        },
+        {
+          "name": "Under tank heater",
+          "handle": "reptile-amphibian-habitat-supply-type__under-tank-heater"
+        },
+        {
+          "name": "UVB lamp",
+          "handle": "reptile-amphibian-habitat-supply-type__uvb-lamp"
+        },
+        {
+          "name": "Other",
+          "handle": "reptile-amphibian-habitat-supply-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3241",
+      "name": "Small animal food form",
+      "handle": "small-animal-food-form",
+      "description": "Identifies the form of small animal food, e.g. fresh, hay",
+      "values": [
+        {
+          "name": "Fresh",
+          "handle": "small-animal-food-form__fresh"
+        },
+        {
+          "name": "Grass",
+          "handle": "small-animal-food-form__grass"
+        },
+        {
+          "name": "Hay",
+          "handle": "small-animal-food-form__hay"
+        },
+        {
+          "name": "Pellets",
+          "handle": "small-animal-food-form__pellets"
+        },
+        {
+          "name": "Seeds",
+          "handle": "small-animal-food-form__seeds"
+        },
+        {
+          "name": "Treat",
+          "handle": "small-animal-food-form__treat"
+        },
+        {
+          "name": "Other",
+          "handle": "small-animal-food-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3242",
+      "name": "Small animal food ingredients",
+      "handle": "small-animal-food-ingredients",
+      "description": "Identifies the main components in small animal food, like alfalfa or barley",
+      "values": [
+        {
+          "name": "Alfalfa",
+          "handle": "small-animal-food-ingredients__alfalfa"
+        },
+        {
+          "name": "Apple",
+          "handle": "small-animal-food-ingredients__apple"
+        },
+        {
+          "name": "Banana",
+          "handle": "small-animal-food-ingredients__banana"
+        },
+        {
+          "name": "Barley",
+          "handle": "small-animal-food-ingredients__barley"
+        },
+        {
+          "name": "Carrot",
+          "handle": "small-animal-food-ingredients__carrot"
+        },
+        {
+          "name": "Corn",
+          "handle": "small-animal-food-ingredients__corn"
+        },
+        {
+          "name": "Flax seed",
+          "handle": "small-animal-food-ingredients__flax-seed"
+        },
+        {
+          "name": "Oats",
+          "handle": "small-animal-food-ingredients__oats"
+        },
+        {
+          "name": "Peas",
+          "handle": "small-animal-food-ingredients__peas"
+        },
+        {
+          "name": "Soybean meal",
+          "handle": "small-animal-food-ingredients__soybean-meal"
+        },
+        {
+          "name": "Sunflower seeds",
+          "handle": "small-animal-food-ingredients__sunflower-seeds"
+        },
+        {
+          "name": "Timothy hay",
+          "handle": "small-animal-food-ingredients__timothy-hay"
+        },
+        {
+          "name": "Wheat",
+          "handle": "small-animal-food-ingredients__wheat"
+        },
+        {
+          "name": "Other",
+          "handle": "small-animal-food-ingredients__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3243",
+      "name": "Small animal habitat/cage type",
+      "handle": "small-animal-habitat-cage-type",
+      "description": "Identifies the type of habitat or cage for small animals, like a hutch or aquarium",
+      "values": [
+        {
+          "name": "Aquarium",
+          "handle": "small-animal-habitat-cage-type__aquarium"
+        },
+        {
+          "name": "Glass tank",
+          "handle": "small-animal-habitat-cage-type__glass-tank"
+        },
+        {
+          "name": "Habitat",
+          "handle": "small-animal-habitat-cage-type__habitat"
+        },
+        {
+          "name": "Hutch",
+          "handle": "small-animal-habitat-cage-type__hutch"
+        },
+        {
+          "name": "Pen",
+          "handle": "small-animal-habitat-cage-type__pen"
+        },
+        {
+          "name": "Playpen",
+          "handle": "small-animal-habitat-cage-type__playpen"
+        },
+        {
+          "name": "Terrarium",
+          "handle": "small-animal-habitat-cage-type__terrarium"
+        },
+        {
+          "name": "Travel carrier",
+          "handle": "small-animal-habitat-cage-type__travel-carrier"
+        },
+        {
+          "name": "Wire cage",
+          "handle": "small-animal-habitat-cage-type__wire-cage"
+        },
+        {
+          "name": "Other",
+          "handle": "small-animal-habitat-cage-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2981",
+      "name": "Substrate features",
+      "handle": "substrate-features",
+      "description": "Describes the characteristics of aquarium substrates, such as beneficial bacteria growth or pre-washed",
+      "values": [
+        {
+          "name": "Beneficial bacteria growth",
+          "handle": "substrate-features__beneficial-bacteria-growth"
+        },
+        {
+          "name": "Coated",
+          "handle": "substrate-features__coated"
+        },
+        {
+          "name": "Natural product",
+          "handle": "substrate-features__natural-product"
+        },
+        {
+          "name": "Neutral pH",
+          "handle": "substrate-features__neutral-ph"
+        },
+        {
+          "name": "Pre-washed",
+          "handle": "substrate-features__pre-washed"
+        },
+        {
+          "name": "Other",
+          "handle": "substrate-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1697",
+      "name": "Suitable for bird type",
+      "handle": "suitable-for-bird-type",
+      "description": "Matches products to specific bird species, e.g. canary, parrot",
+      "values": [
+        {
+          "name": "Blackbird",
+          "handle": "suitable-for-bird-type__blackbird"
+        },
+        {
+          "name": "Blackcap",
+          "handle": "suitable-for-bird-type__blackcap"
+        },
+        {
+          "name": "Blue tit",
+          "handle": "suitable-for-bird-type__blue-tit"
+        },
+        {
+          "name": "Budgie",
+          "handle": "suitable-for-bird-type__budgie"
+        },
+        {
+          "name": "Canary",
+          "handle": "suitable-for-bird-type__canary"
+        },
+        {
+          "name": "Chaffinch",
+          "handle": "suitable-for-bird-type__chaffinch"
+        },
+        {
+          "name": "Cockatiel",
+          "handle": "suitable-for-bird-type__cockatiel"
+        },
+        {
+          "name": "Collared dove",
+          "handle": "suitable-for-bird-type__collared-dove"
+        },
+        {
+          "name": "Finch",
+          "handle": "suitable-for-bird-type__finch"
+        },
+        {
+          "name": "Goldfinch",
+          "handle": "suitable-for-bird-type__goldfinch"
+        },
+        {
+          "name": "Great tit",
+          "handle": "suitable-for-bird-type__great-tit"
+        },
+        {
+          "name": "Greenfinch",
+          "handle": "suitable-for-bird-type__greenfinch"
+        },
+        {
+          "name": "House sparrow",
+          "handle": "suitable-for-bird-type__house-sparrow"
+        },
+        {
+          "name": "Lovebird",
+          "handle": "suitable-for-bird-type__lovebird"
+        },
+        {
+          "name": "Macaw",
+          "handle": "suitable-for-bird-type__macaw"
+        },
+        {
+          "name": "Parakeet",
+          "handle": "suitable-for-bird-type__parakeet"
+        },
+        {
+          "name": "Parrot",
+          "handle": "suitable-for-bird-type__parrot"
+        },
+        {
+          "name": "Robin",
+          "handle": "suitable-for-bird-type__robin"
+        },
+        {
+          "name": "Siskin",
+          "handle": "suitable-for-bird-type__siskin"
+        },
+        {
+          "name": "Song thrush",
+          "handle": "suitable-for-bird-type__song-thrush"
+        },
+        {
+          "name": "Starling",
+          "handle": "suitable-for-bird-type__starling"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-bird-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3227",
+      "name": "Suitable for breed size",
+      "handle": "suitable-for-breed-size",
+      "description": "Identifies the appropriate breed size for pet products, such as large or medium",
+      "values": [
+        {
+          "name": "Small",
+          "handle": "suitable-for-breed-size__small"
+        },
+        {
+          "name": "Medium",
+          "handle": "suitable-for-breed-size__medium"
+        },
+        {
+          "name": "Large",
+          "handle": "suitable-for-breed-size__large"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-breed-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1710",
+      "name": "Suitable for fish type",
+      "handle": "suitable-for-fish-type",
+      "description": "Specifies the type of fish a product is intended for, e.g. pond fish, tropical fish",
+      "values": [
+        {
+          "name": "Aquarium fish",
+          "handle": "suitable-for-fish-type__aquarium-fish"
+        },
+        {
+          "name": "Marine fish",
+          "handle": "suitable-for-fish-type__marine-fish"
+        },
+        {
+          "name": "Pond fish",
+          "handle": "suitable-for-fish-type__pond-fish"
+        },
+        {
+          "name": "Tropical fish",
+          "handle": "suitable-for-fish-type__tropical-fish"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-fish-type__other"
+        }
+      ]
+    }
+  ]
+}

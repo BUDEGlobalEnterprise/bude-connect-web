@@ -1,0 +1,764 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3103",
+      "name": "Baby/Toddler furniture features",
+      "handle": "baby-toddler-furniture-features",
+      "description": "Identifies special features of baby/toddler furniture, like adjustable height or foldable",
+      "values": [
+        {
+          "name": "Adjustable height",
+          "handle": "baby-toddler-furniture-features__adjustable-height"
+        },
+        {
+          "name": "Changing pad included",
+          "handle": "baby-toddler-furniture-features__changing-pad-included"
+        },
+        {
+          "name": "Convertible",
+          "handle": "baby-toddler-furniture-features__convertible"
+        },
+        {
+          "name": "Cushioned",
+          "handle": "baby-toddler-furniture-features__cushioned"
+        },
+        {
+          "name": "Easy to clean",
+          "handle": "baby-toddler-furniture-features__easy-to-clean"
+        },
+        {
+          "name": "Eco friendly",
+          "handle": "baby-toddler-furniture-features__eco-friendly"
+        },
+        {
+          "name": "Foldable",
+          "handle": "baby-toddler-furniture-features__foldable"
+        },
+        {
+          "name": "Guardrails",
+          "handle": "baby-toddler-furniture-features__guardrails"
+        },
+        {
+          "name": "Lockable wheels",
+          "handle": "baby-toddler-furniture-features__lockable-wheels"
+        },
+        {
+          "name": "Music",
+          "handle": "baby-toddler-furniture-features__music"
+        },
+        {
+          "name": "Nightlight",
+          "handle": "baby-toddler-furniture-features__nightlight"
+        },
+        {
+          "name": "Non-toxic finish",
+          "handle": "baby-toddler-furniture-features__non-toxic-finish"
+        },
+        {
+          "name": "Portable",
+          "handle": "baby-toddler-furniture-features__portable"
+        },
+        {
+          "name": "Rocking mechanism",
+          "handle": "baby-toddler-furniture-features__rocking-mechanism"
+        },
+        {
+          "name": "Safety strap",
+          "handle": "baby-toddler-furniture-features__safety-strap"
+        },
+        {
+          "name": "Space efficient",
+          "handle": "baby-toddler-furniture-features__space-efficient"
+        },
+        {
+          "name": "Storage options",
+          "handle": "baby-toddler-furniture-features__storage-options"
+        },
+        {
+          "name": "Sturdy",
+          "handle": "baby-toddler-furniture-features__sturdy"
+        },
+        {
+          "name": "Vibration",
+          "handle": "baby-toddler-furniture-features__vibration"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "baby-toddler-furniture-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-furniture-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3318",
+      "name": "Baby/Toddler furniture items included",
+      "handle": "baby-toddler-furniture-items-included",
+      "description": "Specifies the types of baby or toddler furniture in a set, e.g. high chair, toy chest",
+      "values": [
+        {
+          "name": "Bassinet",
+          "handle": "baby-toddler-furniture-items-included__bassinet"
+        },
+        {
+          "name": "Bookshelf",
+          "handle": "baby-toddler-furniture-items-included__bookshelf"
+        },
+        {
+          "name": "Changing table",
+          "handle": "baby-toddler-furniture-items-included__changing-table"
+        },
+        {
+          "name": "Crib",
+          "handle": "baby-toddler-furniture-items-included__crib"
+        },
+        {
+          "name": "Dresser",
+          "handle": "baby-toddler-furniture-items-included__dresser"
+        },
+        {
+          "name": "High chair",
+          "handle": "baby-toddler-furniture-items-included__high-chair"
+        },
+        {
+          "name": "Nightstand",
+          "handle": "baby-toddler-furniture-items-included__nightstand"
+        },
+        {
+          "name": "Rocking chair",
+          "handle": "baby-toddler-furniture-items-included__rocking-chair"
+        },
+        {
+          "name": "Toddler bed",
+          "handle": "baby-toddler-furniture-items-included__toddler-bed"
+        },
+        {
+          "name": "Toy chest",
+          "handle": "baby-toddler-furniture-items-included__toy-chest"
+        },
+        {
+          "name": "Wardrobe",
+          "handle": "baby-toddler-furniture-items-included__wardrobe"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-furniture-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3107",
+      "name": "Baby/Toddler seat features",
+      "handle": "baby-toddler-seat-features",
+      "description": "Highlights key aspects of baby/toddler seats, such as a reclining seat or tray",
+      "values": [
+        {
+          "name": "Adjustable height",
+          "handle": "baby-toddler-seat-features__adjustable-height"
+        },
+        {
+          "name": "Foldable",
+          "handle": "baby-toddler-seat-features__foldable"
+        },
+        {
+          "name": "Reclining seat",
+          "handle": "baby-toddler-seat-features__reclining-seat"
+        },
+        {
+          "name": "Tray",
+          "handle": "baby-toddler-seat-features__tray"
+        },
+        {
+          "name": "Wheeled",
+          "handle": "baby-toddler-seat-features__wheeled"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-seat-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3319",
+      "name": "Bathroom furniture items included",
+      "handle": "bathroom-furniture-items-included",
+      "description": "Identifies the specific items included in a bathroom furniture set, such as a vanity cabinet or mirror",
+      "values": [
+        {
+          "name": "Bathroom cart",
+          "handle": "bathroom-furniture-items-included__bathroom-cart"
+        },
+        {
+          "name": "Bench",
+          "handle": "bathroom-furniture-items-included__bench"
+        },
+        {
+          "name": "Laundry hamper",
+          "handle": "bathroom-furniture-items-included__laundry-hamper"
+        },
+        {
+          "name": "Linen tower",
+          "handle": "bathroom-furniture-items-included__linen-tower"
+        },
+        {
+          "name": "Medicine cabinet",
+          "handle": "bathroom-furniture-items-included__medicine-cabinet"
+        },
+        {
+          "name": "Mirror",
+          "handle": "bathroom-furniture-items-included__mirror"
+        },
+        {
+          "name": "Over-the-toilet storage",
+          "handle": "bathroom-furniture-items-included__over-the-toilet-storage"
+        },
+        {
+          "name": "Shelf unit",
+          "handle": "bathroom-furniture-items-included__shelf-unit"
+        },
+        {
+          "name": "Stool",
+          "handle": "bathroom-furniture-items-included__stool"
+        },
+        {
+          "name": "Towel rack or bar",
+          "handle": "bathroom-furniture-items-included__towel-rack-or-bar"
+        },
+        {
+          "name": "Vanity cabinet",
+          "handle": "bathroom-furniture-items-included__vanity-cabinet"
+        },
+        {
+          "name": "Wall cabinet",
+          "handle": "bathroom-furniture-items-included__wall-cabinet"
+        },
+        {
+          "name": "Other",
+          "handle": "bathroom-furniture-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3108",
+      "name": "Bed/Frame features",
+      "handle": "bed-frame-features",
+      "description": "Highlights unique features of beds and frames, such as storage options or included headboard",
+      "values": [
+        {
+          "name": "Adjustable frame",
+          "handle": "bed-frame-features__adjustable-frame"
+        },
+        {
+          "name": "Adjustable height",
+          "handle": "bed-frame-features__adjustable-height"
+        },
+        {
+          "name": "Foldable",
+          "handle": "bed-frame-features__foldable"
+        },
+        {
+          "name": "Footboard included",
+          "handle": "bed-frame-features__footboard-included"
+        },
+        {
+          "name": "Headboard included",
+          "handle": "bed-frame-features__headboard-included"
+        },
+        {
+          "name": "Mattress included",
+          "handle": "bed-frame-features__mattress-included"
+        },
+        {
+          "name": "Slats included",
+          "handle": "bed-frame-features__slats-included"
+        },
+        {
+          "name": "Storage options",
+          "handle": "bed-frame-features__storage-options"
+        },
+        {
+          "name": "Other",
+          "handle": "bed-frame-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3104",
+      "name": "Crib/Toddler bed features",
+      "handle": "crib-toddler-bed-features",
+      "description": "Describes unique aspects of baby and toddler beds, such as convertible design or rocking mechanism",
+      "values": [
+        {
+          "name": "Adjustable height",
+          "handle": "crib-toddler-bed-features__adjustable-height"
+        },
+        {
+          "name": "Built-in music",
+          "handle": "crib-toddler-bed-features__built-in-music"
+        },
+        {
+          "name": "Built-in nightlight",
+          "handle": "crib-toddler-bed-features__built-in-nightlight"
+        },
+        {
+          "name": "Canopy",
+          "handle": "crib-toddler-bed-features__canopy"
+        },
+        {
+          "name": "Changing table",
+          "handle": "crib-toddler-bed-features__changing-table"
+        },
+        {
+          "name": "Convertible",
+          "handle": "crib-toddler-bed-features__convertible"
+        },
+        {
+          "name": "Foldable",
+          "handle": "crib-toddler-bed-features__foldable"
+        },
+        {
+          "name": "Mattress included",
+          "handle": "crib-toddler-bed-features__mattress-included"
+        },
+        {
+          "name": "Portable",
+          "handle": "crib-toddler-bed-features__portable"
+        },
+        {
+          "name": "Rocking mechanism",
+          "handle": "crib-toddler-bed-features__rocking-mechanism"
+        },
+        {
+          "name": "Storage options",
+          "handle": "crib-toddler-bed-features__storage-options"
+        },
+        {
+          "name": "Teething rails",
+          "handle": "crib-toddler-bed-features__teething-rails"
+        },
+        {
+          "name": "Toddler guard rails",
+          "handle": "crib-toddler-bed-features__toddler-guard-rails"
+        },
+        {
+          "name": "Vibration mode",
+          "handle": "crib-toddler-bed-features__vibration-mode"
+        },
+        {
+          "name": "Wheeled",
+          "handle": "crib-toddler-bed-features__wheeled"
+        },
+        {
+          "name": "Other",
+          "handle": "crib-toddler-bed-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2895",
+      "name": "Foundation material",
+      "handle": "foundation-material",
+      "description": "Identifies the main material used in mattress foundations, such as metal or wood",
+      "values": [
+        {
+          "name": "Bamboo",
+          "handle": "foundation-material__bamboo"
+        },
+        {
+          "name": "Cotton",
+          "handle": "foundation-material__cotton"
+        },
+        {
+          "name": "Fabric",
+          "handle": "foundation-material__fabric"
+        },
+        {
+          "name": "Faux leather",
+          "handle": "foundation-material__faux-leather"
+        },
+        {
+          "name": "Latex",
+          "handle": "foundation-material__latex"
+        },
+        {
+          "name": "Leather",
+          "handle": "foundation-material__leather"
+        },
+        {
+          "name": "Metal",
+          "handle": "foundation-material__metal"
+        },
+        {
+          "name": "Pine wood",
+          "handle": "foundation-material__pine-wood"
+        },
+        {
+          "name": "Plastic",
+          "handle": "foundation-material__plastic"
+        },
+        {
+          "name": "Plywood",
+          "handle": "foundation-material__plywood"
+        },
+        {
+          "name": "Polyester",
+          "handle": "foundation-material__polyester"
+        },
+        {
+          "name": "Spruce wood",
+          "handle": "foundation-material__spruce-wood"
+        },
+        {
+          "name": "Steel",
+          "handle": "foundation-material__steel"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "foundation-material__synthetic"
+        },
+        {
+          "name": "Velvet",
+          "handle": "foundation-material__velvet"
+        },
+        {
+          "name": "Wood",
+          "handle": "foundation-material__wood"
+        },
+        {
+          "name": "Wool",
+          "handle": "foundation-material__wool"
+        },
+        {
+          "name": "Other",
+          "handle": "foundation-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1530",
+      "name": "Hanging chair design",
+      "handle": "hanging-chair-design",
+      "description": "Specifies if a hanging chair comes with a stand or not",
+      "values": [
+        {
+          "name": "With stand",
+          "handle": "hanging-chair-design__with-stand"
+        },
+        {
+          "name": "Without stand",
+          "handle": "hanging-chair-design__without-stand"
+        },
+        {
+          "name": "Other",
+          "handle": "hanging-chair-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3320",
+      "name": "Kitchen/Dining furniture items included",
+      "handle": "kitchen-dining-furniture-items-included",
+      "description": "Identifies the specific furniture pieces included in a set, like dining chairs or kitchen island",
+      "values": [
+        {
+          "name": "Baker's rack",
+          "handle": "kitchen-dining-furniture-items-included__bakers-rack"
+        },
+        {
+          "name": "Bar stools",
+          "handle": "kitchen-dining-furniture-items-included__bar-stools"
+        },
+        {
+          "name": "Bench",
+          "handle": "kitchen-dining-furniture-items-included__bench"
+        },
+        {
+          "name": "Buffet",
+          "handle": "kitchen-dining-furniture-items-included__buffet"
+        },
+        {
+          "name": "China cabinet",
+          "handle": "kitchen-dining-furniture-items-included__china-cabinet"
+        },
+        {
+          "name": "Corner nook",
+          "handle": "kitchen-dining-furniture-items-included__corner-nook"
+        },
+        {
+          "name": "Dining chairs",
+          "handle": "kitchen-dining-furniture-items-included__dining-chairs"
+        },
+        {
+          "name": "Dining table",
+          "handle": "kitchen-dining-furniture-items-included__dining-table"
+        },
+        {
+          "name": "Kitchen cart",
+          "handle": "kitchen-dining-furniture-items-included__kitchen-cart"
+        },
+        {
+          "name": "Kitchen island",
+          "handle": "kitchen-dining-furniture-items-included__kitchen-island"
+        },
+        {
+          "name": "Wine rack",
+          "handle": "kitchen-dining-furniture-items-included__wine-rack"
+        },
+        {
+          "name": "Other",
+          "handle": "kitchen-dining-furniture-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3109",
+      "name": "Mattress features",
+      "handle": "mattress-features",
+      "description": "Highlights special characteristics of a mattress, such as hypoallergenic or cooling function",
+      "values": [
+        {
+          "name": "Adjustable base compatibility",
+          "handle": "mattress-features__adjustable-base-compatibility"
+        },
+        {
+          "name": "Anti-microbial",
+          "handle": "mattress-features__anti-microbial"
+        },
+        {
+          "name": "Bedbug resistant",
+          "handle": "mattress-features__bedbug-resistant"
+        },
+        {
+          "name": "Cooling function",
+          "handle": "mattress-features__cooling-function"
+        },
+        {
+          "name": "Dust mite resistant",
+          "handle": "mattress-features__dust-mite-resistant"
+        },
+        {
+          "name": "Edge support",
+          "handle": "mattress-features__edge-support"
+        },
+        {
+          "name": "Flippable",
+          "handle": "mattress-features__flippable"
+        },
+        {
+          "name": "Heat retention",
+          "handle": "mattress-features__heat-retention"
+        },
+        {
+          "name": "Hypoallergenic",
+          "handle": "mattress-features__hypoallergenic"
+        },
+        {
+          "name": "Machine washable cover",
+          "handle": "mattress-features__machine-washable-cover"
+        },
+        {
+          "name": "Motion isolation",
+          "handle": "mattress-features__motion-isolation"
+        },
+        {
+          "name": "Noise reduction",
+          "handle": "mattress-features__noise-reduction"
+        },
+        {
+          "name": "Removable cover",
+          "handle": "mattress-features__removable-cover"
+        },
+        {
+          "name": "Safe non-toxic materials",
+          "handle": "mattress-features__safe-non-toxic-materials"
+        },
+        {
+          "name": "Stain resistant",
+          "handle": "mattress-features__stain-resistant"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "mattress-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "mattress-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3321",
+      "name": "Outdoor furniture items included",
+      "handle": "outdoor-furniture-items-included",
+      "description": "Identifies the specific items included in an outdoor furniture set, such as chairs or table",
+      "values": [
+        {
+          "name": "Bed",
+          "handle": "outdoor-furniture-items-included__bed"
+        },
+        {
+          "name": "Bench",
+          "handle": "outdoor-furniture-items-included__bench"
+        },
+        {
+          "name": "Chairs",
+          "handle": "outdoor-furniture-items-included__chairs"
+        },
+        {
+          "name": "Ottoman",
+          "handle": "outdoor-furniture-items-included__ottoman"
+        },
+        {
+          "name": "Sectional sofa",
+          "handle": "outdoor-furniture-items-included__sectional-sofa"
+        },
+        {
+          "name": "Sofa",
+          "handle": "outdoor-furniture-items-included__sofa"
+        },
+        {
+          "name": "Storage box",
+          "handle": "outdoor-furniture-items-included__storage-box"
+        },
+        {
+          "name": "Sunlounger",
+          "handle": "outdoor-furniture-items-included__sunlounger"
+        },
+        {
+          "name": "Table",
+          "handle": "outdoor-furniture-items-included__table"
+        },
+        {
+          "name": "Other",
+          "handle": "outdoor-furniture-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1537",
+      "name": "Seat structure",
+      "handle": "seat-structure",
+      "description": "Defines the construction of a seat, e.g. wicker, solid",
+      "values": [
+        {
+          "name": "Grid",
+          "handle": "seat-structure__grid"
+        },
+        {
+          "name": "Solid",
+          "handle": "seat-structure__solid"
+        },
+        {
+          "name": "Wicker",
+          "handle": "seat-structure__wicker"
+        },
+        {
+          "name": "Other",
+          "handle": "seat-structure__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1515",
+      "name": "Slat material",
+      "handle": "slat-material",
+      "description": "Specifies the type of material used in bed or furniture slats, such as wood or pine",
+      "values": [
+        {
+          "name": "Beech wood",
+          "handle": "slat-material__beech-wood"
+        },
+        {
+          "name": "Medium density fiberboard (MDF)",
+          "handle": "slat-material__medium-density-fiberboard-mdf"
+        },
+        {
+          "name": "Metal",
+          "handle": "slat-material__metal"
+        },
+        {
+          "name": "Oak wood",
+          "handle": "slat-material__oak-wood"
+        },
+        {
+          "name": "Pine wood",
+          "handle": "slat-material__pine-wood"
+        },
+        {
+          "name": "Plywood",
+          "handle": "slat-material__plywood"
+        },
+        {
+          "name": "Spruce wood",
+          "handle": "slat-material__spruce-wood"
+        },
+        {
+          "name": "Wood",
+          "handle": "slat-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "slat-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1538",
+      "name": "Suitable for storage type",
+      "handle": "suitable-for-storage-type",
+      "description": "Specifies what items the product can store, e.g. garbage, garden tools",
+      "values": [
+        {
+          "name": "Bicycle",
+          "handle": "suitable-for-storage-type__bicycle"
+        },
+        {
+          "name": "Cushions",
+          "handle": "suitable-for-storage-type__cushions"
+        },
+        {
+          "name": "Garbage",
+          "handle": "suitable-for-storage-type__garbage"
+        },
+        {
+          "name": "Garden tools",
+          "handle": "suitable-for-storage-type__garden-tools"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-storage-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1526",
+      "name": "Wine rack design",
+      "handle": "wine-rack-design",
+      "description": "Defines the style or aesthetic of a wine rack, e.g. modern, traditional",
+      "values": [
+        {
+          "name": "Decorative",
+          "handle": "wine-rack-design__decorative"
+        },
+        {
+          "name": "Modern",
+          "handle": "wine-rack-design__modern"
+        },
+        {
+          "name": "Traditional",
+          "handle": "wine-rack-design__traditional"
+        },
+        {
+          "name": "Utility",
+          "handle": "wine-rack-design__utility"
+        },
+        {
+          "name": "Other",
+          "handle": "wine-rack-design__other"
+        }
+      ]
+    }
+  ]
+}

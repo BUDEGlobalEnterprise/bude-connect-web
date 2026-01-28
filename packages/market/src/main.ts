@@ -6,6 +6,7 @@ import './style.css';
 
 import { createHead } from '@unhead/vue/client';
 import * as Sentry from '@sentry/vue';
+import { prefetchStaticData } from '@bude/shared/api';
 
 const app = createApp(App);
 const head = createHead();
@@ -40,5 +41,10 @@ if (sentryDsn && import.meta.env.PROD) {
 app.use(createPinia());
 app.use(router);
 app.use(head);
+
+// Warm cache with static data in background
+prefetchStaticData().catch(() => {
+  // Silently fail - not critical
+});
 
 app.mount('#app');

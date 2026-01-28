@@ -1,0 +1,6390 @@
+{
+  "gid://shopify/TaxonomyCategory/ha": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1": [
+    "chemical-application",
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-1": [
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-2": [
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-3": [
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-4": [
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-5": [
+    "chemical-product-form",
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-6": [
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-7": [
+    "chemical-container-type",
+    "chemical-product-form",
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-8": [
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-9": [
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-1-10": [
+    "chemical-product-form",
+    "chemical-safety-features",
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-2": [
+    "color",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-3": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-3-1": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-3-2": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-3-3": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-4": [
+    "color",
+    "durability-features",
+    "lubricant-dispenser-type",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-4-1": [
+    "alcohol-solvent-content",
+    "color",
+    "durability-features",
+    "lubricant-dispenser-type",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-4-2": [
+    "alcohol-solvent-content",
+    "color",
+    "durability-features",
+    "lubricant-dispenser-type",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-4-4": [
+    "alcohol-solvent-content",
+    "color",
+    "durability-features",
+    "lubricant-dispenser-type",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-1": [
+    "color",
+    "masonry-material",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2-1": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2-4": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2-2": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2-3": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2-5": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2-6": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-2-7": [
+    "color",
+    "masonry-product-form",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-5-3": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-6": [
+    "color",
+    "finish",
+    "intended-application",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-6-1": [
+    "alcohol-solvent-content",
+    "color",
+    "finish",
+    "intended-application",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-6-2": [
+    "color",
+    "finish",
+    "intended-application",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-6-3": [
+    "alcohol-solvent-content",
+    "color",
+    "finish",
+    "intended-application",
+    "pattern",
+    "primer-use",
+    "product-formulation",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-6-4": [
+    "alcohol-solvent-content",
+    "color",
+    "finish",
+    "intended-application",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-6-5": [
+    "alcohol-solvent-content",
+    "color",
+    "pattern",
+    "product-formulation",
+    "sheen-gloss-level",
+    "suitable-for-material-type",
+    "suitable-space",
+    "varnish-finish-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-7": [
+    "color",
+    "pattern",
+    "plumbing-primer-application",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-8": [
+    "coating-sealant-application",
+    "color",
+    "durability-features",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-8-1": [
+    "coating-sealant-application",
+    "color",
+    "durability-features",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-8-2": [
+    "alcohol-solvent-content",
+    "coating-sealant-application",
+    "color",
+    "durability-features",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-8-3": [
+    "coating-sealant-application",
+    "color",
+    "durability-features",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-8-4": [
+    "coating-sealant-application",
+    "color",
+    "durability-features",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-8-5": [
+    "coating-sealant-application",
+    "color",
+    "durability-features",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-8-6": [
+    "alcohol-solvent-content",
+    "coating-sealant-application",
+    "color",
+    "durability-features",
+    "pattern",
+    "suitable-for-material-type",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-9": [
+    "color",
+    "pattern",
+    "solder-flux-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-9-1": [
+    "color",
+    "pattern",
+    "solder-flux-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-9-2": [
+    "color",
+    "pattern",
+    "solder-flux-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-9-3": [
+    "color",
+    "pattern",
+    "solder-flux-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-10": [
+    "color",
+    "pattern",
+    "solvent-thinner-application",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-10-1": [
+    "color",
+    "pattern",
+    "solvent-thinner-application",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-10-3": [
+    "color",
+    "pattern",
+    "solvent-thinner-application",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-10-2": [
+    "color",
+    "pattern",
+    "suitable-space",
+    "solvent-thinner-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-1": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-2": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-3": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-4": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-5": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-6": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-7": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-8": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-1-11-9": [
+    "building-consumable-form",
+    "color",
+    "pattern",
+    "product-formulation",
+    "suitable-for-material-type",
+    "suitable-space",
+    "wall-patching-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-1": [
+    "color",
+    "edge-style",
+    "finish",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "connection-method",
+    "hardware-material",
+    "pattern",
+    "power-source",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-2": [
+    "color",
+    "door-frame-application",
+    "door-closer-design",
+    "hand-side",
+    "hardware-finish",
+    "hardware-material",
+    "pattern",
+    "power-source",
+    "recommended-use",
+    "suitable-for-door-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-3": [
+    "color",
+    "door-frame-application",
+    "door-frame-finish",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-4": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "shape",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "door-knob-function",
+    "handle-material",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-6": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "hardware-finish",
+    "hardware-material",
+    "jewelry-material",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-7": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-8": [
+    "color",
+    "door-stop-placement",
+    "hardware-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-9": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-9-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-2-9-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-3-1": [
+    "color",
+    "door-insulation",
+    "door-material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-3-1-1": [
+    "color",
+    "door-insulation",
+    "door-material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-3-1-2": [
+    "color",
+    "door-insulation",
+    "door-material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-3-1-3": [
+    "color",
+    "door-insulation",
+    "door-material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-3-2": [
+    "color",
+    "door-frame-application",
+    "door-glass-finish",
+    "door-material",
+    "door-suitable-location",
+    "door-surface-finish",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-4": [
+    "building-board-material",
+    "color",
+    "durability-features",
+    "pattern",
+    "sound-insulation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-5": [
+    "color",
+    "material",
+    "pattern",
+    "style",
+    "suitable-location",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-6-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-6-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-7-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-7-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-8": [
+    "color",
+    "hatch-suitable-location",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-9": [
+    "color",
+    "insulation-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-9-1": [
+    "color",
+    "insulation-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-9-2": [
+    "color",
+    "insulation-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-9-3": [
+    "color",
+    "insulation-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-9-4": [
+    "color",
+    "insulation-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-9-5": [
+    "color",
+    "insulation-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-9-6": [
+    "color",
+    "insulation-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-10": [
+    "color",
+    "lumber-wood-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-10-1": [
+    "color",
+    "hardwood-lumber-grade",
+    "lumber-wood-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-10-2": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "plywood-grade"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-10-3": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "softwood-lumber-grade"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-11": [
+    "color",
+    "material",
+    "molding-application",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-12-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-12-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-12-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-1": [
+    "color",
+    "gutter-fitting-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-2": [
+    "color",
+    "gutter-style",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-3": [
+    "color",
+    "flashing-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-3-1": [
+    "color",
+    "flashing-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-3-2": [
+    "color",
+    "flashing-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-3-3": [
+    "color",
+    "flashing-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-3-4": [
+    "color",
+    "flashing-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-4": [
+    "color",
+    "pattern",
+    "shingle-tile-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-4-1": [
+    "color",
+    "pattern",
+    "shingle-tile-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-4-2": [
+    "color",
+    "pattern",
+    "shingle-tile-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-13-4-3": [
+    "color",
+    "pattern",
+    "shingle-tile-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-14": [
+    "color",
+    "material",
+    "pattern",
+    "shutter-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-14-1": [
+    "color",
+    "material",
+    "pattern",
+    "shutter-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-14-2": [
+    "color",
+    "material",
+    "pattern",
+    "shutter-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-14-3": [
+    "color",
+    "material",
+    "pattern",
+    "shutter-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-15": [
+    "color",
+    "pattern",
+    "siding-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-16-1": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-16-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-16-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-16-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-17": [
+    "color",
+    "material",
+    "pattern",
+    "staircase-features",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-17-1": [
+    "color",
+    "material",
+    "pattern",
+    "staircase-features",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-17-2": [
+    "color",
+    "material",
+    "pattern",
+    "staircase-features",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-17-3": [
+    "color",
+    "material",
+    "pattern",
+    "staircase-features",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-17-4": [
+    "color",
+    "material",
+    "pattern",
+    "staircase-features",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-17-5": [
+    "color",
+    "material",
+    "pattern",
+    "staircase-features",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-18": [
+    "color",
+    "durability-features",
+    "pattern",
+    "tile-design",
+    "tile-installation-method",
+    "tile-look",
+    "tile-material",
+    "tile-texture"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-18-1": [
+    "color",
+    "durability-features",
+    "pattern",
+    "tile-installation-method",
+    "tile-look",
+    "tile-material",
+    "tile-texture"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-18-2": [
+    "color",
+    "durability-features",
+    "pattern",
+    "tile-design",
+    "tile-installation-method",
+    "tile-look",
+    "tile-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-19": [
+    "building-board-material",
+    "color",
+    "durability-features",
+    "pattern",
+    "sound-insulation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-19-1": [
+    "building-board-material",
+    "color",
+    "durability-features",
+    "pattern",
+    "sound-insulation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-19-2": [
+    "building-board-material",
+    "color",
+    "durability-features",
+    "pattern",
+    "sound-insulation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-19-3": [
+    "building-board-material",
+    "color",
+    "durability-features",
+    "pattern",
+    "sound-insulation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-19-4": [
+    "building-board-material",
+    "color",
+    "durability-features",
+    "pattern",
+    "sound-insulation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-20": [
+    "color",
+    "material",
+    "pattern",
+    "weather-supply-application-method",
+    "weatherization-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-20-1": [
+    "color",
+    "material",
+    "pattern",
+    "weather-supply-application-method",
+    "weatherization-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-20-2": [
+    "color",
+    "pattern",
+    "weather-supply-application-method",
+    "weatherization-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-20-3": [
+    "color",
+    "material",
+    "pattern",
+    "weather-strip-design",
+    "weather-supply-application-method",
+    "weatherization-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-20-4": [
+    "color",
+    "material",
+    "pattern",
+    "weather-supply-application-method",
+    "weatherization-application"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21-2-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21-2-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21-2-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-21-2-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-22": [
+    "color",
+    "glazing-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-22-1": [
+    "color",
+    "glazing-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-22-2": [
+    "color",
+    "glazing-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-22-3": [
+    "color",
+    "glazing-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-22-4": [
+    "color",
+    "glazing-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-22-5": [
+    "color",
+    "glazing-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-2-22-6": [
+    "color",
+    "glazing-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-2": [
+    "color",
+    "fencing-components",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-2-1": [
+    "color",
+    "fencing-components",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-2-2": [
+    "color",
+    "fencing-components",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-2-3": [
+    "color",
+    "fencing-components",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-2-4": [
+    "color",
+    "fencing-components",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-3": [
+    "color",
+    "fencing-components",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-4-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-4-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-4-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-5-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-5-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-6-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-6-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-6-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-7": [
+    "color",
+    "material",
+    "pattern",
+    "trellis-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-8-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-8-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-8-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-3-8-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-4": [
+    "color",
+    "fuel-additives",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-4-1": [
+    "color",
+    "fuel-additives",
+    "fuel-grade",
+    "pattern",
+    "suitable-space",
+    "sulfur-content"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-4-2": [
+    "color",
+    "fuel-additives",
+    "fuel-grade",
+    "kerosene-application",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-4-2-1": [
+    "color",
+    "fuel-additives",
+    "fuel-grade",
+    "kerosene-application",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-4-2-2": [
+    "color",
+    "fuel-additives",
+    "fuel-grade",
+    "kerosene-application",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-4-3": [
+    "color",
+    "fuel-additives",
+    "fuel-purity",
+    "pattern",
+    "propane-application",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-5": [
+    "color",
+    "fuel-container-features",
+    "material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-5-1": [
+    "color",
+    "fuel-container-features",
+    "material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-5-2": [
+    "color",
+    "fuel-container-features",
+    "material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-5-3": [
+    "color",
+    "fuel-container-features",
+    "material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-5-4": [
+    "color",
+    "fuel-container-features",
+    "material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-5-5": [
+    "color",
+    "fuel-container-features",
+    "material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-1": [
+    "bracket-brace-design",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-2-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-2-2": [
+    "color",
+    "material",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-2-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-2-4": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "style",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-2-5": [
+    "color",
+    "handle-material",
+    "hardware-finish",
+    "knob-handle-design",
+    "lumber-wood-type",
+    "pattern",
+    "style",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-3": [
+    "color",
+    "load-capacity",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4": [
+    "color",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4-1": [
+    "color",
+    "cord-fastening-system",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4-6": [
+    "color",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-4-7": [
+    "color",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-5": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-5-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-5-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-5-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-6": [
+    "color",
+    "material",
+    "molding-shape",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-9": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-10": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-11": [
+    "color",
+    "pattern",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-11-1": [
+    "color",
+    "pattern",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-11-2": [
+    "color",
+    "pattern",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-11-3": [
+    "color",
+    "pattern",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-12": [
+    "color",
+    "hose-material",
+    "pattern",
+    "fuel-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-13": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "spike-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-1": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-1": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-2": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-3": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-4": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-5": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-6": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-7": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-8": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-9": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-10": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-11": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-12": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-13": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-2-14": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-3": [
+    "bolt-form",
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "nut-form",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-4": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "rivet-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-5": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-2": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-3": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-6": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-7": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-8": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-9": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-4": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-10": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-11": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-12": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-13": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-14": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-6-15": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-7": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "thread-direction",
+    "threaded-rod-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-14-8": [
+    "color",
+    "fastener-finish",
+    "hardware-material",
+    "pattern",
+    "washer-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-15": [
+    "color",
+    "door-frame-application",
+    "hardware-finish",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-16": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-16-1": [
+    "color",
+    "connector-design",
+    "hardware-material",
+    "hook-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-16-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-16-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-16-4": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-17": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-18": [
+    "color",
+    "material",
+    "metal-molding-application",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-19": [
+    "color",
+    "cover-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-19-1": [
+    "color",
+    "cover-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-19-2": [
+    "color",
+    "cover-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-20": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-20-1": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-20-2": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-21": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-22": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-22-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-22-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-22-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-23": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-1-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-2": [
+    "battery-size",
+    "battery-type",
+    "clothing-accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-2-1": [
+    "clothing-accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-2-2": [
+    "clothing-accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-2-3": [
+    "clothing-accessory-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-3": [
+    "bag-case-material",
+    "color",
+    "lock-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-4": [
+    "color",
+    "lock-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-4-1": [
+    "color",
+    "lock-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-4-2": [
+    "color",
+    "lock-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-4-3": [
+    "color",
+    "lock-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-5-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-5-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-6": [
+    "color",
+    "hardware-mounting-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-6-1": [
+    "color",
+    "hardware-mounting-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-6-2": [
+    "color",
+    "hardware-mounting-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-8": [
+    "color",
+    "features",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-8-1": [
+    "color",
+    "features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-24-8-2": [
+    "color",
+    "features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-6-25": [
+    "color",
+    "features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-1-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-1-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-1-3": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-2-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-2-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-2-3": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-3": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source",
+    "suitable-for-water-feature-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-3-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source",
+    "suitable-for-water-feature-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-3-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source",
+    "suitable-for-water-feature-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-3-5": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source",
+    "suitable-for-water-feature-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-4": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-4-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-4-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-4-3": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-5": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-5-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-5-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-5-3": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-7-6": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8-1": [
+    "color",
+    "dryer-technology",
+    "material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8-2": [
+    "color",
+    "duct-design",
+    "duct-shape",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8-3": [
+    "hvac-control-type",
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8-3-1": [
+    "hvac-control-type",
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8-3-2": [
+    "hvac-control-type",
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8-3-3": [
+    "battery-size",
+    "battery-type",
+    "display-technology",
+    "hvac-control-type",
+    "color",
+    "pattern",
+    "power-source",
+    "sensor-measuring-tool-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-8-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-1": [
+    "color",
+    "key-purpose",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-3": [
+    "color",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-3-3": [
+    "color",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-3-1": [
+    "color",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-4": [
+    "color",
+    "material",
+    "pattern",
+    "security-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-4-1": [
+    "color",
+    "material",
+    "pattern",
+    "security-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-4-2": [
+    "color",
+    "material",
+    "pattern",
+    "security-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-4-3": [
+    "color",
+    "material",
+    "pattern",
+    "security-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-9-4-5": [
+    "color",
+    "material",
+    "pattern",
+    "security-level"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-2-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-4-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-4-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-5-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-5-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-6-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-6-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-8": [
+    "color",
+    "material",
+    "pattern",
+    "pipe-clamp-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-9": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-9-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-9-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-10": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-10-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-10-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-10-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-10-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-1-10-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-1": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-1-1": [
+    "bathtub-base-design",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-1-2": [
+    "bathtub-skirt-shape",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-1-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-1-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-1-3-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-4": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "recommended-use"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-5": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-6": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "plumbing-trap-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-2-7": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-3-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-3-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-3-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-4": [
+    "color",
+    "connecting-thread",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-4-1": [
+    "color",
+    "connecting-thread",
+    "faucet-thread",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-4-2": [
+    "color",
+    "connecting-thread",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-4-2-1": [
+    "color",
+    "connecting-thread",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-4-2-2": [
+    "color",
+    "connecting-thread",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-4-2-3": [
+    "color",
+    "connecting-thread",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-5": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-5-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-5-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-5-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-1": [
+    "color",
+    "drain-location",
+    "hardware-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-1-1": [
+    "color",
+    "drain-location",
+    "hardware-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-1-2": [
+    "color",
+    "drain-location",
+    "hardware-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-2-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-2-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-3": [
+    "color",
+    "connecting-thread",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-3-1": [
+    "color",
+    "connecting-thread",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-3-2": [
+    "color",
+    "connecting-thread",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-4": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "shower-base-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-5": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-6-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-6-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-6-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-7": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-7-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-7-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-8": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-8-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-8-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-6-9": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-7-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-2-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-2-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "material",
+    "material-firmness",
+    "pattern",
+    "toilet-cover-design",
+    "toilet-cover-features",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-4": [
+    "color",
+    "material",
+    "pattern",
+    "toilet-cover-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-5": [
+    "color",
+    "material",
+    "pattern",
+    "toilet-cover-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-7-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-7-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-8": [
+    "color",
+    "pattern",
+    "material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-8-1": [
+    "color",
+    "pattern",
+    "material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-8-2": [
+    "color",
+    "pattern",
+    "material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-2-8-9": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-2": [
+    "bathtub-features",
+    "color",
+    "drain-location",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-2-1": [
+    "bathtub-features",
+    "color",
+    "drain-location",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-2-2": [
+    "bathtub-features",
+    "color",
+    "drain-location",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-2-3": [
+    "bathtub-features",
+    "color",
+    "drain-location",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-3-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-3-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-4": [
+    "color",
+    "material",
+    "pattern",
+    "shower-design",
+    "shower-features",
+    "shower-opening-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-1": [
+    "color",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-1-1": [
+    "color",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-1-2": [
+    "color",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-1-3": [
+    "color",
+    "material",
+    "pattern",
+    "sink-mounting-type",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-2": [
+    "color",
+    "material",
+    "pattern",
+    "shape",
+    "sink-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-2-1": [
+    "color",
+    "material",
+    "pattern",
+    "shape",
+    "sink-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-2-2": [
+    "color",
+    "material",
+    "pattern",
+    "shape",
+    "sink-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-5-2-3": [
+    "color",
+    "material",
+    "pattern",
+    "shape",
+    "sink-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-6-1": [
+    "battery-size",
+    "battery-type",
+    "toilet-bidet-mounting-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-6-2": [
+    "color",
+    "flush-system",
+    "material",
+    "pattern",
+    "toilet-bidet-mounting-type",
+    "toilet-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-6-2-1": [
+    "color",
+    "flush-system",
+    "material",
+    "pattern",
+    "toilet-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-6-2-2": [
+    "color",
+    "flush-system",
+    "material",
+    "pattern",
+    "toilet-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-6-2-3": [
+    "color",
+    "flush-system",
+    "material",
+    "pattern",
+    "toilet-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-3-6-3": [
+    "color",
+    "material",
+    "pattern",
+    "toilet-bidet-mounting-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-4": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-4-1": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-4-2": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-4-3": [
+    "color",
+    "hose-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-5-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-5-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-5-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-6-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-6-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-6-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-2": [
+    "color",
+    "hardware-mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-2-1": [
+    "color",
+    "hardware-mounting-type",
+    "material",
+    "pattern",
+    "placement-supported",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-2-2": [
+    "color",
+    "hardware-mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-4-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-4-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-7-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-10-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-1": [
+    "color",
+    "material",
+    "motor-starting-method",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-1-1": [
+    "color",
+    "material",
+    "motor-starting-method",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-1-2": [
+    "color",
+    "material",
+    "motor-starting-method",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-1-3": [
+    "color",
+    "material",
+    "motor-starting-method",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-3": [
+    "brush-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-4": [
+    "circuit-breaker-panel-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-4-1": [
+    "circuit-breaker-panel-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-4-2": [
+    "circuit-breaker-panel-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-5": [
+    "circuit-breaker-design",
+    "circuit-breaker-type",
+    "color",
+    "pattern",
+    "recommended-use",
+    "trip-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-6-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-6-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-6-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-6-2": [
+    "color",
+    "material",
+    "pattern",
+    "shrink-ratio"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-7": [
+    "color",
+    "motor-starting-method",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-7-1": [
+    "color",
+    "motor-starting-method",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-7-2": [
+    "color",
+    "motor-starting-method",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-7-3": [
+    "color",
+    "motor-starting-method",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-8-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-8-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-9": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "switch-control-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-1-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "switch-control-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-1-2": [
+    "color",
+    "pattern",
+    "switch-control-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-1-3": [
+    "color",
+    "pattern",
+    "switch-control-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-10-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-11": [
+    "color",
+    "pattern",
+    "wire-rope-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-13": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-15": [
+    "color",
+    "ignition-system",
+    "pattern",
+    "phase-type",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-15-1": [
+    "color",
+    "ignition-system",
+    "pattern",
+    "phase-type",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-15-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "ignition-system",
+    "pattern",
+    "phase-type",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-15-3": [
+    "color",
+    "ignition-system",
+    "pattern",
+    "phase-type",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-16-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-16-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-16-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-17": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-17-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-17-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-18": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-18-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-18-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-19": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-20": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-21": [
+    "color",
+    "pattern",
+    "socket-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-21-1": [
+    "color",
+    "pattern",
+    "socket-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-21-2": [
+    "color",
+    "pattern",
+    "socket-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-21-3": [
+    "color",
+    "pattern",
+    "socket-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-22": [
+    "color",
+    "pattern",
+    "solar-panel-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-22-1": [
+    "color",
+    "pattern",
+    "solar-panel-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-22-2": [
+    "color",
+    "pattern",
+    "solar-panel-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-22-3": [
+    "color",
+    "pattern",
+    "solar-panel-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-23": [
+    "color",
+    "pattern",
+    "solar-cell-type",
+    "solar-panel-connections"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-23-1": [
+    "color",
+    "pattern",
+    "solar-panel-connections"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-23-2": [
+    "color",
+    "pattern",
+    "solar-panel-connections"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-23-3": [
+    "color",
+    "pattern",
+    "solar-panel-connections"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-24": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-24-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-24-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-25": [
+    "color",
+    "material",
+    "pattern",
+    "wall-plate-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-25-1": [
+    "color",
+    "material",
+    "pattern",
+    "wall-plate-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-25-2": [
+    "color",
+    "material",
+    "pattern",
+    "wall-plate-style"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-25-3": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wall-plate-style",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-26": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-26-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-26-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-27": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-27-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-27-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-28": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-28-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-28-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-11-28-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-12": [
+    "color",
+    "engine-design",
+    "engine-purpose",
+    "fuel-supply",
+    "pattern",
+    "shaft-orientation",
+    "start-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-13": [
+    "color",
+    "material",
+    "orientation",
+    "pattern",
+    "storage-tank-application",
+    "suitable-installation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-1-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "sandblaster-application",
+    "sander-type",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-1-1-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "sandblaster-application",
+    "sander-type",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-1-1-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "sandblaster-application",
+    "sander-type",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-2-1": [
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-2-2": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-3-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "rotating-direction",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-1-1": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "rotating-direction",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-1-2": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "rotating-direction",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-1-3": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "rotating-direction",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-3-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-3-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-4": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-4-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-4-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-5-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-5-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-4-6": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-8-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-8-2": [
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-8-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-9": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-10-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-10-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-10-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-12-1": [
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-13-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-13-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-13-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-13-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-13-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-14": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-15": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-15-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-15-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-15-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-15-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-15-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-16": [
+    "battery-technology",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-17": [
+    "battery-technology",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-18": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-18-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-18-1-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-18-1-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-18-1-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-18-2": [
+    "color",
+    "hardware-mounting-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-1": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-2": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-3": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-4": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-5": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-6": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-7": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-8": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-19-1-9": [
+    "abrasive-material",
+    "color",
+    "backing-material",
+    "pattern",
+    "grit-type",
+    "sanding-application",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-20": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-20-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-20-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-20-3": [
+    "alcohol-solvent-content",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-20-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-20-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-21": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-21-1": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-21-1-1": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-21-1-2": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-21-1-3": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-22": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-22-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-22-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-22-2-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-22-2-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-22-2-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23-1": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23-1-1": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23-1-2": [
+    "blade-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23-2": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23-2-1": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23-2-2": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-23-2-3": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-24": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-24-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-24-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-25": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-26": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-27": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-27-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-27-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-27-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-27-1-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-28": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-28-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-28-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-28-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-14-29": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-1-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-1-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-1-3": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-5": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-5-1": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-5-2": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-5-3": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-6-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-7": [
+    "brush-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-8": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-8-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-8-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-9": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-10": [
+    "bristle-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-1-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-1-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-2": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-2-1": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-2-2": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-2-3": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-3": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-4": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-4-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-4-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-5": [
+    "blade-material",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-8": [
+    "blade-design",
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-8-1": [
+    "blade-design",
+    "color",
+    "hardware-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-11-8-2": [
+    "blade-design",
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-12": [
+    "color",
+    "material",
+    "pattern",
+    "suitable-for-pipe-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-12-1": [
+    "color",
+    "material",
+    "pattern",
+    "suitable-for-pipe-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-12-2": [
+    "color",
+    "material",
+    "pattern",
+    "suitable-for-pipe-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-13": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-13-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-13-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-13-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14": [
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-1": [
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-1-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-1-2": [
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-2": [
+    "chuck-type",
+    "color",
+    "drill-features",
+    "hardware-mounting-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-3": [
+    "battery-size",
+    "battery-type",
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-3-1": [
+    "battery-size",
+    "battery-type",
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-3-2": [
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-3-3": [
+    "battery-size",
+    "battery-type",
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-4": [
+    "color",
+    "drill-features",
+    "hardware-mounting-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-5": [
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-5-1": [
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-14-5-2": [
+    "chuck-type",
+    "color",
+    "drill-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-15": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-16": [
+    "color",
+    "furniture-fixture-material",
+    "light-source",
+    "lighting-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-16-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "furniture-fixture-material",
+    "light-source",
+    "lighting-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-16-1-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "furniture-fixture-material",
+    "light-source",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-16-1-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "furniture-fixture-material",
+    "light-source",
+    "lumber-wood-type",
+    "pattern",
+    "power-source",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-16-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "furniture-fixture-material",
+    "light-source",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-17": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-17-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-17-3": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-18": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-18-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-18-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-18-3": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-19": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-19-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-19-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-19-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20": [
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20-1": [
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20-1-1": [
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20-1-2": [
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20-1-3": [
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20-2": [
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20-2-1": [
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-20-2-2": [
+    "battery-size",
+    "battery-type",
+    "hammer-head-material",
+    "color",
+    "handle-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-21": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-22": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-23": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-23-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-23-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-24": [
+    "color",
+    "handle-design",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-24-1": [
+    "color",
+    "handle-design",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-24-2": [
+    "color",
+    "handle-design",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-24-3": [
+    "color",
+    "handle-design",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-25": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-26": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-1": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-2": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-2-1": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-2-2": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-2-3": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-3": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-3-3": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern",
+    "scaffolding-mounting-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-3-4": [
+    "color",
+    "features",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-4": [
+    "color",
+    "hardware-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-27-5": [
+    "color",
+    "hardware-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-28": [
+    "color",
+    "hardware-material",
+    "lathe-application",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-29": [
+    "light-source",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-29-1": [
+    "light-source",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-29-2": [
+    "light-source",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-30": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-30-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-30-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-30-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-31": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-31-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-31-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-32": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-32-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-32-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-33": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-2-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-2-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-4": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-4-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-4-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-4-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-5": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "sponge-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-6": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-6-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-6-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-7": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-7-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-7-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-8": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-8-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-8-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-8-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-34-9": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-35": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-35-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-35-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-1": [
+    "display-technology",
+    "color",
+    "pattern",
+    "sensor-measuring-tool-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-1-1": [
+    "display-technology",
+    "color",
+    "pattern",
+    "sensor-measuring-tool-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-1-2": [
+    "display-technology",
+    "color",
+    "pattern",
+    "sensor-measuring-tool-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-1-3": [
+    "display-technology",
+    "color",
+    "pattern",
+    "sensor-measuring-tool-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-2": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-3": [
+    "anemometer-application",
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source",
+    "units-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-3-1": [
+    "anemometer-application",
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source",
+    "units-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-3-2": [
+    "anemometer-application",
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source",
+    "units-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-3-3": [
+    "anemometer-application",
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source",
+    "units-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-4": [
+    "color",
+    "display-technology",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-4-1": [
+    "color",
+    "display-technology",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-4-2": [
+    "color",
+    "display-technology",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-4-3": [
+    "color",
+    "display-technology",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern",
+    "system-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-5-1": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern",
+    "system-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-5-2": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern",
+    "system-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-5-3": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern",
+    "system-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-6": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "pattern",
+    "units-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "hardware-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-9": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-9-1": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-9-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-9-3": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-10": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-10-1": [
+    "color",
+    "display-technology",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-10-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-11": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "gases-detected",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-11-1": [
+    "color",
+    "display-technology",
+    "gases-detected",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-11-2": [
+    "color",
+    "display-technology",
+    "gases-detected",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-12": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-12-1": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-12-2": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-12-3": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-13": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-13-1": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-13-2": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-14": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-15": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-16": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-16-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-16-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-1": [
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-1-1": [
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-1-2": [
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-1-3": [
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-2-1": [
+    "color",
+    "display-technology",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-2-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-2-3": [
+    "color",
+    "display-technology",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-3": [
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-3-1": [
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-17-3-2": [
+    "color",
+    "orientation",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-18": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-18-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-18-2": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-19": [
+    "color",
+    "display-technology",
+    "hardware-material",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "units-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-39": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "micrometer-type",
+    "pattern",
+    "system-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-20": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-20-1": [
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-20-2": [
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-21": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-21-1": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-21-2": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-22": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-22-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-22-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-22-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-23": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-24": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-25": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-26": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-26-1": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-26-2": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-26-3": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-27": [
+    "color",
+    "connection-method",
+    "device-technology",
+    "display-technology",
+    "frequency-weighting",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "time-weighting"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-28": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-28-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-28-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-28-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-29": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-30": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-31": [
+    "color",
+    "display-technology",
+    "furniture-fixture-material",
+    "pattern",
+    "system-of-measurement"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-32": [
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-33": [
+    "color",
+    "display-resolution",
+    "display-technology",
+    "furniture-fixture-material",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "thermal-detector-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-34": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-34-2": [
+    "color",
+    "display-technology",
+    "pattern",
+    "thermocouple-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-34-1": [
+    "color",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-35": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-35-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-35-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-35-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-36": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "device-technology",
+    "display-technology",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-37": [
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-37-1": [
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-37-2": [
+    "color",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-36-38": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "connection-method",
+    "device-technology",
+    "display-technology",
+    "sensor-measuring-tool-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-37": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-37-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-37-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-38": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-39": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-39-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-39-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-40": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-40-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-40-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-40-4": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-40-3": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-41": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-1": [
+    "airbrush-feed-type",
+    "airbrush-operation-method",
+    "alcohol-solvent-content",
+    "battery-size",
+    "battery-type",
+    "bristle-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-2": [
+    "alcohol-solvent-content",
+    "bristle-material",
+    "color",
+    "paint-brush-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-3-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-3-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-4-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-4-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-4-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-5-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-6": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "sponge-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-7": [
+    "alcohol-solvent-content",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-7-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-7-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-7-3": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-8": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-8-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-8-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-42-9": [
+    "alcohol-solvent-content",
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-43": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-43-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-43-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-44": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-44-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-44-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-45": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-45-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-45-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-46": [
+    "brush-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-47": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-47-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-47-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-48": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-48-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-48-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-48-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-49": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-49-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-49-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-49-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-50": [
+    "plunger-shape",
+    "color",
+    "accessory-material",
+    "pattern",
+    "color",
+    "accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-50-2": [
+    "plunger-shape",
+    "color",
+    "accessory-material",
+    "pattern",
+    "color",
+    "accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-50-3": [
+    "plunger-shape",
+    "color",
+    "accessory-material",
+    "pattern",
+    "color",
+    "accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-51": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-51-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-51-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-52": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-52-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-52-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-53": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-54": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-54-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-54-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-54-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-55": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-55-1": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-55-3": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-55-2": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-56": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-56-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-56-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-57": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-57-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-57-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-57-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-57-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-58": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-59": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-59-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-59-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-59-3": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-60": [
+    "color",
+    "grit-type",
+    "hardware-material",
+    "material-firmness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-61": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62": [
+    "color",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-1": [
+    "color",
+    "hardware-mounting-type",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-2": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-3": [
+    "color",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-3-1": [
+    "color",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-3-2": [
+    "color",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-3-3": [
+    "color",
+    "pattern",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-5": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-6": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-7": [
+    "bevel-type",
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-8": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-9": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-10": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-10-1": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-10-2": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-62-11": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-63": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-63-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-63-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-63-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-64": [
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-for-material-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-65": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-66": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "socket-driver-tip",
+    "tool-operation"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-67": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-68": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-68-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-68-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-69": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-69-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-69-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-69-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-70": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-71": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-71-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-71-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-71-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-72": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-73": [
+    "color",
+    "hardware-material",
+    "pattern",
+    "tool-key-tip"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-74": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-75": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-75-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-75-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-75-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-75-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-75-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-76": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-76-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-76-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-77": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-77-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-77-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-77-3": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-78": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-78-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-78-2": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-78-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-79": [
+    "light-source",
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-80": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-80-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-80-2": [
+    "color",
+    "drive-size",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ha-15-80-3": [
+    "color",
+    "drive-size",
+    "hardware-material",
+    "pattern"
+  ]
+}

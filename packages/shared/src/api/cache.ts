@@ -84,6 +84,20 @@ class ApiCache {
 // Singleton instance
 export const apiCache = new ApiCache();
 
+// ============ TTL Constants ============
+
+/** 15 minutes - for semi-static data like categories, skills */
+export const TTL_15_MIN = 15 * 60 * 1000;
+
+/** 30 minutes - for static data like taxonomy verticals */
+export const TTL_30_MIN = 30 * 60 * 1000;
+
+/** 5 minutes - for frequently changing data */
+export const TTL_5_MIN = 5 * 60 * 1000;
+
+/** 1 hour - for very static data */
+export const TTL_1_HOUR = 60 * 60 * 1000;
+
 /**
  * HOF to wrap API calls with caching
  */
@@ -127,4 +141,96 @@ export function deduplicateRequest<T>(
 
   pendingRequests.set(key, promise);
   return promise;
+}
+
+// ============ Cached API Functions ============
+
+import { frappe } from './client';
+import type { Skill } from '../types';
+
+/**
+ * Get categories with 15 min cache
+ */
+export async function getCategoriesCached(forceRefresh = false): Promise<{ name: string; count: number }[]> {
+  const cacheKey = 'market:categories';
+
+  if (!forceRefresh) {
+    const cached = apiCache.get<{ name: string; count: number }[]>(cacheKey);
+    if (cached) return cached;
+  }
+
+  return deduplicateRequest(cacheKey, async () => {
+    const result = await frappe.call<{ name: string; count: number }[]>(
+      'bude_core.market.get_categories',
+      {},
+      true
+    );
+    apiCache.set(cacheKey, undefined, result, TTL_15_MIN);
+    return result;
+  });
+}
+
+/**
+ * Get skills with 15 min cache
+ */
+export async function getSkillsCached(forceRefresh = false): Promise<Skill[]> {
+  const cacheKey = 'work:skills';
+
+  if (!forceRefresh) {
+    const cached = apiCache.get<Skill[]>(cacheKey);
+    if (cached) return cached;
+  }
+
+  return deduplicateRequest(cacheKey, async () => {
+    const result = await frappe.call<Skill[]>('bude_core.work.get_skills', {}, true);
+    apiCache.set(cacheKey, undefined, result, TTL_15_MIN);
+    return result;
+  });
+}
+
+/**
+ * Get item conditions (static data, 1 hour cache)
+ */
+export function getConditionsCached(): string[] {
+  // This is static data, no API needed
+  return ['New', 'Open Box', 'Refurbished', 'Used', 'For Parts'];
+}
+
+/**
+ * Get listing types (static data, 1 hour cache)
+ */
+export function getListingTypesCached(): { value: string; label: string; icon: string }[] {
+  return [
+    { value: 'Sell', label: 'Sell', icon: '🤝' },
+    { value: 'Rent', label: 'Rent', icon: '🔄' },
+    { value: 'Surplus', label: 'Surplus', icon: '📦' },
+    { value: 'Scrap', label: 'Scrap', icon: '♻️' },
+  ];
+}
+
+/**
+ * Prefetch common static data on app init
+ * Call this on app mount to warm the cache
+ */
+export async function prefetchStaticData(): Promise<void> {
+  await Promise.allSettled([
+    getCategoriesCached(),
+    getSkillsCached(),
+  ]);
+}
+
+/**
+ * Invalidate market-related cache
+ * Call after creating/updating listings
+ */
+export function invalidateMarketCache(): void {
+  apiCache.invalidate('market:');
+}
+
+/**
+ * Invalidate work-related cache
+ * Call after creating/updating jobs or profiles
+ */
+export function invalidateWorkCache(): void {
+  apiCache.invalidate('work:');
 }

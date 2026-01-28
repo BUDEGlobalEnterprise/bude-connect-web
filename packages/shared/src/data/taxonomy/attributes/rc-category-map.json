@@ -1,0 +1,15 @@
+{
+  "gid://shopify/TaxonomyCategory/rc-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/rc-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/rc-3": [
+    "color",
+    "pattern"
+  ]
+}

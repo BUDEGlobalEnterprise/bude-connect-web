@@ -1,0 +1,5344 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4050",
+      "name": "Air fryer functions",
+      "handle": "air-fryer-functions",
+      "description": "Lists the various cooking modes available in an air fryer or similar appliance, e.g. air fry, bake",
+      "values": [
+        {
+          "name": "Air broil",
+          "handle": "air-fryer-functions__air-broil"
+        },
+        {
+          "name": "Air fry",
+          "handle": "air-fryer-functions__air-fry"
+        },
+        {
+          "name": "Bake",
+          "handle": "air-fryer-functions__bake"
+        },
+        {
+          "name": "Broil",
+          "handle": "air-fryer-functions__broil"
+        },
+        {
+          "name": "Convection",
+          "handle": "air-fryer-functions__convection"
+        },
+        {
+          "name": "Crisp",
+          "handle": "air-fryer-functions__crisp"
+        },
+        {
+          "name": "Dehydrate",
+          "handle": "air-fryer-functions__dehydrate"
+        },
+        {
+          "name": "Ferment",
+          "handle": "air-fryer-functions__ferment"
+        },
+        {
+          "name": "Grill",
+          "handle": "air-fryer-functions__grill"
+        },
+        {
+          "name": "Keep warm",
+          "handle": "air-fryer-functions__keep-warm"
+        },
+        {
+          "name": "Pizza",
+          "handle": "air-fryer-functions__pizza"
+        },
+        {
+          "name": "Proof",
+          "handle": "air-fryer-functions__proof"
+        },
+        {
+          "name": "Reheat",
+          "handle": "air-fryer-functions__reheat"
+        },
+        {
+          "name": "Roast",
+          "handle": "air-fryer-functions__roast"
+        },
+        {
+          "name": "Rotisserie",
+          "handle": "air-fryer-functions__rotisserie"
+        },
+        {
+          "name": "Sear",
+          "handle": "air-fryer-functions__sear"
+        },
+        {
+          "name": "Slow cook",
+          "handle": "air-fryer-functions__slow-cook"
+        },
+        {
+          "name": "Steam",
+          "handle": "air-fryer-functions__steam"
+        },
+        {
+          "name": "Toast",
+          "handle": "air-fryer-functions__toast"
+        },
+        {
+          "name": "Yogurt",
+          "handle": "air-fryer-functions__yogurt"
+        },
+        {
+          "name": "Other",
+          "handle": "air-fryer-functions__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3429",
+      "name": "Art movement",
+      "handle": "art-movement",
+      "description": "Defines the stylistic approach or art movement of a painting, e.g. Impressionism, Expressionism",
+      "values": [
+        {
+          "name": "Abstract",
+          "handle": "art-movement__abstract"
+        },
+        {
+          "name": "Art deco",
+          "handle": "art-movement__art-deco"
+        },
+        {
+          "name": "Art nouveau",
+          "handle": "art-movement__art-nouveau"
+        },
+        {
+          "name": "Baroque",
+          "handle": "art-movement__baroque"
+        },
+        {
+          "name": "Bauhaus",
+          "handle": "art-movement__bauhaus"
+        },
+        {
+          "name": "Classicism",
+          "handle": "art-movement__classicism"
+        },
+        {
+          "name": "Cubism",
+          "handle": "art-movement__cubism"
+        },
+        {
+          "name": "Dadaism",
+          "handle": "art-movement__dadaism"
+        },
+        {
+          "name": "Expressionism",
+          "handle": "art-movement__expressionism"
+        },
+        {
+          "name": "Fauvism",
+          "handle": "art-movement__fauvism"
+        },
+        {
+          "name": "Futurism",
+          "handle": "art-movement__futurism"
+        },
+        {
+          "name": "Gothic",
+          "handle": "art-movement__gothic"
+        },
+        {
+          "name": "Impressionism",
+          "handle": "art-movement__impressionism"
+        },
+        {
+          "name": "Minimalism",
+          "handle": "art-movement__minimalism"
+        },
+        {
+          "name": "Modernism",
+          "handle": "art-movement__modernism"
+        },
+        {
+          "name": "Neoclassicism",
+          "handle": "art-movement__neoclassicism"
+        },
+        {
+          "name": "Pop art",
+          "handle": "art-movement__pop-art"
+        },
+        {
+          "name": "Post-Impressionism",
+          "handle": "art-movement__post-impressionism"
+        },
+        {
+          "name": "Realism",
+          "handle": "art-movement__realism"
+        },
+        {
+          "name": "Renaissance",
+          "handle": "art-movement__renaissance"
+        },
+        {
+          "name": "Rococo",
+          "handle": "art-movement__rococo"
+        },
+        {
+          "name": "Romanticism",
+          "handle": "art-movement__romanticism"
+        },
+        {
+          "name": "Surrealism",
+          "handle": "art-movement__surrealism"
+        },
+        {
+          "name": "Symbolism",
+          "handle": "art-movement__symbolism"
+        },
+        {
+          "name": "Victorian",
+          "handle": "art-movement__victorian"
+        },
+        {
+          "name": "Other",
+          "handle": "art-movement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3430",
+      "name": "Artwork authenticity",
+      "handle": "artwork-authenticity",
+      "description": "Indicates the authenticity of the artwork, specifying whether it is an original creation or a reproduction",
+      "values": [
+        {
+          "name": "Original",
+          "handle": "artwork-authenticity__original"
+        },
+        {
+          "name": "Reproduction",
+          "handle": "artwork-authenticity__reproduction"
+        },
+        {
+          "name": "Other",
+          "handle": "artwork-authenticity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2796",
+      "name": "Artwork frame material",
+      "handle": "artwork-frame-material",
+      "description": "Identifies the material used in art frames, such as wood or gold-plated",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "artwork-frame-material__aluminum"
+        },
+        {
+          "name": "Composite",
+          "handle": "artwork-frame-material__composite"
+        },
+        {
+          "name": "Gold",
+          "handle": "artwork-frame-material__gold"
+        },
+        {
+          "name": "Gold-plated",
+          "handle": "artwork-frame-material__gold-plated"
+        },
+        {
+          "name": "Metal",
+          "handle": "artwork-frame-material__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "artwork-frame-material__plastic"
+        },
+        {
+          "name": "Silver",
+          "handle": "artwork-frame-material__silver"
+        },
+        {
+          "name": "Silver-plated",
+          "handle": "artwork-frame-material__silver-plated"
+        },
+        {
+          "name": "Wood",
+          "handle": "artwork-frame-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "artwork-frame-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1426",
+      "name": "Awning construction type",
+      "handle": "awning-construction-type",
+      "description": "Defines the setup style of an awning, such as retractable or fixed",
+      "values": [
+        {
+          "name": "Fixed",
+          "handle": "awning-construction-type__fixed"
+        },
+        {
+          "name": "Inflatable",
+          "handle": "awning-construction-type__inflatable"
+        },
+        {
+          "name": "Retractable",
+          "handle": "awning-construction-type__retractable"
+        },
+        {
+          "name": "Other",
+          "handle": "awning-construction-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2823",
+      "name": "Awning design",
+      "handle": "awning-design",
+      "description": "Describes the shape or style of an awning, such as flat or curved",
+      "values": [
+        {
+          "name": "Curved",
+          "handle": "awning-design__curved"
+        },
+        {
+          "name": "Flat",
+          "handle": "awning-design__flat"
+        },
+        {
+          "name": "Other",
+          "handle": "awning-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3360",
+      "name": "Bakeware items included",
+      "handle": "bakeware-items-included",
+      "description": "Identifies the specific bakeware pieces in a set, such as a baking sheet or cake mold",
+      "values": [
+        {
+          "name": "Baking sheet",
+          "handle": "bakeware-items-included__baking-sheet"
+        },
+        {
+          "name": "Bread mold",
+          "handle": "bakeware-items-included__bread-mold"
+        },
+        {
+          "name": "Broiling pan",
+          "handle": "bakeware-items-included__broiling-pan"
+        },
+        {
+          "name": "Cake mold",
+          "handle": "bakeware-items-included__cake-mold"
+        },
+        {
+          "name": "Pastry pan",
+          "handle": "bakeware-items-included__pastry-pan"
+        },
+        {
+          "name": "Pie pan",
+          "handle": "bakeware-items-included__pie-pan"
+        },
+        {
+          "name": "Pizza pan",
+          "handle": "bakeware-items-included__pizza-pan"
+        },
+        {
+          "name": "Pizza stone",
+          "handle": "bakeware-items-included__pizza-stone"
+        },
+        {
+          "name": "Quiche pan",
+          "handle": "bakeware-items-included__quiche-pan"
+        },
+        {
+          "name": "Ramekins",
+          "handle": "bakeware-items-included__ramekins"
+        },
+        {
+          "name": "Roasting pan",
+          "handle": "bakeware-items-included__roasting-pan"
+        },
+        {
+          "name": "Souffle dishes",
+          "handle": "bakeware-items-included__souffle-dishes"
+        },
+        {
+          "name": "Other",
+          "handle": "bakeware-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1394",
+      "name": "Bakeware pieces included",
+      "handle": "bakeware-pieces-included",
+      "description": "Specifies the bakeware items included in the set, such as muffin tin or cake pan",
+      "values": [
+        {
+          "name": "Baking sheets",
+          "handle": "bakeware-pieces-included__baking-sheets"
+        },
+        {
+          "name": "Cake pan",
+          "handle": "bakeware-pieces-included__cake-pan"
+        },
+        {
+          "name": "Loaf pan",
+          "handle": "bakeware-pieces-included__loaf-pan"
+        },
+        {
+          "name": "Muffin tin",
+          "handle": "bakeware-pieces-included__muffin-tin"
+        },
+        {
+          "name": "Pie dish",
+          "handle": "bakeware-pieces-included__pie-dish"
+        },
+        {
+          "name": "Other",
+          "handle": "bakeware-pieces-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2813",
+      "name": "Bakeware shape",
+      "handle": "bakeware-shape",
+      "description": "Identifies the shape of bakeware, such as bundt or rectangular",
+      "values": [
+        {
+          "name": "Bundt",
+          "handle": "bakeware-shape__bundt"
+        },
+        {
+          "name": "Rectangular",
+          "handle": "bakeware-shape__rectangular"
+        },
+        {
+          "name": "Round",
+          "handle": "bakeware-shape__round"
+        },
+        {
+          "name": "Springform",
+          "handle": "bakeware-shape__springform"
+        },
+        {
+          "name": "Square",
+          "handle": "bakeware-shape__square"
+        },
+        {
+          "name": "Other",
+          "handle": "bakeware-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2812",
+      "name": "Baking sheet material",
+      "handle": "baking-sheet-material",
+      "description": "Identifies the type of material used in baking sheets, such as stainless steel or silicone",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "baking-sheet-material__aluminum"
+        },
+        {
+          "name": "Carbon steel",
+          "handle": "baking-sheet-material__carbon-steel"
+        },
+        {
+          "name": "Silicone",
+          "handle": "baking-sheet-material__silicone"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "baking-sheet-material__stainless-steel"
+        },
+        {
+          "name": "Teflon",
+          "handle": "baking-sheet-material__teflon"
+        },
+        {
+          "name": "Other",
+          "handle": "baking-sheet-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3359",
+      "name": "Barware items included",
+      "handle": "barware-items-included",
+      "description": "Details the components of a cocktail and barware set, e.g. cocktail shaker, chilling cubes",
+      "values": [
+        {
+          "name": "Bottle stopper",
+          "handle": "barware-items-included__bottle-stopper"
+        },
+        {
+          "name": "Chilling cubes",
+          "handle": "barware-items-included__chilling-cubes"
+        },
+        {
+          "name": "Coasters",
+          "handle": "barware-items-included__coasters"
+        },
+        {
+          "name": "Cocktail shaker",
+          "handle": "barware-items-included__cocktail-shaker"
+        },
+        {
+          "name": "Cocktail tools",
+          "handle": "barware-items-included__cocktail-tools"
+        },
+        {
+          "name": "Corkscrew",
+          "handle": "barware-items-included__corkscrew"
+        },
+        {
+          "name": "Decanter",
+          "handle": "barware-items-included__decanter"
+        },
+        {
+          "name": "Drink charms",
+          "handle": "barware-items-included__drink-charms"
+        },
+        {
+          "name": "Drink stirrers",
+          "handle": "barware-items-included__drink-stirrers"
+        },
+        {
+          "name": "Foil cutter",
+          "handle": "barware-items-included__foil-cutter"
+        },
+        {
+          "name": "Ice bucket",
+          "handle": "barware-items-included__ice-bucket"
+        },
+        {
+          "name": "Wine aerator",
+          "handle": "barware-items-included__wine-aerator"
+        },
+        {
+          "name": "Wine bottle holder",
+          "handle": "barware-items-included__wine-bottle-holder"
+        },
+        {
+          "name": "Other",
+          "handle": "barware-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2810",
+      "name": "Barware material",
+      "handle": "barware-material",
+      "description": "Identifies the main material used in barware items, such as glass or stainless steel",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "barware-material__acrylic"
+        },
+        {
+          "name": "Aluminum",
+          "handle": "barware-material__aluminum"
+        },
+        {
+          "name": "Bamboo",
+          "handle": "barware-material__bamboo"
+        },
+        {
+          "name": "Cast iron",
+          "handle": "barware-material__cast-iron"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "barware-material__ceramic"
+        },
+        {
+          "name": "Cork",
+          "handle": "barware-material__cork"
+        },
+        {
+          "name": "Crystal",
+          "handle": "barware-material__crystal"
+        },
+        {
+          "name": "Faux leather",
+          "handle": "barware-material__faux-leather"
+        },
+        {
+          "name": "Glass",
+          "handle": "barware-material__glass"
+        },
+        {
+          "name": "Granite",
+          "handle": "barware-material__granite"
+        },
+        {
+          "name": "Marble",
+          "handle": "barware-material__marble"
+        },
+        {
+          "name": "Metal",
+          "handle": "barware-material__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "barware-material__plastic"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "barware-material__polypropylene-pp"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "barware-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Rubber",
+          "handle": "barware-material__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "barware-material__silicone"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "barware-material__stainless-steel"
+        },
+        {
+          "name": "Steel",
+          "handle": "barware-material__steel"
+        },
+        {
+          "name": "Wood",
+          "handle": "barware-material__wood"
+        },
+        {
+          "name": "Zinc alloy",
+          "handle": "barware-material__zinc-alloy"
+        },
+        {
+          "name": "Other",
+          "handle": "barware-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1441",
+      "name": "Bedding pieces included",
+      "handle": "bedding-pieces-included",
+      "description": "Specifies the components included in a bedding set, e.g. pillowcase, top sheet",
+      "values": [
+        {
+          "name": "Bottom sheet",
+          "handle": "bedding-pieces-included__bottom-sheet"
+        },
+        {
+          "name": "Pillowcase",
+          "handle": "bedding-pieces-included__pillowcase"
+        },
+        {
+          "name": "Top sheet",
+          "handle": "bedding-pieces-included__top-sheet"
+        },
+        {
+          "name": "Other",
+          "handle": "bedding-pieces-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2808",
+      "name": "Blind/Shade style",
+      "handle": "blind-shade-style",
+      "description": "Identifies the design or type of blinds or shades, like roller blind or vertical blind",
+      "values": [
+        {
+          "name": "Bracket roller blind",
+          "handle": "blind-shade-style__bracket-roller-blind"
+        },
+        {
+          "name": "Cassette roller blind",
+          "handle": "blind-shade-style__cassette-roller-blind"
+        },
+        {
+          "name": "Day & night roller blind",
+          "handle": "blind-shade-style__day-night-roller-blind"
+        },
+        {
+          "name": "Pleated shades",
+          "handle": "blind-shade-style__pleated-shades"
+        },
+        {
+          "name": "Roller blind",
+          "handle": "blind-shade-style__roller-blind"
+        },
+        {
+          "name": "Roman blind",
+          "handle": "blind-shade-style__roman-blind"
+        },
+        {
+          "name": "Venetian blind",
+          "handle": "blind-shade-style__venetian-blind"
+        },
+        {
+          "name": "Vertical blind",
+          "handle": "blind-shade-style__vertical-blind"
+        },
+        {
+          "name": "Other",
+          "handle": "blind-shade-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1371",
+      "name": "Boiler system",
+      "handle": "boiler-system",
+      "description": "Specifies the boiler system for heating appliances, e.g. combi, solo",
+      "values": [
+        {
+          "name": "Combi",
+          "handle": "boiler-system__combi"
+        },
+        {
+          "name": "Solo",
+          "handle": "boiler-system__solo"
+        },
+        {
+          "name": "Other",
+          "handle": "boiler-system__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1437",
+      "name": "Bulb cap type",
+      "handle": "bulb-cap-type",
+      "description": "Specifies the type of cap or base a light bulb or fixture has, e.g. E12, GU10",
+      "values": [
+        {
+          "name": "B22",
+          "handle": "bulb-cap-type__b22"
+        },
+        {
+          "name": "E5",
+          "handle": "bulb-cap-type__e5"
+        },
+        {
+          "name": "E6",
+          "handle": "bulb-cap-type__e6"
+        },
+        {
+          "name": "E9",
+          "handle": "bulb-cap-type__e9"
+        },
+        {
+          "name": "E10",
+          "handle": "bulb-cap-type__e10"
+        },
+        {
+          "name": "E12",
+          "handle": "bulb-cap-type__e12"
+        },
+        {
+          "name": "E14",
+          "handle": "bulb-cap-type__e14"
+        },
+        {
+          "name": "E17",
+          "handle": "bulb-cap-type__e17"
+        },
+        {
+          "name": "E18",
+          "handle": "bulb-cap-type__e18"
+        },
+        {
+          "name": "E20",
+          "handle": "bulb-cap-type__e20"
+        },
+        {
+          "name": "E23",
+          "handle": "bulb-cap-type__e23"
+        },
+        {
+          "name": "E26",
+          "handle": "bulb-cap-type__e26"
+        },
+        {
+          "name": "E27",
+          "handle": "bulb-cap-type__e27"
+        },
+        {
+          "name": "E29",
+          "handle": "bulb-cap-type__e29"
+        },
+        {
+          "name": "E30",
+          "handle": "bulb-cap-type__e30"
+        },
+        {
+          "name": "E31",
+          "handle": "bulb-cap-type__e31"
+        },
+        {
+          "name": "E32",
+          "handle": "bulb-cap-type__e32"
+        },
+        {
+          "name": "E39",
+          "handle": "bulb-cap-type__e39"
+        },
+        {
+          "name": "E40",
+          "handle": "bulb-cap-type__e40"
+        },
+        {
+          "name": "G4",
+          "handle": "bulb-cap-type__g4"
+        },
+        {
+          "name": "G9",
+          "handle": "bulb-cap-type__g9"
+        },
+        {
+          "name": "GU10",
+          "handle": "bulb-cap-type__gu10"
+        },
+        {
+          "name": "GU24",
+          "handle": "bulb-cap-type__gu24"
+        },
+        {
+          "name": "MR16",
+          "handle": "bulb-cap-type__mr16"
+        },
+        {
+          "name": "Other",
+          "handle": "bulb-cap-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1438",
+      "name": "Bulb shape",
+      "handle": "bulb-shape",
+      "description": "Describes the shape of lighting products, e.g. tube, spiral",
+      "values": [
+        {
+          "name": "A-shape",
+          "handle": "bulb-shape__a-shape"
+        },
+        {
+          "name": "Bullet",
+          "handle": "bulb-shape__bullet"
+        },
+        {
+          "name": "Candle",
+          "handle": "bulb-shape__candle"
+        },
+        {
+          "name": "Edison",
+          "handle": "bulb-shape__edison"
+        },
+        {
+          "name": "Globe",
+          "handle": "bulb-shape__globe"
+        },
+        {
+          "name": "PAR",
+          "handle": "bulb-shape__par"
+        },
+        {
+          "name": "Reflector",
+          "handle": "bulb-shape__reflector"
+        },
+        {
+          "name": "Spiral",
+          "handle": "bulb-shape__spiral"
+        },
+        {
+          "name": "Tube",
+          "handle": "bulb-shape__tube"
+        },
+        {
+          "name": "Other",
+          "handle": "bulb-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1435",
+      "name": "Bulb size",
+      "handle": "bulb-size",
+      "description": "Specifies the size of light bulbs, e.g. A19, C7",
+      "values": [
+        {
+          "name": "A15",
+          "handle": "bulb-size__a15"
+        },
+        {
+          "name": "A19",
+          "handle": "bulb-size__a19"
+        },
+        {
+          "name": "A21",
+          "handle": "bulb-size__a21"
+        },
+        {
+          "name": "BR30",
+          "handle": "bulb-size__br30"
+        },
+        {
+          "name": "BR40",
+          "handle": "bulb-size__br40"
+        },
+        {
+          "name": "C7",
+          "handle": "bulb-size__c7"
+        },
+        {
+          "name": "C9",
+          "handle": "bulb-size__c9"
+        },
+        {
+          "name": "G25",
+          "handle": "bulb-size__g25"
+        },
+        {
+          "name": "PAR20",
+          "handle": "bulb-size__par20"
+        },
+        {
+          "name": "PAR30",
+          "handle": "bulb-size__par30"
+        },
+        {
+          "name": "PAR38",
+          "handle": "bulb-size__par38"
+        },
+        {
+          "name": "T2",
+          "handle": "bulb-size__t2"
+        },
+        {
+          "name": "T4",
+          "handle": "bulb-size__t4"
+        },
+        {
+          "name": "T5",
+          "handle": "bulb-size__t5"
+        },
+        {
+          "name": "T8",
+          "handle": "bulb-size__t8"
+        },
+        {
+          "name": "Other",
+          "handle": "bulb-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1330",
+      "name": "Camera shape",
+      "handle": "camera-shape",
+      "description": "Describes the design style of security cameras, such as bullet or box",
+      "values": [
+        {
+          "name": "Box",
+          "handle": "camera-shape__box"
+        },
+        {
+          "name": "Bullet",
+          "handle": "camera-shape__bullet"
+        },
+        {
+          "name": "Dome",
+          "handle": "camera-shape__dome"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1431",
+      "name": "Canopy material",
+      "handle": "canopy-material",
+      "description": "Specifies the material used for umbrellas or sunshade canopies, such as cotton or vinyl",
+      "values": [
+        {
+          "name": "Cotton",
+          "handle": "canopy-material__cotton"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "canopy-material__fiberglass"
+        },
+        {
+          "name": "Nylon",
+          "handle": "canopy-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "canopy-material__plastic"
+        },
+        {
+          "name": "Polyamide (PA)",
+          "handle": "canopy-material__polyamide-pa"
+        },
+        {
+          "name": "Polyester",
+          "handle": "canopy-material__polyester"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "canopy-material__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "canopy-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1387",
+      "name": "Cleaning purpose",
+      "handle": "cleaning-purpose",
+      "description": "Specifies the intended use of cleaning or laundry products, e.g. refreshing, stain",
+      "values": [
+        {
+          "name": "Fabric",
+          "handle": "cleaning-purpose__fabric"
+        },
+        {
+          "name": "Refreshing",
+          "handle": "cleaning-purpose__refreshing"
+        },
+        {
+          "name": "Stains",
+          "handle": "cleaning-purpose__stains"
+        },
+        {
+          "name": "Other",
+          "handle": "cleaning-purpose__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1378",
+      "name": "Cleaning surfaces",
+      "handle": "cleaning-surfaces",
+      "description": "Identifies the suitable surfaces for a cleaning product, such as glass surfaces or stovetops",
+      "values": [
+        {
+          "name": "Appliances",
+          "handle": "cleaning-surfaces__appliances"
+        },
+        {
+          "name": "Bathroom fixtures",
+          "handle": "cleaning-surfaces__bathroom-fixtures"
+        },
+        {
+          "name": "Carpet",
+          "handle": "cleaning-surfaces__carpet"
+        },
+        {
+          "name": "Clothing",
+          "handle": "cleaning-surfaces__clothing"
+        },
+        {
+          "name": "Countertops",
+          "handle": "cleaning-surfaces__countertops"
+        },
+        {
+          "name": "Fabric",
+          "handle": "cleaning-surfaces__fabric"
+        },
+        {
+          "name": "Glass surfaces",
+          "handle": "cleaning-surfaces__glass-surfaces"
+        },
+        {
+          "name": "Grout lines",
+          "handle": "cleaning-surfaces__grout-lines"
+        },
+        {
+          "name": "Hard surfaces",
+          "handle": "cleaning-surfaces__hard-surfaces"
+        },
+        {
+          "name": "Kitchen sinks",
+          "handle": "cleaning-surfaces__kitchen-sinks"
+        },
+        {
+          "name": "Laminate flooring",
+          "handle": "cleaning-surfaces__laminate-flooring"
+        },
+        {
+          "name": "Pet bedding",
+          "handle": "cleaning-surfaces__pet-bedding"
+        },
+        {
+          "name": "Rug",
+          "handle": "cleaning-surfaces__rug"
+        },
+        {
+          "name": "Stair steps",
+          "handle": "cleaning-surfaces__stair-steps"
+        },
+        {
+          "name": "Stone flooring",
+          "handle": "cleaning-surfaces__stone-flooring"
+        },
+        {
+          "name": "Stovetops",
+          "handle": "cleaning-surfaces__stovetops"
+        },
+        {
+          "name": "Tiles",
+          "handle": "cleaning-surfaces__tiles"
+        },
+        {
+          "name": "Upholstery",
+          "handle": "cleaning-surfaces__upholstery"
+        },
+        {
+          "name": "Vinyl flooring",
+          "handle": "cleaning-surfaces__vinyl-flooring"
+        },
+        {
+          "name": "Wood flooring",
+          "handle": "cleaning-surfaces__wood-flooring"
+        },
+        {
+          "name": "Other",
+          "handle": "cleaning-surfaces__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1442",
+      "name": "Closure style",
+      "handle": "closure-style",
+      "description": "Specifies the method used to close an item, typically in bedding; e.g. traditional, concealed",
+      "values": [
+        {
+          "name": "Concealed",
+          "handle": "closure-style__concealed"
+        },
+        {
+          "name": "Traditional",
+          "handle": "closure-style__traditional"
+        },
+        {
+          "name": "Other",
+          "handle": "closure-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1398",
+      "name": "Coffee input type",
+      "handle": "coffee-input-type",
+      "description": "Identifies the coffee format, e.g. pods, beans",
+      "values": [
+        {
+          "name": "Coffee beans",
+          "handle": "coffee-input-type__coffee-beans"
+        },
+        {
+          "name": "Coffee capsules",
+          "handle": "coffee-input-type__coffee-capsules"
+        },
+        {
+          "name": "Coffee pods",
+          "handle": "coffee-input-type__coffee-pods"
+        },
+        {
+          "name": "Other",
+          "handle": "coffee-input-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1413",
+      "name": "Coffee/Tea set pieces included",
+      "handle": "coffee-tea-set-pieces-included",
+      "description": "Details the individual items within a coffee or tea set, like cups and saucers",
+      "values": [
+        {
+          "name": "Coffee pot",
+          "handle": "coffee-tea-set-pieces-included__coffee-pot"
+        },
+        {
+          "name": "Creamer",
+          "handle": "coffee-tea-set-pieces-included__creamer"
+        },
+        {
+          "name": "Cups",
+          "handle": "coffee-tea-set-pieces-included__cups"
+        },
+        {
+          "name": "Saucers",
+          "handle": "coffee-tea-set-pieces-included__saucers"
+        },
+        {
+          "name": "Scoop",
+          "handle": "coffee-tea-set-pieces-included__scoop"
+        },
+        {
+          "name": "Sugar bowl",
+          "handle": "coffee-tea-set-pieces-included__sugar-bowl"
+        },
+        {
+          "name": "Teapot",
+          "handle": "coffee-tea-set-pieces-included__teapot"
+        },
+        {
+          "name": "Teaspoons",
+          "handle": "coffee-tea-set-pieces-included__teaspoons"
+        },
+        {
+          "name": "Tray",
+          "handle": "coffee-tea-set-pieces-included__tray"
+        },
+        {
+          "name": "Other",
+          "handle": "coffee-tea-set-pieces-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1420",
+      "name": "Compatible gardening tool",
+      "handle": "compatible-gardening-tool",
+      "description": "Specifies which gardening tools a product can be used with, such as a rake or shovel",
+      "values": [
+        {
+          "name": "Fork",
+          "handle": "compatible-gardening-tool__fork"
+        },
+        {
+          "name": "Lawn roller",
+          "handle": "compatible-gardening-tool__lawn-roller"
+        },
+        {
+          "name": "Machete",
+          "handle": "compatible-gardening-tool__machete"
+        },
+        {
+          "name": "Pruning saw",
+          "handle": "compatible-gardening-tool__pruning-saw"
+        },
+        {
+          "name": "Pruning shears",
+          "handle": "compatible-gardening-tool__pruning-shears"
+        },
+        {
+          "name": "Rake",
+          "handle": "compatible-gardening-tool__rake"
+        },
+        {
+          "name": "Shovel",
+          "handle": "compatible-gardening-tool__shovel"
+        },
+        {
+          "name": "Sickle",
+          "handle": "compatible-gardening-tool__sickle"
+        },
+        {
+          "name": "Spade",
+          "handle": "compatible-gardening-tool__spade"
+        },
+        {
+          "name": "Sprayer",
+          "handle": "compatible-gardening-tool__sprayer"
+        },
+        {
+          "name": "Spreader",
+          "handle": "compatible-gardening-tool__spreader"
+        },
+        {
+          "name": "Trowel",
+          "handle": "compatible-gardening-tool__trowel"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-gardening-tool__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1430",
+      "name": "Compatible hammock design",
+      "handle": "compatible-hammock-design",
+      "description": "Specifies the type of a hammock a product is compatible with, e.g. hanging, frame",
+      "values": [
+        {
+          "name": "Frame",
+          "handle": "compatible-hammock-design__frame"
+        },
+        {
+          "name": "Hanging",
+          "handle": "compatible-hammock-design__hanging"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-hammock-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1402",
+      "name": "Compatible recipes",
+      "handle": "compatible-recipes",
+      "description": "Specifies the recipes suitable for the product, typically for ice cream makers; e.g. sorbet, gelato",
+      "values": [
+        {
+          "name": "Frozen yogurt",
+          "handle": "compatible-recipes__frozen-yogurt"
+        },
+        {
+          "name": "Fruit ice",
+          "handle": "compatible-recipes__fruit-ice"
+        },
+        {
+          "name": "Gelato",
+          "handle": "compatible-recipes__gelato"
+        },
+        {
+          "name": "Ice cream",
+          "handle": "compatible-recipes__ice-cream"
+        },
+        {
+          "name": "Sherbet",
+          "handle": "compatible-recipes__sherbet"
+        },
+        {
+          "name": "Sorbet",
+          "handle": "compatible-recipes__sorbet"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-recipes__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3148",
+      "name": "Compatible stove top type",
+      "handle": "compatible-stove-top-type",
+      "description": "Identifies the type of stove tops the product can be used with, such as gas or induction",
+      "values": [
+        {
+          "name": "Ceramic",
+          "handle": "compatible-stove-top-type__ceramic"
+        },
+        {
+          "name": "Gas",
+          "handle": "compatible-stove-top-type__gas"
+        },
+        {
+          "name": "Halogen",
+          "handle": "compatible-stove-top-type__halogen"
+        },
+        {
+          "name": "Induction",
+          "handle": "compatible-stove-top-type__induction"
+        },
+        {
+          "name": "Sealed plate",
+          "handle": "compatible-stove-top-type__sealed-plate"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-stove-top-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1369",
+      "name": "Compatible vacuum type",
+      "handle": "compatible-vacuum-type",
+      "description": "Specifies the type of vacuum the product is compatible with, such as handheld or steam",
+      "values": [
+        {
+          "name": "Cylinder",
+          "handle": "compatible-vacuum-type__cylinder"
+        },
+        {
+          "name": "Drum",
+          "handle": "compatible-vacuum-type__drum"
+        },
+        {
+          "name": "Handheld",
+          "handle": "compatible-vacuum-type__handheld"
+        },
+        {
+          "name": "Robot",
+          "handle": "compatible-vacuum-type__robot"
+        },
+        {
+          "name": "Steam",
+          "handle": "compatible-vacuum-type__steam"
+        },
+        {
+          "name": "Stick",
+          "handle": "compatible-vacuum-type__stick"
+        },
+        {
+          "name": "Universal",
+          "handle": "compatible-vacuum-type__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-vacuum-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4049",
+      "name": "Cooking compartments",
+      "handle": "cooking-compartments",
+      "description": "Specifies the number of cooking areas in kitchen appliances such as air fryers, e.g. single or double",
+      "values": [
+        {
+          "name": "Double",
+          "handle": "cooking-compartments__double"
+        },
+        {
+          "name": "Single",
+          "handle": "cooking-compartments__single"
+        },
+        {
+          "name": "Other",
+          "handle": "cooking-compartments__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3361",
+      "name": "Cookware items included",
+      "handle": "cookware-items-included",
+      "description": "Details the components of a cookware set, such as dutch oven or frying pan",
+      "values": [
+        {
+          "name": "Casserole dish",
+          "handle": "cookware-items-included__casserole-dish"
+        },
+        {
+          "name": "Crêpe pan",
+          "handle": "cookware-items-included__crepe-pan"
+        },
+        {
+          "name": "Double boiler",
+          "handle": "cookware-items-included__double-boiler"
+        },
+        {
+          "name": "Dutch oven",
+          "handle": "cookware-items-included__dutch-oven"
+        },
+        {
+          "name": "Fermentation crock",
+          "handle": "cookware-items-included__fermentation-crock"
+        },
+        {
+          "name": "Frying pan",
+          "handle": "cookware-items-included__frying-pan"
+        },
+        {
+          "name": "Grill pan",
+          "handle": "cookware-items-included__grill-pan"
+        },
+        {
+          "name": "Grill press",
+          "handle": "cookware-items-included__grill-press"
+        },
+        {
+          "name": "Paella pan",
+          "handle": "cookware-items-included__paella-pan"
+        },
+        {
+          "name": "Pressure cooker",
+          "handle": "cookware-items-included__pressure-cooker"
+        },
+        {
+          "name": "Saucepan",
+          "handle": "cookware-items-included__saucepan"
+        },
+        {
+          "name": "Sauté pan",
+          "handle": "cookware-items-included__saute-pan"
+        },
+        {
+          "name": "Skillet",
+          "handle": "cookware-items-included__skillet"
+        },
+        {
+          "name": "Stock pot",
+          "handle": "cookware-items-included__stock-pot"
+        },
+        {
+          "name": "Stovetop kettle",
+          "handle": "cookware-items-included__stovetop-kettle"
+        },
+        {
+          "name": "Tagine",
+          "handle": "cookware-items-included__tagine"
+        },
+        {
+          "name": "Wok",
+          "handle": "cookware-items-included__wok"
+        },
+        {
+          "name": "Other",
+          "handle": "cookware-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3147",
+      "name": "Cookware/Bakeware features",
+      "handle": "cookware-bakeware-features",
+      "description": "Identifies special features of cookware or bakeware, such as non-stick coating or oven safe",
+      "values": [
+        {
+          "name": "Induction ready",
+          "handle": "cookware-bakeware-features__induction-ready"
+        },
+        {
+          "name": "Lid",
+          "handle": "cookware-bakeware-features__lid"
+        },
+        {
+          "name": "Lifetime warranty",
+          "handle": "cookware-bakeware-features__lifetime-warranty"
+        },
+        {
+          "name": "Non-stick coating",
+          "handle": "cookware-bakeware-features__non-stick-coating"
+        },
+        {
+          "name": "Oven safe",
+          "handle": "cookware-bakeware-features__oven-safe"
+        },
+        {
+          "name": "Stay cool handle",
+          "handle": "cookware-bakeware-features__stay-cool-handle"
+        },
+        {
+          "name": "Other",
+          "handle": "cookware-bakeware-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1447",
+      "name": "Culinary botanical name",
+      "handle": "culinary-botanical-name",
+      "description": "Specifies the scientific name of culinary herbs or plants, e.g. capsicum annuum, mentha",
+      "values": [
+        {
+          "name": "Allium schoenoprasum",
+          "handle": "culinary-botanical-name__allium-schoenoprasum"
+        },
+        {
+          "name": "Anethum graveolens",
+          "handle": "culinary-botanical-name__anethum-graveolens"
+        },
+        {
+          "name": "Anthriscus cerefolium",
+          "handle": "culinary-botanical-name__anthriscus-cerefolium"
+        },
+        {
+          "name": "Artemisia dracunculus",
+          "handle": "culinary-botanical-name__artemisia-dracunculus"
+        },
+        {
+          "name": "Capsicum annuum",
+          "handle": "culinary-botanical-name__capsicum-annuum"
+        },
+        {
+          "name": "Coriandrum sativum",
+          "handle": "culinary-botanical-name__coriandrum-sativum"
+        },
+        {
+          "name": "Cucumis sativus",
+          "handle": "culinary-botanical-name__cucumis-sativus"
+        },
+        {
+          "name": "Cucurbita pepo",
+          "handle": "culinary-botanical-name__cucurbita-pepo"
+        },
+        {
+          "name": "Foeniculum vulgare",
+          "handle": "culinary-botanical-name__foeniculum-vulgare"
+        },
+        {
+          "name": "Laurus nobilis",
+          "handle": "culinary-botanical-name__laurus-nobilis"
+        },
+        {
+          "name": "Lavandula angustifolia",
+          "handle": "culinary-botanical-name__lavandula-angustifolia"
+        },
+        {
+          "name": "Mentha",
+          "handle": "culinary-botanical-name__mentha"
+        },
+        {
+          "name": "Murraya koenigii",
+          "handle": "culinary-botanical-name__murraya-koenigii"
+        },
+        {
+          "name": "Ocimum basilicum",
+          "handle": "culinary-botanical-name__ocimum-basilicum"
+        },
+        {
+          "name": "Origanum majorana",
+          "handle": "culinary-botanical-name__origanum-majorana"
+        },
+        {
+          "name": "Origanum vulgare",
+          "handle": "culinary-botanical-name__origanum-vulgare"
+        },
+        {
+          "name": "Petroselinum crispum",
+          "handle": "culinary-botanical-name__petroselinum-crispum"
+        },
+        {
+          "name": "Rosmarinus officinalis",
+          "handle": "culinary-botanical-name__rosmarinus-officinalis"
+        },
+        {
+          "name": "Salvia officinalis",
+          "handle": "culinary-botanical-name__salvia-officinalis"
+        },
+        {
+          "name": "Solanum lycopersicum",
+          "handle": "culinary-botanical-name__solanum-lycopersicum"
+        },
+        {
+          "name": "Solanum lycopersicum var. cerasiforme",
+          "handle": "culinary-botanical-name__solanum-lycopersicum-var-cerasiforme"
+        },
+        {
+          "name": "Solanum melongena",
+          "handle": "culinary-botanical-name__solanum-melongena"
+        },
+        {
+          "name": "Thymus vulgaris",
+          "handle": "culinary-botanical-name__thymus-vulgaris"
+        },
+        {
+          "name": "Vitis vinifera",
+          "handle": "culinary-botanical-name__vitis-vinifera"
+        },
+        {
+          "name": "Other",
+          "handle": "culinary-botanical-name__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1422",
+      "name": "Cutting method",
+      "handle": "cutting-method",
+      "description": "Specifies cutting technique, typically used for gardening tools; e.g. bypass, anvil",
+      "values": [
+        {
+          "name": "Anvil",
+          "handle": "cutting-method__anvil"
+        },
+        {
+          "name": "Bypass",
+          "handle": "cutting-method__bypass"
+        },
+        {
+          "name": "Scissor",
+          "handle": "cutting-method__scissor"
+        },
+        {
+          "name": "Other",
+          "handle": "cutting-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3357",
+      "name": "Detector operation mode",
+      "handle": "detector-operation-mode",
+      "description": "Describes how a safety detector functions, such as interconnected or standalone",
+      "values": [
+        {
+          "name": "Interconnected",
+          "handle": "detector-operation-mode__interconnected"
+        },
+        {
+          "name": "Standalone",
+          "handle": "detector-operation-mode__standalone"
+        },
+        {
+          "name": "Other",
+          "handle": "detector-operation-mode__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1368",
+      "name": "Detector type",
+      "handle": "detector-type",
+      "description": "Specifies the detection method used in safety devices, e.g. ionization optical, air-sampling",
+      "values": [
+        {
+          "name": "Air-sampling",
+          "handle": "detector-type__air-sampling"
+        },
+        {
+          "name": "Combi",
+          "handle": "detector-type__combi"
+        },
+        {
+          "name": "Fixed temperature heat",
+          "handle": "detector-type__fixed-temperature-heat"
+        },
+        {
+          "name": "Ionization",
+          "handle": "detector-type__ionization"
+        },
+        {
+          "name": "Optical",
+          "handle": "detector-type__optical"
+        },
+        {
+          "name": "Optical beam",
+          "handle": "detector-type__optical-beam"
+        },
+        {
+          "name": "Photoelectric reflection",
+          "handle": "detector-type__photoelectric-reflection"
+        },
+        {
+          "name": "Rate-of-rise heat",
+          "handle": "detector-type__rate-of-rise-heat"
+        },
+        {
+          "name": "Other",
+          "handle": "detector-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1414",
+      "name": "Dinnerware pieces included",
+      "handle": "dinnerware-pieces-included",
+      "description": "Defines the components of a dinnerware collection, such as dinner plates or serving bowl",
+      "values": [
+        {
+          "name": "Bowls",
+          "handle": "dinnerware-pieces-included__bowls"
+        },
+        {
+          "name": "Butter dish",
+          "handle": "dinnerware-pieces-included__butter-dish"
+        },
+        {
+          "name": "Cups",
+          "handle": "dinnerware-pieces-included__cups"
+        },
+        {
+          "name": "Dinner plates",
+          "handle": "dinnerware-pieces-included__dinner-plates"
+        },
+        {
+          "name": "Mugs",
+          "handle": "dinnerware-pieces-included__mugs"
+        },
+        {
+          "name": "Pepper shaker",
+          "handle": "dinnerware-pieces-included__pepper-shaker"
+        },
+        {
+          "name": "Salad plate",
+          "handle": "dinnerware-pieces-included__salad-plate"
+        },
+        {
+          "name": "Salt shaker",
+          "handle": "dinnerware-pieces-included__salt-shaker"
+        },
+        {
+          "name": "Saucers",
+          "handle": "dinnerware-pieces-included__saucers"
+        },
+        {
+          "name": "Serving bowl",
+          "handle": "dinnerware-pieces-included__serving-bowl"
+        },
+        {
+          "name": "Serving platter",
+          "handle": "dinnerware-pieces-included__serving-platter"
+        },
+        {
+          "name": "Other",
+          "handle": "dinnerware-pieces-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1379",
+      "name": "Dirt separating method",
+      "handle": "dirt-separating-method",
+      "description": "Describes the technique a vacuum uses for dirt separation, e.g. cyclonic, filtering",
+      "values": [
+        {
+          "name": "Aqua filtering",
+          "handle": "dirt-separating-method__aqua-filtering"
+        },
+        {
+          "name": "Cyclonic",
+          "handle": "dirt-separating-method__cyclonic"
+        },
+        {
+          "name": "Filtering",
+          "handle": "dirt-separating-method__filtering"
+        },
+        {
+          "name": "Multi cyclonic",
+          "handle": "dirt-separating-method__multi-cyclonic"
+        },
+        {
+          "name": "Other",
+          "handle": "dirt-separating-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2820",
+      "name": "Drinkware material",
+      "handle": "drinkware-material",
+      "description": "Specifies the composition of drinkware, such as glass or plastic",
+      "values": [
+        {
+          "name": "Ceramic",
+          "handle": "drinkware-material__ceramic"
+        },
+        {
+          "name": "Glass",
+          "handle": "drinkware-material__glass"
+        },
+        {
+          "name": "Plastic",
+          "handle": "drinkware-material__plastic"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "drinkware-material__stainless-steel"
+        },
+        {
+          "name": "Other",
+          "handle": "drinkware-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1415",
+      "name": "Drinkware pieces included",
+      "handle": "drinkware-pieces-included",
+      "description": "Identifies the variety of drinkware components included in a set, such as pitcher or wine glasses",
+      "values": [
+        {
+          "name": "Champagne flutes",
+          "handle": "drinkware-pieces-included__champagne-flutes"
+        },
+        {
+          "name": "Coasters",
+          "handle": "drinkware-pieces-included__coasters"
+        },
+        {
+          "name": "Highball glasses",
+          "handle": "drinkware-pieces-included__highball-glasses"
+        },
+        {
+          "name": "Ice bucket",
+          "handle": "drinkware-pieces-included__ice-bucket"
+        },
+        {
+          "name": "Lowball glasses",
+          "handle": "drinkware-pieces-included__lowball-glasses"
+        },
+        {
+          "name": "Martini glasses",
+          "handle": "drinkware-pieces-included__martini-glasses"
+        },
+        {
+          "name": "Pitcher",
+          "handle": "drinkware-pieces-included__pitcher"
+        },
+        {
+          "name": "Shot glasses",
+          "handle": "drinkware-pieces-included__shot-glasses"
+        },
+        {
+          "name": "Wine glasses",
+          "handle": "drinkware-pieces-included__wine-glasses"
+        },
+        {
+          "name": "Other",
+          "handle": "drinkware-pieces-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3411",
+      "name": "Drinkware shape",
+      "handle": "drinkware-shape",
+      "description": "Defines the contour or silhouette of a drinkware item, e.g. curved or tapered",
+      "values": [
+        {
+          "name": "Curved",
+          "handle": "drinkware-shape__curved"
+        },
+        {
+          "name": "Flared",
+          "handle": "drinkware-shape__flared"
+        },
+        {
+          "name": "Round",
+          "handle": "drinkware-shape__round"
+        },
+        {
+          "name": "Square",
+          "handle": "drinkware-shape__square"
+        },
+        {
+          "name": "Tapered",
+          "handle": "drinkware-shape__tapered"
+        },
+        {
+          "name": "Other",
+          "handle": "drinkware-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1381",
+      "name": "Dust container type",
+      "handle": "dust-container-type",
+      "description": "Specifies the type of dust collection system in vacuums and appliances, e.g. bagless, dust bag",
+      "values": [
+        {
+          "name": "Bagless",
+          "handle": "dust-container-type__bagless"
+        },
+        {
+          "name": "Combi",
+          "handle": "dust-container-type__combi"
+        },
+        {
+          "name": "Dust bag",
+          "handle": "dust-container-type__dust-bag"
+        },
+        {
+          "name": "Other",
+          "handle": "dust-container-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1353",
+      "name": "Egg decorating items included",
+      "handle": "egg-decorating-items-included",
+      "description": "Specifies the accessories provided in egg decorating kits, e.g. dye tablets, egg dippers",
+      "values": [
+        {
+          "name": "Decorating brush",
+          "handle": "egg-decorating-items-included__decorating-brush"
+        },
+        {
+          "name": "Dye tablets",
+          "handle": "egg-decorating-items-included__dye-tablets"
+        },
+        {
+          "name": "Egg dippers",
+          "handle": "egg-decorating-items-included__egg-dippers"
+        },
+        {
+          "name": "Egg stands",
+          "handle": "egg-decorating-items-included__egg-stands"
+        },
+        {
+          "name": "Glitter",
+          "handle": "egg-decorating-items-included__glitter"
+        },
+        {
+          "name": "Instruction booklet",
+          "handle": "egg-decorating-items-included__instruction-booklet"
+        },
+        {
+          "name": "Markers",
+          "handle": "egg-decorating-items-included__markers"
+        },
+        {
+          "name": "Paint",
+          "handle": "egg-decorating-items-included__paint"
+        },
+        {
+          "name": "Stickers",
+          "handle": "egg-decorating-items-included__stickers"
+        },
+        {
+          "name": "Wax crayons",
+          "handle": "egg-decorating-items-included__wax-crayons"
+        },
+        {
+          "name": "Other",
+          "handle": "egg-decorating-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1363",
+      "name": "Emergency items included",
+      "handle": "emergency-items-included",
+      "description": "Specifies items included in emergency kits, such as radio or batteries",
+      "values": [
+        {
+          "name": "Batteries",
+          "handle": "emergency-items-included__batteries"
+        },
+        {
+          "name": "Blanket",
+          "handle": "emergency-items-included__blanket"
+        },
+        {
+          "name": "Charger",
+          "handle": "emergency-items-included__charger"
+        },
+        {
+          "name": "First aid kit",
+          "handle": "emergency-items-included__first-aid-kit"
+        },
+        {
+          "name": "Flashlight",
+          "handle": "emergency-items-included__flashlight"
+        },
+        {
+          "name": "Food",
+          "handle": "emergency-items-included__food"
+        },
+        {
+          "name": "Hygiene products",
+          "handle": "emergency-items-included__hygiene-products"
+        },
+        {
+          "name": "Powerbank",
+          "handle": "emergency-items-included__powerbank"
+        },
+        {
+          "name": "Radio",
+          "handle": "emergency-items-included__radio"
+        },
+        {
+          "name": "Water",
+          "handle": "emergency-items-included__water"
+        },
+        {
+          "name": "Whistle",
+          "handle": "emergency-items-included__whistle"
+        },
+        {
+          "name": "Other",
+          "handle": "emergency-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1372",
+      "name": "Evaporation technology",
+      "handle": "evaporation-technology",
+      "description": "Defines the evaporation system in climate control devices, such as natural or ultrasonic",
+      "values": [
+        {
+          "name": "Impeller",
+          "handle": "evaporation-technology__impeller"
+        },
+        {
+          "name": "Natural",
+          "handle": "evaporation-technology__natural"
+        },
+        {
+          "name": "Steam",
+          "handle": "evaporation-technology__steam"
+        },
+        {
+          "name": "Ultrasonic",
+          "handle": "evaporation-technology__ultrasonic"
+        },
+        {
+          "name": "Other",
+          "handle": "evaporation-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1365",
+      "name": "Extinguisher rating",
+      "handle": "extinguisher-rating",
+      "description": "Indicates the rating of fire extinguishers, e.g. Class A, Class B",
+      "values": [
+        {
+          "name": "Class A",
+          "handle": "extinguisher-rating__class-a"
+        },
+        {
+          "name": "Class B",
+          "handle": "extinguisher-rating__class-b"
+        },
+        {
+          "name": "Class C",
+          "handle": "extinguisher-rating__class-c"
+        },
+        {
+          "name": "Class D",
+          "handle": "extinguisher-rating__class-d"
+        },
+        {
+          "name": "Other",
+          "handle": "extinguisher-rating__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1366",
+      "name": "Extinguishing agent type",
+      "handle": "extinguishing-agent-type",
+      "description": "Specifies the type of extinguishing substance in fire safety products, such as water or foam",
+      "values": [
+        {
+          "name": "Carbon dioxide (CO2)",
+          "handle": "extinguishing-agent-type__carbon-dioxide-co2"
+        },
+        {
+          "name": "Clean agent",
+          "handle": "extinguishing-agent-type__clean-agent"
+        },
+        {
+          "name": "Foam",
+          "handle": "extinguishing-agent-type__foam"
+        },
+        {
+          "name": "Powder (dry chemical)",
+          "handle": "extinguishing-agent-type__powder-dry-chemical"
+        },
+        {
+          "name": "Water",
+          "handle": "extinguishing-agent-type__water"
+        },
+        {
+          "name": "Wet chemical",
+          "handle": "extinguishing-agent-type__wet-chemical"
+        },
+        {
+          "name": "Other",
+          "handle": "extinguishing-agent-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1404",
+      "name": "Extraction type",
+      "handle": "extraction-type",
+      "description": "Specifies the method of air removal in range hoods, such as ductless or convertible",
+      "values": [
+        {
+          "name": "Convertible",
+          "handle": "extraction-type__convertible"
+        },
+        {
+          "name": "Ducted",
+          "handle": "extraction-type__ducted"
+        },
+        {
+          "name": "Ductless",
+          "handle": "extraction-type__ductless"
+        },
+        {
+          "name": "Other",
+          "handle": "extraction-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1361",
+      "name": "Film application method",
+      "handle": "film-application-method",
+      "description": "Specifies how window films are applied, e.g. static cling, self-adhesive",
+      "values": [
+        {
+          "name": "Self-adhesive",
+          "handle": "film-application-method__self-adhesive"
+        },
+        {
+          "name": "Static cling",
+          "handle": "film-application-method__static-cling"
+        },
+        {
+          "name": "Other",
+          "handle": "film-application-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1346",
+      "name": "Finial shape",
+      "handle": "finial-shape",
+      "description": "Defines the design or form of a decorative finial, such as acorn or ball",
+      "values": [
+        {
+          "name": "Acorn",
+          "handle": "finial-shape__acorn"
+        },
+        {
+          "name": "Ball",
+          "handle": "finial-shape__ball"
+        },
+        {
+          "name": "Spear",
+          "handle": "finial-shape__spear"
+        },
+        {
+          "name": "Other",
+          "handle": "finial-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3358",
+      "name": "Fire extinguisher items included",
+      "handle": "fire-extinguisher-items-included",
+      "description": "Specifies the additional items included with a fire extinguisher, like a discharge hose or mounting bracket",
+      "values": [
+        {
+          "name": "Discharge hose",
+          "handle": "fire-extinguisher-items-included__discharge-hose"
+        },
+        {
+          "name": "Mounting bracket",
+          "handle": "fire-extinguisher-items-included__mounting-bracket"
+        },
+        {
+          "name": "Other",
+          "handle": "fire-extinguisher-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1352",
+      "name": "Fixation type",
+      "handle": "fixation-type",
+      "description": "Defines the attachment mechanism, typically for Christmas tree stands; e.g. fixing spike, fixing screw",
+      "values": [
+        {
+          "name": "Fixing pin",
+          "handle": "fixation-type__fixing-pin"
+        },
+        {
+          "name": "Fixing screw",
+          "handle": "fixation-type__fixing-screw"
+        },
+        {
+          "name": "Fixing spike",
+          "handle": "fixation-type__fixing-spike"
+        },
+        {
+          "name": "Other",
+          "handle": "fixation-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1347",
+      "name": "Flag shape",
+      "handle": "flag-shape",
+      "description": "Defines the geometric form of flags and windsocks, such as teardrop or pennant",
+      "values": [
+        {
+          "name": "Pennant",
+          "handle": "flag-shape__pennant"
+        },
+        {
+          "name": "Rectangular",
+          "handle": "flag-shape__rectangular"
+        },
+        {
+          "name": "Teardrop",
+          "handle": "flag-shape__teardrop"
+        },
+        {
+          "name": "Triangular",
+          "handle": "flag-shape__triangular"
+        },
+        {
+          "name": "Other",
+          "handle": "flag-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2821",
+      "name": "Flatware material",
+      "handle": "flatware-material",
+      "description": "Identifies the composition of flatware items, such as stainless steel or silver",
+      "values": [
+        {
+          "name": "Bamboo",
+          "handle": "flatware-material__bamboo"
+        },
+        {
+          "name": "Beech wood",
+          "handle": "flatware-material__beech-wood"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "flatware-material__ceramic"
+        },
+        {
+          "name": "Glass",
+          "handle": "flatware-material__glass"
+        },
+        {
+          "name": "Gold",
+          "handle": "flatware-material__gold"
+        },
+        {
+          "name": "Gold-plated",
+          "handle": "flatware-material__gold-plated"
+        },
+        {
+          "name": "Melamine",
+          "handle": "flatware-material__melamine"
+        },
+        {
+          "name": "Nylon",
+          "handle": "flatware-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "flatware-material__plastic"
+        },
+        {
+          "name": "Polyethylene (PE)",
+          "handle": "flatware-material__polyethylene-pe"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "flatware-material__polypropylene-pp"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "flatware-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Porcelain",
+          "handle": "flatware-material__porcelain"
+        },
+        {
+          "name": "Silicone",
+          "handle": "flatware-material__silicone"
+        },
+        {
+          "name": "Silver",
+          "handle": "flatware-material__silver"
+        },
+        {
+          "name": "Silver-plated",
+          "handle": "flatware-material__silver-plated"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "flatware-material__stainless-steel"
+        },
+        {
+          "name": "Steel",
+          "handle": "flatware-material__steel"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "flatware-material__synthetic"
+        },
+        {
+          "name": "Thermoplastic elastomer (TPE)",
+          "handle": "flatware-material__thermoplastic-elastomer-tpe"
+        },
+        {
+          "name": "Thermoplastic polyurethane (TPU)",
+          "handle": "flatware-material__thermoplastic-polyurethane-tpu"
+        },
+        {
+          "name": "Wood",
+          "handle": "flatware-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "flatware-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1416",
+      "name": "Flatware pieces included",
+      "handle": "flatware-pieces-included",
+      "description": "Specifies the types of utensils in a flatware set, like butter knife or soup spoon",
+      "values": [
+        {
+          "name": "Butter knife",
+          "handle": "flatware-pieces-included__butter-knife"
+        },
+        {
+          "name": "Dinner fork",
+          "handle": "flatware-pieces-included__dinner-fork"
+        },
+        {
+          "name": "Dinner knife",
+          "handle": "flatware-pieces-included__dinner-knife"
+        },
+        {
+          "name": "Salad fork",
+          "handle": "flatware-pieces-included__salad-fork"
+        },
+        {
+          "name": "Serving spoon",
+          "handle": "flatware-pieces-included__serving-spoon"
+        },
+        {
+          "name": "Soup spoon",
+          "handle": "flatware-pieces-included__soup-spoon"
+        },
+        {
+          "name": "Steak knife",
+          "handle": "flatware-pieces-included__steak-knife"
+        },
+        {
+          "name": "Sugar spoon",
+          "handle": "flatware-pieces-included__sugar-spoon"
+        },
+        {
+          "name": "Teaspoon",
+          "handle": "flatware-pieces-included__teaspoon"
+        },
+        {
+          "name": "Other",
+          "handle": "flatware-pieces-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3356",
+      "name": "Flue type",
+      "handle": "flue-type",
+      "description": "Identifies the type of flue system in fireplaces, like balanced or conventional",
+      "values": [
+        {
+          "name": "Balanced",
+          "handle": "flue-type__balanced"
+        },
+        {
+          "name": "Conventional",
+          "handle": "flue-type__conventional"
+        },
+        {
+          "name": "Flueless",
+          "handle": "flue-type__flueless"
+        },
+        {
+          "name": "Other",
+          "handle": "flue-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2814",
+      "name": "Food bag material",
+      "handle": "food-bag-material",
+      "description": "Identifies the material used in food storage bags, such as paper or silicone",
+      "values": [
+        {
+          "name": "Paper",
+          "handle": "food-bag-material__paper"
+        },
+        {
+          "name": "Plastic",
+          "handle": "food-bag-material__plastic"
+        },
+        {
+          "name": "Silicone",
+          "handle": "food-bag-material__silicone"
+        },
+        {
+          "name": "Other",
+          "handle": "food-bag-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1410",
+      "name": "Food dispenser type",
+      "handle": "food-dispenser-type",
+      "description": "Specifies the type of food the dispenser is designed for, such as cereals or pasta",
+      "values": [
+        {
+          "name": "Cereals",
+          "handle": "food-dispenser-type__cereals"
+        },
+        {
+          "name": "Grains",
+          "handle": "food-dispenser-type__grains"
+        },
+        {
+          "name": "Pasta",
+          "handle": "food-dispenser-type__pasta"
+        },
+        {
+          "name": "Seeds",
+          "handle": "food-dispenser-type__seeds"
+        },
+        {
+          "name": "Sweets",
+          "handle": "food-dispenser-type__sweets"
+        },
+        {
+          "name": "Other",
+          "handle": "food-dispenser-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1392",
+      "name": "Format supported",
+      "handle": "format-supported",
+      "description": "Specifies the compatible dimensions, typically for photo albums; e.g. 12 x 16 in, 13 x 18 cm",
+      "values": [
+        {
+          "name": "9 x 13 cm",
+          "handle": "format-supported__9-x-13-cm"
+        },
+        {
+          "name": "10 x 15 cm",
+          "handle": "format-supported__10-x-15-cm"
+        },
+        {
+          "name": "13 x 18 cm",
+          "handle": "format-supported__13-x-18-cm"
+        },
+        {
+          "name": "15 x 20 cm",
+          "handle": "format-supported__15-x-20-cm"
+        },
+        {
+          "name": "18 x 24 cm",
+          "handle": "format-supported__18-x-24-cm"
+        },
+        {
+          "name": "20 x 25 cm",
+          "handle": "format-supported__20-x-25-cm"
+        },
+        {
+          "name": "20 x 30 cm",
+          "handle": "format-supported__20-x-30-cm"
+        },
+        {
+          "name": "24 x 30 cm",
+          "handle": "format-supported__24-x-30-cm"
+        },
+        {
+          "name": "30 x 40 cm",
+          "handle": "format-supported__30-x-40-cm"
+        },
+        {
+          "name": "40 x 50 cm",
+          "handle": "format-supported__40-x-50-cm"
+        },
+        {
+          "name": "50 x 60 cm",
+          "handle": "format-supported__50-x-60-cm"
+        },
+        {
+          "name": "5 x 7 in",
+          "handle": "format-supported__5-x-7-in"
+        },
+        {
+          "name": "8 x 10 in",
+          "handle": "format-supported__8-x-10-in"
+        },
+        {
+          "name": "8 x 12 in",
+          "handle": "format-supported__8-x-12-in"
+        },
+        {
+          "name": "11 x 14 in",
+          "handle": "format-supported__11-x-14-in"
+        },
+        {
+          "name": "12 x 16 in",
+          "handle": "format-supported__12-x-16-in"
+        },
+        {
+          "name": "16 x 20 in",
+          "handle": "format-supported__16-x-20-in"
+        },
+        {
+          "name": "20 x 24 in",
+          "handle": "format-supported__20-x-24-in"
+        },
+        {
+          "name": "Other",
+          "handle": "format-supported__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3137",
+      "name": "Frame style",
+      "handle": "frame-style",
+      "description": "Describes the design or type of frame for artwork, such as modern or rustic",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "frame-style__acrylic"
+        },
+        {
+          "name": "Braided",
+          "handle": "frame-style__braided"
+        },
+        {
+          "name": "Canvas",
+          "handle": "frame-style__canvas"
+        },
+        {
+          "name": "Clip",
+          "handle": "frame-style__clip"
+        },
+        {
+          "name": "Floater",
+          "handle": "frame-style__floater"
+        },
+        {
+          "name": "Framed",
+          "handle": "frame-style__framed"
+        },
+        {
+          "name": "Gallery wrapped",
+          "handle": "frame-style__gallery-wrapped"
+        },
+        {
+          "name": "Matted",
+          "handle": "frame-style__matted"
+        },
+        {
+          "name": "Modern",
+          "handle": "frame-style__modern"
+        },
+        {
+          "name": "Ornate",
+          "handle": "frame-style__ornate"
+        },
+        {
+          "name": "Poster",
+          "handle": "frame-style__poster"
+        },
+        {
+          "name": "Rustic",
+          "handle": "frame-style__rustic"
+        },
+        {
+          "name": "Shadow box",
+          "handle": "frame-style__shadow-box"
+        },
+        {
+          "name": "Unframed",
+          "handle": "frame-style__unframed"
+        },
+        {
+          "name": "Other",
+          "handle": "frame-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1417",
+      "name": "Gardening use",
+      "handle": "gardening-use",
+      "description": "Defines the gardening purpose of a product, e.g. mulching, landscaping",
+      "values": [
+        {
+          "name": "Flower gardening",
+          "handle": "gardening-use__flower-gardening"
+        },
+        {
+          "name": "Landscaping",
+          "handle": "gardening-use__landscaping"
+        },
+        {
+          "name": "Mulching",
+          "handle": "gardening-use__mulching"
+        },
+        {
+          "name": "Multi-purpose",
+          "handle": "gardening-use__multi-purpose"
+        },
+        {
+          "name": "Plant growth",
+          "handle": "gardening-use__plant-growth"
+        },
+        {
+          "name": "Soil quality",
+          "handle": "gardening-use__soil-quality"
+        },
+        {
+          "name": "Standard",
+          "handle": "gardening-use__standard"
+        },
+        {
+          "name": "Vegetable gardening",
+          "handle": "gardening-use__vegetable-gardening"
+        },
+        {
+          "name": "Other",
+          "handle": "gardening-use__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1375",
+      "name": "Garment steamer design",
+      "handle": "garment-steamer-design",
+      "description": "Defines the style or type of garment steamer, such as handheld or steam brush",
+      "values": [
+        {
+          "name": "Handheld",
+          "handle": "garment-steamer-design__handheld"
+        },
+        {
+          "name": "Steam brush",
+          "handle": "garment-steamer-design__steam-brush"
+        },
+        {
+          "name": "Upright",
+          "handle": "garment-steamer-design__upright"
+        },
+        {
+          "name": "Other",
+          "handle": "garment-steamer-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1405",
+      "name": "Grease filter material",
+      "handle": "grease-filter-material",
+      "description": "Specifies the material used in a product's grease filter, e.g. metal, stainless steel",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "grease-filter-material__aluminum"
+        },
+        {
+          "name": "Carbon",
+          "handle": "grease-filter-material__carbon"
+        },
+        {
+          "name": "Charcoal",
+          "handle": "grease-filter-material__charcoal"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "grease-filter-material__fiberglass"
+        },
+        {
+          "name": "Mesh",
+          "handle": "grease-filter-material__mesh"
+        },
+        {
+          "name": "Metal",
+          "handle": "grease-filter-material__metal"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "grease-filter-material__stainless-steel"
+        },
+        {
+          "name": "Steel",
+          "handle": "grease-filter-material__steel"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "grease-filter-material__synthetic"
+        },
+        {
+          "name": "Other",
+          "handle": "grease-filter-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1450",
+      "name": "Humidity control",
+      "handle": "humidity-control",
+      "description": "Indicates the product's ability to regulate moisture levels, typically for cigar humidors; e.g. 0.65",
+      "values": [
+        {
+          "name": "0.58",
+          "handle": "humidity-control__0-58"
+        },
+        {
+          "name": "0.62",
+          "handle": "humidity-control__0-62"
+        },
+        {
+          "name": "0.65",
+          "handle": "humidity-control__0-65"
+        },
+        {
+          "name": "0.68",
+          "handle": "humidity-control__0-68"
+        },
+        {
+          "name": "0.72",
+          "handle": "humidity-control__0-72"
+        },
+        {
+          "name": "0.75",
+          "handle": "humidity-control__0-75"
+        },
+        {
+          "name": "Other",
+          "handle": "humidity-control__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3142",
+      "name": "Ironing features",
+      "handle": "ironing-features",
+      "description": "Specifies the special features of an iron or ironing system, e.g. auto power-off, steam boost",
+      "values": [
+        {
+          "name": "Anti-drip function",
+          "handle": "ironing-features__anti-drip-function"
+        },
+        {
+          "name": "Auto power-off",
+          "handle": "ironing-features__auto-power-off"
+        },
+        {
+          "name": "Automatic anti-calc",
+          "handle": "ironing-features__automatic-anti-calc"
+        },
+        {
+          "name": "Continuous steam",
+          "handle": "ironing-features__continuous-steam"
+        },
+        {
+          "name": "Non-twisting cord",
+          "handle": "ironing-features__non-twisting-cord"
+        },
+        {
+          "name": "Self-cleaning",
+          "handle": "ironing-features__self-cleaning"
+        },
+        {
+          "name": "Spray function",
+          "handle": "ironing-features__spray-function"
+        },
+        {
+          "name": "Steam boost",
+          "handle": "ironing-features__steam-boost"
+        },
+        {
+          "name": "Variable steam",
+          "handle": "ironing-features__variable-steam"
+        },
+        {
+          "name": "Vertical steam",
+          "handle": "ironing-features__vertical-steam"
+        },
+        {
+          "name": "Other",
+          "handle": "ironing-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1411",
+      "name": "Kitchen utensil items included",
+      "handle": "kitchen-utensil-items-included",
+      "description": "Identifies the tools included in a kitchen utensil set, such as whisk or tongs",
+      "values": [
+        {
+          "name": "Bottle opener",
+          "handle": "kitchen-utensil-items-included__bottle-opener"
+        },
+        {
+          "name": "Can opener",
+          "handle": "kitchen-utensil-items-included__can-opener"
+        },
+        {
+          "name": "Ladle",
+          "handle": "kitchen-utensil-items-included__ladle"
+        },
+        {
+          "name": "Pasta server",
+          "handle": "kitchen-utensil-items-included__pasta-server"
+        },
+        {
+          "name": "Peeler",
+          "handle": "kitchen-utensil-items-included__peeler"
+        },
+        {
+          "name": "Slotted spoon",
+          "handle": "kitchen-utensil-items-included__slotted-spoon"
+        },
+        {
+          "name": "Solid spoon",
+          "handle": "kitchen-utensil-items-included__solid-spoon"
+        },
+        {
+          "name": "Spatula",
+          "handle": "kitchen-utensil-items-included__spatula"
+        },
+        {
+          "name": "Tongs",
+          "handle": "kitchen-utensil-items-included__tongs"
+        },
+        {
+          "name": "Whisk",
+          "handle": "kitchen-utensil-items-included__whisk"
+        },
+        {
+          "name": "Other",
+          "handle": "kitchen-utensil-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3145",
+      "name": "Laundry detergent features",
+      "handle": "laundry-detergent-features",
+      "description": "Describes special characteristics of laundry detergent, like color protection or stain removal",
+      "values": [
+        {
+          "name": "Brightener",
+          "handle": "laundry-detergent-features__brightener"
+        },
+        {
+          "name": "Color protection",
+          "handle": "laundry-detergent-features__color-protection"
+        },
+        {
+          "name": "Concentrated formula",
+          "handle": "laundry-detergent-features__concentrated-formula"
+        },
+        {
+          "name": "Contains enzymes",
+          "handle": "laundry-detergent-features__contains-enzymes"
+        },
+        {
+          "name": "Disinfectant",
+          "handle": "laundry-detergent-features__disinfectant"
+        },
+        {
+          "name": "Safe for baby clothes",
+          "handle": "laundry-detergent-features__safe-for-baby-clothes"
+        },
+        {
+          "name": "Safe for dark colors",
+          "handle": "laundry-detergent-features__safe-for-dark-colors"
+        },
+        {
+          "name": "Safe for delicates",
+          "handle": "laundry-detergent-features__safe-for-delicates"
+        },
+        {
+          "name": "Softener",
+          "handle": "laundry-detergent-features__softener"
+        },
+        {
+          "name": "Stain removal",
+          "handle": "laundry-detergent-features__stain-removal"
+        },
+        {
+          "name": "Suitable for cold water washing",
+          "handle": "laundry-detergent-features__suitable-for-cold-water-washing"
+        },
+        {
+          "name": "Suitable for sensitive skin",
+          "handle": "laundry-detergent-features__suitable-for-sensitive-skin"
+        },
+        {
+          "name": "White laundry",
+          "handle": "laundry-detergent-features__white-laundry"
+        },
+        {
+          "name": "Other",
+          "handle": "laundry-detergent-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1360",
+      "name": "Light control",
+      "handle": "light-control",
+      "description": "Defines the level of light blockage by window treatments, e.g. blackout, sheer",
+      "values": [
+        {
+          "name": "Blackout",
+          "handle": "light-control__blackout"
+        },
+        {
+          "name": "Light filtering",
+          "handle": "light-control__light-filtering"
+        },
+        {
+          "name": "Opaque",
+          "handle": "light-control__opaque"
+        },
+        {
+          "name": "Room darkening",
+          "handle": "light-control__room-darkening"
+        },
+        {
+          "name": "Semi-opaque",
+          "handle": "light-control__semi-opaque"
+        },
+        {
+          "name": "Sheer",
+          "handle": "light-control__sheer"
+        },
+        {
+          "name": "Solar",
+          "handle": "light-control__solar"
+        },
+        {
+          "name": "Translucent",
+          "handle": "light-control__translucent"
+        },
+        {
+          "name": "Other",
+          "handle": "light-control__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1374",
+      "name": "Loading type",
+      "handle": "loading-type",
+      "description": "Specifies how laundry appliances are loaded, such as front or top load",
+      "values": [
+        {
+          "name": "Front-load",
+          "handle": "loading-type__front-load"
+        },
+        {
+          "name": "Top-load",
+          "handle": "loading-type__top-load"
+        },
+        {
+          "name": "Other",
+          "handle": "loading-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2788",
+      "name": "Mat/Rug shape",
+      "handle": "mat-rug-shape",
+      "description": "Describes the form of mats or rugs, such as round or square",
+      "values": [
+        {
+          "name": "Oval",
+          "handle": "mat-rug-shape__oval"
+        },
+        {
+          "name": "Rectangular",
+          "handle": "mat-rug-shape__rectangular"
+        },
+        {
+          "name": "Round",
+          "handle": "mat-rug-shape__round"
+        },
+        {
+          "name": "Runner",
+          "handle": "mat-rug-shape__runner"
+        },
+        {
+          "name": "Semicircular",
+          "handle": "mat-rug-shape__semicircular"
+        },
+        {
+          "name": "Square",
+          "handle": "mat-rug-shape__square"
+        },
+        {
+          "name": "Other",
+          "handle": "mat-rug-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2795",
+      "name": "Monitor mounting type",
+      "handle": "monitor-mounting-type",
+      "description": "Identifies how a security monitor is installed, such as wall or free-standing",
+      "values": [
+        {
+          "name": "Armband",
+          "handle": "monitor-mounting-type__armband"
+        },
+        {
+          "name": "Free-standing",
+          "handle": "monitor-mounting-type__free-standing"
+        },
+        {
+          "name": "Wall",
+          "handle": "monitor-mounting-type__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "monitor-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2793",
+      "name": "Motion sensor type",
+      "handle": "motion-sensor-type",
+      "description": "Identifies the technology used in motion sensors, such as infrared or laser",
+      "values": [
+        {
+          "name": "Infrared",
+          "handle": "motion-sensor-type__infrared"
+        },
+        {
+          "name": "Laser",
+          "handle": "motion-sensor-type__laser"
+        },
+        {
+          "name": "Microwave",
+          "handle": "motion-sensor-type__microwave"
+        },
+        {
+          "name": "Photocell",
+          "handle": "motion-sensor-type__photocell"
+        },
+        {
+          "name": "PIR",
+          "handle": "motion-sensor-type__pir"
+        },
+        {
+          "name": "Ultrasonic",
+          "handle": "motion-sensor-type__ultrasonic"
+        },
+        {
+          "name": "Other",
+          "handle": "motion-sensor-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1419",
+      "name": "Nutrient content",
+      "handle": "nutrient-content",
+      "description": "Specifies the nutritional elements present, typically for fertilizers; e.g. nitrogen, phosphorus",
+      "values": [
+        {
+          "name": "Boron",
+          "handle": "nutrient-content__boron"
+        },
+        {
+          "name": "Calcium",
+          "handle": "nutrient-content__calcium"
+        },
+        {
+          "name": "Copper",
+          "handle": "nutrient-content__copper"
+        },
+        {
+          "name": "Iron",
+          "handle": "nutrient-content__iron"
+        },
+        {
+          "name": "Magnesium",
+          "handle": "nutrient-content__magnesium"
+        },
+        {
+          "name": "Manganese",
+          "handle": "nutrient-content__manganese"
+        },
+        {
+          "name": "Molybdenum",
+          "handle": "nutrient-content__molybdenum"
+        },
+        {
+          "name": "Nitrogen",
+          "handle": "nutrient-content__nitrogen"
+        },
+        {
+          "name": "Phosphorus",
+          "handle": "nutrient-content__phosphorus"
+        },
+        {
+          "name": "Potassium",
+          "handle": "nutrient-content__potassium"
+        },
+        {
+          "name": "Sulfur",
+          "handle": "nutrient-content__sulfur"
+        },
+        {
+          "name": "Zinc",
+          "handle": "nutrient-content__zinc"
+        },
+        {
+          "name": "Other",
+          "handle": "nutrient-content__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1440",
+      "name": "Oil type",
+      "handle": "oil-type",
+      "description": "Specifies the type of oil used in a product, e.g. paraffin, kerosene",
+      "values": [
+        {
+          "name": "Citronella oil",
+          "handle": "oil-type__citronella-oil"
+        },
+        {
+          "name": "Kerosene",
+          "handle": "oil-type__kerosene"
+        },
+        {
+          "name": "Lamp oil",
+          "handle": "oil-type__lamp-oil"
+        },
+        {
+          "name": "Mineral oil",
+          "handle": "oil-type__mineral-oil"
+        },
+        {
+          "name": "Paraffin oil",
+          "handle": "oil-type__paraffin-oil"
+        },
+        {
+          "name": "Other",
+          "handle": "oil-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1373",
+      "name": "Operation method",
+      "handle": "operation-method",
+      "description": "Defines how a product is operated, typically for garage door openers; e.g. belt drive, hydraulic",
+      "values": [
+        {
+          "name": "Belt drive",
+          "handle": "operation-method__belt-drive"
+        },
+        {
+          "name": "Chain drive",
+          "handle": "operation-method__chain-drive"
+        },
+        {
+          "name": "Hydraulic",
+          "handle": "operation-method__hydraulic"
+        },
+        {
+          "name": "Other",
+          "handle": "operation-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1432",
+      "name": "Outdoor power accessories included",
+      "handle": "outdoor-power-accessories-included",
+      "description": "Specifies additional items provided with outdoor power equipment, e.g. chainsaw, ear plugs",
+      "values": [
+        {
+          "name": "Battery charger",
+          "handle": "outdoor-power-accessories-included__battery-charger"
+        },
+        {
+          "name": "Blower",
+          "handle": "outdoor-power-accessories-included__blower"
+        },
+        {
+          "name": "Chainsaw",
+          "handle": "outdoor-power-accessories-included__chainsaw"
+        },
+        {
+          "name": "Ear plugs",
+          "handle": "outdoor-power-accessories-included__ear-plugs"
+        },
+        {
+          "name": "Hedge trimmer",
+          "handle": "outdoor-power-accessories-included__hedge-trimmer"
+        },
+        {
+          "name": "Lawn mower",
+          "handle": "outdoor-power-accessories-included__lawn-mower"
+        },
+        {
+          "name": "Safety glasses",
+          "handle": "outdoor-power-accessories-included__safety-glasses"
+        },
+        {
+          "name": "Trimmer",
+          "handle": "outdoor-power-accessories-included__trimmer"
+        },
+        {
+          "name": "Other",
+          "handle": "outdoor-power-accessories-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1403",
+      "name": "Oven accessories included",
+      "handle": "oven-accessories-included",
+      "description": "Details the extra oven components included, such as roasting pan or wire rack",
+      "values": [
+        {
+          "name": "Roasting pan",
+          "handle": "oven-accessories-included__roasting-pan"
+        },
+        {
+          "name": "Rotisserie attachment",
+          "handle": "oven-accessories-included__rotisserie-attachment"
+        },
+        {
+          "name": "Wire rack",
+          "handle": "oven-accessories-included__wire-rack"
+        },
+        {
+          "name": "Other",
+          "handle": "oven-accessories-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3428",
+      "name": "Painting medium",
+      "handle": "painting-medium",
+      "description": "Indicates the primary material or technique used in a painting, e.g. acrylic, oil",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "painting-medium__acrylic"
+        },
+        {
+          "name": "Airbrush",
+          "handle": "painting-medium__airbrush"
+        },
+        {
+          "name": "Alkyd",
+          "handle": "painting-medium__alkyd"
+        },
+        {
+          "name": "Casein",
+          "handle": "painting-medium__casein"
+        },
+        {
+          "name": "Charcoal",
+          "handle": "painting-medium__charcoal"
+        },
+        {
+          "name": "Collage",
+          "handle": "painting-medium__collage"
+        },
+        {
+          "name": "Digital",
+          "handle": "painting-medium__digital"
+        },
+        {
+          "name": "Dye",
+          "handle": "painting-medium__dye"
+        },
+        {
+          "name": "Egg tempera",
+          "handle": "painting-medium__egg-tempera"
+        },
+        {
+          "name": "Enamel",
+          "handle": "painting-medium__enamel"
+        },
+        {
+          "name": "Encaustic",
+          "handle": "painting-medium__encaustic"
+        },
+        {
+          "name": "Fresco",
+          "handle": "painting-medium__fresco"
+        },
+        {
+          "name": "Gouache",
+          "handle": "painting-medium__gouache"
+        },
+        {
+          "name": "Graphite",
+          "handle": "painting-medium__graphite"
+        },
+        {
+          "name": "Ink",
+          "handle": "painting-medium__ink"
+        },
+        {
+          "name": "Latex",
+          "handle": "painting-medium__latex"
+        },
+        {
+          "name": "Marker",
+          "handle": "painting-medium__marker"
+        },
+        {
+          "name": "Mixed media",
+          "handle": "painting-medium__mixed-media"
+        },
+        {
+          "name": "Oil",
+          "handle": "painting-medium__oil"
+        },
+        {
+          "name": "Pastel",
+          "handle": "painting-medium__pastel"
+        },
+        {
+          "name": "Resin",
+          "handle": "painting-medium__resin"
+        },
+        {
+          "name": "Spray paint",
+          "handle": "painting-medium__spray-paint"
+        },
+        {
+          "name": "Sumi-e",
+          "handle": "painting-medium__sumi-e"
+        },
+        {
+          "name": "Tempera",
+          "handle": "painting-medium__tempera"
+        },
+        {
+          "name": "Texturizing paste",
+          "handle": "painting-medium__texturizing-paste"
+        },
+        {
+          "name": "Water miscible oil",
+          "handle": "painting-medium__water-miscible-oil"
+        },
+        {
+          "name": "Watercolor",
+          "handle": "painting-medium__watercolor"
+        },
+        {
+          "name": "Other",
+          "handle": "painting-medium__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1412",
+      "name": "Pasta shape type",
+      "handle": "pasta-shape-type",
+      "description": "Classifies pasta products based on their shape, e.g. spaghetti, tortellini",
+      "values": [
+        {
+          "name": "Farfalle",
+          "handle": "pasta-shape-type__farfalle"
+        },
+        {
+          "name": "Fettuccine",
+          "handle": "pasta-shape-type__fettuccine"
+        },
+        {
+          "name": "Gnocchi",
+          "handle": "pasta-shape-type__gnocchi"
+        },
+        {
+          "name": "Lasagna",
+          "handle": "pasta-shape-type__lasagna"
+        },
+        {
+          "name": "Linguine",
+          "handle": "pasta-shape-type__linguine"
+        },
+        {
+          "name": "Penne",
+          "handle": "pasta-shape-type__penne"
+        },
+        {
+          "name": "Ravioli",
+          "handle": "pasta-shape-type__ravioli"
+        },
+        {
+          "name": "Rigatoni",
+          "handle": "pasta-shape-type__rigatoni"
+        },
+        {
+          "name": "Spaghetti",
+          "handle": "pasta-shape-type__spaghetti"
+        },
+        {
+          "name": "Tortellini",
+          "handle": "pasta-shape-type__tortellini"
+        },
+        {
+          "name": "Other",
+          "handle": "pasta-shape-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1418",
+      "name": "Pest control method",
+      "handle": "pest-control-method",
+      "description": "Specifies the form of pest deterrent, e.g. dust, granules",
+      "values": [
+        {
+          "name": "Biological",
+          "handle": "pest-control-method__biological"
+        },
+        {
+          "name": "Dust",
+          "handle": "pest-control-method__dust"
+        },
+        {
+          "name": "Granules",
+          "handle": "pest-control-method__granules"
+        },
+        {
+          "name": "Liquid spray",
+          "handle": "pest-control-method__liquid-spray"
+        },
+        {
+          "name": "Other",
+          "handle": "pest-control-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1327",
+      "name": "Pile type",
+      "handle": "pile-type",
+      "description": "Defines the texture and style of carpets, rugs, and mats; e.g. plush, berber",
+      "values": [
+        {
+          "name": "Berber",
+          "handle": "pile-type__berber"
+        },
+        {
+          "name": "Braided",
+          "handle": "pile-type__braided"
+        },
+        {
+          "name": "Cable",
+          "handle": "pile-type__cable"
+        },
+        {
+          "name": "Cut",
+          "handle": "pile-type__cut"
+        },
+        {
+          "name": "Cut & loop",
+          "handle": "pile-type__cut-loop"
+        },
+        {
+          "name": "Flatweave",
+          "handle": "pile-type__flatweave"
+        },
+        {
+          "name": "Frieze",
+          "handle": "pile-type__frieze"
+        },
+        {
+          "name": "Hand-knotted",
+          "handle": "pile-type__hand-knotted"
+        },
+        {
+          "name": "Hand-tufted",
+          "handle": "pile-type__hand-tufted"
+        },
+        {
+          "name": "Level loop",
+          "handle": "pile-type__level-loop"
+        },
+        {
+          "name": "Loop",
+          "handle": "pile-type__loop"
+        },
+        {
+          "name": "Low",
+          "handle": "pile-type__low"
+        },
+        {
+          "name": "Machine made",
+          "handle": "pile-type__machine-made"
+        },
+        {
+          "name": "Multi-level loop",
+          "handle": "pile-type__multi-level-loop"
+        },
+        {
+          "name": "Plush",
+          "handle": "pile-type__plush"
+        },
+        {
+          "name": "Saxony",
+          "handle": "pile-type__saxony"
+        },
+        {
+          "name": "Shag",
+          "handle": "pile-type__shag"
+        },
+        {
+          "name": "Textured saxony",
+          "handle": "pile-type__textured-saxony"
+        },
+        {
+          "name": "Tufted",
+          "handle": "pile-type__tufted"
+        },
+        {
+          "name": "Velvet",
+          "handle": "pile-type__velvet"
+        },
+        {
+          "name": "Other",
+          "handle": "pile-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4052",
+      "name": "Plant stage",
+      "handle": "plant-stage",
+      "description": "Identifies the specific phase of a plant's growth cycle that a product is designed to support, e.g. seedling, vegetative",
+      "values": [
+        {
+          "name": "Cloning",
+          "handle": "plant-stage__cloning"
+        },
+        {
+          "name": "Flowering",
+          "handle": "plant-stage__flowering"
+        },
+        {
+          "name": "Fruiting",
+          "handle": "plant-stage__fruiting"
+        },
+        {
+          "name": "Germination",
+          "handle": "plant-stage__germination"
+        },
+        {
+          "name": "Seedling",
+          "handle": "plant-stage__seedling"
+        },
+        {
+          "name": "Transition",
+          "handle": "plant-stage__transition"
+        },
+        {
+          "name": "Vegetative",
+          "handle": "plant-stage__vegetative"
+        },
+        {
+          "name": "Other",
+          "handle": "plant-stage__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2822",
+      "name": "Plant support material",
+      "handle": "plant-support-material",
+      "description": "Specifies the material used in plant cages or supports, like terracotta or stone",
+      "values": [
+        {
+          "name": "Bamboo",
+          "handle": "plant-support-material__bamboo"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "plant-support-material__ceramic"
+        },
+        {
+          "name": "Coir",
+          "handle": "plant-support-material__coir"
+        },
+        {
+          "name": "Concrete",
+          "handle": "plant-support-material__concrete"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "plant-support-material__fiberglass"
+        },
+        {
+          "name": "Glass",
+          "handle": "plant-support-material__glass"
+        },
+        {
+          "name": "Metal",
+          "handle": "plant-support-material__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "plant-support-material__plastic"
+        },
+        {
+          "name": "Resin",
+          "handle": "plant-support-material__resin"
+        },
+        {
+          "name": "Stone",
+          "handle": "plant-support-material__stone"
+        },
+        {
+          "name": "Terracotta",
+          "handle": "plant-support-material__terracotta"
+        },
+        {
+          "name": "Wood",
+          "handle": "plant-support-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "plant-support-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1337",
+      "name": "RFID frequency",
+      "handle": "rfid-frequency",
+      "description": "Specifies the operating frequency of RFID products, e.g. low, ultra-high",
+      "values": [
+        {
+          "name": "High",
+          "handle": "rfid-frequency__high"
+        },
+        {
+          "name": "Low",
+          "handle": "rfid-frequency__low"
+        },
+        {
+          "name": "Ultra-high",
+          "handle": "rfid-frequency__ultra-high"
+        },
+        {
+          "name": "Other",
+          "handle": "rfid-frequency__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1329",
+      "name": "Rod shape",
+      "handle": "rod-shape",
+      "description": "Defines the form or configuration of shower rods, e.g. straight, U-shaped",
+      "values": [
+        {
+          "name": "Curved",
+          "handle": "rod-shape__curved"
+        },
+        {
+          "name": "L-shaped",
+          "handle": "rod-shape__l-shaped"
+        },
+        {
+          "name": "Straight",
+          "handle": "rod-shape__straight"
+        },
+        {
+          "name": "U-shaped",
+          "handle": "rod-shape__u-shaped"
+        },
+        {
+          "name": "Other",
+          "handle": "rod-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1358",
+      "name": "Roof decor shape",
+      "handle": "roof-decor-shape",
+      "description": "Defines the design or form of roof decorations, such as horse or sailboat",
+      "values": [
+        {
+          "name": "Arrow",
+          "handle": "roof-decor-shape__arrow"
+        },
+        {
+          "name": "Horse",
+          "handle": "roof-decor-shape__horse"
+        },
+        {
+          "name": "Rooster",
+          "handle": "roof-decor-shape__rooster"
+        },
+        {
+          "name": "Sailboat",
+          "handle": "roof-decor-shape__sailboat"
+        },
+        {
+          "name": "Other",
+          "handle": "roof-decor-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3363",
+      "name": "Sauna accessories included",
+      "handle": "sauna-accessories-included",
+      "description": "Identifies the additional items included with a sauna, like a ladle or sauna stones",
+      "values": [
+        {
+          "name": "Accessory holder",
+          "handle": "sauna-accessories-included__accessory-holder"
+        },
+        {
+          "name": "Bench",
+          "handle": "sauna-accessories-included__bench"
+        },
+        {
+          "name": "Headrest",
+          "handle": "sauna-accessories-included__headrest"
+        },
+        {
+          "name": "Hygrometer",
+          "handle": "sauna-accessories-included__hygrometer"
+        },
+        {
+          "name": "Ladle",
+          "handle": "sauna-accessories-included__ladle"
+        },
+        {
+          "name": "Protective mat",
+          "handle": "sauna-accessories-included__protective-mat"
+        },
+        {
+          "name": "Sand timer",
+          "handle": "sauna-accessories-included__sand-timer"
+        },
+        {
+          "name": "Sauna stones",
+          "handle": "sauna-accessories-included__sauna-stones"
+        },
+        {
+          "name": "Thermometer",
+          "handle": "sauna-accessories-included__thermometer"
+        },
+        {
+          "name": "Other",
+          "handle": "sauna-accessories-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2791",
+      "name": "Shower curtain mounting type",
+      "handle": "shower-curtain-mounting-type",
+      "description": "Identifies how a shower curtain is attached, such as grommet or ring",
+      "values": [
+        {
+          "name": "Grommet",
+          "handle": "shower-curtain-mounting-type__grommet"
+        },
+        {
+          "name": "Hanging hook",
+          "handle": "shower-curtain-mounting-type__hanging-hook"
+        },
+        {
+          "name": "Hidden tab",
+          "handle": "shower-curtain-mounting-type__hidden-tab"
+        },
+        {
+          "name": "Ring",
+          "handle": "shower-curtain-mounting-type__ring"
+        },
+        {
+          "name": "Rod pocket",
+          "handle": "shower-curtain-mounting-type__rod-pocket"
+        },
+        {
+          "name": "Other",
+          "handle": "shower-curtain-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1406",
+      "name": "Soda maker accessories included",
+      "handle": "soda-maker-accessories-included",
+      "description": "Specifies additional items provided with a soda maker, such as reusable bottle or syrup",
+      "values": [
+        {
+          "name": "Carbonating cylinder",
+          "handle": "soda-maker-accessories-included__carbonating-cylinder"
+        },
+        {
+          "name": "Reusable bottle",
+          "handle": "soda-maker-accessories-included__reusable-bottle"
+        },
+        {
+          "name": "Soda maker unit",
+          "handle": "soda-maker-accessories-included__soda-maker-unit"
+        },
+        {
+          "name": "Syrup",
+          "handle": "soda-maker-accessories-included__syrup"
+        },
+        {
+          "name": "Other",
+          "handle": "soda-maker-accessories-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1376",
+      "name": "Soleplate type",
+      "handle": "soleplate-type",
+      "description": "Defines the type of soleplate used in irons, such as ceramic or stainless steel",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "soleplate-type__aluminum"
+        },
+        {
+          "name": "Alumite",
+          "handle": "soleplate-type__alumite"
+        },
+        {
+          "name": "Anodilium",
+          "handle": "soleplate-type__anodilium"
+        },
+        {
+          "name": "Auto clean",
+          "handle": "soleplate-type__auto-clean"
+        },
+        {
+          "name": "Careeza",
+          "handle": "soleplate-type__careeza"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "soleplate-type__ceramic"
+        },
+        {
+          "name": "Ceramic glide",
+          "handle": "soleplate-type__ceramic-glide"
+        },
+        {
+          "name": "Ceramic ultra glide",
+          "handle": "soleplate-type__ceramic-ultra-glide"
+        },
+        {
+          "name": "Ceranium",
+          "handle": "soleplate-type__ceranium"
+        },
+        {
+          "name": "Ceranium glisse",
+          "handle": "soleplate-type__ceranium-glisse"
+        },
+        {
+          "name": "Cerilium",
+          "handle": "soleplate-type__cerilium"
+        },
+        {
+          "name": "Cross steam",
+          "handle": "soleplate-type__cross-steam"
+        },
+        {
+          "name": "Diamond 4D",
+          "handle": "soleplate-type__diamond-4d"
+        },
+        {
+          "name": "Diamond glide",
+          "handle": "soleplate-type__diamond-glide"
+        },
+        {
+          "name": "Dual Thermolon",
+          "handle": "soleplate-type__dual-thermolon"
+        },
+        {
+          "name": "Durilium",
+          "handle": "soleplate-type__durilium"
+        },
+        {
+          "name": "Durilium airglide",
+          "handle": "soleplate-type__durilium-airglide"
+        },
+        {
+          "name": "Durilium airglide auto clean",
+          "handle": "soleplate-type__durilium-airglide-auto-clean"
+        },
+        {
+          "name": "Durilium airglide auto clean ultra thin",
+          "handle": "soleplate-type__durilium-airglide-auto-clean-ultra-thin"
+        },
+        {
+          "name": "Durilium auto clean",
+          "handle": "soleplate-type__durilium-auto-clean"
+        },
+        {
+          "name": "Dynaglide",
+          "handle": "soleplate-type__dynaglide"
+        },
+        {
+          "name": "Eloxal",
+          "handle": "soleplate-type__eloxal"
+        },
+        {
+          "name": "Eloxal plus",
+          "handle": "soleplate-type__eloxal-plus"
+        },
+        {
+          "name": "Glide x soleplate",
+          "handle": "soleplate-type__glide-x-soleplate"
+        },
+        {
+          "name": "Glissium",
+          "handle": "soleplate-type__glissium"
+        },
+        {
+          "name": "Gold",
+          "handle": "soleplate-type__gold"
+        },
+        {
+          "name": "Honeycomb",
+          "handle": "soleplate-type__honeycomb"
+        },
+        {
+          "name": "Microsteam",
+          "handle": "soleplate-type__microsteam"
+        },
+        {
+          "name": "Nano steel",
+          "handle": "soleplate-type__nano-steel"
+        },
+        {
+          "name": "Nano-silver ceramic",
+          "handle": "soleplate-type__nano-silver-ceramic"
+        },
+        {
+          "name": "Non-stick",
+          "handle": "soleplate-type__non-stick"
+        },
+        {
+          "name": "Palladium",
+          "handle": "soleplate-type__palladium"
+        },
+        {
+          "name": "Pearlonic 380",
+          "handle": "soleplate-type__pearlonic-380"
+        },
+        {
+          "name": "Pro ceramic",
+          "handle": "soleplate-type__pro-ceramic"
+        },
+        {
+          "name": "Protect",
+          "handle": "soleplate-type__protect"
+        },
+        {
+          "name": "PTFE",
+          "handle": "soleplate-type__ptfe"
+        },
+        {
+          "name": "RESILIUM",
+          "handle": "soleplate-type__resilium"
+        },
+        {
+          "name": "Saphir",
+          "handle": "soleplate-type__saphir"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "soleplate-type__stainless-steel"
+        },
+        {
+          "name": "SteamGlide",
+          "handle": "soleplate-type__steamglide"
+        },
+        {
+          "name": "SteamGlide elite",
+          "handle": "soleplate-type__steamglide-elite"
+        },
+        {
+          "name": "T-ionic glide",
+          "handle": "soleplate-type__t-ionic-glide"
+        },
+        {
+          "name": "Titanium",
+          "handle": "soleplate-type__titanium"
+        },
+        {
+          "name": "Tourmaline ceramic",
+          "handle": "soleplate-type__tourmaline-ceramic"
+        },
+        {
+          "name": "Ultragliss",
+          "handle": "soleplate-type__ultragliss"
+        },
+        {
+          "name": "Ultragliss durilium",
+          "handle": "soleplate-type__ultragliss-durilium"
+        },
+        {
+          "name": "XL duraglide",
+          "handle": "soleplate-type__xl-duraglide"
+        },
+        {
+          "name": "Xpress glide",
+          "handle": "soleplate-type__xpress-glide"
+        },
+        {
+          "name": "Other",
+          "handle": "soleplate-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1434",
+      "name": "Sprinkler head type",
+      "handle": "sprinkler-head-type",
+      "description": "Defines the pattern of water spray, e.g. cone, jet",
+      "values": [
+        {
+          "name": "Cone",
+          "handle": "sprinkler-head-type__cone"
+        },
+        {
+          "name": "Flat",
+          "handle": "sprinkler-head-type__flat"
+        },
+        {
+          "name": "Jet",
+          "handle": "sprinkler-head-type__jet"
+        },
+        {
+          "name": "Rose",
+          "handle": "sprinkler-head-type__rose"
+        },
+        {
+          "name": "Shower",
+          "handle": "sprinkler-head-type__shower"
+        },
+        {
+          "name": "Other",
+          "handle": "sprinkler-head-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1401",
+      "name": "Star rating",
+      "handle": "star-rating",
+      "description": "Indicates the product's star rating, e.g. 1, 5",
+      "values": [
+        {
+          "name": "1",
+          "handle": "star-rating__1"
+        },
+        {
+          "name": "2",
+          "handle": "star-rating__2"
+        },
+        {
+          "name": "3",
+          "handle": "star-rating__3"
+        },
+        {
+          "name": "4",
+          "handle": "star-rating__4"
+        },
+        {
+          "name": "5",
+          "handle": "star-rating__5"
+        },
+        {
+          "name": "6",
+          "handle": "star-rating__6"
+        },
+        {
+          "name": "Other",
+          "handle": "star-rating__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1393",
+      "name": "Stationery binding type",
+      "handle": "stationery-binding-type",
+      "description": "Specifies the method used to secure pages, typically in photo albums; e.g. saddle stitch",
+      "values": [
+        {
+          "name": "Case",
+          "handle": "stationery-binding-type__case"
+        },
+        {
+          "name": "Perfect",
+          "handle": "stationery-binding-type__perfect"
+        },
+        {
+          "name": "Saddle stitch",
+          "handle": "stationery-binding-type__saddle-stitch"
+        },
+        {
+          "name": "Spiral",
+          "handle": "stationery-binding-type__spiral"
+        },
+        {
+          "name": "Other",
+          "handle": "stationery-binding-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1364",
+      "name": "Stove airflow",
+      "handle": "stove-airflow",
+      "description": "Indicates the airflow of wood-burning stoves, such as primary or tertiary",
+      "values": [
+        {
+          "name": "Primary",
+          "handle": "stove-airflow__primary"
+        },
+        {
+          "name": "Secondary",
+          "handle": "stove-airflow__secondary"
+        },
+        {
+          "name": "Tertiary",
+          "handle": "stove-airflow__tertiary"
+        },
+        {
+          "name": "Other",
+          "handle": "stove-airflow__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3151",
+      "name": "Stove top type",
+      "handle": "stove-top-type",
+      "description": "Identifies the type of stove top for kitchen appliances, such as gas or ceramic",
+      "values": [
+        {
+          "name": "Ceramic",
+          "handle": "stove-top-type__ceramic"
+        },
+        {
+          "name": "Coil",
+          "handle": "stove-top-type__coil"
+        },
+        {
+          "name": "Combi",
+          "handle": "stove-top-type__combi"
+        },
+        {
+          "name": "Gas",
+          "handle": "stove-top-type__gas"
+        },
+        {
+          "name": "Halogen",
+          "handle": "stove-top-type__halogen"
+        },
+        {
+          "name": "Sealed plate",
+          "handle": "stove-top-type__sealed-plate"
+        },
+        {
+          "name": "Zone induction",
+          "handle": "stove-top-type__zone-induction"
+        },
+        {
+          "name": "Zoneless induction",
+          "handle": "stove-top-type__zoneless-induction"
+        },
+        {
+          "name": "Other",
+          "handle": "stove-top-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1344",
+      "name": "Suitable for chair type",
+      "handle": "suitable-for-chair-type",
+      "description": "Specifies the chair types the product is designed for, such as bench or stool",
+      "values": [
+        {
+          "name": "Bench",
+          "handle": "suitable-for-chair-type__bench"
+        },
+        {
+          "name": "Camping",
+          "handle": "suitable-for-chair-type__camping"
+        },
+        {
+          "name": "Sofa",
+          "handle": "suitable-for-chair-type__sofa"
+        },
+        {
+          "name": "Spa",
+          "handle": "suitable-for-chair-type__spa"
+        },
+        {
+          "name": "Stool",
+          "handle": "suitable-for-chair-type__stool"
+        },
+        {
+          "name": "Universal",
+          "handle": "suitable-for-chair-type__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-chair-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3150",
+      "name": "Suitable for container type",
+      "handle": "suitable-for-container-type",
+      "description": "Identifies the type of container the product is designed for, such as bottle or can",
+      "values": [
+        {
+          "name": "Bottle",
+          "handle": "suitable-for-container-type__bottle"
+        },
+        {
+          "name": "Can",
+          "handle": "suitable-for-container-type__can"
+        },
+        {
+          "name": "Universal",
+          "handle": "suitable-for-container-type__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-container-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1367",
+      "name": "Suitable for fire class",
+      "handle": "suitable-for-fire-class",
+      "description": "Indicates which fire classes the product can extinguish, e.g. A, D",
+      "values": [
+        {
+          "name": "A",
+          "handle": "suitable-for-fire-class__a"
+        },
+        {
+          "name": "B",
+          "handle": "suitable-for-fire-class__b"
+        },
+        {
+          "name": "C",
+          "handle": "suitable-for-fire-class__c"
+        },
+        {
+          "name": "D",
+          "handle": "suitable-for-fire-class__d"
+        },
+        {
+          "name": "E",
+          "handle": "suitable-for-fire-class__e"
+        },
+        {
+          "name": "F",
+          "handle": "suitable-for-fire-class__f"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-fire-class__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1397",
+      "name": "Suitable for food processor type",
+      "handle": "suitable-for-food-processor-type",
+      "description": "Identifies the type of food processor the product is designed for, such as food blender",
+      "values": [
+        {
+          "name": "Food blender",
+          "handle": "suitable-for-food-processor-type__food-blender"
+        },
+        {
+          "name": "Food grinder",
+          "handle": "suitable-for-food-processor-type__food-grinder"
+        },
+        {
+          "name": "Food mixer",
+          "handle": "suitable-for-food-processor-type__food-mixer"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-food-processor-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1354",
+      "name": "Suitable for furniture type",
+      "handle": "suitable-for-furniture-type",
+      "description": "Identifies the type of furniture the product is designed for, typically for slipcovers; e.g. universal, chaise longue",
+      "values": [
+        {
+          "name": "Armchair",
+          "handle": "suitable-for-furniture-type__armchair"
+        },
+        {
+          "name": "Chair",
+          "handle": "suitable-for-furniture-type__chair"
+        },
+        {
+          "name": "Chaise longue",
+          "handle": "suitable-for-furniture-type__chaise-longue"
+        },
+        {
+          "name": "Corner sofa",
+          "handle": "suitable-for-furniture-type__corner-sofa"
+        },
+        {
+          "name": "Footstool",
+          "handle": "suitable-for-furniture-type__footstool"
+        },
+        {
+          "name": "Sofa",
+          "handle": "suitable-for-furniture-type__sofa"
+        },
+        {
+          "name": "Universal",
+          "handle": "suitable-for-furniture-type__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-furniture-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1390",
+      "name": "Suitable for pest type",
+      "handle": "suitable-for-pest-type",
+      "description": "Identifies the pest species targeted by the product, e.g. mouse, viruses",
+      "values": [
+        {
+          "name": "Bacteria",
+          "handle": "suitable-for-pest-type__bacteria"
+        },
+        {
+          "name": "Beaver",
+          "handle": "suitable-for-pest-type__beaver"
+        },
+        {
+          "name": "Fox",
+          "handle": "suitable-for-pest-type__fox"
+        },
+        {
+          "name": "Fungi",
+          "handle": "suitable-for-pest-type__fungi"
+        },
+        {
+          "name": "Gopher",
+          "handle": "suitable-for-pest-type__gopher"
+        },
+        {
+          "name": "Mole",
+          "handle": "suitable-for-pest-type__mole"
+        },
+        {
+          "name": "Mouse",
+          "handle": "suitable-for-pest-type__mouse"
+        },
+        {
+          "name": "Nematodes",
+          "handle": "suitable-for-pest-type__nematodes"
+        },
+        {
+          "name": "Oomycetes",
+          "handle": "suitable-for-pest-type__oomycetes"
+        },
+        {
+          "name": "Parasitic plants",
+          "handle": "suitable-for-pest-type__parasitic-plants"
+        },
+        {
+          "name": "Phytoplasmas",
+          "handle": "suitable-for-pest-type__phytoplasmas"
+        },
+        {
+          "name": "Rabbit",
+          "handle": "suitable-for-pest-type__rabbit"
+        },
+        {
+          "name": "Rat",
+          "handle": "suitable-for-pest-type__rat"
+        },
+        {
+          "name": "Rodent",
+          "handle": "suitable-for-pest-type__rodent"
+        },
+        {
+          "name": "Snail",
+          "handle": "suitable-for-pest-type__snail"
+        },
+        {
+          "name": "Squirrel",
+          "handle": "suitable-for-pest-type__squirrel"
+        },
+        {
+          "name": "Viruses",
+          "handle": "suitable-for-pest-type__viruses"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-pest-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1448",
+      "name": "Suitable for pool type",
+      "handle": "suitable-for-pool-type",
+      "description": "Specifies the type of pool the product is designed for, e.g. inflatable, above ground",
+      "values": [
+        {
+          "name": "Above-ground pool",
+          "handle": "suitable-for-pool-type__above-ground-pool"
+        },
+        {
+          "name": "Built-in pool",
+          "handle": "suitable-for-pool-type__built-in-pool"
+        },
+        {
+          "name": "Inflatable pool",
+          "handle": "suitable-for-pool-type__inflatable-pool"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-pool-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3152",
+      "name": "Suitable for power equipment type",
+      "handle": "suitable-for-power-equipment-type",
+      "description": "Identifies the type of outdoor power equipment the product is designed for, like a lawn mower or leaf blower",
+      "values": [
+        {
+          "name": "Auger",
+          "handle": "suitable-for-power-equipment-type__auger"
+        },
+        {
+          "name": "Chainsaw",
+          "handle": "suitable-for-power-equipment-type__chainsaw"
+        },
+        {
+          "name": "Cultivator",
+          "handle": "suitable-for-power-equipment-type__cultivator"
+        },
+        {
+          "name": "Dethatcher",
+          "handle": "suitable-for-power-equipment-type__dethatcher"
+        },
+        {
+          "name": "Garden shredder",
+          "handle": "suitable-for-power-equipment-type__garden-shredder"
+        },
+        {
+          "name": "Grass edger",
+          "handle": "suitable-for-power-equipment-type__grass-edger"
+        },
+        {
+          "name": "Hedge trimmer",
+          "handle": "suitable-for-power-equipment-type__hedge-trimmer"
+        },
+        {
+          "name": "Lawn mower",
+          "handle": "suitable-for-power-equipment-type__lawn-mower"
+        },
+        {
+          "name": "Lawn sweeper",
+          "handle": "suitable-for-power-equipment-type__lawn-sweeper"
+        },
+        {
+          "name": "Lawn vacuum",
+          "handle": "suitable-for-power-equipment-type__lawn-vacuum"
+        },
+        {
+          "name": "Leaf blower",
+          "handle": "suitable-for-power-equipment-type__leaf-blower"
+        },
+        {
+          "name": "Log splitter",
+          "handle": "suitable-for-power-equipment-type__log-splitter"
+        },
+        {
+          "name": "Multi-tool",
+          "handle": "suitable-for-power-equipment-type__multi-tool"
+        },
+        {
+          "name": "Pole saw",
+          "handle": "suitable-for-power-equipment-type__pole-saw"
+        },
+        {
+          "name": "Power scrubber",
+          "handle": "suitable-for-power-equipment-type__power-scrubber"
+        },
+        {
+          "name": "Pressure washer",
+          "handle": "suitable-for-power-equipment-type__pressure-washer"
+        },
+        {
+          "name": "Sand blaster",
+          "handle": "suitable-for-power-equipment-type__sand-blaster"
+        },
+        {
+          "name": "Snow blower",
+          "handle": "suitable-for-power-equipment-type__snow-blower"
+        },
+        {
+          "name": "Tiller",
+          "handle": "suitable-for-power-equipment-type__tiller"
+        },
+        {
+          "name": "Weed trimmer",
+          "handle": "suitable-for-power-equipment-type__weed-trimmer"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-power-equipment-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2819",
+      "name": "Tableware material",
+      "handle": "tableware-material",
+      "description": "Specifies the composition of tableware, such as bone china or earthenware",
+      "values": [
+        {
+          "name": "Bamboo",
+          "handle": "tableware-material__bamboo"
+        },
+        {
+          "name": "Bone china",
+          "handle": "tableware-material__bone-china"
+        },
+        {
+          "name": "Brass",
+          "handle": "tableware-material__brass"
+        },
+        {
+          "name": "Cast iron",
+          "handle": "tableware-material__cast-iron"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "tableware-material__ceramic"
+        },
+        {
+          "name": "Concrete",
+          "handle": "tableware-material__concrete"
+        },
+        {
+          "name": "Earthenware",
+          "handle": "tableware-material__earthenware"
+        },
+        {
+          "name": "Glass",
+          "handle": "tableware-material__glass"
+        },
+        {
+          "name": "Marble",
+          "handle": "tableware-material__marble"
+        },
+        {
+          "name": "Melamine",
+          "handle": "tableware-material__melamine"
+        },
+        {
+          "name": "Metal",
+          "handle": "tableware-material__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "tableware-material__plastic"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "tableware-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Porcelain",
+          "handle": "tableware-material__porcelain"
+        },
+        {
+          "name": "Silicone",
+          "handle": "tableware-material__silicone"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "tableware-material__stainless-steel"
+        },
+        {
+          "name": "Steel",
+          "handle": "tableware-material__steel"
+        },
+        {
+          "name": "Stone",
+          "handle": "tableware-material__stone"
+        },
+        {
+          "name": "Stoneware",
+          "handle": "tableware-material__stoneware"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "tableware-material__synthetic"
+        },
+        {
+          "name": "Teak wood",
+          "handle": "tableware-material__teak-wood"
+        },
+        {
+          "name": "Wood",
+          "handle": "tableware-material__wood"
+        },
+        {
+          "name": "Zamak",
+          "handle": "tableware-material__zamak"
+        },
+        {
+          "name": "Other",
+          "handle": "tableware-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1425",
+      "name": "Targeted pests",
+      "handle": "targeted-pests",
+      "description": "Identifies the type of pests a product is effective against, e.g. mold, algae",
+      "values": [
+        {
+          "name": "Algae",
+          "handle": "targeted-pests__algae"
+        },
+        {
+          "name": "Lichen",
+          "handle": "targeted-pests__lichen"
+        },
+        {
+          "name": "Mold",
+          "handle": "targeted-pests__mold"
+        },
+        {
+          "name": "Moss",
+          "handle": "targeted-pests__moss"
+        },
+        {
+          "name": "Weed",
+          "handle": "targeted-pests__weed"
+        },
+        {
+          "name": "Other",
+          "handle": "targeted-pests__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1386",
+      "name": "Targeted stains",
+      "handle": "targeted-stains",
+      "description": "Identifies the stain types a product is designed to treat, such as food or mud",
+      "values": [
+        {
+          "name": "Blood",
+          "handle": "targeted-stains__blood"
+        },
+        {
+          "name": "Coffee",
+          "handle": "targeted-stains__coffee"
+        },
+        {
+          "name": "Dander",
+          "handle": "targeted-stains__dander"
+        },
+        {
+          "name": "Feces",
+          "handle": "targeted-stains__feces"
+        },
+        {
+          "name": "Food",
+          "handle": "targeted-stains__food"
+        },
+        {
+          "name": "Ink",
+          "handle": "targeted-stains__ink"
+        },
+        {
+          "name": "Mud",
+          "handle": "targeted-stains__mud"
+        },
+        {
+          "name": "Oil",
+          "handle": "targeted-stains__oil"
+        },
+        {
+          "name": "Urine",
+          "handle": "targeted-stains__urine"
+        },
+        {
+          "name": "Vomit",
+          "handle": "targeted-stains__vomit"
+        },
+        {
+          "name": "Other",
+          "handle": "targeted-stains__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1439",
+      "name": "Timer type",
+      "handle": "timer-type",
+      "description": "Specifies the frequency setting for timers, e.g. daily, weekly",
+      "values": [
+        {
+          "name": "Daily",
+          "handle": "timer-type__daily"
+        },
+        {
+          "name": "Weekly",
+          "handle": "timer-type__weekly"
+        },
+        {
+          "name": "Other",
+          "handle": "timer-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1400",
+      "name": "Top surface material",
+      "handle": "top-surface-material",
+      "description": "Specifies the material used on the product's top surface, such as stainless steel or ceramic glass",
+      "values": [
+        {
+          "name": "Cast iron",
+          "handle": "top-surface-material__cast-iron"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "top-surface-material__ceramic"
+        },
+        {
+          "name": "Glass-ceramic",
+          "handle": "top-surface-material__glass-ceramic"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "top-surface-material__stainless-steel"
+        },
+        {
+          "name": "Steel",
+          "handle": "top-surface-material__steel"
+        },
+        {
+          "name": "Tempered glass",
+          "handle": "top-surface-material__tempered-glass"
+        },
+        {
+          "name": "Other",
+          "handle": "top-surface-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2805",
+      "name": "Tree stand material",
+      "handle": "tree-stand-material",
+      "description": "Specifies what a tree stand is made from, such as plastic or metal",
+      "values": [
+        {
+          "name": "Concrete",
+          "handle": "tree-stand-material__concrete"
+        },
+        {
+          "name": "Metal",
+          "handle": "tree-stand-material__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "tree-stand-material__plastic"
+        },
+        {
+          "name": "Other",
+          "handle": "tree-stand-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1355",
+      "name": "Vase shape",
+      "handle": "vase-shape",
+      "description": "Describes the geometric or organic form of a vase, such as round or bottle",
+      "values": [
+        {
+          "name": "Bottle",
+          "handle": "vase-shape__bottle"
+        },
+        {
+          "name": "Conical",
+          "handle": "vase-shape__conical"
+        },
+        {
+          "name": "Cylindrical",
+          "handle": "vase-shape__cylindrical"
+        },
+        {
+          "name": "Gourd",
+          "handle": "vase-shape__gourd"
+        },
+        {
+          "name": "Jar",
+          "handle": "vase-shape__jar"
+        },
+        {
+          "name": "Mushroom",
+          "handle": "vase-shape__mushroom"
+        },
+        {
+          "name": "Oval",
+          "handle": "vase-shape__oval"
+        },
+        {
+          "name": "Pitcher",
+          "handle": "vase-shape__pitcher"
+        },
+        {
+          "name": "Round",
+          "handle": "vase-shape__round"
+        },
+        {
+          "name": "Square",
+          "handle": "vase-shape__square"
+        },
+        {
+          "name": "Turnip",
+          "handle": "vase-shape__turnip"
+        },
+        {
+          "name": "Urn",
+          "handle": "vase-shape__urn"
+        },
+        {
+          "name": "Other",
+          "handle": "vase-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1449",
+      "name": "Wall material",
+      "handle": "wall-material",
+      "description": "Identifies the material used for the product's wall, typically in saunas; e.g. cedar",
+      "values": [
+        {
+          "name": "Aspen wood",
+          "handle": "wall-material__aspen-wood"
+        },
+        {
+          "name": "Cedar wood",
+          "handle": "wall-material__cedar-wood"
+        },
+        {
+          "name": "Hemlock",
+          "handle": "wall-material__hemlock"
+        },
+        {
+          "name": "Pine wood",
+          "handle": "wall-material__pine-wood"
+        },
+        {
+          "name": "Spruce wood",
+          "handle": "wall-material__spruce-wood"
+        },
+        {
+          "name": "Other",
+          "handle": "wall-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1357",
+      "name": "Wallpaper application method",
+      "handle": "wallpaper-application-method",
+      "description": "Defines the method for applying wallpaper, e.g. peel & stick or requires paste",
+      "values": [
+        {
+          "name": "Peel & stick",
+          "handle": "wallpaper-application-method__peel-stick"
+        },
+        {
+          "name": "Pre-pasted",
+          "handle": "wallpaper-application-method__pre-pasted"
+        },
+        {
+          "name": "Requires paste",
+          "handle": "wallpaper-application-method__requires-paste"
+        },
+        {
+          "name": "Other",
+          "handle": "wallpaper-application-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3141",
+      "name": "Washer/Dryer features",
+      "handle": "washer-dryer-features",
+      "description": "Highlights unique features of laundry appliances, i.e. child lock, self-cleaning",
+      "values": [
+        {
+          "name": "Add garment function",
+          "handle": "washer-dryer-features__add-garment-function"
+        },
+        {
+          "name": "Adjustable spin",
+          "handle": "washer-dryer-features__adjustable-spin"
+        },
+        {
+          "name": "Anti-crease function",
+          "handle": "washer-dryer-features__anti-crease-function"
+        },
+        {
+          "name": "Child lock",
+          "handle": "washer-dryer-features__child-lock"
+        },
+        {
+          "name": "Delayed start timer",
+          "handle": "washer-dryer-features__delayed-start-timer"
+        },
+        {
+          "name": "Drum interior light",
+          "handle": "washer-dryer-features__drum-interior-light"
+        },
+        {
+          "name": "Foam control system",
+          "handle": "washer-dryer-features__foam-control-system"
+        },
+        {
+          "name": "Half load",
+          "handle": "washer-dryer-features__half-load"
+        },
+        {
+          "name": "Inverter technology",
+          "handle": "washer-dryer-features__inverter-technology"
+        },
+        {
+          "name": "Load balancing system",
+          "handle": "washer-dryer-features__load-balancing-system"
+        },
+        {
+          "name": "Remaining time indication",
+          "handle": "washer-dryer-features__remaining-time-indication"
+        },
+        {
+          "name": "Self-cleaning",
+          "handle": "washer-dryer-features__self-cleaning"
+        },
+        {
+          "name": "Slats included",
+          "handle": "washer-dryer-features__slats-included"
+        },
+        {
+          "name": "Slim depth",
+          "handle": "washer-dryer-features__slim-depth"
+        },
+        {
+          "name": "Other",
+          "handle": "washer-dryer-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1389",
+      "name": "Washing method",
+      "handle": "washing-method",
+      "description": "Specifies the recommended cleaning process for a product, e.g. hand washing, machine washing ",
+      "values": [
+        {
+          "name": "Hand washing",
+          "handle": "washing-method__hand-washing"
+        },
+        {
+          "name": "Machine washing",
+          "handle": "washing-method__machine-washing"
+        },
+        {
+          "name": "Universal",
+          "handle": "washing-method__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "washing-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1377",
+      "name": "Washing programs",
+      "handle": "washing-programs",
+      "description": "Defines the different wash cycles a washing machine offers, like cold wash or delicate",
+      "values": [
+        {
+          "name": "Anti-allergy",
+          "handle": "washing-programs__anti-allergy"
+        },
+        {
+          "name": "Auto",
+          "handle": "washing-programs__auto"
+        },
+        {
+          "name": "Baby care",
+          "handle": "washing-programs__baby-care"
+        },
+        {
+          "name": "Beddings",
+          "handle": "washing-programs__beddings"
+        },
+        {
+          "name": "Bio",
+          "handle": "washing-programs__bio"
+        },
+        {
+          "name": "Black color",
+          "handle": "washing-programs__black-color"
+        },
+        {
+          "name": "Cold wash",
+          "handle": "washing-programs__cold-wash"
+        },
+        {
+          "name": "Cotton",
+          "handle": "washing-programs__cotton"
+        },
+        {
+          "name": "Delicate",
+          "handle": "washing-programs__delicate"
+        },
+        {
+          "name": "Easy care",
+          "handle": "washing-programs__easy-care"
+        },
+        {
+          "name": "Eco",
+          "handle": "washing-programs__eco"
+        },
+        {
+          "name": "Hand",
+          "handle": "washing-programs__hand"
+        },
+        {
+          "name": "Intensive",
+          "handle": "washing-programs__intensive"
+        },
+        {
+          "name": "Jeans",
+          "handle": "washing-programs__jeans"
+        },
+        {
+          "name": "Lingerie",
+          "handle": "washing-programs__lingerie"
+        },
+        {
+          "name": "Microfiber",
+          "handle": "washing-programs__microfiber"
+        },
+        {
+          "name": "Mixed colors",
+          "handle": "washing-programs__mixed-colors"
+        },
+        {
+          "name": "Outdoor",
+          "handle": "washing-programs__outdoor"
+        },
+        {
+          "name": "Pillow",
+          "handle": "washing-programs__pillow"
+        },
+        {
+          "name": "Pre-wash",
+          "handle": "washing-programs__pre-wash"
+        },
+        {
+          "name": "Quick wash",
+          "handle": "washing-programs__quick-wash"
+        },
+        {
+          "name": "Rinse",
+          "handle": "washing-programs__rinse"
+        },
+        {
+          "name": "Shoes",
+          "handle": "washing-programs__shoes"
+        },
+        {
+          "name": "Silk",
+          "handle": "washing-programs__silk"
+        },
+        {
+          "name": "Spin & drain",
+          "handle": "washing-programs__spin-drain"
+        },
+        {
+          "name": "Spin only",
+          "handle": "washing-programs__spin-only"
+        },
+        {
+          "name": "Sport",
+          "handle": "washing-programs__sport"
+        },
+        {
+          "name": "Steam",
+          "handle": "washing-programs__steam"
+        },
+        {
+          "name": "Towel",
+          "handle": "washing-programs__towel"
+        },
+        {
+          "name": "White color",
+          "handle": "washing-programs__white-color"
+        },
+        {
+          "name": "Wool",
+          "handle": "washing-programs__wool"
+        },
+        {
+          "name": "Other",
+          "handle": "washing-programs__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1407",
+      "name": "Water filter application",
+      "handle": "water-filter-application",
+      "description": "Identifies the intended use of a water filter, typically for appliances; e.g. coffee machine, ice machine",
+      "values": [
+        {
+          "name": "Coffee machine",
+          "handle": "water-filter-application__coffee-machine"
+        },
+        {
+          "name": "Drinking water appliance",
+          "handle": "water-filter-application__drinking-water-appliance"
+        },
+        {
+          "name": "Food preparation",
+          "handle": "water-filter-application__food-preparation"
+        },
+        {
+          "name": "Ice machine",
+          "handle": "water-filter-application__ice-machine"
+        },
+        {
+          "name": "Oven",
+          "handle": "water-filter-application__oven"
+        },
+        {
+          "name": "Steamer",
+          "handle": "water-filter-application__steamer"
+        },
+        {
+          "name": "Tea brewing",
+          "handle": "water-filter-application__tea-brewing"
+        },
+        {
+          "name": "Other",
+          "handle": "water-filter-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2807",
+      "name": "Window treatment material",
+      "handle": "window-treatment-material",
+      "description": "Specifies the composition of window blinds or shades, such as aluminum or plastic",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "window-treatment-material__aluminum"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "window-treatment-material__fiberglass"
+        },
+        {
+          "name": "Paper",
+          "handle": "window-treatment-material__paper"
+        },
+        {
+          "name": "Plastic",
+          "handle": "window-treatment-material__plastic"
+        },
+        {
+          "name": "Polyester",
+          "handle": "window-treatment-material__polyester"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "window-treatment-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Wood",
+          "handle": "window-treatment-material__wood"
+        },
+        {
+          "name": "Wood plastic composite (WPC)",
+          "handle": "window-treatment-material__wood-plastic-composite-wpc"
+        },
+        {
+          "name": "Other",
+          "handle": "window-treatment-material__other"
+        }
+      ]
+    }
+  ]
+}

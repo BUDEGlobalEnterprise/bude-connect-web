@@ -134,57 +134,197 @@ export async function searchTaxonomy(query: string, limit = 10): Promise<Taxonom
   return results;
 }
 
-// ── Attributes Loading (from full taxonomy.json) ──────────────────
+// ── Attributes Loading (from split JSON files) ──────────────────────
 
-/** Cache for full taxonomy data with attributes */
-let fullTaxonomyCache: Map<string, TaxonomyCategory> | null = null;
-let fullTaxonomyPromise: Promise<void> | null = null;
+/** Type for attribute with values */
+interface AttributeWithValues {
+  id: string;
+  name: string;
+  handle: string;
+  description: string;
+  values: { name: string; handle: string }[];
+}
+
+/** Cache for category-to-attributes mapping */
+let categoryAttrMapCache: Record<string, string[]> | null = null;
+let categoryAttrMapPromise: Promise<void> | null = null;
+
+/** Cache for attribute index (handle -> file info) */
+let attributeIndexCache: Record<string, { file: string; id: string }> | null = null;
+let attributeIndexPromise: Promise<void> | null = null;
+
+/** Cache for loaded attribute definitions (by file) */
+const attributeFileCache = new Map<string, Map<string, AttributeWithValues>>();
+const attributeFilePromises = new Map<string, Promise<void>>();
+
+// Vite glob for lazy-loading attribute files
+const attributeModules = import.meta.glob<{ attributes: AttributeWithValues[] }>(
+  '../data/taxonomy/attributes/*-attributes.json',
+  { import: 'default', eager: false }
+);
+
+const categoryMapModule = import.meta.glob<Record<string, string[]>>(
+  '../data/taxonomy/attributes/category-attributes-map.json',
+  { import: 'default', eager: false }
+);
+
+const attributeIndexModule = import.meta.glob<Record<string, { file: string; id: string }>>(
+  '../data/taxonomy/attributes/attribute-index.json',
+  { import: 'default', eager: false }
+);
 
 /**
- * Load full taxonomy.json with attributes (lazy loaded, cached)
- * This file is large (955k lines) so we only load it when attributes are needed
+ * Load category-to-attributes mapping (lazy, cached)
  */
-async function loadFullTaxonomy(): Promise<void> {
-  if (fullTaxonomyCache) return;
-  if (fullTaxonomyPromise) return fullTaxonomyPromise;
+async function loadCategoryAttrMap(): Promise<Record<string, string[]>> {
+  if (categoryAttrMapCache) return categoryAttrMapCache;
+  if (categoryAttrMapPromise) {
+    await categoryAttrMapPromise;
+    return categoryAttrMapCache!;
+  }
 
-  fullTaxonomyPromise = (async () => {
+  categoryAttrMapPromise = (async () => {
     try {
-      const response = await fetch('/src/data/taxonomy/en/taxonomy.json');
-      const data = await response.json();
-
-      fullTaxonomyCache = new Map();
-
-      // Index all categories with attributes
-      if (data.verticals && Array.isArray(data.verticals)) {
-        for (const vertical of data.verticals) {
-          if (vertical.categories && Array.isArray(vertical.categories)) {
-            for (const category of vertical.categories) {
-              fullTaxonomyCache.set(category.id, category);
-            }
-          }
-        }
+      const path = '../data/taxonomy/attributes/category-attributes-map.json';
+      const loader = categoryMapModule[path];
+      if (loader) {
+        const data = await loader();
+        categoryAttrMapCache = (data as any).default ?? data;
+      } else {
+        categoryAttrMapCache = {};
       }
     } catch (error) {
-      console.error('Failed to load full taxonomy:', error);
-      fullTaxonomyCache = new Map(); // Empty map to prevent retries
+      console.error('Failed to load category-attributes map:', error);
+      categoryAttrMapCache = {};
     }
   })();
 
-  await fullTaxonomyPromise;
+  await categoryAttrMapPromise;
+  return categoryAttrMapCache!;
+}
+
+/**
+ * Load attribute index (lazy, cached)
+ */
+async function loadAttributeIndex(): Promise<Record<string, { file: string; id: string }>> {
+  if (attributeIndexCache) return attributeIndexCache;
+  if (attributeIndexPromise) {
+    await attributeIndexPromise;
+    return attributeIndexCache!;
+  }
+
+  attributeIndexPromise = (async () => {
+    try {
+      const path = '../data/taxonomy/attributes/attribute-index.json';
+      const loader = attributeIndexModule[path];
+      if (loader) {
+        const data = await loader();
+        attributeIndexCache = (data as any).default ?? data;
+      } else {
+        attributeIndexCache = {};
+      }
+    } catch (error) {
+      console.error('Failed to load attribute index:', error);
+      attributeIndexCache = {};
+    }
+  })();
+
+  await attributeIndexPromise;
+  return attributeIndexCache!;
+}
+
+/**
+ * Load attribute definitions from a specific file (lazy, cached)
+ */
+async function loadAttributeFile(filename: string): Promise<Map<string, AttributeWithValues>> {
+  if (attributeFileCache.has(filename)) {
+    return attributeFileCache.get(filename)!;
+  }
+
+  if (attributeFilePromises.has(filename)) {
+    await attributeFilePromises.get(filename);
+    return attributeFileCache.get(filename)!;
+  }
+
+  const promise = (async () => {
+    try {
+      const path = `../data/taxonomy/attributes/${filename}`;
+      const loader = attributeModules[path];
+      if (loader) {
+        const data = await loader();
+        const attrs = (data as any).default?.attributes ?? (data as any).attributes ?? [];
+        const map = new Map<string, AttributeWithValues>();
+        for (const attr of attrs) {
+          map.set(attr.handle, attr);
+        }
+        attributeFileCache.set(filename, map);
+      } else {
+        attributeFileCache.set(filename, new Map());
+      }
+    } catch (error) {
+      console.error(`Failed to load attribute file ${filename}:`, error);
+      attributeFileCache.set(filename, new Map());
+    }
+  })();
+
+  attributeFilePromises.set(filename, promise);
+  await promise;
+  return attributeFileCache.get(filename)!;
 }
 
 /**
  * Get attributes for a specific category
- * Returns empty array if category has no attributes or if taxonomy fails to load
+ * Uses split files for efficient loading - only loads the files needed
  */
 export async function getCategoryAttributes(categoryId: string): Promise<TaxonomyAttribute[]> {
-  await loadFullTaxonomy();
+  // Load the category-to-handles mapping
+  const categoryMap = await loadCategoryAttrMap();
+  const handles = categoryMap[categoryId];
 
-  if (!fullTaxonomyCache) return [];
+  if (!handles || handles.length === 0) {
+    return [];
+  }
 
-  const category = fullTaxonomyCache.get(categoryId);
-  return category?.attributes || [];
+  // Load the attribute index to find which files contain these attributes
+  const index = await loadAttributeIndex();
+
+  // Group handles by file for efficient loading
+  const handlesByFile = new Map<string, string[]>();
+  for (const handle of handles) {
+    const info = index[handle];
+    if (info) {
+      if (!handlesByFile.has(info.file)) {
+        handlesByFile.set(info.file, []);
+      }
+      handlesByFile.get(info.file)!.push(handle);
+    }
+  }
+
+  // Load all needed files in parallel
+  const filesToLoad = Array.from(handlesByFile.keys());
+  await Promise.all(filesToLoad.map(loadAttributeFile));
+
+  // Collect the attributes in order
+  const attributes: TaxonomyAttribute[] = [];
+  for (const handle of handles) {
+    const info = index[handle];
+    if (info) {
+      const fileCache = attributeFileCache.get(info.file);
+      const attr = fileCache?.get(handle);
+      if (attr) {
+        attributes.push({
+          id: attr.id,
+          name: attr.name,
+          handle: attr.handle,
+          description: attr.description,
+          extended: false,
+          values: attr.values?.map(v => v.name) ?? []
+        });
+      }
+    }
+  }
+
+  return attributes;
 }
 
 /**
@@ -196,4 +336,33 @@ export async function getCategoryWithAttributes(categoryId: string): Promise<Tax
 
   const attributes = await getCategoryAttributes(categoryId);
   return { ...category, attributes };
+}
+
+/**
+ * Get all available attributes (loads all attribute files)
+ * Use sparingly - prefer getCategoryAttributes for specific categories
+ */
+export async function getAllAttributes(): Promise<TaxonomyAttribute[]> {
+  const index = await loadAttributeIndex();
+  const files = new Set(Object.values(index).map(info => info.file));
+
+  // Load all files
+  await Promise.all(Array.from(files).map(loadAttributeFile));
+
+  // Collect all attributes
+  const allAttrs: TaxonomyAttribute[] = [];
+  for (const [, fileCache] of attributeFileCache) {
+    for (const [, attr] of fileCache) {
+      allAttrs.push({
+        id: attr.id,
+        name: attr.name,
+        handle: attr.handle,
+        description: attr.description,
+        extended: false,
+        values: attr.values?.map(v => v.name) ?? []
+      });
+    }
+  }
+
+  return allAttrs;
 }

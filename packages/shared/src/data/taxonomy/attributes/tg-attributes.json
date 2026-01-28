@@ -1,0 +1,1364 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3191",
+      "name": "Board game features",
+      "handle": "board-game-features",
+      "description": "Highlights unique aspects of a board game, e.g. quick set-up, expansion available",
+      "values": [
+        {
+          "name": "Award winning",
+          "handle": "board-game-features__award-winning"
+        },
+        {
+          "name": "Expansion available",
+          "handle": "board-game-features__expansion-available"
+        },
+        {
+          "name": "Multi-level",
+          "handle": "board-game-features__multi-level"
+        },
+        {
+          "name": "Quick set-up",
+          "handle": "board-game-features__quick-set-up"
+        },
+        {
+          "name": "Other",
+          "handle": "board-game-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2759",
+      "name": "Board game mechanics",
+      "handle": "board-game-mechanics",
+      "description": "Describes the gameplay structure of a board game, such as strategy or cooperative",
+      "values": [
+        {
+          "name": "Adventure & travel",
+          "handle": "board-game-mechanics__adventure-travel"
+        },
+        {
+          "name": "Area control",
+          "handle": "board-game-mechanics__area-control"
+        },
+        {
+          "name": "Card exchange",
+          "handle": "board-game-mechanics__card-exchange"
+        },
+        {
+          "name": "Cooperative",
+          "handle": "board-game-mechanics__cooperative"
+        },
+        {
+          "name": "Deck building",
+          "handle": "board-game-mechanics__deck-building"
+        },
+        {
+          "name": "Deduction & detectives",
+          "handle": "board-game-mechanics__deduction-detectives"
+        },
+        {
+          "name": "Economic simulation",
+          "handle": "board-game-mechanics__economic-simulation"
+        },
+        {
+          "name": "Educational",
+          "handle": "board-game-mechanics__educational"
+        },
+        {
+          "name": "Escape game",
+          "handle": "board-game-mechanics__escape-game"
+        },
+        {
+          "name": "Family",
+          "handle": "board-game-mechanics__family"
+        },
+        {
+          "name": "Hidden role",
+          "handle": "board-game-mechanics__hidden-role"
+        },
+        {
+          "name": "Legacy",
+          "handle": "board-game-mechanics__legacy"
+        },
+        {
+          "name": "Party",
+          "handle": "board-game-mechanics__party"
+        },
+        {
+          "name": "Quiz & trivia",
+          "handle": "board-game-mechanics__quiz-trivia"
+        },
+        {
+          "name": "Race",
+          "handle": "board-game-mechanics__race"
+        },
+        {
+          "name": "Role-playing",
+          "handle": "board-game-mechanics__role-playing"
+        },
+        {
+          "name": "Strategy",
+          "handle": "board-game-mechanics__strategy"
+        },
+        {
+          "name": "Tile-based",
+          "handle": "board-game-mechanics__tile-based"
+        },
+        {
+          "name": "War simulation",
+          "handle": "board-game-mechanics__war-simulation"
+        },
+        {
+          "name": "Words",
+          "handle": "board-game-mechanics__words"
+        },
+        {
+          "name": "Worker placement",
+          "handle": "board-game-mechanics__worker-placement"
+        },
+        {
+          "name": "Other",
+          "handle": "board-game-mechanics__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3397",
+      "name": "Building toy type",
+      "handle": "building-toy-type",
+      "description": "Specifies the category of building toy, e.g. STEM building sets, magnetic tiles",
+      "values": [
+        {
+          "name": "Architectural construction",
+          "handle": "building-toy-type__architectural-construction"
+        },
+        {
+          "name": "Building blocks",
+          "handle": "building-toy-type__building-blocks"
+        },
+        {
+          "name": "Interlocking bricks",
+          "handle": "building-toy-type__interlocking-bricks"
+        },
+        {
+          "name": "Magnetic tiles",
+          "handle": "building-toy-type__magnetic-tiles"
+        },
+        {
+          "name": "Model kits",
+          "handle": "building-toy-type__model-kits"
+        },
+        {
+          "name": "Robotics building kits",
+          "handle": "building-toy-type__robotics-building-kits"
+        },
+        {
+          "name": "STEM building sets",
+          "handle": "building-toy-type__stem-building-sets"
+        },
+        {
+          "name": "Other",
+          "handle": "building-toy-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2774",
+      "name": "Compatible play vehicle type",
+      "handle": "compatible-play-vehicle-type",
+      "description": "Identifies the type of play vehicle the product is suitable for, such as car or boat",
+      "values": [
+        {
+          "name": "Airplane",
+          "handle": "compatible-play-vehicle-type__airplane"
+        },
+        {
+          "name": "Boat",
+          "handle": "compatible-play-vehicle-type__boat"
+        },
+        {
+          "name": "Car",
+          "handle": "compatible-play-vehicle-type__car"
+        },
+        {
+          "name": "Construction vehicle",
+          "handle": "compatible-play-vehicle-type__construction-vehicle"
+        },
+        {
+          "name": "Helicopter",
+          "handle": "compatible-play-vehicle-type__helicopter"
+        },
+        {
+          "name": "Motorcycle",
+          "handle": "compatible-play-vehicle-type__motorcycle"
+        },
+        {
+          "name": "Race car & track set",
+          "handle": "compatible-play-vehicle-type__race-car-track-set"
+        },
+        {
+          "name": "Spacecraft",
+          "handle": "compatible-play-vehicle-type__spacecraft"
+        },
+        {
+          "name": "Trains & train set",
+          "handle": "compatible-play-vehicle-type__trains-train-set"
+        },
+        {
+          "name": "Truck",
+          "handle": "compatible-play-vehicle-type__truck"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-play-vehicle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2770",
+      "name": "Construction set theme",
+      "handle": "construction-set-theme",
+      "description": "Identifies the theme of a construction set, such as pirates or animals",
+      "values": [
+        {
+          "name": "Aircraft",
+          "handle": "construction-set-theme__aircraft"
+        },
+        {
+          "name": "Animals",
+          "handle": "construction-set-theme__animals"
+        },
+        {
+          "name": "Building",
+          "handle": "construction-set-theme__building"
+        },
+        {
+          "name": "Castle",
+          "handle": "construction-set-theme__castle"
+        },
+        {
+          "name": "Construction site",
+          "handle": "construction-set-theme__construction-site"
+        },
+        {
+          "name": "Pirates",
+          "handle": "construction-set-theme__pirates"
+        },
+        {
+          "name": "Spacecraft",
+          "handle": "construction-set-theme__spacecraft"
+        },
+        {
+          "name": "Vehicles",
+          "handle": "construction-set-theme__vehicles"
+        },
+        {
+          "name": "Watercraft",
+          "handle": "construction-set-theme__watercraft"
+        },
+        {
+          "name": "Other",
+          "handle": "construction-set-theme__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3392",
+      "name": "Dexterity skills",
+      "handle": "dexterity-skills",
+      "description": "Identifies the specific dexterity skills required for a game, like balancing or precision",
+      "values": [
+        {
+          "name": "Balancing",
+          "handle": "dexterity-skills__balancing"
+        },
+        {
+          "name": "Hand-eye coordination",
+          "handle": "dexterity-skills__hand-eye-coordination"
+        },
+        {
+          "name": "Precision",
+          "handle": "dexterity-skills__precision"
+        },
+        {
+          "name": "Puzzle",
+          "handle": "dexterity-skills__puzzle"
+        },
+        {
+          "name": "Reaction speed",
+          "handle": "dexterity-skills__reaction-speed"
+        },
+        {
+          "name": "Stacking",
+          "handle": "dexterity-skills__stacking"
+        },
+        {
+          "name": "Other",
+          "handle": "dexterity-skills__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2761",
+      "name": "Dice shape",
+      "handle": "dice-shape",
+      "description": "Describes the geometric form of a dice, like cube (6 sides) or Icosahedron (20 sides)",
+      "values": [
+        {
+          "name": "Cube (6 sides)",
+          "handle": "dice-shape__cube-6-sides"
+        },
+        {
+          "name": "Dodecahedron (12 sides)",
+          "handle": "dice-shape__dodecahedron-12-sides"
+        },
+        {
+          "name": "Icosahedron (20 sides)",
+          "handle": "dice-shape__icosahedron-20-sides"
+        },
+        {
+          "name": "Octahedron (8 sides)",
+          "handle": "dice-shape__octahedron-8-sides"
+        },
+        {
+          "name": "Pentagonal trapezohedron (10 sides)",
+          "handle": "dice-shape__pentagonal-trapezohedron-10-sides"
+        },
+        {
+          "name": "Tetrahedron (4 sides)",
+          "handle": "dice-shape__tetrahedron-4-sides"
+        },
+        {
+          "name": "Other",
+          "handle": "dice-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2768",
+      "name": "Difficulty level",
+      "handle": "difficulty-level",
+      "description": "Indicates the complexity or challenge level of a puzzle or game, such as easy or expert",
+      "values": [
+        {
+          "name": "Easy",
+          "handle": "difficulty-level__easy"
+        },
+        {
+          "name": "Expert",
+          "handle": "difficulty-level__expert"
+        },
+        {
+          "name": "Hard",
+          "handle": "difficulty-level__hard"
+        },
+        {
+          "name": "Medium",
+          "handle": "difficulty-level__medium"
+        },
+        {
+          "name": "Other",
+          "handle": "difficulty-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3399",
+      "name": "Doll type",
+      "handle": "doll-type",
+      "description": "Identifies the category of a doll, such as baby or collectible",
+      "values": [
+        {
+          "name": "Baby",
+          "handle": "doll-type__baby"
+        },
+        {
+          "name": "Collectible",
+          "handle": "doll-type__collectible"
+        },
+        {
+          "name": "Dress-up",
+          "handle": "doll-type__dress-up"
+        },
+        {
+          "name": "Fashion",
+          "handle": "doll-type__fashion"
+        },
+        {
+          "name": "Historical",
+          "handle": "doll-type__historical"
+        },
+        {
+          "name": "Interactive",
+          "handle": "doll-type__interactive"
+        },
+        {
+          "name": "Other",
+          "handle": "doll-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3192",
+      "name": "Doll/Playset features",
+      "handle": "doll-playset-features",
+      "description": "Describes special characteristics of dolls or playsets, like articulated joints or collectible",
+      "values": [
+        {
+          "name": "Accessory set",
+          "handle": "doll-playset-features__accessory-set"
+        },
+        {
+          "name": "Articulated joints",
+          "handle": "doll-playset-features__articulated-joints"
+        },
+        {
+          "name": "Collectible",
+          "handle": "doll-playset-features__collectible"
+        },
+        {
+          "name": "Interchangeable parts",
+          "handle": "doll-playset-features__interchangeable-parts"
+        },
+        {
+          "name": "Limited edition",
+          "handle": "doll-playset-features__limited-edition"
+        },
+        {
+          "name": "Realistic details",
+          "handle": "doll-playset-features__realistic-details"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "doll-playset-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "doll-playset-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3400",
+      "name": "Flash card theme",
+      "handle": "flash-card-theme",
+      "description": "Specifies the learning theme of flash cards, such as alphabet or numbers",
+      "values": [
+        {
+          "name": "Alphabet",
+          "handle": "flash-card-theme__alphabet"
+        },
+        {
+          "name": "Languages",
+          "handle": "flash-card-theme__languages"
+        },
+        {
+          "name": "Mathematics",
+          "handle": "flash-card-theme__mathematics"
+        },
+        {
+          "name": "Numbers",
+          "handle": "flash-card-theme__numbers"
+        },
+        {
+          "name": "Science",
+          "handle": "flash-card-theme__science"
+        },
+        {
+          "name": "Sight words",
+          "handle": "flash-card-theme__sight-words"
+        },
+        {
+          "name": "Trivia",
+          "handle": "flash-card-theme__trivia"
+        },
+        {
+          "name": "Other",
+          "handle": "flash-card-theme__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3190",
+      "name": "Game features",
+      "handle": "game-features",
+      "description": "Highlights special characteristics of a game, for example, travel friendly or customizable",
+      "values": [
+        {
+          "name": "Customizable",
+          "handle": "game-features__customizable"
+        },
+        {
+          "name": "Light & sound effects",
+          "handle": "game-features__light-sound-effects"
+        },
+        {
+          "name": "Travel friendly",
+          "handle": "game-features__travel-friendly"
+        },
+        {
+          "name": "Other",
+          "handle": "game-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2760",
+      "name": "Gameplay skills",
+      "handle": "gameplay-skills",
+      "description": "Identifies the skills enhanced by a game, like strategic thinking or memory",
+      "values": [
+        {
+          "name": "Arithmetic",
+          "handle": "gameplay-skills__arithmetic"
+        },
+        {
+          "name": "Concentration",
+          "handle": "gameplay-skills__concentration"
+        },
+        {
+          "name": "Deduction",
+          "handle": "gameplay-skills__deduction"
+        },
+        {
+          "name": "Dexterity",
+          "handle": "gameplay-skills__dexterity"
+        },
+        {
+          "name": "Drawing",
+          "handle": "gameplay-skills__drawing"
+        },
+        {
+          "name": "Lateral thinking",
+          "handle": "gameplay-skills__lateral-thinking"
+        },
+        {
+          "name": "Learning",
+          "handle": "gameplay-skills__learning"
+        },
+        {
+          "name": "Matching",
+          "handle": "gameplay-skills__matching"
+        },
+        {
+          "name": "Memory",
+          "handle": "gameplay-skills__memory"
+        },
+        {
+          "name": "Negotiation",
+          "handle": "gameplay-skills__negotiation"
+        },
+        {
+          "name": "Pattern recognition",
+          "handle": "gameplay-skills__pattern-recognition"
+        },
+        {
+          "name": "Strategic thinking",
+          "handle": "gameplay-skills__strategic-thinking"
+        },
+        {
+          "name": "Tactical decision making",
+          "handle": "gameplay-skills__tactical-decision-making"
+        },
+        {
+          "name": "Other",
+          "handle": "gameplay-skills__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2765",
+      "name": "Jumping surface material",
+      "handle": "jumping-surface-material",
+      "description": "Specifies the fabric of the trampoline's jumping area, e.g. synthetic, polypropylene",
+      "values": [
+        {
+          "name": "Nylon",
+          "handle": "jumping-surface-material__nylon"
+        },
+        {
+          "name": "Polyester",
+          "handle": "jumping-surface-material__polyester"
+        },
+        {
+          "name": "Polyethylene (PE)",
+          "handle": "jumping-surface-material__polyethylene-pe"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "jumping-surface-material__polypropylene-pp"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "jumping-surface-material__synthetic"
+        },
+        {
+          "name": "Other",
+          "handle": "jumping-surface-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3395",
+      "name": "Play slide design",
+      "handle": "play-slide-design",
+      "description": "Describes the design of a play slide, such as spiral or tube",
+      "values": [
+        {
+          "name": "Dual",
+          "handle": "play-slide-design__dual"
+        },
+        {
+          "name": "Spiral",
+          "handle": "play-slide-design__spiral"
+        },
+        {
+          "name": "Straight",
+          "handle": "play-slide-design__straight"
+        },
+        {
+          "name": "Tube",
+          "handle": "play-slide-design__tube"
+        },
+        {
+          "name": "Wavy",
+          "handle": "play-slide-design__wavy"
+        },
+        {
+          "name": "Other",
+          "handle": "play-slide-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3402",
+      "name": "Play vehicle propulsion",
+      "handle": "play-vehicle-propulsion",
+      "description": "Identifies how a play vehicle is powered, such as by friction or remote control",
+      "values": [
+        {
+          "name": "Friction",
+          "handle": "play-vehicle-propulsion__friction"
+        },
+        {
+          "name": "Pull back",
+          "handle": "play-vehicle-propulsion__pull-back"
+        },
+        {
+          "name": "Push and go",
+          "handle": "play-vehicle-propulsion__push-and-go"
+        },
+        {
+          "name": "Remote control",
+          "handle": "play-vehicle-propulsion__remote-control"
+        },
+        {
+          "name": "Wind-up",
+          "handle": "play-vehicle-propulsion__wind-up"
+        },
+        {
+          "name": "Other",
+          "handle": "play-vehicle-propulsion__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2764",
+      "name": "Playhouse design",
+      "handle": "playhouse-design",
+      "description": "Specifies the type of playhouse, such as tree house or floorstanding playhouse",
+      "values": [
+        {
+          "name": "Floorstanding playhouse",
+          "handle": "playhouse-design__floorstanding-playhouse"
+        },
+        {
+          "name": "Playhouse on poles",
+          "handle": "playhouse-design__playhouse-on-poles"
+        },
+        {
+          "name": "Tree house",
+          "handle": "playhouse-design__tree-house"
+        },
+        {
+          "name": "Other",
+          "handle": "playhouse-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3403",
+      "name": "Pretend electronics toy type",
+      "handle": "pretend-electronics-toy-type",
+      "description": "Specifies the category of pretend electronics, e.g. camera, cell phone",
+      "values": [
+        {
+          "name": "Camera",
+          "handle": "pretend-electronics-toy-type__camera"
+        },
+        {
+          "name": "Cell phone",
+          "handle": "pretend-electronics-toy-type__cell-phone"
+        },
+        {
+          "name": "Computer",
+          "handle": "pretend-electronics-toy-type__computer"
+        },
+        {
+          "name": "Console",
+          "handle": "pretend-electronics-toy-type__console"
+        },
+        {
+          "name": "Laptop",
+          "handle": "pretend-electronics-toy-type__laptop"
+        },
+        {
+          "name": "Microphone",
+          "handle": "pretend-electronics-toy-type__microphone"
+        },
+        {
+          "name": "Remote control",
+          "handle": "pretend-electronics-toy-type__remote-control"
+        },
+        {
+          "name": "Tablet",
+          "handle": "pretend-electronics-toy-type__tablet"
+        },
+        {
+          "name": "Television",
+          "handle": "pretend-electronics-toy-type__television"
+        },
+        {
+          "name": "Watch",
+          "handle": "pretend-electronics-toy-type__watch"
+        },
+        {
+          "name": "Other",
+          "handle": "pretend-electronics-toy-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3404",
+      "name": "Pretend housekeeping toy type",
+      "handle": "pretend-housekeeping-toy-type",
+      "description": "Identifies the type of pretend housekeeping toy, like a cleaning set or kitchen appliance",
+      "values": [
+        {
+          "name": "Cleaning set",
+          "handle": "pretend-housekeeping-toy-type__cleaning-set"
+        },
+        {
+          "name": "Ktchen appliance",
+          "handle": "pretend-housekeeping-toy-type__ktchen-appliance"
+        },
+        {
+          "name": "Laundry set",
+          "handle": "pretend-housekeeping-toy-type__laundry-set"
+        },
+        {
+          "name": "Vacuum cleaner",
+          "handle": "pretend-housekeeping-toy-type__vacuum-cleaner"
+        },
+        {
+          "name": "Other",
+          "handle": "pretend-housekeeping-toy-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2772",
+      "name": "Puppet theme",
+      "handle": "puppet-theme",
+      "description": "Categorizes puppets based on their design theme, like human or fantastic",
+      "values": [
+        {
+          "name": "Animal",
+          "handle": "puppet-theme__animal"
+        },
+        {
+          "name": "Fairytale",
+          "handle": "puppet-theme__fairytale"
+        },
+        {
+          "name": "Fantastic",
+          "handle": "puppet-theme__fantastic"
+        },
+        {
+          "name": "Human",
+          "handle": "puppet-theme__human"
+        },
+        {
+          "name": "Insect",
+          "handle": "puppet-theme__insect"
+        },
+        {
+          "name": "Other",
+          "handle": "puppet-theme__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2773",
+      "name": "Puppet type",
+      "handle": "puppet-type",
+      "description": "Identifies the style of puppet, such as hand puppet or marionette",
+      "values": [
+        {
+          "name": "Finger puppet",
+          "handle": "puppet-type__finger-puppet"
+        },
+        {
+          "name": "Hand puppet",
+          "handle": "puppet-type__hand-puppet"
+        },
+        {
+          "name": "Marionette",
+          "handle": "puppet-type__marionette"
+        },
+        {
+          "name": "Rod puppet",
+          "handle": "puppet-type__rod-puppet"
+        },
+        {
+          "name": "Shadow puppet",
+          "handle": "puppet-type__shadow-puppet"
+        },
+        {
+          "name": "Ventriloquist's dummy",
+          "handle": "puppet-type__ventriloquists-dummy"
+        },
+        {
+          "name": "Other",
+          "handle": "puppet-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2769",
+      "name": "Puzzle theme",
+      "handle": "puzzle-theme",
+      "description": "Describes the main subject or motif of a puzzle, such as animals or space",
+      "values": [
+        {
+          "name": "Aircraft",
+          "handle": "puzzle-theme__aircraft"
+        },
+        {
+          "name": "Animals",
+          "handle": "puzzle-theme__animals"
+        },
+        {
+          "name": "Architecture",
+          "handle": "puzzle-theme__architecture"
+        },
+        {
+          "name": "Art",
+          "handle": "puzzle-theme__art"
+        },
+        {
+          "name": "Ballet",
+          "handle": "puzzle-theme__ballet"
+        },
+        {
+          "name": "Cartoons",
+          "handle": "puzzle-theme__cartoons"
+        },
+        {
+          "name": "Children",
+          "handle": "puzzle-theme__children"
+        },
+        {
+          "name": "Christmas",
+          "handle": "puzzle-theme__christmas"
+        },
+        {
+          "name": "Circus",
+          "handle": "puzzle-theme__circus"
+        },
+        {
+          "name": "City",
+          "handle": "puzzle-theme__city"
+        },
+        {
+          "name": "Comics",
+          "handle": "puzzle-theme__comics"
+        },
+        {
+          "name": "Dinosaurs",
+          "handle": "puzzle-theme__dinosaurs"
+        },
+        {
+          "name": "Education",
+          "handle": "puzzle-theme__education"
+        },
+        {
+          "name": "Fairy",
+          "handle": "puzzle-theme__fairy"
+        },
+        {
+          "name": "Fantasy",
+          "handle": "puzzle-theme__fantasy"
+        },
+        {
+          "name": "Farm",
+          "handle": "puzzle-theme__farm"
+        },
+        {
+          "name": "Fauna",
+          "handle": "puzzle-theme__fauna"
+        },
+        {
+          "name": "Flags",
+          "handle": "puzzle-theme__flags"
+        },
+        {
+          "name": "Flora",
+          "handle": "puzzle-theme__flora"
+        },
+        {
+          "name": "Food & drinks",
+          "handle": "puzzle-theme__food-drinks"
+        },
+        {
+          "name": "History",
+          "handle": "puzzle-theme__history"
+        },
+        {
+          "name": "Holidays",
+          "handle": "puzzle-theme__holidays"
+        },
+        {
+          "name": "Humor",
+          "handle": "puzzle-theme__humor"
+        },
+        {
+          "name": "Insects",
+          "handle": "puzzle-theme__insects"
+        },
+        {
+          "name": "Landscape",
+          "handle": "puzzle-theme__landscape"
+        },
+        {
+          "name": "Maps",
+          "handle": "puzzle-theme__maps"
+        },
+        {
+          "name": "Movies & TV",
+          "handle": "puzzle-theme__movies-tv"
+        },
+        {
+          "name": "Music",
+          "handle": "puzzle-theme__music"
+        },
+        {
+          "name": "People",
+          "handle": "puzzle-theme__people"
+        },
+        {
+          "name": "Professions",
+          "handle": "puzzle-theme__professions"
+        },
+        {
+          "name": "Science",
+          "handle": "puzzle-theme__science"
+        },
+        {
+          "name": "Shapes",
+          "handle": "puzzle-theme__shapes"
+        },
+        {
+          "name": "Ships",
+          "handle": "puzzle-theme__ships"
+        },
+        {
+          "name": "Space",
+          "handle": "puzzle-theme__space"
+        },
+        {
+          "name": "Sports",
+          "handle": "puzzle-theme__sports"
+        },
+        {
+          "name": "Toys",
+          "handle": "puzzle-theme__toys"
+        },
+        {
+          "name": "Trains",
+          "handle": "puzzle-theme__trains"
+        },
+        {
+          "name": "Vehicles",
+          "handle": "puzzle-theme__vehicles"
+        },
+        {
+          "name": "Video games",
+          "handle": "puzzle-theme__video-games"
+        },
+        {
+          "name": "Other",
+          "handle": "puzzle-theme__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3396",
+      "name": "Puzzle type",
+      "handle": "puzzle-type",
+      "description": "Identifies the specific type of puzzle, such as 3D or brain teaser",
+      "values": [
+        {
+          "name": "3D",
+          "handle": "puzzle-type__3d"
+        },
+        {
+          "name": "Block",
+          "handle": "puzzle-type__block"
+        },
+        {
+          "name": "Brain teaser",
+          "handle": "puzzle-type__brain-teaser"
+        },
+        {
+          "name": "Contour",
+          "handle": "puzzle-type__contour"
+        },
+        {
+          "name": "Dexterity game",
+          "handle": "puzzle-type__dexterity-game"
+        },
+        {
+          "name": "Disentanglement puzzle",
+          "handle": "puzzle-type__disentanglement-puzzle"
+        },
+        {
+          "name": "Dissection",
+          "handle": "puzzle-type__dissection"
+        },
+        {
+          "name": "Frame",
+          "handle": "puzzle-type__frame"
+        },
+        {
+          "name": "Interlocking game",
+          "handle": "puzzle-type__interlocking-game"
+        },
+        {
+          "name": "Puzzle box",
+          "handle": "puzzle-type__puzzle-box"
+        },
+        {
+          "name": "Rubik's cube",
+          "handle": "puzzle-type__rubiks-cube"
+        },
+        {
+          "name": "Sequential puzzle",
+          "handle": "puzzle-type__sequential-puzzle"
+        },
+        {
+          "name": "Sliding puzzle",
+          "handle": "puzzle-type__sliding-puzzle"
+        },
+        {
+          "name": "Other",
+          "handle": "puzzle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3401",
+      "name": "Reading toy type",
+      "handle": "reading-toy-type",
+      "description": "Specifies the type of educational reading toy, e.g. spelling game, reading tablet",
+      "values": [
+        {
+          "name": "Interactive reading book",
+          "handle": "reading-toy-type__interactive-reading-book"
+        },
+        {
+          "name": "Letter recognition toy",
+          "handle": "reading-toy-type__letter-recognition-toy"
+        },
+        {
+          "name": "Phonics learning toy",
+          "handle": "reading-toy-type__phonics-learning-toy"
+        },
+        {
+          "name": "Reading tablet",
+          "handle": "reading-toy-type__reading-tablet"
+        },
+        {
+          "name": "Spelling game",
+          "handle": "reading-toy-type__spelling-game"
+        },
+        {
+          "name": "Other",
+          "handle": "reading-toy-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2775",
+      "name": "Riding toy propulsion type",
+      "handle": "riding-toy-propulsion-type",
+      "description": "Identifies how a riding toy is propelled, such as electric or pedal",
+      "values": [
+        {
+          "name": "Battery-powered",
+          "handle": "riding-toy-propulsion-type__battery-powered"
+        },
+        {
+          "name": "Electric",
+          "handle": "riding-toy-propulsion-type__electric"
+        },
+        {
+          "name": "Manual",
+          "handle": "riding-toy-propulsion-type__manual"
+        },
+        {
+          "name": "Pedal",
+          "handle": "riding-toy-propulsion-type__pedal"
+        },
+        {
+          "name": "Push",
+          "handle": "riding-toy-propulsion-type__push"
+        },
+        {
+          "name": "Tow",
+          "handle": "riding-toy-propulsion-type__tow"
+        },
+        {
+          "name": "Other",
+          "handle": "riding-toy-propulsion-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3393",
+      "name": "Slot machine type",
+      "handle": "slot-machine-type",
+      "description": "Identifies the style of the slot machine, such as novelty or traditional",
+      "values": [
+        {
+          "name": "Novelty",
+          "handle": "slot-machine-type__novelty"
+        },
+        {
+          "name": "Tabletop",
+          "handle": "slot-machine-type__tabletop"
+        },
+        {
+          "name": "Traditional",
+          "handle": "slot-machine-type__traditional"
+        },
+        {
+          "name": "Video",
+          "handle": "slot-machine-type__video"
+        },
+        {
+          "name": "Other",
+          "handle": "slot-machine-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2767",
+      "name": "Sprinkler shape",
+      "handle": "sprinkler-shape",
+      "description": "Describes the form of a play sprinkler, such as round or square",
+      "values": [
+        {
+          "name": "Christmas tree",
+          "handle": "sprinkler-shape__christmas-tree"
+        },
+        {
+          "name": "Cloud",
+          "handle": "sprinkler-shape__cloud"
+        },
+        {
+          "name": "Conical",
+          "handle": "sprinkler-shape__conical"
+        },
+        {
+          "name": "Cube",
+          "handle": "sprinkler-shape__cube"
+        },
+        {
+          "name": "Cylinder",
+          "handle": "sprinkler-shape__cylinder"
+        },
+        {
+          "name": "Heart",
+          "handle": "sprinkler-shape__heart"
+        },
+        {
+          "name": "Hexagonal",
+          "handle": "sprinkler-shape__hexagonal"
+        },
+        {
+          "name": "Octagonal",
+          "handle": "sprinkler-shape__octagonal"
+        },
+        {
+          "name": "Oval",
+          "handle": "sprinkler-shape__oval"
+        },
+        {
+          "name": "Rectangular",
+          "handle": "sprinkler-shape__rectangular"
+        },
+        {
+          "name": "Round",
+          "handle": "sprinkler-shape__round"
+        },
+        {
+          "name": "Spheric",
+          "handle": "sprinkler-shape__spheric"
+        },
+        {
+          "name": "Square",
+          "handle": "sprinkler-shape__square"
+        },
+        {
+          "name": "Star",
+          "handle": "sprinkler-shape__star"
+        },
+        {
+          "name": "Triangular",
+          "handle": "sprinkler-shape__triangular"
+        },
+        {
+          "name": "V-shaped",
+          "handle": "sprinkler-shape__v-shaped"
+        },
+        {
+          "name": "Other",
+          "handle": "sprinkler-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3394",
+      "name": "Tile game type",
+      "handle": "tile-game-type",
+      "description": "Identifies the specific type of tile game, such as dominoes or mahjong",
+      "values": [
+        {
+          "name": "Dominoes",
+          "handle": "tile-game-type__dominoes"
+        },
+        {
+          "name": "Mahjong",
+          "handle": "tile-game-type__mahjong"
+        },
+        {
+          "name": "Matching game",
+          "handle": "tile-game-type__matching-game"
+        },
+        {
+          "name": "Tile placement",
+          "handle": "tile-game-type__tile-placement"
+        },
+        {
+          "name": "Word building",
+          "handle": "tile-game-type__word-building"
+        },
+        {
+          "name": "Other",
+          "handle": "tile-game-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3398",
+      "name": "Toy figure theme",
+      "handle": "toy-figure-theme",
+      "description": "Identifies the theme or category of a toy figure, such as animal or sports",
+      "values": [
+        {
+          "name": "Animal",
+          "handle": "toy-figure-theme__animal"
+        },
+        {
+          "name": "Custom",
+          "handle": "toy-figure-theme__custom"
+        },
+        {
+          "name": "Historical",
+          "handle": "toy-figure-theme__historical"
+        },
+        {
+          "name": "Pop culture",
+          "handle": "toy-figure-theme__pop-culture"
+        },
+        {
+          "name": "Sports",
+          "handle": "toy-figure-theme__sports"
+        },
+        {
+          "name": "Other",
+          "handle": "toy-figure-theme__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3405",
+      "name": "Toy tool type",
+      "handle": "toy-tool-type",
+      "description": "Identifies the type of toy tool in a pretend play set, like a drill or hammer",
+      "values": [
+        {
+          "name": "Drill",
+          "handle": "toy-tool-type__drill"
+        },
+        {
+          "name": "Hammer",
+          "handle": "toy-tool-type__hammer"
+        },
+        {
+          "name": "Pilers",
+          "handle": "toy-tool-type__pilers"
+        },
+        {
+          "name": "Saw",
+          "handle": "toy-tool-type__saw"
+        },
+        {
+          "name": "Screwdriver",
+          "handle": "toy-tool-type__screwdriver"
+        },
+        {
+          "name": "Tool set",
+          "handle": "toy-tool-type__tool-set"
+        },
+        {
+          "name": "Other",
+          "handle": "toy-tool-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2766",
+      "name": "Trampoline design",
+      "handle": "trampoline-design",
+      "description": "Describes trampoline construction, such as springfree or coil spring",
+      "values": [
+        {
+          "name": "Coil spring",
+          "handle": "trampoline-design__coil-spring"
+        },
+        {
+          "name": "Springfree",
+          "handle": "trampoline-design__springfree"
+        },
+        {
+          "name": "Other",
+          "handle": "trampoline-design__other"
+        }
+      ]
+    }
+  ]
+}

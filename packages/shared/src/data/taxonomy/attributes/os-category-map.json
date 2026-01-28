@@ -1,0 +1,1204 @@
+{
+  "gid://shopify/TaxonomyCategory/os-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-1-1": [
+    "book-file-cover-material",
+    "closure-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-1-2": [
+    "brightness-levels",
+    "light-attachment-type",
+    "light-temperature",
+    "material",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/os-1-3": [
+    "material",
+    "mount-stand-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-1-4": [
+    "bookmark-design",
+    "bookmark-shape",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-2": [
+    "color",
+    "office-supply-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-1": [
+    "book-file-cover-material",
+    "color",
+    "page-layout",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-1-1": [
+    "binder-ring-shape",
+    "office-supply-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-1-2": [
+    "office-supply-material",
+    "paper-size",
+    "tab-style"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-1-3": [
+    "office-supply-material",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-2": [
+    "binder-ring-shape",
+    "color",
+    "office-supply-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-3": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-4": [
+    "binding-style"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-4-1": [
+    "binding-style"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-2-4-2": [
+    "binding-style"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-3": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-4": [
+    "color",
+    "material",
+    "mount-stand-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-9": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-5-1": [
+    "calendar-format",
+    "calendar-organizer-features",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-5-2": [
+    "calendar-format",
+    "calendar-organizer-features",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-5-3": [
+    "calendar-format",
+    "calendar-organizer-features",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-5-4": [
+    "calendar-format",
+    "calendar-organizer-features",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-7": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-8": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-10": [
+    "color",
+    "desk-organizer-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-10-1": [
+    "color",
+    "desk-organizer-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-10-2": [
+    "color",
+    "desk-organizer-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-10-3": [
+    "color",
+    "desk-organizer-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-10-4": [
+    "color",
+    "desk-organizer-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-11": [
+    "color",
+    "office-supply-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-12": [
+    "color",
+    "office-supply-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-13": [
+    "color",
+    "book-file-cover-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-13-1": [
+    "color",
+    "book-file-cover-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-13-2": [
+    "color",
+    "book-file-cover-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-14": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-15": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-16": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-17": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-17-1": [
+    "color",
+    "office-supply-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-17-2": [
+    "color",
+    "office-supply-material",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-3-18": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-2": [
+    "corrector-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-2-1": [
+    "corrector-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-2-2": [
+    "corrector-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-2-3": [
+    "corrector-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-3-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-3-3": [
+    "color",
+    "material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-4": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-4-1": [
+    "color",
+    "office-supply-material",
+    "pattern",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-4-2": [
+    "color",
+    "office-supply-material",
+    "pattern",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-4-3": [
+    "color",
+    "office-supply-material",
+    "pattern",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-4-4": [
+    "color",
+    "pattern",
+    "tape-material",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-4-5": [
+    "color",
+    "office-supply-material",
+    "pattern",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-4-6": [
+    "color",
+    "office-supply-material",
+    "pattern",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-5": [
+    "finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-5-1": [
+    "finish",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-5-2": [
+    "finish",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-5-3": [
+    "finish",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-6": [
+    "color",
+    "pattern",
+    "product-certifications-standards"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-8-1": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-8-2": [
+    "color",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-1": [
+    "color",
+    "paper-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-7": [
+    "color",
+    "envelope-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-9": [
+    "color",
+    "paper-type",
+    "pattern",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-9-3": [
+    "color",
+    "paper-type",
+    "pattern",
+    "color",
+    "pattern",
+    "target-audience"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-9-4": [
+    "color",
+    "paper-type",
+    "pattern",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-9-5": [
+    "color",
+    "book-cover-type",
+    "notepad-design",
+    "paper-type",
+    "pattern",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-9-6": [
+    "color",
+    "paper-type",
+    "pattern",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-10": [
+    "color",
+    "pattern",
+    "theme"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-12": [
+    "color",
+    "pattern",
+    "receipt-paper-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-9-14": [
+    "color",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-10": [
+    "band-strength",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-11": [
+    "staple-wire-gauge"
+  ],
+  "gid://shopify/TaxonomyCategory/os-4-12": [
+    "accessory-size",
+    "color",
+    "office-supply-material",
+    "pattern",
+    "point-design",
+    "tack-pushpin-head-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-5": [
+    "cutter-options"
+  ],
+  "gid://shopify/TaxonomyCategory/os-5-1": [
+    "cutter-options"
+  ],
+  "gid://shopify/TaxonomyCategory/os-5-2": [
+    "cutter-options"
+  ],
+  "gid://shopify/TaxonomyCategory/os-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-7": [
+    "office-supply-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-7-1": [
+    "office-supply-material",
+    "personalization-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-7-2": [
+    "office-supply-material",
+    "personalization-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-8": [
+    "rug-mat-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-8-1": [
+    "rug-mat-features",
+    "rug-mat-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-8-2": [
+    "rug-mat-features",
+    "rug-mat-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-8-3": [
+    "rug-mat-features",
+    "rug-mat-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-9": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-9-1": [
+    "material",
+    "office-cart-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-9-2": [
+    "material",
+    "office-cart-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-9-3": [
+    "material",
+    "office-cart-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-9-4": [
+    "material",
+    "office-cart-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-9-5": [
+    "material",
+    "office-cart-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-1": [
+    "calculator-accessory-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-2-1": [
+    "battery-size",
+    "battery-type",
+    "calculator-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-2-2": [
+    "calculator-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-2-3": [
+    "calculator-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-2-4": [
+    "calculator-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-2-5": [
+    "calculator-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-3": [
+    "language"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-4": [
+    "portability"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-5": [
+    "lamination-mode",
+    "paper-size",
+    "portability"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-7": [
+    "connectivity-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-8": [
+    "authentication-technology",
+    "connectivity-technology",
+    "display-technology",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-9": [
+    "audio-codecs-formats-supported",
+    "connectivity-technology",
+    "recording-quality",
+    "audio-player-recorder-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-10-10": [
+    "paper-size",
+    "keyboard-layout",
+    "line-spacing-options"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-1": [
+    "color",
+    "office-instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-2": [
+    "clip-type",
+    "color",
+    "office-instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-3": [
+    "blade-material",
+    "color",
+    "handle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-4": [
+    "color",
+    "handle-material",
+    "lens-configuration",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-1": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-2": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-3": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-4": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-5": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-6": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-7": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-5-8": [
+    "color",
+    "engraving",
+    "color",
+    "pattern",
+    "pattern",
+    "stamp-type",
+    "accessory-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-6": [
+    "color",
+    "office-instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-6-1": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "pencil-sharpener-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-6-2": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "pencil-sharpener-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-6-3": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "pencil-sharpener-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-6-4": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "pencil-sharpener-design",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-6-5": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "pencil-sharpener-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-6-6": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "pencil-sharpener-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-7": [
+    "color",
+    "office-instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-1": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-2": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-3": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-4": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-5": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-6": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-7": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-8": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-8-9": [
+    "color",
+    "office-instrument-material",
+    "pattern",
+    "stapler-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-9": [
+    "color",
+    "office-instrument-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-10-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-10-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-10-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-10-2": [
+    "alcohol-solvent-content",
+    "color",
+    "pattern",
+    "pen-felt-tip-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-10-3": [
+    "color",
+    "lead-grade",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-1": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-2": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-3": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-4": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-5": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-6": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-7": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-8": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-1-9": [
+    "color",
+    "hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-3-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-4-1": [
+    "alcohol-solvent-content",
+    "color",
+    "marker-tip-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-4-2": [
+    "alcohol-solvent-content",
+    "color",
+    "marker-tip-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-5": [
+    "color",
+    "pattern",
+    "pen-type",
+    "pen-pencil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-6-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-6-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-6-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-6-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-1": [
+    "color",
+    "pattern",
+    "pen-type",
+    "pen-pencil-features",
+    "pencil-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-2": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "pen-pencil-features",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-2-1": [
+    "color",
+    "lead-grade",
+    "lumber-wood-type",
+    "pattern",
+    "pen-pencil-features",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-2-2": [
+    "pen-pencil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-2-2-1": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "pen-pencil-features",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-2-2-2": [
+    "color",
+    "lead-grade",
+    "lumber-wood-type",
+    "pattern",
+    "pen-pencil-features",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-3": [
+    "color",
+    "pattern",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-3-1": [
+    "color",
+    "pattern",
+    "lumber-wood-type",
+    "color",
+    "pen-pencil-features",
+    "pattern",
+    "pen-felt-tip-design",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-3-2": [
+    "pen-felt-tip-design",
+    "color",
+    "pattern",
+    "color",
+    "pen-pencil-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-3-3": [
+    "color",
+    "pattern",
+    "lumber-wood-type",
+    "color",
+    "pen-pencil-features",
+    "pattern",
+    "pen-felt-tip-design",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-3-4": [
+    "color",
+    "pattern",
+    "color",
+    "pen-pencil-features",
+    "pattern",
+    "pen-felt-tip-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-11-11-7-3-5": [
+    "color",
+    "pattern",
+    "color",
+    "pen-pencil-features",
+    "pattern",
+    "pen-felt-tip-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-12-1": [
+    "accessory-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-12-3": [
+    "feed-system",
+    "fold-type",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/os-12-4": [
+    "accessory-size",
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/os-12-5": [
+    "material",
+    "paperweight-design",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/os-12-6": [
+    "material",
+    "paper-size",
+    "thickness-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-1": [
+    "board-material",
+    "board-mounting-type",
+    "chalkboard-surface",
+    "frame-design",
+    "presentation-supply-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2": [
+    "board-material",
+    "board-mounting-type",
+    "board-surface",
+    "display-board-features",
+    "frame-design"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2-1": [
+    "office-supply-material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2-1-1": [
+    "color",
+    "display-board-features",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2-1-2": [
+    "color",
+    "display-board-features",
+    "office-supply-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2-2": [
+    "board-material",
+    "board-mounting-type",
+    "display-board-features",
+    "frame-design",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2-3": [
+    "board-mounting-type",
+    "display-board-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2-4": [
+    "board-mounting-type",
+    "display-board-features",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-2-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-3": [
+    "color",
+    "connectivity-technology",
+    "pattern",
+    "zoom-type"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-4": [
+    "board-material",
+    "board-mounting-type",
+    "frame-design",
+    "presentation-supply-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-5": [
+    "paper-type",
+    "presentation-supply-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-6": [
+    "material",
+    "presentation-supply-features"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-7": [
+    "battery-size",
+    "color",
+    "color",
+    "laser-light-source",
+    "pattern",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-8": [
+    "color",
+    "lectern-mounting-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-9": [
+    "paper-size"
+  ],
+  "gid://shopify/TaxonomyCategory/os-13-10": [
+    "battery-size",
+    "connectivity-technology",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/os-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-14-1": [
+    "color",
+    "accessory-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-14-2": [
+    "color",
+    "packing-materials-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/os-14-3": [
+    "color",
+    "pattern"
+  ]
+}

@@ -1,0 +1,4836 @@
+{
+  "gid://shopify/TaxonomyCategory/vp-1": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-1": [
+    "compatible-aircraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-1": [
+    "battery-management-features",
+    "compatible-battery-technology",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-2": [
+    "charging-cable-type",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-3": [
+    "charging-level",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "phase-type",
+    "station-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-4": [
+    "color",
+    "ev-connector-adapter-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-5": [
+    "ev-conversion-kit-components",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-5-1": [
+    "ev-conversion-kit-components",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-5-2": [
+    "ev-conversion-kit-components",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-5-3": [
+    "ev-conversion-kit-components",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-5-4": [
+    "ev-conversion-kit-components",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-5-5": [
+    "ev-conversion-kit-components",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-6": [
+    "battery-size",
+    "battery-type",
+    "ev-battery-features",
+    "ev-battery-type",
+    "item-condition",
+    "manufacturer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-7": [
+    "color",
+    "inverter-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-8": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-8-1": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-8-2": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-8-3": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-8-4": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-8-5": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-8-6": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-2-9": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "regenerative-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "operating-system",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "player-recorder-specialized-features",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-2": [
+    "amplifier-class",
+    "amplifier-configuration",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-3": [
+    "cassette-adapter-type",
+    "color",
+    "compatible-player",
+    "faceplate-design",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-4": [
+    "color",
+    "faceplate-design",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-4-1": [
+    "color",
+    "faceplate-design",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-4-2": [
+    "color",
+    "faceplate-design",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-4-3": [
+    "color",
+    "faceplate-design",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-5": [
+    "color",
+    "connectivity-technology",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source",
+    "vehicle-audio-system-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-5-1": [
+    "color",
+    "connectivity-technology",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source",
+    "vehicle-audio-system-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-5-2": [
+    "color",
+    "connectivity-technology",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source",
+    "vehicle-audio-system-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-5-3": [
+    "color",
+    "connectivity-technology",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source",
+    "vehicle-audio-system-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-5-4": [
+    "color",
+    "connectivity-technology",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source",
+    "vehicle-audio-system-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-5-5": [
+    "color",
+    "connectivity-technology",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source",
+    "vehicle-audio-system-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-6": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "parking-camera-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-6-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "parking-camera-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-6-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "parking-camera-features",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-7": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source",
+    "speaker-features",
+    "speakerphone-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-8": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-8-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-8-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-8-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-8-4": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-8-6": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-8-7": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-9": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10-4": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10-5": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10-6": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-3-10-7": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "material",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-10": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-9": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-13": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-14": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-5": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-6": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-7": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-8": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-11": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-1-12": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-braking-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2": [
+    "color",
+    "durability-features",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-1": [
+    "color",
+    "durability-features",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-2": [
+    "color",
+    "durability-features",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-3": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-4": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-5": [
+    "color",
+    "durability-features",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-6": [
+    "color",
+    "durability-features",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-7": [
+    "color",
+    "durability-features",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-2-8": [
+    "color",
+    "durability-features",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-1": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-2": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-3": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-4": [
+    "color",
+    "durability-features",
+    "hose-material",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-5": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-6": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-7": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-3-8": [
+    "color",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-4-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-4-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-4-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-4-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-4-5": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-4-6": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-9": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-8": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-2": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-5": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-1": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-11": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-13": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-6": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-4": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-10": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-3": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-7": [
+    "angles-supported",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-22-12": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-5": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-6": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-7": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-5-8": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-oil-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-5": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-5-5": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-5-4": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-5-1": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-5-2": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-5-3": [
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-6": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-7": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-8": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-6-9": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-1": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-2": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-3": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-4": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-5": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-6": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-7": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-7-8": [
+    "color",
+    "engine-design",
+    "engine-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-engine-part-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern",
+    "vehicle-exhaust-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-11": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-13": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-9": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-10": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-5": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-6": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-12": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-7": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-9-8": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-frame-body-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10": [
+    "color",
+    "fuel-supply",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-4": [
+    "color",
+    "fuel-supply",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-5": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-6": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-7": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-10-8": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "fit-type",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "fit-type",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11-2": [
+    "color",
+    "fabric",
+    "fit-type",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11-3": [
+    "color",
+    "fabric",
+    "fit-type",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11-4": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11-5": [
+    "color",
+    "cover-material",
+    "fit-type",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "cover-material",
+    "fit-type",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-11-7": [
+    "color",
+    "fabric",
+    "fit-type",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-1": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-2": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-5": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-6": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-7": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-12-8": [
+    "color",
+    "fit-type",
+    "item-condition",
+    "light-source",
+    "lighting-features",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-13": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-mirror-design",
+    "vehicle-mirror-features",
+    "vehicle-mirror-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-9": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-10": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-4": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-6": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-14-8": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-15": [
+    "color",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-seating-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-15-1": [
+    "color",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-seating-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-15-2": [
+    "color",
+    "fabric",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-seating-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-15": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-13": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-1": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-12": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-14": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-11": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-2": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-3": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-10": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-9": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-5": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-6": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-7": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-16-8": [
+    "color",
+    "gauge-type",
+    "item-condition",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-4": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-5": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-6": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-7": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-17-8": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "motor-vehicle-placement",
+    "pattern",
+    "vehicle-suspension-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "mount-material",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-5": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-6": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-7": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-18-8": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-1": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-12": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-11": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-14": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-17": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-9": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-15": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-16": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-10": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-2": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-3": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-4": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-13": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-19": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-5": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-18": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-6": [
+    "color",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-7": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-19-8": [
+    "color",
+    "item-condition",
+    "manufacturer-type",
+    "pattern",
+    "transmission-type",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "rim-wheel-design",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-1-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "rim-wheel-design",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-1-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "rim-wheel-design",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-1-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "rim-wheel-design",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-3-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features",
+    "vehicle-tire-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-3-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "motorcycle-tire-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-3-3": [
+    "atv-off-road-tire-type",
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-20-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern",
+    "vehicle-drive-handling-features",
+    "wheel-part-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-4-3": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-4-2": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-4-4": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-4-21-4-1": [
+    "color",
+    "item-condition",
+    "item-material",
+    "manufacturer-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5": [
+    "color",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-1": [
+    "color",
+    "material",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2": [
+    "alcohol-solvent-content",
+    "color",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-1": [
+    "battery-size",
+    "battery-type",
+    "bristle-material",
+    "brush-type",
+    "color",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-2": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-fluid-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-2-1": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-2-2": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-2-3": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-2-4": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-3": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-3-1": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-3-2": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-3-3": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-4": [
+    "alcohol-solvent-content",
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-cleaning-item-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-5": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-cleaning-item-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-6": [
+    "alcohol-solvent-content",
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-cleaning-item-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-6-1": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-cleaning-item-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-6-2": [
+    "alcohol-solvent-content",
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-cleaning-item-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-6-3": [
+    "alcohol-solvent-content",
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-cleaning-item-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-2-6-4": [
+    "color",
+    "package-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-cleaning-item-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3": [
+    "color",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-1": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-2": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-3": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-4": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-5": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-6": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-6-1": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-6-2": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-6-3": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-6-4": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-3-6-5": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "cover-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4": [
+    "accessory-size",
+    "color",
+    "construction",
+    "decoration-material",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-1": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-2": [
+    "accessory-size",
+    "air-freshener-form",
+    "alcohol-solvent-content",
+    "car-freshener-fragrance",
+    "color",
+    "decoration-material",
+    "pattern",
+    "fragrance",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-3": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-4": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-5": [
+    "accessory-size",
+    "alcohol-solvent-content",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-6": [
+    "accessory-size",
+    "alcohol-solvent-content",
+    "color",
+    "construction",
+    "decoration-material",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-7": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-8": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-9": [
+    "accessory-size",
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-10": [
+    "accessory-size",
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-11": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-12": [
+    "accessory-size",
+    "color",
+    "mount-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-13": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-14": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-15": [
+    "accessory-size",
+    "color",
+    "construction",
+    "decoration-material",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "lumber-wood-type",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-16": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-17": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-18": [
+    "accessory-size",
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-4-19": [
+    "accessory-size",
+    "color",
+    "construction",
+    "decoration-material",
+    "embellishment-trim-material",
+    "material",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5": [
+    "color",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-1": [
+    "antifreeze-type",
+    "color",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-2": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-3": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-3-1": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-3-2": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-3-3": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-4": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-5": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-5-1": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-5-2": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-5-3": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-6": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-7": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-8": [
+    "color",
+    "pattern",
+    "vehicle-oil-features",
+    "vehicle-type",
+    "viscosity"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-8-1": [
+    "color",
+    "pattern",
+    "vehicle-oil-features",
+    "vehicle-type",
+    "viscosity"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-8-3": [
+    "color",
+    "pattern",
+    "vehicle-oil-features",
+    "vehicle-type",
+    "viscosity"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-8-2": [
+    "color",
+    "pattern",
+    "vehicle-oil-features",
+    "vehicle-type",
+    "viscosity"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-8-4": [
+    "color",
+    "pattern",
+    "vehicle-oil-features",
+    "vehicle-type",
+    "viscosity"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-9": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-10": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-11": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-5-12": [
+    "color",
+    "pattern",
+    "vehicle-fluid-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-6": [
+    "alcohol-solvent-content",
+    "color",
+    "paint-finish",
+    "pattern",
+    "vehicle-decor-features",
+    "vehicle-paint-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-6-1": [
+    "alcohol-solvent-content",
+    "color",
+    "paint-finish",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-paint-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-6-2": [
+    "color",
+    "paint-finish",
+    "pattern",
+    "vehicle-application-area",
+    "vehicle-decor-features",
+    "vehicle-paint-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7": [
+    "alcohol-solvent-content",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-1": [
+    "color",
+    "material",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-2": [
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-3": [
+    "charger-type",
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-4": [
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-5": [
+    "color",
+    "filler-type",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-8": [
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-11": [
+    "color",
+    "material",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-11-1": [
+    "color",
+    "material",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-11-2": [
+    "color",
+    "material",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-1": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-2": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-3": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-4": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-5": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-9-2": [
+    "color",
+    "features",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-5-7-10": [
+    "color",
+    "pattern",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6": [
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-5-6": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-5-5": [
+    "gear-material",
+    "protective-gear-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-5-4": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-5-7": [
+    "gear-material",
+    "protective-gear-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-5-2": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-5-3": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-5-1": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-1": [
+    "accessory-size",
+    "gear-material",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-2": [
+    "accessory-size",
+    "gear-material",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-3": [
+    "accessory-size",
+    "color",
+    "handwear-material",
+    "motorcycle-glove-purpose",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-4": [
+    "accessory-size",
+    "color",
+    "pattern",
+    "gear-material",
+    "color",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-5": [
+    "accessory-size",
+    "gear-material",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-6": [
+    "accessory-size",
+    "battery-size",
+    "battery-type",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-7": [
+    "accessory-size",
+    "battery-size",
+    "battery-type",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-7-1": [
+    "accessory-size",
+    "battery-size",
+    "battery-type",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-7-2": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-7-3": [
+    "accessory-size",
+    "battery-size",
+    "battery-type",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-7-4": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-7-5": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-8": [
+    "accessory-size",
+    "item-material",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-9": [
+    "accessory-size",
+    "gear-material",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-1-10": [
+    "accessory-size",
+    "gear-material",
+    "protective-gear-features",
+    "target-gender",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7": [
+    "protective-gear-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-1": [
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-5": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-6": [
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-4": [
+    "accessory-size",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-3": [
+    "accessory-size",
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-2": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-13": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-15": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-8": [
+    "accessory-size",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-10": [
+    "accessory-size",
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-9": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-12": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-11": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-14": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-7-7": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "protective-gear-features",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3": [
+    "item-condition",
+    "manufacturer-type",
+    "power-source",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-1": [
+    "item-condition",
+    "manufacturer-type",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-2": [
+    "battery-size",
+    "battery-type",
+    "item-condition",
+    "manufacturer-type",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-3": [
+    "battery-size",
+    "battery-type",
+    "item-condition",
+    "manufacturer-type",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-4": [
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-4-1": [
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-4-2": [
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-4-3": [
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-5": [
+    "hitch-class",
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-6": [
+    "battery-size",
+    "battery-type",
+    "immobilizer-type",
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-7": [
+    "battery-size",
+    "battery-type",
+    "item-condition",
+    "manufacturer-type",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-8": [
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-3-9": [
+    "item-condition",
+    "manufacturer-type",
+    "material",
+    "power-source",
+    "vehicle-alarm-lock-features",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-1": [
+    "net-material",
+    "product-certifications-standards",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-2": [
+    "flare-type",
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-3": [
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-4": [
+    "cage-type",
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-5": [
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-6": [
+    "cover-features",
+    "cover-material",
+    "product-certifications-standards",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-7": [
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-8": [
+    "belt-type",
+    "fabric",
+    "product-certifications-standards",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-9": [
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-4-10": [
+    "product-certifications-standards",
+    "safety-equipment-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-6-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-6-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-6-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-6-6-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7": [
+    "color",
+    "item-condition",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-1": [
+    "accessory-size",
+    "features",
+    "item-condition",
+    "net-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-1-1": [
+    "accessory-size",
+    "features",
+    "item-condition",
+    "net-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-1-2": [
+    "accessory-size",
+    "features",
+    "item-condition",
+    "net-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-1-3": [
+    "accessory-size",
+    "features",
+    "item-condition",
+    "net-material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-2": [
+    "item-condition",
+    "material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-2-1": [
+    "item-condition",
+    "material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-2-2": [
+    "item-condition",
+    "material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3": [
+    "color",
+    "features",
+    "item-condition",
+    "material",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-1": [
+    "features",
+    "item-condition",
+    "material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-2": [
+    "features",
+    "item-condition",
+    "material",
+    "rack-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-3": [
+    "features",
+    "item-condition",
+    "material",
+    "rack-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-4": [
+    "features",
+    "item-condition",
+    "material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-5": [
+    "features",
+    "item-condition",
+    "material",
+    "rack-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-6": [
+    "features",
+    "item-condition",
+    "material",
+    "rack-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-7": [
+    "features",
+    "item-condition",
+    "material",
+    "rack-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-8": [
+    "features",
+    "item-condition",
+    "material",
+    "rack-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-3-9": [
+    "features",
+    "item-condition",
+    "material",
+    "rack-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-4": [
+    "features",
+    "item-condition",
+    "loading-ramp-type",
+    "material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-5": [
+    "features",
+    "item-condition",
+    "material",
+    "trailer-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-5-1": [
+    "features",
+    "item-condition",
+    "material",
+    "trailer-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-5-2": [
+    "features",
+    "item-condition",
+    "material",
+    "trailer-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-5-3": [
+    "features",
+    "item-condition",
+    "material",
+    "trailer-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-5-4": [
+    "features",
+    "item-condition",
+    "material",
+    "trailer-type",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-6": [
+    "bag-type",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "item-condition",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-7": [
+    "box-type",
+    "features",
+    "item-condition",
+    "lumber-wood-type",
+    "material",
+    "vehicle-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-8": [
+    "item-condition",
+    "material",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-7-9": [
+    "color",
+    "item-condition",
+    "material",
+    "organizer-type",
+    "pattern",
+    "vehicle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8": [
+    "color",
+    "item-condition",
+    "item-material",
+    "pattern",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1": [
+    "battery-size",
+    "battery-type",
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-1": [
+    "chain-type",
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-2": [
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "line-rope-type",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-3": [
+    "battery-size",
+    "battery-type",
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "power-source",
+    "watercraft-type",
+    "windlass-design"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-4": [
+    "anchor-type",
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-5": [
+    "control-technology",
+    "durability-features",
+    "hook-type",
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-6": [
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "ladder-type",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-7": [
+    "battery-size",
+    "battery-type",
+    "cleat-type",
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-1-8": [
+    "control-technology",
+    "durability-features",
+    "item-condition",
+    "item-material",
+    "step-type",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-2": [
+    "item-condition",
+    "item-material",
+    "lumber-wood-type",
+    "watercraft-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-3": [
+    "item-material",
+    "vehicle-cleaning-item-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-3-1": [
+    "alcohol-solvent-content",
+    "cleaner-purpose",
+    "item-material",
+    "vehicle-cleaning-item-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-3-2": [
+    "alcohol-solvent-content",
+    "item-material",
+    "polish-type",
+    "vehicle-cleaning-item-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4": [
+    "battery-size",
+    "battery-type",
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-1": [
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-2": [
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-3": [
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-engine-control-type",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-4": [
+    "battery-size",
+    "battery-type",
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-5": [
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-6": [
+    "item-condition",
+    "item-material",
+    "lock-placement",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-7": [
+    "item-condition",
+    "mount-material",
+    "vehicle-engine-part-features",
+    "watercraft-motor-mounting-type",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-8": [
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-4-9": [
+    "item-condition",
+    "item-material",
+    "propeller-blade-design",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-5": [
+    "battery-size",
+    "battery-type",
+    "engine-type",
+    "fuel-supply",
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-5-1": [
+    "engine-type",
+    "fuel-supply",
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-5-2": [
+    "battery-size",
+    "battery-type",
+    "engine-type",
+    "fuel-supply",
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-5-3": [
+    "battery-size",
+    "battery-type",
+    "engine-type",
+    "fuel-supply",
+    "item-condition",
+    "item-material",
+    "vehicle-engine-part-features",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-6": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-6-1": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-6-2": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-7": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-7-1": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-7-2": [
+    "item-condition",
+    "item-material",
+    "meter-type",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-7-3": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-7-4": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-8": [
+    "battery-size",
+    "battery-type",
+    "item-condition",
+    "item-material",
+    "light-type",
+    "lighting-features",
+    "power-source",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-9": [
+    "battery-size",
+    "battery-type",
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-9-1": [
+    "item-condition",
+    "item-material",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-1-8-9-2": [
+    "item-condition",
+    "item-material",
+    "watercraft-steering-wheel-type",
+    "watercraft-type"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-4": [
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "drone-features",
+    "item-condition",
+    "pattern",
+    "video-resolution-supported"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-5": [
+    "color",
+    "pattern",
+    "cockpit-type",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-1": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-10": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-12": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-6": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-11": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-8": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-9": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-3": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-1-7": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-2": [
+    "color",
+    "pattern",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-2-2": [
+    "aircraft-engine-configuration",
+    "aircraft-engine-type",
+    "color",
+    "pattern",
+    "cockpit-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-1-2-1": [
+    "color",
+    "pattern",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-1": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-1-1": [
+    "color",
+    "pattern",
+    "car-type",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-1-1-1": [
+    "color",
+    "pattern",
+    "car-type",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-1-1-2": [
+    "color",
+    "pattern",
+    "car-type",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-1-2": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "truck-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-1-3": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "van-type",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-3": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-3-1": [
+    "color",
+    "pattern",
+    "car-type",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-3-2": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "truck-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-3-3": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "van-type",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-2": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-2-1": [
+    "color",
+    "pattern",
+    "car-type",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-2-2": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "truck-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-2-3": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "van-type",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-4": [
+    "antique-vehicle-era",
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-4-1": [
+    "antique-car-design",
+    "antique-vehicle-era",
+    "color",
+    "pattern",
+    "car-type",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-4-2": [
+    "antique-vehicle-era",
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "truck-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-1-4-3": [
+    "antique-vehicle-era",
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "van-type",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "vehicle-floor-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1-6": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "vehicle-floor-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "vehicle-floor-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "vehicle-floor-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1-5": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "vehicle-floor-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1-4": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "vehicle-floor-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-1-7": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "vehicle-floor-configuration"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-7-2": [
+    "color",
+    "pattern",
+    "car-type",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-2": [
+    "color",
+    "pattern",
+    "cart-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-4": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-5": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-6": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-7": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-1-8": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-3-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-3-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-3-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-3-4": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-4": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-9-5": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "color",
+    "fuel-supply",
+    "item-condition",
+    "motorcycle-drive-type",
+    "pattern",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-3-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "motorcycle-drive-type",
+    "motorcycle-scooter-type",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-3-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "motorcycle-drive-type",
+    "motorcycle-scooter-type",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-4": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-4-1": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-4-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-4-3": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-5": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "recreational-vehicle-type",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-1-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-1-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3-1": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-8-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-2-6": [
+    "color",
+    "pattern",
+    "drive-type",
+    "fuel-supply",
+    "item-condition",
+    "snowmobile-type",
+    "transmission-type",
+    "color",
+    "pattern",
+    "vehicle-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "watercraft-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-3-1": [
+    "boat-type",
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "watercraft-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-3-2": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "personal-watercraft-type",
+    "color",
+    "pattern",
+    "watercraft-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-3-3": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "sailboat-type",
+    "color",
+    "pattern",
+    "watercraft-features"
+  ],
+  "gid://shopify/TaxonomyCategory/vp-2-3-4": [
+    "color",
+    "pattern",
+    "fuel-supply",
+    "item-condition",
+    "color",
+    "pattern",
+    "watercraft-features",
+    "yacht-type"
+  ]
+}

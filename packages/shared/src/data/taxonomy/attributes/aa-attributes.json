@@ -1,0 +1,3532 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2995",
+      "name": "Activewear clothing features",
+      "handle": "activewear-clothing-features",
+      "description": "Identifies unique characteristics of activewear, such as four-way stretch or breathable design",
+      "values": [
+        {
+          "name": "Adjustable waistband",
+          "handle": "activewear-clothing-features__adjustable-waistband"
+        },
+        {
+          "name": "Anti-chafing design",
+          "handle": "activewear-clothing-features__anti-chafing-design"
+        },
+        {
+          "name": "Anti-static properties",
+          "handle": "activewear-clothing-features__anti-static-properties"
+        },
+        {
+          "name": "Body contouring fit",
+          "handle": "activewear-clothing-features__body-contouring-fit"
+        },
+        {
+          "name": "Breathable design",
+          "handle": "activewear-clothing-features__breathable-design"
+        },
+        {
+          "name": "Compression",
+          "handle": "activewear-clothing-features__compression"
+        },
+        {
+          "name": "Flatlock seams",
+          "handle": "activewear-clothing-features__flatlock-seams"
+        },
+        {
+          "name": "Four-way stretch",
+          "handle": "activewear-clothing-features__four-way-stretch"
+        },
+        {
+          "name": "Hidden pockets",
+          "handle": "activewear-clothing-features__hidden-pockets"
+        },
+        {
+          "name": "High-visibility accents",
+          "handle": "activewear-clothing-features__high-visibility-accents"
+        },
+        {
+          "name": "Mesh panels",
+          "handle": "activewear-clothing-features__mesh-panels"
+        },
+        {
+          "name": "Moisture wicking",
+          "handle": "activewear-clothing-features__moisture-wicking"
+        },
+        {
+          "name": "Odor resistant",
+          "handle": "activewear-clothing-features__odor-resistant"
+        },
+        {
+          "name": "Quick drying",
+          "handle": "activewear-clothing-features__quick-drying"
+        },
+        {
+          "name": "Reflective",
+          "handle": "activewear-clothing-features__reflective"
+        },
+        {
+          "name": "Removable padding",
+          "handle": "activewear-clothing-features__removable-padding"
+        },
+        {
+          "name": "Seamless",
+          "handle": "activewear-clothing-features__seamless"
+        },
+        {
+          "name": "Sweatproof pockets",
+          "handle": "activewear-clothing-features__sweatproof-pockets"
+        },
+        {
+          "name": "Temperature regulation",
+          "handle": "activewear-clothing-features__temperature-regulation"
+        },
+        {
+          "name": "Thumbholes",
+          "handle": "activewear-clothing-features__thumbholes"
+        },
+        {
+          "name": "UV protection",
+          "handle": "activewear-clothing-features__uv-protection"
+        },
+        {
+          "name": "Vegan friendly",
+          "handle": "activewear-clothing-features__vegan-friendly"
+        },
+        {
+          "name": "Ventilation",
+          "handle": "activewear-clothing-features__ventilation"
+        },
+        {
+          "name": "Waterproof coating",
+          "handle": "activewear-clothing-features__waterproof-coating"
+        },
+        {
+          "name": "Other",
+          "handle": "activewear-clothing-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2997",
+      "name": "Baby/Toddler clothing features",
+      "handle": "baby-toddler-clothing-features",
+      "description": "Highlights special features in baby/toddler clothing, like adjustable waistband or UV protection",
+      "values": [
+        {
+          "name": "Adjustable waistband",
+          "handle": "baby-toddler-clothing-features__adjustable-waistband"
+        },
+        {
+          "name": "Breathable design",
+          "handle": "baby-toddler-clothing-features__breathable-design"
+        },
+        {
+          "name": "Easy-to-use buttons/snaps",
+          "handle": "baby-toddler-clothing-features__easy-to-use-buttons-snaps"
+        },
+        {
+          "name": "Hypoallergenic",
+          "handle": "baby-toddler-clothing-features__hypoallergenic"
+        },
+        {
+          "name": "Quick drying",
+          "handle": "baby-toddler-clothing-features__quick-drying"
+        },
+        {
+          "name": "Safety buttons",
+          "handle": "baby-toddler-clothing-features__safety-buttons"
+        },
+        {
+          "name": "Tagless",
+          "handle": "baby-toddler-clothing-features__tagless"
+        },
+        {
+          "name": "UV protection",
+          "handle": "baby-toddler-clothing-features__uv-protection"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-clothing-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3254",
+      "name": "Baby/Toddler hat style",
+      "handle": "baby-toddler-hat-style",
+      "description": "Describes the style of hats for babies or toddlers, such as bucket hat or sun hat",
+      "values": [
+        {
+          "name": "Baseball cap",
+          "handle": "baby-toddler-hat-style__baseball-cap"
+        },
+        {
+          "name": "Beanie",
+          "handle": "baby-toddler-hat-style__beanie"
+        },
+        {
+          "name": "Bonnet",
+          "handle": "baby-toddler-hat-style__bonnet"
+        },
+        {
+          "name": "Bucket hat",
+          "handle": "baby-toddler-hat-style__bucket-hat"
+        },
+        {
+          "name": "Sun hat",
+          "handle": "baby-toddler-hat-style__sun-hat"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-hat-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3247",
+      "name": "Baby/Toddler hosiery style",
+      "handle": "baby-toddler-hosiery-style",
+      "description": "Describes the style of socks or tights for babies or toddlers, like ankle socks or tights",
+      "values": [
+        {
+          "name": "Ankle socks",
+          "handle": "baby-toddler-hosiery-style__ankle-socks"
+        },
+        {
+          "name": "Crew socks",
+          "handle": "baby-toddler-hosiery-style__crew-socks"
+        },
+        {
+          "name": "Knee-high socks",
+          "handle": "baby-toddler-hosiery-style__knee-high-socks"
+        },
+        {
+          "name": "Pantyhose",
+          "handle": "baby-toddler-hosiery-style__pantyhose"
+        },
+        {
+          "name": "Tights",
+          "handle": "baby-toddler-hosiery-style__tights"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-hosiery-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3246",
+      "name": "Baby/Toddler sleepwear style",
+      "handle": "baby-toddler-sleepwear-style",
+      "description": "Describes the design of baby or toddler sleepwear, like footed or onesie",
+      "values": [
+        {
+          "name": "Footed",
+          "handle": "baby-toddler-sleepwear-style__footed"
+        },
+        {
+          "name": "Nightgown",
+          "handle": "baby-toddler-sleepwear-style__nightgown"
+        },
+        {
+          "name": "Onesie",
+          "handle": "baby-toddler-sleepwear-style__onesie"
+        },
+        {
+          "name": "Sleep sack",
+          "handle": "baby-toddler-sleepwear-style__sleep-sack"
+        },
+        {
+          "name": "Two-piece",
+          "handle": "baby-toddler-sleepwear-style__two-piece"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-sleepwear-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3259",
+      "name": "Body jewelry type",
+      "handle": "body-jewelry-type",
+      "description": "Identifies the specific type of body jewelry, e.g. belly piercing, ear cuff",
+      "values": [
+        {
+          "name": "Barbell",
+          "handle": "body-jewelry-type__barbell"
+        },
+        {
+          "name": "Belly piercing",
+          "handle": "body-jewelry-type__belly-piercing"
+        },
+        {
+          "name": "Body chain",
+          "handle": "body-jewelry-type__body-chain"
+        },
+        {
+          "name": "Cartilage earring",
+          "handle": "body-jewelry-type__cartilage-earring"
+        },
+        {
+          "name": "Dermal piercing",
+          "handle": "body-jewelry-type__dermal-piercing"
+        },
+        {
+          "name": "Ear cuff",
+          "handle": "body-jewelry-type__ear-cuff"
+        },
+        {
+          "name": "Ear gauge",
+          "handle": "body-jewelry-type__ear-gauge"
+        },
+        {
+          "name": "Eyebrow piercing",
+          "handle": "body-jewelry-type__eyebrow-piercing"
+        },
+        {
+          "name": "Industrial piercing",
+          "handle": "body-jewelry-type__industrial-piercing"
+        },
+        {
+          "name": "Labret piercing",
+          "handle": "body-jewelry-type__labret-piercing"
+        },
+        {
+          "name": "Lip ring",
+          "handle": "body-jewelry-type__lip-ring"
+        },
+        {
+          "name": "Nipple ring",
+          "handle": "body-jewelry-type__nipple-ring"
+        },
+        {
+          "name": "Nose piercing",
+          "handle": "body-jewelry-type__nose-piercing"
+        },
+        {
+          "name": "Septum ring",
+          "handle": "body-jewelry-type__septum-ring"
+        },
+        {
+          "name": "Tongue piercing",
+          "handle": "body-jewelry-type__tongue-piercing"
+        },
+        {
+          "name": "Tragus earring",
+          "handle": "body-jewelry-type__tragus-earring"
+        },
+        {
+          "name": "Other",
+          "handle": "body-jewelry-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1204",
+      "name": "Boot style",
+      "handle": "boot-style",
+      "description": "Specifies the style of boots, e.g. booties",
+      "values": [
+        {
+          "name": "Biker",
+          "handle": "boot-style__biker"
+        },
+        {
+          "name": "Boot",
+          "handle": "boot-style__boot"
+        },
+        {
+          "name": "Booties",
+          "handle": "boot-style__booties"
+        },
+        {
+          "name": "Chelsea",
+          "handle": "boot-style__chelsea"
+        },
+        {
+          "name": "Chukka",
+          "handle": "boot-style__chukka"
+        },
+        {
+          "name": "Classic",
+          "handle": "boot-style__classic"
+        },
+        {
+          "name": "Combat",
+          "handle": "boot-style__combat"
+        },
+        {
+          "name": "Cowboy",
+          "handle": "boot-style__cowboy"
+        },
+        {
+          "name": "Cut-out",
+          "handle": "boot-style__cut-out"
+        },
+        {
+          "name": "Duck",
+          "handle": "boot-style__duck"
+        },
+        {
+          "name": "Hiking",
+          "handle": "boot-style__hiking"
+        },
+        {
+          "name": "Indian",
+          "handle": "boot-style__indian"
+        },
+        {
+          "name": "Rain",
+          "handle": "boot-style__rain"
+        },
+        {
+          "name": "Riding",
+          "handle": "boot-style__riding"
+        },
+        {
+          "name": "Sheepskin",
+          "handle": "boot-style__sheepskin"
+        },
+        {
+          "name": "Slouch",
+          "handle": "boot-style__slouch"
+        },
+        {
+          "name": "Snow",
+          "handle": "boot-style__snow"
+        },
+        {
+          "name": "Sock",
+          "handle": "boot-style__sock"
+        },
+        {
+          "name": "Strap",
+          "handle": "boot-style__strap"
+        },
+        {
+          "name": "Winter",
+          "handle": "boot-style__winter"
+        },
+        {
+          "name": "Work",
+          "handle": "boot-style__work"
+        },
+        {
+          "name": "Other",
+          "handle": "boot-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1195",
+      "name": "Bra closure type",
+      "handle": "bra-closure-type",
+      "description": "Identifies how bras are fastened or opened, e.g. front, pull-on (no closure)",
+      "values": [
+        {
+          "name": "Back",
+          "handle": "bra-closure-type__back"
+        },
+        {
+          "name": "Front",
+          "handle": "bra-closure-type__front"
+        },
+        {
+          "name": "Pull-on (no closure)",
+          "handle": "bra-closure-type__pull-on-no-closure"
+        },
+        {
+          "name": "Other",
+          "handle": "bra-closure-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1196",
+      "name": "Bra coverage",
+      "handle": "bra-coverage",
+      "description": "Specifies the level of coverage provided by a bra, such as full or demi",
+      "values": [
+        {
+          "name": "Demi",
+          "handle": "bra-coverage__demi"
+        },
+        {
+          "name": "Full",
+          "handle": "bra-coverage__full"
+        },
+        {
+          "name": "Minimal",
+          "handle": "bra-coverage__minimal"
+        },
+        {
+          "name": "Plunge",
+          "handle": "bra-coverage__plunge"
+        },
+        {
+          "name": "Quarter",
+          "handle": "bra-coverage__quarter"
+        },
+        {
+          "name": "Other",
+          "handle": "bra-coverage__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2996",
+      "name": "Bra features",
+      "handle": "bra-features",
+      "description": "Details the unique features of bras, e.g. removable padding, sweat-wicking fabric",
+      "values": [
+        {
+          "name": "Adjustable band",
+          "handle": "bra-features__adjustable-band"
+        },
+        {
+          "name": "Breathable design",
+          "handle": "bra-features__breathable-design"
+        },
+        {
+          "name": "Convertible strap",
+          "handle": "bra-features__convertible-strap"
+        },
+        {
+          "name": "Removable padding",
+          "handle": "bra-features__removable-padding"
+        },
+        {
+          "name": "Seamless",
+          "handle": "bra-features__seamless"
+        },
+        {
+          "name": "Sweat-wicking fabric",
+          "handle": "bra-features__sweat-wicking-fabric"
+        },
+        {
+          "name": "Underwire support",
+          "handle": "bra-features__underwire-support"
+        },
+        {
+          "name": "Other",
+          "handle": "bra-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1191",
+      "name": "Bra strap type",
+      "handle": "bra-strap-type",
+      "description": "Specifies the style and functionality of bra straps, such as racerback",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "bra-strap-type__adjustable"
+        },
+        {
+          "name": "Convertible",
+          "handle": "bra-strap-type__convertible"
+        },
+        {
+          "name": "Cross-back",
+          "handle": "bra-strap-type__cross-back"
+        },
+        {
+          "name": "Racerback",
+          "handle": "bra-strap-type__racerback"
+        },
+        {
+          "name": "Standard",
+          "handle": "bra-strap-type__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "bra-strap-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3250",
+      "name": "Bra style",
+      "handle": "bra-style",
+      "description": "Identifies the design or style of a bra, such as push-up or strapless",
+      "values": [
+        {
+          "name": "Adhesive",
+          "handle": "bra-style__adhesive"
+        },
+        {
+          "name": "Balconette",
+          "handle": "bra-style__balconette"
+        },
+        {
+          "name": "Bandeau",
+          "handle": "bra-style__bandeau"
+        },
+        {
+          "name": "Bralette",
+          "handle": "bra-style__bralette"
+        },
+        {
+          "name": "Bullet",
+          "handle": "bra-style__bullet"
+        },
+        {
+          "name": "Contour",
+          "handle": "bra-style__contour"
+        },
+        {
+          "name": "Convertible",
+          "handle": "bra-style__convertible"
+        },
+        {
+          "name": "Halter",
+          "handle": "bra-style__halter"
+        },
+        {
+          "name": "Longline",
+          "handle": "bra-style__longline"
+        },
+        {
+          "name": "Minimizer",
+          "handle": "bra-style__minimizer"
+        },
+        {
+          "name": "Molded",
+          "handle": "bra-style__molded"
+        },
+        {
+          "name": "Plunge",
+          "handle": "bra-style__plunge"
+        },
+        {
+          "name": "Push-up",
+          "handle": "bra-style__push-up"
+        },
+        {
+          "name": "Racerback",
+          "handle": "bra-style__racerback"
+        },
+        {
+          "name": "Strapless",
+          "handle": "bra-style__strapless"
+        },
+        {
+          "name": "T-shirt",
+          "handle": "bra-style__t-shirt"
+        },
+        {
+          "name": "Triangle",
+          "handle": "bra-style__triangle"
+        },
+        {
+          "name": "Underwire",
+          "handle": "bra-style__underwire"
+        },
+        {
+          "name": "Wireless",
+          "handle": "bra-style__wireless"
+        },
+        {
+          "name": "Other",
+          "handle": "bra-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1192",
+      "name": "Bra support level",
+      "handle": "bra-support-level",
+      "description": "Indicates the level of support provided by a bra, e.g. low, medium, high",
+      "values": [
+        {
+          "name": "High",
+          "handle": "bra-support-level__high"
+        },
+        {
+          "name": "Low",
+          "handle": "bra-support-level__low"
+        },
+        {
+          "name": "Medium",
+          "handle": "bra-support-level__medium"
+        },
+        {
+          "name": "Other",
+          "handle": "bra-support-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3260",
+      "name": "Bracelet design",
+      "handle": "bracelet-design",
+      "description": "Specifies the design of a bracelet, such as charm or cuff",
+      "values": [
+        {
+          "name": "Bangle",
+          "handle": "bracelet-design__bangle"
+        },
+        {
+          "name": "Beaded",
+          "handle": "bracelet-design__beaded"
+        },
+        {
+          "name": "Chain",
+          "handle": "bracelet-design__chain"
+        },
+        {
+          "name": "Charm",
+          "handle": "bracelet-design__charm"
+        },
+        {
+          "name": "Cord",
+          "handle": "bracelet-design__cord"
+        },
+        {
+          "name": "Cuff",
+          "handle": "bracelet-design__cuff"
+        },
+        {
+          "name": "Friendship",
+          "handle": "bracelet-design__friendship"
+        },
+        {
+          "name": "Link",
+          "handle": "bracelet-design__link"
+        },
+        {
+          "name": "Slider",
+          "handle": "bracelet-design__slider"
+        },
+        {
+          "name": "Tennis",
+          "handle": "bracelet-design__tennis"
+        },
+        {
+          "name": "Woven beaded",
+          "handle": "bracelet-design__woven-beaded"
+        },
+        {
+          "name": "Wrap",
+          "handle": "bracelet-design__wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "bracelet-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/17",
+      "name": "Cup size",
+      "handle": "cup-size",
+      "description": "Specifies bust size of bras, such as AA or L",
+      "values": [
+        {
+          "name": "A",
+          "handle": "cup-size__a"
+        },
+        {
+          "name": "AA",
+          "handle": "cup-size__aa"
+        },
+        {
+          "name": "B",
+          "handle": "cup-size__b"
+        },
+        {
+          "name": "C",
+          "handle": "cup-size__c"
+        },
+        {
+          "name": "D",
+          "handle": "cup-size__d"
+        },
+        {
+          "name": "DD",
+          "handle": "cup-size__dd"
+        },
+        {
+          "name": "DDD",
+          "handle": "cup-size__ddd"
+        },
+        {
+          "name": "E",
+          "handle": "cup-size__e"
+        },
+        {
+          "name": "F",
+          "handle": "cup-size__f"
+        },
+        {
+          "name": "FF",
+          "handle": "cup-size__ff"
+        },
+        {
+          "name": "G",
+          "handle": "cup-size__g"
+        },
+        {
+          "name": "GG",
+          "handle": "cup-size__gg"
+        },
+        {
+          "name": "H",
+          "handle": "cup-size__h"
+        },
+        {
+          "name": "HH",
+          "handle": "cup-size__hh"
+        },
+        {
+          "name": "I",
+          "handle": "cup-size__i"
+        },
+        {
+          "name": "J",
+          "handle": "cup-size__j"
+        },
+        {
+          "name": "JJ",
+          "handle": "cup-size__jj"
+        },
+        {
+          "name": "K",
+          "handle": "cup-size__k"
+        },
+        {
+          "name": "L",
+          "handle": "cup-size__l"
+        },
+        {
+          "name": "M",
+          "handle": "cup-size__m"
+        },
+        {
+          "name": "N",
+          "handle": "cup-size__n"
+        },
+        {
+          "name": "Other",
+          "handle": "cup-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3244",
+      "name": "Dress occasion",
+      "handle": "dress-occasion",
+      "description": "Specifies the intended occasion for a dress, e.g. holiday, everyday",
+      "values": [
+        {
+          "name": "Birthday",
+          "handle": "dress-occasion__birthday"
+        },
+        {
+          "name": "Casual",
+          "handle": "dress-occasion__casual"
+        },
+        {
+          "name": "Dance",
+          "handle": "dress-occasion__dance"
+        },
+        {
+          "name": "Everyday",
+          "handle": "dress-occasion__everyday"
+        },
+        {
+          "name": "Formal",
+          "handle": "dress-occasion__formal"
+        },
+        {
+          "name": "Holiday",
+          "handle": "dress-occasion__holiday"
+        },
+        {
+          "name": "Pageant",
+          "handle": "dress-occasion__pageant"
+        },
+        {
+          "name": "Party",
+          "handle": "dress-occasion__party"
+        },
+        {
+          "name": "Portrait",
+          "handle": "dress-occasion__portrait"
+        },
+        {
+          "name": "Religious ceremony",
+          "handle": "dress-occasion__religious-ceremony"
+        },
+        {
+          "name": "School",
+          "handle": "dress-occasion__school"
+        },
+        {
+          "name": "Wedding",
+          "handle": "dress-occasion__wedding"
+        },
+        {
+          "name": "Other",
+          "handle": "dress-occasion__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3245",
+      "name": "Dress style",
+      "handle": "dress-style",
+      "description": "Identifies the design of a dress, such as wrap or empire waist",
+      "values": [
+        {
+          "name": "A-line",
+          "handle": "dress-style__a-line"
+        },
+        {
+          "name": "Babydoll",
+          "handle": "dress-style__babydoll"
+        },
+        {
+          "name": "Blouson",
+          "handle": "dress-style__blouson"
+        },
+        {
+          "name": "Caftan",
+          "handle": "dress-style__caftan"
+        },
+        {
+          "name": "Drop waist",
+          "handle": "dress-style__drop-waist"
+        },
+        {
+          "name": "Empire waist",
+          "handle": "dress-style__empire-waist"
+        },
+        {
+          "name": "Flared",
+          "handle": "dress-style__flared"
+        },
+        {
+          "name": "Gown",
+          "handle": "dress-style__gown"
+        },
+        {
+          "name": "Jacket",
+          "handle": "dress-style__jacket"
+        },
+        {
+          "name": "Mermaid",
+          "handle": "dress-style__mermaid"
+        },
+        {
+          "name": "Pencil",
+          "handle": "dress-style__pencil"
+        },
+        {
+          "name": "Peplum",
+          "handle": "dress-style__peplum"
+        },
+        {
+          "name": "Sheath",
+          "handle": "dress-style__sheath"
+        },
+        {
+          "name": "Shift",
+          "handle": "dress-style__shift"
+        },
+        {
+          "name": "Shirt",
+          "handle": "dress-style__shirt"
+        },
+        {
+          "name": "Skater",
+          "handle": "dress-style__skater"
+        },
+        {
+          "name": "Slip",
+          "handle": "dress-style__slip"
+        },
+        {
+          "name": "Sweater",
+          "handle": "dress-style__sweater"
+        },
+        {
+          "name": "Tank",
+          "handle": "dress-style__tank"
+        },
+        {
+          "name": "Trumpet",
+          "handle": "dress-style__trumpet"
+        },
+        {
+          "name": "Wrap",
+          "handle": "dress-style__wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "dress-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3261",
+      "name": "Earring design",
+      "handle": "earring-design",
+      "description": "Describes the style or structure of earrings, such as hoop or stud",
+      "values": [
+        {
+          "name": "Chandelier",
+          "handle": "earring-design__chandelier"
+        },
+        {
+          "name": "Clip-On",
+          "handle": "earring-design__clip-on"
+        },
+        {
+          "name": "Dangle",
+          "handle": "earring-design__dangle"
+        },
+        {
+          "name": "Drop",
+          "handle": "earring-design__drop"
+        },
+        {
+          "name": "Ear climber",
+          "handle": "earring-design__ear-climber"
+        },
+        {
+          "name": "Ear cuff",
+          "handle": "earring-design__ear-cuff"
+        },
+        {
+          "name": "Hoop",
+          "handle": "earring-design__hoop"
+        },
+        {
+          "name": "Huggie",
+          "handle": "earring-design__huggie"
+        },
+        {
+          "name": "Jacket",
+          "handle": "earring-design__jacket"
+        },
+        {
+          "name": "Stud",
+          "handle": "earring-design__stud"
+        },
+        {
+          "name": "Teardrop",
+          "handle": "earring-design__teardrop"
+        },
+        {
+          "name": "Threader",
+          "handle": "earring-design__threader"
+        },
+        {
+          "name": "Other",
+          "handle": "earring-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3265",
+      "name": "First steps/crawlers style",
+      "handle": "first-steps-crawlers-style",
+      "description": "Specifies the type of footwear for babies learning to walk or crawl, e.g. pre-walkers, soft sole shoes",
+      "values": [
+        {
+          "name": "Crawling shoes",
+          "handle": "first-steps-crawlers-style__crawling-shoes"
+        },
+        {
+          "name": "First walkers",
+          "handle": "first-steps-crawlers-style__first-walkers"
+        },
+        {
+          "name": "Pre-walkers",
+          "handle": "first-steps-crawlers-style__pre-walkers"
+        },
+        {
+          "name": "Soft sole shoes",
+          "handle": "first-steps-crawlers-style__soft-sole-shoes"
+        },
+        {
+          "name": "Other",
+          "handle": "first-steps-crawlers-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/35",
+      "name": "Fit",
+      "handle": "fit",
+      "description": "Describes the fit of a garment, typically pant shape; e.g. skinny leg, wide",
+      "values": [
+        {
+          "name": "Boyfriend",
+          "handle": "fit__boyfriend"
+        },
+        {
+          "name": "Mom",
+          "handle": "fit__mom"
+        },
+        {
+          "name": "Skinny leg",
+          "handle": "fit__skinny-leg"
+        },
+        {
+          "name": "Slim",
+          "handle": "fit__slim"
+        },
+        {
+          "name": "Straight leg",
+          "handle": "fit__straight-leg"
+        },
+        {
+          "name": "Tapered leg",
+          "handle": "fit__tapered-leg"
+        },
+        {
+          "name": "Wide",
+          "handle": "fit__wide"
+        },
+        {
+          "name": "Other",
+          "handle": "fit__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3266",
+      "name": "Flat shoe style",
+      "handle": "flat-shoe-style",
+      "description": "Identifies the specific design of flat shoes, such as ballet or espadrilles",
+      "values": [
+        {
+          "name": "Ballet",
+          "handle": "flat-shoe-style__ballet"
+        },
+        {
+          "name": "Boat shoe",
+          "handle": "flat-shoe-style__boat-shoe"
+        },
+        {
+          "name": "Brogues",
+          "handle": "flat-shoe-style__brogues"
+        },
+        {
+          "name": "Crib shoe",
+          "handle": "flat-shoe-style__crib-shoe"
+        },
+        {
+          "name": "D'Orsay",
+          "handle": "flat-shoe-style__dorsay"
+        },
+        {
+          "name": "Espadrilles",
+          "handle": "flat-shoe-style__espadrilles"
+        },
+        {
+          "name": "Mary-Jane",
+          "handle": "flat-shoe-style__mary-jane"
+        },
+        {
+          "name": "Moccasins",
+          "handle": "flat-shoe-style__moccasins"
+        },
+        {
+          "name": "Monk strap",
+          "handle": "flat-shoe-style__monk-strap"
+        },
+        {
+          "name": "Mule",
+          "handle": "flat-shoe-style__mule"
+        },
+        {
+          "name": "Oxford",
+          "handle": "flat-shoe-style__oxford"
+        },
+        {
+          "name": "Slingback",
+          "handle": "flat-shoe-style__slingback"
+        },
+        {
+          "name": "Other",
+          "handle": "flat-shoe-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5032",
+      "name": "Gemstone type",
+      "handle": "gemstone-type",
+      "description": "Specifies the primary gemstone used in the item, based on the stone's mineral or material classification.",
+      "values": [
+        {
+          "name": "Abalone",
+          "handle": "gemstone-type__abalone"
+        },
+        {
+          "name": "Agate",
+          "handle": "gemstone-type__agate"
+        },
+        {
+          "name": "Alexandrite",
+          "handle": "gemstone-type__alexandrite"
+        },
+        {
+          "name": "Amazonite",
+          "handle": "gemstone-type__amazonite"
+        },
+        {
+          "name": "Amber",
+          "handle": "gemstone-type__amber"
+        },
+        {
+          "name": "Amethyst",
+          "handle": "gemstone-type__amethyst"
+        },
+        {
+          "name": "Ammolite",
+          "handle": "gemstone-type__ammolite"
+        },
+        {
+          "name": "Apatite",
+          "handle": "gemstone-type__apatite"
+        },
+        {
+          "name": "Aquamarine",
+          "handle": "gemstone-type__aquamarine"
+        },
+        {
+          "name": "Aventurine",
+          "handle": "gemstone-type__aventurine"
+        },
+        {
+          "name": "Beryl",
+          "handle": "gemstone-type__beryl"
+        },
+        {
+          "name": "Bloodstone",
+          "handle": "gemstone-type__bloodstone"
+        },
+        {
+          "name": "Carnelian",
+          "handle": "gemstone-type__carnelian"
+        },
+        {
+          "name": "Chalcedony",
+          "handle": "gemstone-type__chalcedony"
+        },
+        {
+          "name": "Chrysocolla",
+          "handle": "gemstone-type__chrysocolla"
+        },
+        {
+          "name": "Chrysoprase",
+          "handle": "gemstone-type__chrysoprase"
+        },
+        {
+          "name": "Citrine",
+          "handle": "gemstone-type__citrine"
+        },
+        {
+          "name": "Coral",
+          "handle": "gemstone-type__coral"
+        },
+        {
+          "name": "Cubic zirconia",
+          "handle": "gemstone-type__cubic-zirconia"
+        },
+        {
+          "name": "Diamond",
+          "handle": "gemstone-type__diamond"
+        },
+        {
+          "name": "Diaspore",
+          "handle": "gemstone-type__diaspore"
+        },
+        {
+          "name": "Diopside",
+          "handle": "gemstone-type__diopside"
+        },
+        {
+          "name": "Emerald",
+          "handle": "gemstone-type__emerald"
+        },
+        {
+          "name": "Fluorite",
+          "handle": "gemstone-type__fluorite"
+        },
+        {
+          "name": "Garnet",
+          "handle": "gemstone-type__garnet"
+        },
+        {
+          "name": "Goldstone",
+          "handle": "gemstone-type__goldstone"
+        },
+        {
+          "name": "Hematite",
+          "handle": "gemstone-type__hematite"
+        },
+        {
+          "name": "Howlite",
+          "handle": "gemstone-type__howlite"
+        },
+        {
+          "name": "Iolite",
+          "handle": "gemstone-type__iolite"
+        },
+        {
+          "name": "Jade",
+          "handle": "gemstone-type__jade"
+        },
+        {
+          "name": "Jadeite",
+          "handle": "gemstone-type__jadeite"
+        },
+        {
+          "name": "Jasper",
+          "handle": "gemstone-type__jasper"
+        },
+        {
+          "name": "Jet",
+          "handle": "gemstone-type__jet"
+        },
+        {
+          "name": "Kunzite",
+          "handle": "gemstone-type__kunzite"
+        },
+        {
+          "name": "Kyanite",
+          "handle": "gemstone-type__kyanite"
+        },
+        {
+          "name": "Labradorite",
+          "handle": "gemstone-type__labradorite"
+        },
+        {
+          "name": "Lapis lazuli",
+          "handle": "gemstone-type__lapis-lazuli"
+        },
+        {
+          "name": "Larimar",
+          "handle": "gemstone-type__larimar"
+        },
+        {
+          "name": "Malachite",
+          "handle": "gemstone-type__malachite"
+        },
+        {
+          "name": "Marcasite",
+          "handle": "gemstone-type__marcasite"
+        },
+        {
+          "name": "Moissanite",
+          "handle": "gemstone-type__moissanite"
+        },
+        {
+          "name": "Moldavite",
+          "handle": "gemstone-type__moldavite"
+        },
+        {
+          "name": "Moonstone",
+          "handle": "gemstone-type__moonstone"
+        },
+        {
+          "name": "Morganite",
+          "handle": "gemstone-type__morganite"
+        },
+        {
+          "name": "Mother of pearl",
+          "handle": "gemstone-type__mother-of-pearl"
+        },
+        {
+          "name": "Nephrite",
+          "handle": "gemstone-type__nephrite"
+        },
+        {
+          "name": "Obsidian",
+          "handle": "gemstone-type__obsidian"
+        },
+        {
+          "name": "Onyx",
+          "handle": "gemstone-type__onyx"
+        },
+        {
+          "name": "Opal",
+          "handle": "gemstone-type__opal"
+        },
+        {
+          "name": "Opalite",
+          "handle": "gemstone-type__opalite"
+        },
+        {
+          "name": "Pearl",
+          "handle": "gemstone-type__pearl"
+        },
+        {
+          "name": "Peridot",
+          "handle": "gemstone-type__peridot"
+        },
+        {
+          "name": "Prehnite",
+          "handle": "gemstone-type__prehnite"
+        },
+        {
+          "name": "Quartz",
+          "handle": "gemstone-type__quartz"
+        },
+        {
+          "name": "Rhodochrosite",
+          "handle": "gemstone-type__rhodochrosite"
+        },
+        {
+          "name": "Rhodonite",
+          "handle": "gemstone-type__rhodonite"
+        },
+        {
+          "name": "Rose quartz",
+          "handle": "gemstone-type__rose-quartz"
+        },
+        {
+          "name": "Rutilated quartz",
+          "handle": "gemstone-type__rutilated-quartz"
+        },
+        {
+          "name": "Sapphire",
+          "handle": "gemstone-type__sapphire"
+        },
+        {
+          "name": "Shell",
+          "handle": "gemstone-type__shell"
+        },
+        {
+          "name": "Smoky quartz",
+          "handle": "gemstone-type__smoky-quartz"
+        },
+        {
+          "name": "Sodalite",
+          "handle": "gemstone-type__sodalite"
+        },
+        {
+          "name": "Spinel",
+          "handle": "gemstone-type__spinel"
+        },
+        {
+          "name": "Sunstone",
+          "handle": "gemstone-type__sunstone"
+        },
+        {
+          "name": "Tanzanite",
+          "handle": "gemstone-type__tanzanite"
+        },
+        {
+          "name": "Tiger's eye",
+          "handle": "gemstone-type__tigers-eye"
+        },
+        {
+          "name": "Topaz",
+          "handle": "gemstone-type__topaz"
+        },
+        {
+          "name": "Tourmaline",
+          "handle": "gemstone-type__tourmaline"
+        },
+        {
+          "name": "Turquoise",
+          "handle": "gemstone-type__turquoise"
+        },
+        {
+          "name": "Unakite",
+          "handle": "gemstone-type__unakite"
+        },
+        {
+          "name": "Variscite",
+          "handle": "gemstone-type__variscite"
+        },
+        {
+          "name": "Zircon",
+          "handle": "gemstone-type__zircon"
+        },
+        {
+          "name": "Other",
+          "handle": "gemstone-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3003",
+      "name": "Handwear features",
+      "handle": "handwear-features",
+      "description": "Describes special features of gloves or mittens, like adjustable closure or enhanced grip",
+      "values": [
+        {
+          "name": "Adjustable closure",
+          "handle": "handwear-features__adjustable-closure"
+        },
+        {
+          "name": "Enhanced grip",
+          "handle": "handwear-features__enhanced-grip"
+        },
+        {
+          "name": "Insulating properties",
+          "handle": "handwear-features__insulating-properties"
+        },
+        {
+          "name": "Touchscreen compatible",
+          "handle": "handwear-features__touchscreen-compatible"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "handwear-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "handwear-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3255",
+      "name": "Handwear type",
+      "handle": "handwear-type",
+      "description": "Classifies the type of handwear, e.g. fingerless gloves, snow gloves",
+      "values": [
+        {
+          "name": "Arm gloves",
+          "handle": "handwear-type__arm-gloves"
+        },
+        {
+          "name": "Convertible mittens",
+          "handle": "handwear-type__convertible-mittens"
+        },
+        {
+          "name": "Fingerless gloves",
+          "handle": "handwear-type__fingerless-gloves"
+        },
+        {
+          "name": "Gloves",
+          "handle": "handwear-type__gloves"
+        },
+        {
+          "name": "Mittens",
+          "handle": "handwear-type__mittens"
+        },
+        {
+          "name": "Snow gloves",
+          "handle": "handwear-type__snow-gloves"
+        },
+        {
+          "name": "Other",
+          "handle": "handwear-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3267",
+      "name": "Heel shoe type",
+      "handle": "heel-shoe-type",
+      "description": "Identifies the style of heel on a shoe, such as platform heels or wedge heels",
+      "values": [
+        {
+          "name": "Ankle-strap d'Orsay",
+          "handle": "heel-shoe-type__ankle-strap-dorsay"
+        },
+        {
+          "name": "Ankle-strap pumps",
+          "handle": "heel-shoe-type__ankle-strap-pumps"
+        },
+        {
+          "name": "Brogues heels",
+          "handle": "heel-shoe-type__brogues-heels"
+        },
+        {
+          "name": "Classic d'Orsay",
+          "handle": "heel-shoe-type__classic-dorsay"
+        },
+        {
+          "name": "Classic pumps",
+          "handle": "heel-shoe-type__classic-pumps"
+        },
+        {
+          "name": "Loafer pumps",
+          "handle": "heel-shoe-type__loafer-pumps"
+        },
+        {
+          "name": "Mary-Jane heels",
+          "handle": "heel-shoe-type__mary-jane-heels"
+        },
+        {
+          "name": "Mule heels",
+          "handle": "heel-shoe-type__mule-heels"
+        },
+        {
+          "name": "Oxford heels",
+          "handle": "heel-shoe-type__oxford-heels"
+        },
+        {
+          "name": "Platform heels",
+          "handle": "heel-shoe-type__platform-heels"
+        },
+        {
+          "name": "Slingback d'Orsay",
+          "handle": "heel-shoe-type__slingback-dorsay"
+        },
+        {
+          "name": "Slingback heels",
+          "handle": "heel-shoe-type__slingback-heels"
+        },
+        {
+          "name": "T-strap d'Orsay",
+          "handle": "heel-shoe-type__t-strap-dorsay"
+        },
+        {
+          "name": "T-strap pumps",
+          "handle": "heel-shoe-type__t-strap-pumps"
+        },
+        {
+          "name": "Wedge heels",
+          "handle": "heel-shoe-type__wedge-heels"
+        },
+        {
+          "name": "Other",
+          "handle": "heel-shoe-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/60",
+      "name": "Jewelry type",
+      "handle": "jewelry-type",
+      "description": "Distinguishes between types of jewelry, such as fine or imitation jewelry",
+      "values": [
+        {
+          "name": "Fine jewelry",
+          "handle": "jewelry-type__fine-jewelry"
+        },
+        {
+          "name": "Imitation jewelry",
+          "handle": "jewelry-type__imitation-jewelry"
+        },
+        {
+          "name": "Other",
+          "handle": "jewelry-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5680",
+      "name": "Leather type",
+      "handle": "leather-type",
+      "description": "Specifies the animal source or type of leather used in the product (e.g., cowhide, calfskin, crocodile, python, synthetic)",
+      "values": [
+        {
+          "name": "Alligator",
+          "handle": "leather-type__alligator"
+        },
+        {
+          "name": "Calfskin",
+          "handle": "leather-type__calfskin"
+        },
+        {
+          "name": "Cowhide",
+          "handle": "leather-type__cowhide"
+        },
+        {
+          "name": "Crocodile",
+          "handle": "leather-type__crocodile"
+        },
+        {
+          "name": "Lambskin",
+          "handle": "leather-type__lambskin"
+        },
+        {
+          "name": "Lizard",
+          "handle": "leather-type__lizard"
+        },
+        {
+          "name": "Ostrich",
+          "handle": "leather-type__ostrich"
+        },
+        {
+          "name": "Python",
+          "handle": "leather-type__python"
+        },
+        {
+          "name": "Sheepskin",
+          "handle": "leather-type__sheepskin"
+        },
+        {
+          "name": "Stingray",
+          "handle": "leather-type__stingray"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "leather-type__synthetic"
+        },
+        {
+          "name": "Unknown",
+          "handle": "leather-type__unknown"
+        },
+        {
+          "name": "Other",
+          "handle": "leather-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3002",
+      "name": "Maternity clothing features",
+      "handle": "maternity-clothing-features",
+      "description": "Describes unique features of maternity wear, e.g. room for belly growth, supportive cups",
+      "values": [
+        {
+          "name": "Adjustable strap",
+          "handle": "maternity-clothing-features__adjustable-strap"
+        },
+        {
+          "name": "Breathable design",
+          "handle": "maternity-clothing-features__breathable-design"
+        },
+        {
+          "name": "Chlorine resistant",
+          "handle": "maternity-clothing-features__chlorine-resistant"
+        },
+        {
+          "name": "Elastic waistband",
+          "handle": "maternity-clothing-features__elastic-waistband"
+        },
+        {
+          "name": "Flattering silhouette",
+          "handle": "maternity-clothing-features__flattering-silhouette"
+        },
+        {
+          "name": "Flexible",
+          "handle": "maternity-clothing-features__flexible"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "maternity-clothing-features__lightweight"
+        },
+        {
+          "name": "Quick drying",
+          "handle": "maternity-clothing-features__quick-drying"
+        },
+        {
+          "name": "Room for belly growth",
+          "handle": "maternity-clothing-features__room-for-belly-growth"
+        },
+        {
+          "name": "Supportive cups",
+          "handle": "maternity-clothing-features__supportive-cups"
+        },
+        {
+          "name": "UPF sun protection",
+          "handle": "maternity-clothing-features__upf-sun-protection"
+        },
+        {
+          "name": "Vegan friendly",
+          "handle": "maternity-clothing-features__vegan-friendly"
+        },
+        {
+          "name": "Other",
+          "handle": "maternity-clothing-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3252",
+      "name": "Maternity sleepwear style",
+      "handle": "maternity-sleepwear-style",
+      "description": "Specifies the style of maternity sleepwear items, like a onesie or sleep shirt",
+      "values": [
+        {
+          "name": "Nightgown",
+          "handle": "maternity-sleepwear-style__nightgown"
+        },
+        {
+          "name": "Onesie",
+          "handle": "maternity-sleepwear-style__onesie"
+        },
+        {
+          "name": "Pajamas",
+          "handle": "maternity-sleepwear-style__pajamas"
+        },
+        {
+          "name": "Robe",
+          "handle": "maternity-sleepwear-style__robe"
+        },
+        {
+          "name": "Sleep shirt",
+          "handle": "maternity-sleepwear-style__sleep-shirt"
+        },
+        {
+          "name": "Other",
+          "handle": "maternity-sleepwear-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3262",
+      "name": "Necklace design",
+      "handle": "necklace-design",
+      "description": "Describes the style of a necklace, such as pendant or choker",
+      "values": [
+        {
+          "name": "Beaded",
+          "handle": "necklace-design__beaded"
+        },
+        {
+          "name": "Chain",
+          "handle": "necklace-design__chain"
+        },
+        {
+          "name": "Choker",
+          "handle": "necklace-design__choker"
+        },
+        {
+          "name": "Cord",
+          "handle": "necklace-design__cord"
+        },
+        {
+          "name": "Cuff",
+          "handle": "necklace-design__cuff"
+        },
+        {
+          "name": "Lariat",
+          "handle": "necklace-design__lariat"
+        },
+        {
+          "name": "Pendant",
+          "handle": "necklace-design__pendant"
+        },
+        {
+          "name": "Riviera",
+          "handle": "necklace-design__riviera"
+        },
+        {
+          "name": "Statement",
+          "handle": "necklace-design__statement"
+        },
+        {
+          "name": "Strand",
+          "handle": "necklace-design__strand"
+        },
+        {
+          "name": "Y-shaped",
+          "handle": "necklace-design__y-shaped"
+        },
+        {
+          "name": "Other",
+          "handle": "necklace-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1198",
+      "name": "Nightgown style",
+      "handle": "nightgown-style",
+      "description": "Specifies nightgown style, e.g babydoll, chemise",
+      "values": [
+        {
+          "name": "Babydoll",
+          "handle": "nightgown-style__babydoll"
+        },
+        {
+          "name": "Chemise",
+          "handle": "nightgown-style__chemise"
+        },
+        {
+          "name": "Other",
+          "handle": "nightgown-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1203",
+      "name": "Occasion style",
+      "handle": "occasion-style",
+      "description": "Helps categorize products based on occasion, e.g. casual, dress",
+      "values": [
+        {
+          "name": "Casual",
+          "handle": "occasion-style__casual"
+        },
+        {
+          "name": "Dress",
+          "handle": "occasion-style__dress"
+        },
+        {
+          "name": "Other",
+          "handle": "occasion-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3248",
+      "name": "One-piece style",
+      "handle": "one-piece-style",
+      "description": "Identifies the specific style of a one-piece garment, like a jumpsuit or romper",
+      "values": [
+        {
+          "name": "Bodysuit",
+          "handle": "one-piece-style__bodysuit"
+        },
+        {
+          "name": "Boiler suit",
+          "handle": "one-piece-style__boiler-suit"
+        },
+        {
+          "name": "Catsuit",
+          "handle": "one-piece-style__catsuit"
+        },
+        {
+          "name": "Coverall",
+          "handle": "one-piece-style__coverall"
+        },
+        {
+          "name": "Dungaree",
+          "handle": "one-piece-style__dungaree"
+        },
+        {
+          "name": "Jumpsuit",
+          "handle": "one-piece-style__jumpsuit"
+        },
+        {
+          "name": "Leotard",
+          "handle": "one-piece-style__leotard"
+        },
+        {
+          "name": "Overall",
+          "handle": "one-piece-style__overall"
+        },
+        {
+          "name": "Playsuit",
+          "handle": "one-piece-style__playsuit"
+        },
+        {
+          "name": "Romper",
+          "handle": "one-piece-style__romper"
+        },
+        {
+          "name": "Salopette",
+          "handle": "one-piece-style__salopette"
+        },
+        {
+          "name": "Unitard",
+          "handle": "one-piece-style__unitard"
+        },
+        {
+          "name": "Other",
+          "handle": "one-piece-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2998",
+      "name": "Outerwear clothing features",
+      "handle": "outerwear-clothing-features",
+      "description": "Identifies special characteristics of outerwear, like insulated or waterproof",
+      "values": [
+        {
+          "name": "Breathable design",
+          "handle": "outerwear-clothing-features__breathable-design"
+        },
+        {
+          "name": "Hooded",
+          "handle": "outerwear-clothing-features__hooded"
+        },
+        {
+          "name": "Hypoallergenic",
+          "handle": "outerwear-clothing-features__hypoallergenic"
+        },
+        {
+          "name": "Insulated",
+          "handle": "outerwear-clothing-features__insulated"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "outerwear-clothing-features__lightweight"
+        },
+        {
+          "name": "Pockets",
+          "handle": "outerwear-clothing-features__pockets"
+        },
+        {
+          "name": "Quick drying",
+          "handle": "outerwear-clothing-features__quick-drying"
+        },
+        {
+          "name": "Thermal",
+          "handle": "outerwear-clothing-features__thermal"
+        },
+        {
+          "name": "UV protection",
+          "handle": "outerwear-clothing-features__uv-protection"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "outerwear-clothing-features__waterproof"
+        },
+        {
+          "name": "Windproof",
+          "handle": "outerwear-clothing-features__windproof"
+        },
+        {
+          "name": "Wrinkle resistant",
+          "handle": "outerwear-clothing-features__wrinkle-resistant"
+        },
+        {
+          "name": "Other",
+          "handle": "outerwear-clothing-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1178",
+      "name": "Pants length type",
+      "handle": "pants-length-type",
+      "description": "Used to defines the length of pants, such as cropped or long",
+      "values": [
+        {
+          "name": "Above the knee",
+          "handle": "pants-length-type__above-the-knee"
+        },
+        {
+          "name": "Capri",
+          "handle": "pants-length-type__capri"
+        },
+        {
+          "name": "Cropped",
+          "handle": "pants-length-type__cropped"
+        },
+        {
+          "name": "Footed",
+          "handle": "pants-length-type__footed"
+        },
+        {
+          "name": "Knee",
+          "handle": "pants-length-type__knee"
+        },
+        {
+          "name": "Long",
+          "handle": "pants-length-type__long"
+        },
+        {
+          "name": "Other",
+          "handle": "pants-length-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3251",
+      "name": "Pantyhose style",
+      "handle": "pantyhose-style",
+      "description": "Describes the design or functionality of pantyhose, e.g. footless, maternity",
+      "values": [
+        {
+          "name": "Compression",
+          "handle": "pantyhose-style__compression"
+        },
+        {
+          "name": "Control-top",
+          "handle": "pantyhose-style__control-top"
+        },
+        {
+          "name": "Fishnet",
+          "handle": "pantyhose-style__fishnet"
+        },
+        {
+          "name": "Footless",
+          "handle": "pantyhose-style__footless"
+        },
+        {
+          "name": "Maternity",
+          "handle": "pantyhose-style__maternity"
+        },
+        {
+          "name": "Opaque",
+          "handle": "pantyhose-style__opaque"
+        },
+        {
+          "name": "Seamed",
+          "handle": "pantyhose-style__seamed"
+        },
+        {
+          "name": "Sheer",
+          "handle": "pantyhose-style__sheer"
+        },
+        {
+          "name": "Toeless",
+          "handle": "pantyhose-style__toeless"
+        },
+        {
+          "name": "Other",
+          "handle": "pantyhose-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3263",
+      "name": "Ring design",
+      "handle": "ring-design",
+      "description": "Describes the style of a ring, such as band or solitaire",
+      "values": [
+        {
+          "name": "Band",
+          "handle": "ring-design__band"
+        },
+        {
+          "name": "Beaded",
+          "handle": "ring-design__beaded"
+        },
+        {
+          "name": "Birthstone",
+          "handle": "ring-design__birthstone"
+        },
+        {
+          "name": "Chain",
+          "handle": "ring-design__chain"
+        },
+        {
+          "name": "Charm",
+          "handle": "ring-design__charm"
+        },
+        {
+          "name": "Claddagh",
+          "handle": "ring-design__claddagh"
+        },
+        {
+          "name": "Cocktail",
+          "handle": "ring-design__cocktail"
+        },
+        {
+          "name": "Cuff",
+          "handle": "ring-design__cuff"
+        },
+        {
+          "name": "Eternity",
+          "handle": "ring-design__eternity"
+        },
+        {
+          "name": "Halo",
+          "handle": "ring-design__halo"
+        },
+        {
+          "name": "Row",
+          "handle": "ring-design__row"
+        },
+        {
+          "name": "Signet",
+          "handle": "ring-design__signet"
+        },
+        {
+          "name": "Solitaire",
+          "handle": "ring-design__solitaire"
+        },
+        {
+          "name": "Stackable",
+          "handle": "ring-design__stackable"
+        },
+        {
+          "name": "Tennis",
+          "handle": "ring-design__tennis"
+        },
+        {
+          "name": "Three-stone",
+          "handle": "ring-design__three-stone"
+        },
+        {
+          "name": "Other",
+          "handle": "ring-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/105",
+      "name": "Ring size",
+      "handle": "ring-size",
+      "description": "Specifies the size of a ring, such as L or 6.5",
+      "values": [
+        {
+          "name": "0.25",
+          "handle": "ring-size__0-25"
+        },
+        {
+          "name": "0.5",
+          "handle": "ring-size__0-5"
+        },
+        {
+          "name": "0.75",
+          "handle": "ring-size__0-75"
+        },
+        {
+          "name": "1",
+          "handle": "ring-size__1"
+        },
+        {
+          "name": "1.25",
+          "handle": "ring-size__1-25"
+        },
+        {
+          "name": "1.5",
+          "handle": "ring-size__1-5"
+        },
+        {
+          "name": "1.75",
+          "handle": "ring-size__1-75"
+        },
+        {
+          "name": "2",
+          "handle": "ring-size__2"
+        },
+        {
+          "name": "2.25",
+          "handle": "ring-size__2-25"
+        },
+        {
+          "name": "2.5",
+          "handle": "ring-size__2-5"
+        },
+        {
+          "name": "2.75",
+          "handle": "ring-size__2-75"
+        },
+        {
+          "name": "3",
+          "handle": "ring-size__3"
+        },
+        {
+          "name": "3.25",
+          "handle": "ring-size__3-25"
+        },
+        {
+          "name": "3.5",
+          "handle": "ring-size__3-5"
+        },
+        {
+          "name": "3.75",
+          "handle": "ring-size__3-75"
+        },
+        {
+          "name": "4",
+          "handle": "ring-size__4"
+        },
+        {
+          "name": "4.25",
+          "handle": "ring-size__4-25"
+        },
+        {
+          "name": "4.5",
+          "handle": "ring-size__4-5"
+        },
+        {
+          "name": "4.75",
+          "handle": "ring-size__4-75"
+        },
+        {
+          "name": "5",
+          "handle": "ring-size__5"
+        },
+        {
+          "name": "5.25",
+          "handle": "ring-size__5-25"
+        },
+        {
+          "name": "5.5",
+          "handle": "ring-size__5-5"
+        },
+        {
+          "name": "5.75",
+          "handle": "ring-size__5-75"
+        },
+        {
+          "name": "6",
+          "handle": "ring-size__6"
+        },
+        {
+          "name": "6.25",
+          "handle": "ring-size__6-25"
+        },
+        {
+          "name": "6.5",
+          "handle": "ring-size__6-5"
+        },
+        {
+          "name": "6.75",
+          "handle": "ring-size__6-75"
+        },
+        {
+          "name": "7",
+          "handle": "ring-size__7"
+        },
+        {
+          "name": "7.25",
+          "handle": "ring-size__7-25"
+        },
+        {
+          "name": "7.5",
+          "handle": "ring-size__7-5"
+        },
+        {
+          "name": "7.75",
+          "handle": "ring-size__7-75"
+        },
+        {
+          "name": "8",
+          "handle": "ring-size__8"
+        },
+        {
+          "name": "8.25",
+          "handle": "ring-size__8-25"
+        },
+        {
+          "name": "8.5",
+          "handle": "ring-size__8-5"
+        },
+        {
+          "name": "8.75",
+          "handle": "ring-size__8-75"
+        },
+        {
+          "name": "9",
+          "handle": "ring-size__9"
+        },
+        {
+          "name": "9.25",
+          "handle": "ring-size__9-25"
+        },
+        {
+          "name": "9.5",
+          "handle": "ring-size__9-5"
+        },
+        {
+          "name": "9.75",
+          "handle": "ring-size__9-75"
+        },
+        {
+          "name": "10",
+          "handle": "ring-size__10"
+        },
+        {
+          "name": "10.25",
+          "handle": "ring-size__10-25"
+        },
+        {
+          "name": "10.5",
+          "handle": "ring-size__10-5"
+        },
+        {
+          "name": "10.75",
+          "handle": "ring-size__10-75"
+        },
+        {
+          "name": "11",
+          "handle": "ring-size__11"
+        },
+        {
+          "name": "11.25",
+          "handle": "ring-size__11-25"
+        },
+        {
+          "name": "11.5",
+          "handle": "ring-size__11-5"
+        },
+        {
+          "name": "11.75",
+          "handle": "ring-size__11-75"
+        },
+        {
+          "name": "12",
+          "handle": "ring-size__12"
+        },
+        {
+          "name": "12.25",
+          "handle": "ring-size__12-25"
+        },
+        {
+          "name": "12.5",
+          "handle": "ring-size__12-5"
+        },
+        {
+          "name": "12.75",
+          "handle": "ring-size__12-75"
+        },
+        {
+          "name": "13",
+          "handle": "ring-size__13"
+        },
+        {
+          "name": "13.25",
+          "handle": "ring-size__13-25"
+        },
+        {
+          "name": "13.5",
+          "handle": "ring-size__13-5"
+        },
+        {
+          "name": "13.75",
+          "handle": "ring-size__13-75"
+        },
+        {
+          "name": "14",
+          "handle": "ring-size__14"
+        },
+        {
+          "name": "38",
+          "handle": "ring-size__38"
+        },
+        {
+          "name": "39",
+          "handle": "ring-size__39"
+        },
+        {
+          "name": "40",
+          "handle": "ring-size__40"
+        },
+        {
+          "name": "41",
+          "handle": "ring-size__41"
+        },
+        {
+          "name": "42",
+          "handle": "ring-size__42"
+        },
+        {
+          "name": "43",
+          "handle": "ring-size__43"
+        },
+        {
+          "name": "44",
+          "handle": "ring-size__44"
+        },
+        {
+          "name": "45",
+          "handle": "ring-size__45"
+        },
+        {
+          "name": "46",
+          "handle": "ring-size__46"
+        },
+        {
+          "name": "47",
+          "handle": "ring-size__47"
+        },
+        {
+          "name": "48",
+          "handle": "ring-size__48"
+        },
+        {
+          "name": "49",
+          "handle": "ring-size__49"
+        },
+        {
+          "name": "50",
+          "handle": "ring-size__50"
+        },
+        {
+          "name": "51",
+          "handle": "ring-size__51"
+        },
+        {
+          "name": "52",
+          "handle": "ring-size__52"
+        },
+        {
+          "name": "53",
+          "handle": "ring-size__53"
+        },
+        {
+          "name": "54",
+          "handle": "ring-size__54"
+        },
+        {
+          "name": "55",
+          "handle": "ring-size__55"
+        },
+        {
+          "name": "56",
+          "handle": "ring-size__56"
+        },
+        {
+          "name": "57",
+          "handle": "ring-size__57"
+        },
+        {
+          "name": "58",
+          "handle": "ring-size__58"
+        },
+        {
+          "name": "59",
+          "handle": "ring-size__59"
+        },
+        {
+          "name": "60",
+          "handle": "ring-size__60"
+        },
+        {
+          "name": "61",
+          "handle": "ring-size__61"
+        },
+        {
+          "name": "62",
+          "handle": "ring-size__62"
+        },
+        {
+          "name": "63",
+          "handle": "ring-size__63"
+        },
+        {
+          "name": "64",
+          "handle": "ring-size__64"
+        },
+        {
+          "name": "65",
+          "handle": "ring-size__65"
+        },
+        {
+          "name": "66",
+          "handle": "ring-size__66"
+        },
+        {
+          "name": "67",
+          "handle": "ring-size__67"
+        },
+        {
+          "name": "68",
+          "handle": "ring-size__68"
+        },
+        {
+          "name": "69",
+          "handle": "ring-size__69"
+        },
+        {
+          "name": "A",
+          "handle": "ring-size__a"
+        },
+        {
+          "name": "B",
+          "handle": "ring-size__b"
+        },
+        {
+          "name": "C",
+          "handle": "ring-size__c"
+        },
+        {
+          "name": "D",
+          "handle": "ring-size__d"
+        },
+        {
+          "name": "E",
+          "handle": "ring-size__e"
+        },
+        {
+          "name": "F",
+          "handle": "ring-size__f"
+        },
+        {
+          "name": "G",
+          "handle": "ring-size__g"
+        },
+        {
+          "name": "H",
+          "handle": "ring-size__h"
+        },
+        {
+          "name": "I",
+          "handle": "ring-size__i"
+        },
+        {
+          "name": "J",
+          "handle": "ring-size__j"
+        },
+        {
+          "name": "K",
+          "handle": "ring-size__k"
+        },
+        {
+          "name": "L",
+          "handle": "ring-size__l"
+        },
+        {
+          "name": "M",
+          "handle": "ring-size__m"
+        },
+        {
+          "name": "N",
+          "handle": "ring-size__n"
+        },
+        {
+          "name": "O",
+          "handle": "ring-size__o"
+        },
+        {
+          "name": "P",
+          "handle": "ring-size__p"
+        },
+        {
+          "name": "Q",
+          "handle": "ring-size__q"
+        },
+        {
+          "name": "R",
+          "handle": "ring-size__r"
+        },
+        {
+          "name": "S",
+          "handle": "ring-size__s"
+        },
+        {
+          "name": "T",
+          "handle": "ring-size__t"
+        },
+        {
+          "name": "U",
+          "handle": "ring-size__u"
+        },
+        {
+          "name": "V",
+          "handle": "ring-size__v"
+        },
+        {
+          "name": "W",
+          "handle": "ring-size__w"
+        },
+        {
+          "name": "X",
+          "handle": "ring-size__x"
+        },
+        {
+          "name": "Y",
+          "handle": "ring-size__y"
+        },
+        {
+          "name": "Z",
+          "handle": "ring-size__z"
+        },
+        {
+          "name": "Other",
+          "handle": "ring-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5040",
+      "name": "Robe style",
+      "handle": "robe-style",
+      "description": "Specifies the overall design type or construction style of the robe, such as spa robe or wrap.",
+      "values": [
+        {
+          "name": "Bathrobe",
+          "handle": "robe-style__bathrobe"
+        },
+        {
+          "name": "Dressing gown",
+          "handle": "robe-style__dressing-gown"
+        },
+        {
+          "name": "Kimono",
+          "handle": "robe-style__kimono"
+        },
+        {
+          "name": "Spa robe",
+          "handle": "robe-style__spa-robe"
+        },
+        {
+          "name": "Wrap",
+          "handle": "robe-style__wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "robe-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3264",
+      "name": "Sandal style",
+      "handle": "sandal-style",
+      "description": "Specifies the style of sandals, such as ankle strap or lace-up",
+      "values": [
+        {
+          "name": "Ankle strap",
+          "handle": "sandal-style__ankle-strap"
+        },
+        {
+          "name": "Clogs",
+          "handle": "sandal-style__clogs"
+        },
+        {
+          "name": "Comfort",
+          "handle": "sandal-style__comfort"
+        },
+        {
+          "name": "Fisherman",
+          "handle": "sandal-style__fisherman"
+        },
+        {
+          "name": "Flip-flop",
+          "handle": "sandal-style__flip-flop"
+        },
+        {
+          "name": "Gladiator",
+          "handle": "sandal-style__gladiator"
+        },
+        {
+          "name": "Huarache",
+          "handle": "sandal-style__huarache"
+        },
+        {
+          "name": "Lace-up",
+          "handle": "sandal-style__lace-up"
+        },
+        {
+          "name": "Mule flat",
+          "handle": "sandal-style__mule-flat"
+        },
+        {
+          "name": "Slide",
+          "handle": "sandal-style__slide"
+        },
+        {
+          "name": "Slingback",
+          "handle": "sandal-style__slingback"
+        },
+        {
+          "name": "T-strap",
+          "handle": "sandal-style__t-strap"
+        },
+        {
+          "name": "Thong",
+          "handle": "sandal-style__thong"
+        },
+        {
+          "name": "Toe ring",
+          "handle": "sandal-style__toe-ring"
+        },
+        {
+          "name": "Other",
+          "handle": "sandal-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3256",
+      "name": "Scarf/Shawl style",
+      "handle": "scarf-shawl-style",
+      "description": "Identifies the style of scarves and shawls, e.g. blanket, wrap",
+      "values": [
+        {
+          "name": "Blanket",
+          "handle": "scarf-shawl-style__blanket"
+        },
+        {
+          "name": "Cowl",
+          "handle": "scarf-shawl-style__cowl"
+        },
+        {
+          "name": "Cravat",
+          "handle": "scarf-shawl-style__cravat"
+        },
+        {
+          "name": "Fur",
+          "handle": "scarf-shawl-style__fur"
+        },
+        {
+          "name": "Infinity",
+          "handle": "scarf-shawl-style__infinity"
+        },
+        {
+          "name": "Pashmina",
+          "handle": "scarf-shawl-style__pashmina"
+        },
+        {
+          "name": "Regular",
+          "handle": "scarf-shawl-style__regular"
+        },
+        {
+          "name": "Shawl",
+          "handle": "scarf-shawl-style__shawl"
+        },
+        {
+          "name": "Sport",
+          "handle": "scarf-shawl-style__sport"
+        },
+        {
+          "name": "Square",
+          "handle": "scarf-shawl-style__square"
+        },
+        {
+          "name": "Wrap",
+          "handle": "scarf-shawl-style__wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "scarf-shawl-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1197",
+      "name": "Shapewear support level",
+      "handle": "shapewear-support-level",
+      "description": "Indicates the compression level of shapewear items, e.g. level 1",
+      "values": [
+        {
+          "name": "Level 1",
+          "handle": "shapewear-support-level__level-1"
+        },
+        {
+          "name": "Level 2",
+          "handle": "shapewear-support-level__level-2"
+        },
+        {
+          "name": "Level 3",
+          "handle": "shapewear-support-level__level-3"
+        },
+        {
+          "name": "Level 4",
+          "handle": "shapewear-support-level__level-4"
+        },
+        {
+          "name": "Level 5",
+          "handle": "shapewear-support-level__level-5"
+        },
+        {
+          "name": "Other",
+          "handle": "shapewear-support-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3253",
+      "name": "Skirt style",
+      "handle": "skirt-style",
+      "description": "Describes the design or cut of a skirt, such as pencil or pleated",
+      "values": [
+        {
+          "name": "Bracer",
+          "handle": "skirt-style__bracer"
+        },
+        {
+          "name": "Circle",
+          "handle": "skirt-style__circle"
+        },
+        {
+          "name": "Denim",
+          "handle": "skirt-style__denim"
+        },
+        {
+          "name": "Gathered",
+          "handle": "skirt-style__gathered"
+        },
+        {
+          "name": "Kilt",
+          "handle": "skirt-style__kilt"
+        },
+        {
+          "name": "Layered",
+          "handle": "skirt-style__layered"
+        },
+        {
+          "name": "Pencil",
+          "handle": "skirt-style__pencil"
+        },
+        {
+          "name": "Pleated",
+          "handle": "skirt-style__pleated"
+        },
+        {
+          "name": "Plisse",
+          "handle": "skirt-style__plisse"
+        },
+        {
+          "name": "Prairie",
+          "handle": "skirt-style__prairie"
+        },
+        {
+          "name": "Sheath",
+          "handle": "skirt-style__sheath"
+        },
+        {
+          "name": "Skirtall",
+          "handle": "skirt-style__skirtall"
+        },
+        {
+          "name": "Tailored",
+          "handle": "skirt-style__tailored"
+        },
+        {
+          "name": "Tutu",
+          "handle": "skirt-style__tutu"
+        },
+        {
+          "name": "Wrap",
+          "handle": "skirt-style__wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "skirt-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1190",
+      "name": "Skirt/Dress length type",
+      "handle": "skirt-dress-length-type",
+      "description": "Defines the length of skirts or dresses, such as mini or maxi",
+      "values": [
+        {
+          "name": "Knee",
+          "handle": "skirt-dress-length-type__knee"
+        },
+        {
+          "name": "Maxi",
+          "handle": "skirt-dress-length-type__maxi"
+        },
+        {
+          "name": "Midi",
+          "handle": "skirt-dress-length-type__midi"
+        },
+        {
+          "name": "Mini",
+          "handle": "skirt-dress-length-type__mini"
+        },
+        {
+          "name": "Short",
+          "handle": "skirt-dress-length-type__short"
+        },
+        {
+          "name": "Other",
+          "handle": "skirt-dress-length-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3268",
+      "name": "Slipper style",
+      "handle": "slipper-style",
+      "description": "Identifies the style of slippers, such as ballerina or flip-flop",
+      "values": [
+        {
+          "name": "Ballerina",
+          "handle": "slipper-style__ballerina"
+        },
+        {
+          "name": "Bootie",
+          "handle": "slipper-style__bootie"
+        },
+        {
+          "name": "Clog",
+          "handle": "slipper-style__clog"
+        },
+        {
+          "name": "Espadrille",
+          "handle": "slipper-style__espadrille"
+        },
+        {
+          "name": "Flip-flop",
+          "handle": "slipper-style__flip-flop"
+        },
+        {
+          "name": "Mule",
+          "handle": "slipper-style__mule"
+        },
+        {
+          "name": "Scuff",
+          "handle": "slipper-style__scuff"
+        },
+        {
+          "name": "Slide",
+          "handle": "slipper-style__slide"
+        },
+        {
+          "name": "Slipper socks",
+          "handle": "slipper-style__slipper-socks"
+        },
+        {
+          "name": "Other",
+          "handle": "slipper-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3007",
+      "name": "Smart watch features",
+      "handle": "smart-watch-features",
+      "description": "Describes the capabilities of a smart watch, such as fitness tracker or waterproof",
+      "values": [
+        {
+          "name": "Alarm",
+          "handle": "smart-watch-features__alarm"
+        },
+        {
+          "name": "Anti-reflective",
+          "handle": "smart-watch-features__anti-reflective"
+        },
+        {
+          "name": "Blood oxygen level monitoring",
+          "handle": "smart-watch-features__blood-oxygen-level-monitoring"
+        },
+        {
+          "name": "Blood pressure monitoring",
+          "handle": "smart-watch-features__blood-pressure-monitoring"
+        },
+        {
+          "name": "Camera control",
+          "handle": "smart-watch-features__camera-control"
+        },
+        {
+          "name": "Compass",
+          "handle": "smart-watch-features__compass"
+        },
+        {
+          "name": "Customizable watch faces",
+          "handle": "smart-watch-features__customizable-watch-faces"
+        },
+        {
+          "name": "Device location feature",
+          "handle": "smart-watch-features__device-location-feature"
+        },
+        {
+          "name": "ECG monitoring",
+          "handle": "smart-watch-features__ecg-monitoring"
+        },
+        {
+          "name": "Fitness tracker",
+          "handle": "smart-watch-features__fitness-tracker"
+        },
+        {
+          "name": "GPS support",
+          "handle": "smart-watch-features__gps-support"
+        },
+        {
+          "name": "Heart rate monitor",
+          "handle": "smart-watch-features__heart-rate-monitor"
+        },
+        {
+          "name": "Interchangeable strap",
+          "handle": "smart-watch-features__interchangeable-strap"
+        },
+        {
+          "name": "Music control",
+          "handle": "smart-watch-features__music-control"
+        },
+        {
+          "name": "Offline music storage",
+          "handle": "smart-watch-features__offline-music-storage"
+        },
+        {
+          "name": "Sleep tracker",
+          "handle": "smart-watch-features__sleep-tracker"
+        },
+        {
+          "name": "Step counter",
+          "handle": "smart-watch-features__step-counter"
+        },
+        {
+          "name": "Thermometer",
+          "handle": "smart-watch-features__thermometer"
+        },
+        {
+          "name": "Touchscreen",
+          "handle": "smart-watch-features__touchscreen"
+        },
+        {
+          "name": "Vibration",
+          "handle": "smart-watch-features__vibration"
+        },
+        {
+          "name": "Voice control",
+          "handle": "smart-watch-features__voice-control"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "smart-watch-features__waterproof"
+        },
+        {
+          "name": "World timer",
+          "handle": "smart-watch-features__world-timer"
+        },
+        {
+          "name": "Other",
+          "handle": "smart-watch-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3269",
+      "name": "Sneaker style",
+      "handle": "sneaker-style",
+      "description": "Identifies the design or type of sneakers, such as athletic or high-top",
+      "values": [
+        {
+          "name": "Athletic",
+          "handle": "sneaker-style__athletic"
+        },
+        {
+          "name": "Fashion",
+          "handle": "sneaker-style__fashion"
+        },
+        {
+          "name": "High-top",
+          "handle": "sneaker-style__high-top"
+        },
+        {
+          "name": "Low-top",
+          "handle": "sneaker-style__low-top"
+        },
+        {
+          "name": "Slip-on",
+          "handle": "sneaker-style__slip-on"
+        },
+        {
+          "name": "Other",
+          "handle": "sneaker-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1200",
+      "name": "Suspender style",
+      "handle": "suspender-style",
+      "description": "Defines suspender style, e.g. X-back, Y-back ",
+      "values": [
+        {
+          "name": "X-back suspender",
+          "handle": "suspender-style__x-back-suspender"
+        },
+        {
+          "name": "Y-back suspender",
+          "handle": "suspender-style__y-back-suspender"
+        },
+        {
+          "name": "Other",
+          "handle": "suspender-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2999",
+      "name": "Swimwear features",
+      "handle": "swimwear-features",
+      "description": "Identifies special characteristics of swimwear, like quick drying or UPF sun protection",
+      "values": [
+        {
+          "name": "Adjustable strap",
+          "handle": "swimwear-features__adjustable-strap"
+        },
+        {
+          "name": "Breathable design",
+          "handle": "swimwear-features__breathable-design"
+        },
+        {
+          "name": "Chlorine resistant",
+          "handle": "swimwear-features__chlorine-resistant"
+        },
+        {
+          "name": "Elastic waistband",
+          "handle": "swimwear-features__elastic-waistband"
+        },
+        {
+          "name": "Flattering silhouette",
+          "handle": "swimwear-features__flattering-silhouette"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "swimwear-features__lightweight"
+        },
+        {
+          "name": "Quick drying",
+          "handle": "swimwear-features__quick-drying"
+        },
+        {
+          "name": "UPF sun protection",
+          "handle": "swimwear-features__upf-sun-protection"
+        },
+        {
+          "name": "Vegan friendly",
+          "handle": "swimwear-features__vegan-friendly"
+        },
+        {
+          "name": "Other",
+          "handle": "swimwear-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3249",
+      "name": "Undershirt style",
+      "handle": "undershirt-style",
+      "description": "Describes the design or cut of an undershirt, such as crew neck or V-neck",
+      "values": [
+        {
+          "name": "Crew neck",
+          "handle": "undershirt-style__crew-neck"
+        },
+        {
+          "name": "Long sleeved",
+          "handle": "undershirt-style__long-sleeved"
+        },
+        {
+          "name": "Sleeveless",
+          "handle": "undershirt-style__sleeveless"
+        },
+        {
+          "name": "Thermal",
+          "handle": "undershirt-style__thermal"
+        },
+        {
+          "name": "V-neck",
+          "handle": "undershirt-style__v-neck"
+        },
+        {
+          "name": "Other",
+          "handle": "undershirt-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1194",
+      "name": "Underwear style",
+      "handle": "underwear-style",
+      "description": "Defines the design and cut of underwear, such as bikini or control briefs",
+      "values": [
+        {
+          "name": "Bikini panties",
+          "handle": "underwear-style__bikini-panties"
+        },
+        {
+          "name": "Boxer briefs",
+          "handle": "underwear-style__boxer-briefs"
+        },
+        {
+          "name": "Boxers",
+          "handle": "underwear-style__boxers"
+        },
+        {
+          "name": "Boyshorts",
+          "handle": "underwear-style__boyshorts"
+        },
+        {
+          "name": "Classic briefs",
+          "handle": "underwear-style__classic-briefs"
+        },
+        {
+          "name": "Control briefs",
+          "handle": "underwear-style__control-briefs"
+        },
+        {
+          "name": "G-string panties",
+          "handle": "underwear-style__g-string-panties"
+        },
+        {
+          "name": "High-cut briefs",
+          "handle": "underwear-style__high-cut-briefs"
+        },
+        {
+          "name": "Hipster panties",
+          "handle": "underwear-style__hipster-panties"
+        },
+        {
+          "name": "Raw-cut briefs",
+          "handle": "underwear-style__raw-cut-briefs"
+        },
+        {
+          "name": "Tanga panties",
+          "handle": "underwear-style__tanga-panties"
+        },
+        {
+          "name": "Thong panties",
+          "handle": "underwear-style__thong-panties"
+        },
+        {
+          "name": "Trunk",
+          "handle": "underwear-style__trunk"
+        },
+        {
+          "name": "Other",
+          "handle": "underwear-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/37",
+      "name": "Waist rise",
+      "handle": "waist-rise",
+      "description": "Indicates where on the waist a garment sits, like low, medium or high",
+      "values": [
+        {
+          "name": "High",
+          "handle": "waist-rise__high"
+        },
+        {
+          "name": "Low",
+          "handle": "waist-rise__low"
+        },
+        {
+          "name": "Mid",
+          "handle": "waist-rise__mid"
+        },
+        {
+          "name": "Other",
+          "handle": "waist-rise__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1202",
+      "name": "Watch accessory style",
+      "handle": "watch-accessory-style",
+      "description": "Defines the style of watch accessories, e.g. sporty, modern",
+      "values": [
+        {
+          "name": "Classic",
+          "handle": "watch-accessory-style__classic"
+        },
+        {
+          "name": "Modern",
+          "handle": "watch-accessory-style__modern"
+        },
+        {
+          "name": "Sporty",
+          "handle": "watch-accessory-style__sporty"
+        },
+        {
+          "name": "Other",
+          "handle": "watch-accessory-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1201",
+      "name": "Watch display",
+      "handle": "watch-display",
+      "description": "Distinguishes between watch displays, such as digital or analog",
+      "values": [
+        {
+          "name": "Ana-Digi",
+          "handle": "watch-display__ana-digi"
+        },
+        {
+          "name": "Analog",
+          "handle": "watch-display__analog"
+        },
+        {
+          "name": "Digital",
+          "handle": "watch-display__digital"
+        },
+        {
+          "name": "Other",
+          "handle": "watch-display__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3008",
+      "name": "Watch features",
+      "handle": "watch-features",
+      "description": "Identifies special characteristics of a watch, such as automatic movement or luminous hands",
+      "values": [
+        {
+          "name": "Alarm",
+          "handle": "watch-features__alarm"
+        },
+        {
+          "name": "Anti-reflective",
+          "handle": "watch-features__anti-reflective"
+        },
+        {
+          "name": "Automatic movement",
+          "handle": "watch-features__automatic-movement"
+        },
+        {
+          "name": "Date display",
+          "handle": "watch-features__date-display"
+        },
+        {
+          "name": "Deployment clasp",
+          "handle": "watch-features__deployment-clasp"
+        },
+        {
+          "name": "Interchangeable strap",
+          "handle": "watch-features__interchangeable-strap"
+        },
+        {
+          "name": "Limited edition",
+          "handle": "watch-features__limited-edition"
+        },
+        {
+          "name": "Luminous hands",
+          "handle": "watch-features__luminous-hands"
+        },
+        {
+          "name": "Luminous markers",
+          "handle": "watch-features__luminous-markers"
+        },
+        {
+          "name": "Magnetic resistance",
+          "handle": "watch-features__magnetic-resistance"
+        },
+        {
+          "name": "Manual winding",
+          "handle": "watch-features__manual-winding"
+        },
+        {
+          "name": "Moon phase display",
+          "handle": "watch-features__moon-phase-display"
+        },
+        {
+          "name": "Multiple time zones",
+          "handle": "watch-features__multiple-time-zones"
+        },
+        {
+          "name": "Perpetual calendar",
+          "handle": "watch-features__perpetual-calendar"
+        },
+        {
+          "name": "Power reserve indicator",
+          "handle": "watch-features__power-reserve-indicator"
+        },
+        {
+          "name": "Quartz movement",
+          "handle": "watch-features__quartz-movement"
+        },
+        {
+          "name": "Rotating bezel",
+          "handle": "watch-features__rotating-bezel"
+        },
+        {
+          "name": "Screw-down crown",
+          "handle": "watch-features__screw-down-crown"
+        },
+        {
+          "name": "Shockproof",
+          "handle": "watch-features__shockproof"
+        },
+        {
+          "name": "Skeleton dial",
+          "handle": "watch-features__skeleton-dial"
+        },
+        {
+          "name": "Solar powered",
+          "handle": "watch-features__solar-powered"
+        },
+        {
+          "name": "Tachymeter",
+          "handle": "watch-features__tachymeter"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "watch-features__waterproof"
+        },
+        {
+          "name": "World timer",
+          "handle": "watch-features__world-timer"
+        },
+        {
+          "name": "Other",
+          "handle": "watch-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2951",
+      "name": "Watch/Band material",
+      "handle": "watch-band-material",
+      "description": "Specifies the type of material for watch bands, such as nylon or silicone",
+      "values": [
+        {
+          "name": "Alcantara",
+          "handle": "watch-band-material__alcantara"
+        },
+        {
+          "name": "Canvas",
+          "handle": "watch-band-material__canvas"
+        },
+        {
+          "name": "Faux leather",
+          "handle": "watch-band-material__faux-leather"
+        },
+        {
+          "name": "Leather",
+          "handle": "watch-band-material__leather"
+        },
+        {
+          "name": "Mesh",
+          "handle": "watch-band-material__mesh"
+        },
+        {
+          "name": "Metal",
+          "handle": "watch-band-material__metal"
+        },
+        {
+          "name": "Microfiber",
+          "handle": "watch-band-material__microfiber"
+        },
+        {
+          "name": "Nylon",
+          "handle": "watch-band-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "watch-band-material__plastic"
+        },
+        {
+          "name": "Polyamide (PA)",
+          "handle": "watch-band-material__polyamide-pa"
+        },
+        {
+          "name": "Polycarbonate (PC)",
+          "handle": "watch-band-material__polycarbonate-pc"
+        },
+        {
+          "name": "Polyester",
+          "handle": "watch-band-material__polyester"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "watch-band-material__polyurethane-pu"
+        },
+        {
+          "name": "Rubber",
+          "handle": "watch-band-material__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "watch-band-material__silicone"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "watch-band-material__stainless-steel"
+        },
+        {
+          "name": "Thermoplastic elastomer (TPE)",
+          "handle": "watch-band-material__thermoplastic-elastomer-tpe"
+        },
+        {
+          "name": "Thermoplastic polyurethane (TPU)",
+          "handle": "watch-band-material__thermoplastic-polyurethane-tpu"
+        },
+        {
+          "name": "Titanium",
+          "handle": "watch-band-material__titanium"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "watch-band-material__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "watch-band-material__other"
+        }
+      ]
+    }
+  ]
+}

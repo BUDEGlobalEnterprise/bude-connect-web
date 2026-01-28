@@ -1,0 +1,760 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2529",
+      "name": "Academic level",
+      "handle": "academic-level",
+      "description": "Specifies the academic level of media content, such as undergraduate or doctoral",
+      "values": [
+        {
+          "name": "Doctoral",
+          "handle": "academic-level__doctoral"
+        },
+        {
+          "name": "Faculty research",
+          "handle": "academic-level__faculty-research"
+        },
+        {
+          "name": "Graduate",
+          "handle": "academic-level__graduate"
+        },
+        {
+          "name": "Postdoctoral",
+          "handle": "academic-level__postdoctoral"
+        },
+        {
+          "name": "Undergraduate",
+          "handle": "academic-level__undergraduate"
+        },
+        {
+          "name": "Other",
+          "handle": "academic-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2547",
+      "name": "MPAA rating",
+      "handle": "mpaa-rating",
+      "description": "Identifies the Motion Picture Association of America (MPAA) rating for media, like G or PG-13",
+      "values": [
+        {
+          "name": "G",
+          "handle": "mpaa-rating__g"
+        },
+        {
+          "name": "NC-17",
+          "handle": "mpaa-rating__nc-17"
+        },
+        {
+          "name": "NR",
+          "handle": "mpaa-rating__nr"
+        },
+        {
+          "name": "PG",
+          "handle": "mpaa-rating__pg"
+        },
+        {
+          "name": "PG-13",
+          "handle": "mpaa-rating__pg-13"
+        },
+        {
+          "name": "R",
+          "handle": "mpaa-rating__r"
+        },
+        {
+          "name": "U",
+          "handle": "mpaa-rating__u"
+        },
+        {
+          "name": "Other",
+          "handle": "mpaa-rating__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2539",
+      "name": "Media access",
+      "handle": "media-access",
+      "description": "Defines how customers can access media, e.g. digital subscription, print & online",
+      "values": [
+        {
+          "name": "Digital subscription",
+          "handle": "media-access__digital-subscription"
+        },
+        {
+          "name": "Online",
+          "handle": "media-access__online"
+        },
+        {
+          "name": "Print",
+          "handle": "media-access__print"
+        },
+        {
+          "name": "Print & online",
+          "handle": "media-access__print-online"
+        },
+        {
+          "name": "Other",
+          "handle": "media-access__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2546",
+      "name": "Media content type",
+      "handle": "media-content-type",
+      "description": "Identifies the genre or category of media content, like reality TV or stand-up comedy",
+      "values": [
+        {
+          "name": "Animated series",
+          "handle": "media-content-type__animated-series"
+        },
+        {
+          "name": "Concert",
+          "handle": "media-content-type__concert"
+        },
+        {
+          "name": "Documentary",
+          "handle": "media-content-type__documentary"
+        },
+        {
+          "name": "Educational program",
+          "handle": "media-content-type__educational-program"
+        },
+        {
+          "name": "Exercise/Fitness program",
+          "handle": "media-content-type__exercise-fitness-program"
+        },
+        {
+          "name": "Live performance",
+          "handle": "media-content-type__live-performance"
+        },
+        {
+          "name": "Mini-series",
+          "handle": "media-content-type__mini-series"
+        },
+        {
+          "name": "Movie",
+          "handle": "media-content-type__movie"
+        },
+        {
+          "name": "Music video compilation",
+          "handle": "media-content-type__music-video-compilation"
+        },
+        {
+          "name": "Reality TV",
+          "handle": "media-content-type__reality-tv"
+        },
+        {
+          "name": "Special event coverage",
+          "handle": "media-content-type__special-event-coverage"
+        },
+        {
+          "name": "Sport event",
+          "handle": "media-content-type__sport-event"
+        },
+        {
+          "name": "Stand-up comedy",
+          "handle": "media-content-type__stand-up-comedy"
+        },
+        {
+          "name": "TV show",
+          "handle": "media-content-type__tv-show"
+        },
+        {
+          "name": "Web series",
+          "handle": "media-content-type__web-series"
+        },
+        {
+          "name": "Other",
+          "handle": "media-content-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2542",
+      "name": "Media section",
+      "handle": "media-section",
+      "description": "Identifies the specific category of a newspaper or magazine, like sport or politics",
+      "values": [
+        {
+          "name": "Business & finance",
+          "handle": "media-section__business-finance"
+        },
+        {
+          "name": "Entertainment",
+          "handle": "media-section__entertainment"
+        },
+        {
+          "name": "General news",
+          "handle": "media-section__general-news"
+        },
+        {
+          "name": "Lifestyle",
+          "handle": "media-section__lifestyle"
+        },
+        {
+          "name": "Politics",
+          "handle": "media-section__politics"
+        },
+        {
+          "name": "Sport",
+          "handle": "media-section__sport"
+        },
+        {
+          "name": "Tabloid",
+          "handle": "media-section__tabloid"
+        },
+        {
+          "name": "Other",
+          "handle": "media-section__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2540",
+      "name": "Media theme",
+      "handle": "media-theme",
+      "description": "Categorizes media content by its primary focus, such as travel or gaming",
+      "values": [
+        {
+          "name": "Art & culture",
+          "handle": "media-theme__art-culture"
+        },
+        {
+          "name": "Automotive",
+          "handle": "media-theme__automotive"
+        },
+        {
+          "name": "Business & finance",
+          "handle": "media-theme__business-finance"
+        },
+        {
+          "name": "Comics",
+          "handle": "media-theme__comics"
+        },
+        {
+          "name": "Education",
+          "handle": "media-theme__education"
+        },
+        {
+          "name": "Entertainment & celebrity",
+          "handle": "media-theme__entertainment-celebrity"
+        },
+        {
+          "name": "Fashion",
+          "handle": "media-theme__fashion"
+        },
+        {
+          "name": "Food & cooking",
+          "handle": "media-theme__food-cooking"
+        },
+        {
+          "name": "Gaming",
+          "handle": "media-theme__gaming"
+        },
+        {
+          "name": "Gardening",
+          "handle": "media-theme__gardening"
+        },
+        {
+          "name": "Health & wellness",
+          "handle": "media-theme__health-wellness"
+        },
+        {
+          "name": "History & heritage",
+          "handle": "media-theme__history-heritage"
+        },
+        {
+          "name": "Hobby & crafts",
+          "handle": "media-theme__hobby-crafts"
+        },
+        {
+          "name": "Home & decor",
+          "handle": "media-theme__home-decor"
+        },
+        {
+          "name": "LGBTQ+",
+          "handle": "media-theme__lgbtq-plus"
+        },
+        {
+          "name": "Lifestyle",
+          "handle": "media-theme__lifestyle"
+        },
+        {
+          "name": "Literary & writing",
+          "handle": "media-theme__literary-writing"
+        },
+        {
+          "name": "Mature",
+          "handle": "media-theme__mature"
+        },
+        {
+          "name": "Men's interests",
+          "handle": "media-theme__mens-interests"
+        },
+        {
+          "name": "Music",
+          "handle": "media-theme__music"
+        },
+        {
+          "name": "News & current affairs",
+          "handle": "media-theme__news-current-affairs"
+        },
+        {
+          "name": "Outdoor & adventure",
+          "handle": "media-theme__outdoor-adventure"
+        },
+        {
+          "name": "Parenting & family",
+          "handle": "media-theme__parenting-family"
+        },
+        {
+          "name": "Pets & animals",
+          "handle": "media-theme__pets-animals"
+        },
+        {
+          "name": "Photography",
+          "handle": "media-theme__photography"
+        },
+        {
+          "name": "Science & nature",
+          "handle": "media-theme__science-nature"
+        },
+        {
+          "name": "Sport & fitness",
+          "handle": "media-theme__sport-fitness"
+        },
+        {
+          "name": "Technology",
+          "handle": "media-theme__technology"
+        },
+        {
+          "name": "Teen & young adult",
+          "handle": "media-theme__teen-young-adult"
+        },
+        {
+          "name": "Travel",
+          "handle": "media-theme__travel"
+        },
+        {
+          "name": "Wedding",
+          "handle": "media-theme__wedding"
+        },
+        {
+          "name": "Women's interests",
+          "handle": "media-theme__womens-interests"
+        },
+        {
+          "name": "Other",
+          "handle": "media-theme__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2545",
+      "name": "Product manual area",
+      "handle": "product-manual-area",
+      "description": "Specifies the topic of a product manual, e.g. camera & optics, office supplies",
+      "values": [
+        {
+          "name": "Camera & optics",
+          "handle": "product-manual-area__camera-optics"
+        },
+        {
+          "name": "Carpentry & woodworking project plans",
+          "handle": "product-manual-area__carpentry-woodworking-project-plans"
+        },
+        {
+          "name": "Electronics",
+          "handle": "product-manual-area__electronics"
+        },
+        {
+          "name": "Exercise & fitness equipment",
+          "handle": "product-manual-area__exercise-fitness-equipment"
+        },
+        {
+          "name": "Household appliance",
+          "handle": "product-manual-area__household-appliance"
+        },
+        {
+          "name": "Kitchen appliance",
+          "handle": "product-manual-area__kitchen-appliance"
+        },
+        {
+          "name": "Model & toys",
+          "handle": "product-manual-area__model-toys"
+        },
+        {
+          "name": "Office supplies",
+          "handle": "product-manual-area__office-supplies"
+        },
+        {
+          "name": "Power tool & equipment",
+          "handle": "product-manual-area__power-tool-equipment"
+        },
+        {
+          "name": "Vehicle service",
+          "handle": "product-manual-area__vehicle-service"
+        },
+        {
+          "name": "Other",
+          "handle": "product-manual-area__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2541",
+      "name": "Publication frequency",
+      "handle": "publication-frequency",
+      "description": "Indicates how often a magazine or newspaper is published, such as daily or monthly",
+      "values": [
+        {
+          "name": "Annual",
+          "handle": "publication-frequency__annual"
+        },
+        {
+          "name": "Bi-monthly",
+          "handle": "publication-frequency__bi-monthly"
+        },
+        {
+          "name": "Bi-weekly",
+          "handle": "publication-frequency__bi-weekly"
+        },
+        {
+          "name": "Daily",
+          "handle": "publication-frequency__daily"
+        },
+        {
+          "name": "Monthly",
+          "handle": "publication-frequency__monthly"
+        },
+        {
+          "name": "Quarterly",
+          "handle": "publication-frequency__quarterly"
+        },
+        {
+          "name": "Semi-annual",
+          "handle": "publication-frequency__semi-annual"
+        },
+        {
+          "name": "Weekly",
+          "handle": "publication-frequency__weekly"
+        },
+        {
+          "name": "Other",
+          "handle": "publication-frequency__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2530",
+      "name": "Publication type",
+      "handle": "publication-type",
+      "description": "Identifies the type of academic or research publication, such as a journal article or thesis",
+      "values": [
+        {
+          "name": "Book chapter",
+          "handle": "publication-type__book-chapter"
+        },
+        {
+          "name": "Case study",
+          "handle": "publication-type__case-study"
+        },
+        {
+          "name": "Conference paper",
+          "handle": "publication-type__conference-paper"
+        },
+        {
+          "name": "Dissertation",
+          "handle": "publication-type__dissertation"
+        },
+        {
+          "name": "Journal article",
+          "handle": "publication-type__journal-article"
+        },
+        {
+          "name": "Research report",
+          "handle": "publication-type__research-report"
+        },
+        {
+          "name": "Review article",
+          "handle": "publication-type__review-article"
+        },
+        {
+          "name": "Technical report",
+          "handle": "publication-type__technical-report"
+        },
+        {
+          "name": "Thesis",
+          "handle": "publication-type__thesis"
+        },
+        {
+          "name": "White paper",
+          "handle": "publication-type__white-paper"
+        },
+        {
+          "name": "Other",
+          "handle": "publication-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2544",
+      "name": "Release schedule",
+      "handle": "release-schedule",
+      "description": "Specifies how often new episodes or updates are released, e.g. weekly, bi-weekly",
+      "values": [
+        {
+          "name": "Bi-weekly",
+          "handle": "release-schedule__bi-weekly"
+        },
+        {
+          "name": "Daily",
+          "handle": "release-schedule__daily"
+        },
+        {
+          "name": "Irregular",
+          "handle": "release-schedule__irregular"
+        },
+        {
+          "name": "Monthly",
+          "handle": "release-schedule__monthly"
+        },
+        {
+          "name": "Weekly",
+          "handle": "release-schedule__weekly"
+        },
+        {
+          "name": "Other",
+          "handle": "release-schedule__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2531",
+      "name": "Research focus",
+      "handle": "research-focus",
+      "description": "Identifies the main area of study in academic papers, like biology or economics",
+      "values": [
+        {
+          "name": "Anthropology",
+          "handle": "research-focus__anthropology"
+        },
+        {
+          "name": "Biology",
+          "handle": "research-focus__biology"
+        },
+        {
+          "name": "Chemistry",
+          "handle": "research-focus__chemistry"
+        },
+        {
+          "name": "Computer science",
+          "handle": "research-focus__computer-science"
+        },
+        {
+          "name": "Economics",
+          "handle": "research-focus__economics"
+        },
+        {
+          "name": "Environmental science",
+          "handle": "research-focus__environmental-science"
+        },
+        {
+          "name": "Geography",
+          "handle": "research-focus__geography"
+        },
+        {
+          "name": "History",
+          "handle": "research-focus__history"
+        },
+        {
+          "name": "Linguistics",
+          "handle": "research-focus__linguistics"
+        },
+        {
+          "name": "Literature",
+          "handle": "research-focus__literature"
+        },
+        {
+          "name": "Philosophy",
+          "handle": "research-focus__philosophy"
+        },
+        {
+          "name": "Physics",
+          "handle": "research-focus__physics"
+        },
+        {
+          "name": "Political science",
+          "handle": "research-focus__political-science"
+        },
+        {
+          "name": "Psychology",
+          "handle": "research-focus__psychology"
+        },
+        {
+          "name": "Sociology",
+          "handle": "research-focus__sociology"
+        },
+        {
+          "name": "Other",
+          "handle": "research-focus__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2532",
+      "name": "Research methodology",
+      "handle": "research-methodology",
+      "description": "Identifies the type of research methods used in academic papers, like survey or qualitative",
+      "values": [
+        {
+          "name": "Case study",
+          "handle": "research-methodology__case-study"
+        },
+        {
+          "name": "Experimental",
+          "handle": "research-methodology__experimental"
+        },
+        {
+          "name": "Literature review",
+          "handle": "research-methodology__literature-review"
+        },
+        {
+          "name": "Meta-analysis",
+          "handle": "research-methodology__meta-analysis"
+        },
+        {
+          "name": "Mixed methods",
+          "handle": "research-methodology__mixed-methods"
+        },
+        {
+          "name": "Modeling and simulation",
+          "handle": "research-methodology__modeling-and-simulation"
+        },
+        {
+          "name": "Observational",
+          "handle": "research-methodology__observational"
+        },
+        {
+          "name": "Qualitative",
+          "handle": "research-methodology__qualitative"
+        },
+        {
+          "name": "Quantitative",
+          "handle": "research-methodology__quantitative"
+        },
+        {
+          "name": "Survey",
+          "handle": "research-methodology__survey"
+        },
+        {
+          "name": "Other",
+          "handle": "research-methodology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2533",
+      "name": "Subject area",
+      "handle": "subject-area",
+      "description": "Identifies the subject area of academic papers or studies, such as science or arts",
+      "values": [
+        {
+          "name": "Arts",
+          "handle": "subject-area__arts"
+        },
+        {
+          "name": "Business",
+          "handle": "subject-area__business"
+        },
+        {
+          "name": "Education",
+          "handle": "subject-area__education"
+        },
+        {
+          "name": "Engineering",
+          "handle": "subject-area__engineering"
+        },
+        {
+          "name": "Health sciences",
+          "handle": "subject-area__health-sciences"
+        },
+        {
+          "name": "Humanities",
+          "handle": "subject-area__humanities"
+        },
+        {
+          "name": "Mathematics",
+          "handle": "subject-area__mathematics"
+        },
+        {
+          "name": "Science",
+          "handle": "subject-area__science"
+        },
+        {
+          "name": "Social sciences",
+          "handle": "subject-area__social-sciences"
+        },
+        {
+          "name": "Technology",
+          "handle": "subject-area__technology"
+        },
+        {
+          "name": "Other",
+          "handle": "subject-area__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2534",
+      "name": "Time period",
+      "handle": "time-period",
+      "description": "Specifies the time frame related to academic papers or studies, such as medieval or industrial revolution",
+      "values": [
+        {
+          "name": "20th century",
+          "handle": "time-period__20th-century"
+        },
+        {
+          "name": "Ancient",
+          "handle": "time-period__ancient"
+        },
+        {
+          "name": "Contemporary",
+          "handle": "time-period__contemporary"
+        },
+        {
+          "name": "Historical",
+          "handle": "time-period__historical"
+        },
+        {
+          "name": "Industrial revolution",
+          "handle": "time-period__industrial-revolution"
+        },
+        {
+          "name": "Medieval",
+          "handle": "time-period__medieval"
+        },
+        {
+          "name": "Modern",
+          "handle": "time-period__modern"
+        },
+        {
+          "name": "Prehistoric",
+          "handle": "time-period__prehistoric"
+        },
+        {
+          "name": "Renaissance",
+          "handle": "time-period__renaissance"
+        },
+        {
+          "name": "Other",
+          "handle": "time-period__other"
+        }
+      ]
+    }
+  ]
+}

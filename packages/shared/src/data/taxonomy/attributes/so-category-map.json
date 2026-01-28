@@ -1,0 +1,333 @@
+{
+  "gid://shopify/TaxonomyCategory/so": [
+    "software-features"
+  ],
+  "gid://shopify/TaxonomyCategory/so-4": [
+    "compatible-programming-languages",
+    "compliance-certifications",
+    "primary-region",
+    "service-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-1": [
+    "additional-security-software-features",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-15": [
+    "ai-application",
+    "compatible-programming-languages",
+    "deployment-type",
+    "industry-focus",
+    "license-type",
+    "performance-metrics",
+    "training-data-requirements"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-15-1": [
+    "ai-application",
+    "compatible-programming-languages",
+    "industry-focus",
+    "license-type",
+    "performance-metrics",
+    "training-data-requirements"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-2": [
+    "customer-support-channels",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-2-11": [
+    "customer-support-channels",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-2-12": [
+    "customer-support-channels",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-2-13": [
+    "customer-support-channels",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-2-1": [
+    "customer-support-channels",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-2-14": [
+    "customer-support-channels",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-2-8": [
+    "customer-support-channels",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-3": [
+    "compatible-programming-languages",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "software-tool-type",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-3-1": [
+    "compatible-programming-languages",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "software-tool-type",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-4": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type",
+    "utility-maintenance-task-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-5": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-6": [
+    "education-level",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-7": [
+    "additional-financial-software-features",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-8": [
+    "country",
+    "coverage-region",
+    "gps-compatible-device",
+    "gps-map-type",
+    "gps-software-focus",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "update-frequency",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-9": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-1": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-2": [
+    "additional-animation-software-features",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-3": [
+    "additional-graphic-software-features",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-4": [
+    "additional-design-software-type",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-5": [
+    "additional-publishing-software-features",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-6": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-7": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-8": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-9": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-10-10": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-11": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-12": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-13": [
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-1-14": [
+    "disk-format-type",
+    "license-type",
+    "operating-system",
+    "software-features",
+    "language",
+    "user-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2": [
+    "operating-system",
+    "software-features"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2-1": [
+    "file-format-type",
+    "icon-type",
+    "operating-system",
+    "software-features"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2-2": [
+    "file-format-type",
+    "operating-system",
+    "software-features",
+    "wallpaper-theme"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2-3": [
+    "artwork-type",
+    "file-format-type",
+    "operating-system",
+    "software-features"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2-4": [
+    "compatible-software-platform",
+    "file-format-type",
+    "operating-system",
+    "software-features",
+    "template-type"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2-5": [
+    "file-format-type",
+    "font-style",
+    "operating-system",
+    "software-features"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2-6": [
+    "file-format-type",
+    "footage-type",
+    "operating-system",
+    "software-features"
+  ],
+  "gid://shopify/TaxonomyCategory/so-2-7": [
+    "software-features"
+  ],
+  "gid://shopify/TaxonomyCategory/so-3": [
+    "esrb-rating",
+    "national-regional-rating",
+    "pegi-rating",
+    "region-code",
+    "video-game-content-features",
+    "video-game-format",
+    "video-game-genre",
+    "video-game-platform",
+    "video-game-sub-genre"
+  ]
+}

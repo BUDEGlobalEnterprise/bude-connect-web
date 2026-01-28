@@ -1,0 +1,2708 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2016",
+      "name": "Auto focusing modes",
+      "handle": "auto-focusing-modes",
+      "description": "Identifies the type of autofocus in cameras, such as spot or tracking",
+      "values": [
+        {
+          "name": "AI",
+          "handle": "auto-focusing-modes__ai"
+        },
+        {
+          "name": "Area",
+          "handle": "auto-focusing-modes__area"
+        },
+        {
+          "name": "Center weighted",
+          "handle": "auto-focusing-modes__center-weighted"
+        },
+        {
+          "name": "Continuous",
+          "handle": "auto-focusing-modes__continuous"
+        },
+        {
+          "name": "Contrast detection",
+          "handle": "auto-focusing-modes__contrast-detection"
+        },
+        {
+          "name": "Far/Near",
+          "handle": "auto-focusing-modes__far-near"
+        },
+        {
+          "name": "Flexible spot",
+          "handle": "auto-focusing-modes__flexible-spot"
+        },
+        {
+          "name": "Monitoring",
+          "handle": "auto-focusing-modes__monitoring"
+        },
+        {
+          "name": "Multi point",
+          "handle": "auto-focusing-modes__multi-point"
+        },
+        {
+          "name": "One shot",
+          "handle": "auto-focusing-modes__one-shot"
+        },
+        {
+          "name": "Selective",
+          "handle": "auto-focusing-modes__selective"
+        },
+        {
+          "name": "Servo",
+          "handle": "auto-focusing-modes__servo"
+        },
+        {
+          "name": "Single",
+          "handle": "auto-focusing-modes__single"
+        },
+        {
+          "name": "Spot",
+          "handle": "auto-focusing-modes__spot"
+        },
+        {
+          "name": "Tracking",
+          "handle": "auto-focusing-modes__tracking"
+        },
+        {
+          "name": "Other",
+          "handle": "auto-focusing-modes__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2047",
+      "name": "Background design",
+      "handle": "background-design",
+      "description": "Describes the visual design or pattern on a studio background, such as printed or chroma key",
+      "values": [
+        {
+          "name": "Canvas",
+          "handle": "background-design__canvas"
+        },
+        {
+          "name": "Chroma key",
+          "handle": "background-design__chroma-key"
+        },
+        {
+          "name": "Collapsible",
+          "handle": "background-design__collapsible"
+        },
+        {
+          "name": "Muslin",
+          "handle": "background-design__muslin"
+        },
+        {
+          "name": "Printed",
+          "handle": "background-design__printed"
+        },
+        {
+          "name": "Seamless paper",
+          "handle": "background-design__seamless-paper"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "background-design__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "background-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2959",
+      "name": "Binocular/Monocular design",
+      "handle": "binocular-monocular-design",
+      "description": "Describes the specific use for binoculars or monoculars, such as astronomy or hunting",
+      "values": [
+        {
+          "name": "Astronomy",
+          "handle": "binocular-monocular-design__astronomy"
+        },
+        {
+          "name": "Bird watching",
+          "handle": "binocular-monocular-design__bird-watching"
+        },
+        {
+          "name": "Compact",
+          "handle": "binocular-monocular-design__compact"
+        },
+        {
+          "name": "Hunting",
+          "handle": "binocular-monocular-design__hunting"
+        },
+        {
+          "name": "Infrared",
+          "handle": "binocular-monocular-design__infrared"
+        },
+        {
+          "name": "Marine",
+          "handle": "binocular-monocular-design__marine"
+        },
+        {
+          "name": "Night vision",
+          "handle": "binocular-monocular-design__night-vision"
+        },
+        {
+          "name": "Opera",
+          "handle": "binocular-monocular-design__opera"
+        },
+        {
+          "name": "Standard",
+          "handle": "binocular-monocular-design__standard"
+        },
+        {
+          "name": "Thermal",
+          "handle": "binocular-monocular-design__thermal"
+        },
+        {
+          "name": "Zoom",
+          "handle": "binocular-monocular-design__zoom"
+        },
+        {
+          "name": "Other",
+          "handle": "binocular-monocular-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2015",
+      "name": "Borescope design",
+      "handle": "borescope-design",
+      "description": "Describes the type of borescope, such as flexible, rigid, or fiberscope",
+      "values": [
+        {
+          "name": "Fiberscope",
+          "handle": "borescope-design__fiberscope"
+        },
+        {
+          "name": "Flexible",
+          "handle": "borescope-design__flexible"
+        },
+        {
+          "name": "Inspection camera",
+          "handle": "borescope-design__inspection-camera"
+        },
+        {
+          "name": "Rigid",
+          "handle": "borescope-design__rigid"
+        },
+        {
+          "name": "Videoscope",
+          "handle": "borescope-design__videoscope"
+        },
+        {
+          "name": "Other",
+          "handle": "borescope-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2018",
+      "name": "Camera HD type",
+      "handle": "camera-hd-type",
+      "description": "Specifies the camera's video quality, such as Quad HD or 8K ultra HD",
+      "values": [
+        {
+          "name": "4K",
+          "handle": "camera-hd-type__4k"
+        },
+        {
+          "name": "4.4K",
+          "handle": "camera-hd-type__4-4k"
+        },
+        {
+          "name": "5.7K",
+          "handle": "camera-hd-type__5-7k"
+        },
+        {
+          "name": "5.8K",
+          "handle": "camera-hd-type__5-8k"
+        },
+        {
+          "name": "8K",
+          "handle": "camera-hd-type__8k"
+        },
+        {
+          "name": "4K ultra HD",
+          "handle": "camera-hd-type__4k-ultra-hd"
+        },
+        {
+          "name": "5K ultra HD",
+          "handle": "camera-hd-type__5k-ultra-hd"
+        },
+        {
+          "name": "6K ultra HD",
+          "handle": "camera-hd-type__6k-ultra-hd"
+        },
+        {
+          "name": "8K ultra HD",
+          "handle": "camera-hd-type__8k-ultra-hd"
+        },
+        {
+          "name": "Full HD",
+          "handle": "camera-hd-type__full-hd"
+        },
+        {
+          "name": "HD",
+          "handle": "camera-hd-type__hd"
+        },
+        {
+          "name": "Not supported",
+          "handle": "camera-hd-type__not-supported"
+        },
+        {
+          "name": "Quad HD",
+          "handle": "camera-hd-type__quad-hd"
+        },
+        {
+          "name": "SD",
+          "handle": "camera-hd-type__sd"
+        },
+        {
+          "name": "VGA",
+          "handle": "camera-hd-type__vga"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-hd-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2006",
+      "name": "Camera attachment",
+      "handle": "camera-attachment",
+      "description": "Specifies the camera part or accessory, such as an angle viewfinder or eyepiece adapter",
+      "values": [
+        {
+          "name": "Angle viewfinder",
+          "handle": "camera-attachment__angle-viewfinder"
+        },
+        {
+          "name": "Eyecup viewfinder",
+          "handle": "camera-attachment__eyecup-viewfinder"
+        },
+        {
+          "name": "Eyepiece adapter",
+          "handle": "camera-attachment__eyepiece-adapter"
+        },
+        {
+          "name": "LCD viewfinder",
+          "handle": "camera-attachment__lcd-viewfinder"
+        },
+        {
+          "name": "Magnifying viewfinder",
+          "handle": "camera-attachment__magnifying-viewfinder"
+        },
+        {
+          "name": "Rubber eyecup",
+          "handle": "camera-attachment__rubber-eyecup"
+        },
+        {
+          "name": "Sun hood",
+          "handle": "camera-attachment__sun-hood"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-attachment__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2002",
+      "name": "Camera button/knob type",
+      "handle": "camera-button-knob-type",
+      "description": "Identifies the button or knob on a camera, e.g. shutter release button, mode dial knob",
+      "values": [
+        {
+          "name": "Body cover",
+          "handle": "camera-button-knob-type__body-cover"
+        },
+        {
+          "name": "Command dial knob",
+          "handle": "camera-button-knob-type__command-dial-knob"
+        },
+        {
+          "name": "Function button",
+          "handle": "camera-button-knob-type__function-button"
+        },
+        {
+          "name": "Lens aperture control ring",
+          "handle": "camera-button-knob-type__lens-aperture-control-ring"
+        },
+        {
+          "name": "Lens focus control ring",
+          "handle": "camera-button-knob-type__lens-focus-control-ring"
+        },
+        {
+          "name": "Mode dial knob",
+          "handle": "camera-button-knob-type__mode-dial-knob"
+        },
+        {
+          "name": "Opening latch",
+          "handle": "camera-button-knob-type__opening-latch"
+        },
+        {
+          "name": "Shutter release button",
+          "handle": "camera-button-knob-type__shutter-release-button"
+        },
+        {
+          "name": "Zoom control ring",
+          "handle": "camera-button-knob-type__zoom-control-ring"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-button-knob-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2000",
+      "name": "Camera control type",
+      "handle": "camera-control-type",
+      "description": "Specifies the type of camera remote control, e.g. remote switch, shutter release",
+      "values": [
+        {
+          "name": "Cable release",
+          "handle": "camera-control-type__cable-release"
+        },
+        {
+          "name": "Intervalometer",
+          "handle": "camera-control-type__intervalometer"
+        },
+        {
+          "name": "Remote switch",
+          "handle": "camera-control-type__remote-switch"
+        },
+        {
+          "name": "Shutter release",
+          "handle": "camera-control-type__shutter-release"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-control-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2017",
+      "name": "Camera display technology",
+      "handle": "camera-display-technology",
+      "description": "Specifies the screen technology of a camera, e.g. OLED, Super AMOLED",
+      "values": [
+        {
+          "name": "AMOLED",
+          "handle": "camera-display-technology__amoled"
+        },
+        {
+          "name": "LCD",
+          "handle": "camera-display-technology__lcd"
+        },
+        {
+          "name": "OLED",
+          "handle": "camera-display-technology__oled"
+        },
+        {
+          "name": "Super AMOLED",
+          "handle": "camera-display-technology__super-amoled"
+        },
+        {
+          "name": "TFT",
+          "handle": "camera-display-technology__tft"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-display-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3062",
+      "name": "Camera features",
+      "handle": "camera-features",
+      "description": "Identifies special capabilities of a camera, like image stabilization or face detection",
+      "values": [
+        {
+          "name": "Adjustable aperture",
+          "handle": "camera-features__adjustable-aperture"
+        },
+        {
+          "name": "Adjustable ISO",
+          "handle": "camera-features__adjustable-iso"
+        },
+        {
+          "name": "Adjustable shutter speed",
+          "handle": "camera-features__adjustable-shutter-speed"
+        },
+        {
+          "name": "Anti-reflective",
+          "handle": "camera-features__anti-reflective"
+        },
+        {
+          "name": "Articulating screen",
+          "handle": "camera-features__articulating-screen"
+        },
+        {
+          "name": "Built-in flash",
+          "handle": "camera-features__built-in-flash"
+        },
+        {
+          "name": "Built-in speakers",
+          "handle": "camera-features__built-in-speakers"
+        },
+        {
+          "name": "Digital zoom",
+          "handle": "camera-features__digital-zoom"
+        },
+        {
+          "name": "Face detection",
+          "handle": "camera-features__face-detection"
+        },
+        {
+          "name": "Freezeproof",
+          "handle": "camera-features__freezeproof"
+        },
+        {
+          "name": "Hot shoe mount",
+          "handle": "camera-features__hot-shoe-mount"
+        },
+        {
+          "name": "Image stabilization",
+          "handle": "camera-features__image-stabilization"
+        },
+        {
+          "name": "Interchangeable lens",
+          "handle": "camera-features__interchangeable-lens"
+        },
+        {
+          "name": "LED backlight",
+          "handle": "camera-features__led-backlight"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "camera-features__lightweight"
+        },
+        {
+          "name": "Remote control",
+          "handle": "camera-features__remote-control"
+        },
+        {
+          "name": "Self-timer",
+          "handle": "camera-features__self-timer"
+        },
+        {
+          "name": "Shockproof",
+          "handle": "camera-features__shockproof"
+        },
+        {
+          "name": "Slow motion mode",
+          "handle": "camera-features__slow-motion-mode"
+        },
+        {
+          "name": "Time lapse mode",
+          "handle": "camera-features__time-lapse-mode"
+        },
+        {
+          "name": "Timer",
+          "handle": "camera-features__timer"
+        },
+        {
+          "name": "Touchscreen",
+          "handle": "camera-features__touchscreen"
+        },
+        {
+          "name": "Viewfinder",
+          "handle": "camera-features__viewfinder"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "camera-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1997",
+      "name": "Camera gear type",
+      "handle": "camera-gear-type",
+      "description": "Identifies the specific type of camera gear, such as camera drive or follow focus",
+      "values": [
+        {
+          "name": "Camera drive",
+          "handle": "camera-gear-type__camera-drive"
+        },
+        {
+          "name": "Follow focus",
+          "handle": "camera-gear-type__follow-focus"
+        },
+        {
+          "name": "Iris control",
+          "handle": "camera-gear-type__iris-control"
+        },
+        {
+          "name": "Lens gear ring",
+          "handle": "camera-gear-type__lens-gear-ring"
+        },
+        {
+          "name": "Zoom control",
+          "handle": "camera-gear-type__zoom-control"
+        },
+        {
+          "name": "Other",
+          "handle": "camera-gear-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2011",
+      "name": "Collar/Mount compatible device",
+      "handle": "collar-mount-compatible-device",
+      "description": "Specifies the compatible device for tripod collars or mounts, e.g. lens, camera",
+      "values": [
+        {
+          "name": "Camera",
+          "handle": "collar-mount-compatible-device__camera"
+        },
+        {
+          "name": "Lens",
+          "handle": "collar-mount-compatible-device__lens"
+        },
+        {
+          "name": "Smartphone",
+          "handle": "collar-mount-compatible-device__smartphone"
+        },
+        {
+          "name": "Other",
+          "handle": "collar-mount-compatible-device__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2012",
+      "name": "Collar/Mount design",
+      "handle": "collar-mount-design",
+      "description": "Describes the design of tripod collars or mounts, such as quick release or ring",
+      "values": [
+        {
+          "name": "Ball head",
+          "handle": "collar-mount-design__ball-head"
+        },
+        {
+          "name": "Boom pole",
+          "handle": "collar-mount-design__boom-pole"
+        },
+        {
+          "name": "Clamp",
+          "handle": "collar-mount-design__clamp"
+        },
+        {
+          "name": "Plate",
+          "handle": "collar-mount-design__plate"
+        },
+        {
+          "name": "Quick release",
+          "handle": "collar-mount-design__quick-release"
+        },
+        {
+          "name": "Ring",
+          "handle": "collar-mount-design__ring"
+        },
+        {
+          "name": "Other",
+          "handle": "collar-mount-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1989",
+      "name": "Color saturation",
+      "handle": "color-saturation",
+      "description": "Indicates the intensity of color in camera film, e.g. high, low",
+      "values": [
+        {
+          "name": "High",
+          "handle": "color-saturation__high"
+        },
+        {
+          "name": "Low",
+          "handle": "color-saturation__low"
+        },
+        {
+          "name": "Normal",
+          "handle": "color-saturation__normal"
+        },
+        {
+          "name": "Other",
+          "handle": "color-saturation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2042",
+      "name": "Compatible film type",
+      "handle": "compatible-film-type",
+      "description": "Identifies the type of film a camera can use, like negative film or color film",
+      "values": [
+        {
+          "name": "Black & white film",
+          "handle": "compatible-film-type__black-white-film"
+        },
+        {
+          "name": "Black & white paper",
+          "handle": "compatible-film-type__black-white-paper"
+        },
+        {
+          "name": "Color film",
+          "handle": "compatible-film-type__color-film"
+        },
+        {
+          "name": "Color paper",
+          "handle": "compatible-film-type__color-paper"
+        },
+        {
+          "name": "Negative film",
+          "handle": "compatible-film-type__negative-film"
+        },
+        {
+          "name": "Reversal film",
+          "handle": "compatible-film-type__reversal-film"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-film-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1990",
+      "name": "Contrast",
+      "handle": "contrast",
+      "description": "Used to specify the level of contrast in camera film, e.g. normal or high",
+      "values": [
+        {
+          "name": "High",
+          "handle": "contrast__high"
+        },
+        {
+          "name": "Low",
+          "handle": "contrast__low"
+        },
+        {
+          "name": "Normal",
+          "handle": "contrast__normal"
+        },
+        {
+          "name": "Other",
+          "handle": "contrast__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1986",
+      "name": "Converter functionality",
+      "handle": "converter-functionality",
+      "description": "Identifies the specific function of lens converters, such as speed booster or wide angle",
+      "values": [
+        {
+          "name": "Depth of field",
+          "handle": "converter-functionality__depth-of-field"
+        },
+        {
+          "name": "Fisheye",
+          "handle": "converter-functionality__fisheye"
+        },
+        {
+          "name": "Macro",
+          "handle": "converter-functionality__macro"
+        },
+        {
+          "name": "Speed booster",
+          "handle": "converter-functionality__speed-booster"
+        },
+        {
+          "name": "Teleconverter",
+          "handle": "converter-functionality__teleconverter"
+        },
+        {
+          "name": "Wide angle",
+          "handle": "converter-functionality__wide-angle"
+        },
+        {
+          "name": "Other",
+          "handle": "converter-functionality__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2048",
+      "name": "Diffuser design",
+      "handle": "diffuser-design",
+      "description": "Describes the structure of a flash diffuser, such as ring or dome",
+      "values": [
+        {
+          "name": "Beauty dish",
+          "handle": "diffuser-design__beauty-dish"
+        },
+        {
+          "name": "Bounce",
+          "handle": "diffuser-design__bounce"
+        },
+        {
+          "name": "Dome",
+          "handle": "diffuser-design__dome"
+        },
+        {
+          "name": "Flash bender",
+          "handle": "diffuser-design__flash-bender"
+        },
+        {
+          "name": "Honeycomb",
+          "handle": "diffuser-design__honeycomb"
+        },
+        {
+          "name": "Ring",
+          "handle": "diffuser-design__ring"
+        },
+        {
+          "name": "Snoot",
+          "handle": "diffuser-design__snoot"
+        },
+        {
+          "name": "Softbox",
+          "handle": "diffuser-design__softbox"
+        },
+        {
+          "name": "Umbrella",
+          "handle": "diffuser-design__umbrella"
+        },
+        {
+          "name": "Other",
+          "handle": "diffuser-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2026",
+      "name": "Exposure control",
+      "handle": "exposure-control",
+      "description": "Defines the method of adjusting the amount of light in a photo, e.g. shutter priority, aperture priority",
+      "values": [
+        {
+          "name": "Aperture priority",
+          "handle": "exposure-control__aperture-priority"
+        },
+        {
+          "name": "Automatic",
+          "handle": "exposure-control__automatic"
+        },
+        {
+          "name": "Manual",
+          "handle": "exposure-control__manual"
+        },
+        {
+          "name": "Program",
+          "handle": "exposure-control__program"
+        },
+        {
+          "name": "Shutter priority",
+          "handle": "exposure-control__shutter-priority"
+        },
+        {
+          "name": "Other",
+          "handle": "exposure-control__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2027",
+      "name": "Film type",
+      "handle": "film-type",
+      "description": "Identifies the size and format of film used in cameras, such as 35 mm or 120 mm",
+      "values": [
+        {
+          "name": "16 mm",
+          "handle": "film-type__16-mm"
+        },
+        {
+          "name": "35 mm",
+          "handle": "film-type__35-mm"
+        },
+        {
+          "name": "48mm",
+          "handle": "film-type__48mm"
+        },
+        {
+          "name": "70 mm",
+          "handle": "film-type__70-mm"
+        },
+        {
+          "name": "110 mm",
+          "handle": "film-type__110-mm"
+        },
+        {
+          "name": "120 mm",
+          "handle": "film-type__120-mm"
+        },
+        {
+          "name": "Other",
+          "handle": "film-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1993",
+      "name": "Flash modes",
+      "handle": "flash-modes",
+      "description": "Identifies the different settings for a camera's flash, such as auto or manual",
+      "values": [
+        {
+          "name": "Auto",
+          "handle": "flash-modes__auto"
+        },
+        {
+          "name": "Fill-in",
+          "handle": "flash-modes__fill-in"
+        },
+        {
+          "name": "Flash off",
+          "handle": "flash-modes__flash-off"
+        },
+        {
+          "name": "Flash on",
+          "handle": "flash-modes__flash-on"
+        },
+        {
+          "name": "Forced off",
+          "handle": "flash-modes__forced-off"
+        },
+        {
+          "name": "Forced on",
+          "handle": "flash-modes__forced-on"
+        },
+        {
+          "name": "High-speed sync",
+          "handle": "flash-modes__high-speed-sync"
+        },
+        {
+          "name": "Manual",
+          "handle": "flash-modes__manual"
+        },
+        {
+          "name": "Multi",
+          "handle": "flash-modes__multi"
+        },
+        {
+          "name": "Normal",
+          "handle": "flash-modes__normal"
+        },
+        {
+          "name": "Pre-flash",
+          "handle": "flash-modes__pre-flash"
+        },
+        {
+          "name": "Rear curtain",
+          "handle": "flash-modes__rear-curtain"
+        },
+        {
+          "name": "Red-eye reduction",
+          "handle": "flash-modes__red-eye-reduction"
+        },
+        {
+          "name": "Second curtain sync",
+          "handle": "flash-modes__second-curtain-sync"
+        },
+        {
+          "name": "Slave",
+          "handle": "flash-modes__slave"
+        },
+        {
+          "name": "Slow synchronization",
+          "handle": "flash-modes__slow-synchronization"
+        },
+        {
+          "name": "Soft",
+          "handle": "flash-modes__soft"
+        },
+        {
+          "name": "Stroboscopic",
+          "handle": "flash-modes__stroboscopic"
+        },
+        {
+          "name": "Suppressed",
+          "handle": "flash-modes__suppressed"
+        },
+        {
+          "name": "TTL",
+          "handle": "flash-modes__ttl"
+        },
+        {
+          "name": "Other",
+          "handle": "flash-modes__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1994",
+      "name": "Flash type",
+      "handle": "flash-type",
+      "description": "Identifies the type of flash used in cameras, such as ring or macro",
+      "values": [
+        {
+          "name": "Bare bulb",
+          "handle": "flash-type__bare-bulb"
+        },
+        {
+          "name": "Camcorder",
+          "handle": "flash-type__camcorder"
+        },
+        {
+          "name": "Compact camera",
+          "handle": "flash-type__compact-camera"
+        },
+        {
+          "name": "Macro",
+          "handle": "flash-type__macro"
+        },
+        {
+          "name": "Off-camera",
+          "handle": "flash-type__off-camera"
+        },
+        {
+          "name": "Ring",
+          "handle": "flash-type__ring"
+        },
+        {
+          "name": "Shoe mount",
+          "handle": "flash-type__shoe-mount"
+        },
+        {
+          "name": "Slave camera",
+          "handle": "flash-type__slave-camera"
+        },
+        {
+          "name": "Studio",
+          "handle": "flash-type__studio"
+        },
+        {
+          "name": "Other",
+          "handle": "flash-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1996",
+      "name": "Focus device type",
+      "handle": "focus-device-type",
+      "description": "Identifies the type of focus device used in cameras, e.g. focus assist tool, focus crank",
+      "values": [
+        {
+          "name": "Focus assist tool",
+          "handle": "focus-device-type__focus-assist-tool"
+        },
+        {
+          "name": "Focus crank",
+          "handle": "focus-device-type__focus-crank"
+        },
+        {
+          "name": "Focus handle",
+          "handle": "focus-device-type__focus-handle"
+        },
+        {
+          "name": "Focus whip",
+          "handle": "focus-device-type__focus-whip"
+        },
+        {
+          "name": "Follow focus system",
+          "handle": "focus-device-type__follow-focus-system"
+        },
+        {
+          "name": "Remote focus puller",
+          "handle": "focus-device-type__remote-focus-puller"
+        },
+        {
+          "name": "Other",
+          "handle": "focus-device-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1982",
+      "name": "Focus type",
+      "handle": "focus-type",
+      "description": "Identifies the method of focus in cameras, such as TTL or TTL-CT-SIR",
+      "values": [
+        {
+          "name": "TTL",
+          "handle": "focus-type__ttl"
+        },
+        {
+          "name": "TTL iESP",
+          "handle": "focus-type__ttl-iesp"
+        },
+        {
+          "name": "TTL-CT-SIR",
+          "handle": "focus-type__ttl-ct-sir"
+        },
+        {
+          "name": "Other",
+          "handle": "focus-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1992",
+      "name": "Grain",
+      "handle": "grain",
+      "description": "Indicates the level of graininess in camera film, for example high or fine",
+      "values": [
+        {
+          "name": "Fine",
+          "handle": "grain__fine"
+        },
+        {
+          "name": "High",
+          "handle": "grain__high"
+        },
+        {
+          "name": "Normal",
+          "handle": "grain__normal"
+        },
+        {
+          "name": "Other",
+          "handle": "grain__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2020",
+      "name": "Image formats supported",
+      "handle": "image-formats-supported",
+      "description": "Identifies the image file types a camera can produce, such as JPEG or RAW",
+      "values": [
+        {
+          "name": "C-RAW",
+          "handle": "image-formats-supported__c-raw"
+        },
+        {
+          "name": "DNG",
+          "handle": "image-formats-supported__dng"
+        },
+        {
+          "name": "EXIF",
+          "handle": "image-formats-supported__exif"
+        },
+        {
+          "name": "HEIF",
+          "handle": "image-formats-supported__heif"
+        },
+        {
+          "name": "JPEG",
+          "handle": "image-formats-supported__jpeg"
+        },
+        {
+          "name": "JPG",
+          "handle": "image-formats-supported__jpg"
+        },
+        {
+          "name": "NEF",
+          "handle": "image-formats-supported__nef"
+        },
+        {
+          "name": "RAW",
+          "handle": "image-formats-supported__raw"
+        },
+        {
+          "name": "sRAW",
+          "handle": "image-formats-supported__sraw"
+        },
+        {
+          "name": "TIFF",
+          "handle": "image-formats-supported__tiff"
+        },
+        {
+          "name": "Other",
+          "handle": "image-formats-supported__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2041",
+      "name": "Lamp type",
+      "handle": "lamp-type",
+      "description": "Specifies the light source in photographic enlargers, e.g. cold light, dichroic",
+      "values": [
+        {
+          "name": "Cold light",
+          "handle": "lamp-type__cold-light"
+        },
+        {
+          "name": "Condenser",
+          "handle": "lamp-type__condenser"
+        },
+        {
+          "name": "Dichroic",
+          "handle": "lamp-type__dichroic"
+        },
+        {
+          "name": "Opal",
+          "handle": "lamp-type__opal"
+        },
+        {
+          "name": "Other",
+          "handle": "lamp-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1985",
+      "name": "Lens cap compatible device",
+      "handle": "lens-cap-compatible-device",
+      "description": "Specifies the equipment compatible with lens caps, such as monocular or digital camera",
+      "values": [
+        {
+          "name": "Binocular",
+          "handle": "lens-cap-compatible-device__binocular"
+        },
+        {
+          "name": "Digital camera",
+          "handle": "lens-cap-compatible-device__digital-camera"
+        },
+        {
+          "name": "Monocular",
+          "handle": "lens-cap-compatible-device__monocular"
+        },
+        {
+          "name": "Other",
+          "handle": "lens-cap-compatible-device__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3303",
+      "name": "Lens storage type",
+      "handle": "lens-storage-type",
+      "description": "Describes the type of storage for camera lenses, like lens case or lens pouch",
+      "values": [
+        {
+          "name": "Belt pack",
+          "handle": "lens-storage-type__belt-pack"
+        },
+        {
+          "name": "Holster",
+          "handle": "lens-storage-type__holster"
+        },
+        {
+          "name": "Lens case",
+          "handle": "lens-storage-type__lens-case"
+        },
+        {
+          "name": "Lens cover",
+          "handle": "lens-storage-type__lens-cover"
+        },
+        {
+          "name": "Lens pouch",
+          "handle": "lens-storage-type__lens-pouch"
+        },
+        {
+          "name": "Lens tube",
+          "handle": "lens-storage-type__lens-tube"
+        },
+        {
+          "name": "Lens wrap",
+          "handle": "lens-storage-type__lens-wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "lens-storage-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2021",
+      "name": "Light exposure modes",
+      "handle": "light-exposure-modes",
+      "description": "Specifies the light adjustment options in cameras, like shutter priority AE or aperture priority AE",
+      "values": [
+        {
+          "name": "Aperture priority AE",
+          "handle": "light-exposure-modes__aperture-priority-ae"
+        },
+        {
+          "name": "Auto",
+          "handle": "light-exposure-modes__auto"
+        },
+        {
+          "name": "Manual",
+          "handle": "light-exposure-modes__manual"
+        },
+        {
+          "name": "Shutter priority AE",
+          "handle": "light-exposure-modes__shutter-priority-ae"
+        },
+        {
+          "name": "Touch priority AE",
+          "handle": "light-exposure-modes__touch-priority-ae"
+        },
+        {
+          "name": "Other",
+          "handle": "light-exposure-modes__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2050",
+      "name": "Light filtering",
+      "handle": "light-filtering",
+      "description": "Specifies the light filtering capabilities of a product, such as diffusion or blackout",
+      "values": [
+        {
+          "name": "Blackout",
+          "handle": "light-filtering__blackout"
+        },
+        {
+          "name": "Color correction",
+          "handle": "light-filtering__color-correction"
+        },
+        {
+          "name": "Color effects",
+          "handle": "light-filtering__color-effects"
+        },
+        {
+          "name": "Diffusion",
+          "handle": "light-filtering__diffusion"
+        },
+        {
+          "name": "General effects",
+          "handle": "light-filtering__general-effects"
+        },
+        {
+          "name": "Patterned",
+          "handle": "light-filtering__patterned"
+        },
+        {
+          "name": "Other",
+          "handle": "light-filtering__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2007",
+      "name": "Monitor type",
+      "handle": "monitor-type",
+      "description": "Specifies the type of on-camera monitor, e.g. touchscreen, HDR",
+      "values": [
+        {
+          "name": "3D LUT",
+          "handle": "monitor-type__3d-lut"
+        },
+        {
+          "name": "4K",
+          "handle": "monitor-type__4k"
+        },
+        {
+          "name": "Field",
+          "handle": "monitor-type__field"
+        },
+        {
+          "name": "HD",
+          "handle": "monitor-type__hd"
+        },
+        {
+          "name": "HDR",
+          "handle": "monitor-type__hdr"
+        },
+        {
+          "name": "On-camera",
+          "handle": "monitor-type__on-camera"
+        },
+        {
+          "name": "Recording",
+          "handle": "monitor-type__recording"
+        },
+        {
+          "name": "Touchscreen",
+          "handle": "monitor-type__touchscreen"
+        },
+        {
+          "name": "Other",
+          "handle": "monitor-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2054",
+      "name": "Negative/Slide storage type",
+      "handle": "negative-slide-storage-type",
+      "description": "Specifies the method of storing photographic negatives or slides, e.g. archive storage box, slide carousel",
+      "values": [
+        {
+          "name": "Archive storage box",
+          "handle": "negative-slide-storage-type__archive-storage-box"
+        },
+        {
+          "name": "Negative binder",
+          "handle": "negative-slide-storage-type__negative-binder"
+        },
+        {
+          "name": "Negative envelope",
+          "handle": "negative-slide-storage-type__negative-envelope"
+        },
+        {
+          "name": "Negative file",
+          "handle": "negative-slide-storage-type__negative-file"
+        },
+        {
+          "name": "Negative sleeves",
+          "handle": "negative-slide-storage-type__negative-sleeves"
+        },
+        {
+          "name": "Slide binder",
+          "handle": "negative-slide-storage-type__slide-binder"
+        },
+        {
+          "name": "Slide box",
+          "handle": "negative-slide-storage-type__slide-box"
+        },
+        {
+          "name": "Slide carousel",
+          "handle": "negative-slide-storage-type__slide-carousel"
+        },
+        {
+          "name": "Slide file",
+          "handle": "negative-slide-storage-type__slide-file"
+        },
+        {
+          "name": "Slide storage pages",
+          "handle": "negative-slide-storage-type__slide-storage-pages"
+        },
+        {
+          "name": "Slide tray",
+          "handle": "negative-slide-storage-type__slide-tray"
+        },
+        {
+          "name": "Other",
+          "handle": "negative-slide-storage-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2022",
+      "name": "Optical zoom",
+      "handle": "optical-zoom",
+      "description": "Indicates the zoom capability of a camera, e.g. no zoom, more than 30x",
+      "values": [
+        {
+          "name": "10-20x",
+          "handle": "optical-zoom__10-20x"
+        },
+        {
+          "name": "20-30x",
+          "handle": "optical-zoom__20-30x"
+        },
+        {
+          "name": "Less than 10x",
+          "handle": "optical-zoom__less-than-10x"
+        },
+        {
+          "name": "More than 30x",
+          "handle": "optical-zoom__more-than-30x"
+        },
+        {
+          "name": "No zoom",
+          "handle": "optical-zoom__no-zoom"
+        },
+        {
+          "name": "Other",
+          "handle": "optical-zoom__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2023",
+      "name": "Photo effects type",
+      "handle": "photo-effects-type",
+      "description": "Identifies the type of photo effects a camera can produce, e.g. vintage, sepia",
+      "values": [
+        {
+          "name": "Antique",
+          "handle": "photo-effects-type__antique"
+        },
+        {
+          "name": "Art",
+          "handle": "photo-effects-type__art"
+        },
+        {
+          "name": "Black",
+          "handle": "photo-effects-type__black"
+        },
+        {
+          "name": "Calm",
+          "handle": "photo-effects-type__calm"
+        },
+        {
+          "name": "Cinema",
+          "handle": "photo-effects-type__cinema"
+        },
+        {
+          "name": "Emboss",
+          "handle": "photo-effects-type__emboss"
+        },
+        {
+          "name": "Fader",
+          "handle": "photo-effects-type__fader"
+        },
+        {
+          "name": "Gray",
+          "handle": "photo-effects-type__gray"
+        },
+        {
+          "name": "Mirror",
+          "handle": "photo-effects-type__mirror"
+        },
+        {
+          "name": "Mosaic",
+          "handle": "photo-effects-type__mosaic"
+        },
+        {
+          "name": "Muted",
+          "handle": "photo-effects-type__muted"
+        },
+        {
+          "name": "Negative film",
+          "handle": "photo-effects-type__negative-film"
+        },
+        {
+          "name": "Neutral",
+          "handle": "photo-effects-type__neutral"
+        },
+        {
+          "name": "Pastel",
+          "handle": "photo-effects-type__pastel"
+        },
+        {
+          "name": "Positive film",
+          "handle": "photo-effects-type__positive-film"
+        },
+        {
+          "name": "Sepia",
+          "handle": "photo-effects-type__sepia"
+        },
+        {
+          "name": "Skin tones",
+          "handle": "photo-effects-type__skin-tones"
+        },
+        {
+          "name": "Solarisation",
+          "handle": "photo-effects-type__solarisation"
+        },
+        {
+          "name": "Split screen",
+          "handle": "photo-effects-type__split-screen"
+        },
+        {
+          "name": "Vintage",
+          "handle": "photo-effects-type__vintage"
+        },
+        {
+          "name": "Vivid",
+          "handle": "photo-effects-type__vivid"
+        },
+        {
+          "name": "White",
+          "handle": "photo-effects-type__white"
+        },
+        {
+          "name": "Other",
+          "handle": "photo-effects-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2043",
+      "name": "Photographic chemical form",
+      "handle": "photographic-chemical-form",
+      "description": "Identifies the form of photographic chemicals, such as powder or liquid",
+      "values": [
+        {
+          "name": "Crystals",
+          "handle": "photographic-chemical-form__crystals"
+        },
+        {
+          "name": "Liquid",
+          "handle": "photographic-chemical-form__liquid"
+        },
+        {
+          "name": "Powder",
+          "handle": "photographic-chemical-form__powder"
+        },
+        {
+          "name": "Tablets",
+          "handle": "photographic-chemical-form__tablets"
+        },
+        {
+          "name": "Other",
+          "handle": "photographic-chemical-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2044",
+      "name": "Photographic paper size",
+      "handle": "photographic-paper-size",
+      "description": "Specifies the dimensions of photographic paper, such as 4\" x 6\" or A3",
+      "values": [
+        {
+          "name": "4\" x 6\"",
+          "handle": "photographic-paper-size__4-x-6"
+        },
+        {
+          "name": "5\" x 7\"",
+          "handle": "photographic-paper-size__5-x-7"
+        },
+        {
+          "name": "8\" x 10\"",
+          "handle": "photographic-paper-size__8-x-10"
+        },
+        {
+          "name": "9\" x 12\"",
+          "handle": "photographic-paper-size__9-x-12"
+        },
+        {
+          "name": "11\" x 14\"",
+          "handle": "photographic-paper-size__11-x-14"
+        },
+        {
+          "name": "11\" x 17\"",
+          "handle": "photographic-paper-size__11-x-17"
+        },
+        {
+          "name": "13\" x 19\"",
+          "handle": "photographic-paper-size__13-x-19"
+        },
+        {
+          "name": "A3",
+          "handle": "photographic-paper-size__a3"
+        },
+        {
+          "name": "A4",
+          "handle": "photographic-paper-size__a4"
+        },
+        {
+          "name": "A5",
+          "handle": "photographic-paper-size__a5"
+        },
+        {
+          "name": "A6",
+          "handle": "photographic-paper-size__a6"
+        },
+        {
+          "name": "Custom",
+          "handle": "photographic-paper-size__custom"
+        },
+        {
+          "name": "Other",
+          "handle": "photographic-paper-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2045",
+      "name": "Photographic paper type",
+      "handle": "photographic-paper-type",
+      "description": "Specifies the type of photographic paper used, such as satin or metallic",
+      "values": [
+        {
+          "name": "Canvas",
+          "handle": "photographic-paper-type__canvas"
+        },
+        {
+          "name": "Fine art",
+          "handle": "photographic-paper-type__fine-art"
+        },
+        {
+          "name": "Glossy",
+          "handle": "photographic-paper-type__glossy"
+        },
+        {
+          "name": "Luster",
+          "handle": "photographic-paper-type__luster"
+        },
+        {
+          "name": "Matte",
+          "handle": "photographic-paper-type__matte"
+        },
+        {
+          "name": "Metallic",
+          "handle": "photographic-paper-type__metallic"
+        },
+        {
+          "name": "Pearl",
+          "handle": "photographic-paper-type__pearl"
+        },
+        {
+          "name": "Satin",
+          "handle": "photographic-paper-type__satin"
+        },
+        {
+          "name": "Semi-gloss",
+          "handle": "photographic-paper-type__semi-gloss"
+        },
+        {
+          "name": "Silk",
+          "handle": "photographic-paper-type__silk"
+        },
+        {
+          "name": "Other",
+          "handle": "photographic-paper-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2051",
+      "name": "Projection design",
+      "handle": "projection-design",
+      "description": "Describes the pattern or image projected by a lighting filter or gobo, such as text or logo",
+      "values": [
+        {
+          "name": "Custom",
+          "handle": "projection-design__custom"
+        },
+        {
+          "name": "Logo",
+          "handle": "projection-design__logo"
+        },
+        {
+          "name": "Pattern",
+          "handle": "projection-design__pattern"
+        },
+        {
+          "name": "Shadow",
+          "handle": "projection-design__shadow"
+        },
+        {
+          "name": "Text",
+          "handle": "projection-design__text"
+        },
+        {
+          "name": "Other",
+          "handle": "projection-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2039",
+      "name": "Reel capacity",
+      "handle": "reel-capacity",
+      "description": "Specifies the capacity of a reel in a developing tank, such as single or quad",
+      "values": [
+        {
+          "name": "Double",
+          "handle": "reel-capacity__double"
+        },
+        {
+          "name": "Five",
+          "handle": "reel-capacity__five"
+        },
+        {
+          "name": "Quad",
+          "handle": "reel-capacity__quad"
+        },
+        {
+          "name": "Single",
+          "handle": "reel-capacity__single"
+        },
+        {
+          "name": "Six",
+          "handle": "reel-capacity__six"
+        },
+        {
+          "name": "Triple",
+          "handle": "reel-capacity__triple"
+        },
+        {
+          "name": "Other",
+          "handle": "reel-capacity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2049",
+      "name": "Reflector design",
+      "handle": "reflector-design",
+      "description": "Describes the design of a flash reflector, such as honeycomb or umbrella",
+      "values": [
+        {
+          "name": "Barndoors",
+          "handle": "reflector-design__barndoors"
+        },
+        {
+          "name": "Beauty dish",
+          "handle": "reflector-design__beauty-dish"
+        },
+        {
+          "name": "Bounce",
+          "handle": "reflector-design__bounce"
+        },
+        {
+          "name": "Honeycomb",
+          "handle": "reflector-design__honeycomb"
+        },
+        {
+          "name": "Softbox",
+          "handle": "reflector-design__softbox"
+        },
+        {
+          "name": "Umbrella",
+          "handle": "reflector-design__umbrella"
+        },
+        {
+          "name": "Other",
+          "handle": "reflector-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3308",
+      "name": "Reticle plane",
+      "handle": "reticle-plane",
+      "description": "Specifies the reticle focal plane in weapon scopes and sights, e.g., first or second",
+      "values": [
+        {
+          "name": "First",
+          "handle": "reticle-plane__first"
+        },
+        {
+          "name": "Moving",
+          "handle": "reticle-plane__moving"
+        },
+        {
+          "name": "Second",
+          "handle": "reticle-plane__second"
+        },
+        {
+          "name": "Other",
+          "handle": "reticle-plane__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2036",
+      "name": "Reticle type",
+      "handle": "reticle-type",
+      "description": "Identifies the type of reticle in weapon scopes, like Duplex or Mildot",
+      "values": [
+        {
+          "name": "ACSS",
+          "handle": "reticle-type__acss"
+        },
+        {
+          "name": "BDC",
+          "handle": "reticle-type__bdc"
+        },
+        {
+          "name": "Dot",
+          "handle": "reticle-type__dot"
+        },
+        {
+          "name": "Duplex",
+          "handle": "reticle-type__duplex"
+        },
+        {
+          "name": "German",
+          "handle": "reticle-type__german"
+        },
+        {
+          "name": "Horus",
+          "handle": "reticle-type__horus"
+        },
+        {
+          "name": "Illuminated",
+          "handle": "reticle-type__illuminated"
+        },
+        {
+          "name": "Mildot",
+          "handle": "reticle-type__mildot"
+        },
+        {
+          "name": "Rangefinder",
+          "handle": "reticle-type__rangefinder"
+        },
+        {
+          "name": "Target",
+          "handle": "reticle-type__target"
+        },
+        {
+          "name": "Other",
+          "handle": "reticle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2024",
+      "name": "Scene modes",
+      "handle": "scene-modes",
+      "description": "Defines the camera's mode for capturing different scenarios, such as night or underwater",
+      "values": [
+        {
+          "name": "3D photography",
+          "handle": "scene-modes__3d-photography"
+        },
+        {
+          "name": "Auto",
+          "handle": "scene-modes__auto"
+        },
+        {
+          "name": "Backlight",
+          "handle": "scene-modes__backlight"
+        },
+        {
+          "name": "Beach",
+          "handle": "scene-modes__beach"
+        },
+        {
+          "name": "Candlelight",
+          "handle": "scene-modes__candlelight"
+        },
+        {
+          "name": "Close-up",
+          "handle": "scene-modes__close-up"
+        },
+        {
+          "name": "Cuisine",
+          "handle": "scene-modes__cuisine"
+        },
+        {
+          "name": "Dawn",
+          "handle": "scene-modes__dawn"
+        },
+        {
+          "name": "Documents",
+          "handle": "scene-modes__documents"
+        },
+        {
+          "name": "Dusk",
+          "handle": "scene-modes__dusk"
+        },
+        {
+          "name": "Faithful",
+          "handle": "scene-modes__faithful"
+        },
+        {
+          "name": "Fine detail",
+          "handle": "scene-modes__fine-detail"
+        },
+        {
+          "name": "Fireworks",
+          "handle": "scene-modes__fireworks"
+        },
+        {
+          "name": "Flower",
+          "handle": "scene-modes__flower"
+        },
+        {
+          "name": "Food",
+          "handle": "scene-modes__food"
+        },
+        {
+          "name": "Group photo",
+          "handle": "scene-modes__group-photo"
+        },
+        {
+          "name": "Handheld night scene",
+          "handle": "scene-modes__handheld-night-scene"
+        },
+        {
+          "name": "HDR backlight control",
+          "handle": "scene-modes__hdr-backlight-control"
+        },
+        {
+          "name": "Landscape",
+          "handle": "scene-modes__landscape"
+        },
+        {
+          "name": "Monochrome",
+          "handle": "scene-modes__monochrome"
+        },
+        {
+          "name": "Night",
+          "handle": "scene-modes__night"
+        },
+        {
+          "name": "Panorama",
+          "handle": "scene-modes__panorama"
+        },
+        {
+          "name": "Portrait",
+          "handle": "scene-modes__portrait"
+        },
+        {
+          "name": "Smooth skin",
+          "handle": "scene-modes__smooth-skin"
+        },
+        {
+          "name": "Snow",
+          "handle": "scene-modes__snow"
+        },
+        {
+          "name": "Sport",
+          "handle": "scene-modes__sport"
+        },
+        {
+          "name": "Spotlight",
+          "handle": "scene-modes__spotlight"
+        },
+        {
+          "name": "Underwater",
+          "handle": "scene-modes__underwater"
+        },
+        {
+          "name": "Other",
+          "handle": "scene-modes__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3304",
+      "name": "Scope design",
+      "handle": "scope-design",
+      "description": "Identifies the design type of optics scopes, such as angled or straight",
+      "values": [
+        {
+          "name": "Angled",
+          "handle": "scope-design__angled"
+        },
+        {
+          "name": "Straight",
+          "handle": "scope-design__straight"
+        },
+        {
+          "name": "Other",
+          "handle": "scope-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3305",
+      "name": "Scope lens type",
+      "handle": "scope-lens-type",
+      "description": "Identifies the type of lens used in scopes, such as HD or wide-angle",
+      "values": [
+        {
+          "name": "Achromatic",
+          "handle": "scope-lens-type__achromatic"
+        },
+        {
+          "name": "Apochromatic",
+          "handle": "scope-lens-type__apochromatic"
+        },
+        {
+          "name": "Extra-low dispersion",
+          "handle": "scope-lens-type__extra-low-dispersion"
+        },
+        {
+          "name": "Eyepiece",
+          "handle": "scope-lens-type__eyepiece"
+        },
+        {
+          "name": "Fluorite",
+          "handle": "scope-lens-type__fluorite"
+        },
+        {
+          "name": "HD",
+          "handle": "scope-lens-type__hd"
+        },
+        {
+          "name": "Objective",
+          "handle": "scope-lens-type__objective"
+        },
+        {
+          "name": "Ultra-low dispersion",
+          "handle": "scope-lens-type__ultra-low-dispersion"
+        },
+        {
+          "name": "Wide-angle",
+          "handle": "scope-lens-type__wide-angle"
+        },
+        {
+          "name": "Zoom",
+          "handle": "scope-lens-type__zoom"
+        },
+        {
+          "name": "Other",
+          "handle": "scope-lens-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2037",
+      "name": "Scope/Sight design",
+      "handle": "scope-sight-design",
+      "description": "Describes the type of design for weapon scopes or sights, e.g. night vision, laser",
+      "values": [
+        {
+          "name": "Holographic",
+          "handle": "scope-sight-design__holographic"
+        },
+        {
+          "name": "Iron",
+          "handle": "scope-sight-design__iron"
+        },
+        {
+          "name": "Laser",
+          "handle": "scope-sight-design__laser"
+        },
+        {
+          "name": "Night vision",
+          "handle": "scope-sight-design__night-vision"
+        },
+        {
+          "name": "Red dot",
+          "handle": "scope-sight-design__red-dot"
+        },
+        {
+          "name": "Reflex",
+          "handle": "scope-sight-design__reflex"
+        },
+        {
+          "name": "Thermal",
+          "handle": "scope-sight-design__thermal"
+        },
+        {
+          "name": "Other",
+          "handle": "scope-sight-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3063",
+      "name": "Scope/Sight features",
+      "handle": "scope-sight-features",
+      "description": "Describes special features of weapon scopes or sights, like illuminated reticle or sound recording",
+      "values": [
+        {
+          "name": "Illuminated reticle",
+          "handle": "scope-sight-features__illuminated-reticle"
+        },
+        {
+          "name": "Sound recording",
+          "handle": "scope-sight-features__sound-recording"
+        },
+        {
+          "name": "Video recording",
+          "handle": "scope-sight-features__video-recording"
+        },
+        {
+          "name": "Other",
+          "handle": "scope-sight-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2003",
+      "name": "Screen/Display design",
+      "handle": "screen-display-design",
+      "description": "Specifies the design features of a product's screen, typically for cameras; e.g. viewfinder",
+      "values": [
+        {
+          "name": "Display protector",
+          "handle": "screen-display-design__display-protector"
+        },
+        {
+          "name": "Picture",
+          "handle": "screen-display-design__picture"
+        },
+        {
+          "name": "Rotating",
+          "handle": "screen-display-design__rotating"
+        },
+        {
+          "name": "Touch",
+          "handle": "screen-display-design__touch"
+        },
+        {
+          "name": "Viewfinder",
+          "handle": "screen-display-design__viewfinder"
+        },
+        {
+          "name": "Other",
+          "handle": "screen-display-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2025",
+      "name": "Shooting modes",
+      "handle": "shooting-modes",
+      "description": "Specifies the camera's operational settings, such as scene or movie mode",
+      "values": [
+        {
+          "name": "Aperture priority",
+          "handle": "shooting-modes__aperture-priority"
+        },
+        {
+          "name": "Auto",
+          "handle": "shooting-modes__auto"
+        },
+        {
+          "name": "Flexible priority",
+          "handle": "shooting-modes__flexible-priority"
+        },
+        {
+          "name": "Intelligent auto",
+          "handle": "shooting-modes__intelligent-auto"
+        },
+        {
+          "name": "Lens priority",
+          "handle": "shooting-modes__lens-priority"
+        },
+        {
+          "name": "Manual",
+          "handle": "shooting-modes__manual"
+        },
+        {
+          "name": "Movie",
+          "handle": "shooting-modes__movie"
+        },
+        {
+          "name": "Program",
+          "handle": "shooting-modes__program"
+        },
+        {
+          "name": "Scene",
+          "handle": "shooting-modes__scene"
+        },
+        {
+          "name": "Sensitivity priority",
+          "handle": "shooting-modes__sensitivity-priority"
+        },
+        {
+          "name": "Shutter priority",
+          "handle": "shooting-modes__shutter-priority"
+        },
+        {
+          "name": "Other",
+          "handle": "shooting-modes__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2004",
+      "name": "Silencer/Blimp type",
+      "handle": "silencer-blimp-type",
+      "description": "Specifies the kind of soundproofing device for cameras, such as lens blimp",
+      "values": [
+        {
+          "name": "Camera blimp",
+          "handle": "silencer-blimp-type__camera-blimp"
+        },
+        {
+          "name": "Lens blimp",
+          "handle": "silencer-blimp-type__lens-blimp"
+        },
+        {
+          "name": "Microphone silencer",
+          "handle": "silencer-blimp-type__microphone-silencer"
+        },
+        {
+          "name": "Soundproof cover",
+          "handle": "silencer-blimp-type__soundproof-cover"
+        },
+        {
+          "name": "Underwater sound blimp",
+          "handle": "silencer-blimp-type__underwater-sound-blimp"
+        },
+        {
+          "name": "Other",
+          "handle": "silencer-blimp-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2052",
+      "name": "Softbox mounting type",
+      "handle": "softbox-mounting-type",
+      "description": "Specifies the softbox's compatibility with different lighting systems, like Elinchrom or Profoto",
+      "values": [
+        {
+          "name": "Bowens",
+          "handle": "softbox-mounting-type__bowens"
+        },
+        {
+          "name": "Elinchrom",
+          "handle": "softbox-mounting-type__elinchrom"
+        },
+        {
+          "name": "Profoto",
+          "handle": "softbox-mounting-type__profoto"
+        },
+        {
+          "name": "Speedlight",
+          "handle": "softbox-mounting-type__speedlight"
+        },
+        {
+          "name": "Universal",
+          "handle": "softbox-mounting-type__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "softbox-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2053",
+      "name": "Softbox shape",
+      "handle": "softbox-shape",
+      "description": "Specifies the geometric shape of softboxes, for instance, rectangle or octagon",
+      "values": [
+        {
+          "name": "Octagon",
+          "handle": "softbox-shape__octagon"
+        },
+        {
+          "name": "Rectangle",
+          "handle": "softbox-shape__rectangle"
+        },
+        {
+          "name": "Round",
+          "handle": "softbox-shape__round"
+        },
+        {
+          "name": "Square",
+          "handle": "softbox-shape__square"
+        },
+        {
+          "name": "Strip",
+          "handle": "softbox-shape__strip"
+        },
+        {
+          "name": "Other",
+          "handle": "softbox-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2014",
+      "name": "Spreader type",
+      "handle": "spreader-type",
+      "description": "Specifies the category of tripod spreader, such as on-ground or mid-level",
+      "values": [
+        {
+          "name": "Ground-level",
+          "handle": "spreader-type__ground-level"
+        },
+        {
+          "name": "Mid-level",
+          "handle": "spreader-type__mid-level"
+        },
+        {
+          "name": "On-ground",
+          "handle": "spreader-type__on-ground"
+        },
+        {
+          "name": "Other",
+          "handle": "spreader-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1980",
+      "name": "Suitable for camera type",
+      "handle": "suitable-for-camera-type",
+      "description": "Identifies the camera models the product is compatible with, such as SLR or camcorder",
+      "values": [
+        {
+          "name": "Action sports camera",
+          "handle": "suitable-for-camera-type__action-sports-camera"
+        },
+        {
+          "name": "Bridge camera",
+          "handle": "suitable-for-camera-type__bridge-camera"
+        },
+        {
+          "name": "Camcorder",
+          "handle": "suitable-for-camera-type__camcorder"
+        },
+        {
+          "name": "Camera drone",
+          "handle": "suitable-for-camera-type__camera-drone"
+        },
+        {
+          "name": "CCTV camera",
+          "handle": "suitable-for-camera-type__cctv-camera"
+        },
+        {
+          "name": "Compact camera",
+          "handle": "suitable-for-camera-type__compact-camera"
+        },
+        {
+          "name": "Gimbal camera",
+          "handle": "suitable-for-camera-type__gimbal-camera"
+        },
+        {
+          "name": "Instant print camera",
+          "handle": "suitable-for-camera-type__instant-print-camera"
+        },
+        {
+          "name": "IP camera",
+          "handle": "suitable-for-camera-type__ip-camera"
+        },
+        {
+          "name": "MILC",
+          "handle": "suitable-for-camera-type__milc"
+        },
+        {
+          "name": "SLR",
+          "handle": "suitable-for-camera-type__slr"
+        },
+        {
+          "name": "Smartphone",
+          "handle": "suitable-for-camera-type__smartphone"
+        },
+        {
+          "name": "Tablet",
+          "handle": "suitable-for-camera-type__tablet"
+        },
+        {
+          "name": "Time lapse camera",
+          "handle": "suitable-for-camera-type__time-lapse-camera"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-camera-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2005",
+      "name": "Suitable for camera/optics device",
+      "handle": "suitable-for-camera-optics-device",
+      "description": "Identifies the specific camera or optics device the product is compatible with, e.g. digital camera, selfie stick",
+      "values": [
+        {
+          "name": "Action camera",
+          "handle": "suitable-for-camera-optics-device__action-camera"
+        },
+        {
+          "name": "Binocular",
+          "handle": "suitable-for-camera-optics-device__binocular"
+        },
+        {
+          "name": "Camcorder",
+          "handle": "suitable-for-camera-optics-device__camcorder"
+        },
+        {
+          "name": "Camera filter",
+          "handle": "suitable-for-camera-optics-device__camera-filter"
+        },
+        {
+          "name": "Digital camera",
+          "handle": "suitable-for-camera-optics-device__digital-camera"
+        },
+        {
+          "name": "Lens",
+          "handle": "suitable-for-camera-optics-device__lens"
+        },
+        {
+          "name": "Light meter",
+          "handle": "suitable-for-camera-optics-device__light-meter"
+        },
+        {
+          "name": "Selfie stick",
+          "handle": "suitable-for-camera-optics-device__selfie-stick"
+        },
+        {
+          "name": "Tripod",
+          "handle": "suitable-for-camera-optics-device__tripod"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-camera-optics-device__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2038",
+      "name": "Suitable for weapon type",
+      "handle": "suitable-for-weapon-type",
+      "description": "Identifies the type of weapon a scope or sight is designed for, e.g. pistol, shotgun",
+      "values": [
+        {
+          "name": "Pistol",
+          "handle": "suitable-for-weapon-type__pistol"
+        },
+        {
+          "name": "Rifle",
+          "handle": "suitable-for-weapon-type__rifle"
+        },
+        {
+          "name": "Shotgun",
+          "handle": "suitable-for-weapon-type__shotgun"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-weapon-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2029",
+      "name": "Surveillance camera design",
+      "handle": "surveillance-camera-design",
+      "description": "Identifies the design type of security cameras, for example, thermal or panoramic",
+      "values": [
+        {
+          "name": "Bullet",
+          "handle": "surveillance-camera-design__bullet"
+        },
+        {
+          "name": "Dome",
+          "handle": "surveillance-camera-design__dome"
+        },
+        {
+          "name": "Hidden",
+          "handle": "surveillance-camera-design__hidden"
+        },
+        {
+          "name": "Panoramic",
+          "handle": "surveillance-camera-design__panoramic"
+        },
+        {
+          "name": "PTZ",
+          "handle": "surveillance-camera-design__ptz"
+        },
+        {
+          "name": "Thermal",
+          "handle": "surveillance-camera-design__thermal"
+        },
+        {
+          "name": "Turret",
+          "handle": "surveillance-camera-design__turret"
+        },
+        {
+          "name": "Other",
+          "handle": "surveillance-camera-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2030",
+      "name": "Surveillance camera mounting type",
+      "handle": "surveillance-camera-mounting-type",
+      "description": "Identifies how a surveillance camera can be installed, e.g. wall, ceiling",
+      "values": [
+        {
+          "name": "Ceiling",
+          "handle": "surveillance-camera-mounting-type__ceiling"
+        },
+        {
+          "name": "Desk",
+          "handle": "surveillance-camera-mounting-type__desk"
+        },
+        {
+          "name": "Floor",
+          "handle": "surveillance-camera-mounting-type__floor"
+        },
+        {
+          "name": "Pole",
+          "handle": "surveillance-camera-mounting-type__pole"
+        },
+        {
+          "name": "Wall",
+          "handle": "surveillance-camera-mounting-type__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "surveillance-camera-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3306",
+      "name": "Telescope level",
+      "handle": "telescope-level",
+      "description": "Indicates the complexity or skill level required for a telescope, such as beginner or advanced",
+      "values": [
+        {
+          "name": "Advanced",
+          "handle": "telescope-level__advanced"
+        },
+        {
+          "name": "Beginner",
+          "handle": "telescope-level__beginner"
+        },
+        {
+          "name": "Intermediate",
+          "handle": "telescope-level__intermediate"
+        },
+        {
+          "name": "Other",
+          "handle": "telescope-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3307",
+      "name": "Telescope tracking system",
+      "handle": "telescope-tracking-system",
+      "description": "Identifies the type of tracking system in telescopes, e.g. manual, motorized",
+      "values": [
+        {
+          "name": "Computerized GoTo",
+          "handle": "telescope-tracking-system__computerized-goto"
+        },
+        {
+          "name": "Manual",
+          "handle": "telescope-tracking-system__manual"
+        },
+        {
+          "name": "Motorized",
+          "handle": "telescope-tracking-system__motorized"
+        },
+        {
+          "name": "Other",
+          "handle": "telescope-tracking-system__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2040",
+      "name": "Timer design",
+      "handle": "timer-design",
+      "description": "Describes the type of timer used in darkroom equipment, such as digital or analog",
+      "values": [
+        {
+          "name": "Analog",
+          "handle": "timer-design__analog"
+        },
+        {
+          "name": "Digital",
+          "handle": "timer-design__digital"
+        },
+        {
+          "name": "Enlarging",
+          "handle": "timer-design__enlarging"
+        },
+        {
+          "name": "Interval",
+          "handle": "timer-design__interval"
+        },
+        {
+          "name": "Processing",
+          "handle": "timer-design__processing"
+        },
+        {
+          "name": "Other",
+          "handle": "timer-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2032",
+      "name": "Trail camera design",
+      "handle": "trail-camera-design",
+      "description": "Describes the type of trail camera, such as standard or cellular",
+      "values": [
+        {
+          "name": "Cellular",
+          "handle": "trail-camera-design__cellular"
+        },
+        {
+          "name": "Multi-camera",
+          "handle": "trail-camera-design__multi-camera"
+        },
+        {
+          "name": "Security",
+          "handle": "trail-camera-design__security"
+        },
+        {
+          "name": "Standard",
+          "handle": "trail-camera-design__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "trail-camera-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3061",
+      "name": "Tripod handle type",
+      "handle": "tripod-handle-type",
+      "description": "Specifies the functionality of tripod handles, e.g. multi-function, pistol grip",
+      "values": [
+        {
+          "name": "Crank",
+          "handle": "tripod-handle-type__crank"
+        },
+        {
+          "name": "Extension",
+          "handle": "tripod-handle-type__extension"
+        },
+        {
+          "name": "Multi-function",
+          "handle": "tripod-handle-type__multi-function"
+        },
+        {
+          "name": "Pan",
+          "handle": "tripod-handle-type__pan"
+        },
+        {
+          "name": "Pistol grip",
+          "handle": "tripod-handle-type__pistol-grip"
+        },
+        {
+          "name": "Tilt",
+          "handle": "tripod-handle-type__tilt"
+        },
+        {
+          "name": "Trigger grip",
+          "handle": "tripod-handle-type__trigger-grip"
+        },
+        {
+          "name": "Other",
+          "handle": "tripod-handle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2033",
+      "name": "Webcam design",
+      "handle": "webcam-design",
+      "description": "Identifies the type of webcam, such as conference, laptop, or plug-and-play",
+      "values": [
+        {
+          "name": "Conference",
+          "handle": "webcam-design__conference"
+        },
+        {
+          "name": "Desktop",
+          "handle": "webcam-design__desktop"
+        },
+        {
+          "name": "Laptop",
+          "handle": "webcam-design__laptop"
+        },
+        {
+          "name": "Plug-and-play",
+          "handle": "webcam-design__plug-and-play"
+        },
+        {
+          "name": "Security",
+          "handle": "webcam-design__security"
+        },
+        {
+          "name": "Other",
+          "handle": "webcam-design__other"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2390 @@
+{
+  "gid://shopify/TaxonomyCategory/fr": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-1": [
+    "baby-toddler-furniture-items-included",
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-1": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-2": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-3": [
+    "age-group",
+    "color",
+    "crib-toddler-bed-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-5": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-6": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-7": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-8": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-10": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-3-11": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-4": [
+    "age-group",
+    "baby-toddler-furniture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-1": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-1-1": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-1-2": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-1-3": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-1-4": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-1-5": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-1-6": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-5-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6": [
+    "color",
+    "crib-toddler-bed-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "crib-toddler-bed-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "crib-toddler-bed-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "crib-toddler-bed-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-7": [
+    "color",
+    "crib-toddler-bed-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "crib-toddler-bed-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-10": [
+    "color",
+    "crib-toddler-bed-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-11": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "crib-toddler-bed-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-6-12": [
+    "color",
+    "crib-toddler-bed-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-8": [
+    "baby-toddler-seat-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-8-2": [
+    "baby-toddler-seat-features",
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-8-3": [
+    "baby-toddler-seat-features",
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-8-4": [
+    "baby-toddler-seat-features",
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-8-5": [
+    "baby-toddler-seat-features",
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-1-9": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2": [
+    "bedding-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-1": [
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-1": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-2": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-3": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-4": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-5": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-6": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-7": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-8": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-9": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-10": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-11": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-12": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-13": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-14": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-15": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-2-16": [
+    "bed-frame-features",
+    "bedding-size",
+    "color",
+    "bedding-size",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-3": [
+    "furniture-fixture-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5": [
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "slat-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5-1": [
+    "battery-size",
+    "battery-type",
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "color",
+    "slat-material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5-2": [
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "slat-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5-3": [
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "slat-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5-4": [
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "slat-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5-5": [
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "slat-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5-7": [
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "slat-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-5-8": [
+    "bedding-size",
+    "firmness",
+    "color",
+    "foundation-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "slat-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6-1": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6-2": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6-3": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6-4": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6-5": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6-6": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-2-6-7": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mattress-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "pattern",
+    "seat-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-10": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-11": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-13": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-14": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-1-15": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-5": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-10": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-12": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-13": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-2-14": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-3-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-3": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-10": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-11": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-12": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-13": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-14": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-15": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-17": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-1-16": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-2": [
+    "color",
+    "door-material",
+    "pattern",
+    "door-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "furniture-fixture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-2": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-10": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-11": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-12": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-13": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-3-14": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-17": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-17-1": [
+    "basket-material",
+    "color",
+    "furniture-fixture-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-17-2": [
+    "color",
+    "furniture-fixture-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-17-3": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-17-4": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-17-5": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-17-6": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-4": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-4-7": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-4-8": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-4-9": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-10": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-11": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-12": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-13": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-14": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-15": [
+    "furniture-fixture-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-8-16": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-10": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-11": [
+    "color",
+    "door-material",
+    "pattern",
+    "door-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "furniture-fixture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-12": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-13": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-13-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-13-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-8": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-10": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-1-11": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2-4": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-14-2-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-15": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-4-16": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern",
+    "wine-rack-design"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-5-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-5-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-6-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-1": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-1-1": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "seat-type",
+    "upholstery-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-1-2": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "seat-type",
+    "upholstery-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-1-3": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-2": [
+    "chair-sofa-features",
+    "color",
+    "filler-material",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-3": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-3-1": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-3-2": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-3-3": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-3-5": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-4": [
+    "chair-sofa-features",
+    "color",
+    "massage-technique",
+    "pattern",
+    "power-source",
+    "body-area",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-5": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-6": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-6-1": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "seat-type",
+    "upholstery-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-6-2": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-7": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-8": [
+    "chair-sofa-features",
+    "color",
+    "hanging-chair-design",
+    "pattern",
+    "suitable-space",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-9": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-10": [
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "suitable-space",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-10-1": [
+    "chair-sofa-features",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "suitable-space",
+    "upholstery-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-10-4": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-10-5": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "seat-type",
+    "upholstery-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-11": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "pattern",
+    "seat-type",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-12": [
+    "back-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-12-1": [
+    "back-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "seat-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-7-12-2": [
+    "back-type",
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "seat-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-8": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-9": [
+    "color",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "mount-stand-features",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-10-1": [
+    "bathroom-furniture-items-included",
+    "color",
+    "furniture-fixture-features",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-10-2": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-10-3": [
+    "color",
+    "furniture-fixture-features",
+    "kitchen-dining-furniture-items-included",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-10-4": [
+    "backrest-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-11": [
+    "color",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-11-1": [
+    "bedding-size",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-11-2": [
+    "color",
+    "firmness",
+    "pattern",
+    "suitable-space",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "furniture-fixture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12-2": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12-4": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12-4-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12-4-2": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-12-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-13-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-13-2": [
+    "color",
+    "furniture-fixture-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-13-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-14": [
+    "color",
+    "furniture-fixture-features",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-1": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-2": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-3": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-4": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-5": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-7": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-8": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-1-9": [
+    "bedding-size",
+    "color",
+    "firmness",
+    "lumber-wood-type",
+    "mounting-type",
+    "outdoor-equipment-features",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-2": [
+    "color",
+    "furniture-fixture-features",
+    "furniture-fixture-material",
+    "outdoor-furniture-items-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-1": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-2": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-3": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "upholstery-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-4": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-5": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-6": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-7": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-8": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-9": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-10": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-11": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-12": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-13": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-14": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-15": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "upholstery-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-3-16": [
+    "color",
+    "pattern",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-1": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "outdoor-equipment-features",
+    "pattern",
+    "seat-structure",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-1-10": [
+    "color",
+    "furniture-fixture-material",
+    "outdoor-equipment-features",
+    "pattern",
+    "seat-structure"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-1-11": [
+    "color",
+    "furniture-fixture-material",
+    "outdoor-equipment-features",
+    "pattern",
+    "seat-structure"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-1-12": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "outdoor-equipment-features",
+    "pattern",
+    "seat-structure",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-2": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "seat-structure",
+    "seat-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-2-5": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-structure",
+    "seat-type"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-2-9": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "seat-structure",
+    "seat-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-2-15": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-structure",
+    "seat-type"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-2-16": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "seat-structure",
+    "seat-type"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-2-18": [
+    "backrest-type",
+    "chair-sofa-features",
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "seat-structure",
+    "seat-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-4-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape",
+    "suitable-for-storage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-3": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "shape",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-5": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "shape",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-9": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-15-6-11": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-16-1": [
+    "color",
+    "cover-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-17": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-18": [
+    "color",
+    "pattern",
+    "style"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-1": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-1-1": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-1-2": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-1-3": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "mounting-type",
+    "pattern",
+    "suitable-location",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-1-4": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-1-5": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "mounting-type",
+    "pattern",
+    "suitable-location",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-2": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-2-1": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "mounting-type",
+    "pattern",
+    "suitable-location",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-2-2": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "mounting-type",
+    "pattern",
+    "suitable-location",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-2-3": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-2-4": [
+    "color",
+    "furniture-fixture-material",
+    "mounting-type",
+    "pattern",
+    "suitable-location"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-19-2-5": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "mounting-type",
+    "pattern",
+    "suitable-location",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-20": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-20-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-21": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-21-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-21-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-22": [
+    "color",
+    "upholstery-material",
+    "pattern",
+    "color",
+    "firmness",
+    "pattern",
+    "seat-type",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "chair-sofa-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-22-1": [
+    "color",
+    "upholstery-material",
+    "pattern",
+    "firmness",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "chair-sofa-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-22-3": [
+    "color",
+    "upholstery-material",
+    "pattern",
+    "firmness",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "chair-sofa-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-22-4": [
+    "color",
+    "upholstery-material",
+    "pattern",
+    "firmness",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "chair-sofa-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-22-6": [
+    "color",
+    "upholstery-material",
+    "pattern",
+    "firmness",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "chair-sofa-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-22-7": [
+    "color",
+    "upholstery-material",
+    "pattern",
+    "firmness",
+    "color",
+    "upholstery-material",
+    "pattern",
+    "chair-sofa-features"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-23": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-23-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-23-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-1-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-1-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-1-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-3": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "furniture-fixture-features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-4-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-5": [
+    "color",
+    "pattern",
+    "furniture-fixture-material",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/fr-24-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "shape",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ]
+}

@@ -1,0 +1,1756 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3370",
+      "name": "Authentication technology",
+      "handle": "authentication-technology",
+      "description": "Specifies the security method used in authentication technology, e.g. biometric, card-based",
+      "values": [
+        {
+          "name": "Biometric",
+          "handle": "authentication-technology__biometric"
+        },
+        {
+          "name": "Card-based",
+          "handle": "authentication-technology__card-based"
+        },
+        {
+          "name": "Other",
+          "handle": "authentication-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2242",
+      "name": "Band strength",
+      "handle": "band-strength",
+      "description": "Describes the durability of rubber bands, such as standard or heavy-duty",
+      "values": [
+        {
+          "name": "Heavy-duty",
+          "handle": "band-strength__heavy-duty"
+        },
+        {
+          "name": "Standard",
+          "handle": "band-strength__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "band-strength__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2233",
+      "name": "Binder ring shape",
+      "handle": "binder-ring-shape",
+      "description": "Describes the binder rings in office supplies, such as round or D-shaped",
+      "values": [
+        {
+          "name": "D-shaped",
+          "handle": "binder-ring-shape__d-shaped"
+        },
+        {
+          "name": "Round",
+          "handle": "binder-ring-shape__round"
+        },
+        {
+          "name": "Slant",
+          "handle": "binder-ring-shape__slant"
+        },
+        {
+          "name": "Other",
+          "handle": "binder-ring-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2237",
+      "name": "Binding style",
+      "handle": "binding-style",
+      "description": "Describes the method used to bind documents, such as coil or wire",
+      "values": [
+        {
+          "name": "Coil",
+          "handle": "binding-style__coil"
+        },
+        {
+          "name": "Comb",
+          "handle": "binding-style__comb"
+        },
+        {
+          "name": "Wire",
+          "handle": "binding-style__wire"
+        },
+        {
+          "name": "Other",
+          "handle": "binding-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2092",
+      "name": "Board material",
+      "handle": "board-material",
+      "description": "Specifies the type of material in presentation boards, like acrylic or porcelain",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "board-material__acrylic"
+        },
+        {
+          "name": "Cork",
+          "handle": "board-material__cork"
+        },
+        {
+          "name": "Felt",
+          "handle": "board-material__felt"
+        },
+        {
+          "name": "Glass",
+          "handle": "board-material__glass"
+        },
+        {
+          "name": "Hardboard",
+          "handle": "board-material__hardboard"
+        },
+        {
+          "name": "Melamine",
+          "handle": "board-material__melamine"
+        },
+        {
+          "name": "Porcelain",
+          "handle": "board-material__porcelain"
+        },
+        {
+          "name": "Slate",
+          "handle": "board-material__slate"
+        },
+        {
+          "name": "Other",
+          "handle": "board-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2264",
+      "name": "Board mounting type",
+      "handle": "board-mounting-type",
+      "description": "Specifies the setup style of presentation boards, such as portable or easel-backed",
+      "values": [
+        {
+          "name": "Easel-backed",
+          "handle": "board-mounting-type__easel-backed"
+        },
+        {
+          "name": "Free-standing",
+          "handle": "board-mounting-type__free-standing"
+        },
+        {
+          "name": "Portable",
+          "handle": "board-mounting-type__portable"
+        },
+        {
+          "name": "Wall",
+          "handle": "board-mounting-type__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "board-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2267",
+      "name": "Board surface",
+      "handle": "board-surface",
+      "description": "Describes the type of surface on a display board, like fabric or cork",
+      "values": [
+        {
+          "name": "Cork",
+          "handle": "board-surface__cork"
+        },
+        {
+          "name": "Fabric",
+          "handle": "board-surface__fabric"
+        },
+        {
+          "name": "Magnetic",
+          "handle": "board-surface__magnetic"
+        },
+        {
+          "name": "Smooth",
+          "handle": "board-surface__smooth"
+        },
+        {
+          "name": "Other",
+          "handle": "board-surface__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2966",
+      "name": "Book/File cover material",
+      "handle": "book-file-cover-material",
+      "description": "Identifies the material used in book or file covers, such as cardboard or leather",
+      "values": [
+        {
+          "name": "Cardboard",
+          "handle": "book-file-cover-material__cardboard"
+        },
+        {
+          "name": "Leather",
+          "handle": "book-file-cover-material__leather"
+        },
+        {
+          "name": "Metal",
+          "handle": "book-file-cover-material__metal"
+        },
+        {
+          "name": "Paper",
+          "handle": "book-file-cover-material__paper"
+        },
+        {
+          "name": "Plastic",
+          "handle": "book-file-cover-material__plastic"
+        },
+        {
+          "name": "Silicone",
+          "handle": "book-file-cover-material__silicone"
+        },
+        {
+          "name": "Wood",
+          "handle": "book-file-cover-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "book-file-cover-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2230",
+      "name": "Bookmark design",
+      "handle": "bookmark-design",
+      "description": "Describes the style or type of a bookmark, like magnetic or clip",
+      "values": [
+        {
+          "name": "Clip",
+          "handle": "bookmark-design__clip"
+        },
+        {
+          "name": "Magnetic",
+          "handle": "bookmark-design__magnetic"
+        },
+        {
+          "name": "Ribbon",
+          "handle": "bookmark-design__ribbon"
+        },
+        {
+          "name": "Tassel",
+          "handle": "bookmark-design__tassel"
+        },
+        {
+          "name": "Other",
+          "handle": "bookmark-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2231",
+      "name": "Bookmark shape",
+      "handle": "bookmark-shape",
+      "description": "Describes the form or outline of a bookmark, such as round or square",
+      "values": [
+        {
+          "name": "Animal",
+          "handle": "bookmark-shape__animal"
+        },
+        {
+          "name": "Rectangular",
+          "handle": "bookmark-shape__rectangular"
+        },
+        {
+          "name": "Round",
+          "handle": "bookmark-shape__round"
+        },
+        {
+          "name": "Square",
+          "handle": "bookmark-shape__square"
+        },
+        {
+          "name": "Other",
+          "handle": "bookmark-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3368",
+      "name": "Calculator accessory type",
+      "handle": "calculator-accessory-type",
+      "description": "Specifies the kind of calculator accessory, such as paper roll or printer adapter",
+      "values": [
+        {
+          "name": "Carrying case",
+          "handle": "calculator-accessory-type__carrying-case"
+        },
+        {
+          "name": "Ink ribbon",
+          "handle": "calculator-accessory-type__ink-ribbon"
+        },
+        {
+          "name": "Paper roll",
+          "handle": "calculator-accessory-type__paper-roll"
+        },
+        {
+          "name": "Printer adapter",
+          "handle": "calculator-accessory-type__printer-adapter"
+        },
+        {
+          "name": "Other",
+          "handle": "calculator-accessory-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3159",
+      "name": "Calculator features",
+      "handle": "calculator-features",
+      "description": "Describes the functions a calculator can perform, such as loan calculation or statistical analysis",
+      "values": [
+        {
+          "name": "Basic arithmetic",
+          "handle": "calculator-features__basic-arithmetic"
+        },
+        {
+          "name": "Equation solving",
+          "handle": "calculator-features__equation-solving"
+        },
+        {
+          "name": "Fraction calculation",
+          "handle": "calculator-features__fraction-calculation"
+        },
+        {
+          "name": "Graphing function",
+          "handle": "calculator-features__graphing-function"
+        },
+        {
+          "name": "Investment function",
+          "handle": "calculator-features__investment-function"
+        },
+        {
+          "name": "LCD display",
+          "handle": "calculator-features__lcd-display"
+        },
+        {
+          "name": "Loan calculation",
+          "handle": "calculator-features__loan-calculation"
+        },
+        {
+          "name": "Logarithmic function",
+          "handle": "calculator-features__logarithmic-function"
+        },
+        {
+          "name": "Measurement conversion",
+          "handle": "calculator-features__measurement-conversion"
+        },
+        {
+          "name": "Numeric keypad",
+          "handle": "calculator-features__numeric-keypad"
+        },
+        {
+          "name": "Statistical analysis",
+          "handle": "calculator-features__statistical-analysis"
+        },
+        {
+          "name": "Statistical calculation",
+          "handle": "calculator-features__statistical-calculation"
+        },
+        {
+          "name": "Time value of money calculation",
+          "handle": "calculator-features__time-value-of-money-calculation"
+        },
+        {
+          "name": "Trigonometric function",
+          "handle": "calculator-features__trigonometric-function"
+        },
+        {
+          "name": "Other",
+          "handle": "calculator-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2238",
+      "name": "Calendar format",
+      "handle": "calendar-format",
+      "description": "Specifies the time frame of a calendar product, such as daily or monthly",
+      "values": [
+        {
+          "name": "Daily",
+          "handle": "calendar-format__daily"
+        },
+        {
+          "name": "Monthly",
+          "handle": "calendar-format__monthly"
+        },
+        {
+          "name": "Weekly",
+          "handle": "calendar-format__weekly"
+        },
+        {
+          "name": "Other",
+          "handle": "calendar-format__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3153",
+      "name": "Calendar/Organizer features",
+      "handle": "calendar-organizer-features",
+      "description": "Describes special features of calendars or organizers, like appointment slots or holidays marked",
+      "values": [
+        {
+          "name": "Appointment slots",
+          "handle": "calendar-organizer-features__appointment-slots"
+        },
+        {
+          "name": "Holidays marked",
+          "handle": "calendar-organizer-features__holidays-marked"
+        },
+        {
+          "name": "Notes section",
+          "handle": "calendar-organizer-features__notes-section"
+        },
+        {
+          "name": "To-do lists",
+          "handle": "calendar-organizer-features__to-do-lists"
+        },
+        {
+          "name": "Other",
+          "handle": "calendar-organizer-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2265",
+      "name": "Chalkboard surface",
+      "handle": "chalkboard-surface",
+      "description": "Identifies the type of surface on chalkboards, like magnetic or traditional",
+      "values": [
+        {
+          "name": "Magnetic",
+          "handle": "chalkboard-surface__magnetic"
+        },
+        {
+          "name": "Smooth",
+          "handle": "chalkboard-surface__smooth"
+        },
+        {
+          "name": "Traditional",
+          "handle": "chalkboard-surface__traditional"
+        },
+        {
+          "name": "Other",
+          "handle": "chalkboard-surface__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2248",
+      "name": "Clip type",
+      "handle": "clip-type",
+      "description": "Specifies the clip style on items such as clipboards, e.g. high-capacity",
+      "values": [
+        {
+          "name": "High-capacity",
+          "handle": "clip-type__high-capacity"
+        },
+        {
+          "name": "Low-profile",
+          "handle": "clip-type__low-profile"
+        },
+        {
+          "name": "Other",
+          "handle": "clip-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3155",
+      "name": "Corrector features",
+      "handle": "corrector-features",
+      "description": "Describes the unique characteristics of correction fluids, pens & tapes, e.g. no drying time, precision tip",
+      "values": [
+        {
+          "name": "No drying time",
+          "handle": "corrector-features__no-drying-time"
+        },
+        {
+          "name": "Precision tip",
+          "handle": "corrector-features__precision-tip"
+        },
+        {
+          "name": "Quick drying",
+          "handle": "corrector-features__quick-drying"
+        },
+        {
+          "name": "Other",
+          "handle": "corrector-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3367",
+      "name": "Cutter options",
+      "handle": "cutter-options",
+      "description": "Identifies the cutter feature in impulse sealers, e.g. built-in cutter",
+      "values": [
+        {
+          "name": "Built-in cutter",
+          "handle": "cutter-options__built-in-cutter"
+        },
+        {
+          "name": "No cutter",
+          "handle": "cutter-options__no-cutter"
+        },
+        {
+          "name": "Other",
+          "handle": "cutter-options__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3154",
+      "name": "Desk organizer features",
+      "handle": "desk-organizer-features",
+      "description": "Describes the specific features of a desk organizer, such as adjustable dividers or built-in compartments",
+      "values": [
+        {
+          "name": "Adjustable dividers",
+          "handle": "desk-organizer-features__adjustable-dividers"
+        },
+        {
+          "name": "Built-in compartments",
+          "handle": "desk-organizer-features__built-in-compartments"
+        },
+        {
+          "name": "Carrying handle",
+          "handle": "desk-organizer-features__carrying-handle"
+        },
+        {
+          "name": "Clear pockets",
+          "handle": "desk-organizer-features__clear-pockets"
+        },
+        {
+          "name": "Dividers",
+          "handle": "desk-organizer-features__dividers"
+        },
+        {
+          "name": "Drawers",
+          "handle": "desk-organizer-features__drawers"
+        },
+        {
+          "name": "Multiple compartments",
+          "handle": "desk-organizer-features__multiple-compartments"
+        },
+        {
+          "name": "Slots",
+          "handle": "desk-organizer-features__slots"
+        },
+        {
+          "name": "Other",
+          "handle": "desk-organizer-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3166",
+      "name": "Display board features",
+      "handle": "display-board-features",
+      "description": "Describes unique features of display boards, such as self-adhesive backing or sturdy",
+      "values": [
+        {
+          "name": "Display pockets",
+          "handle": "display-board-features__display-pockets"
+        },
+        {
+          "name": "Fade resistant",
+          "handle": "display-board-features__fade-resistant"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "display-board-features__lightweight"
+        },
+        {
+          "name": "Magnetic surface",
+          "handle": "display-board-features__magnetic-surface"
+        },
+        {
+          "name": "Self-adhesive backing",
+          "handle": "display-board-features__self-adhesive-backing"
+        },
+        {
+          "name": "Self-healing surface",
+          "handle": "display-board-features__self-healing-surface"
+        },
+        {
+          "name": "Sturdy",
+          "handle": "display-board-features__sturdy"
+        },
+        {
+          "name": "Other",
+          "handle": "display-board-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3156",
+      "name": "Envelope features",
+      "handle": "envelope-features",
+      "description": "Describes special characteristics of envelopes, such as clasp closure or lined",
+      "values": [
+        {
+          "name": "Clasp closure",
+          "handle": "envelope-features__clasp-closure"
+        },
+        {
+          "name": "Lined",
+          "handle": "envelope-features__lined"
+        },
+        {
+          "name": "Padded",
+          "handle": "envelope-features__padded"
+        },
+        {
+          "name": "Peel & seal",
+          "handle": "envelope-features__peel-seal"
+        },
+        {
+          "name": "Security tint",
+          "handle": "envelope-features__security-tint"
+        },
+        {
+          "name": "Self-sealing",
+          "handle": "envelope-features__self-sealing"
+        },
+        {
+          "name": "String & button closure",
+          "handle": "envelope-features__string-button-closure"
+        },
+        {
+          "name": "Suitable for printing",
+          "handle": "envelope-features__suitable-for-printing"
+        },
+        {
+          "name": "Tamper evident",
+          "handle": "envelope-features__tamper-evident"
+        },
+        {
+          "name": "Tear resistant",
+          "handle": "envelope-features__tear-resistant"
+        },
+        {
+          "name": "Water resistant",
+          "handle": "envelope-features__water-resistant"
+        },
+        {
+          "name": "Windowed",
+          "handle": "envelope-features__windowed"
+        },
+        {
+          "name": "Other",
+          "handle": "envelope-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2266",
+      "name": "Frame design",
+      "handle": "frame-design",
+      "description": "Describes the style or material of a product's frame, such as metal or wood",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "frame-design__aluminum"
+        },
+        {
+          "name": "Frameless",
+          "handle": "frame-design__frameless"
+        },
+        {
+          "name": "Metal",
+          "handle": "frame-design__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "frame-design__plastic"
+        },
+        {
+          "name": "Wood",
+          "handle": "frame-design__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "frame-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3369",
+      "name": "Lamination mode",
+      "handle": "lamination-mode",
+      "description": "Identifies the type of lamination process used, like cold lamination or hot lamination",
+      "values": [
+        {
+          "name": "Cold lamination",
+          "handle": "lamination-mode__cold-lamination"
+        },
+        {
+          "name": "Hot lamination",
+          "handle": "lamination-mode__hot-lamination"
+        },
+        {
+          "name": "Other",
+          "handle": "lamination-mode__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2270",
+      "name": "Laser light source",
+      "handle": "laser-light-source",
+      "description": "Specifies the light technology used in laser pointers, such as LED",
+      "values": [
+        {
+          "name": "Laser diode",
+          "handle": "laser-light-source__laser-diode"
+        },
+        {
+          "name": "LED",
+          "handle": "laser-light-source__led"
+        },
+        {
+          "name": "Other",
+          "handle": "laser-light-source__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2254",
+      "name": "Lead grade",
+      "handle": "lead-grade",
+      "description": "Specifies the grade of lead in writing instruments, e.g. H, 9B",
+      "values": [
+        {
+          "name": "2B",
+          "handle": "lead-grade__2b"
+        },
+        {
+          "name": "3B",
+          "handle": "lead-grade__3b"
+        },
+        {
+          "name": "4B",
+          "handle": "lead-grade__4b"
+        },
+        {
+          "name": "5B",
+          "handle": "lead-grade__5b"
+        },
+        {
+          "name": "6B",
+          "handle": "lead-grade__6b"
+        },
+        {
+          "name": "7B",
+          "handle": "lead-grade__7b"
+        },
+        {
+          "name": "8B",
+          "handle": "lead-grade__8b"
+        },
+        {
+          "name": "9B",
+          "handle": "lead-grade__9b"
+        },
+        {
+          "name": "2H",
+          "handle": "lead-grade__2h"
+        },
+        {
+          "name": "3H",
+          "handle": "lead-grade__3h"
+        },
+        {
+          "name": "4H",
+          "handle": "lead-grade__4h"
+        },
+        {
+          "name": "5H",
+          "handle": "lead-grade__5h"
+        },
+        {
+          "name": "6H",
+          "handle": "lead-grade__6h"
+        },
+        {
+          "name": "7H",
+          "handle": "lead-grade__7h"
+        },
+        {
+          "name": "8H",
+          "handle": "lead-grade__8h"
+        },
+        {
+          "name": "9H",
+          "handle": "lead-grade__9h"
+        },
+        {
+          "name": "B",
+          "handle": "lead-grade__b"
+        },
+        {
+          "name": "F",
+          "handle": "lead-grade__f"
+        },
+        {
+          "name": "H",
+          "handle": "lead-grade__h"
+        },
+        {
+          "name": "HB",
+          "handle": "lead-grade__hb"
+        },
+        {
+          "name": "Other",
+          "handle": "lead-grade__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2271",
+      "name": "Lectern mounting type",
+      "handle": "lectern-mounting-type",
+      "description": "Specifies the setup style of a lectern, like tabletop or floor",
+      "values": [
+        {
+          "name": "Floor",
+          "handle": "lectern-mounting-type__floor"
+        },
+        {
+          "name": "Free-standing",
+          "handle": "lectern-mounting-type__free-standing"
+        },
+        {
+          "name": "Tabletop",
+          "handle": "lectern-mounting-type__tabletop"
+        },
+        {
+          "name": "Other",
+          "handle": "lectern-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2249",
+      "name": "Lens configuration",
+      "handle": "lens-configuration",
+      "description": "Specifies the lens setup in items such as magnifiers, such as single or multiple",
+      "values": [
+        {
+          "name": "Multiple",
+          "handle": "lens-configuration__multiple"
+        },
+        {
+          "name": "Single",
+          "handle": "lens-configuration__single"
+        },
+        {
+          "name": "Other",
+          "handle": "lens-configuration__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2229",
+      "name": "Light attachment type",
+      "handle": "light-attachment-type",
+      "description": "Describes how a book light attaches, such as flexible or fixed",
+      "values": [
+        {
+          "name": "Fixed",
+          "handle": "light-attachment-type__fixed"
+        },
+        {
+          "name": "Flexible",
+          "handle": "light-attachment-type__flexible"
+        },
+        {
+          "name": "Other",
+          "handle": "light-attachment-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2247",
+      "name": "Line spacing options",
+      "handle": "line-spacing-options",
+      "description": "Identifies line spacing options, typically for typewriters; e.g. double, adjustable",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "line-spacing-options__adjustable"
+        },
+        {
+          "name": "Double",
+          "handle": "line-spacing-options__double"
+        },
+        {
+          "name": "Single",
+          "handle": "line-spacing-options__single"
+        },
+        {
+          "name": "Other",
+          "handle": "line-spacing-options__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2256",
+      "name": "Marker tip design",
+      "handle": "marker-tip-design",
+      "description": "Describes the shape of a marker's tip, such as bullet or chisel",
+      "values": [
+        {
+          "name": "Brush",
+          "handle": "marker-tip-design__brush"
+        },
+        {
+          "name": "Bullet",
+          "handle": "marker-tip-design__bullet"
+        },
+        {
+          "name": "Chisel",
+          "handle": "marker-tip-design__chisel"
+        },
+        {
+          "name": "Fine",
+          "handle": "marker-tip-design__fine"
+        },
+        {
+          "name": "Other",
+          "handle": "marker-tip-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3366",
+      "name": "Notepad design",
+      "handle": "notepad-design",
+      "description": "Describes the binding or layout of a notepad, such as spiral-bound or discbound",
+      "values": [
+        {
+          "name": "Composition",
+          "handle": "notepad-design__composition"
+        },
+        {
+          "name": "Discbound",
+          "handle": "notepad-design__discbound"
+        },
+        {
+          "name": "Spiral-bound",
+          "handle": "notepad-design__spiral-bound"
+        },
+        {
+          "name": "Subject notebook",
+          "handle": "notepad-design__subject-notebook"
+        },
+        {
+          "name": "Other",
+          "handle": "notepad-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3158",
+      "name": "Office cart features",
+      "handle": "office-cart-features",
+      "description": "Describes the specific characteristics of an office cart, such as adjustable shelves or lockable wheels",
+      "values": [
+        {
+          "name": "Adjustable shelves",
+          "handle": "office-cart-features__adjustable-shelves"
+        },
+        {
+          "name": "Basket",
+          "handle": "office-cart-features__basket"
+        },
+        {
+          "name": "Cable management",
+          "handle": "office-cart-features__cable-management"
+        },
+        {
+          "name": "Ergonomic handle",
+          "handle": "office-cart-features__ergonomic-handle"
+        },
+        {
+          "name": "Handlebar",
+          "handle": "office-cart-features__handlebar"
+        },
+        {
+          "name": "Hanging file folders",
+          "handle": "office-cart-features__hanging-file-folders"
+        },
+        {
+          "name": "Lockable drawers",
+          "handle": "office-cart-features__lockable-drawers"
+        },
+        {
+          "name": "Lockable wheels",
+          "handle": "office-cart-features__lockable-wheels"
+        },
+        {
+          "name": "Mobility wheels",
+          "handle": "office-cart-features__mobility-wheels"
+        },
+        {
+          "name": "Multiple shelves",
+          "handle": "office-cart-features__multiple-shelves"
+        },
+        {
+          "name": "Push handle",
+          "handle": "office-cart-features__push-handle"
+        },
+        {
+          "name": "Swivel",
+          "handle": "office-cart-features__swivel"
+        },
+        {
+          "name": "Other",
+          "handle": "office-cart-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2924",
+      "name": "Office instrument material",
+      "handle": "office-instrument-material",
+      "description": "Specifies the composition of office tools, for example, wood or acrylic",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "office-instrument-material__acrylic"
+        },
+        {
+          "name": "Aluminum",
+          "handle": "office-instrument-material__aluminum"
+        },
+        {
+          "name": "Brass",
+          "handle": "office-instrument-material__brass"
+        },
+        {
+          "name": "Bronze",
+          "handle": "office-instrument-material__bronze"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "office-instrument-material__ceramic"
+        },
+        {
+          "name": "Copper",
+          "handle": "office-instrument-material__copper"
+        },
+        {
+          "name": "Gold",
+          "handle": "office-instrument-material__gold"
+        },
+        {
+          "name": "Hardboard",
+          "handle": "office-instrument-material__hardboard"
+        },
+        {
+          "name": "Iron",
+          "handle": "office-instrument-material__iron"
+        },
+        {
+          "name": "Leather",
+          "handle": "office-instrument-material__leather"
+        },
+        {
+          "name": "Nickel",
+          "handle": "office-instrument-material__nickel"
+        },
+        {
+          "name": "Pewter",
+          "handle": "office-instrument-material__pewter"
+        },
+        {
+          "name": "Plastic",
+          "handle": "office-instrument-material__plastic"
+        },
+        {
+          "name": "Rubber",
+          "handle": "office-instrument-material__rubber"
+        },
+        {
+          "name": "Silver",
+          "handle": "office-instrument-material__silver"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "office-instrument-material__stainless-steel"
+        },
+        {
+          "name": "Tin",
+          "handle": "office-instrument-material__tin"
+        },
+        {
+          "name": "Titanium",
+          "handle": "office-instrument-material__titanium"
+        },
+        {
+          "name": "Wood",
+          "handle": "office-instrument-material__wood"
+        },
+        {
+          "name": "Zinc steel",
+          "handle": "office-instrument-material__zinc-steel"
+        },
+        {
+          "name": "Other",
+          "handle": "office-instrument-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2922",
+      "name": "Office supply material",
+      "handle": "office-supply-material",
+      "description": "Identifies the main material of office supplies, like leather or cardboard",
+      "values": [
+        {
+          "name": "Acrylic",
+          "handle": "office-supply-material__acrylic"
+        },
+        {
+          "name": "Bamboo",
+          "handle": "office-supply-material__bamboo"
+        },
+        {
+          "name": "Canvas",
+          "handle": "office-supply-material__canvas"
+        },
+        {
+          "name": "Cardboard",
+          "handle": "office-supply-material__cardboard"
+        },
+        {
+          "name": "Cork",
+          "handle": "office-supply-material__cork"
+        },
+        {
+          "name": "Cotton",
+          "handle": "office-supply-material__cotton"
+        },
+        {
+          "name": "Fabric",
+          "handle": "office-supply-material__fabric"
+        },
+        {
+          "name": "Faux leather",
+          "handle": "office-supply-material__faux-leather"
+        },
+        {
+          "name": "Felt",
+          "handle": "office-supply-material__felt"
+        },
+        {
+          "name": "Glass",
+          "handle": "office-supply-material__glass"
+        },
+        {
+          "name": "Jute",
+          "handle": "office-supply-material__jute"
+        },
+        {
+          "name": "Latex",
+          "handle": "office-supply-material__latex"
+        },
+        {
+          "name": "Leather",
+          "handle": "office-supply-material__leather"
+        },
+        {
+          "name": "Mesh",
+          "handle": "office-supply-material__mesh"
+        },
+        {
+          "name": "Metal",
+          "handle": "office-supply-material__metal"
+        },
+        {
+          "name": "Nylon",
+          "handle": "office-supply-material__nylon"
+        },
+        {
+          "name": "Paper",
+          "handle": "office-supply-material__paper"
+        },
+        {
+          "name": "Plastic",
+          "handle": "office-supply-material__plastic"
+        },
+        {
+          "name": "Polyester",
+          "handle": "office-supply-material__polyester"
+        },
+        {
+          "name": "Polyethylene (PE)",
+          "handle": "office-supply-material__polyethylene-pe"
+        },
+        {
+          "name": "Polyethylene terephthalate (PET)",
+          "handle": "office-supply-material__polyethylene-terephthalate-pet"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "office-supply-material__polypropylene-pp"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "office-supply-material__polyurethane-pu"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "office-supply-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Rubber",
+          "handle": "office-supply-material__rubber"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "office-supply-material__stainless-steel"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "office-supply-material__synthetic"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "office-supply-material__vinyl"
+        },
+        {
+          "name": "Wood",
+          "handle": "office-supply-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "office-supply-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2272",
+      "name": "Packing materials included",
+      "handle": "packing-materials-included",
+      "description": "Identifies the type of packing materials provided, like air pillows or bubble wrap",
+      "values": [
+        {
+          "name": "Air pillows",
+          "handle": "packing-materials-included__air-pillows"
+        },
+        {
+          "name": "Bubble wrap",
+          "handle": "packing-materials-included__bubble-wrap"
+        },
+        {
+          "name": "Corrugated inserts",
+          "handle": "packing-materials-included__corrugated-inserts"
+        },
+        {
+          "name": "Edge protectors",
+          "handle": "packing-materials-included__edge-protectors"
+        },
+        {
+          "name": "Packing foam",
+          "handle": "packing-materials-included__packing-foam"
+        },
+        {
+          "name": "Packing inserts",
+          "handle": "packing-materials-included__packing-inserts"
+        },
+        {
+          "name": "Packing paper",
+          "handle": "packing-materials-included__packing-paper"
+        },
+        {
+          "name": "Packing peanuts",
+          "handle": "packing-materials-included__packing-peanuts"
+        },
+        {
+          "name": "Stretch wrap",
+          "handle": "packing-materials-included__stretch-wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "packing-materials-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2232",
+      "name": "Page layout",
+      "handle": "page-layout",
+      "description": "Defines the layout of pages, typically in address books; e.g. blank, tabbed",
+      "values": [
+        {
+          "name": "Alphabetical",
+          "handle": "page-layout__alphabetical"
+        },
+        {
+          "name": "Blank",
+          "handle": "page-layout__blank"
+        },
+        {
+          "name": "Tabbed",
+          "handle": "page-layout__tabbed"
+        },
+        {
+          "name": "Other",
+          "handle": "page-layout__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2240",
+      "name": "Paper type",
+      "handle": "paper-type",
+      "description": "Specifies the style of paper office supplies, such as grid or flip-chart",
+      "values": [
+        {
+          "name": "Acid-free",
+          "handle": "paper-type__acid-free"
+        },
+        {
+          "name": "Blank",
+          "handle": "paper-type__blank"
+        },
+        {
+          "name": "Copy safe",
+          "handle": "paper-type__copy-safe"
+        },
+        {
+          "name": "Dot",
+          "handle": "paper-type__dot"
+        },
+        {
+          "name": "Flip-chart",
+          "handle": "paper-type__flip-chart"
+        },
+        {
+          "name": "Grid",
+          "handle": "paper-type__grid"
+        },
+        {
+          "name": "Lined",
+          "handle": "paper-type__lined"
+        },
+        {
+          "name": "Margin",
+          "handle": "paper-type__margin"
+        },
+        {
+          "name": "Perforated",
+          "handle": "paper-type__perforated"
+        },
+        {
+          "name": "Plain white",
+          "handle": "paper-type__plain-white"
+        },
+        {
+          "name": "Self-adhesive",
+          "handle": "paper-type__self-adhesive"
+        },
+        {
+          "name": "Sequential numbering",
+          "handle": "paper-type__sequential-numbering"
+        },
+        {
+          "name": "Specialty paper",
+          "handle": "paper-type__specialty-paper"
+        },
+        {
+          "name": "Watermarked",
+          "handle": "paper-type__watermarked"
+        },
+        {
+          "name": "Other",
+          "handle": "paper-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2263",
+      "name": "Paperweight design",
+      "handle": "paperweight-design",
+      "description": "Describes the aesthetic or style of a paperweight, like decorative or plain",
+      "values": [
+        {
+          "name": "Decorative",
+          "handle": "paperweight-design__decorative"
+        },
+        {
+          "name": "Engraved",
+          "handle": "paperweight-design__engraved"
+        },
+        {
+          "name": "Personalized",
+          "handle": "paperweight-design__personalized"
+        },
+        {
+          "name": "Plain",
+          "handle": "paperweight-design__plain"
+        },
+        {
+          "name": "Other",
+          "handle": "paperweight-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2257",
+      "name": "Pen type",
+      "handle": "pen-type",
+      "description": "Identifies the type of pen or writing instrument, such as gel or fountain",
+      "values": [
+        {
+          "name": "Ballpoint",
+          "handle": "pen-type__ballpoint"
+        },
+        {
+          "name": "Fountain",
+          "handle": "pen-type__fountain"
+        },
+        {
+          "name": "Gel",
+          "handle": "pen-type__gel"
+        },
+        {
+          "name": "Mechanical pencil",
+          "handle": "pen-type__mechanical-pencil"
+        },
+        {
+          "name": "Rollerball",
+          "handle": "pen-type__rollerball"
+        },
+        {
+          "name": "Other",
+          "handle": "pen-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3162",
+      "name": "Pen/Pencil features",
+      "handle": "pen-pencil-features",
+      "description": "Identifies special features of writing instruments, like eraser or refillable",
+      "values": [
+        {
+          "name": "Eraser",
+          "handle": "pen-pencil-features__eraser"
+        },
+        {
+          "name": "Refillable",
+          "handle": "pen-pencil-features__refillable"
+        },
+        {
+          "name": "Retractable",
+          "handle": "pen-pencil-features__retractable"
+        },
+        {
+          "name": "Scented",
+          "handle": "pen-pencil-features__scented"
+        },
+        {
+          "name": "Other",
+          "handle": "pen-pencil-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3371",
+      "name": "Pencil sharpener design",
+      "handle": "pencil-sharpener-design",
+      "description": "Specifies the design features of a pencil sharpener, e.g. with shavings container, plain",
+      "values": [
+        {
+          "name": "Plain",
+          "handle": "pencil-sharpener-design__plain"
+        },
+        {
+          "name": "With shavings container",
+          "handle": "pencil-sharpener-design__with-shavings-container"
+        },
+        {
+          "name": "Other",
+          "handle": "pencil-sharpener-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2258",
+      "name": "Pencil type",
+      "handle": "pencil-type",
+      "description": "Specifies the type of pencil, such as mechanical or wooden",
+      "values": [
+        {
+          "name": "Mechanical",
+          "handle": "pencil-type__mechanical"
+        },
+        {
+          "name": "Wooden",
+          "handle": "pencil-type__wooden"
+        },
+        {
+          "name": "Other",
+          "handle": "pencil-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2244",
+      "name": "Point design",
+      "handle": "point-design",
+      "description": "Describes the tip style of office supplies like tacks or pushpins, e.g. sharp, blunt",
+      "values": [
+        {
+          "name": "Blunt",
+          "handle": "point-design__blunt"
+        },
+        {
+          "name": "Sharp",
+          "handle": "point-design__sharp"
+        },
+        {
+          "name": "Other",
+          "handle": "point-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3165",
+      "name": "Presentation supply features",
+      "handle": "presentation-supply-features",
+      "description": "Describes the unique characteristics of presentation supplies, such as adjustable height or erasable surface",
+      "values": [
+        {
+          "name": "Adjustable angle",
+          "handle": "presentation-supply-features__adjustable-angle"
+        },
+        {
+          "name": "Adjustable height",
+          "handle": "presentation-supply-features__adjustable-height"
+        },
+        {
+          "name": "Erasable surface",
+          "handle": "presentation-supply-features__erasable-surface"
+        },
+        {
+          "name": "Foldable",
+          "handle": "presentation-supply-features__foldable"
+        },
+        {
+          "name": "Holding tray",
+          "handle": "presentation-supply-features__holding-tray"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "presentation-supply-features__lightweight"
+        },
+        {
+          "name": "Magnetic surface",
+          "handle": "presentation-supply-features__magnetic-surface"
+        },
+        {
+          "name": "Marker compatible",
+          "handle": "presentation-supply-features__marker-compatible"
+        },
+        {
+          "name": "Sturdy",
+          "handle": "presentation-supply-features__sturdy"
+        },
+        {
+          "name": "Other",
+          "handle": "presentation-supply-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3157",
+      "name": "Receipt paper features",
+      "handle": "receipt-paper-features",
+      "description": "Identifies unique features of receipt paper like end of roll indicator or pre-printed logo",
+      "values": [
+        {
+          "name": "Carbonless",
+          "handle": "receipt-paper-features__carbonless"
+        },
+        {
+          "name": "End of roll indicator",
+          "handle": "receipt-paper-features__end-of-roll-indicator"
+        },
+        {
+          "name": "Pre-printed logo",
+          "handle": "receipt-paper-features__pre-printed-logo"
+        },
+        {
+          "name": "Thermal paper",
+          "handle": "receipt-paper-features__thermal-paper"
+        },
+        {
+          "name": "Other",
+          "handle": "receipt-paper-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2251",
+      "name": "Stamp type",
+      "handle": "stamp-type",
+      "description": "Identifies the kind of office stamp, such as traditional or self-inking",
+      "values": [
+        {
+          "name": "Pre-inked",
+          "handle": "stamp-type__pre-inked"
+        },
+        {
+          "name": "Self-inking",
+          "handle": "stamp-type__self-inking"
+        },
+        {
+          "name": "Traditional",
+          "handle": "stamp-type__traditional"
+        },
+        {
+          "name": "Other",
+          "handle": "stamp-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2243",
+      "name": "Staple wire gauge",
+      "handle": "staple-wire-gauge",
+      "description": "Identifies the thickness of the wire used in staples, like medium or heavy",
+      "values": [
+        {
+          "name": "Fine",
+          "handle": "staple-wire-gauge__fine"
+        },
+        {
+          "name": "Heavy",
+          "handle": "staple-wire-gauge__heavy"
+        },
+        {
+          "name": "Medium",
+          "handle": "staple-wire-gauge__medium"
+        },
+        {
+          "name": "Other",
+          "handle": "staple-wire-gauge__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3161",
+      "name": "Stapler features",
+      "handle": "stapler-features",
+      "description": "Describes special characteristics of staplers, like jam-free operation",
+      "values": [
+        {
+          "name": "Jam-free operation",
+          "handle": "stapler-features__jam-free-operation"
+        },
+        {
+          "name": "Other",
+          "handle": "stapler-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2235",
+      "name": "Tab style",
+      "handle": "tab-style",
+      "description": "Specifies the style of tabs on binder accessories, e.g. pre-printed, numbered",
+      "values": [
+        {
+          "name": "Alphabetical",
+          "handle": "tab-style__alphabetical"
+        },
+        {
+          "name": "Blank",
+          "handle": "tab-style__blank"
+        },
+        {
+          "name": "Numbered",
+          "handle": "tab-style__numbered"
+        },
+        {
+          "name": "Pre-printed",
+          "handle": "tab-style__pre-printed"
+        },
+        {
+          "name": "Other",
+          "handle": "tab-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2245",
+      "name": "Tack/Pushpin head design",
+      "handle": "tack-pushpin-head-design",
+      "description": "Describes the shape of a tack or pushpin's head, like round or decorative",
+      "values": [
+        {
+          "name": "Decorative",
+          "handle": "tack-pushpin-head-design__decorative"
+        },
+        {
+          "name": "Flat",
+          "handle": "tack-pushpin-head-design__flat"
+        },
+        {
+          "name": "Round",
+          "handle": "tack-pushpin-head-design__round"
+        },
+        {
+          "name": "Other",
+          "handle": "tack-pushpin-head-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2268",
+      "name": "Zoom type",
+      "handle": "zoom-type",
+      "description": "Specifies the type of zoom function in document cameras, such as digital or optical",
+      "values": [
+        {
+          "name": "Digital",
+          "handle": "zoom-type__digital"
+        },
+        {
+          "name": "Optical",
+          "handle": "zoom-type__optical"
+        },
+        {
+          "name": "Other",
+          "handle": "zoom-type__other"
+        }
+      ]
+    }
+  ]
+}

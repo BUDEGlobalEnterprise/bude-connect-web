@@ -1,0 +1,3724 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2703",
+      "name": "ATV/Off-road tire type",
+      "handle": "atv-off-road-tire-type",
+      "description": "Identifies the specific use of ATV or off-road tires, such as sand or mud",
+      "values": [
+        {
+          "name": "ATV",
+          "handle": "atv-off-road-tire-type__atv"
+        },
+        {
+          "name": "Mud",
+          "handle": "atv-off-road-tire-type__mud"
+        },
+        {
+          "name": "Off-road truck",
+          "handle": "atv-off-road-tire-type__off-road-truck"
+        },
+        {
+          "name": "Racing",
+          "handle": "atv-off-road-tire-type__racing"
+        },
+        {
+          "name": "Rock crawling",
+          "handle": "atv-off-road-tire-type__rock-crawling"
+        },
+        {
+          "name": "Sand",
+          "handle": "atv-off-road-tire-type__sand"
+        },
+        {
+          "name": "Snow",
+          "handle": "atv-off-road-tire-type__snow"
+        },
+        {
+          "name": "UTV",
+          "handle": "atv-off-road-tire-type__utv"
+        },
+        {
+          "name": "Other",
+          "handle": "atv-off-road-tire-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2708",
+      "name": "Air freshener form",
+      "handle": "air-freshener-form",
+      "description": "Defines the type of car air fresheners, e.g. oil, vent clip",
+      "values": [
+        {
+          "name": "Cards",
+          "handle": "air-freshener-form__cards"
+        },
+        {
+          "name": "Gel",
+          "handle": "air-freshener-form__gel"
+        },
+        {
+          "name": "Oil",
+          "handle": "air-freshener-form__oil"
+        },
+        {
+          "name": "Spray",
+          "handle": "air-freshener-form__spray"
+        },
+        {
+          "name": "Vent clip",
+          "handle": "air-freshener-form__vent-clip"
+        },
+        {
+          "name": "Other",
+          "handle": "air-freshener-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4683",
+      "name": "Aircraft engine configuration",
+      "handle": "aircraft-engine-configuration",
+      "description": "Specifies the number of engines powering the aircraft, such as single or twin",
+      "values": [
+        {
+          "name": "Quad",
+          "handle": "aircraft-engine-configuration__quad"
+        },
+        {
+          "name": "Single",
+          "handle": "aircraft-engine-configuration__single"
+        },
+        {
+          "name": "Twin",
+          "handle": "aircraft-engine-configuration__twin"
+        },
+        {
+          "name": "Other",
+          "handle": "aircraft-engine-configuration__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4682",
+      "name": "Aircraft engine type",
+      "handle": "aircraft-engine-type",
+      "description": "Specifies the type of engine powering the aircraft, such as jet or turboprop",
+      "values": [
+        {
+          "name": "Electric",
+          "handle": "aircraft-engine-type__electric"
+        },
+        {
+          "name": "Jet",
+          "handle": "aircraft-engine-type__jet"
+        },
+        {
+          "name": "Piston",
+          "handle": "aircraft-engine-type__piston"
+        },
+        {
+          "name": "Turboprop",
+          "handle": "aircraft-engine-type__turboprop"
+        },
+        {
+          "name": "Other",
+          "handle": "aircraft-engine-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2690",
+      "name": "Amplifier configuration",
+      "handle": "amplifier-configuration",
+      "description": "Specifies the setup of motor vehicle amplifiers, such as two-channel or four-channel",
+      "values": [
+        {
+          "name": "Five-channel",
+          "handle": "amplifier-configuration__five-channel"
+        },
+        {
+          "name": "Four-channel",
+          "handle": "amplifier-configuration__four-channel"
+        },
+        {
+          "name": "Mono",
+          "handle": "amplifier-configuration__mono"
+        },
+        {
+          "name": "Multi-channel",
+          "handle": "amplifier-configuration__multi-channel"
+        },
+        {
+          "name": "Six-channel",
+          "handle": "amplifier-configuration__six-channel"
+        },
+        {
+          "name": "Two-channel",
+          "handle": "amplifier-configuration__two-channel"
+        },
+        {
+          "name": "Other",
+          "handle": "amplifier-configuration__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2710",
+      "name": "Antifreeze type",
+      "handle": "antifreeze-type",
+      "description": "Specifies the type of antifreeze for vehicle maintenance, e.g. concentrate, prediluted",
+      "values": [
+        {
+          "name": "Concentrate",
+          "handle": "antifreeze-type__concentrate"
+        },
+        {
+          "name": "Prediluted",
+          "handle": "antifreeze-type__prediluted"
+        },
+        {
+          "name": "Other",
+          "handle": "antifreeze-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4680",
+      "name": "Antique car design",
+      "handle": "antique-car-design",
+      "description": "Describes the primary design style of an antique car, such as t-bucket or grand tourer",
+      "values": [
+        {
+          "name": "Brougham",
+          "handle": "antique-car-design__brougham"
+        },
+        {
+          "name": "Grand tourer",
+          "handle": "antique-car-design__grand-tourer"
+        },
+        {
+          "name": "Horseless carriage",
+          "handle": "antique-car-design__horseless-carriage"
+        },
+        {
+          "name": "Hot rod",
+          "handle": "antique-car-design__hot-rod"
+        },
+        {
+          "name": "Kustom",
+          "handle": "antique-car-design__kustom"
+        },
+        {
+          "name": "Lead sled",
+          "handle": "antique-car-design__lead-sled"
+        },
+        {
+          "name": "Lowrider",
+          "handle": "antique-car-design__lowrider"
+        },
+        {
+          "name": "Muscle",
+          "handle": "antique-car-design__muscle"
+        },
+        {
+          "name": "Pony",
+          "handle": "antique-car-design__pony"
+        },
+        {
+          "name": "T-bucket",
+          "handle": "antique-car-design__t-bucket"
+        },
+        {
+          "name": "Vintage racer",
+          "handle": "antique-car-design__vintage-racer"
+        },
+        {
+          "name": "Woody wagon",
+          "handle": "antique-car-design__woody-wagon"
+        },
+        {
+          "name": "Other",
+          "handle": "antique-car-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4679",
+      "name": "Antique vehicle era",
+      "handle": "antique-vehicle-era",
+      "description": "Describes the historical period of an antique vehicle, such as Brass Era or Vintage Era",
+      "values": [
+        {
+          "name": "Brass Era",
+          "handle": "antique-vehicle-era__brass-era"
+        },
+        {
+          "name": "Classic Era",
+          "handle": "antique-vehicle-era__classic-era"
+        },
+        {
+          "name": "Modern Era",
+          "handle": "antique-vehicle-era__modern-era"
+        },
+        {
+          "name": "Post-War Era",
+          "handle": "antique-vehicle-era__post-war-era"
+        },
+        {
+          "name": "Pre-War Era",
+          "handle": "antique-vehicle-era__pre-war-era"
+        },
+        {
+          "name": "Vintage Era",
+          "handle": "antique-vehicle-era__vintage-era"
+        },
+        {
+          "name": "Other",
+          "handle": "antique-vehicle-era__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2725",
+      "name": "Bag type",
+      "handle": "bag-type",
+      "description": "Specifies the category of motorcycle bags & panniers, such as tail bag or tool bag",
+      "values": [
+        {
+          "name": "Saddlebag",
+          "handle": "bag-type__saddlebag"
+        },
+        {
+          "name": "Tail bag",
+          "handle": "bag-type__tail-bag"
+        },
+        {
+          "name": "Tank bag",
+          "handle": "bag-type__tank-bag"
+        },
+        {
+          "name": "Tool bag",
+          "handle": "bag-type__tool-bag"
+        },
+        {
+          "name": "Other",
+          "handle": "bag-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3196",
+      "name": "Battery management features",
+      "handle": "battery-management-features",
+      "description": "Identifies the capabilities of a battery management system, like fault detection or remote monitoring",
+      "values": [
+        {
+          "name": "Cell balancing",
+          "handle": "battery-management-features__cell-balancing"
+        },
+        {
+          "name": "Current monitoring",
+          "handle": "battery-management-features__current-monitoring"
+        },
+        {
+          "name": "Data logging",
+          "handle": "battery-management-features__data-logging"
+        },
+        {
+          "name": "Depth of discharge (DOD) estimation",
+          "handle": "battery-management-features__depth-of-discharge-dod-estimation"
+        },
+        {
+          "name": "Energy efficiency optimization",
+          "handle": "battery-management-features__energy-efficiency-optimization"
+        },
+        {
+          "name": "Fault detection",
+          "handle": "battery-management-features__fault-detection"
+        },
+        {
+          "name": "Lifespan prediction",
+          "handle": "battery-management-features__lifespan-prediction"
+        },
+        {
+          "name": "Preemptive maintenance alerts",
+          "handle": "battery-management-features__preemptive-maintenance-alerts"
+        },
+        {
+          "name": "Remote monitoring",
+          "handle": "battery-management-features__remote-monitoring"
+        },
+        {
+          "name": "State of charge (SOC) estimation",
+          "handle": "battery-management-features__state-of-charge-soc-estimation"
+        },
+        {
+          "name": "State of health (SOH) estimation",
+          "handle": "battery-management-features__state-of-health-soh-estimation"
+        },
+        {
+          "name": "Temperature monitoring",
+          "handle": "battery-management-features__temperature-monitoring"
+        },
+        {
+          "name": "Thermal management",
+          "handle": "battery-management-features__thermal-management"
+        },
+        {
+          "name": "Voltage monitoring",
+          "handle": "battery-management-features__voltage-monitoring"
+        },
+        {
+          "name": "Other",
+          "handle": "battery-management-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2721",
+      "name": "Belt type",
+      "handle": "belt-type",
+      "description": "Identifies the design of a vehicle's safety belt, such as lap or three-point",
+      "values": [
+        {
+          "name": "Five-point",
+          "handle": "belt-type__five-point"
+        },
+        {
+          "name": "Lap",
+          "handle": "belt-type__lap"
+        },
+        {
+          "name": "Three-point",
+          "handle": "belt-type__three-point"
+        },
+        {
+          "name": "Other",
+          "handle": "belt-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2754",
+      "name": "Boat type",
+      "handle": "boat-type",
+      "description": "Identifies the specific design or model of a watercraft, such pontoon or deck boat",
+      "values": [
+        {
+          "name": "Bowrider",
+          "handle": "boat-type__bowrider"
+        },
+        {
+          "name": "Center console",
+          "handle": "boat-type__center-console"
+        },
+        {
+          "name": "Cuddy cabin",
+          "handle": "boat-type__cuddy-cabin"
+        },
+        {
+          "name": "Deck boat",
+          "handle": "boat-type__deck-boat"
+        },
+        {
+          "name": "Pontoon",
+          "handle": "boat-type__pontoon"
+        },
+        {
+          "name": "Other",
+          "handle": "boat-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2726",
+      "name": "Box type",
+      "handle": "box-type",
+      "description": "Identifies the style of storage boxes or organizers for vehicles, like chest or crossover",
+      "values": [
+        {
+          "name": "Chest",
+          "handle": "box-type__chest"
+        },
+        {
+          "name": "Crossover",
+          "handle": "box-type__crossover"
+        },
+        {
+          "name": "Drawer",
+          "handle": "box-type__drawer"
+        },
+        {
+          "name": "Side mount",
+          "handle": "box-type__side-mount"
+        },
+        {
+          "name": "Other",
+          "handle": "box-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2720",
+      "name": "Cage type",
+      "handle": "cage-type",
+      "description": "Identifies the style of safety cage in vehicles, like full cage or half-cage",
+      "values": [
+        {
+          "name": "Full cage",
+          "handle": "cage-type__full-cage"
+        },
+        {
+          "name": "Half-cage",
+          "handle": "cage-type__half-cage"
+        },
+        {
+          "name": "Roll bar",
+          "handle": "cage-type__roll-bar"
+        },
+        {
+          "name": "Other",
+          "handle": "cage-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2709",
+      "name": "Car freshener fragrance",
+      "handle": "car-freshener-fragrance",
+      "description": "Specifies the aroma of vehicle air fresheners, such as lavender or new car",
+      "values": [
+        {
+          "name": "Apple",
+          "handle": "car-freshener-fragrance__apple"
+        },
+        {
+          "name": "Cherry",
+          "handle": "car-freshener-fragrance__cherry"
+        },
+        {
+          "name": "Citrus",
+          "handle": "car-freshener-fragrance__citrus"
+        },
+        {
+          "name": "Coconut",
+          "handle": "car-freshener-fragrance__coconut"
+        },
+        {
+          "name": "Fresh linen",
+          "handle": "car-freshener-fragrance__fresh-linen"
+        },
+        {
+          "name": "Lavender",
+          "handle": "car-freshener-fragrance__lavender"
+        },
+        {
+          "name": "Lemon",
+          "handle": "car-freshener-fragrance__lemon"
+        },
+        {
+          "name": "New car",
+          "handle": "car-freshener-fragrance__new-car"
+        },
+        {
+          "name": "Pine",
+          "handle": "car-freshener-fragrance__pine"
+        },
+        {
+          "name": "Strawberry",
+          "handle": "car-freshener-fragrance__strawberry"
+        },
+        {
+          "name": "Unscented",
+          "handle": "car-freshener-fragrance__unscented"
+        },
+        {
+          "name": "Vanilla",
+          "handle": "car-freshener-fragrance__vanilla"
+        },
+        {
+          "name": "Other",
+          "handle": "car-freshener-fragrance__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2746",
+      "name": "Car type",
+      "handle": "car-type",
+      "description": "Specifies the category of a vehicle, such as SUV or sedan",
+      "values": [
+        {
+          "name": "Convertible",
+          "handle": "car-type__convertible"
+        },
+        {
+          "name": "Coupe",
+          "handle": "car-type__coupe"
+        },
+        {
+          "name": "Crossover",
+          "handle": "car-type__crossover"
+        },
+        {
+          "name": "Hatchback",
+          "handle": "car-type__hatchback"
+        },
+        {
+          "name": "Sedan",
+          "handle": "car-type__sedan"
+        },
+        {
+          "name": "SUV",
+          "handle": "car-type__suv"
+        },
+        {
+          "name": "Wagon",
+          "handle": "car-type__wagon"
+        },
+        {
+          "name": "Other",
+          "handle": "car-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2749",
+      "name": "Cart type",
+      "handle": "cart-type",
+      "description": "Identifies the power source for a golf cart, such as electric or gas",
+      "values": [
+        {
+          "name": "Electric",
+          "handle": "cart-type__electric"
+        },
+        {
+          "name": "Gas",
+          "handle": "cart-type__gas"
+        },
+        {
+          "name": "Other",
+          "handle": "cart-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2691",
+      "name": "Cassette adapter type",
+      "handle": "cassette-adapter-type",
+      "description": "Identifies the type of cassette adapter, e.g. 3.5mm to cassette, Bluetooth to cassette",
+      "values": [
+        {
+          "name": "3.5mm to cassette",
+          "handle": "cassette-adapter-type__3-5mm-to-cassette"
+        },
+        {
+          "name": "Bluetooth to cassette",
+          "handle": "cassette-adapter-type__bluetooth-to-cassette"
+        },
+        {
+          "name": "USB to cassette",
+          "handle": "cassette-adapter-type__usb-to-cassette"
+        },
+        {
+          "name": "Other",
+          "handle": "cassette-adapter-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2728",
+      "name": "Chain type",
+      "handle": "chain-type",
+      "description": "Identifies the type of chain used in watercraft parts, like BBB or High test (HT)",
+      "values": [
+        {
+          "name": "BBB",
+          "handle": "chain-type__bbb"
+        },
+        {
+          "name": "High test (HT)",
+          "handle": "chain-type__high-test-ht"
+        },
+        {
+          "name": "Proof coil",
+          "handle": "chain-type__proof-coil"
+        },
+        {
+          "name": "Stainless steel (SS)",
+          "handle": "chain-type__stainless-steel-ss"
+        },
+        {
+          "name": "Other",
+          "handle": "chain-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2682",
+      "name": "Charging cable type",
+      "handle": "charging-cable-type",
+      "description": "Specifies the kind of EV charging cable, such as Level 3 or adapter",
+      "values": [
+        {
+          "name": "Adapter",
+          "handle": "charging-cable-type__adapter"
+        },
+        {
+          "name": "Level 1",
+          "handle": "charging-cable-type__level-1"
+        },
+        {
+          "name": "Level 2",
+          "handle": "charging-cable-type__level-2"
+        },
+        {
+          "name": "Level 3",
+          "handle": "charging-cable-type__level-3"
+        },
+        {
+          "name": "Other",
+          "handle": "charging-cable-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2683",
+      "name": "Charging level",
+      "handle": "charging-level",
+      "description": "Specifies the power level of EV charging stations, such as Level 1 (120v) or Level 2 (240v)",
+      "values": [
+        {
+          "name": "Level 1 (120v)",
+          "handle": "charging-level__level-1-120v"
+        },
+        {
+          "name": "Level 2 (240v)",
+          "handle": "charging-level__level-2-240v"
+        },
+        {
+          "name": "Level 3 (480v+)",
+          "handle": "charging-level__level-3-480v-plus"
+        },
+        {
+          "name": "Other",
+          "handle": "charging-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2735",
+      "name": "Cleaner purpose",
+      "handle": "cleaner-purpose",
+      "description": "Identifies the specific use of a watercraft cleaner, such as hull or deck",
+      "values": [
+        {
+          "name": "All-purpose",
+          "handle": "cleaner-purpose__all-purpose"
+        },
+        {
+          "name": "Deck",
+          "handle": "cleaner-purpose__deck"
+        },
+        {
+          "name": "Hull",
+          "handle": "cleaner-purpose__hull"
+        },
+        {
+          "name": "Metal",
+          "handle": "cleaner-purpose__metal"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "cleaner-purpose__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "cleaner-purpose__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2733",
+      "name": "Cleat type",
+      "handle": "cleat-type",
+      "description": "Specifies the style of cleats used in docking, such as flip-up or open base",
+      "values": [
+        {
+          "name": "Closed base",
+          "handle": "cleat-type__closed-base"
+        },
+        {
+          "name": "Flip-up",
+          "handle": "cleat-type__flip-up"
+        },
+        {
+          "name": "Open base",
+          "handle": "cleat-type__open-base"
+        },
+        {
+          "name": "Other",
+          "handle": "cleat-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4685",
+      "name": "Cockpit type",
+      "handle": "cockpit-type",
+      "description": "Specifies the design and technology used in an aircraft's cockpit, such as analog or hybrid",
+      "values": [
+        {
+          "name": "Analog",
+          "handle": "cockpit-type__analog"
+        },
+        {
+          "name": "Glass",
+          "handle": "cockpit-type__glass"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "cockpit-type__hybrid"
+        },
+        {
+          "name": "Integrated",
+          "handle": "cockpit-type__integrated"
+        },
+        {
+          "name": "Specialized",
+          "handle": "cockpit-type__specialized"
+        },
+        {
+          "name": "Other",
+          "handle": "cockpit-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2679",
+      "name": "Compatible aircraft type",
+      "handle": "compatible-aircraft-type",
+      "description": "Identifies the type of aircraft the product is suitable for, like airplane or helicopter",
+      "values": [
+        {
+          "name": "Airplane",
+          "handle": "compatible-aircraft-type__airplane"
+        },
+        {
+          "name": "Balloon",
+          "handle": "compatible-aircraft-type__balloon"
+        },
+        {
+          "name": "Blimp",
+          "handle": "compatible-aircraft-type__blimp"
+        },
+        {
+          "name": "Glider",
+          "handle": "compatible-aircraft-type__glider"
+        },
+        {
+          "name": "Helicopter",
+          "handle": "compatible-aircraft-type__helicopter"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-aircraft-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2692",
+      "name": "Compatible player",
+      "handle": "compatible-player",
+      "description": "Identifies the devices that can be used with a cassette adapter, e.g. iPad, laptop",
+      "values": [
+        {
+          "name": "CD player",
+          "handle": "compatible-player__cd-player"
+        },
+        {
+          "name": "iPad",
+          "handle": "compatible-player__ipad"
+        },
+        {
+          "name": "iPhone",
+          "handle": "compatible-player__iphone"
+        },
+        {
+          "name": "iPod",
+          "handle": "compatible-player__ipod"
+        },
+        {
+          "name": "Laptop",
+          "handle": "compatible-player__laptop"
+        },
+        {
+          "name": "MP3 player",
+          "handle": "compatible-player__mp3-player"
+        },
+        {
+          "name": "Portable DVD player",
+          "handle": "compatible-player__portable-dvd-player"
+        },
+        {
+          "name": "Smartphone",
+          "handle": "compatible-player__smartphone"
+        },
+        {
+          "name": "Tablet",
+          "handle": "compatible-player__tablet"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-player__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4684",
+      "name": "Drone features",
+      "handle": "drone-features",
+      "description": "Specifies the various functional and design features available in a drone, such as GPS navigation or obstacle avoidance",
+      "values": [
+        {
+          "name": "360-degree camera rotation",
+          "handle": "drone-features__360-degree-camera-rotation"
+        },
+        {
+          "name": "Adjustable speed",
+          "handle": "drone-features__adjustable-speed"
+        },
+        {
+          "name": "Altitude hold",
+          "handle": "drone-features__altitude-hold"
+        },
+        {
+          "name": "Auto takeoff & land",
+          "handle": "drone-features__auto-takeoff-land"
+        },
+        {
+          "name": "Autonomous flight modes",
+          "handle": "drone-features__autonomous-flight-modes"
+        },
+        {
+          "name": "Built-in camera",
+          "handle": "drone-features__built-in-camera"
+        },
+        {
+          "name": "First person view",
+          "handle": "drone-features__first-person-view"
+        },
+        {
+          "name": "Foldable",
+          "handle": "drone-features__foldable"
+        },
+        {
+          "name": "Follow me mode",
+          "handle": "drone-features__follow-me-mode"
+        },
+        {
+          "name": "Geofencing",
+          "handle": "drone-features__geofencing"
+        },
+        {
+          "name": "GPS support",
+          "handle": "drone-features__gps-support"
+        },
+        {
+          "name": "Headless mode",
+          "handle": "drone-features__headless-mode"
+        },
+        {
+          "name": "Live video feed",
+          "handle": "drone-features__live-video-feed"
+        },
+        {
+          "name": "Long battery life",
+          "handle": "drone-features__long-battery-life"
+        },
+        {
+          "name": "Long range control",
+          "handle": "drone-features__long-range-control"
+        },
+        {
+          "name": "Night vision",
+          "handle": "drone-features__night-vision"
+        },
+        {
+          "name": "Obstacle avoidance",
+          "handle": "drone-features__obstacle-avoidance"
+        },
+        {
+          "name": "Position hold",
+          "handle": "drone-features__position-hold"
+        },
+        {
+          "name": "Ready to fly",
+          "handle": "drone-features__ready-to-fly"
+        },
+        {
+          "name": "Return to home",
+          "handle": "drone-features__return-to-home"
+        },
+        {
+          "name": "Thermal imaging camera",
+          "handle": "drone-features__thermal-imaging-camera"
+        },
+        {
+          "name": "Waypoint navigation",
+          "handle": "drone-features__waypoint-navigation"
+        },
+        {
+          "name": "Other",
+          "handle": "drone-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3197",
+      "name": "EV battery features",
+      "handle": "ev-battery-features",
+      "description": "Highlights features of EV batteries, such as long cycle life or smart battery management system",
+      "values": [
+        {
+          "name": "Battery health monitoring",
+          "handle": "ev-battery-features__battery-health-monitoring"
+        },
+        {
+          "name": "Fast charge",
+          "handle": "ev-battery-features__fast-charge"
+        },
+        {
+          "name": "High capacity",
+          "handle": "ev-battery-features__high-capacity"
+        },
+        {
+          "name": "Long cycle life",
+          "handle": "ev-battery-features__long-cycle-life"
+        },
+        {
+          "name": "Regenerative braking compatibility",
+          "handle": "ev-battery-features__regenerative-braking-compatibility"
+        },
+        {
+          "name": "Smart battery management system",
+          "handle": "ev-battery-features__smart-battery-management-system"
+        },
+        {
+          "name": "Thermal management",
+          "handle": "ev-battery-features__thermal-management"
+        },
+        {
+          "name": "Other",
+          "handle": "ev-battery-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2686",
+      "name": "EV connector/adapter type",
+      "handle": "ev-connector-adapter-type",
+      "description": "Identifies the type of connector or adapter for electric vehicles, like CCS or Tesla",
+      "values": [
+        {
+          "name": "CCS",
+          "handle": "ev-connector-adapter-type__ccs"
+        },
+        {
+          "name": "CHAdeMO",
+          "handle": "ev-connector-adapter-type__chademo"
+        },
+        {
+          "name": "J1772",
+          "handle": "ev-connector-adapter-type__j1772"
+        },
+        {
+          "name": "Tesla",
+          "handle": "ev-connector-adapter-type__tesla"
+        },
+        {
+          "name": "Type 2",
+          "handle": "ev-connector-adapter-type__type-2"
+        },
+        {
+          "name": "Vehicle-to-grid (V2G)",
+          "handle": "ev-connector-adapter-type__vehicle-to-grid-v2g"
+        },
+        {
+          "name": "Vehicle-to-home (V2H)",
+          "handle": "ev-connector-adapter-type__vehicle-to-home-v2h"
+        },
+        {
+          "name": "Other",
+          "handle": "ev-connector-adapter-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2687",
+      "name": "EV conversion kit components",
+      "handle": "ev-conversion-kit-components",
+      "description": "Identifies the parts included in an EV conversion kit, like motor or battery pack",
+      "values": [
+        {
+          "name": "Battery pack",
+          "handle": "ev-conversion-kit-components__battery-pack"
+        },
+        {
+          "name": "Charger",
+          "handle": "ev-conversion-kit-components__charger"
+        },
+        {
+          "name": "Controller",
+          "handle": "ev-conversion-kit-components__controller"
+        },
+        {
+          "name": "DC-DC converter",
+          "handle": "ev-conversion-kit-components__dc-dc-converter"
+        },
+        {
+          "name": "Fuses",
+          "handle": "ev-conversion-kit-components__fuses"
+        },
+        {
+          "name": "Motor",
+          "handle": "ev-conversion-kit-components__motor"
+        },
+        {
+          "name": "Mounts",
+          "handle": "ev-conversion-kit-components__mounts"
+        },
+        {
+          "name": "Sensors",
+          "handle": "ev-conversion-kit-components__sensors"
+        },
+        {
+          "name": "Throttle",
+          "handle": "ev-conversion-kit-components__throttle"
+        },
+        {
+          "name": "Wiring harness",
+          "handle": "ev-conversion-kit-components__wiring-harness"
+        },
+        {
+          "name": "Other",
+          "handle": "ev-conversion-kit-components__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3406",
+      "name": "Faceplate design",
+      "handle": "faceplate-design",
+      "description": "Identifies the type of faceplate on vehicle electronics, like detachable or fixed",
+      "values": [
+        {
+          "name": "Detachable",
+          "handle": "faceplate-design__detachable"
+        },
+        {
+          "name": "Fixed",
+          "handle": "faceplate-design__fixed"
+        },
+        {
+          "name": "Other",
+          "handle": "faceplate-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2715",
+      "name": "Filler type",
+      "handle": "filler-type",
+      "description": "Specifies the type of filler used in vehicle maintenance, like fiberglass or lightweight",
+      "values": [
+        {
+          "name": "Fiberglass",
+          "handle": "filler-type__fiberglass"
+        },
+        {
+          "name": "Lightweight",
+          "handle": "filler-type__lightweight"
+        },
+        {
+          "name": "Metal",
+          "handle": "filler-type__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "filler-type__plastic"
+        },
+        {
+          "name": "Other",
+          "handle": "filler-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2719",
+      "name": "Flare type",
+      "handle": "flare-type",
+      "description": "Identifies the type of emergency road flares, such as LED or traditional",
+      "values": [
+        {
+          "name": "LED",
+          "handle": "flare-type__led"
+        },
+        {
+          "name": "Traditional",
+          "handle": "flare-type__traditional"
+        },
+        {
+          "name": "Other",
+          "handle": "flare-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2697",
+      "name": "Gauge type",
+      "handle": "gauge-type",
+      "description": "Specifies the kind of vehicle gauge, such as fuel level or temperature",
+      "values": [
+        {
+          "name": "Fuel level",
+          "handle": "gauge-type__fuel-level"
+        },
+        {
+          "name": "Odometer",
+          "handle": "gauge-type__odometer"
+        },
+        {
+          "name": "Pressure",
+          "handle": "gauge-type__pressure"
+        },
+        {
+          "name": "Speedometer",
+          "handle": "gauge-type__speedometer"
+        },
+        {
+          "name": "Tachometer",
+          "handle": "gauge-type__tachometer"
+        },
+        {
+          "name": "Temperature",
+          "handle": "gauge-type__temperature"
+        },
+        {
+          "name": "Voltage",
+          "handle": "gauge-type__voltage"
+        },
+        {
+          "name": "Other",
+          "handle": "gauge-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2717",
+      "name": "Hitch class",
+      "handle": "hitch-class",
+      "description": "Identifies the towing capacity of a vehicle's hitch, such as Class I or Class II",
+      "values": [
+        {
+          "name": "Class I",
+          "handle": "hitch-class__class-i"
+        },
+        {
+          "name": "Class II",
+          "handle": "hitch-class__class-ii"
+        },
+        {
+          "name": "Class III",
+          "handle": "hitch-class__class-iii"
+        },
+        {
+          "name": "Class IV",
+          "handle": "hitch-class__class-iv"
+        },
+        {
+          "name": "Class V",
+          "handle": "hitch-class__class-v"
+        },
+        {
+          "name": "Other",
+          "handle": "hitch-class__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2731",
+      "name": "Hook type",
+      "handle": "hook-type",
+      "description": "Identifies the style of boat hooks, such as fixed or telescoping",
+      "values": [
+        {
+          "name": "Fixed",
+          "handle": "hook-type__fixed"
+        },
+        {
+          "name": "Telescoping",
+          "handle": "hook-type__telescoping"
+        },
+        {
+          "name": "Other",
+          "handle": "hook-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2718",
+      "name": "Immobilizer type",
+      "handle": "immobilizer-type",
+      "description": "Specifies the kind of device used to prevent vehicle theft, for instance, tire lock or steering wheel lock",
+      "values": [
+        {
+          "name": "Pedal lock",
+          "handle": "immobilizer-type__pedal-lock"
+        },
+        {
+          "name": "Steering wheel lock",
+          "handle": "immobilizer-type__steering-wheel-lock"
+        },
+        {
+          "name": "Tire lock",
+          "handle": "immobilizer-type__tire-lock"
+        },
+        {
+          "name": "Other",
+          "handle": "immobilizer-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2689",
+      "name": "Inverter type",
+      "handle": "inverter-type",
+      "description": "Identifies the type of power inverter in EV parts, like pure sine wave or square wave",
+      "values": [
+        {
+          "name": "Modified sine wave",
+          "handle": "inverter-type__modified-sine-wave"
+        },
+        {
+          "name": "Pure sine wave",
+          "handle": "inverter-type__pure-sine-wave"
+        },
+        {
+          "name": "Square wave",
+          "handle": "inverter-type__square-wave"
+        },
+        {
+          "name": "Other",
+          "handle": "inverter-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2948",
+      "name": "Item material",
+      "handle": "item-material",
+      "description": "Specifies the primary substance of an item, typically for vehicle parts and accessories; e.g. copper, fiberglass",
+      "values": [
+        {
+          "name": "Acrylonitrile butadiene styrene (ABS)",
+          "handle": "item-material__acrylonitrile-butadiene-styrene-abs"
+        },
+        {
+          "name": "Aluminum",
+          "handle": "item-material__aluminum"
+        },
+        {
+          "name": "Brass",
+          "handle": "item-material__brass"
+        },
+        {
+          "name": "Carbon fiber",
+          "handle": "item-material__carbon-fiber"
+        },
+        {
+          "name": "Ceramic",
+          "handle": "item-material__ceramic"
+        },
+        {
+          "name": "Chrome",
+          "handle": "item-material__chrome"
+        },
+        {
+          "name": "Copper",
+          "handle": "item-material__copper"
+        },
+        {
+          "name": "Faux leather",
+          "handle": "item-material__faux-leather"
+        },
+        {
+          "name": "Fiberglass",
+          "handle": "item-material__fiberglass"
+        },
+        {
+          "name": "Glass",
+          "handle": "item-material__glass"
+        },
+        {
+          "name": "Leather",
+          "handle": "item-material__leather"
+        },
+        {
+          "name": "Metal",
+          "handle": "item-material__metal"
+        },
+        {
+          "name": "Neoprene",
+          "handle": "item-material__neoprene"
+        },
+        {
+          "name": "Nylon",
+          "handle": "item-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "item-material__plastic"
+        },
+        {
+          "name": "Polycarbonate (PC)",
+          "handle": "item-material__polycarbonate-pc"
+        },
+        {
+          "name": "Polyethylene (PE)",
+          "handle": "item-material__polyethylene-pe"
+        },
+        {
+          "name": "Polypropylene (PP)",
+          "handle": "item-material__polypropylene-pp"
+        },
+        {
+          "name": "Polyurethane (PU)",
+          "handle": "item-material__polyurethane-pu"
+        },
+        {
+          "name": "Polyvinyl chloride (PVC)",
+          "handle": "item-material__polyvinyl-chloride-pvc"
+        },
+        {
+          "name": "Rubber",
+          "handle": "item-material__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "item-material__silicone"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "item-material__stainless-steel"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "item-material__synthetic"
+        },
+        {
+          "name": "Thermoplastic",
+          "handle": "item-material__thermoplastic"
+        },
+        {
+          "name": "Titanium",
+          "handle": "item-material__titanium"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "item-material__vinyl"
+        },
+        {
+          "name": "Wood",
+          "handle": "item-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "item-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2732",
+      "name": "Ladder type",
+      "handle": "ladder-type",
+      "description": "Identifies the style of boat ladder, such as fixed or telescoping",
+      "values": [
+        {
+          "name": "Fixed",
+          "handle": "ladder-type__fixed"
+        },
+        {
+          "name": "Over-platform",
+          "handle": "ladder-type__over-platform"
+        },
+        {
+          "name": "Telescoping",
+          "handle": "ladder-type__telescoping"
+        },
+        {
+          "name": "Under-platform",
+          "handle": "ladder-type__under-platform"
+        },
+        {
+          "name": "Other",
+          "handle": "ladder-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2742",
+      "name": "Light type",
+      "handle": "light-type",
+      "description": "Identifies the specific type of light used in watercraft, e.g. navigation, underwater",
+      "values": [
+        {
+          "name": "Cabin",
+          "handle": "light-type__cabin"
+        },
+        {
+          "name": "Deck",
+          "handle": "light-type__deck"
+        },
+        {
+          "name": "Navigation",
+          "handle": "light-type__navigation"
+        },
+        {
+          "name": "Underwater",
+          "handle": "light-type__underwater"
+        },
+        {
+          "name": "Other",
+          "handle": "light-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2729",
+      "name": "Line/Rope type",
+      "handle": "line-rope-type",
+      "description": "Identifies the construction style of anchor lines or ropes, like three-strand or double braid",
+      "values": [
+        {
+          "name": "Double braid",
+          "handle": "line-rope-type__double-braid"
+        },
+        {
+          "name": "Single braid",
+          "handle": "line-rope-type__single-braid"
+        },
+        {
+          "name": "Three-strand",
+          "handle": "line-rope-type__three-strand"
+        },
+        {
+          "name": "Other",
+          "handle": "line-rope-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2723",
+      "name": "Loading ramp type",
+      "handle": "loading-ramp-type",
+      "description": "Identifies the style of loading ramp for vehicles, like single or tri-fold",
+      "values": [
+        {
+          "name": "Pair",
+          "handle": "loading-ramp-type__pair"
+        },
+        {
+          "name": "Single",
+          "handle": "loading-ramp-type__single"
+        },
+        {
+          "name": "Tri-fold",
+          "handle": "loading-ramp-type__tri-fold"
+        },
+        {
+          "name": "Other",
+          "handle": "loading-ramp-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2738",
+      "name": "Lock placement",
+      "handle": "lock-placement",
+      "description": "Identifies where the lock is positioned on watercraft engine parts, such as outboard or inboard",
+      "values": [
+        {
+          "name": "Inboard",
+          "handle": "lock-placement__inboard"
+        },
+        {
+          "name": "Outboard",
+          "handle": "lock-placement__outboard"
+        },
+        {
+          "name": "Other",
+          "handle": "lock-placement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2741",
+      "name": "Meter type",
+      "handle": "meter-type",
+      "description": "Identifies the type of meter used in watercraft fuel systems, such as digital or analog",
+      "values": [
+        {
+          "name": "Analog",
+          "handle": "meter-type__analog"
+        },
+        {
+          "name": "Digital",
+          "handle": "meter-type__digital"
+        },
+        {
+          "name": "Other",
+          "handle": "meter-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2698",
+      "name": "Motor vehicle placement",
+      "handle": "motor-vehicle-placement",
+      "description": "Identifies where on a vehicle a part is designed to fit, like front or rear",
+      "values": [
+        {
+          "name": "Front",
+          "handle": "motor-vehicle-placement__front"
+        },
+        {
+          "name": "Left side",
+          "handle": "motor-vehicle-placement__left-side"
+        },
+        {
+          "name": "Rear",
+          "handle": "motor-vehicle-placement__rear"
+        },
+        {
+          "name": "Right side",
+          "handle": "motor-vehicle-placement__right-side"
+        },
+        {
+          "name": "Other",
+          "handle": "motor-vehicle-placement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2695",
+      "name": "Motor vehicle type",
+      "handle": "motor-vehicle-type",
+      "description": "Specifies the category of motor vehicle, such as car or SUV",
+      "values": [
+        {
+          "name": "Car",
+          "handle": "motor-vehicle-type__car"
+        },
+        {
+          "name": "SUV",
+          "handle": "motor-vehicle-type__suv"
+        },
+        {
+          "name": "Truck",
+          "handle": "motor-vehicle-type__truck"
+        },
+        {
+          "name": "Van",
+          "handle": "motor-vehicle-type__van"
+        },
+        {
+          "name": "Other",
+          "handle": "motor-vehicle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2750",
+      "name": "Motorcycle drive type",
+      "handle": "motorcycle-drive-type",
+      "description": "Specifies the motorcycle's transmission mechanism, such as shaft or chain",
+      "values": [
+        {
+          "name": "Belt",
+          "handle": "motorcycle-drive-type__belt"
+        },
+        {
+          "name": "Chain",
+          "handle": "motorcycle-drive-type__chain"
+        },
+        {
+          "name": "Shaft",
+          "handle": "motorcycle-drive-type__shaft"
+        },
+        {
+          "name": "Other",
+          "handle": "motorcycle-drive-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2716",
+      "name": "Motorcycle glove purpose",
+      "handle": "motorcycle-glove-purpose",
+      "description": "Identifies the intended use of motorcycle gloves, such as off-road or touring",
+      "values": [
+        {
+          "name": "Off-road",
+          "handle": "motorcycle-glove-purpose__off-road"
+        },
+        {
+          "name": "Racing",
+          "handle": "motorcycle-glove-purpose__racing"
+        },
+        {
+          "name": "Summer",
+          "handle": "motorcycle-glove-purpose__summer"
+        },
+        {
+          "name": "Touring",
+          "handle": "motorcycle-glove-purpose__touring"
+        },
+        {
+          "name": "Winter",
+          "handle": "motorcycle-glove-purpose__winter"
+        },
+        {
+          "name": "Other",
+          "handle": "motorcycle-glove-purpose__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2702",
+      "name": "Motorcycle tire type",
+      "handle": "motorcycle-tire-type",
+      "description": "Classifies the motorcycle tire based on its use, such as racing or scooter",
+      "values": [
+        {
+          "name": "Adventure",
+          "handle": "motorcycle-tire-type__adventure"
+        },
+        {
+          "name": "Cruiser",
+          "handle": "motorcycle-tire-type__cruiser"
+        },
+        {
+          "name": "Dirt",
+          "handle": "motorcycle-tire-type__dirt"
+        },
+        {
+          "name": "Dual sport",
+          "handle": "motorcycle-tire-type__dual-sport"
+        },
+        {
+          "name": "Racing",
+          "handle": "motorcycle-tire-type__racing"
+        },
+        {
+          "name": "Scooter",
+          "handle": "motorcycle-tire-type__scooter"
+        },
+        {
+          "name": "Sport",
+          "handle": "motorcycle-tire-type__sport"
+        },
+        {
+          "name": "Touring",
+          "handle": "motorcycle-tire-type__touring"
+        },
+        {
+          "name": "Other",
+          "handle": "motorcycle-tire-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2751",
+      "name": "Motorcycle/Scooter type",
+      "handle": "motorcycle-scooter-type",
+      "description": "Classifies the type of motorcycle or scooter, such as off-road or moped",
+      "values": [
+        {
+          "name": "Cruiser",
+          "handle": "motorcycle-scooter-type__cruiser"
+        },
+        {
+          "name": "Dual-sport",
+          "handle": "motorcycle-scooter-type__dual-sport"
+        },
+        {
+          "name": "Maxi-scooter",
+          "handle": "motorcycle-scooter-type__maxi-scooter"
+        },
+        {
+          "name": "Moped",
+          "handle": "motorcycle-scooter-type__moped"
+        },
+        {
+          "name": "Off-road",
+          "handle": "motorcycle-scooter-type__off-road"
+        },
+        {
+          "name": "Sport",
+          "handle": "motorcycle-scooter-type__sport"
+        },
+        {
+          "name": "Three-wheel",
+          "handle": "motorcycle-scooter-type__three-wheel"
+        },
+        {
+          "name": "Touring",
+          "handle": "motorcycle-scooter-type__touring"
+        },
+        {
+          "name": "Other",
+          "handle": "motorcycle-scooter-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2727",
+      "name": "Organizer type",
+      "handle": "organizer-type",
+      "description": "Specifies the category of vehicle storage, such as cup holder or glove box",
+      "values": [
+        {
+          "name": "Backseat",
+          "handle": "organizer-type__backseat"
+        },
+        {
+          "name": "Console",
+          "handle": "organizer-type__console"
+        },
+        {
+          "name": "Cup holder",
+          "handle": "organizer-type__cup-holder"
+        },
+        {
+          "name": "Glove box",
+          "handle": "organizer-type__glove-box"
+        },
+        {
+          "name": "Visor",
+          "handle": "organizer-type__visor"
+        },
+        {
+          "name": "Other",
+          "handle": "organizer-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2712",
+      "name": "Paint finish",
+      "handle": "paint-finish",
+      "description": "Indicates the type of finish on paint, typically for vehicles; e.g. metallic, gloss",
+      "values": [
+        {
+          "name": "Gloss",
+          "handle": "paint-finish__gloss"
+        },
+        {
+          "name": "Matte",
+          "handle": "paint-finish__matte"
+        },
+        {
+          "name": "Metallic",
+          "handle": "paint-finish__metallic"
+        },
+        {
+          "name": "Pearl",
+          "handle": "paint-finish__pearl"
+        },
+        {
+          "name": "Satin",
+          "handle": "paint-finish__satin"
+        },
+        {
+          "name": "Other",
+          "handle": "paint-finish__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3200",
+      "name": "Parking camera features",
+      "handle": "parking-camera-features",
+      "description": "Describes the capabilities of a vehicle's parking camera, such as GPS support or HD video",
+      "values": [
+        {
+          "name": "GPS support",
+          "handle": "parking-camera-features__gps-support"
+        },
+        {
+          "name": "HD video",
+          "handle": "parking-camera-features__hd-video"
+        },
+        {
+          "name": "Night vision",
+          "handle": "parking-camera-features__night-vision"
+        },
+        {
+          "name": "Parking lines",
+          "handle": "parking-camera-features__parking-lines"
+        },
+        {
+          "name": "Touchscreen",
+          "handle": "parking-camera-features__touchscreen"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "parking-camera-features__waterproof"
+        },
+        {
+          "name": "Wide angle",
+          "handle": "parking-camera-features__wide-angle"
+        },
+        {
+          "name": "Other",
+          "handle": "parking-camera-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3217",
+      "name": "Personal watercraft type",
+      "handle": "personal-watercraft-type",
+      "description": "Identifies the style of personal watercraft, such as stand-up or sit-down",
+      "values": [
+        {
+          "name": "Luxury",
+          "handle": "personal-watercraft-type__luxury"
+        },
+        {
+          "name": "Sit-down",
+          "handle": "personal-watercraft-type__sit-down"
+        },
+        {
+          "name": "Sport",
+          "handle": "personal-watercraft-type__sport"
+        },
+        {
+          "name": "Stand-up",
+          "handle": "personal-watercraft-type__stand-up"
+        },
+        {
+          "name": "Other",
+          "handle": "personal-watercraft-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2736",
+      "name": "Polish type",
+      "handle": "polish-type",
+      "description": "Identifies the specific type of polish used for watercraft care, like metal or vinyl",
+      "values": [
+        {
+          "name": "All-purpose",
+          "handle": "polish-type__all-purpose"
+        },
+        {
+          "name": "Deck",
+          "handle": "polish-type__deck"
+        },
+        {
+          "name": "Hull",
+          "handle": "polish-type__hull"
+        },
+        {
+          "name": "Metal",
+          "handle": "polish-type__metal"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "polish-type__vinyl"
+        },
+        {
+          "name": "Other",
+          "handle": "polish-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2740",
+      "name": "Propeller blade design",
+      "handle": "propeller-blade-design",
+      "description": "Describes the configuration of blades on a watercraft propeller, like 3-blade or 4-blade",
+      "values": [
+        {
+          "name": "3-blade",
+          "handle": "propeller-blade-design__3-blade"
+        },
+        {
+          "name": "4-blade",
+          "handle": "propeller-blade-design__4-blade"
+        },
+        {
+          "name": "5-blade",
+          "handle": "propeller-blade-design__5-blade"
+        },
+        {
+          "name": "Other",
+          "handle": "propeller-blade-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2722",
+      "name": "Rack type",
+      "handle": "rack-type",
+      "description": "Identifies the style of a vehicle's storage rack, like trunk or roof",
+      "values": [
+        {
+          "name": "Back window",
+          "handle": "rack-type__back-window"
+        },
+        {
+          "name": "Floor mount",
+          "handle": "rack-type__floor-mount"
+        },
+        {
+          "name": "Hitch",
+          "handle": "rack-type__hitch"
+        },
+        {
+          "name": "Roof",
+          "handle": "rack-type__roof"
+        },
+        {
+          "name": "Spare tire",
+          "handle": "rack-type__spare-tire"
+        },
+        {
+          "name": "Trunk",
+          "handle": "rack-type__trunk"
+        },
+        {
+          "name": "Other",
+          "handle": "rack-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2752",
+      "name": "Recreational vehicle type",
+      "handle": "recreational-vehicle-type",
+      "description": "Identifies the category of a recreational vehicle, such as Class A or travel trailer",
+      "values": [
+        {
+          "name": "Class A",
+          "handle": "recreational-vehicle-type__class-a"
+        },
+        {
+          "name": "Class B",
+          "handle": "recreational-vehicle-type__class-b"
+        },
+        {
+          "name": "Class C",
+          "handle": "recreational-vehicle-type__class-c"
+        },
+        {
+          "name": "Fifth wheel",
+          "handle": "recreational-vehicle-type__fifth-wheel"
+        },
+        {
+          "name": "Pop-up camper",
+          "handle": "recreational-vehicle-type__pop-up-camper"
+        },
+        {
+          "name": "Travel trailer",
+          "handle": "recreational-vehicle-type__travel-trailer"
+        },
+        {
+          "name": "Truck camper",
+          "handle": "recreational-vehicle-type__truck-camper"
+        },
+        {
+          "name": "Other",
+          "handle": "recreational-vehicle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3198",
+      "name": "Regenerative braking features",
+      "handle": "regenerative-braking-features",
+      "description": "Describes the features of EV regenerative braking modules, e.g. weather resistance, easy to install",
+      "values": [
+        {
+          "name": "Adjustable regeneration level",
+          "handle": "regenerative-braking-features__adjustable-regeneration-level"
+        },
+        {
+          "name": "Automatic activation",
+          "handle": "regenerative-braking-features__automatic-activation"
+        },
+        {
+          "name": "Brake system integration",
+          "handle": "regenerative-braking-features__brake-system-integration"
+        },
+        {
+          "name": "Easy to install",
+          "handle": "regenerative-braking-features__easy-to-install"
+        },
+        {
+          "name": "Software updates",
+          "handle": "regenerative-braking-features__software-updates"
+        },
+        {
+          "name": "Weather resistant",
+          "handle": "regenerative-braking-features__weather-resistant"
+        },
+        {
+          "name": "Other",
+          "handle": "regenerative-braking-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2700",
+      "name": "Rim/Wheel design",
+      "handle": "rim-wheel-design",
+      "description": "Describes the style or construction of vehicle rims/wheels, like alloy or spoked",
+      "values": [
+        {
+          "name": "Alloy",
+          "handle": "rim-wheel-design__alloy"
+        },
+        {
+          "name": "Carbon fiber",
+          "handle": "rim-wheel-design__carbon-fiber"
+        },
+        {
+          "name": "Chrome",
+          "handle": "rim-wheel-design__chrome"
+        },
+        {
+          "name": "Forged",
+          "handle": "rim-wheel-design__forged"
+        },
+        {
+          "name": "Multi-piece",
+          "handle": "rim-wheel-design__multi-piece"
+        },
+        {
+          "name": "Spoked",
+          "handle": "rim-wheel-design__spoked"
+        },
+        {
+          "name": "Steel",
+          "handle": "rim-wheel-design__steel"
+        },
+        {
+          "name": "Other",
+          "handle": "rim-wheel-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2949",
+      "name": "Safety equipment material",
+      "handle": "safety-equipment-material",
+      "description": "Specifies the type of material in vehicle safety items, such as nylon or fiberglass",
+      "values": [
+        {
+          "name": "Fiberglass",
+          "handle": "safety-equipment-material__fiberglass"
+        },
+        {
+          "name": "Leather",
+          "handle": "safety-equipment-material__leather"
+        },
+        {
+          "name": "Metal",
+          "handle": "safety-equipment-material__metal"
+        },
+        {
+          "name": "Nylon",
+          "handle": "safety-equipment-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "safety-equipment-material__plastic"
+        },
+        {
+          "name": "Polyester",
+          "handle": "safety-equipment-material__polyester"
+        },
+        {
+          "name": "Rubber",
+          "handle": "safety-equipment-material__rubber"
+        },
+        {
+          "name": "Other",
+          "handle": "safety-equipment-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2756",
+      "name": "Sailboat type",
+      "handle": "sailboat-type",
+      "description": "Identifies the specific design or model of a sailboat, such as sloop or cutter",
+      "values": [
+        {
+          "name": "Catamaran",
+          "handle": "sailboat-type__catamaran"
+        },
+        {
+          "name": "Cutter",
+          "handle": "sailboat-type__cutter"
+        },
+        {
+          "name": "Sloop",
+          "handle": "sailboat-type__sloop"
+        },
+        {
+          "name": "Trimaran",
+          "handle": "sailboat-type__trimaran"
+        },
+        {
+          "name": "Yawl",
+          "handle": "sailboat-type__yawl"
+        },
+        {
+          "name": "Other",
+          "handle": "sailboat-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2753",
+      "name": "Snowmobile type",
+      "handle": "snowmobile-type",
+      "description": "Specifies the intended use or design of a snowmobile, like utility or touring",
+      "values": [
+        {
+          "name": "Mountain",
+          "handle": "snowmobile-type__mountain"
+        },
+        {
+          "name": "Performance",
+          "handle": "snowmobile-type__performance"
+        },
+        {
+          "name": "Touring",
+          "handle": "snowmobile-type__touring"
+        },
+        {
+          "name": "Utility",
+          "handle": "snowmobile-type__utility"
+        },
+        {
+          "name": "Youth",
+          "handle": "snowmobile-type__youth"
+        },
+        {
+          "name": "Other",
+          "handle": "snowmobile-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2693",
+      "name": "Speakerphone type",
+      "handle": "speakerphone-type",
+      "description": "Specifies the functionality of speakerphones in vehicles, like wireless or hands-free",
+      "values": [
+        {
+          "name": "Bluetooth",
+          "handle": "speakerphone-type__bluetooth"
+        },
+        {
+          "name": "Hands-free",
+          "handle": "speakerphone-type__hands-free"
+        },
+        {
+          "name": "Wired",
+          "handle": "speakerphone-type__wired"
+        },
+        {
+          "name": "Wireless",
+          "handle": "speakerphone-type__wireless"
+        },
+        {
+          "name": "Other",
+          "handle": "speakerphone-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2685",
+      "name": "Station type",
+      "handle": "station-type",
+      "description": "Identifies the type of charging station for electric vehicles, such as home or public charging",
+      "values": [
+        {
+          "name": "Fast charging",
+          "handle": "station-type__fast-charging"
+        },
+        {
+          "name": "Home charging",
+          "handle": "station-type__home-charging"
+        },
+        {
+          "name": "Portable charging",
+          "handle": "station-type__portable-charging"
+        },
+        {
+          "name": "Public charging",
+          "handle": "station-type__public-charging"
+        },
+        {
+          "name": "Supercharging",
+          "handle": "station-type__supercharging"
+        },
+        {
+          "name": "Other",
+          "handle": "station-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2734",
+      "name": "Step type",
+      "handle": "step-type",
+      "description": "Identifies the number of steps in docking and anchoring equipment, like double or single",
+      "values": [
+        {
+          "name": "Double",
+          "handle": "step-type__double"
+        },
+        {
+          "name": "Single",
+          "handle": "step-type__single"
+        },
+        {
+          "name": "Triple",
+          "handle": "step-type__triple"
+        },
+        {
+          "name": "Other",
+          "handle": "step-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2724",
+      "name": "Trailer type",
+      "handle": "trailer-type",
+      "description": "Identifies the design or style of a motor vehicle trailer, such as open or enclosed",
+      "values": [
+        {
+          "name": "Bumper pull",
+          "handle": "trailer-type__bumper-pull"
+        },
+        {
+          "name": "Conventional",
+          "handle": "trailer-type__conventional"
+        },
+        {
+          "name": "Enclosed",
+          "handle": "trailer-type__enclosed"
+        },
+        {
+          "name": "Expandable",
+          "handle": "trailer-type__expandable"
+        },
+        {
+          "name": "Fifth-wheel",
+          "handle": "trailer-type__fifth-wheel"
+        },
+        {
+          "name": "Gooseneck",
+          "handle": "trailer-type__gooseneck"
+        },
+        {
+          "name": "Living quarters",
+          "handle": "trailer-type__living-quarters"
+        },
+        {
+          "name": "Open",
+          "handle": "trailer-type__open"
+        },
+        {
+          "name": "Single axle",
+          "handle": "trailer-type__single-axle"
+        },
+        {
+          "name": "Tandem axle",
+          "handle": "trailer-type__tandem-axle"
+        },
+        {
+          "name": "Teardrop",
+          "handle": "trailer-type__teardrop"
+        },
+        {
+          "name": "Other",
+          "handle": "trailer-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2699",
+      "name": "Transmission type",
+      "handle": "transmission-type",
+      "description": "Identifies the type of transmission in vehicles or parts, like manual or automatic",
+      "values": [
+        {
+          "name": "Automatic",
+          "handle": "transmission-type__automatic"
+        },
+        {
+          "name": "CVT",
+          "handle": "transmission-type__cvt"
+        },
+        {
+          "name": "Dual-clutch",
+          "handle": "transmission-type__dual-clutch"
+        },
+        {
+          "name": "Manual",
+          "handle": "transmission-type__manual"
+        },
+        {
+          "name": "Tiptronic",
+          "handle": "transmission-type__tiptronic"
+        },
+        {
+          "name": "Other",
+          "handle": "transmission-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2747",
+      "name": "Truck type",
+      "handle": "truck-type",
+      "description": "Classifies the type of truck, such as dump truck or flatbed truck",
+      "values": [
+        {
+          "name": "Box truck",
+          "handle": "truck-type__box-truck"
+        },
+        {
+          "name": "Dump truck",
+          "handle": "truck-type__dump-truck"
+        },
+        {
+          "name": "Flatbed truck",
+          "handle": "truck-type__flatbed-truck"
+        },
+        {
+          "name": "Pickup",
+          "handle": "truck-type__pickup"
+        },
+        {
+          "name": "Other",
+          "handle": "truck-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2748",
+      "name": "Van type",
+      "handle": "van-type",
+      "description": "Distinguishes between different types of vans, such as passenger van or conversion van",
+      "values": [
+        {
+          "name": "Cargo van",
+          "handle": "van-type__cargo-van"
+        },
+        {
+          "name": "Conversion van",
+          "handle": "van-type__conversion-van"
+        },
+        {
+          "name": "Minivan",
+          "handle": "van-type__minivan"
+        },
+        {
+          "name": "Passenger van",
+          "handle": "van-type__passenger-van"
+        },
+        {
+          "name": "Other",
+          "handle": "van-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3214",
+      "name": "Vehicle alarm/lock features",
+      "handle": "vehicle-alarm-lock-features",
+      "description": "Specifies the unique characteristics of vehicle security systems, for example, remote start or weather resistant",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "vehicle-alarm-lock-features__adjustable"
+        },
+        {
+          "name": "Corrosion resistant",
+          "handle": "vehicle-alarm-lock-features__corrosion-resistant"
+        },
+        {
+          "name": "Keyed alike",
+          "handle": "vehicle-alarm-lock-features__keyed-alike"
+        },
+        {
+          "name": "Keyless entry",
+          "handle": "vehicle-alarm-lock-features__keyless-entry"
+        },
+        {
+          "name": "Manual lock",
+          "handle": "vehicle-alarm-lock-features__manual-lock"
+        },
+        {
+          "name": "Panic mode",
+          "handle": "vehicle-alarm-lock-features__panic-mode"
+        },
+        {
+          "name": "Power lock",
+          "handle": "vehicle-alarm-lock-features__power-lock"
+        },
+        {
+          "name": "Programmable",
+          "handle": "vehicle-alarm-lock-features__programmable"
+        },
+        {
+          "name": "Remote start",
+          "handle": "vehicle-alarm-lock-features__remote-start"
+        },
+        {
+          "name": "Shock sensor",
+          "handle": "vehicle-alarm-lock-features__shock-sensor"
+        },
+        {
+          "name": "Shockproof",
+          "handle": "vehicle-alarm-lock-features__shockproof"
+        },
+        {
+          "name": "Trunk release",
+          "handle": "vehicle-alarm-lock-features__trunk-release"
+        },
+        {
+          "name": "Two-way paging",
+          "handle": "vehicle-alarm-lock-features__two-way-paging"
+        },
+        {
+          "name": "Weather resistant",
+          "handle": "vehicle-alarm-lock-features__weather-resistant"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-alarm-lock-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2706",
+      "name": "Vehicle application area",
+      "handle": "vehicle-application-area",
+      "description": "Specifies the part of a vehicle the product applies to, such as upholstery or exterior",
+      "values": [
+        {
+          "name": "Exterior",
+          "handle": "vehicle-application-area__exterior"
+        },
+        {
+          "name": "Interior",
+          "handle": "vehicle-application-area__interior"
+        },
+        {
+          "name": "Leather",
+          "handle": "vehicle-application-area__leather"
+        },
+        {
+          "name": "Metal",
+          "handle": "vehicle-application-area__metal"
+        },
+        {
+          "name": "Plastic",
+          "handle": "vehicle-application-area__plastic"
+        },
+        {
+          "name": "Rubber",
+          "handle": "vehicle-application-area__rubber"
+        },
+        {
+          "name": "Upholstery",
+          "handle": "vehicle-application-area__upholstery"
+        },
+        {
+          "name": "Vinyl",
+          "handle": "vehicle-application-area__vinyl"
+        },
+        {
+          "name": "Wheels",
+          "handle": "vehicle-application-area__wheels"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-application-area__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3199",
+      "name": "Vehicle audio system features",
+      "handle": "vehicle-audio-system-features",
+      "description": "Identifies special features of a vehicle's audio system, like bass boost or LED display",
+      "values": [
+        {
+          "name": "Bass boost",
+          "handle": "vehicle-audio-system-features__bass-boost"
+        },
+        {
+          "name": "LED display",
+          "handle": "vehicle-audio-system-features__led-display"
+        },
+        {
+          "name": "Level controls",
+          "handle": "vehicle-audio-system-features__level-controls"
+        },
+        {
+          "name": "Line driver",
+          "handle": "vehicle-audio-system-features__line-driver"
+        },
+        {
+          "name": "Preamp stage",
+          "handle": "vehicle-audio-system-features__preamp-stage"
+        },
+        {
+          "name": "Remote control",
+          "handle": "vehicle-audio-system-features__remote-control"
+        },
+        {
+          "name": "Subwoofer",
+          "handle": "vehicle-audio-system-features__subwoofer"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-audio-system-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3201",
+      "name": "Vehicle braking features",
+      "handle": "vehicle-braking-features",
+      "description": "Describes the specific features of vehicle braking parts, like corrosion resistant or drilled",
+      "values": [
+        {
+          "name": "Corrosion resistant",
+          "handle": "vehicle-braking-features__corrosion-resistant"
+        },
+        {
+          "name": "Drilled",
+          "handle": "vehicle-braking-features__drilled"
+        },
+        {
+          "name": "Improved heat dissipation",
+          "handle": "vehicle-braking-features__improved-heat-dissipation"
+        },
+        {
+          "name": "Low dust",
+          "handle": "vehicle-braking-features__low-dust"
+        },
+        {
+          "name": "Slotted",
+          "handle": "vehicle-braking-features__slotted"
+        },
+        {
+          "name": "Ventilation",
+          "handle": "vehicle-braking-features__ventilation"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-braking-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3211",
+      "name": "Vehicle cleaning item features",
+      "handle": "vehicle-cleaning-item-features",
+      "description": "Highlights the benefits of vehicle cleaning items, such as improved fuel efficiency or high gloss",
+      "values": [
+        {
+          "name": "Ammonia-free",
+          "handle": "vehicle-cleaning-item-features__ammonia-free"
+        },
+        {
+          "name": "Durable",
+          "handle": "vehicle-cleaning-item-features__durable"
+        },
+        {
+          "name": "High gloss",
+          "handle": "vehicle-cleaning-item-features__high-gloss"
+        },
+        {
+          "name": "Improved fuel efficiency",
+          "handle": "vehicle-cleaning-item-features__improved-fuel-efficiency"
+        },
+        {
+          "name": "Non-streaking",
+          "handle": "vehicle-cleaning-item-features__non-streaking"
+        },
+        {
+          "name": "Reduced emissions",
+          "handle": "vehicle-cleaning-item-features__reduced-emissions"
+        },
+        {
+          "name": "Restores performance",
+          "handle": "vehicle-cleaning-item-features__restores-performance"
+        },
+        {
+          "name": "Safe for tinted windows",
+          "handle": "vehicle-cleaning-item-features__safe-for-tinted-windows"
+        },
+        {
+          "name": "UV resistant",
+          "handle": "vehicle-cleaning-item-features__uv-resistant"
+        },
+        {
+          "name": "Water repellent",
+          "handle": "vehicle-cleaning-item-features__water-repellent"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-cleaning-item-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3212",
+      "name": "Vehicle decor features",
+      "handle": "vehicle-decor-features",
+      "description": "Describes the characteristics of vehicle decor items, such as UV resistant or waterproof",
+      "values": [
+        {
+          "name": "Easy to apply",
+          "handle": "vehicle-decor-features__easy-to-apply"
+        },
+        {
+          "name": "Heat resistant",
+          "handle": "vehicle-decor-features__heat-resistant"
+        },
+        {
+          "name": "Non-fading",
+          "handle": "vehicle-decor-features__non-fading"
+        },
+        {
+          "name": "Scratch resistant",
+          "handle": "vehicle-decor-features__scratch-resistant"
+        },
+        {
+          "name": "UV resistant",
+          "handle": "vehicle-decor-features__uv-resistant"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "vehicle-decor-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-decor-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3210",
+      "name": "Vehicle drive/handling features",
+      "handle": "vehicle-drive-handling-features",
+      "description": "Describes the features of motor vehicle parts, typically in transmission, drivetrain, towing and wheel systems; e.g. high performance, heat resistant",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "vehicle-drive-handling-features__adjustable"
+        },
+        {
+          "name": "Corrosion resistant",
+          "handle": "vehicle-drive-handling-features__corrosion-resistant"
+        },
+        {
+          "name": "Hardware included",
+          "handle": "vehicle-drive-handling-features__hardware-included"
+        },
+        {
+          "name": "Heat resistant",
+          "handle": "vehicle-drive-handling-features__heat-resistant"
+        },
+        {
+          "name": "High performance",
+          "handle": "vehicle-drive-handling-features__high-performance"
+        },
+        {
+          "name": "Wiring included",
+          "handle": "vehicle-drive-handling-features__wiring-included"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-drive-handling-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3204",
+      "name": "Vehicle engine/part features",
+      "handle": "vehicle-engine-part-features",
+      "description": "Indicates the unique features of motor vehicle engine parts, such as fuel efficient or performance upgrade",
+      "values": [
+        {
+          "name": "Direct fit",
+          "handle": "vehicle-engine-part-features__direct-fit"
+        },
+        {
+          "name": "Fuel efficient",
+          "handle": "vehicle-engine-part-features__fuel-efficient"
+        },
+        {
+          "name": "Heat resistant",
+          "handle": "vehicle-engine-part-features__heat-resistant"
+        },
+        {
+          "name": "High performance",
+          "handle": "vehicle-engine-part-features__high-performance"
+        },
+        {
+          "name": "Low emissions",
+          "handle": "vehicle-engine-part-features__low-emissions"
+        },
+        {
+          "name": "Performance upgrade",
+          "handle": "vehicle-engine-part-features__performance-upgrade"
+        },
+        {
+          "name": "Racing",
+          "handle": "vehicle-engine-part-features__racing"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-engine-part-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3407",
+      "name": "Vehicle exhaust type",
+      "handle": "vehicle-exhaust-type",
+      "description": "Identifies the type of exhaust system in a vehicle, such as axle-back or turbo-back",
+      "values": [
+        {
+          "name": "Axle-back",
+          "handle": "vehicle-exhaust-type__axle-back"
+        },
+        {
+          "name": "Cat-back",
+          "handle": "vehicle-exhaust-type__cat-back"
+        },
+        {
+          "name": "Diesel particulate filter (DPF)",
+          "handle": "vehicle-exhaust-type__diesel-particulate-filter-dpf"
+        },
+        {
+          "name": "Dual rear exit",
+          "handle": "vehicle-exhaust-type__dual-rear-exit"
+        },
+        {
+          "name": "Dual side exit",
+          "handle": "vehicle-exhaust-type__dual-side-exit"
+        },
+        {
+          "name": "Header-back",
+          "handle": "vehicle-exhaust-type__header-back"
+        },
+        {
+          "name": "High performance",
+          "handle": "vehicle-exhaust-type__high-performance"
+        },
+        {
+          "name": "Opposite dual exhaust",
+          "handle": "vehicle-exhaust-type__opposite-dual-exhaust"
+        },
+        {
+          "name": "Quad exit",
+          "handle": "vehicle-exhaust-type__quad-exit"
+        },
+        {
+          "name": "Single exit",
+          "handle": "vehicle-exhaust-type__single-exit"
+        },
+        {
+          "name": "Triple exit",
+          "handle": "vehicle-exhaust-type__triple-exit"
+        },
+        {
+          "name": "Turbo-back",
+          "handle": "vehicle-exhaust-type__turbo-back"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-exhaust-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3215",
+      "name": "Vehicle features",
+      "handle": "vehicle-features",
+      "description": "Describes special characteristics or equipment in a vehicle, like heated seats or navigation system",
+      "values": [
+        {
+          "name": "Air conditioning",
+          "handle": "vehicle-features__air-conditioning"
+        },
+        {
+          "name": "Canopy",
+          "handle": "vehicle-features__canopy"
+        },
+        {
+          "name": "Cargo rack",
+          "handle": "vehicle-features__cargo-rack"
+        },
+        {
+          "name": "Cruise control",
+          "handle": "vehicle-features__cruise-control"
+        },
+        {
+          "name": "Headlights",
+          "handle": "vehicle-features__headlights"
+        },
+        {
+          "name": "Heated grip",
+          "handle": "vehicle-features__heated-grip"
+        },
+        {
+          "name": "Heated seats",
+          "handle": "vehicle-features__heated-seats"
+        },
+        {
+          "name": "Leather seats",
+          "handle": "vehicle-features__leather-seats"
+        },
+        {
+          "name": "LED lighting",
+          "handle": "vehicle-features__led-lighting"
+        },
+        {
+          "name": "Navigation system",
+          "handle": "vehicle-features__navigation-system"
+        },
+        {
+          "name": "Rearview camera",
+          "handle": "vehicle-features__rearview-camera"
+        },
+        {
+          "name": "Rearview mirror",
+          "handle": "vehicle-features__rearview-mirror"
+        },
+        {
+          "name": "Roll cage",
+          "handle": "vehicle-features__roll-cage"
+        },
+        {
+          "name": "Saddlebags",
+          "handle": "vehicle-features__saddlebags"
+        },
+        {
+          "name": "Sunroof",
+          "handle": "vehicle-features__sunroof"
+        },
+        {
+          "name": "Winch",
+          "handle": "vehicle-features__winch"
+        },
+        {
+          "name": "Windproof",
+          "handle": "vehicle-features__windproof"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4681",
+      "name": "Vehicle floor configuration",
+      "handle": "vehicle-floor-configuration",
+      "description": "Specifies the design and layout of a commuter vehicle's flooring, such as low-floor or semi-low floor",
+      "values": [
+        {
+          "name": "High-floor",
+          "handle": "vehicle-floor-configuration__high-floor"
+        },
+        {
+          "name": "Low-floor",
+          "handle": "vehicle-floor-configuration__low-floor"
+        },
+        {
+          "name": "Semi-low floor",
+          "handle": "vehicle-floor-configuration__semi-low-floor"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-floor-configuration__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3213",
+      "name": "Vehicle fluid features",
+      "handle": "vehicle-fluid-features",
+      "description": "Describes special properties of vehicle fluids, like anti-freeze or biodegradable",
+      "values": [
+        {
+          "name": "Anti-corrosion",
+          "handle": "vehicle-fluid-features__anti-corrosion"
+        },
+        {
+          "name": "Anti-foam",
+          "handle": "vehicle-fluid-features__anti-foam"
+        },
+        {
+          "name": "Anti-freeze",
+          "handle": "vehicle-fluid-features__anti-freeze"
+        },
+        {
+          "name": "Anti-glare",
+          "handle": "vehicle-fluid-features__anti-glare"
+        },
+        {
+          "name": "Anti-overheat",
+          "handle": "vehicle-fluid-features__anti-overheat"
+        },
+        {
+          "name": "Anti-wear",
+          "handle": "vehicle-fluid-features__anti-wear"
+        },
+        {
+          "name": "Biodegradable",
+          "handle": "vehicle-fluid-features__biodegradable"
+        },
+        {
+          "name": "Corrosion resistant",
+          "handle": "vehicle-fluid-features__corrosion-resistant"
+        },
+        {
+          "name": "Fast acting",
+          "handle": "vehicle-fluid-features__fast-acting"
+        },
+        {
+          "name": "High boiling point",
+          "handle": "vehicle-fluid-features__high-boiling-point"
+        },
+        {
+          "name": "High temperature stability",
+          "handle": "vehicle-fluid-features__high-temperature-stability"
+        },
+        {
+          "name": "Improved fuel efficiency",
+          "handle": "vehicle-fluid-features__improved-fuel-efficiency"
+        },
+        {
+          "name": "Improved performance",
+          "handle": "vehicle-fluid-features__improved-performance"
+        },
+        {
+          "name": "Long lasting",
+          "handle": "vehicle-fluid-features__long-lasting"
+        },
+        {
+          "name": "Low viscosity",
+          "handle": "vehicle-fluid-features__low-viscosity"
+        },
+        {
+          "name": "Non-corrosive",
+          "handle": "vehicle-fluid-features__non-corrosive"
+        },
+        {
+          "name": "Non-flammable",
+          "handle": "vehicle-fluid-features__non-flammable"
+        },
+        {
+          "name": "Non-synthetic",
+          "handle": "vehicle-fluid-features__non-synthetic"
+        },
+        {
+          "name": "Reduced emissions",
+          "handle": "vehicle-fluid-features__reduced-emissions"
+        },
+        {
+          "name": "Rustproof",
+          "handle": "vehicle-fluid-features__rustproof"
+        },
+        {
+          "name": "Sealant",
+          "handle": "vehicle-fluid-features__sealant"
+        },
+        {
+          "name": "Synthetic",
+          "handle": "vehicle-fluid-features__synthetic"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "vehicle-fluid-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-fluid-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3410",
+      "name": "Vehicle fluid type",
+      "handle": "vehicle-fluid-type",
+      "description": "Identifies the type of fluid used in vehicle maintenance, like concentrate or prediluted",
+      "values": [
+        {
+          "name": "Concentrate",
+          "handle": "vehicle-fluid-type__concentrate"
+        },
+        {
+          "name": "Prediluted",
+          "handle": "vehicle-fluid-type__prediluted"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-fluid-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3206",
+      "name": "Vehicle frame/body features",
+      "handle": "vehicle-frame-body-features",
+      "description": "Describes special features of vehicle body parts, like painted or chrome finish",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "vehicle-frame-body-features__adjustable"
+        },
+        {
+          "name": "Carbon fiber look",
+          "handle": "vehicle-frame-body-features__carbon-fiber-look"
+        },
+        {
+          "name": "Chrome finish",
+          "handle": "vehicle-frame-body-features__chrome-finish"
+        },
+        {
+          "name": "Foldable",
+          "handle": "vehicle-frame-body-features__foldable"
+        },
+        {
+          "name": "LED lighting",
+          "handle": "vehicle-frame-body-features__led-lighting"
+        },
+        {
+          "name": "Painted",
+          "handle": "vehicle-frame-body-features__painted"
+        },
+        {
+          "name": "Primed",
+          "handle": "vehicle-frame-body-features__primed"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-frame-body-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3408",
+      "name": "Vehicle mirror design",
+      "handle": "vehicle-mirror-design",
+      "description": "Specifies the design features of motor vehicle mirrors, like extendable or foldable",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "vehicle-mirror-design__adjustable"
+        },
+        {
+          "name": "Breakaway",
+          "handle": "vehicle-mirror-design__breakaway"
+        },
+        {
+          "name": "Extendable",
+          "handle": "vehicle-mirror-design__extendable"
+        },
+        {
+          "name": "Foldable",
+          "handle": "vehicle-mirror-design__foldable"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-mirror-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3207",
+      "name": "Vehicle mirror features",
+      "handle": "vehicle-mirror-features",
+      "description": "Describes special features of vehicle mirrors, like auto-dimming or heated",
+      "values": [
+        {
+          "name": "Auto-dimming",
+          "handle": "vehicle-mirror-features__auto-dimming"
+        },
+        {
+          "name": "Blind spot detection",
+          "handle": "vehicle-mirror-features__blind-spot-detection"
+        },
+        {
+          "name": "Heated",
+          "handle": "vehicle-mirror-features__heated"
+        },
+        {
+          "name": "Integrated turn signals",
+          "handle": "vehicle-mirror-features__integrated-turn-signals"
+        },
+        {
+          "name": "Memory function",
+          "handle": "vehicle-mirror-features__memory-function"
+        },
+        {
+          "name": "Powered",
+          "handle": "vehicle-mirror-features__powered"
+        },
+        {
+          "name": "Puddle lights",
+          "handle": "vehicle-mirror-features__puddle-lights"
+        },
+        {
+          "name": "Wide angle",
+          "handle": "vehicle-mirror-features__wide-angle"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-mirror-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3409",
+      "name": "Vehicle mirror type",
+      "handle": "vehicle-mirror-type",
+      "description": "Identifies the specific type of mirror on a vehicle, such as rear-view or side-view",
+      "values": [
+        {
+          "name": "Blind spot",
+          "handle": "vehicle-mirror-type__blind-spot"
+        },
+        {
+          "name": "Fender",
+          "handle": "vehicle-mirror-type__fender"
+        },
+        {
+          "name": "Rear-view",
+          "handle": "vehicle-mirror-type__rear-view"
+        },
+        {
+          "name": "Side-view",
+          "handle": "vehicle-mirror-type__side-view"
+        },
+        {
+          "name": "Towing",
+          "handle": "vehicle-mirror-type__towing"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-mirror-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3202",
+      "name": "Vehicle oil features",
+      "handle": "vehicle-oil-features",
+      "description": "Describes unique properties of motor oil, like wear protection or high filtration efficiency",
+      "values": [
+        {
+          "name": "Corrosion resistant",
+          "handle": "vehicle-oil-features__corrosion-resistant"
+        },
+        {
+          "name": "Energy conserving",
+          "handle": "vehicle-oil-features__energy-conserving"
+        },
+        {
+          "name": "High filtration efficiency",
+          "handle": "vehicle-oil-features__high-filtration-efficiency"
+        },
+        {
+          "name": "High flow",
+          "handle": "vehicle-oil-features__high-flow"
+        },
+        {
+          "name": "High temperature protection",
+          "handle": "vehicle-oil-features__high-temperature-protection"
+        },
+        {
+          "name": "Low pressure drop",
+          "handle": "vehicle-oil-features__low-pressure-drop"
+        },
+        {
+          "name": "Low temperature protection",
+          "handle": "vehicle-oil-features__low-temperature-protection"
+        },
+        {
+          "name": "Wear protection",
+          "handle": "vehicle-oil-features__wear-protection"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-oil-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2713",
+      "name": "Vehicle paint type",
+      "handle": "vehicle-paint-type",
+      "description": "Specifies the category of vehicle paint, such as paint kit or motor vehicle body paint",
+      "values": [
+        {
+          "name": "Paint kit",
+          "handle": "vehicle-paint-type__paint-kit"
+        },
+        {
+          "name": "Spray paint",
+          "handle": "vehicle-paint-type__spray-paint"
+        },
+        {
+          "name": "Touch-up paint",
+          "handle": "vehicle-paint-type__touch-up-paint"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-paint-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3208",
+      "name": "Vehicle seating features",
+      "handle": "vehicle-seating-features",
+      "description": "Describes the special features of vehicle seats, such as heated or reclining",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "vehicle-seating-features__adjustable"
+        },
+        {
+          "name": "Armrests",
+          "handle": "vehicle-seating-features__armrests"
+        },
+        {
+          "name": "Headrest",
+          "handle": "vehicle-seating-features__headrest"
+        },
+        {
+          "name": "Heated",
+          "handle": "vehicle-seating-features__heated"
+        },
+        {
+          "name": "Lumbar support",
+          "handle": "vehicle-seating-features__lumbar-support"
+        },
+        {
+          "name": "Memory function",
+          "handle": "vehicle-seating-features__memory-function"
+        },
+        {
+          "name": "Reclining",
+          "handle": "vehicle-seating-features__reclining"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-seating-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3209",
+      "name": "Vehicle suspension features",
+      "handle": "vehicle-suspension-features",
+      "description": "Specifies the unique features of vehicle suspension parts, such as adjustable or hydraulic",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "vehicle-suspension-features__adjustable"
+        },
+        {
+          "name": "Ball joint",
+          "handle": "vehicle-suspension-features__ball-joint"
+        },
+        {
+          "name": "Bushings",
+          "handle": "vehicle-suspension-features__bushings"
+        },
+        {
+          "name": "Coil spring",
+          "handle": "vehicle-suspension-features__coil-spring"
+        },
+        {
+          "name": "Gas charged",
+          "handle": "vehicle-suspension-features__gas-charged"
+        },
+        {
+          "name": "Hardware included",
+          "handle": "vehicle-suspension-features__hardware-included"
+        },
+        {
+          "name": "Hydraulic",
+          "handle": "vehicle-suspension-features__hydraulic"
+        },
+        {
+          "name": "Strut mount",
+          "handle": "vehicle-suspension-features__strut-mount"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-suspension-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2701",
+      "name": "Vehicle tire type",
+      "handle": "vehicle-tire-type",
+      "description": "Specifies the seasonal or terrain suitability of vehicle tires, like winter or all-terrain",
+      "values": [
+        {
+          "name": "All-season",
+          "handle": "vehicle-tire-type__all-season"
+        },
+        {
+          "name": "All-terrain",
+          "handle": "vehicle-tire-type__all-terrain"
+        },
+        {
+          "name": "Mud-terrain",
+          "handle": "vehicle-tire-type__mud-terrain"
+        },
+        {
+          "name": "Performance",
+          "handle": "vehicle-tire-type__performance"
+        },
+        {
+          "name": "Run-flat",
+          "handle": "vehicle-tire-type__run-flat"
+        },
+        {
+          "name": "Summer",
+          "handle": "vehicle-tire-type__summer"
+        },
+        {
+          "name": "Touring",
+          "handle": "vehicle-tire-type__touring"
+        },
+        {
+          "name": "Winter",
+          "handle": "vehicle-tire-type__winter"
+        },
+        {
+          "name": "Other",
+          "handle": "vehicle-tire-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2711",
+      "name": "Viscosity",
+      "handle": "viscosity",
+      "description": "Specifies the flow resistance of motor oils, such as 10W-40 or 15W-50",
+      "values": [
+        {
+          "name": "0W-16",
+          "handle": "viscosity__0w-16"
+        },
+        {
+          "name": "0W-20",
+          "handle": "viscosity__0w-20"
+        },
+        {
+          "name": "0W-30",
+          "handle": "viscosity__0w-30"
+        },
+        {
+          "name": "0W-40",
+          "handle": "viscosity__0w-40"
+        },
+        {
+          "name": "5W-20",
+          "handle": "viscosity__5w-20"
+        },
+        {
+          "name": "5W-30",
+          "handle": "viscosity__5w-30"
+        },
+        {
+          "name": "5W-40",
+          "handle": "viscosity__5w-40"
+        },
+        {
+          "name": "5W-50",
+          "handle": "viscosity__5w-50"
+        },
+        {
+          "name": "10W-30",
+          "handle": "viscosity__10w-30"
+        },
+        {
+          "name": "10W-40",
+          "handle": "viscosity__10w-40"
+        },
+        {
+          "name": "10W-50",
+          "handle": "viscosity__10w-50"
+        },
+        {
+          "name": "10W-60",
+          "handle": "viscosity__10w-60"
+        },
+        {
+          "name": "15W-40",
+          "handle": "viscosity__15w-40"
+        },
+        {
+          "name": "15W-50",
+          "handle": "viscosity__15w-50"
+        },
+        {
+          "name": "15W-60",
+          "handle": "viscosity__15w-60"
+        },
+        {
+          "name": "20W-50",
+          "handle": "viscosity__20w-50"
+        },
+        {
+          "name": "20W-60",
+          "handle": "viscosity__20w-60"
+        },
+        {
+          "name": "Other",
+          "handle": "viscosity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2737",
+      "name": "Watercraft engine control type",
+      "handle": "watercraft-engine-control-type",
+      "description": "Identifies the type of control system in a watercraft engine, such as throttle or shift",
+      "values": [
+        {
+          "name": "Shift",
+          "handle": "watercraft-engine-control-type__shift"
+        },
+        {
+          "name": "Steering",
+          "handle": "watercraft-engine-control-type__steering"
+        },
+        {
+          "name": "Throttle",
+          "handle": "watercraft-engine-control-type__throttle"
+        },
+        {
+          "name": "Other",
+          "handle": "watercraft-engine-control-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3216",
+      "name": "Watercraft features",
+      "handle": "watercraft-features",
+      "description": "Describes amenities or systems on a watercraft, such as a kitchen or brake system",
+      "values": [
+        {
+          "name": "Bathroom",
+          "handle": "watercraft-features__bathroom"
+        },
+        {
+          "name": "Bilge pump",
+          "handle": "watercraft-features__bilge-pump"
+        },
+        {
+          "name": "Bimini top",
+          "handle": "watercraft-features__bimini-top"
+        },
+        {
+          "name": "Brake system",
+          "handle": "watercraft-features__brake-system"
+        },
+        {
+          "name": "Cabin",
+          "handle": "watercraft-features__cabin"
+        },
+        {
+          "name": "Flybridge",
+          "handle": "watercraft-features__flybridge"
+        },
+        {
+          "name": "Jacuzzi",
+          "handle": "watercraft-features__jacuzzi"
+        },
+        {
+          "name": "Kitchen",
+          "handle": "watercraft-features__kitchen"
+        },
+        {
+          "name": "Reverse",
+          "handle": "watercraft-features__reverse"
+        },
+        {
+          "name": "Tow hook",
+          "handle": "watercraft-features__tow-hook"
+        },
+        {
+          "name": "Other",
+          "handle": "watercraft-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2739",
+      "name": "Watercraft motor mounting type",
+      "handle": "watercraft-motor-mounting-type",
+      "description": "Identifies where on the watercraft the motor is mounted, such as bow or stern",
+      "values": [
+        {
+          "name": "Bow",
+          "handle": "watercraft-motor-mounting-type__bow"
+        },
+        {
+          "name": "Stern",
+          "handle": "watercraft-motor-mounting-type__stern"
+        },
+        {
+          "name": "Transom",
+          "handle": "watercraft-motor-mounting-type__transom"
+        },
+        {
+          "name": "Other",
+          "handle": "watercraft-motor-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2743",
+      "name": "Watercraft steering wheel type",
+      "handle": "watercraft-steering-wheel-type",
+      "description": "Specifies the type of watercraft steering wheel, such as power or standard",
+      "values": [
+        {
+          "name": "Power",
+          "handle": "watercraft-steering-wheel-type__power"
+        },
+        {
+          "name": "Sport",
+          "handle": "watercraft-steering-wheel-type__sport"
+        },
+        {
+          "name": "Standard",
+          "handle": "watercraft-steering-wheel-type__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "watercraft-steering-wheel-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2755",
+      "name": "Watercraft type",
+      "handle": "watercraft-type",
+      "description": "Identifies the category of watercraft, such as sport or luxury",
+      "values": [
+        {
+          "name": "Boat",
+          "handle": "watercraft-type__boat"
+        },
+        {
+          "name": "Jet ski",
+          "handle": "watercraft-type__jet-ski"
+        },
+        {
+          "name": "Sailboat",
+          "handle": "watercraft-type__sailboat"
+        },
+        {
+          "name": "Yacht",
+          "handle": "watercraft-type__yacht"
+        },
+        {
+          "name": "Other",
+          "handle": "watercraft-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2730",
+      "name": "Windlass design",
+      "handle": "windlass-design",
+      "description": "Describes the orientation of an anchor windlass, such as horizontal or vertical",
+      "values": [
+        {
+          "name": "Horizontal",
+          "handle": "windlass-design__horizontal"
+        },
+        {
+          "name": "Vertical",
+          "handle": "windlass-design__vertical"
+        },
+        {
+          "name": "Other",
+          "handle": "windlass-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2757",
+      "name": "Yacht type",
+      "handle": "yacht-type",
+      "description": "Classifies the type of yacht, such as motor or explorer",
+      "values": [
+        {
+          "name": "Explorer",
+          "handle": "yacht-type__explorer"
+        },
+        {
+          "name": "Motor",
+          "handle": "yacht-type__motor"
+        },
+        {
+          "name": "Sailing",
+          "handle": "yacht-type__sailing"
+        },
+        {
+          "name": "Sport",
+          "handle": "yacht-type__sport"
+        },
+        {
+          "name": "Other",
+          "handle": "yacht-type__other"
+        }
+      ]
+    }
+  ]
+}

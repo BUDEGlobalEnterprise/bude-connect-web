@@ -1,0 +1,156 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5033",
+      "name": "Journey type",
+      "handle": "journey-type",
+      "description": "Specifies the type of journey covered by the ticket based on trip count and travel direction.",
+      "values": [
+        {
+          "name": "Multi-journey",
+          "handle": "journey-type__multi-journey"
+        },
+        {
+          "name": "Open return",
+          "handle": "journey-type__open-return"
+        },
+        {
+          "name": "Round trip",
+          "handle": "journey-type__round-trip"
+        },
+        {
+          "name": "Single journey",
+          "handle": "journey-type__single-journey"
+        },
+        {
+          "name": "Other",
+          "handle": "journey-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5034",
+      "name": "Pass duration",
+      "handle": "pass-duration",
+      "description": "Specifies the validity period or lifespan of the travel pass or ticket.",
+      "values": [
+        {
+          "name": "Annual",
+          "handle": "pass-duration__annual"
+        },
+        {
+          "name": "Day",
+          "handle": "pass-duration__day"
+        },
+        {
+          "name": "Month",
+          "handle": "pass-duration__month"
+        },
+        {
+          "name": "Week",
+          "handle": "pass-duration__week"
+        },
+        {
+          "name": "Other",
+          "handle": "pass-duration__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5035",
+      "name": "Seat reservation",
+      "handle": "seat-reservation",
+      "description": "Specifies whether the ticket includes a seat assignment or requires advance reservation.",
+      "values": [
+        {
+          "name": "Not applicable",
+          "handle": "seat-reservation__not-applicable"
+        },
+        {
+          "name": "Optional reservation",
+          "handle": "seat-reservation__optional-reservation"
+        },
+        {
+          "name": "Reserved seat",
+          "handle": "seat-reservation__reserved-seat"
+        },
+        {
+          "name": "Unreserved",
+          "handle": "seat-reservation__unreserved"
+        },
+        {
+          "name": "Other",
+          "handle": "seat-reservation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5036",
+      "name": "Ticket class",
+      "handle": "ticket-class",
+      "description": "Specifies the service level or seating class provided with the ticket.",
+      "values": [
+        {
+          "name": "Business class",
+          "handle": "ticket-class__business-class"
+        },
+        {
+          "name": "Economy class",
+          "handle": "ticket-class__economy-class"
+        },
+        {
+          "name": "First class",
+          "handle": "ticket-class__first-class"
+        },
+        {
+          "name": "Premium class",
+          "handle": "ticket-class__premium-class"
+        },
+        {
+          "name": "Other",
+          "handle": "ticket-class__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5037",
+      "name": "Transport type",
+      "handle": "transport-type",
+      "description": "Specifies the mode of public transportation for which the ticket or pass is valid.",
+      "values": [
+        {
+          "name": "Bus",
+          "handle": "transport-type__bus"
+        },
+        {
+          "name": "Ferry",
+          "handle": "transport-type__ferry"
+        },
+        {
+          "name": "Multi modal",
+          "handle": "transport-type__multi-modal"
+        },
+        {
+          "name": "Plane",
+          "handle": "transport-type__plane"
+        },
+        {
+          "name": "Subway",
+          "handle": "transport-type__subway"
+        },
+        {
+          "name": "Train",
+          "handle": "transport-type__train"
+        },
+        {
+          "name": "Tram",
+          "handle": "transport-type__tram"
+        },
+        {
+          "name": "Other",
+          "handle": "transport-type__other"
+        }
+      ]
+    }
+  ]
+}

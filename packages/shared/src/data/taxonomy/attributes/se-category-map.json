@@ -1,0 +1,10 @@
+{
+  "gid://shopify/TaxonomyCategory/se-4-4-1": [
+    "age-group",
+    "journey-type",
+    "pass-duration",
+    "seat-reservation",
+    "ticket-class",
+    "transport-type"
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "gid://shopify/TaxonomyCategory/lb": [
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-1": [
+    "age-group",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-1-15": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-1-16": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-1-17": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-1-12": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-3-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-3-4": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-3-5": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-4": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "diaper-bag-additional-features",
+    "bag-case-material",
+    "bag-style",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-5": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-6": [
+    "accessory-size",
+    "age-group",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-6-1": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-7": [
+    "accessory-size",
+    "age-group",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-8": [
+    "accessory-size",
+    "bag-case-material",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-15": [
+    "bag-strap-type",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "fabric",
+    "pattern",
+    "thickness-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-2": [
+    "accessory-size",
+    "color",
+    "cover-features",
+    "cover-material",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-3": [
+    "accessory-size",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-4": [
+    "color",
+    "fabric",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-5": [
+    "color",
+    "material",
+    "pattern",
+    "shape",
+    "tag-fastening"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-6": [
+    "color",
+    "fabric",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-7": [
+    "bottle-container-closure",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-9-8": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-10": [
+    "accessory-size",
+    "bag-strap-type",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-11": [
+    "accessory-size",
+    "age-group",
+    "bag-case-material",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern",
+    "target-gender",
+    "tote-handle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-12": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "spinner-type",
+    "suitcase-handle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-12-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "spinner-type",
+    "suitcase-handle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-12-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "spinner-type",
+    "suitcase-handle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-12-5": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "spinner-type",
+    "suitcase-handle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-12-9": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "spinner-type",
+    "suitcase-handle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-13": [
+    "accessory-size",
+    "age-group",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern",
+    "target-gender",
+    "tote-handle-type"
+  ],
+  "gid://shopify/TaxonomyCategory/lb-14": [
+    "accessory-size",
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "bag-closure",
+    "pattern"
+  ]
+}

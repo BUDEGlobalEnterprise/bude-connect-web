@@ -6,10 +6,12 @@
   "scripts": {
     "dev:market": "pnpm --filter @bude/market dev",
     "dev:work": "pnpm --filter @bude/work dev",
-    "dev": "pnpm run dev:market & pnpm run dev:work",
+    "dev:admin": "pnpm --filter @bude/admin dev",
+    "dev": "pnpm run dev:market & pnpm run dev:work & pnpm run dev:admin",
     "build:market": "pnpm --filter @bude/market build",
     "build:work": "pnpm --filter @bude/work build",
-    "build": "pnpm run build:market && pnpm run build:work",
+    "build:admin": "pnpm --filter @bude/admin build",
+    "build": "pnpm run build:market && pnpm run build:work && pnpm run build:admin",
     "lint": "pnpm -r lint",
     "type-check": "pnpm -r type-check"
   },

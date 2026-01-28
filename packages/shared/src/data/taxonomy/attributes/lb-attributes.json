@@ -1,0 +1,92 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2221",
+      "name": "Bottle/Container closure",
+      "handle": "bottle-container-closure",
+      "description": "Identifies the type of closure on bottles or containers, like pump or flip cap",
+      "values": [
+        {
+          "name": "Flip cap",
+          "handle": "bottle-container-closure__flip-cap"
+        },
+        {
+          "name": "Pump",
+          "handle": "bottle-container-closure__pump"
+        },
+        {
+          "name": "Screw cap",
+          "handle": "bottle-container-closure__screw-cap"
+        },
+        {
+          "name": "Other",
+          "handle": "bottle-container-closure__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3364",
+      "name": "Diaper bag additional features",
+      "handle": "diaper-bag-additional-features",
+      "description": "Specifies extra features in diaper bags, e.g. changing pad included, bottle holder",
+      "values": [
+        {
+          "name": "Changing pad included",
+          "handle": "diaper-bag-additional-features__changing-pad-included"
+        },
+        {
+          "name": "Other",
+          "handle": "diaper-bag-additional-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2225",
+      "name": "Suitcase handle type",
+      "handle": "suitcase-handle-type",
+      "description": "Specifies the style of suitcase handle, for example, side carry or top carry",
+      "values": [
+        {
+          "name": "Side carry",
+          "handle": "suitcase-handle-type__side-carry"
+        },
+        {
+          "name": "Telescopic",
+          "handle": "suitcase-handle-type__telescopic"
+        },
+        {
+          "name": "Top carry",
+          "handle": "suitcase-handle-type__top-carry"
+        },
+        {
+          "name": "Other",
+          "handle": "suitcase-handle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2220",
+      "name": "Tag fastening",
+      "handle": "tag-fastening",
+      "description": "Describes the method used to secure a tag to luggage, such as buckles or loops",
+      "values": [
+        {
+          "name": "Buckles",
+          "handle": "tag-fastening__buckles"
+        },
+        {
+          "name": "Loop",
+          "handle": "tag-fastening__loop"
+        },
+        {
+          "name": "Strap",
+          "handle": "tag-fastening__strap"
+        },
+        {
+          "name": "Other",
+          "handle": "tag-fastening__other"
+        }
+      ]
+    }
+  ]
+}

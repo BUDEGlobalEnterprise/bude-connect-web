@@ -1,0 +1,1916 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2649",
+      "name": "AI application",
+      "handle": "ai-application",
+      "description": "Specifies the function of AI in software, like predictive analytics or speech recognition",
+      "values": [
+        {
+          "name": "Autonomous system",
+          "handle": "ai-application__autonomous-system"
+        },
+        {
+          "name": "Computer vision",
+          "handle": "ai-application__computer-vision"
+        },
+        {
+          "name": "Fraud detection",
+          "handle": "ai-application__fraud-detection"
+        },
+        {
+          "name": "Natural language processing (NLP)",
+          "handle": "ai-application__natural-language-processing-nlp"
+        },
+        {
+          "name": "Predictive analytics",
+          "handle": "ai-application__predictive-analytics"
+        },
+        {
+          "name": "Recommendation system",
+          "handle": "ai-application__recommendation-system"
+        },
+        {
+          "name": "Speech recognition",
+          "handle": "ai-application__speech-recognition"
+        },
+        {
+          "name": "Other",
+          "handle": "ai-application__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3376",
+      "name": "Additional animation software features",
+      "handle": "additional-animation-software-features",
+      "description": "Specifies unique features in animation editing software, such as character animation or visual effects",
+      "values": [
+        {
+          "name": "2D animation",
+          "handle": "additional-animation-software-features__2d-animation"
+        },
+        {
+          "name": "3D animation",
+          "handle": "additional-animation-software-features__3d-animation"
+        },
+        {
+          "name": "Character animation",
+          "handle": "additional-animation-software-features__character-animation"
+        },
+        {
+          "name": "Educational animation",
+          "handle": "additional-animation-software-features__educational-animation"
+        },
+        {
+          "name": "Motion graphics",
+          "handle": "additional-animation-software-features__motion-graphics"
+        },
+        {
+          "name": "Stop motion",
+          "handle": "additional-animation-software-features__stop-motion"
+        },
+        {
+          "name": "Visual effects",
+          "handle": "additional-animation-software-features__visual-effects"
+        },
+        {
+          "name": "Other",
+          "handle": "additional-animation-software-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3378",
+      "name": "Additional design software type",
+      "handle": "additional-design-software-type",
+      "description": "Specifies additional capabilities of design software, such as virtual tour or landscape design",
+      "values": [
+        {
+          "name": "2D floor planning",
+          "handle": "additional-design-software-type__2d-floor-planning"
+        },
+        {
+          "name": "3D modeling",
+          "handle": "additional-design-software-type__3d-modeling"
+        },
+        {
+          "name": "Augmented reality",
+          "handle": "additional-design-software-type__augmented-reality"
+        },
+        {
+          "name": "Interior decoration",
+          "handle": "additional-design-software-type__interior-decoration"
+        },
+        {
+          "name": "Landscape design",
+          "handle": "additional-design-software-type__landscape-design"
+        },
+        {
+          "name": "Renovation planning",
+          "handle": "additional-design-software-type__renovation-planning"
+        },
+        {
+          "name": "Virtual tour",
+          "handle": "additional-design-software-type__virtual-tour"
+        },
+        {
+          "name": "Other",
+          "handle": "additional-design-software-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3373",
+      "name": "Additional financial software features",
+      "handle": "additional-financial-software-features",
+      "description": "Identifies extra capabilities of financial software, like asset management or auditing and compliance",
+      "values": [
+        {
+          "name": "Asset management",
+          "handle": "additional-financial-software-features__asset-management"
+        },
+        {
+          "name": "Auditing and compliance",
+          "handle": "additional-financial-software-features__auditing-and-compliance"
+        },
+        {
+          "name": "Billing management",
+          "handle": "additional-financial-software-features__billing-management"
+        },
+        {
+          "name": "Bookkeeping and accounting",
+          "handle": "additional-financial-software-features__bookkeeping-and-accounting"
+        },
+        {
+          "name": "Budgeting and forecasting",
+          "handle": "additional-financial-software-features__budgeting-and-forecasting"
+        },
+        {
+          "name": "Financial analysis",
+          "handle": "additional-financial-software-features__financial-analysis"
+        },
+        {
+          "name": "GAAP standards",
+          "handle": "additional-financial-software-features__gaap-standards"
+        },
+        {
+          "name": "IFRS standards",
+          "handle": "additional-financial-software-features__ifrs-standards"
+        },
+        {
+          "name": "Payroll management",
+          "handle": "additional-financial-software-features__payroll-management"
+        },
+        {
+          "name": "Regulatory reporting",
+          "handle": "additional-financial-software-features__regulatory-reporting"
+        },
+        {
+          "name": "Tax compliance",
+          "handle": "additional-financial-software-features__tax-compliance"
+        },
+        {
+          "name": "Other",
+          "handle": "additional-financial-software-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3377",
+      "name": "Additional graphic software features",
+      "handle": "additional-graphic-software-features",
+      "description": "Highlights extra capabilities of graphic software, like digital illustration or layout design",
+      "values": [
+        {
+          "name": "Digital illustration",
+          "handle": "additional-graphic-software-features__digital-illustration"
+        },
+        {
+          "name": "Layout design",
+          "handle": "additional-graphic-software-features__layout-design"
+        },
+        {
+          "name": "Logo design",
+          "handle": "additional-graphic-software-features__logo-design"
+        },
+        {
+          "name": "Raster graphics",
+          "handle": "additional-graphic-software-features__raster-graphics"
+        },
+        {
+          "name": "UI/UX design",
+          "handle": "additional-graphic-software-features__ui-ux-design"
+        },
+        {
+          "name": "Vector graphics",
+          "handle": "additional-graphic-software-features__vector-graphics"
+        },
+        {
+          "name": "Other",
+          "handle": "additional-graphic-software-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3379",
+      "name": "Additional publishing software features",
+      "handle": "additional-publishing-software-features",
+      "description": "Highlights extra functionalities in publishing software, like print design or digital publishing",
+      "values": [
+        {
+          "name": "Desktop publishing",
+          "handle": "additional-publishing-software-features__desktop-publishing"
+        },
+        {
+          "name": "Digital publishing",
+          "handle": "additional-publishing-software-features__digital-publishing"
+        },
+        {
+          "name": "Online publishing",
+          "handle": "additional-publishing-software-features__online-publishing"
+        },
+        {
+          "name": "Print design",
+          "handle": "additional-publishing-software-features__print-design"
+        },
+        {
+          "name": "Other",
+          "handle": "additional-publishing-software-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3372",
+      "name": "Additional security software features",
+      "handle": "additional-security-software-features",
+      "description": "Identifies extra capabilities of security software, e.g. disk encryption, intrusion detection",
+      "values": [
+        {
+          "name": "Behavior analytics",
+          "handle": "additional-security-software-features__behavior-analytics"
+        },
+        {
+          "name": "Cloud-based",
+          "handle": "additional-security-software-features__cloud-based"
+        },
+        {
+          "name": "Disk encryption",
+          "handle": "additional-security-software-features__disk-encryption"
+        },
+        {
+          "name": "Endpoint detection/response",
+          "handle": "additional-security-software-features__endpoint-detection-response"
+        },
+        {
+          "name": "Enterprise firewall",
+          "handle": "additional-security-software-features__enterprise-firewall"
+        },
+        {
+          "name": "File encryption",
+          "handle": "additional-security-software-features__file-encryption"
+        },
+        {
+          "name": "Intrusion detection/prevention",
+          "handle": "additional-security-software-features__intrusion-detection-prevention"
+        },
+        {
+          "name": "Mobile device management",
+          "handle": "additional-security-software-features__mobile-device-management"
+        },
+        {
+          "name": "Multi-factor authentication",
+          "handle": "additional-security-software-features__multi-factor-authentication"
+        },
+        {
+          "name": "Next-generation",
+          "handle": "additional-security-software-features__next-generation"
+        },
+        {
+          "name": "Personal firewall",
+          "handle": "additional-security-software-features__personal-firewall"
+        },
+        {
+          "name": "Security event management",
+          "handle": "additional-security-software-features__security-event-management"
+        },
+        {
+          "name": "Single sign-on",
+          "handle": "additional-security-software-features__single-sign-on"
+        },
+        {
+          "name": "Suitable for smartphone/tablet",
+          "handle": "additional-security-software-features__suitable-for-smartphone-tablet"
+        },
+        {
+          "name": "Virtual private network",
+          "handle": "additional-security-software-features__virtual-private-network"
+        },
+        {
+          "name": "Vulnerability scanner",
+          "handle": "additional-security-software-features__vulnerability-scanner"
+        },
+        {
+          "name": "Other",
+          "handle": "additional-security-software-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2666",
+      "name": "Artwork type",
+      "handle": "artwork-type",
+      "description": "Specifies the style of digital artwork, such as typography or digital painting",
+      "values": [
+        {
+          "name": "3D render",
+          "handle": "artwork-type__3d-render"
+        },
+        {
+          "name": "Concept art",
+          "handle": "artwork-type__concept-art"
+        },
+        {
+          "name": "Digital illustration",
+          "handle": "artwork-type__digital-illustration"
+        },
+        {
+          "name": "Digital painting",
+          "handle": "artwork-type__digital-painting"
+        },
+        {
+          "name": "Fractal art",
+          "handle": "artwork-type__fractal-art"
+        },
+        {
+          "name": "Mixed media",
+          "handle": "artwork-type__mixed-media"
+        },
+        {
+          "name": "Photomanipulation",
+          "handle": "artwork-type__photomanipulation"
+        },
+        {
+          "name": "Pixel art",
+          "handle": "artwork-type__pixel-art"
+        },
+        {
+          "name": "Typography",
+          "handle": "artwork-type__typography"
+        },
+        {
+          "name": "Vector art",
+          "handle": "artwork-type__vector-art"
+        },
+        {
+          "name": "Other",
+          "handle": "artwork-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2642",
+      "name": "Compatible programming languages",
+      "handle": "compatible-programming-languages",
+      "description": "Identifies the programming languages a software product can work with, like Python or Java",
+      "values": [
+        {
+          "name": "Bash",
+          "handle": "compatible-programming-languages__bash"
+        },
+        {
+          "name": "C",
+          "handle": "compatible-programming-languages__c"
+        },
+        {
+          "name": "C#",
+          "handle": "compatible-programming-languages__c-hashtag"
+        },
+        {
+          "name": "C++",
+          "handle": "compatible-programming-languages__c-plus-plus"
+        },
+        {
+          "name": "Docker",
+          "handle": "compatible-programming-languages__docker"
+        },
+        {
+          "name": "Go",
+          "handle": "compatible-programming-languages__go"
+        },
+        {
+          "name": "Java",
+          "handle": "compatible-programming-languages__java"
+        },
+        {
+          "name": "Javascript",
+          "handle": "compatible-programming-languages__javascript"
+        },
+        {
+          "name": "Kotlin",
+          "handle": "compatible-programming-languages__kotlin"
+        },
+        {
+          "name": "Kubernetes",
+          "handle": "compatible-programming-languages__kubernetes"
+        },
+        {
+          "name": "Node.js",
+          "handle": "compatible-programming-languages__node-js"
+        },
+        {
+          "name": "Perl",
+          "handle": "compatible-programming-languages__perl"
+        },
+        {
+          "name": "PHP",
+          "handle": "compatible-programming-languages__php"
+        },
+        {
+          "name": "Python",
+          "handle": "compatible-programming-languages__python"
+        },
+        {
+          "name": "PyTorch",
+          "handle": "compatible-programming-languages__pytorch"
+        },
+        {
+          "name": "R",
+          "handle": "compatible-programming-languages__r"
+        },
+        {
+          "name": "Ruby",
+          "handle": "compatible-programming-languages__ruby"
+        },
+        {
+          "name": "Rust",
+          "handle": "compatible-programming-languages__rust"
+        },
+        {
+          "name": "Scala",
+          "handle": "compatible-programming-languages__scala"
+        },
+        {
+          "name": "Shell",
+          "handle": "compatible-programming-languages__shell"
+        },
+        {
+          "name": "SQL",
+          "handle": "compatible-programming-languages__sql"
+        },
+        {
+          "name": "Swift",
+          "handle": "compatible-programming-languages__swift"
+        },
+        {
+          "name": "TensorFlow",
+          "handle": "compatible-programming-languages__tensorflow"
+        },
+        {
+          "name": "TypeScript",
+          "handle": "compatible-programming-languages__typescript"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-programming-languages__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2667",
+      "name": "Compatible software platform",
+      "handle": "compatible-software-platform",
+      "description": "Identifies the software platforms that a product is compatible with, such as Adobe Creative or Canva",
+      "values": [
+        {
+          "name": "Adobe Creative",
+          "handle": "compatible-software-platform__adobe-creative"
+        },
+        {
+          "name": "Canva",
+          "handle": "compatible-software-platform__canva"
+        },
+        {
+          "name": "Google Workspace",
+          "handle": "compatible-software-platform__google-workspace"
+        },
+        {
+          "name": "iWork",
+          "handle": "compatible-software-platform__iwork"
+        },
+        {
+          "name": "LibreOffice",
+          "handle": "compatible-software-platform__libreoffice"
+        },
+        {
+          "name": "Microsoft Office",
+          "handle": "compatible-software-platform__microsoft-office"
+        },
+        {
+          "name": "WordPress",
+          "handle": "compatible-software-platform__wordpress"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-software-platform__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2654",
+      "name": "Customer support channels",
+      "handle": "customer-support-channels",
+      "description": "Specifies the ways customers can get help, such as phone support or video tutorials",
+      "values": [
+        {
+          "name": "Community forum",
+          "handle": "customer-support-channels__community-forum"
+        },
+        {
+          "name": "Email support",
+          "handle": "customer-support-channels__email-support"
+        },
+        {
+          "name": "Forum support",
+          "handle": "customer-support-channels__forum-support"
+        },
+        {
+          "name": "In-app support",
+          "handle": "customer-support-channels__in-app-support"
+        },
+        {
+          "name": "Knowledge base & FAQs",
+          "handle": "customer-support-channels__knowledge-base-faqs"
+        },
+        {
+          "name": "Live chat support",
+          "handle": "customer-support-channels__live-chat-support"
+        },
+        {
+          "name": "Personal agent",
+          "handle": "customer-support-channels__personal-agent"
+        },
+        {
+          "name": "Phone support",
+          "handle": "customer-support-channels__phone-support"
+        },
+        {
+          "name": "Social media support",
+          "handle": "customer-support-channels__social-media-support"
+        },
+        {
+          "name": "Training classes",
+          "handle": "customer-support-channels__training-classes"
+        },
+        {
+          "name": "Video tutorials",
+          "handle": "customer-support-channels__video-tutorials"
+        },
+        {
+          "name": "Webinars",
+          "handle": "customer-support-channels__webinars"
+        },
+        {
+          "name": "Other",
+          "handle": "customer-support-channels__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2650",
+      "name": "Deployment type",
+      "handle": "deployment-type",
+      "description": "Describes how AI software is implemented, such as hybrid or cloud-based",
+      "values": [
+        {
+          "name": "Cloud-based",
+          "handle": "deployment-type__cloud-based"
+        },
+        {
+          "name": "Hybrid",
+          "handle": "deployment-type__hybrid"
+        },
+        {
+          "name": "On-premises",
+          "handle": "deployment-type__on-premises"
+        },
+        {
+          "name": "Other",
+          "handle": "deployment-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2662",
+      "name": "Disk format type",
+      "handle": "disk-format-type",
+      "description": "Identifies the type of disk format for software products, like Blu-ray or CD",
+      "values": [
+        {
+          "name": "Blu-ray",
+          "handle": "disk-format-type__blu-ray"
+        },
+        {
+          "name": "CD",
+          "handle": "disk-format-type__cd"
+        },
+        {
+          "name": "DVD",
+          "handle": "disk-format-type__dvd"
+        },
+        {
+          "name": "USB",
+          "handle": "disk-format-type__usb"
+        },
+        {
+          "name": "Other",
+          "handle": "disk-format-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2672",
+      "name": "ESRB rating",
+      "handle": "esrb-rating",
+      "description": "Identifies the age appropriateness of video games, such as E (Everyone) or T (Teen)",
+      "values": [
+        {
+          "name": "AO (Adults Only)",
+          "handle": "esrb-rating__ao-adults-only"
+        },
+        {
+          "name": "E10+ (Everyone 10 and older)",
+          "handle": "esrb-rating__e10-plus-everyone-10-and-older"
+        },
+        {
+          "name": "E (Everyone)",
+          "handle": "esrb-rating__e-everyone"
+        },
+        {
+          "name": "EC (Early Childhood)",
+          "handle": "esrb-rating__ec-early-childhood"
+        },
+        {
+          "name": "M (Mature)",
+          "handle": "esrb-rating__m-mature"
+        },
+        {
+          "name": "RP (Rating Pending)",
+          "handle": "esrb-rating__rp-rating-pending"
+        },
+        {
+          "name": "T (Teen)",
+          "handle": "esrb-rating__t-teen"
+        },
+        {
+          "name": "Other",
+          "handle": "esrb-rating__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2657",
+      "name": "Education level",
+      "handle": "education-level",
+      "description": "Specifies the educational stage the software is designed, such as elementary school or graduate school",
+      "values": [
+        {
+          "name": "College",
+          "handle": "education-level__college"
+        },
+        {
+          "name": "Elementary school",
+          "handle": "education-level__elementary-school"
+        },
+        {
+          "name": "Graduate school",
+          "handle": "education-level__graduate-school"
+        },
+        {
+          "name": "High school",
+          "handle": "education-level__high-school"
+        },
+        {
+          "name": "Middle school",
+          "handle": "education-level__middle-school"
+        },
+        {
+          "name": "Professional",
+          "handle": "education-level__professional"
+        },
+        {
+          "name": "Other",
+          "handle": "education-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2669",
+      "name": "Font style",
+      "handle": "font-style",
+      "description": "Specifies the type of font in software products, such as sans serif or script",
+      "values": [
+        {
+          "name": "Decorative",
+          "handle": "font-style__decorative"
+        },
+        {
+          "name": "Display",
+          "handle": "font-style__display"
+        },
+        {
+          "name": "Handwritten",
+          "handle": "font-style__handwritten"
+        },
+        {
+          "name": "Icon",
+          "handle": "font-style__icon"
+        },
+        {
+          "name": "Monospaced",
+          "handle": "font-style__monospaced"
+        },
+        {
+          "name": "Sans serif",
+          "handle": "font-style__sans-serif"
+        },
+        {
+          "name": "Script",
+          "handle": "font-style__script"
+        },
+        {
+          "name": "Serif",
+          "handle": "font-style__serif"
+        },
+        {
+          "name": "Slab serif",
+          "handle": "font-style__slab-serif"
+        },
+        {
+          "name": "Other",
+          "handle": "font-style__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2670",
+      "name": "Footage type",
+      "handle": "footage-type",
+      "description": "Describes the category of stock photography or video footage, e.g. animations, textures",
+      "values": [
+        {
+          "name": "Animations",
+          "handle": "footage-type__animations"
+        },
+        {
+          "name": "Icons",
+          "handle": "footage-type__icons"
+        },
+        {
+          "name": "Illustrations",
+          "handle": "footage-type__illustrations"
+        },
+        {
+          "name": "Stock photos",
+          "handle": "footage-type__stock-photos"
+        },
+        {
+          "name": "Stock videos",
+          "handle": "footage-type__stock-videos"
+        },
+        {
+          "name": "Textures",
+          "handle": "footage-type__textures"
+        },
+        {
+          "name": "Vectors",
+          "handle": "footage-type__vectors"
+        },
+        {
+          "name": "Other",
+          "handle": "footage-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3375",
+      "name": "GPS software focus",
+      "handle": "gps-software-focus",
+      "description": "Identifies the primary use of GPS software, such as automotive navigation or geospatial analysis",
+      "values": [
+        {
+          "name": "Automotive navigation",
+          "handle": "gps-software-focus__automotive-navigation"
+        },
+        {
+          "name": "Geospatial analysis",
+          "handle": "gps-software-focus__geospatial-analysis"
+        },
+        {
+          "name": "Marine navigation",
+          "handle": "gps-software-focus__marine-navigation"
+        },
+        {
+          "name": "Outdoor activities",
+          "handle": "gps-software-focus__outdoor-activities"
+        },
+        {
+          "name": "Other",
+          "handle": "gps-software-focus__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2664",
+      "name": "Icon type",
+      "handle": "icon-type",
+      "description": "Specifies the type of computer icon, such as folder or social media",
+      "values": [
+        {
+          "name": "Application",
+          "handle": "icon-type__application"
+        },
+        {
+          "name": "Device",
+          "handle": "icon-type__device"
+        },
+        {
+          "name": "File type",
+          "handle": "icon-type__file-type"
+        },
+        {
+          "name": "Folder",
+          "handle": "icon-type__folder"
+        },
+        {
+          "name": "Process",
+          "handle": "icon-type__process"
+        },
+        {
+          "name": "Social media",
+          "handle": "icon-type__social-media"
+        },
+        {
+          "name": "System",
+          "handle": "icon-type__system"
+        },
+        {
+          "name": "User interface",
+          "handle": "icon-type__user-interface"
+        },
+        {
+          "name": "Web",
+          "handle": "icon-type__web"
+        },
+        {
+          "name": "Other",
+          "handle": "icon-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2651",
+      "name": "Industry focus",
+      "handle": "industry-focus",
+      "description": "Highlights the target sectors for a product, such as education or manufacturing",
+      "values": [
+        {
+          "name": "Automotive",
+          "handle": "industry-focus__automotive"
+        },
+        {
+          "name": "Education",
+          "handle": "industry-focus__education"
+        },
+        {
+          "name": "Finance",
+          "handle": "industry-focus__finance"
+        },
+        {
+          "name": "Healthcare",
+          "handle": "industry-focus__healthcare"
+        },
+        {
+          "name": "Manufacturing",
+          "handle": "industry-focus__manufacturing"
+        },
+        {
+          "name": "Marketing",
+          "handle": "industry-focus__marketing"
+        },
+        {
+          "name": "Retail",
+          "handle": "industry-focus__retail"
+        },
+        {
+          "name": "Other",
+          "handle": "industry-focus__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2646",
+      "name": "License type",
+      "handle": "license-type",
+      "description": "Specifies the type of software license, such as open-source or one-time purchase",
+      "values": [
+        {
+          "name": "Free to use",
+          "handle": "license-type__free-to-use"
+        },
+        {
+          "name": "Freemium",
+          "handle": "license-type__freemium"
+        },
+        {
+          "name": "One-time purchase",
+          "handle": "license-type__one-time-purchase"
+        },
+        {
+          "name": "Open-source",
+          "handle": "license-type__open-source"
+        },
+        {
+          "name": "Subscription-based",
+          "handle": "license-type__subscription-based"
+        },
+        {
+          "name": "Trial version",
+          "handle": "license-type__trial-version"
+        },
+        {
+          "name": "Other",
+          "handle": "license-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2673",
+      "name": "National/Regional rating",
+      "handle": "national-regional-rating",
+      "description": "Specifies the national or regional rating for a video game, e.g. MA 15+, all ages",
+      "values": [
+        {
+          "name": "0",
+          "handle": "national-regional-rating__0"
+        },
+        {
+          "name": "0/1",
+          "handle": "national-regional-rating__0-1"
+        },
+        {
+          "name": "2",
+          "handle": "national-regional-rating__2"
+        },
+        {
+          "name": "3",
+          "handle": "national-regional-rating__3"
+        },
+        {
+          "name": "4",
+          "handle": "national-regional-rating__4"
+        },
+        {
+          "name": "5",
+          "handle": "national-regional-rating__5"
+        },
+        {
+          "name": "6",
+          "handle": "national-regional-rating__6"
+        },
+        {
+          "name": "7",
+          "handle": "national-regional-rating__7"
+        },
+        {
+          "name": "8",
+          "handle": "national-regional-rating__8"
+        },
+        {
+          "name": "9",
+          "handle": "national-regional-rating__9"
+        },
+        {
+          "name": "10",
+          "handle": "national-regional-rating__10"
+        },
+        {
+          "name": "11",
+          "handle": "national-regional-rating__11"
+        },
+        {
+          "name": "12",
+          "handle": "national-regional-rating__12"
+        },
+        {
+          "name": "13",
+          "handle": "national-regional-rating__13"
+        },
+        {
+          "name": "14",
+          "handle": "national-regional-rating__14"
+        },
+        {
+          "name": "15",
+          "handle": "national-regional-rating__15"
+        },
+        {
+          "name": "16",
+          "handle": "national-regional-rating__16"
+        },
+        {
+          "name": "17",
+          "handle": "national-regional-rating__17"
+        },
+        {
+          "name": "18",
+          "handle": "national-regional-rating__18"
+        },
+        {
+          "name": "19",
+          "handle": "national-regional-rating__19"
+        },
+        {
+          "name": "20",
+          "handle": "national-regional-rating__20"
+        },
+        {
+          "name": "21",
+          "handle": "national-regional-rating__21"
+        },
+        {
+          "name": "0+",
+          "handle": "national-regional-rating__0-plus"
+        },
+        {
+          "name": "3+",
+          "handle": "national-regional-rating__3-plus"
+        },
+        {
+          "name": "4+",
+          "handle": "national-regional-rating__4-plus"
+        },
+        {
+          "name": "6+",
+          "handle": "national-regional-rating__6-plus"
+        },
+        {
+          "name": "7+",
+          "handle": "national-regional-rating__7-plus"
+        },
+        {
+          "name": "8+",
+          "handle": "national-regional-rating__8-plus"
+        },
+        {
+          "name": "9+",
+          "handle": "national-regional-rating__9-plus"
+        },
+        {
+          "name": "12+",
+          "handle": "national-regional-rating__12-plus"
+        },
+        {
+          "name": "13+",
+          "handle": "national-regional-rating__13-plus"
+        },
+        {
+          "name": "14+",
+          "handle": "national-regional-rating__14-plus"
+        },
+        {
+          "name": "15+",
+          "handle": "national-regional-rating__15-plus"
+        },
+        {
+          "name": "16+",
+          "handle": "national-regional-rating__16-plus"
+        },
+        {
+          "name": "17+",
+          "handle": "national-regional-rating__17-plus"
+        },
+        {
+          "name": "18+",
+          "handle": "national-regional-rating__18-plus"
+        },
+        {
+          "name": "7–9PG",
+          "handle": "national-regional-rating__79pg"
+        },
+        {
+          "name": "10–12PG",
+          "handle": "national-regional-rating__1012pg"
+        },
+        {
+          "name": "A",
+          "handle": "national-regional-rating__a"
+        },
+        {
+          "name": "ADV16",
+          "handle": "national-regional-rating__adv16"
+        },
+        {
+          "name": "All Ages",
+          "handle": "national-regional-rating__all-ages"
+        },
+        {
+          "name": "ATP",
+          "handle": "national-regional-rating__atp"
+        },
+        {
+          "name": "B",
+          "handle": "national-regional-rating__b"
+        },
+        {
+          "name": "B15",
+          "handle": "national-regional-rating__b15"
+        },
+        {
+          "name": "C",
+          "handle": "national-regional-rating__c"
+        },
+        {
+          "name": "CTC",
+          "handle": "national-regional-rating__ctc"
+        },
+        {
+          "name": "D",
+          "handle": "national-regional-rating__d"
+        },
+        {
+          "name": "G",
+          "handle": "national-regional-rating__g"
+        },
+        {
+          "name": "I",
+          "handle": "national-regional-rating__i"
+        },
+        {
+          "name": "II",
+          "handle": "national-regional-rating__ii"
+        },
+        {
+          "name": "III",
+          "handle": "national-regional-rating__iii"
+        },
+        {
+          "name": "L",
+          "handle": "national-regional-rating__l"
+        },
+        {
+          "name": "M",
+          "handle": "national-regional-rating__m"
+        },
+        {
+          "name": "M18",
+          "handle": "national-regional-rating__m18"
+        },
+        {
+          "name": "MA 15+",
+          "handle": "national-regional-rating__ma-15-plus"
+        },
+        {
+          "name": "P",
+          "handle": "national-regional-rating__p"
+        },
+        {
+          "name": "PG",
+          "handle": "national-regional-rating__pg"
+        },
+        {
+          "name": "R13",
+          "handle": "national-regional-rating__r13"
+        },
+        {
+          "name": "R15",
+          "handle": "national-regional-rating__r15"
+        },
+        {
+          "name": "R16",
+          "handle": "national-regional-rating__r16"
+        },
+        {
+          "name": "R18",
+          "handle": "national-regional-rating__r18"
+        },
+        {
+          "name": "R 18+",
+          "handle": "national-regional-rating__r-18-plus"
+        },
+        {
+          "name": "RC",
+          "handle": "national-regional-rating__rc"
+        },
+        {
+          "name": "SU",
+          "handle": "national-regional-rating__su"
+        },
+        {
+          "name": "TE",
+          "handle": "national-regional-rating__te"
+        },
+        {
+          "name": "Z",
+          "handle": "national-regional-rating__z"
+        },
+        {
+          "name": "Other",
+          "handle": "national-regional-rating__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2674",
+      "name": "PEGI rating",
+      "handle": "pegi-rating",
+      "description": "Specifies the Pan European Game Information(PEGI) rating for video games, e.g. 3, 12",
+      "values": [
+        {
+          "name": "3",
+          "handle": "pegi-rating__3"
+        },
+        {
+          "name": "7",
+          "handle": "pegi-rating__7"
+        },
+        {
+          "name": "12",
+          "handle": "pegi-rating__12"
+        },
+        {
+          "name": "16",
+          "handle": "pegi-rating__16"
+        },
+        {
+          "name": "18",
+          "handle": "pegi-rating__18"
+        },
+        {
+          "name": "Other",
+          "handle": "pegi-rating__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2652",
+      "name": "Performance metrics",
+      "handle": "performance-metrics",
+      "description": "Highlights key efficiency and effectiveness areas of AI and machine learning software, such as training time and inference speed",
+      "values": [
+        {
+          "name": "Accuracy",
+          "handle": "performance-metrics__accuracy"
+        },
+        {
+          "name": "F1 score",
+          "handle": "performance-metrics__f1-score"
+        },
+        {
+          "name": "Inference speed",
+          "handle": "performance-metrics__inference-speed"
+        },
+        {
+          "name": "Precision",
+          "handle": "performance-metrics__precision"
+        },
+        {
+          "name": "Recall",
+          "handle": "performance-metrics__recall"
+        },
+        {
+          "name": "Training time",
+          "handle": "performance-metrics__training-time"
+        },
+        {
+          "name": "Other",
+          "handle": "performance-metrics__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2644",
+      "name": "Primary region",
+      "handle": "primary-region",
+      "description": "Specifies the primary market or location for a software or cloud service, e.g. North America, Asia-Pacific",
+      "values": [
+        {
+          "name": "Africa",
+          "handle": "primary-region__africa"
+        },
+        {
+          "name": "Asia-Pacific",
+          "handle": "primary-region__asia-pacific"
+        },
+        {
+          "name": "Europe",
+          "handle": "primary-region__europe"
+        },
+        {
+          "name": "Latin America",
+          "handle": "primary-region__latin-america"
+        },
+        {
+          "name": "Middle East",
+          "handle": "primary-region__middle-east"
+        },
+        {
+          "name": "North America",
+          "handle": "primary-region__north-america"
+        },
+        {
+          "name": "Oceania",
+          "handle": "primary-region__oceania"
+        },
+        {
+          "name": "Other",
+          "handle": "primary-region__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2645",
+      "name": "Service type",
+      "handle": "service-type",
+      "description": "Identifies the category of cloud services, such as Platform as a service (PaaS) or Software as a service (SaaS)",
+      "values": [
+        {
+          "name": "Function as a service (FaaS)",
+          "handle": "service-type__function-as-a-service-faas"
+        },
+        {
+          "name": "Infrastructure as a service (IaaS)",
+          "handle": "service-type__infrastructure-as-a-service-iaas"
+        },
+        {
+          "name": "Platform as a service (PaaS)",
+          "handle": "service-type__platform-as-a-service-paas"
+        },
+        {
+          "name": "Software as a service (SaaS)",
+          "handle": "service-type__software-as-a-service-saas"
+        },
+        {
+          "name": "Other",
+          "handle": "service-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3167",
+      "name": "Software features",
+      "handle": "software-features",
+      "description": "Identifies the key functionalities of a software product, such as privacy protection or auto backup",
+      "values": [
+        {
+          "name": "AI-powered",
+          "handle": "software-features__ai-powered"
+        },
+        {
+          "name": "Auto backup",
+          "handle": "software-features__auto-backup"
+        },
+        {
+          "name": "Auto data recovery",
+          "handle": "software-features__auto-data-recovery"
+        },
+        {
+          "name": "Automatic updates",
+          "handle": "software-features__automatic-updates"
+        },
+        {
+          "name": "Built-in templates",
+          "handle": "software-features__built-in-templates"
+        },
+        {
+          "name": "Cloud based",
+          "handle": "software-features__cloud-based"
+        },
+        {
+          "name": "Customizable interface",
+          "handle": "software-features__customizable-interface"
+        },
+        {
+          "name": "Data import/export",
+          "handle": "software-features__data-import-export"
+        },
+        {
+          "name": "Encryption",
+          "handle": "software-features__encryption"
+        },
+        {
+          "name": "Mobile access",
+          "handle": "software-features__mobile-access"
+        },
+        {
+          "name": "Multi-user access",
+          "handle": "software-features__multi-user-access"
+        },
+        {
+          "name": "Multilingual support",
+          "handle": "software-features__multilingual-support"
+        },
+        {
+          "name": "Offline access",
+          "handle": "software-features__offline-access"
+        },
+        {
+          "name": "Parental control",
+          "handle": "software-features__parental-control"
+        },
+        {
+          "name": "Phishing protection",
+          "handle": "software-features__phishing-protection"
+        },
+        {
+          "name": "Privacy protection",
+          "handle": "software-features__privacy-protection"
+        },
+        {
+          "name": "Ransomware protection",
+          "handle": "software-features__ransomware-protection"
+        },
+        {
+          "name": "Real-time updates",
+          "handle": "software-features__real-time-updates"
+        },
+        {
+          "name": "Technical support",
+          "handle": "software-features__technical-support"
+        },
+        {
+          "name": "Other",
+          "handle": "software-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2655",
+      "name": "Software tool type",
+      "handle": "software-tool-type",
+      "description": "Classifies the type of software development tools, like source code editor or version control system",
+      "values": [
+        {
+          "name": "Build tool",
+          "handle": "software-tool-type__build-tool"
+        },
+        {
+          "name": "Compiler",
+          "handle": "software-tool-type__compiler"
+        },
+        {
+          "name": "Debugger",
+          "handle": "software-tool-type__debugger"
+        },
+        {
+          "name": "GUI designer",
+          "handle": "software-tool-type__gui-designer"
+        },
+        {
+          "name": "Linker",
+          "handle": "software-tool-type__linker"
+        },
+        {
+          "name": "Source code editor",
+          "handle": "software-tool-type__source-code-editor"
+        },
+        {
+          "name": "Version control system",
+          "handle": "software-tool-type__version-control-system"
+        },
+        {
+          "name": "Other",
+          "handle": "software-tool-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2668",
+      "name": "Template type",
+      "handle": "template-type",
+      "description": "Specifies the category of document templates, e.g. business card, flyer",
+      "values": [
+        {
+          "name": "Brochure",
+          "handle": "template-type__brochure"
+        },
+        {
+          "name": "Business card",
+          "handle": "template-type__business-card"
+        },
+        {
+          "name": "Certificate",
+          "handle": "template-type__certificate"
+        },
+        {
+          "name": "Cover letter",
+          "handle": "template-type__cover-letter"
+        },
+        {
+          "name": "Flyer",
+          "handle": "template-type__flyer"
+        },
+        {
+          "name": "Invoice",
+          "handle": "template-type__invoice"
+        },
+        {
+          "name": "Legal document",
+          "handle": "template-type__legal-document"
+        },
+        {
+          "name": "Newsletter",
+          "handle": "template-type__newsletter"
+        },
+        {
+          "name": "Powerpoint presentation",
+          "handle": "template-type__powerpoint-presentation"
+        },
+        {
+          "name": "Report",
+          "handle": "template-type__report"
+        },
+        {
+          "name": "Resume",
+          "handle": "template-type__resume"
+        },
+        {
+          "name": "Wedding invitation",
+          "handle": "template-type__wedding-invitation"
+        },
+        {
+          "name": "Other",
+          "handle": "template-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2653",
+      "name": "Training data requirements",
+      "handle": "training-data-requirements",
+      "description": "Identifies the data type and quality needed for effective AI or machine learning software training, e.g. labeled data",
+      "values": [
+        {
+          "name": "Labeled data",
+          "handle": "training-data-requirements__labeled-data"
+        },
+        {
+          "name": "Structured data",
+          "handle": "training-data-requirements__structured-data"
+        },
+        {
+          "name": "Unlabeled data",
+          "handle": "training-data-requirements__unlabeled-data"
+        },
+        {
+          "name": "Unstructured data",
+          "handle": "training-data-requirements__unstructured-data"
+        },
+        {
+          "name": "Other",
+          "handle": "training-data-requirements__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2648",
+      "name": "User type",
+      "handle": "user-type",
+      "description": "Identifies the intended user of a software product, such as individual or small business",
+      "values": [
+        {
+          "name": "Individual",
+          "handle": "user-type__individual"
+        },
+        {
+          "name": "Large enterprise",
+          "handle": "user-type__large-enterprise"
+        },
+        {
+          "name": "Medium-sized business/enterprise",
+          "handle": "user-type__medium-sized-business-enterprise"
+        },
+        {
+          "name": "Small business",
+          "handle": "user-type__small-business"
+        },
+        {
+          "name": "Other",
+          "handle": "user-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2656",
+      "name": "Utility/Maintenance task type",
+      "handle": "utility-maintenance-task-type",
+      "description": "Categorizes the task performed by a software, such as disk cleanup or system optimizer",
+      "values": [
+        {
+          "name": "Antivirus",
+          "handle": "utility-maintenance-task-type__antivirus"
+        },
+        {
+          "name": "Data backup",
+          "handle": "utility-maintenance-task-type__data-backup"
+        },
+        {
+          "name": "Data recovery",
+          "handle": "utility-maintenance-task-type__data-recovery"
+        },
+        {
+          "name": "Defragmentation",
+          "handle": "utility-maintenance-task-type__defragmentation"
+        },
+        {
+          "name": "Disk cleanup",
+          "handle": "utility-maintenance-task-type__disk-cleanup"
+        },
+        {
+          "name": "Disk partitioning",
+          "handle": "utility-maintenance-task-type__disk-partitioning"
+        },
+        {
+          "name": "Driver updater",
+          "handle": "utility-maintenance-task-type__driver-updater"
+        },
+        {
+          "name": "File compression",
+          "handle": "utility-maintenance-task-type__file-compression"
+        },
+        {
+          "name": "Registry cleaner",
+          "handle": "utility-maintenance-task-type__registry-cleaner"
+        },
+        {
+          "name": "System optimizer",
+          "handle": "utility-maintenance-task-type__system-optimizer"
+        },
+        {
+          "name": "Other",
+          "handle": "utility-maintenance-task-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3168",
+      "name": "Video game content features",
+      "handle": "video-game-content-features",
+      "description": "Identifies special features of video game software, e.g. downloadable content (DLC), early access",
+      "values": [
+        {
+          "name": "Downloadable content (DLC)",
+          "handle": "video-game-content-features__downloadable-content-dlc"
+        },
+        {
+          "name": "Early access",
+          "handle": "video-game-content-features__early-access"
+        },
+        {
+          "name": "Free to play",
+          "handle": "video-game-content-features__free-to-play"
+        },
+        {
+          "name": "Other",
+          "handle": "video-game-content-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/4678",
+      "name": "Video game format",
+      "handle": "video-game-format",
+      "description": "Specifies the method of delivery and type of media for video games, such as digital or physical.",
+      "values": [
+        {
+          "name": "Digital",
+          "handle": "video-game-format__digital"
+        },
+        {
+          "name": "Physical",
+          "handle": "video-game-format__physical"
+        },
+        {
+          "name": "Other",
+          "handle": "video-game-format__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2678",
+      "name": "Video game sub-genre",
+      "handle": "video-game-sub-genre",
+      "description": "Identifies the specific subcategory of a video game, like MMORPG or battle royale",
+      "values": [
+        {
+          "name": "4X",
+          "handle": "video-game-sub-genre__4x"
+        },
+        {
+          "name": "Artillery",
+          "handle": "video-game-sub-genre__artillery"
+        },
+        {
+          "name": "Auto battler",
+          "handle": "video-game-sub-genre__auto-battler"
+        },
+        {
+          "name": "Battle royale",
+          "handle": "video-game-sub-genre__battle-royale"
+        },
+        {
+          "name": "Beat 'em up",
+          "handle": "video-game-sub-genre__beat-em-up"
+        },
+        {
+          "name": "City building",
+          "handle": "video-game-sub-genre__city-building"
+        },
+        {
+          "name": "Construction and management simulation",
+          "handle": "video-game-sub-genre__construction-and-management-simulation"
+        },
+        {
+          "name": "Dating sim",
+          "handle": "video-game-sub-genre__dating-sim"
+        },
+        {
+          "name": "First-person shooter",
+          "handle": "video-game-sub-genre__first-person-shooter"
+        },
+        {
+          "name": "Flight simulator",
+          "handle": "video-game-sub-genre__flight-simulator"
+        },
+        {
+          "name": "God game",
+          "handle": "video-game-sub-genre__god-game"
+        },
+        {
+          "name": "Graphic adventure",
+          "handle": "video-game-sub-genre__graphic-adventure"
+        },
+        {
+          "name": "Hack and slash",
+          "handle": "video-game-sub-genre__hack-and-slash"
+        },
+        {
+          "name": "Life simulation",
+          "handle": "video-game-sub-genre__life-simulation"
+        },
+        {
+          "name": "Metroidvania",
+          "handle": "video-game-sub-genre__metroidvania"
+        },
+        {
+          "name": "MMORPG",
+          "handle": "video-game-sub-genre__mmorpg"
+        },
+        {
+          "name": "MOBA",
+          "handle": "video-game-sub-genre__moba"
+        },
+        {
+          "name": "Party",
+          "handle": "video-game-sub-genre__party"
+        },
+        {
+          "name": "Platformer",
+          "handle": "video-game-sub-genre__platformer"
+        },
+        {
+          "name": "Point-and-click adventure",
+          "handle": "video-game-sub-genre__point-and-click-adventure"
+        },
+        {
+          "name": "Puzzle platformer",
+          "handle": "video-game-sub-genre__puzzle-platformer"
+        },
+        {
+          "name": "Real-time tactics",
+          "handle": "video-game-sub-genre__real-time-tactics"
+        },
+        {
+          "name": "Rhythm",
+          "handle": "video-game-sub-genre__rhythm"
+        },
+        {
+          "name": "Roguelike",
+          "handle": "video-game-sub-genre__roguelike"
+        },
+        {
+          "name": "Sandbox",
+          "handle": "video-game-sub-genre__sandbox"
+        },
+        {
+          "name": "Sports management",
+          "handle": "video-game-sub-genre__sports-management"
+        },
+        {
+          "name": "Survival horror",
+          "handle": "video-game-sub-genre__survival-horror"
+        },
+        {
+          "name": "Tactical shooter",
+          "handle": "video-game-sub-genre__tactical-shooter"
+        },
+        {
+          "name": "Text adventure",
+          "handle": "video-game-sub-genre__text-adventure"
+        },
+        {
+          "name": "Third-person shooter",
+          "handle": "video-game-sub-genre__third-person-shooter"
+        },
+        {
+          "name": "Tower defense",
+          "handle": "video-game-sub-genre__tower-defense"
+        },
+        {
+          "name": "Turn-based tactics",
+          "handle": "video-game-sub-genre__turn-based-tactics"
+        },
+        {
+          "name": "Vehicle simulation",
+          "handle": "video-game-sub-genre__vehicle-simulation"
+        },
+        {
+          "name": "Walking simulator",
+          "handle": "video-game-sub-genre__walking-simulator"
+        },
+        {
+          "name": "Other",
+          "handle": "video-game-sub-genre__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2665",
+      "name": "Wallpaper theme",
+      "handle": "wallpaper-theme",
+      "description": "Identifies the main subject or style of a desktop wallpaper, such as nature or abstract",
+      "values": [
+        {
+          "name": "Abstract",
+          "handle": "wallpaper-theme__abstract"
+        },
+        {
+          "name": "Animals",
+          "handle": "wallpaper-theme__animals"
+        },
+        {
+          "name": "Architecture",
+          "handle": "wallpaper-theme__architecture"
+        },
+        {
+          "name": "Art & illustration",
+          "handle": "wallpaper-theme__art-illustration"
+        },
+        {
+          "name": "Cars",
+          "handle": "wallpaper-theme__cars"
+        },
+        {
+          "name": "Games",
+          "handle": "wallpaper-theme__games"
+        },
+        {
+          "name": "Holidays",
+          "handle": "wallpaper-theme__holidays"
+        },
+        {
+          "name": "Minimalist",
+          "handle": "wallpaper-theme__minimalist"
+        },
+        {
+          "name": "Movies & TV",
+          "handle": "wallpaper-theme__movies-tv"
+        },
+        {
+          "name": "Nature",
+          "handle": "wallpaper-theme__nature"
+        },
+        {
+          "name": "Seasonal",
+          "handle": "wallpaper-theme__seasonal"
+        },
+        {
+          "name": "Space",
+          "handle": "wallpaper-theme__space"
+        },
+        {
+          "name": "Sports",
+          "handle": "wallpaper-theme__sports"
+        },
+        {
+          "name": "Technology",
+          "handle": "wallpaper-theme__technology"
+        },
+        {
+          "name": "Other",
+          "handle": "wallpaper-theme__other"
+        }
+      ]
+    }
+  ]
+}

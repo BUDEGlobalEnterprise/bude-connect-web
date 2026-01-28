@@ -1,0 +1,2036 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1759",
+      "name": "Baby drink packaging",
+      "handle": "baby-drink-packaging",
+      "description": "Identifies the container type for baby beverages, e.g. carton, bottle",
+      "values": [
+        {
+          "name": "Bottle",
+          "handle": "baby-drink-packaging__bottle"
+        },
+        {
+          "name": "Carton",
+          "handle": "baby-drink-packaging__carton"
+        },
+        {
+          "name": "Tetra pack",
+          "handle": "baby-drink-packaging__tetra-pack"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-drink-packaging__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1758",
+      "name": "Baby food flavor",
+      "handle": "baby-food-flavor",
+      "description": "Specifies the taste profile of baby food products, such as green beans or banana",
+      "values": [
+        {
+          "name": "Apple",
+          "handle": "baby-food-flavor__apple"
+        },
+        {
+          "name": "Apricot",
+          "handle": "baby-food-flavor__apricot"
+        },
+        {
+          "name": "Avocado",
+          "handle": "baby-food-flavor__avocado"
+        },
+        {
+          "name": "Banana",
+          "handle": "baby-food-flavor__banana"
+        },
+        {
+          "name": "Barley",
+          "handle": "baby-food-flavor__barley"
+        },
+        {
+          "name": "Berries",
+          "handle": "baby-food-flavor__berries"
+        },
+        {
+          "name": "Blackberry",
+          "handle": "baby-food-flavor__blackberry"
+        },
+        {
+          "name": "Blueberry",
+          "handle": "baby-food-flavor__blueberry"
+        },
+        {
+          "name": "Broccoli",
+          "handle": "baby-food-flavor__broccoli"
+        },
+        {
+          "name": "Brown rice",
+          "handle": "baby-food-flavor__brown-rice"
+        },
+        {
+          "name": "Butternut squash",
+          "handle": "baby-food-flavor__butternut-squash"
+        },
+        {
+          "name": "Carrot",
+          "handle": "baby-food-flavor__carrot"
+        },
+        {
+          "name": "Cauliflower",
+          "handle": "baby-food-flavor__cauliflower"
+        },
+        {
+          "name": "Cherry",
+          "handle": "baby-food-flavor__cherry"
+        },
+        {
+          "name": "Chocolate",
+          "handle": "baby-food-flavor__chocolate"
+        },
+        {
+          "name": "Green beans",
+          "handle": "baby-food-flavor__green-beans"
+        },
+        {
+          "name": "Kiwi",
+          "handle": "baby-food-flavor__kiwi"
+        },
+        {
+          "name": "Lentils",
+          "handle": "baby-food-flavor__lentils"
+        },
+        {
+          "name": "Mango",
+          "handle": "baby-food-flavor__mango"
+        },
+        {
+          "name": "Meat",
+          "handle": "baby-food-flavor__meat"
+        },
+        {
+          "name": "Mixed fruits",
+          "handle": "baby-food-flavor__mixed-fruits"
+        },
+        {
+          "name": "Oatmeal",
+          "handle": "baby-food-flavor__oatmeal"
+        },
+        {
+          "name": "Orange",
+          "handle": "baby-food-flavor__orange"
+        },
+        {
+          "name": "Papaya",
+          "handle": "baby-food-flavor__papaya"
+        },
+        {
+          "name": "Peach",
+          "handle": "baby-food-flavor__peach"
+        },
+        {
+          "name": "Pear",
+          "handle": "baby-food-flavor__pear"
+        },
+        {
+          "name": "Peas",
+          "handle": "baby-food-flavor__peas"
+        },
+        {
+          "name": "Pineapple",
+          "handle": "baby-food-flavor__pineapple"
+        },
+        {
+          "name": "Plum",
+          "handle": "baby-food-flavor__plum"
+        },
+        {
+          "name": "Pumpkin",
+          "handle": "baby-food-flavor__pumpkin"
+        },
+        {
+          "name": "Quinoa",
+          "handle": "baby-food-flavor__quinoa"
+        },
+        {
+          "name": "Raspberry",
+          "handle": "baby-food-flavor__raspberry"
+        },
+        {
+          "name": "Spinach",
+          "handle": "baby-food-flavor__spinach"
+        },
+        {
+          "name": "Strawberry",
+          "handle": "baby-food-flavor__strawberry"
+        },
+        {
+          "name": "Sweet potato",
+          "handle": "baby-food-flavor__sweet-potato"
+        },
+        {
+          "name": "Unflavored",
+          "handle": "baby-food-flavor__unflavored"
+        },
+        {
+          "name": "Vanilla",
+          "handle": "baby-food-flavor__vanilla"
+        },
+        {
+          "name": "Vegetables",
+          "handle": "baby-food-flavor__vegetables"
+        },
+        {
+          "name": "Watermelon",
+          "handle": "baby-food-flavor__watermelon"
+        },
+        {
+          "name": "Zucchini",
+          "handle": "baby-food-flavor__zucchini"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-food-flavor__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1761",
+      "name": "Baby formula format",
+      "handle": "baby-formula-format",
+      "description": "Specifies the preparation state of baby formula, such as dry powder or ready-to-feed",
+      "values": [
+        {
+          "name": "Dry powder",
+          "handle": "baby-formula-format__dry-powder"
+        },
+        {
+          "name": "Ready-to-feed",
+          "handle": "baby-formula-format__ready-to-feed"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-formula-format__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1717",
+      "name": "Baby gift items included",
+      "handle": "baby-gift-items-included",
+      "description": "Details the components of a baby gift package, such as books or teethers",
+      "values": [
+        {
+          "name": "Bibs",
+          "handle": "baby-gift-items-included__bibs"
+        },
+        {
+          "name": "Blanket",
+          "handle": "baby-gift-items-included__blanket"
+        },
+        {
+          "name": "Books",
+          "handle": "baby-gift-items-included__books"
+        },
+        {
+          "name": "Burp cloths",
+          "handle": "baby-gift-items-included__burp-cloths"
+        },
+        {
+          "name": "Clothing",
+          "handle": "baby-gift-items-included__clothing"
+        },
+        {
+          "name": "Hats",
+          "handle": "baby-gift-items-included__hats"
+        },
+        {
+          "name": "Rattles",
+          "handle": "baby-gift-items-included__rattles"
+        },
+        {
+          "name": "Socks",
+          "handle": "baby-gift-items-included__socks"
+        },
+        {
+          "name": "Teethers",
+          "handle": "baby-gift-items-included__teethers"
+        },
+        {
+          "name": "Toys",
+          "handle": "baby-gift-items-included__toys"
+        },
+        {
+          "name": "Washcloths",
+          "handle": "baby-gift-items-included__washcloths"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-gift-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1720",
+      "name": "Baby health items included",
+      "handle": "baby-health-items-included",
+      "description": "Specifies the items included in baby grooming kits, like nail clippers or thermometer",
+      "values": [
+        {
+          "name": "Comb",
+          "handle": "baby-health-items-included__comb"
+        },
+        {
+          "name": "Finger toothbrush",
+          "handle": "baby-health-items-included__finger-toothbrush"
+        },
+        {
+          "name": "Gum massager",
+          "handle": "baby-health-items-included__gum-massager"
+        },
+        {
+          "name": "Hair brush",
+          "handle": "baby-health-items-included__hair-brush"
+        },
+        {
+          "name": "Medicine dropper",
+          "handle": "baby-health-items-included__medicine-dropper"
+        },
+        {
+          "name": "Nail clippers",
+          "handle": "baby-health-items-included__nail-clippers"
+        },
+        {
+          "name": "Nasal aspirator",
+          "handle": "baby-health-items-included__nasal-aspirator"
+        },
+        {
+          "name": "Storage case",
+          "handle": "baby-health-items-included__storage-case"
+        },
+        {
+          "name": "Thermometer",
+          "handle": "baby-health-items-included__thermometer"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-health-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3026",
+      "name": "Baby monitor features",
+      "handle": "baby-monitor-features",
+      "description": "Describes the capabilities of a baby monitor, such as two-way communication or temperature monitoring",
+      "values": [
+        {
+          "name": "Infrared sensor",
+          "handle": "baby-monitor-features__infrared-sensor"
+        },
+        {
+          "name": "Lullabies",
+          "handle": "baby-monitor-features__lullabies"
+        },
+        {
+          "name": "Motion detection",
+          "handle": "baby-monitor-features__motion-detection"
+        },
+        {
+          "name": "Night vision",
+          "handle": "baby-monitor-features__night-vision"
+        },
+        {
+          "name": "Temperature monitoring",
+          "handle": "baby-monitor-features__temperature-monitoring"
+        },
+        {
+          "name": "Two-way communication",
+          "handle": "baby-monitor-features__two-way-communication"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-monitor-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1762",
+      "name": "Baby snack flavor",
+      "handle": "baby-snack-flavor",
+      "description": "Defines the taste profile of baby snacks, e.g. fruit, vegetables",
+      "values": [
+        {
+          "name": "Cheese",
+          "handle": "baby-snack-flavor__cheese"
+        },
+        {
+          "name": "Fruit",
+          "handle": "baby-snack-flavor__fruit"
+        },
+        {
+          "name": "Grains",
+          "handle": "baby-snack-flavor__grains"
+        },
+        {
+          "name": "Vegetables",
+          "handle": "baby-snack-flavor__vegetables"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-snack-flavor__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1763",
+      "name": "Baby snack texture",
+      "handle": "baby-snack-texture",
+      "description": "Describes the feel or consistency of baby snacks, e.g. soft bites, puffs",
+      "values": [
+        {
+          "name": "Crackers",
+          "handle": "baby-snack-texture__crackers"
+        },
+        {
+          "name": "Puffs",
+          "handle": "baby-snack-texture__puffs"
+        },
+        {
+          "name": "Soft bites",
+          "handle": "baby-snack-texture__soft-bites"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-snack-texture__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3029",
+      "name": "Baby/Toddler equipment safety features",
+      "handle": "baby-toddler-equipment-safety-features",
+      "description": "Specifies protective features in baby or toddler gear, such as non-slip base",
+      "values": [
+        {
+          "name": "3-point harness",
+          "handle": "baby-toddler-equipment-safety-features__3-point-harness"
+        },
+        {
+          "name": "5-point harness",
+          "handle": "baby-toddler-equipment-safety-features__5-point-harness"
+        },
+        {
+          "name": "Energy-absorbing foam",
+          "handle": "baby-toddler-equipment-safety-features__energy-absorbing-foam"
+        },
+        {
+          "name": "Non-slip base",
+          "handle": "baby-toddler-equipment-safety-features__non-slip-base"
+        },
+        {
+          "name": "Side-impact protection",
+          "handle": "baby-toddler-equipment-safety-features__side-impact-protection"
+        },
+        {
+          "name": "Other",
+          "handle": "baby-toddler-equipment-safety-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1771",
+      "name": "Bib design",
+      "handle": "bib-design",
+      "description": "Defines the style or type of baby bib, such as bandana or sleeved",
+      "values": [
+        {
+          "name": "Bandana",
+          "handle": "bib-design__bandana"
+        },
+        {
+          "name": "Full coverage",
+          "handle": "bib-design__full-coverage"
+        },
+        {
+          "name": "Sleeved",
+          "handle": "bib-design__sleeved"
+        },
+        {
+          "name": "Smock",
+          "handle": "bib-design__smock"
+        },
+        {
+          "name": "Other",
+          "handle": "bib-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1768",
+      "name": "Bottle design",
+      "handle": "bottle-design",
+      "description": "Describes the characteristics of a bottle, typically for baby products; e.g. easy-to-hold",
+      "values": [
+        {
+          "name": "Contoured grip",
+          "handle": "bottle-design__contoured-grip"
+        },
+        {
+          "name": "Easy-to-hold handles",
+          "handle": "bottle-design__easy-to-hold-handles"
+        },
+        {
+          "name": "Ergonomic shape",
+          "handle": "bottle-design__ergonomic-shape"
+        },
+        {
+          "name": "Other",
+          "handle": "bottle-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3044",
+      "name": "Bottle warmer/sterilizer features",
+      "handle": "bottle-warmer-sterilizer-features",
+      "description": "Highlights special features of bottle warmers or sterilizers, like auto power-off or timer",
+      "values": [
+        {
+          "name": "Auto power-off",
+          "handle": "bottle-warmer-sterilizer-features__auto-power-off"
+        },
+        {
+          "name": "Defrost function",
+          "handle": "bottle-warmer-sterilizer-features__defrost-function"
+        },
+        {
+          "name": "Drying function",
+          "handle": "bottle-warmer-sterilizer-features__drying-function"
+        },
+        {
+          "name": "LCD display",
+          "handle": "bottle-warmer-sterilizer-features__lcd-display"
+        },
+        {
+          "name": "Storage options",
+          "handle": "bottle-warmer-sterilizer-features__storage-options"
+        },
+        {
+          "name": "Timer",
+          "handle": "bottle-warmer-sterilizer-features__timer"
+        },
+        {
+          "name": "Other",
+          "handle": "bottle-warmer-sterilizer-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1742",
+      "name": "Car seat installation",
+      "handle": "car-seat-installation",
+      "description": "Specifies the method for installing a child car seat, such as latch or seatbelt",
+      "values": [
+        {
+          "name": "Latch system",
+          "handle": "car-seat-installation__latch-system"
+        },
+        {
+          "name": "Seat belt installation",
+          "handle": "car-seat-installation__seat-belt-installation"
+        },
+        {
+          "name": "Other",
+          "handle": "car-seat-installation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1743",
+      "name": "Car seat orientation",
+      "handle": "car-seat-orientation",
+      "description": "Specifies the direction a child car seat faces, such as rear or forward facing",
+      "values": [
+        {
+          "name": "Forward-facing",
+          "handle": "car-seat-orientation__forward-facing"
+        },
+        {
+          "name": "Rear-facing",
+          "handle": "car-seat-orientation__rear-facing"
+        },
+        {
+          "name": "Other",
+          "handle": "car-seat-orientation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1746",
+      "name": "Carrying positions",
+      "handle": "carrying-positions",
+      "description": "Specifies the different ways a baby carrier can be worn, like hip carry or back-facing",
+      "values": [
+        {
+          "name": "Back-facing",
+          "handle": "carrying-positions__back-facing"
+        },
+        {
+          "name": "Front-facing",
+          "handle": "carrying-positions__front-facing"
+        },
+        {
+          "name": "Hip carry",
+          "handle": "carrying-positions__hip-carry"
+        },
+        {
+          "name": "Other",
+          "handle": "carrying-positions__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3035",
+      "name": "Changing mat/tray features",
+      "handle": "changing-mat-tray-features",
+      "description": "Describes special features of changing mats/trays, like built-in compartments or portable",
+      "values": [
+        {
+          "name": "Built-in compartments",
+          "handle": "changing-mat-tray-features__built-in-compartments"
+        },
+        {
+          "name": "Portable",
+          "handle": "changing-mat-tray-features__portable"
+        },
+        {
+          "name": "Safety strap",
+          "handle": "changing-mat-tray-features__safety-strap"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "changing-mat-tray-features__waterproof"
+        },
+        {
+          "name": "Wipeable surface",
+          "handle": "changing-mat-tray-features__wipeable-surface"
+        },
+        {
+          "name": "Other",
+          "handle": "changing-mat-tray-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1764",
+      "name": "Compatible baby bottle design",
+      "handle": "compatible-baby-bottle-design",
+      "description": "Indicates the baby bottle styles the product is compatible with, such as wide-neck",
+      "values": [
+        {
+          "name": "Standard",
+          "handle": "compatible-baby-bottle-design__standard"
+        },
+        {
+          "name": "Wide-neck",
+          "handle": "compatible-baby-bottle-design__wide-neck"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-baby-bottle-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1749",
+      "name": "Compatible baby carrier type",
+      "handle": "compatible-baby-carrier-type",
+      "description": "Specifies the type of baby carrier the product is compatible with, like wrap or backpack carrier",
+      "values": [
+        {
+          "name": "Backpack carrier",
+          "handle": "compatible-baby-carrier-type__backpack-carrier"
+        },
+        {
+          "name": "Mei tai",
+          "handle": "compatible-baby-carrier-type__mei-tai"
+        },
+        {
+          "name": "Ring sling",
+          "handle": "compatible-baby-carrier-type__ring-sling"
+        },
+        {
+          "name": "Soft-structured carrier",
+          "handle": "compatible-baby-carrier-type__soft-structured-carrier"
+        },
+        {
+          "name": "Wrap",
+          "handle": "compatible-baby-carrier-type__wrap"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-baby-carrier-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1752",
+      "name": "Compatible baby chair type",
+      "handle": "compatible-baby-chair-type",
+      "description": "Specifies the type of baby chair the product fits, such as shopping cart or restaurant",
+      "values": [
+        {
+          "name": "High chair",
+          "handle": "compatible-baby-chair-type__high-chair"
+        },
+        {
+          "name": "Restaurant high chair",
+          "handle": "compatible-baby-chair-type__restaurant-high-chair"
+        },
+        {
+          "name": "Shopping cart",
+          "handle": "compatible-baby-chair-type__shopping-cart"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-baby-chair-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1751",
+      "name": "Compatible baby transport type",
+      "handle": "compatible-baby-transport-type",
+      "description": "Identifies compatible baby transport items, like stroller or car seat",
+      "values": [
+        {
+          "name": "Baby carrier",
+          "handle": "compatible-baby-transport-type__baby-carrier"
+        },
+        {
+          "name": "Car seat",
+          "handle": "compatible-baby-transport-type__car-seat"
+        },
+        {
+          "name": "Stroller",
+          "handle": "compatible-baby-transport-type__stroller"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-baby-transport-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1748",
+      "name": "Compatible seat type",
+      "handle": "compatible-seat-type",
+      "description": "Specifies the type of child car seat the product fits, such as booster or infant car seat",
+      "values": [
+        {
+          "name": "Booster seat",
+          "handle": "compatible-seat-type__booster-seat"
+        },
+        {
+          "name": "Convertible car seat",
+          "handle": "compatible-seat-type__convertible-car-seat"
+        },
+        {
+          "name": "Infant car seat",
+          "handle": "compatible-seat-type__infant-car-seat"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-seat-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1750",
+      "name": "Compatible stroller type",
+      "handle": "compatible-stroller-type",
+      "description": "Specifies the type of stroller the product fits with, like umbrella or jogging",
+      "values": [
+        {
+          "name": "Convertible",
+          "handle": "compatible-stroller-type__convertible"
+        },
+        {
+          "name": "Double",
+          "handle": "compatible-stroller-type__double"
+        },
+        {
+          "name": "Full-sized",
+          "handle": "compatible-stroller-type__full-sized"
+        },
+        {
+          "name": "Jogging",
+          "handle": "compatible-stroller-type__jogging"
+        },
+        {
+          "name": "Umbrella",
+          "handle": "compatible-stroller-type__umbrella"
+        },
+        {
+          "name": "Other",
+          "handle": "compatible-stroller-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1784",
+      "name": "Cover closure design",
+      "handle": "cover-closure-design",
+      "description": "Specifies the closure design, typically for pillow covers; e.g. envelope, zipper",
+      "values": [
+        {
+          "name": "Envelope",
+          "handle": "cover-closure-design__envelope"
+        },
+        {
+          "name": "Zipper",
+          "handle": "cover-closure-design__zipper"
+        },
+        {
+          "name": "Other",
+          "handle": "cover-closure-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3027",
+      "name": "Developmental features",
+      "handle": "developmental-features",
+      "description": "Highlights the developmental benefits of a product, such as language development or emotional & social growth",
+      "values": [
+        {
+          "name": "Cognitive development",
+          "handle": "developmental-features__cognitive-development"
+        },
+        {
+          "name": "Emotional & social development",
+          "handle": "developmental-features__emotional-social-development"
+        },
+        {
+          "name": "Hand-eye coordination",
+          "handle": "developmental-features__hand-eye-coordination"
+        },
+        {
+          "name": "Interactive",
+          "handle": "developmental-features__interactive"
+        },
+        {
+          "name": "Language development",
+          "handle": "developmental-features__language-development"
+        },
+        {
+          "name": "Light & sound effects",
+          "handle": "developmental-features__light-sound-effects"
+        },
+        {
+          "name": "Motor skills development",
+          "handle": "developmental-features__motor-skills-development"
+        },
+        {
+          "name": "Musical discovery",
+          "handle": "developmental-features__musical-discovery"
+        },
+        {
+          "name": "Physical development",
+          "handle": "developmental-features__physical-development"
+        },
+        {
+          "name": "Sensory exploration",
+          "handle": "developmental-features__sensory-exploration"
+        },
+        {
+          "name": "Textured surfaces",
+          "handle": "developmental-features__textured-surfaces"
+        },
+        {
+          "name": "Other",
+          "handle": "developmental-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1754",
+      "name": "Diaper kit components",
+      "handle": "diaper-kit-components",
+      "description": "Specifies items included in a diaper kit, such as wipes or diaper changing pad",
+      "values": [
+        {
+          "name": "Changing mat",
+          "handle": "diaper-kit-components__changing-mat"
+        },
+        {
+          "name": "Diaper changing pad",
+          "handle": "diaper-kit-components__diaper-changing-pad"
+        },
+        {
+          "name": "Diaper cream",
+          "handle": "diaper-kit-components__diaper-cream"
+        },
+        {
+          "name": "Diapers",
+          "handle": "diaper-kit-components__diapers"
+        },
+        {
+          "name": "Disposable bags",
+          "handle": "diaper-kit-components__disposable-bags"
+        },
+        {
+          "name": "Hand sanitizer",
+          "handle": "diaper-kit-components__hand-sanitizer"
+        },
+        {
+          "name": "Wipes",
+          "handle": "diaper-kit-components__wipes"
+        },
+        {
+          "name": "Other",
+          "handle": "diaper-kit-components__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3037",
+      "name": "Diaper organizer features",
+      "handle": "diaper-organizer-features",
+      "description": "Highlights unique features of diaper organizers, such as multiple compartments or waterproof lining",
+      "values": [
+        {
+          "name": "Adjustable strap",
+          "handle": "diaper-organizer-features__adjustable-strap"
+        },
+        {
+          "name": "Insulated bottle pockets",
+          "handle": "diaper-organizer-features__insulated-bottle-pockets"
+        },
+        {
+          "name": "Multiple compartments",
+          "handle": "diaper-organizer-features__multiple-compartments"
+        },
+        {
+          "name": "Stroller strap",
+          "handle": "diaper-organizer-features__stroller-strap"
+        },
+        {
+          "name": "Waterproof lining",
+          "handle": "diaper-organizer-features__waterproof-lining"
+        },
+        {
+          "name": "Other",
+          "handle": "diaper-organizer-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1757",
+      "name": "Diaper size",
+      "handle": "diaper-size",
+      "description": "Specifies the size of diapers, such as infant or toddler",
+      "values": [
+        {
+          "name": "Preemie",
+          "handle": "diaper-size__preemie"
+        },
+        {
+          "name": "Newborn",
+          "handle": "diaper-size__newborn"
+        },
+        {
+          "name": "Toddler",
+          "handle": "diaper-size__toddler"
+        },
+        {
+          "name": "1",
+          "handle": "diaper-size__1"
+        },
+        {
+          "name": "2",
+          "handle": "diaper-size__2"
+        },
+        {
+          "name": "3",
+          "handle": "diaper-size__3"
+        },
+        {
+          "name": "4",
+          "handle": "diaper-size__4"
+        },
+        {
+          "name": "5",
+          "handle": "diaper-size__5"
+        },
+        {
+          "name": "6",
+          "handle": "diaper-size__6"
+        },
+        {
+          "name": "7",
+          "handle": "diaper-size__7"
+        },
+        {
+          "name": "Other",
+          "handle": "diaper-size__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1724",
+      "name": "Door stopper design",
+      "handle": "door-stopper-design",
+      "description": "Specifies the style of a door stopper, such as hook-shaped or wedge-shaped",
+      "values": [
+        {
+          "name": "Hook-shaped",
+          "handle": "door-stopper-design__hook-shaped"
+        },
+        {
+          "name": "Wedge-shaped",
+          "handle": "door-stopper-design__wedge-shaped"
+        },
+        {
+          "name": "Other",
+          "handle": "door-stopper-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1747",
+      "name": "Double stroller configuration",
+      "handle": "double-stroller-configuration",
+      "description": "Defines the seating arrangement in double strollers, such as tandem or side-by-side",
+      "values": [
+        {
+          "name": "Side-by-side",
+          "handle": "double-stroller-configuration__side-by-side"
+        },
+        {
+          "name": "Tandem (front & back)",
+          "handle": "double-stroller-configuration__tandem-front-back"
+        },
+        {
+          "name": "Other",
+          "handle": "double-stroller-configuration__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1765",
+      "name": "Flow rate type",
+      "handle": "flow-rate-type",
+      "description": "Defines the speed at which liquid is dispensed, typically for baby bottles; e.g. medium, slow",
+      "values": [
+        {
+          "name": "Fast",
+          "handle": "flow-rate-type__fast"
+        },
+        {
+          "name": "Medium",
+          "handle": "flow-rate-type__medium"
+        },
+        {
+          "name": "Slow",
+          "handle": "flow-rate-type__slow"
+        },
+        {
+          "name": "Variable",
+          "handle": "flow-rate-type__variable"
+        },
+        {
+          "name": "Other",
+          "handle": "flow-rate-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1760",
+      "name": "Formula level",
+      "handle": "formula-level",
+      "description": "Specifies the age suitability of baby formula, e.g. Level 1 (0-6 months)",
+      "values": [
+        {
+          "name": "Level 1 (0-6 months)",
+          "handle": "formula-level__level-1-0-6-months"
+        },
+        {
+          "name": "Level 2 (6-12 months)",
+          "handle": "formula-level__level-2-6-12-months"
+        },
+        {
+          "name": "Level 3 (+12 months)",
+          "handle": "formula-level__level-3-plus-12-months"
+        },
+        {
+          "name": "Other",
+          "handle": "formula-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1727",
+      "name": "Gate mounting type",
+      "handle": "gate-mounting-type",
+      "description": "Specifies where a baby or pet gate is installed, such as wall or doorway",
+      "values": [
+        {
+          "name": "Doorway",
+          "handle": "gate-mounting-type__doorway"
+        },
+        {
+          "name": "Wall",
+          "handle": "gate-mounting-type__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "gate-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1773",
+      "name": "Heating speed",
+      "handle": "heating-speed",
+      "description": "Indicates the rate at which a product heats up, e.g. fast, slow",
+      "values": [
+        {
+          "name": "Fast",
+          "handle": "heating-speed__fast"
+        },
+        {
+          "name": "Slow",
+          "handle": "heating-speed__slow"
+        },
+        {
+          "name": "Other",
+          "handle": "heating-speed__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1715",
+      "name": "Infant age group",
+      "handle": "infant-age-group",
+      "description": "Classifies products suitable for specific infant age ranges, e.g. newborn, 0-6 months",
+      "values": [
+        {
+          "name": "0-3 months",
+          "handle": "infant-age-group__0-3-months"
+        },
+        {
+          "name": "0-6 months",
+          "handle": "infant-age-group__0-6-months"
+        },
+        {
+          "name": "0-24 months",
+          "handle": "infant-age-group__0-24-months"
+        },
+        {
+          "name": "3-6 months",
+          "handle": "infant-age-group__3-6-months"
+        },
+        {
+          "name": "6-12 months",
+          "handle": "infant-age-group__6-12-months"
+        },
+        {
+          "name": "6 months or older",
+          "handle": "infant-age-group__6-months-or-older"
+        },
+        {
+          "name": "9 months or older",
+          "handle": "infant-age-group__9-months-or-older"
+        },
+        {
+          "name": "12 months or older",
+          "handle": "infant-age-group__12-months-or-older"
+        },
+        {
+          "name": "24 months or older",
+          "handle": "infant-age-group__24-months-or-older"
+        },
+        {
+          "name": "1-2 years",
+          "handle": "infant-age-group__1-2-years"
+        },
+        {
+          "name": "2-3 years",
+          "handle": "infant-age-group__2-3-years"
+        },
+        {
+          "name": "3 years or older",
+          "handle": "infant-age-group__3-years-or-older"
+        },
+        {
+          "name": "All ages",
+          "handle": "infant-age-group__all-ages"
+        },
+        {
+          "name": "Newborn",
+          "handle": "infant-age-group__newborn"
+        },
+        {
+          "name": "Other",
+          "handle": "infant-age-group__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1786",
+      "name": "Lid type",
+      "handle": "lid-type",
+      "description": "Specifies the kind of lid used, such as flip-top or snap-on",
+      "values": [
+        {
+          "name": "Flip-top",
+          "handle": "lid-type__flip-top"
+        },
+        {
+          "name": "Screw-on",
+          "handle": "lid-type__screw-on"
+        },
+        {
+          "name": "Snap-on",
+          "handle": "lid-type__snap-on"
+        },
+        {
+          "name": "Other",
+          "handle": "lid-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1736",
+      "name": "Mobile mounting type",
+      "handle": "mobile-mounting-type",
+      "description": "Specifies where a baby mobile can be attached, e.g. crib, stroller",
+      "values": [
+        {
+          "name": "Crib",
+          "handle": "mobile-mounting-type__crib"
+        },
+        {
+          "name": "Stroller",
+          "handle": "mobile-mounting-type__stroller"
+        },
+        {
+          "name": "Wall",
+          "handle": "mobile-mounting-type__wall"
+        },
+        {
+          "name": "Other",
+          "handle": "mobile-mounting-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1738",
+      "name": "Mobile movement",
+      "handle": "mobile-movement",
+      "description": "Describes the mechanism of baby mobiles, such as battery-operated or wind up",
+      "values": [
+        {
+          "name": "Battery-operated",
+          "handle": "mobile-movement__battery-operated"
+        },
+        {
+          "name": "Wind-up",
+          "handle": "mobile-movement__wind-up"
+        },
+        {
+          "name": "Other",
+          "handle": "mobile-movement__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1734",
+      "name": "Motion",
+      "handle": "motion",
+      "description": "Defines the movement type of baby equipment, such as vibrating or bouncing",
+      "values": [
+        {
+          "name": "Bouncing",
+          "handle": "motion__bouncing"
+        },
+        {
+          "name": "Rocking",
+          "handle": "motion__rocking"
+        },
+        {
+          "name": "Swinging",
+          "handle": "motion__swinging"
+        },
+        {
+          "name": "Vibrating",
+          "handle": "motion__vibrating"
+        },
+        {
+          "name": "Other",
+          "handle": "motion__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1769",
+      "name": "Nipple material",
+      "handle": "nipple-material",
+      "description": "Specifies the material used for the bottle's nipple, e.g. latex, rubber",
+      "values": [
+        {
+          "name": "Latex",
+          "handle": "nipple-material__latex"
+        },
+        {
+          "name": "Silicone",
+          "handle": "nipple-material__silicone"
+        },
+        {
+          "name": "Other",
+          "handle": "nipple-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1767",
+      "name": "Nipple shape",
+      "handle": "nipple-shape",
+      "description": "Defines the form of baby bottle nipples, such as flat or angled",
+      "values": [
+        {
+          "name": "Angled",
+          "handle": "nipple-shape__angled"
+        },
+        {
+          "name": "Flat",
+          "handle": "nipple-shape__flat"
+        },
+        {
+          "name": "Round",
+          "handle": "nipple-shape__round"
+        },
+        {
+          "name": "Other",
+          "handle": "nipple-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1770",
+      "name": "Nipple type",
+      "handle": "nipple-type",
+      "description": "Specifies the type of nipple on baby bottles, such as wide neck or standard",
+      "values": [
+        {
+          "name": "Orthodontic",
+          "handle": "nipple-type__orthodontic"
+        },
+        {
+          "name": "Standard",
+          "handle": "nipple-type__standard"
+        },
+        {
+          "name": "Wide neck",
+          "handle": "nipple-type__wide-neck"
+        },
+        {
+          "name": "Other",
+          "handle": "nipple-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1739",
+      "name": "Nursery theme",
+      "handle": "nursery-theme",
+      "description": "Defines the design or motif of nursery-related products, like jungle or dinosaur",
+      "values": [
+        {
+          "name": "Animals",
+          "handle": "nursery-theme__animals"
+        },
+        {
+          "name": "Dinosaurs",
+          "handle": "nursery-theme__dinosaurs"
+        },
+        {
+          "name": "Floral",
+          "handle": "nursery-theme__floral"
+        },
+        {
+          "name": "Forest",
+          "handle": "nursery-theme__forest"
+        },
+        {
+          "name": "Jungle",
+          "handle": "nursery-theme__jungle"
+        },
+        {
+          "name": "Music",
+          "handle": "nursery-theme__music"
+        },
+        {
+          "name": "Nature",
+          "handle": "nursery-theme__nature"
+        },
+        {
+          "name": "Nautical",
+          "handle": "nursery-theme__nautical"
+        },
+        {
+          "name": "Ocean",
+          "handle": "nursery-theme__ocean"
+        },
+        {
+          "name": "Princess",
+          "handle": "nursery-theme__princess"
+        },
+        {
+          "name": "Rainbows",
+          "handle": "nursery-theme__rainbows"
+        },
+        {
+          "name": "Space",
+          "handle": "nursery-theme__space"
+        },
+        {
+          "name": "Other",
+          "handle": "nursery-theme__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1782",
+      "name": "Nursing cover coverage",
+      "handle": "nursing-cover-coverage",
+      "description": "Defines the coverage provided by a nursing cover, such as full or partial",
+      "values": [
+        {
+          "name": "Full",
+          "handle": "nursing-cover-coverage__full"
+        },
+        {
+          "name": "Partial",
+          "handle": "nursing-cover-coverage__partial"
+        },
+        {
+          "name": "Other",
+          "handle": "nursing-cover-coverage__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1783",
+      "name": "Nursing pad design",
+      "handle": "nursing-pad-design",
+      "description": "Describes the physical characteristics of nursing pads, such as thick or round",
+      "values": [
+        {
+          "name": "Contoured",
+          "handle": "nursing-pad-design__contoured"
+        },
+        {
+          "name": "Round",
+          "handle": "nursing-pad-design__round"
+        },
+        {
+          "name": "Thick",
+          "handle": "nursing-pad-design__thick"
+        },
+        {
+          "name": "Thin",
+          "handle": "nursing-pad-design__thin"
+        },
+        {
+          "name": "Other",
+          "handle": "nursing-pad-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2902",
+      "name": "Nursing pillow shape",
+      "handle": "nursing-pillow-shape",
+      "description": "Identifies the contour of nursing pillows, such as C-shaped or U-shaped",
+      "values": [
+        {
+          "name": "C-shaped",
+          "handle": "nursing-pillow-shape__c-shaped"
+        },
+        {
+          "name": "U-shaped",
+          "handle": "nursing-pillow-shape__u-shaped"
+        },
+        {
+          "name": "Other",
+          "handle": "nursing-pillow-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1728",
+      "name": "Opening direction",
+      "handle": "opening-direction",
+      "description": "Specifies the direction in which a product opens, typically for gates; e.g. one-way swing",
+      "values": [
+        {
+          "name": "One-way swing",
+          "handle": "opening-direction__one-way-swing"
+        },
+        {
+          "name": "Two-way swing",
+          "handle": "opening-direction__two-way-swing"
+        },
+        {
+          "name": "Other",
+          "handle": "opening-direction__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1729",
+      "name": "Opening mechanism",
+      "handle": "opening-mechanism",
+      "description": "Specifies how a product is opened, typically for baby or pet gates; e.g. lever, foot pedal",
+      "values": [
+        {
+          "name": "Foot pedal",
+          "handle": "opening-mechanism__foot-pedal"
+        },
+        {
+          "name": "Lever",
+          "handle": "opening-mechanism__lever"
+        },
+        {
+          "name": "Push-button",
+          "handle": "opening-mechanism__push-button"
+        },
+        {
+          "name": "Other",
+          "handle": "opening-mechanism__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1723",
+      "name": "Pacifier/Teether design",
+      "handle": "pacifier-teether-design",
+      "description": "Describes the design of baby pacifiers and teethers, e.g. ring-shaped, orthodontic",
+      "values": [
+        {
+          "name": "Animal-shaped",
+          "handle": "pacifier-teether-design__animal-shaped"
+        },
+        {
+          "name": "Fruit-shaped",
+          "handle": "pacifier-teether-design__fruit-shaped"
+        },
+        {
+          "name": "Orthodontic",
+          "handle": "pacifier-teether-design__orthodontic"
+        },
+        {
+          "name": "Ring-shaped",
+          "handle": "pacifier-teether-design__ring-shaped"
+        },
+        {
+          "name": "Symmetrical",
+          "handle": "pacifier-teether-design__symmetrical"
+        },
+        {
+          "name": "Other",
+          "handle": "pacifier-teether-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3294",
+      "name": "Play equipment items included",
+      "handle": "play-equipment-items-included",
+      "description": "Lists the additional items included with play equipment, like hanging toys or mirror",
+      "values": [
+        {
+          "name": "Hanging toys",
+          "handle": "play-equipment-items-included__hanging-toys"
+        },
+        {
+          "name": "Mirror",
+          "handle": "play-equipment-items-included__mirror"
+        },
+        {
+          "name": "Removable toys",
+          "handle": "play-equipment-items-included__removable-toys"
+        },
+        {
+          "name": "Tummy time pillow",
+          "handle": "play-equipment-items-included__tummy-time-pillow"
+        },
+        {
+          "name": "Other",
+          "handle": "play-equipment-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3295",
+      "name": "Play yard design features",
+      "handle": "play-yard-design-features",
+      "description": "Identifies special characteristics of a play yard, such as mesh sides or pockets",
+      "values": [
+        {
+          "name": "Changing station",
+          "handle": "play-yard-design-features__changing-station"
+        },
+        {
+          "name": "Mesh sides",
+          "handle": "play-yard-design-features__mesh-sides"
+        },
+        {
+          "name": "Pockets",
+          "handle": "play-yard-design-features__pockets"
+        },
+        {
+          "name": "Removable bassinet",
+          "handle": "play-yard-design-features__removable-bassinet"
+        },
+        {
+          "name": "Secure locking mechanism",
+          "handle": "play-yard-design-features__secure-locking-mechanism"
+        },
+        {
+          "name": "Other",
+          "handle": "play-yard-design-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1789",
+      "name": "Potty training kit components",
+      "handle": "potty-training-kit-components",
+      "description": "Specifies items included in a potty training kit, e.g. stickers, step stool",
+      "values": [
+        {
+          "name": "Potty seat",
+          "handle": "potty-training-kit-components__potty-seat"
+        },
+        {
+          "name": "Reward chart",
+          "handle": "potty-training-kit-components__reward-chart"
+        },
+        {
+          "name": "Step stool",
+          "handle": "potty-training-kit-components__step-stool"
+        },
+        {
+          "name": "Stickers",
+          "handle": "potty-training-kit-components__stickers"
+        },
+        {
+          "name": "Training pants",
+          "handle": "potty-training-kit-components__training-pants"
+        },
+        {
+          "name": "Other",
+          "handle": "potty-training-kit-components__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1788",
+      "name": "Potty/Toilet seat design",
+      "handle": "potty-toilet-seat-design",
+      "description": "Defines the style or structure of potty or toilet seats, such as folding or standard",
+      "values": [
+        {
+          "name": "Folding",
+          "handle": "potty-toilet-seat-design__folding"
+        },
+        {
+          "name": "Standard",
+          "handle": "potty-toilet-seat-design__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "potty-toilet-seat-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1778",
+      "name": "Pump accessories",
+      "handle": "pump-accessories",
+      "description": "Identifies items included with breast pumps, such as carrying case or bottles",
+      "values": [
+        {
+          "name": "Bottles",
+          "handle": "pump-accessories__bottles"
+        },
+        {
+          "name": "Breast shields",
+          "handle": "pump-accessories__breast-shields"
+        },
+        {
+          "name": "Carrying case",
+          "handle": "pump-accessories__carrying-case"
+        },
+        {
+          "name": "Storage bags",
+          "handle": "pump-accessories__storage-bags"
+        },
+        {
+          "name": "Other",
+          "handle": "pump-accessories__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1780",
+      "name": "Pump speed settings",
+      "handle": "pump-speed-settings",
+      "description": "Specifies the speed control features, typically for breast pumps; e.g. adjustable speed",
+      "values": [
+        {
+          "name": "Adjustable speed",
+          "handle": "pump-speed-settings__adjustable-speed"
+        },
+        {
+          "name": "Single speed",
+          "handle": "pump-speed-settings__single-speed"
+        },
+        {
+          "name": "Other",
+          "handle": "pump-speed-settings__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1725",
+      "name": "Safety device installation",
+      "handle": "safety-device-installation",
+      "description": "Defines how safety products are mounted or attached, e.g. adhesive, screw-mounted",
+      "values": [
+        {
+          "name": "Adhesive",
+          "handle": "safety-device-installation__adhesive"
+        },
+        {
+          "name": "Hardware-mounted",
+          "handle": "safety-device-installation__hardware-mounted"
+        },
+        {
+          "name": "Pressure-mounted",
+          "handle": "safety-device-installation__pressure-mounted"
+        },
+        {
+          "name": "Screw-mounted",
+          "handle": "safety-device-installation__screw-mounted"
+        },
+        {
+          "name": "Other",
+          "handle": "safety-device-installation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1732",
+      "name": "Safety rail installation",
+      "handle": "safety-rail-installation",
+      "description": "Defines how safety rails are installed, such as adjustable or permanent",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "safety-rail-installation__adjustable"
+        },
+        {
+          "name": "Permanent",
+          "handle": "safety-rail-installation__permanent"
+        },
+        {
+          "name": "Portable",
+          "handle": "safety-rail-installation__portable"
+        },
+        {
+          "name": "Other",
+          "handle": "safety-rail-installation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1787",
+      "name": "Spout type",
+      "handle": "spout-type",
+      "description": "Defines the type of spout, usually for sippy cups; e.g. straw, soft",
+      "values": [
+        {
+          "name": "Hard",
+          "handle": "spout-type__hard"
+        },
+        {
+          "name": "Soft",
+          "handle": "spout-type__soft"
+        },
+        {
+          "name": "Straw",
+          "handle": "spout-type__straw"
+        },
+        {
+          "name": "Other",
+          "handle": "spout-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1766",
+      "name": "Stage",
+      "handle": "stage",
+      "description": "Defines the product's suitability for developmental stages, typically for baby products; e.g. newborn, stage 1",
+      "values": [
+        {
+          "name": "Newborn",
+          "handle": "stage__newborn"
+        },
+        {
+          "name": "Stage 1",
+          "handle": "stage__stage-1"
+        },
+        {
+          "name": "Stage 2",
+          "handle": "stage__stage-2"
+        },
+        {
+          "name": "Stage 3",
+          "handle": "stage__stage-3"
+        },
+        {
+          "name": "Stage 4",
+          "handle": "stage__stage-4"
+        },
+        {
+          "name": "Other",
+          "handle": "stage__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1775",
+      "name": "Sterilization cycle time",
+      "handle": "sterilization-cycle-time",
+      "description": "Specifies how long a sterilizer takes, usually for baby products; e.g. standard, quick",
+      "values": [
+        {
+          "name": "Quick",
+          "handle": "sterilization-cycle-time__quick"
+        },
+        {
+          "name": "Standard",
+          "handle": "sterilization-cycle-time__standard"
+        },
+        {
+          "name": "Other",
+          "handle": "sterilization-cycle-time__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1777",
+      "name": "Sterilization instructions",
+      "handle": "sterilization-instructions",
+      "description": "Describes how to sterilize a product, such as boiling or microwave safe",
+      "values": [
+        {
+          "name": "Boiling",
+          "handle": "sterilization-instructions__boiling"
+        },
+        {
+          "name": "Dishwasher safe",
+          "handle": "sterilization-instructions__dishwasher-safe"
+        },
+        {
+          "name": "Microwave safe",
+          "handle": "sterilization-instructions__microwave-safe"
+        },
+        {
+          "name": "Other",
+          "handle": "sterilization-instructions__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1745",
+      "name": "Stroller wheel type",
+      "handle": "stroller-wheel-type",
+      "description": "Defines the type of wheels on a stroller, like all-terrain or swivel",
+      "values": [
+        {
+          "name": "Air-filled",
+          "handle": "stroller-wheel-type__air-filled"
+        },
+        {
+          "name": "All-terrain",
+          "handle": "stroller-wheel-type__all-terrain"
+        },
+        {
+          "name": "Swivel",
+          "handle": "stroller-wheel-type__swivel"
+        },
+        {
+          "name": "Other",
+          "handle": "stroller-wheel-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1781",
+      "name": "Suction levels",
+      "handle": "suction-levels",
+      "description": "Indicates suction strength in breast pumps, such as adjustable or fixed",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "suction-levels__adjustable"
+        },
+        {
+          "name": "Fixed",
+          "handle": "suction-levels__fixed"
+        },
+        {
+          "name": "Other",
+          "handle": "suction-levels__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3039",
+      "name": "Trash can features",
+      "handle": "trash-can-features",
+      "description": "Describes special characteristics of trash cans, like odor control or foot pedal",
+      "values": [
+        {
+          "name": "Carbon filters",
+          "handle": "trash-can-features__carbon-filters"
+        },
+        {
+          "name": "Childproof",
+          "handle": "trash-can-features__childproof"
+        },
+        {
+          "name": "Easy bag disposal",
+          "handle": "trash-can-features__easy-bag-disposal"
+        },
+        {
+          "name": "Foot pedal",
+          "handle": "trash-can-features__foot-pedal"
+        },
+        {
+          "name": "Hands-free operation",
+          "handle": "trash-can-features__hands-free-operation"
+        },
+        {
+          "name": "Odor control",
+          "handle": "trash-can-features__odor-control"
+        },
+        {
+          "name": "Other",
+          "handle": "trash-can-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1756",
+      "name": "Treatment texture",
+      "handle": "treatment-texture",
+      "description": "Defines the consistency of treatment products, like diaper rash cream; e.g. thick, powder",
+      "values": [
+        {
+          "name": "Creamy",
+          "handle": "treatment-texture__creamy"
+        },
+        {
+          "name": "Powder",
+          "handle": "treatment-texture__powder"
+        },
+        {
+          "name": "Smooth",
+          "handle": "treatment-texture__smooth"
+        },
+        {
+          "name": "Thick",
+          "handle": "treatment-texture__thick"
+        },
+        {
+          "name": "Other",
+          "handle": "treatment-texture__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3032",
+      "name": "Wipe dispenser/warmer features",
+      "handle": "wipe-dispenser-warmer-features",
+      "description": "Describes the special features of wipe dispensers and warmers, i.e. travel friendly",
+      "values": [
+        {
+          "name": "Dispensing mechanism",
+          "handle": "wipe-dispenser-warmer-features__dispensing-mechanism"
+        },
+        {
+          "name": "LED indicator",
+          "handle": "wipe-dispenser-warmer-features__led-indicator"
+        },
+        {
+          "name": "Moisture retention",
+          "handle": "wipe-dispenser-warmer-features__moisture-retention"
+        },
+        {
+          "name": "Travel friendly",
+          "handle": "wipe-dispenser-warmer-features__travel-friendly"
+        },
+        {
+          "name": "Wipe heating function",
+          "handle": "wipe-dispenser-warmer-features__wipe-heating-function"
+        },
+        {
+          "name": "Other",
+          "handle": "wipe-dispenser-warmer-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/1722",
+      "name": "Wipe fragrance",
+      "handle": "wipe-fragrance",
+      "description": "Identifies the aroma of wipe products, such as unscented or lavender",
+      "values": [
+        {
+          "name": "Citrus",
+          "handle": "wipe-fragrance__citrus"
+        },
+        {
+          "name": "Fresh",
+          "handle": "wipe-fragrance__fresh"
+        },
+        {
+          "name": "Lavender",
+          "handle": "wipe-fragrance__lavender"
+        },
+        {
+          "name": "Pure",
+          "handle": "wipe-fragrance__pure"
+        },
+        {
+          "name": "Unscented",
+          "handle": "wipe-fragrance__unscented"
+        },
+        {
+          "name": "Other",
+          "handle": "wipe-fragrance__other"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3304 @@
+{
+  "attributes": [
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2613",
+      "name": "Autoclave sterilization method",
+      "handle": "autoclave-sterilization-method",
+      "description": "Identifies the sterilization technique used in autoclaves, like steam or dry heat",
+      "values": [
+        {
+          "name": "Chemical vapor",
+          "handle": "autoclave-sterilization-method__chemical-vapor"
+        },
+        {
+          "name": "Dry heat",
+          "handle": "autoclave-sterilization-method__dry-heat"
+        },
+        {
+          "name": "Steam",
+          "handle": "autoclave-sterilization-method__steam"
+        },
+        {
+          "name": "Other",
+          "handle": "autoclave-sterilization-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2583",
+      "name": "Automation",
+      "handle": "automation",
+      "description": "Describes the level of automation in packaging machines, such as manual or automatic",
+      "values": [
+        {
+          "name": "Automatic",
+          "handle": "automation__automatic"
+        },
+        {
+          "name": "Manual",
+          "handle": "automation__manual"
+        },
+        {
+          "name": "Semi-automatic",
+          "handle": "automation__semi-automatic"
+        },
+        {
+          "name": "Other",
+          "handle": "automation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2579",
+      "name": "Bell design",
+      "handle": "bell-design",
+      "description": "Describes the style of desk bells, e.g. push, call bell",
+      "values": [
+        {
+          "name": "Call bell",
+          "handle": "bell-design__call-bell"
+        },
+        {
+          "name": "Push",
+          "handle": "bell-design__push"
+        },
+        {
+          "name": "Tap",
+          "handle": "bell-design__tap"
+        },
+        {
+          "name": "Other",
+          "handle": "bell-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2580",
+      "name": "Bell sound",
+      "handle": "bell-sound",
+      "description": "Describes the type of sound a bell makes, such as a chime or ding",
+      "values": [
+        {
+          "name": "Chime",
+          "handle": "bell-sound__chime"
+        },
+        {
+          "name": "Ding",
+          "handle": "bell-sound__ding"
+        },
+        {
+          "name": "Ding-dong",
+          "handle": "bell-sound__ding-dong"
+        },
+        {
+          "name": "Other",
+          "handle": "bell-sound__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2614",
+      "name": "Blending type",
+      "handle": "blending-type",
+      "description": "Identifies the method of blending used in laboratory equipment, such as continuous or batch",
+      "values": [
+        {
+          "name": "Batch",
+          "handle": "blending-type__batch"
+        },
+        {
+          "name": "Continuous",
+          "handle": "blending-type__continuous"
+        },
+        {
+          "name": "Other",
+          "handle": "blending-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2573",
+      "name": "Bulldozer blade type",
+      "handle": "bulldozer-blade-type",
+      "description": "Identifies the style of blade on a bulldozer, such as angle or straight (S-blade)",
+      "values": [
+        {
+          "name": "Angle",
+          "handle": "bulldozer-blade-type__angle"
+        },
+        {
+          "name": "Semi-U",
+          "handle": "bulldozer-blade-type__semi-u"
+        },
+        {
+          "name": "Straight (S-blade)",
+          "handle": "bulldozer-blade-type__straight-s-blade"
+        },
+        {
+          "name": "Universal (U-blade)",
+          "handle": "bulldozer-blade-type__universal-u-blade"
+        },
+        {
+          "name": "Other",
+          "handle": "bulldozer-blade-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2632",
+      "name": "Bullet protection level",
+      "handle": "bullet-protection-level",
+      "description": "Indicates the level of bullet protection in vests, e.g. IIA, IV",
+      "values": [
+        {
+          "name": "II",
+          "handle": "bullet-protection-level__ii"
+        },
+        {
+          "name": "IIA",
+          "handle": "bullet-protection-level__iia"
+        },
+        {
+          "name": "III",
+          "handle": "bullet-protection-level__iii"
+        },
+        {
+          "name": "IIIA",
+          "handle": "bullet-protection-level__iiia"
+        },
+        {
+          "name": "IV",
+          "handle": "bullet-protection-level__iv"
+        },
+        {
+          "name": "Other",
+          "handle": "bullet-protection-level__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2566",
+      "name": "Bullion form",
+      "handle": "bullion-form",
+      "description": "Specifies the type of bullion, such as rounds or bars",
+      "values": [
+        {
+          "name": "Bars",
+          "handle": "bullion-form__bars"
+        },
+        {
+          "name": "Coins",
+          "handle": "bullion-form__coins"
+        },
+        {
+          "name": "Rounds",
+          "handle": "bullion-form__rounds"
+        },
+        {
+          "name": "Other",
+          "handle": "bullion-form__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2597",
+      "name": "Cart design",
+      "handle": "cart-design",
+      "description": "Describes the layout or structure of a medical cart, such as double-hook or with base",
+      "values": [
+        {
+          "name": "Double-hook",
+          "handle": "cart-design__double-hook"
+        },
+        {
+          "name": "Multiple-hook",
+          "handle": "cart-design__multiple-hook"
+        },
+        {
+          "name": "Single-hook",
+          "handle": "cart-design__single-hook"
+        },
+        {
+          "name": "With base",
+          "handle": "cart-design__with-base"
+        },
+        {
+          "name": "Other",
+          "handle": "cart-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2612",
+      "name": "Chemical purity",
+      "handle": "chemical-purity",
+      "description": "Indicates the level of purity in a chemical product, such as >90% or >95%",
+      "values": [
+        {
+          "name": ">90%",
+          "handle": "chemical-purity__90"
+        },
+        {
+          "name": ">95%",
+          "handle": "chemical-purity__95"
+        },
+        {
+          "name": ">99%",
+          "handle": "chemical-purity__99"
+        },
+        {
+          "name": "Other",
+          "handle": "chemical-purity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2552",
+      "name": "Chicken feed stage",
+      "handle": "chicken-feed-stage",
+      "description": "Identifies the appropriate life stage for chicken feed, such as starter or layer",
+      "values": [
+        {
+          "name": "Broiler",
+          "handle": "chicken-feed-stage__broiler"
+        },
+        {
+          "name": "Grower",
+          "handle": "chicken-feed-stage__grower"
+        },
+        {
+          "name": "Layer",
+          "handle": "chicken-feed-stage__layer"
+        },
+        {
+          "name": "Scratch",
+          "handle": "chicken-feed-stage__scratch"
+        },
+        {
+          "name": "Starter",
+          "handle": "chicken-feed-stage__starter"
+        },
+        {
+          "name": "Other",
+          "handle": "chicken-feed-stage__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2574",
+      "name": "Chipper technology",
+      "handle": "chipper-technology",
+      "description": "Identifies the type of technology used in chippers, like screw or drum",
+      "values": [
+        {
+          "name": "Disk",
+          "handle": "chipper-technology__disk"
+        },
+        {
+          "name": "Drum",
+          "handle": "chipper-technology__drum"
+        },
+        {
+          "name": "High-torque roller",
+          "handle": "chipper-technology__high-torque-roller"
+        },
+        {
+          "name": "Screw",
+          "handle": "chipper-technology__screw"
+        },
+        {
+          "name": "Other",
+          "handle": "chipper-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2596",
+      "name": "Chiropractic table design",
+      "handle": "chiropractic-table-design",
+      "description": "Describes the functional features of a chiropractic table, such as drop or elevation",
+      "values": [
+        {
+          "name": "Decompression",
+          "handle": "chiropractic-table-design__decompression"
+        },
+        {
+          "name": "Drop",
+          "handle": "chiropractic-table-design__drop"
+        },
+        {
+          "name": "Elevation",
+          "handle": "chiropractic-table-design__elevation"
+        },
+        {
+          "name": "Flexion-distraction",
+          "handle": "chiropractic-table-design__flexion-distraction"
+        },
+        {
+          "name": "Hylo",
+          "handle": "chiropractic-table-design__hylo"
+        },
+        {
+          "name": "Other",
+          "handle": "chiropractic-table-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2558",
+      "name": "Control method",
+      "handle": "control-method",
+      "description": "Describes the control technique of automation components, like direct torque or scalar (V/f)",
+      "values": [
+        {
+          "name": "Direct torque",
+          "handle": "control-method__direct-torque"
+        },
+        {
+          "name": "Scalar (V/f)",
+          "handle": "control-method__scalar-v-f"
+        },
+        {
+          "name": "Vector",
+          "handle": "control-method__vector"
+        },
+        {
+          "name": "Other",
+          "handle": "control-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2556",
+      "name": "Controller design",
+      "handle": "controller-design",
+      "description": "Describes the form factor of automation controllers, such as compact or rack-mounted",
+      "values": [
+        {
+          "name": "Compact",
+          "handle": "controller-design__compact"
+        },
+        {
+          "name": "Modular",
+          "handle": "controller-design__modular"
+        },
+        {
+          "name": "Rack-mounted",
+          "handle": "controller-design__rack-mounted"
+        },
+        {
+          "name": "Safety",
+          "handle": "controller-design__safety"
+        },
+        {
+          "name": "Small",
+          "handle": "controller-design__small"
+        },
+        {
+          "name": "Other",
+          "handle": "controller-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2559",
+      "name": "Controller drive type",
+      "handle": "controller-drive-type",
+      "description": "Identifies the type of power used in automation control drives, like AC-powered or DC",
+      "values": [
+        {
+          "name": "AC-powered",
+          "handle": "controller-drive-type__ac-powered"
+        },
+        {
+          "name": "DC",
+          "handle": "controller-drive-type__dc"
+        },
+        {
+          "name": "Servo",
+          "handle": "controller-drive-type__servo"
+        },
+        {
+          "name": "Stepper",
+          "handle": "controller-drive-type__stepper"
+        },
+        {
+          "name": "Other",
+          "handle": "controller-drive-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2584",
+      "name": "Conveyor operation",
+      "handle": "conveyor-operation",
+      "description": "Identifies how a conveyor system functions, such as powered or gravity-driven",
+      "values": [
+        {
+          "name": "Electromagnetic",
+          "handle": "conveyor-operation__electromagnetic"
+        },
+        {
+          "name": "Gravity-driven",
+          "handle": "conveyor-operation__gravity-driven"
+        },
+        {
+          "name": "Manual",
+          "handle": "conveyor-operation__manual"
+        },
+        {
+          "name": "Powered",
+          "handle": "conveyor-operation__powered"
+        },
+        {
+          "name": "Other",
+          "handle": "conveyor-operation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2577",
+      "name": "Counter shape",
+      "handle": "counter-shape",
+      "description": "Describes the form of a counter or desk, such as straight or curved",
+      "values": [
+        {
+          "name": "Curved",
+          "handle": "counter-shape__curved"
+        },
+        {
+          "name": "L-shaped",
+          "handle": "counter-shape__l-shaped"
+        },
+        {
+          "name": "Straight",
+          "handle": "counter-shape__straight"
+        },
+        {
+          "name": "U-shaped",
+          "handle": "counter-shape__u-shaped"
+        },
+        {
+          "name": "Other",
+          "handle": "counter-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2563",
+      "name": "Dental paste flavor",
+      "handle": "dental-paste-flavor",
+      "description": "Identifies the flavor of dentistry paste, for example, unflavored or bubblegum",
+      "values": [
+        {
+          "name": "Bubblegum",
+          "handle": "dental-paste-flavor__bubblegum"
+        },
+        {
+          "name": "Cherry",
+          "handle": "dental-paste-flavor__cherry"
+        },
+        {
+          "name": "Mint",
+          "handle": "dental-paste-flavor__mint"
+        },
+        {
+          "name": "Unflavored",
+          "handle": "dental-paste-flavor__unflavored"
+        },
+        {
+          "name": "Other",
+          "handle": "dental-paste-flavor__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2561",
+      "name": "Dentistry items included",
+      "handle": "dentistry-items-included",
+      "description": "Identifies the dental tools included in a set, like dental mirror or plaque removal tool",
+      "values": [
+        {
+          "name": "Dental mirror",
+          "handle": "dentistry-items-included__dental-mirror"
+        },
+        {
+          "name": "Dental polisher",
+          "handle": "dentistry-items-included__dental-polisher"
+        },
+        {
+          "name": "Interdental pick",
+          "handle": "dentistry-items-included__interdental-pick"
+        },
+        {
+          "name": "Plaque removal tool",
+          "handle": "dentistry-items-included__plaque-removal-tool"
+        },
+        {
+          "name": "Stain eraser",
+          "handle": "dentistry-items-included__stain-eraser"
+        },
+        {
+          "name": "Whitening paste",
+          "handle": "dentistry-items-included__whitening-paste"
+        },
+        {
+          "name": "Other",
+          "handle": "dentistry-items-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2582",
+      "name": "Detector sensitivity",
+      "handle": "detector-sensitivity",
+      "description": "Describes the adjustability of a metal detector's sensitivity, such as adjustable or fixed",
+      "values": [
+        {
+          "name": "Adjustable",
+          "handle": "detector-sensitivity__adjustable"
+        },
+        {
+          "name": "Fixed",
+          "handle": "detector-sensitivity__fixed"
+        },
+        {
+          "name": "Other",
+          "handle": "detector-sensitivity__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2575",
+      "name": "Discharge type",
+      "handle": "discharge-type",
+      "description": "Specifies the type of discharge in dump trucks, such as side dump or transfer",
+      "values": [
+        {
+          "name": "Bottom dump",
+          "handle": "discharge-type__bottom-dump"
+        },
+        {
+          "name": "Side dump",
+          "handle": "discharge-type__side-dump"
+        },
+        {
+          "name": "Standard",
+          "handle": "discharge-type__standard"
+        },
+        {
+          "name": "Transfer",
+          "handle": "discharge-type__transfer"
+        },
+        {
+          "name": "Other",
+          "handle": "discharge-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2548",
+      "name": "Display recommended use",
+      "handle": "display-recommended-use",
+      "description": "Suggests the ideal usage for trade show displays based on format and design, like commercial or education",
+      "values": [
+        {
+          "name": "Commercial",
+          "handle": "display-recommended-use__commercial"
+        },
+        {
+          "name": "Corporate",
+          "handle": "display-recommended-use__corporate"
+        },
+        {
+          "name": "Education",
+          "handle": "display-recommended-use__education"
+        },
+        {
+          "name": "Finance",
+          "handle": "display-recommended-use__finance"
+        },
+        {
+          "name": "Government",
+          "handle": "display-recommended-use__government"
+        },
+        {
+          "name": "Healthcare",
+          "handle": "display-recommended-use__healthcare"
+        },
+        {
+          "name": "Retail",
+          "handle": "display-recommended-use__retail"
+        },
+        {
+          "name": "Transportation",
+          "handle": "display-recommended-use__transportation"
+        },
+        {
+          "name": "Universal",
+          "handle": "display-recommended-use__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "display-recommended-use__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2622",
+      "name": "Display sign design",
+      "handle": "display-sign-design",
+      "description": "Identifies the type of information a sign conveys, like restroom, sale, or exit",
+      "values": [
+        {
+          "name": "Advertising",
+          "handle": "display-sign-design__advertising"
+        },
+        {
+          "name": "Closed",
+          "handle": "display-sign-design__closed"
+        },
+        {
+          "name": "Custom",
+          "handle": "display-sign-design__custom"
+        },
+        {
+          "name": "Discount",
+          "handle": "display-sign-design__discount"
+        },
+        {
+          "name": "Entrance",
+          "handle": "display-sign-design__entrance"
+        },
+        {
+          "name": "Exit",
+          "handle": "display-sign-design__exit"
+        },
+        {
+          "name": "Open",
+          "handle": "display-sign-design__open"
+        },
+        {
+          "name": "Open/Closed",
+          "handle": "display-sign-design__open-closed"
+        },
+        {
+          "name": "Opening hours",
+          "handle": "display-sign-design__opening-hours"
+        },
+        {
+          "name": "Restroom",
+          "handle": "display-sign-design__restroom"
+        },
+        {
+          "name": "Sale",
+          "handle": "display-sign-design__sale"
+        },
+        {
+          "name": "Wayfinding",
+          "handle": "display-sign-design__wayfinding"
+        },
+        {
+          "name": "Other",
+          "handle": "display-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3054",
+      "name": "Disposable glove features",
+      "handle": "disposable-glove-features",
+      "description": "Identifies special characteristics of disposable gloves, like long cuff or powder-free",
+      "values": [
+        {
+          "name": "Long cuff",
+          "handle": "disposable-glove-features__long-cuff"
+        },
+        {
+          "name": "Powder-free",
+          "handle": "disposable-glove-features__powder-free"
+        },
+        {
+          "name": "Powdered",
+          "handle": "disposable-glove-features__powdered"
+        },
+        {
+          "name": "Other",
+          "handle": "disposable-glove-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2604",
+      "name": "Drilling method",
+      "handle": "drilling-method",
+      "description": "Identifies the technique used in drilling machinery, like rotary or percussion",
+      "values": [
+        {
+          "name": "DTH",
+          "handle": "drilling-method__dth"
+        },
+        {
+          "name": "Percussion",
+          "handle": "drilling-method__percussion"
+        },
+        {
+          "name": "Rotary",
+          "handle": "drilling-method__rotary"
+        },
+        {
+          "name": "Top hammer",
+          "handle": "drilling-method__top-hammer"
+        },
+        {
+          "name": "Other",
+          "handle": "drilling-method__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2605",
+      "name": "Drilling rig orientation",
+      "handle": "drilling-rig-orientation",
+      "description": "Identifies the direction of drilling by a rig, such as horizontal or vertical",
+      "values": [
+        {
+          "name": "Directional",
+          "handle": "drilling-rig-orientation__directional"
+        },
+        {
+          "name": "Horizontal",
+          "handle": "drilling-rig-orientation__horizontal"
+        },
+        {
+          "name": "Vertical",
+          "handle": "drilling-rig-orientation__vertical"
+        },
+        {
+          "name": "Other",
+          "handle": "drilling-rig-orientation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3296",
+      "name": "Egg turning",
+      "handle": "egg-turning",
+      "description": "Describes the method of rotating eggs in incubators, like automatic or manual",
+      "values": [
+        {
+          "name": "Automatic",
+          "handle": "egg-turning__automatic"
+        },
+        {
+          "name": "Manual",
+          "handle": "egg-turning__manual"
+        },
+        {
+          "name": "Semi-automatic",
+          "handle": "egg-turning__semi-automatic"
+        },
+        {
+          "name": "Other",
+          "handle": "egg-turning__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2623",
+      "name": "Emergency/Safety sign design",
+      "handle": "emergency-safety-sign-design",
+      "description": "Identifies the type of safety or emergency message on a sign, like fire exit or guard dog",
+      "values": [
+        {
+          "name": "Alarm system",
+          "handle": "emergency-safety-sign-design__alarm-system"
+        },
+        {
+          "name": "Assembly point",
+          "handle": "emergency-safety-sign-design__assembly-point"
+        },
+        {
+          "name": "Emergency exit",
+          "handle": "emergency-safety-sign-design__emergency-exit"
+        },
+        {
+          "name": "Exit",
+          "handle": "emergency-safety-sign-design__exit"
+        },
+        {
+          "name": "Fire equipment",
+          "handle": "emergency-safety-sign-design__fire-equipment"
+        },
+        {
+          "name": "Fire exit",
+          "handle": "emergency-safety-sign-design__fire-exit"
+        },
+        {
+          "name": "First aid",
+          "handle": "emergency-safety-sign-design__first-aid"
+        },
+        {
+          "name": "Guard dog",
+          "handle": "emergency-safety-sign-design__guard-dog"
+        },
+        {
+          "name": "Hard hat area",
+          "handle": "emergency-safety-sign-design__hard-hat-area"
+        },
+        {
+          "name": "Hazardous materials",
+          "handle": "emergency-safety-sign-design__hazardous-materials"
+        },
+        {
+          "name": "High voltage",
+          "handle": "emergency-safety-sign-design__high-voltage"
+        },
+        {
+          "name": "ID required",
+          "handle": "emergency-safety-sign-design__id-required"
+        },
+        {
+          "name": "No entry",
+          "handle": "emergency-safety-sign-design__no-entry"
+        },
+        {
+          "name": "No trespassing",
+          "handle": "emergency-safety-sign-design__no-trespassing"
+        },
+        {
+          "name": "Restricted area",
+          "handle": "emergency-safety-sign-design__restricted-area"
+        },
+        {
+          "name": "Slippery surface",
+          "handle": "emergency-safety-sign-design__slippery-surface"
+        },
+        {
+          "name": "Staff only",
+          "handle": "emergency-safety-sign-design__staff-only"
+        },
+        {
+          "name": "Video surveillance",
+          "handle": "emergency-safety-sign-design__video-surveillance"
+        },
+        {
+          "name": "Other",
+          "handle": "emergency-safety-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3051",
+      "name": "External defibrillator features",
+      "handle": "external-defibrillator-features",
+      "description": "Highlights key features of medical defibrillators, such as pediatric function or on-screen ECG",
+      "values": [
+        {
+          "name": "Manual override",
+          "handle": "external-defibrillator-features__manual-override"
+        },
+        {
+          "name": "On-screen ECG",
+          "handle": "external-defibrillator-features__on-screen-ecg"
+        },
+        {
+          "name": "Pediatric function",
+          "handle": "external-defibrillator-features__pediatric-function"
+        },
+        {
+          "name": "Other",
+          "handle": "external-defibrillator-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2946",
+      "name": "Eyepiece/Adapter material",
+      "handle": "eyepiece-adapter-material",
+      "description": "Identifies the material used in microscope eyepieces or adapters, like glass or metal",
+      "values": [
+        {
+          "name": "Aluminum",
+          "handle": "eyepiece-adapter-material__aluminum"
+        },
+        {
+          "name": "Glass",
+          "handle": "eyepiece-adapter-material__glass"
+        },
+        {
+          "name": "Metal",
+          "handle": "eyepiece-adapter-material__metal"
+        },
+        {
+          "name": "Nylon",
+          "handle": "eyepiece-adapter-material__nylon"
+        },
+        {
+          "name": "Plastic",
+          "handle": "eyepiece-adapter-material__plastic"
+        },
+        {
+          "name": "Rubber",
+          "handle": "eyepiece-adapter-material__rubber"
+        },
+        {
+          "name": "Silicone",
+          "handle": "eyepiece-adapter-material__silicone"
+        },
+        {
+          "name": "Steel",
+          "handle": "eyepiece-adapter-material__steel"
+        },
+        {
+          "name": "Other",
+          "handle": "eyepiece-adapter-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2625",
+      "name": "Facility sign design",
+      "handle": "facility-sign-design",
+      "description": "Describes the specific area or room the sign is intended for, like kitchen or office",
+      "values": [
+        {
+          "name": "Cafeteria",
+          "handle": "facility-sign-design__cafeteria"
+        },
+        {
+          "name": "Conference room",
+          "handle": "facility-sign-design__conference-room"
+        },
+        {
+          "name": "Elevator",
+          "handle": "facility-sign-design__elevator"
+        },
+        {
+          "name": "Entrance/Exit",
+          "handle": "facility-sign-design__entrance-exit"
+        },
+        {
+          "name": "First aid room",
+          "handle": "facility-sign-design__first-aid-room"
+        },
+        {
+          "name": "Kitchen",
+          "handle": "facility-sign-design__kitchen"
+        },
+        {
+          "name": "Lobby",
+          "handle": "facility-sign-design__lobby"
+        },
+        {
+          "name": "Meeting room",
+          "handle": "facility-sign-design__meeting-room"
+        },
+        {
+          "name": "Office",
+          "handle": "facility-sign-design__office"
+        },
+        {
+          "name": "Parking",
+          "handle": "facility-sign-design__parking"
+        },
+        {
+          "name": "Reception",
+          "handle": "facility-sign-design__reception"
+        },
+        {
+          "name": "Restroom",
+          "handle": "facility-sign-design__restroom"
+        },
+        {
+          "name": "Staff only",
+          "handle": "facility-sign-design__staff-only"
+        },
+        {
+          "name": "Stairwell",
+          "handle": "facility-sign-design__stairwell"
+        },
+        {
+          "name": "Storage room",
+          "handle": "facility-sign-design__storage-room"
+        },
+        {
+          "name": "Other",
+          "handle": "facility-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3301",
+      "name": "Field flatness",
+      "handle": "field-flatness",
+      "description": "Indicates the flatness of the field in microscope lenses, e.g. super plan, semi-plan",
+      "values": [
+        {
+          "name": "Plan",
+          "handle": "field-flatness__plan"
+        },
+        {
+          "name": "Semi-plan",
+          "handle": "field-flatness__semi-plan"
+        },
+        {
+          "name": "Super plan",
+          "handle": "field-flatness__super-plan"
+        },
+        {
+          "name": "Other",
+          "handle": "field-flatness__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2633",
+      "name": "Filtration class",
+      "handle": "filtration-class",
+      "description": "Classifies the filtration level of respirator accessories, such as FFP1 or B3",
+      "values": [
+        {
+          "name": "A1",
+          "handle": "filtration-class__a1"
+        },
+        {
+          "name": "A2",
+          "handle": "filtration-class__a2"
+        },
+        {
+          "name": "A3",
+          "handle": "filtration-class__a3"
+        },
+        {
+          "name": "B1",
+          "handle": "filtration-class__b1"
+        },
+        {
+          "name": "B2",
+          "handle": "filtration-class__b2"
+        },
+        {
+          "name": "B3",
+          "handle": "filtration-class__b3"
+        },
+        {
+          "name": "E1",
+          "handle": "filtration-class__e1"
+        },
+        {
+          "name": "E2",
+          "handle": "filtration-class__e2"
+        },
+        {
+          "name": "E3",
+          "handle": "filtration-class__e3"
+        },
+        {
+          "name": "FFP1",
+          "handle": "filtration-class__ffp1"
+        },
+        {
+          "name": "FFP2",
+          "handle": "filtration-class__ffp2"
+        },
+        {
+          "name": "FFP3",
+          "handle": "filtration-class__ffp3"
+        },
+        {
+          "name": "K1",
+          "handle": "filtration-class__k1"
+        },
+        {
+          "name": "K2",
+          "handle": "filtration-class__k2"
+        },
+        {
+          "name": "K3",
+          "handle": "filtration-class__k3"
+        },
+        {
+          "name": "P1",
+          "handle": "filtration-class__p1"
+        },
+        {
+          "name": "P2",
+          "handle": "filtration-class__p2"
+        },
+        {
+          "name": "P3",
+          "handle": "filtration-class__p3"
+        },
+        {
+          "name": "Other",
+          "handle": "filtration-class__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3300",
+      "name": "Frequency type",
+      "handle": "frequency-type",
+      "description": "Identifies the frequency setting on metal detectors, e.g. single, simultaneous",
+      "values": [
+        {
+          "name": "Selectable",
+          "handle": "frequency-type__selectable"
+        },
+        {
+          "name": "Simultaneous",
+          "handle": "frequency-type__simultaneous"
+        },
+        {
+          "name": "Single",
+          "handle": "frequency-type__single"
+        },
+        {
+          "name": "Other",
+          "handle": "frequency-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2581",
+      "name": "Handcuff lock type",
+      "handle": "handcuff-lock-type",
+      "description": "Identifies the locking mechanism of handcuffs, like key or double lock",
+      "values": [
+        {
+          "name": "Double lock",
+          "handle": "handcuff-lock-type__double-lock"
+        },
+        {
+          "name": "Key",
+          "handle": "handcuff-lock-type__key"
+        },
+        {
+          "name": "Push pin",
+          "handle": "handcuff-lock-type__push-pin"
+        },
+        {
+          "name": "Other",
+          "handle": "handcuff-lock-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2634",
+      "name": "Hardhat class",
+      "handle": "hardhat-class",
+      "description": "Identifies the safety classification of hardhats, e.g. C (conductive), E (electrical);",
+      "values": [
+        {
+          "name": "C (conductive)",
+          "handle": "hardhat-class__c-conductive"
+        },
+        {
+          "name": "E (electrical)",
+          "handle": "hardhat-class__e-electrical"
+        },
+        {
+          "name": "G (general)",
+          "handle": "hardhat-class__g-general"
+        },
+        {
+          "name": "Other",
+          "handle": "hardhat-class__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2636",
+      "name": "Hazmat suit design",
+      "handle": "hazmat-suit-design",
+      "description": "Describes the style of hazardous material suits, such as coverall or encapsulated",
+      "values": [
+        {
+          "name": "Coverall",
+          "handle": "hazmat-suit-design__coverall"
+        },
+        {
+          "name": "Encapsulated",
+          "handle": "hazmat-suit-design__encapsulated"
+        },
+        {
+          "name": "Lab coat",
+          "handle": "hazmat-suit-design__lab-coat"
+        },
+        {
+          "name": "Other",
+          "handle": "hazmat-suit-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2639",
+      "name": "Helmet shade design",
+      "handle": "helmet-shade-design",
+      "description": "Describes the type of shade mechanism in welding helmets, like fixed or auto-darkening",
+      "values": [
+        {
+          "name": "Auto-darkening",
+          "handle": "helmet-shade-design__auto-darkening"
+        },
+        {
+          "name": "Fixed",
+          "handle": "helmet-shade-design__fixed"
+        },
+        {
+          "name": "Passive",
+          "handle": "helmet-shade-design__passive"
+        },
+        {
+          "name": "Variable",
+          "handle": "helmet-shade-design__variable"
+        },
+        {
+          "name": "Other",
+          "handle": "helmet-shade-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3297",
+      "name": "Humidity control method",
+      "handle": "humidy-control",
+      "description": "Specifies the type of humidity regulation in devices, e.g. semi-automatic, manual",
+      "values": [
+        {
+          "name": "Automatic",
+          "handle": "humidy-control__automatic"
+        },
+        {
+          "name": "Manual",
+          "handle": "humidy-control__manual"
+        },
+        {
+          "name": "Semi-automatic",
+          "handle": "humidy-control__semi-automatic"
+        },
+        {
+          "name": "Other",
+          "handle": "humidy-control__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2620",
+      "name": "Illumination technique",
+      "handle": "illumination-technique",
+      "description": "Identifies the lighting method used in microscopes, such as brightfield or darkfield",
+      "values": [
+        {
+          "name": "Brightfield",
+          "handle": "illumination-technique__brightfield"
+        },
+        {
+          "name": "Darkfield",
+          "handle": "illumination-technique__darkfield"
+        },
+        {
+          "name": "DIC",
+          "handle": "illumination-technique__dic"
+        },
+        {
+          "name": "Fluorescence",
+          "handle": "illumination-technique__fluorescence"
+        },
+        {
+          "name": "Phase contrast",
+          "handle": "illumination-technique__phase-contrast"
+        },
+        {
+          "name": "Other",
+          "handle": "illumination-technique__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2615",
+      "name": "Laboratory freezer design",
+      "handle": "laboratory-freezer-design",
+      "description": "Describes the configuration of a lab freezer, such as upright or chest",
+      "values": [
+        {
+          "name": "Chest",
+          "handle": "laboratory-freezer-design__chest"
+        },
+        {
+          "name": "Undercounter",
+          "handle": "laboratory-freezer-design__undercounter"
+        },
+        {
+          "name": "Upright",
+          "handle": "laboratory-freezer-design__upright"
+        },
+        {
+          "name": "Other",
+          "handle": "laboratory-freezer-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2551",
+      "name": "Livestock food ingredients",
+      "handle": "livestock-food-ingredients",
+      "description": "Specifies the primary ingredients in animal feed, such as barley or soybean meal",
+      "values": [
+        {
+          "name": "Barley",
+          "handle": "livestock-food-ingredients__barley"
+        },
+        {
+          "name": "Corn",
+          "handle": "livestock-food-ingredients__corn"
+        },
+        {
+          "name": "Oats",
+          "handle": "livestock-food-ingredients__oats"
+        },
+        {
+          "name": "Soybean meal",
+          "handle": "livestock-food-ingredients__soybean-meal"
+        },
+        {
+          "name": "Wheat",
+          "handle": "livestock-food-ingredients__wheat"
+        },
+        {
+          "name": "Other",
+          "handle": "livestock-food-ingredients__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2617",
+      "name": "Maximum magnification",
+      "handle": "maximum-magnification",
+      "description": "Indicates the highest enlargement factor a microscope can achieve, such as 10x or 100x",
+      "values": [
+        {
+          "name": "0.5x",
+          "handle": "maximum-magnification__0-5x"
+        },
+        {
+          "name": "1x",
+          "handle": "maximum-magnification__1x"
+        },
+        {
+          "name": "2x",
+          "handle": "maximum-magnification__2x"
+        },
+        {
+          "name": "4x",
+          "handle": "maximum-magnification__4x"
+        },
+        {
+          "name": "5x",
+          "handle": "maximum-magnification__5x"
+        },
+        {
+          "name": "10x",
+          "handle": "maximum-magnification__10x"
+        },
+        {
+          "name": "20x",
+          "handle": "maximum-magnification__20x"
+        },
+        {
+          "name": "40x",
+          "handle": "maximum-magnification__40x"
+        },
+        {
+          "name": "50x",
+          "handle": "maximum-magnification__50x"
+        },
+        {
+          "name": "60x",
+          "handle": "maximum-magnification__60x"
+        },
+        {
+          "name": "63x",
+          "handle": "maximum-magnification__63x"
+        },
+        {
+          "name": "100x",
+          "handle": "maximum-magnification__100x"
+        },
+        {
+          "name": "150x",
+          "handle": "maximum-magnification__150x"
+        },
+        {
+          "name": "200x",
+          "handle": "maximum-magnification__200x"
+        },
+        {
+          "name": "Other",
+          "handle": "maximum-magnification__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5688",
+      "name": "Medical specialty",
+      "handle": "medical-specialty",
+      "description": "Specifies the medical specialty or healthcare discipline the equipment is designed for",
+      "values": [
+        {
+          "name": "Anesthesia",
+          "handle": "medical-specialty__anesthesia"
+        },
+        {
+          "name": "Emergency medicine",
+          "handle": "medical-specialty__emergency-medicine"
+        },
+        {
+          "name": "EMS/Paramedic",
+          "handle": "medical-specialty__ems-paramedic"
+        },
+        {
+          "name": "Hospitalist",
+          "handle": "medical-specialty__hospitalist"
+        },
+        {
+          "name": "Intensive care",
+          "handle": "medical-specialty__intensive-care"
+        },
+        {
+          "name": "Internal medicine",
+          "handle": "medical-specialty__internal-medicine"
+        },
+        {
+          "name": "Nursing",
+          "handle": "medical-specialty__nursing"
+        },
+        {
+          "name": "OB/GYN",
+          "handle": "medical-specialty__ob-gyn"
+        },
+        {
+          "name": "Orthopedics",
+          "handle": "medical-specialty__orthopedics"
+        },
+        {
+          "name": "Pediatrics",
+          "handle": "medical-specialty__pediatrics"
+        },
+        {
+          "name": "Physician assistant",
+          "handle": "medical-specialty__physician-assistant"
+        },
+        {
+          "name": "Respiratory therapy",
+          "handle": "medical-specialty__respiratory-therapy"
+        },
+        {
+          "name": "Surgery",
+          "handle": "medical-specialty__surgery"
+        },
+        {
+          "name": "Surgical technologist",
+          "handle": "medical-specialty__surg-tech"
+        },
+        {
+          "name": "Trauma",
+          "handle": "medical-specialty__trauma"
+        },
+        {
+          "name": "Other",
+          "handle": "medical-specialty__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2601",
+      "name": "Medical syringe purpose",
+      "handle": "medical-syringe-purpose",
+      "description": "Identifies the intended use of a medical syringe, such as for injection or irrigation",
+      "values": [
+        {
+          "name": "Injection",
+          "handle": "medical-syringe-purpose__injection"
+        },
+        {
+          "name": "Irrigation",
+          "handle": "medical-syringe-purpose__irrigation"
+        },
+        {
+          "name": "Tubing",
+          "handle": "medical-syringe-purpose__tubing"
+        },
+        {
+          "name": "Other",
+          "handle": "medical-syringe-purpose__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3050",
+      "name": "Metal detector features",
+      "handle": "metal-detector-features",
+      "description": "Highlights unique features of metal detectors, e.g. holster, waterproof",
+      "values": [
+        {
+          "name": "Holster",
+          "handle": "metal-detector-features__holster"
+        },
+        {
+          "name": "Sound alarm",
+          "handle": "metal-detector-features__sound-alarm"
+        },
+        {
+          "name": "Vibration mode",
+          "handle": "metal-detector-features__vibration-mode"
+        },
+        {
+          "name": "Waterproof",
+          "handle": "metal-detector-features__waterproof"
+        },
+        {
+          "name": "Other",
+          "handle": "metal-detector-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2618",
+      "name": "Minimum magnification",
+      "handle": "minimum-magnification",
+      "description": "Indicates the lowest magnification level of a microscope lens, such as 1x or 0.5x",
+      "values": [
+        {
+          "name": "0.5x",
+          "handle": "minimum-magnification__0-5x"
+        },
+        {
+          "name": "1x",
+          "handle": "minimum-magnification__1x"
+        },
+        {
+          "name": "2x",
+          "handle": "minimum-magnification__2x"
+        },
+        {
+          "name": "4x",
+          "handle": "minimum-magnification__4x"
+        },
+        {
+          "name": "5x",
+          "handle": "minimum-magnification__5x"
+        },
+        {
+          "name": "10x",
+          "handle": "minimum-magnification__10x"
+        },
+        {
+          "name": "20x",
+          "handle": "minimum-magnification__20x"
+        },
+        {
+          "name": "40x",
+          "handle": "minimum-magnification__40x"
+        },
+        {
+          "name": "50x",
+          "handle": "minimum-magnification__50x"
+        },
+        {
+          "name": "60x",
+          "handle": "minimum-magnification__60x"
+        },
+        {
+          "name": "63x",
+          "handle": "minimum-magnification__63x"
+        },
+        {
+          "name": "100x",
+          "handle": "minimum-magnification__100x"
+        },
+        {
+          "name": "150x",
+          "handle": "minimum-magnification__150x"
+        },
+        {
+          "name": "200x",
+          "handle": "minimum-magnification__200x"
+        },
+        {
+          "name": "Other",
+          "handle": "minimum-magnification__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2560",
+      "name": "Mirror handle design",
+      "handle": "mirror-handle-design",
+      "description": "Describes the style of handle on dental mirrors, like double-ended or single-ended",
+      "values": [
+        {
+          "name": "Double-ended",
+          "handle": "mirror-handle-design__double-ended"
+        },
+        {
+          "name": "Single-ended",
+          "handle": "mirror-handle-design__single-ended"
+        },
+        {
+          "name": "Other",
+          "handle": "mirror-handle-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2626",
+      "name": "Open/Closed sign design",
+      "handle": "open-closed-sign-design",
+      "description": "Specifies the style of an open/closed sign, e.g. opening hours, custom",
+      "values": [
+        {
+          "name": "Closed",
+          "handle": "open-closed-sign-design__closed"
+        },
+        {
+          "name": "Custom",
+          "handle": "open-closed-sign-design__custom"
+        },
+        {
+          "name": "Open",
+          "handle": "open-closed-sign-design__open"
+        },
+        {
+          "name": "Open/Closed",
+          "handle": "open-closed-sign-design__open-closed"
+        },
+        {
+          "name": "Opening hours",
+          "handle": "open-closed-sign-design__opening-hours"
+        },
+        {
+          "name": "Other",
+          "handle": "open-closed-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2608",
+      "name": "Pad display profile",
+      "handle": "pad-display-profile",
+      "description": "Describes the color display of signature capture pads, such as monochrome or color",
+      "values": [
+        {
+          "name": "Color",
+          "handle": "pad-display-profile__color"
+        },
+        {
+          "name": "Monochrome",
+          "handle": "pad-display-profile__monochrome"
+        },
+        {
+          "name": "Other",
+          "handle": "pad-display-profile__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2627",
+      "name": "Parking sign design",
+      "handle": "parking-sign-design",
+      "description": "Identifies the purpose of a parking sign, e.g. loading zone, reserved parking",
+      "values": [
+        {
+          "name": "Accessible parking",
+          "handle": "parking-sign-design__accessible-parking"
+        },
+        {
+          "name": "Compact cars only",
+          "handle": "parking-sign-design__compact-cars-only"
+        },
+        {
+          "name": "Customer/Visitor parking",
+          "handle": "parking-sign-design__customer-visitor-parking"
+        },
+        {
+          "name": "Employee parking",
+          "handle": "parking-sign-design__employee-parking"
+        },
+        {
+          "name": "Fire lane",
+          "handle": "parking-sign-design__fire-lane"
+        },
+        {
+          "name": "Loading zone",
+          "handle": "parking-sign-design__loading-zone"
+        },
+        {
+          "name": "No parking",
+          "handle": "parking-sign-design__no-parking"
+        },
+        {
+          "name": "Permit parking",
+          "handle": "parking-sign-design__permit-parking"
+        },
+        {
+          "name": "Reserved parking",
+          "handle": "parking-sign-design__reserved-parking"
+        },
+        {
+          "name": "Time limit parking",
+          "handle": "parking-sign-design__time-limit-parking"
+        },
+        {
+          "name": "Other",
+          "handle": "parking-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2553",
+      "name": "Pig feed stage",
+      "handle": "pig-feed-stage",
+      "description": "Identifies the life stage of pigs the feed is intended for, like grower or starter",
+      "values": [
+        {
+          "name": "Finisher",
+          "handle": "pig-feed-stage__finisher"
+        },
+        {
+          "name": "Grower",
+          "handle": "pig-feed-stage__grower"
+        },
+        {
+          "name": "Sow",
+          "handle": "pig-feed-stage__sow"
+        },
+        {
+          "name": "Starter",
+          "handle": "pig-feed-stage__starter"
+        },
+        {
+          "name": "Other",
+          "handle": "pig-feed-stage__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2585",
+      "name": "Pneumatic conveyor operation",
+      "handle": "pneumatic-conveyor-operation",
+      "description": "Identifies the operation mode of pneumatic conveyors, such as eco phase or dense phase",
+      "values": [
+        {
+          "name": "Dense phase",
+          "handle": "pneumatic-conveyor-operation__dense-phase"
+        },
+        {
+          "name": "Dilute phase",
+          "handle": "pneumatic-conveyor-operation__dilute-phase"
+        },
+        {
+          "name": "Eco phase",
+          "handle": "pneumatic-conveyor-operation__eco-phase"
+        },
+        {
+          "name": "Other",
+          "handle": "pneumatic-conveyor-operation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2628",
+      "name": "Policy sign design",
+      "handle": "policy-sign-design",
+      "description": "Describes the specific message displayed on a policy sign, e.g. no smoking, no cell phones",
+      "values": [
+        {
+          "name": "Employees only",
+          "handle": "policy-sign-design__employees-only"
+        },
+        {
+          "name": "Hand sanitizer required",
+          "handle": "policy-sign-design__hand-sanitizer-required"
+        },
+        {
+          "name": "Mask required",
+          "handle": "policy-sign-design__mask-required"
+        },
+        {
+          "name": "No cell phones",
+          "handle": "policy-sign-design__no-cell-phones"
+        },
+        {
+          "name": "No food or drink",
+          "handle": "policy-sign-design__no-food-or-drink"
+        },
+        {
+          "name": "No pets",
+          "handle": "policy-sign-design__no-pets"
+        },
+        {
+          "name": "No photography",
+          "handle": "policy-sign-design__no-photography"
+        },
+        {
+          "name": "No smoking",
+          "handle": "policy-sign-design__no-smoking"
+        },
+        {
+          "name": "No soliciting",
+          "handle": "policy-sign-design__no-soliciting"
+        },
+        {
+          "name": "Quiet zone",
+          "handle": "policy-sign-design__quiet-zone"
+        },
+        {
+          "name": "Shirt and shoes required",
+          "handle": "policy-sign-design__shirt-and-shoes-required"
+        },
+        {
+          "name": "Social distancing",
+          "handle": "policy-sign-design__social-distancing"
+        },
+        {
+          "name": "Other",
+          "handle": "policy-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2621",
+      "name": "Preservation type",
+      "handle": "preservation-type",
+      "description": "Identifies the method used to preserve laboratory specimens, like fixed or dried",
+      "values": [
+        {
+          "name": "Dried",
+          "handle": "preservation-type__dried"
+        },
+        {
+          "name": "Fixed",
+          "handle": "preservation-type__fixed"
+        },
+        {
+          "name": "Fresh",
+          "handle": "preservation-type__fresh"
+        },
+        {
+          "name": "Slide-mounted",
+          "handle": "preservation-type__slide-mounted"
+        },
+        {
+          "name": "Other",
+          "handle": "preservation-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/5687",
+      "name": "Procedure",
+      "handle": "procedure",
+      "description": "Specifies the medical procedure or training type the equipment is designed for",
+      "values": [
+        {
+          "name": "Abdominal aorta aneurysm exam",
+          "handle": "procedure__abdominal-aorta-aneurysm-exam"
+        },
+        {
+          "name": "Airway management",
+          "handle": "procedure__airway-management"
+        },
+        {
+          "name": "Arterial access",
+          "handle": "procedure__arterial-access"
+        },
+        {
+          "name": "Arterial blood gas sampling",
+          "handle": "procedure__arterial-blood-gas-sampling"
+        },
+        {
+          "name": "Arterial cannulation",
+          "handle": "procedure__arterial-cannulation"
+        },
+        {
+          "name": "Arterial line placement",
+          "handle": "procedure__arterial-line-placement"
+        },
+        {
+          "name": "Arthrocentesis",
+          "handle": "procedure__arthrocentesis"
+        },
+        {
+          "name": "Basic open surgical skills",
+          "handle": "procedure__basic-open-surgical-skills"
+        },
+        {
+          "name": "Bleeding control",
+          "handle": "procedure__bleeding-control"
+        },
+        {
+          "name": "Breast probe",
+          "handle": "procedure__breast-probe"
+        },
+        {
+          "name": "Cannulation",
+          "handle": "procedure__cannulation"
+        },
+        {
+          "name": "Catastrophic event",
+          "handle": "procedure__catastrophic-event"
+        },
+        {
+          "name": "Central line placement",
+          "handle": "procedure__central-line-placement"
+        },
+        {
+          "name": "Central vascular catheterization",
+          "handle": "procedure__central-vascular-catheterization"
+        },
+        {
+          "name": "Chest drain insertion",
+          "handle": "procedure__chest-drain-insertion"
+        },
+        {
+          "name": "Chest tube insertion",
+          "handle": "procedure__chest-tube-insertion"
+        },
+        {
+          "name": "Common bile duct exploration",
+          "handle": "procedure__common-bile-duct-exploration"
+        },
+        {
+          "name": "Cricothyroidotomy",
+          "handle": "procedure__cricothyroidotomy"
+        },
+        {
+          "name": "Cricothyrotomy",
+          "handle": "procedure__cricothyrotomy"
+        },
+        {
+          "name": "Diagnostic peritoneal aspiration (DPA)",
+          "handle": "procedure__diagnostic-peritoneal-aspiration-dpa"
+        },
+        {
+          "name": "Diagnostic peritoneal lavage (DPL)",
+          "handle": "procedure__diagnostic-peritoneal-lavage-dpl"
+        },
+        {
+          "name": "Diagnostic ultrasound",
+          "handle": "procedure__diagnostic-ultrasound"
+        },
+        {
+          "name": "Echocardiogram",
+          "handle": "procedure__echocardiogram"
+        },
+        {
+          "name": "eFAST exam",
+          "handle": "procedure__efast-exam"
+        },
+        {
+          "name": "Epidural",
+          "handle": "procedure__epidural"
+        },
+        {
+          "name": "Episiotomy",
+          "handle": "procedure__episiotomy"
+        },
+        {
+          "name": "FAST exam",
+          "handle": "procedure__fast-exam"
+        },
+        {
+          "name": "Femoral line placement",
+          "handle": "procedure__femoral-line-placement"
+        },
+        {
+          "name": "Foreign body ultrasound exam",
+          "handle": "procedure__foreign-body-ultrasound-exam"
+        },
+        {
+          "name": "Gall bladder ultrasound exam",
+          "handle": "procedure__gall-bladder-ultrasound-exam"
+        },
+        {
+          "name": "Hernia repair",
+          "handle": "procedure__hernia-repair"
+        },
+        {
+          "name": "Instrument handling",
+          "handle": "procedure__instrument-handling"
+        },
+        {
+          "name": "Intercostal drain insertion",
+          "handle": "procedure__intercostal-drain-insertion"
+        },
+        {
+          "name": "Intraosseous (IO) needle insertion",
+          "handle": "procedure__intraosseous-io-needle-insertion"
+        },
+        {
+          "name": "Intravenous access",
+          "handle": "procedure__intravenous-access"
+        },
+        {
+          "name": "Intubation",
+          "handle": "procedure__intubation"
+        },
+        {
+          "name": "IV cutdown",
+          "handle": "procedure__iv-cutdown"
+        },
+        {
+          "name": "Lacerated kidney",
+          "handle": "procedure__lacerated-kidney"
+        },
+        {
+          "name": "Laparoscopic cholecystectomy",
+          "handle": "procedure__laparoscopic-cholecystectomy"
+        },
+        {
+          "name": "Laparoscopic cholecystenterostomy",
+          "handle": "procedure__laparoscopic-cholecystenterostomy"
+        },
+        {
+          "name": "Laparoscopic instrument handling",
+          "handle": "procedure__laparoscopic-instrument-handling"
+        },
+        {
+          "name": "Laparoscopic nissen",
+          "handle": "procedure__laparoscopic-nissen"
+        },
+        {
+          "name": "Laparoscopic skills",
+          "handle": "procedure__laparoscopic-skills"
+        },
+        {
+          "name": "Laparoscopic suturing",
+          "handle": "procedure__laparoscopic-suturing"
+        },
+        {
+          "name": "Laparotomy",
+          "handle": "procedure__laparotomy"
+        },
+        {
+          "name": "Lumbar puncture",
+          "handle": "procedure__lumbar-puncture"
+        },
+        {
+          "name": "Needle decompression",
+          "handle": "procedure__needle-decompression"
+        },
+        {
+          "name": "Nerve block",
+          "handle": "procedure__nerve-block"
+        },
+        {
+          "name": "Nicked aorta",
+          "handle": "procedure__nicked-aorta"
+        },
+        {
+          "name": "Nicked renal artery",
+          "handle": "procedure__nicked-renal-artery"
+        },
+        {
+          "name": "Open cholecystectomy",
+          "handle": "procedure__open-cholecystectomy"
+        },
+        {
+          "name": "Open surgery",
+          "handle": "procedure__open-surgery"
+        },
+        {
+          "name": "Pacing generator",
+          "handle": "procedure__pacing-generator"
+        },
+        {
+          "name": "Paracentesis",
+          "handle": "procedure__paracentesis"
+        },
+        {
+          "name": "Pericardiocentesis",
+          "handle": "procedure__pericardiocentesis"
+        },
+        {
+          "name": "Perineal repair",
+          "handle": "procedure__perineal-repair"
+        },
+        {
+          "name": "Peripheral pain management",
+          "handle": "procedure__peripheral-pain-management"
+        },
+        {
+          "name": "Peripherally inserted central catheter (PICC)",
+          "handle": "procedure__peripherally-inserted-central-catheter-picc"
+        },
+        {
+          "name": "Pleural drain insertion",
+          "handle": "procedure__pleural-drain-insertion"
+        },
+        {
+          "name": "Pneumothorax treatment",
+          "handle": "procedure__pneumothorax-treatment"
+        },
+        {
+          "name": "Regional anesthesia",
+          "handle": "procedure__regional-anesthesia"
+        },
+        {
+          "name": "Renal ultrasound exam",
+          "handle": "procedure__renal-ultrasound-exam"
+        },
+        {
+          "name": "Right heart catheterization",
+          "handle": "procedure__right-heart-catheterization"
+        },
+        {
+          "name": "Surgical airway",
+          "handle": "procedure__surgical-airway"
+        },
+        {
+          "name": "Suturing",
+          "handle": "procedure__suturing"
+        },
+        {
+          "name": "Thoracentesis",
+          "handle": "procedure__thoracentesis"
+        },
+        {
+          "name": "Thoracic catheter insertion",
+          "handle": "procedure__thoracic-catheter-insertion"
+        },
+        {
+          "name": "Tracheostomy",
+          "handle": "procedure__tracheostomy"
+        },
+        {
+          "name": "Transvenous pacing",
+          "handle": "procedure__transvenous-pacing"
+        },
+        {
+          "name": "Tube thoracostomy",
+          "handle": "procedure__tube-thoracostomy"
+        },
+        {
+          "name": "Ultrasound",
+          "handle": "procedure__ultrasound"
+        },
+        {
+          "name": "Ultrasound guided catheterization",
+          "handle": "procedure__ultrasound-guided-catheterization"
+        },
+        {
+          "name": "Vascular access",
+          "handle": "procedure__vascular-access"
+        },
+        {
+          "name": "Venous access",
+          "handle": "procedure__venous-access"
+        },
+        {
+          "name": "Venous cannulation",
+          "handle": "procedure__venous-cannulation"
+        },
+        {
+          "name": "Other",
+          "handle": "procedure__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2562",
+      "name": "Prophy cup design",
+      "handle": "prophy-cup-design",
+      "description": "Describes the design of prophy cups used in dentistry, like brush or ribbed",
+      "values": [
+        {
+          "name": "Brush",
+          "handle": "prophy-cup-design__brush"
+        },
+        {
+          "name": "Ribbed",
+          "handle": "prophy-cup-design__ribbed"
+        },
+        {
+          "name": "Webbed",
+          "handle": "prophy-cup-design__webbed"
+        },
+        {
+          "name": "Other",
+          "handle": "prophy-cup-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2635",
+      "name": "Protection type",
+      "handle": "protection-type",
+      "description": "Identifies the level of protection offered by safety gear, like Type I or Type II",
+      "values": [
+        {
+          "name": "Type I",
+          "handle": "protection-type__type-i"
+        },
+        {
+          "name": "Type II",
+          "handle": "protection-type__type-ii"
+        },
+        {
+          "name": "Other",
+          "handle": "protection-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3302",
+      "name": "Protective mask design",
+      "handle": "protective-mask-design",
+      "description": "Specifies the design of protective masks, such as full face or half mask",
+      "values": [
+        {
+          "name": "Full face",
+          "handle": "protective-mask-design__full-face"
+        },
+        {
+          "name": "Half mask",
+          "handle": "protective-mask-design__half-mask"
+        },
+        {
+          "name": "Other",
+          "handle": "protective-mask-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3058",
+      "name": "Protective mask features",
+      "handle": "protective-mask-features",
+      "description": "Details the unique features of protective masks, such as adjustable strap or valved",
+      "values": [
+        {
+          "name": "Adjustable strap",
+          "handle": "protective-mask-features__adjustable-strap"
+        },
+        {
+          "name": "Anti-fog",
+          "handle": "protective-mask-features__anti-fog"
+        },
+        {
+          "name": "Anti-scratch",
+          "handle": "protective-mask-features__anti-scratch"
+        },
+        {
+          "name": "Clog resistant",
+          "handle": "protective-mask-features__clog-resistant"
+        },
+        {
+          "name": "Cushioned",
+          "handle": "protective-mask-features__cushioned"
+        },
+        {
+          "name": "Face seal",
+          "handle": "protective-mask-features__face-seal"
+        },
+        {
+          "name": "Fluid resistance",
+          "handle": "protective-mask-features__fluid-resistance"
+        },
+        {
+          "name": "Molded",
+          "handle": "protective-mask-features__molded"
+        },
+        {
+          "name": "Powered air unit",
+          "handle": "protective-mask-features__powered-air-unit"
+        },
+        {
+          "name": "Valved",
+          "handle": "protective-mask-features__valved"
+        },
+        {
+          "name": "Other",
+          "handle": "protective-mask-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2578",
+      "name": "Rack design",
+      "handle": "rack-design",
+      "description": "Describes the layout or structure of a glass rack, such as open or compartment",
+      "values": [
+        {
+          "name": "Compartment",
+          "handle": "rack-design__compartment"
+        },
+        {
+          "name": "Open",
+          "handle": "rack-design__open"
+        },
+        {
+          "name": "Stemware",
+          "handle": "rack-design__stemware"
+        },
+        {
+          "name": "Other",
+          "handle": "rack-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2629",
+      "name": "Retail/Sale sign design",
+      "handle": "retail-sale-sign-design",
+      "description": "Indicates the type of message on retail or sale signs, e.g. sale, special offer",
+      "values": [
+        {
+          "name": "Clearance",
+          "handle": "retail-sale-sign-design__clearance"
+        },
+        {
+          "name": "Closing sale",
+          "handle": "retail-sale-sign-design__closing-sale"
+        },
+        {
+          "name": "Coming soon",
+          "handle": "retail-sale-sign-design__coming-soon"
+        },
+        {
+          "name": "Custom",
+          "handle": "retail-sale-sign-design__custom"
+        },
+        {
+          "name": "Entrance/Exit",
+          "handle": "retail-sale-sign-design__entrance-exit"
+        },
+        {
+          "name": "Grand opening",
+          "handle": "retail-sale-sign-design__grand-opening"
+        },
+        {
+          "name": "Limited time offer",
+          "handle": "retail-sale-sign-design__limited-time-offer"
+        },
+        {
+          "name": "New arrival",
+          "handle": "retail-sale-sign-design__new-arrival"
+        },
+        {
+          "name": "Now hiring",
+          "handle": "retail-sale-sign-design__now-hiring"
+        },
+        {
+          "name": "Open/Closed",
+          "handle": "retail-sale-sign-design__open-closed"
+        },
+        {
+          "name": "Restroom",
+          "handle": "retail-sale-sign-design__restroom"
+        },
+        {
+          "name": "Sale",
+          "handle": "retail-sale-sign-design__sale"
+        },
+        {
+          "name": "Seasonal sale",
+          "handle": "retail-sale-sign-design__seasonal-sale"
+        },
+        {
+          "name": "Special offer",
+          "handle": "retail-sale-sign-design__special-offer"
+        },
+        {
+          "name": "Other",
+          "handle": "retail-sale-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2630",
+      "name": "Road sign design",
+      "handle": "road-sign-design",
+      "description": "Identifies the type of information displayed on a road sign, e.g. stop, speed limit",
+      "values": [
+        {
+          "name": "Bike lane",
+          "handle": "road-sign-design__bike-lane"
+        },
+        {
+          "name": "Construction zone",
+          "handle": "road-sign-design__construction-zone"
+        },
+        {
+          "name": "Do not enter",
+          "handle": "road-sign-design__do-not-enter"
+        },
+        {
+          "name": "Merge",
+          "handle": "road-sign-design__merge"
+        },
+        {
+          "name": "No parking",
+          "handle": "road-sign-design__no-parking"
+        },
+        {
+          "name": "No U-turn",
+          "handle": "road-sign-design__no-u-turn"
+        },
+        {
+          "name": "One way",
+          "handle": "road-sign-design__one-way"
+        },
+        {
+          "name": "Pedestrian crossing",
+          "handle": "road-sign-design__pedestrian-crossing"
+        },
+        {
+          "name": "School zone",
+          "handle": "road-sign-design__school-zone"
+        },
+        {
+          "name": "Speed limit",
+          "handle": "road-sign-design__speed-limit"
+        },
+        {
+          "name": "Stop",
+          "handle": "road-sign-design__stop"
+        },
+        {
+          "name": "Traffic signal ahead",
+          "handle": "road-sign-design__traffic-signal-ahead"
+        },
+        {
+          "name": "Yield",
+          "handle": "road-sign-design__yield"
+        },
+        {
+          "name": "Other",
+          "handle": "road-sign-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2599",
+      "name": "Scalpel blade number",
+      "handle": "scalpel-blade-number",
+      "description": "Identifies the specific number or type of scalpel blade, such as 10 or 15A",
+      "values": [
+        {
+          "name": "6",
+          "handle": "scalpel-blade-number__6"
+        },
+        {
+          "name": "9",
+          "handle": "scalpel-blade-number__9"
+        },
+        {
+          "name": "10",
+          "handle": "scalpel-blade-number__10"
+        },
+        {
+          "name": "11",
+          "handle": "scalpel-blade-number__11"
+        },
+        {
+          "name": "12",
+          "handle": "scalpel-blade-number__12"
+        },
+        {
+          "name": "13",
+          "handle": "scalpel-blade-number__13"
+        },
+        {
+          "name": "14",
+          "handle": "scalpel-blade-number__14"
+        },
+        {
+          "name": "15",
+          "handle": "scalpel-blade-number__15"
+        },
+        {
+          "name": "16",
+          "handle": "scalpel-blade-number__16"
+        },
+        {
+          "name": "17",
+          "handle": "scalpel-blade-number__17"
+        },
+        {
+          "name": "18",
+          "handle": "scalpel-blade-number__18"
+        },
+        {
+          "name": "19",
+          "handle": "scalpel-blade-number__19"
+        },
+        {
+          "name": "20",
+          "handle": "scalpel-blade-number__20"
+        },
+        {
+          "name": "21",
+          "handle": "scalpel-blade-number__21"
+        },
+        {
+          "name": "22",
+          "handle": "scalpel-blade-number__22"
+        },
+        {
+          "name": "23",
+          "handle": "scalpel-blade-number__23"
+        },
+        {
+          "name": "24",
+          "handle": "scalpel-blade-number__24"
+        },
+        {
+          "name": "25",
+          "handle": "scalpel-blade-number__25"
+        },
+        {
+          "name": "26",
+          "handle": "scalpel-blade-number__26"
+        },
+        {
+          "name": "27",
+          "handle": "scalpel-blade-number__27"
+        },
+        {
+          "name": "34",
+          "handle": "scalpel-blade-number__34"
+        },
+        {
+          "name": "36",
+          "handle": "scalpel-blade-number__36"
+        },
+        {
+          "name": "40",
+          "handle": "scalpel-blade-number__40"
+        },
+        {
+          "name": "60",
+          "handle": "scalpel-blade-number__60"
+        },
+        {
+          "name": "10a",
+          "handle": "scalpel-blade-number__10a"
+        },
+        {
+          "name": "15A",
+          "handle": "scalpel-blade-number__15a"
+        },
+        {
+          "name": "22A",
+          "handle": "scalpel-blade-number__22a"
+        },
+        {
+          "name": "25a",
+          "handle": "scalpel-blade-number__25a"
+        },
+        {
+          "name": "15C",
+          "handle": "scalpel-blade-number__15c"
+        },
+        {
+          "name": "12D",
+          "handle": "scalpel-blade-number__12d"
+        },
+        {
+          "name": "11P",
+          "handle": "scalpel-blade-number__11p"
+        },
+        {
+          "name": "15T",
+          "handle": "scalpel-blade-number__15t"
+        },
+        {
+          "name": "D/15",
+          "handle": "scalpel-blade-number__d-15"
+        },
+        {
+          "name": "E11",
+          "handle": "scalpel-blade-number__e11"
+        },
+        {
+          "name": "E/11",
+          "handle": "scalpel-blade-number__e-11"
+        },
+        {
+          "name": "PM40",
+          "handle": "scalpel-blade-number__pm40"
+        },
+        {
+          "name": "PM40B",
+          "handle": "scalpel-blade-number__pm40b"
+        },
+        {
+          "name": "PM60",
+          "handle": "scalpel-blade-number__pm60"
+        },
+        {
+          "name": "PM60B",
+          "handle": "scalpel-blade-number__pm60b"
+        },
+        {
+          "name": "Other",
+          "handle": "scalpel-blade-number__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3053",
+      "name": "Scalpel blade shape",
+      "handle": "scalpel-blade-shape",
+      "description": "Describes the form of scalpel blade, such as curved or straight",
+      "values": [
+        {
+          "name": "Curved",
+          "handle": "scalpel-blade-shape__curved"
+        },
+        {
+          "name": "Straight",
+          "handle": "scalpel-blade-shape__straight"
+        },
+        {
+          "name": "Other",
+          "handle": "scalpel-blade-shape__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2600",
+      "name": "Scalpel handle number",
+      "handle": "scalpel-handle-number",
+      "description": "Identifies the specific handle number for scalpels, such as 4 or 3L",
+      "values": [
+        {
+          "name": "3",
+          "handle": "scalpel-handle-number__3"
+        },
+        {
+          "name": "4",
+          "handle": "scalpel-handle-number__4"
+        },
+        {
+          "name": "7",
+          "handle": "scalpel-handle-number__7"
+        },
+        {
+          "name": "9",
+          "handle": "scalpel-handle-number__9"
+        },
+        {
+          "name": "3L",
+          "handle": "scalpel-handle-number__3l"
+        },
+        {
+          "name": "4L",
+          "handle": "scalpel-handle-number__4l"
+        },
+        {
+          "name": "Other",
+          "handle": "scalpel-handle-number__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2567",
+      "name": "Shelf material",
+      "handle": "shelf-material",
+      "description": "Identifies the type of material used in shelf construction, like wood or metal",
+      "values": [
+        {
+          "name": "Bamboo",
+          "handle": "shelf-material__bamboo"
+        },
+        {
+          "name": "Beech wood",
+          "handle": "shelf-material__beech-wood"
+        },
+        {
+          "name": "Chrome",
+          "handle": "shelf-material__chrome"
+        },
+        {
+          "name": "Chrome steel",
+          "handle": "shelf-material__chrome-steel"
+        },
+        {
+          "name": "Glass",
+          "handle": "shelf-material__glass"
+        },
+        {
+          "name": "Medium density fiberboard (MDF)",
+          "handle": "shelf-material__medium-density-fiberboard-mdf"
+        },
+        {
+          "name": "Metal",
+          "handle": "shelf-material__metal"
+        },
+        {
+          "name": "Oak wood",
+          "handle": "shelf-material__oak-wood"
+        },
+        {
+          "name": "Particle board",
+          "handle": "shelf-material__particle-board"
+        },
+        {
+          "name": "Plastic",
+          "handle": "shelf-material__plastic"
+        },
+        {
+          "name": "Stainless steel",
+          "handle": "shelf-material__stainless-steel"
+        },
+        {
+          "name": "Steel",
+          "handle": "shelf-material__steel"
+        },
+        {
+          "name": "Wood",
+          "handle": "shelf-material__wood"
+        },
+        {
+          "name": "Other",
+          "handle": "shelf-material__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2593",
+      "name": "Stethoscope design",
+      "handle": "stethoscope-design",
+      "description": "Describes the type of stethoscope, such as dual-head or single-head",
+      "values": [
+        {
+          "name": "Dual-head",
+          "handle": "stethoscope-design__dual-head"
+        },
+        {
+          "name": "Single-head",
+          "handle": "stethoscope-design__single-head"
+        },
+        {
+          "name": "Other",
+          "handle": "stethoscope-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2594",
+      "name": "Stethoscope technology",
+      "handle": "stethoscope-technology",
+      "description": "Identifies the type of technology used in stethoscopes, such as electronic or acoustic",
+      "values": [
+        {
+          "name": "Acoustic",
+          "handle": "stethoscope-technology__acoustic"
+        },
+        {
+          "name": "Electronic",
+          "handle": "stethoscope-technology__electronic"
+        },
+        {
+          "name": "Other",
+          "handle": "stethoscope-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2591",
+      "name": "Stretcher/Gurney intended use",
+      "handle": "stretcher-gurney-intended-use",
+      "description": "Identifies the specific purpose of medical stretchers or gurneys, such as ambulance or MRI",
+      "values": [
+        {
+          "name": "Ambulance",
+          "handle": "stretcher-gurney-intended-use__ambulance"
+        },
+        {
+          "name": "Emergency transport",
+          "handle": "stretcher-gurney-intended-use__emergency-transport"
+        },
+        {
+          "name": "Fluoroscopy",
+          "handle": "stretcher-gurney-intended-use__fluoroscopy"
+        },
+        {
+          "name": "General transport",
+          "handle": "stretcher-gurney-intended-use__general-transport"
+        },
+        {
+          "name": "MRI",
+          "handle": "stretcher-gurney-intended-use__mri"
+        },
+        {
+          "name": "Surgical",
+          "handle": "stretcher-gurney-intended-use__surgical"
+        },
+        {
+          "name": "Other",
+          "handle": "stretcher-gurney-intended-use__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2554",
+      "name": "Suitable for animal type",
+      "handle": "suitable-for-animal-type",
+      "description": "Identifies the type of animal the product is designed for, like horse or goat",
+      "values": [
+        {
+          "name": "Cow",
+          "handle": "suitable-for-animal-type__cow"
+        },
+        {
+          "name": "Goat",
+          "handle": "suitable-for-animal-type__goat"
+        },
+        {
+          "name": "Horse",
+          "handle": "suitable-for-animal-type__horse"
+        },
+        {
+          "name": "Lama",
+          "handle": "suitable-for-animal-type__lama"
+        },
+        {
+          "name": "Pig",
+          "handle": "suitable-for-animal-type__pig"
+        },
+        {
+          "name": "Sheep",
+          "handle": "suitable-for-animal-type__sheep"
+        },
+        {
+          "name": "Universal",
+          "handle": "suitable-for-animal-type__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-animal-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3298",
+      "name": "Suitable for egg type",
+      "handle": "suitable-for-egg-type",
+      "description": "Identifies the type of eggs an incubator can accommodate, such as chicken or duck",
+      "values": [
+        {
+          "name": "Chicken",
+          "handle": "suitable-for-egg-type__chicken"
+        },
+        {
+          "name": "Duck",
+          "handle": "suitable-for-egg-type__duck"
+        },
+        {
+          "name": "Emu",
+          "handle": "suitable-for-egg-type__emu"
+        },
+        {
+          "name": "Goose",
+          "handle": "suitable-for-egg-type__goose"
+        },
+        {
+          "name": "Partridge",
+          "handle": "suitable-for-egg-type__partridge"
+        },
+        {
+          "name": "Peafowl",
+          "handle": "suitable-for-egg-type__peafowl"
+        },
+        {
+          "name": "Pheasant",
+          "handle": "suitable-for-egg-type__pheasant"
+        },
+        {
+          "name": "Quail",
+          "handle": "suitable-for-egg-type__quail"
+        },
+        {
+          "name": "Turkey",
+          "handle": "suitable-for-egg-type__turkey"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-egg-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2586",
+      "name": "Suitable for vehicle type",
+      "handle": "suitable-for-vehicle-type",
+      "description": "Identifies the type of vehicle a product is compatible with, such as car or truck",
+      "values": [
+        {
+          "name": "Bus",
+          "handle": "suitable-for-vehicle-type__bus"
+        },
+        {
+          "name": "Car",
+          "handle": "suitable-for-vehicle-type__car"
+        },
+        {
+          "name": "Tractor",
+          "handle": "suitable-for-vehicle-type__tractor"
+        },
+        {
+          "name": "Truck",
+          "handle": "suitable-for-vehicle-type__truck"
+        },
+        {
+          "name": "Universal",
+          "handle": "suitable-for-vehicle-type__universal"
+        },
+        {
+          "name": "Other",
+          "handle": "suitable-for-vehicle-type__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3299",
+      "name": "Surverying accessories included",
+      "handle": "surverying-accessories-included",
+      "description": "Specifies extra components packaged with surveying tools, such as a clamp or leveling rod",
+      "values": [
+        {
+          "name": "Clamp",
+          "handle": "surverying-accessories-included__clamp"
+        },
+        {
+          "name": "Leveling rod",
+          "handle": "surverying-accessories-included__leveling-rod"
+        },
+        {
+          "name": "Monopod",
+          "handle": "surverying-accessories-included__monopod"
+        },
+        {
+          "name": "Mounting bracket",
+          "handle": "surverying-accessories-included__mounting-bracket"
+        },
+        {
+          "name": "Tripod",
+          "handle": "surverying-accessories-included__tripod"
+        },
+        {
+          "name": "Other",
+          "handle": "surverying-accessories-included__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2609",
+      "name": "Terminal operation",
+      "handle": "terminal-operation",
+      "description": "Specifies the operation type of cash registers, such as manual or electronic",
+      "values": [
+        {
+          "name": "Electronic",
+          "handle": "terminal-operation__electronic"
+        },
+        {
+          "name": "Manual",
+          "handle": "terminal-operation__manual"
+        },
+        {
+          "name": "Other",
+          "handle": "terminal-operation__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2549",
+      "name": "Totem design",
+      "handle": "totem-design",
+      "description": "Specifies the design of trade show totems, such as single-sided or double-sided",
+      "values": [
+        {
+          "name": "Double-sided",
+          "handle": "totem-design__double-sided"
+        },
+        {
+          "name": "Single-sided",
+          "handle": "totem-design__single-sided"
+        },
+        {
+          "name": "Other",
+          "handle": "totem-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3046",
+      "name": "Trade show display features",
+      "handle": "trade-show-display-features",
+      "description": "Identifies special characteristics of trade show displays, like touchscreen or lighting",
+      "values": [
+        {
+          "name": "Built-in processor",
+          "handle": "trade-show-display-features__built-in-processor"
+        },
+        {
+          "name": "Built-in speakers",
+          "handle": "trade-show-display-features__built-in-speakers"
+        },
+        {
+          "name": "Carrying case",
+          "handle": "trade-show-display-features__carrying-case"
+        },
+        {
+          "name": "Double sided",
+          "handle": "trade-show-display-features__double-sided"
+        },
+        {
+          "name": "Graphics support",
+          "handle": "trade-show-display-features__graphics-support"
+        },
+        {
+          "name": "Lighting",
+          "handle": "trade-show-display-features__lighting"
+        },
+        {
+          "name": "Touchscreen",
+          "handle": "trade-show-display-features__touchscreen"
+        },
+        {
+          "name": "VESA mounting support",
+          "handle": "trade-show-display-features__vesa-mounting-support"
+        },
+        {
+          "name": "Other",
+          "handle": "trade-show-display-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3047",
+      "name": "Traffic control device features",
+      "handle": "traffic-control-device-features",
+      "description": "Identifies unique features of traffic control items, such as stackable or weighted base",
+      "values": [
+        {
+          "name": "Collapsible",
+          "handle": "traffic-control-device-features__collapsible"
+        },
+        {
+          "name": "Reflective",
+          "handle": "traffic-control-device-features__reflective"
+        },
+        {
+          "name": "Stackable",
+          "handle": "traffic-control-device-features__stackable"
+        },
+        {
+          "name": "Weighted base",
+          "handle": "traffic-control-device-features__weighted-base"
+        },
+        {
+          "name": "Other",
+          "handle": "traffic-control-device-features__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2588",
+      "name": "Tuning fork design",
+      "handle": "tuning-fork-design",
+      "description": "Describes the specific design of a tuning fork, such as weighted or unweighted",
+      "values": [
+        {
+          "name": "Unweighted",
+          "handle": "tuning-fork-design__unweighted"
+        },
+        {
+          "name": "Weighted",
+          "handle": "tuning-fork-design__weighted"
+        },
+        {
+          "name": "Other",
+          "handle": "tuning-fork-design__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2589",
+      "name": "Tuning fork frequency",
+      "handle": "tuning-fork-frequency",
+      "description": "Specifies the frequency of a tuning fork, such as 128 Hz or 256 Hz",
+      "values": [
+        {
+          "name": "128 Hz",
+          "handle": "tuning-fork-frequency__128-hz"
+        },
+        {
+          "name": "256 hZ",
+          "handle": "tuning-fork-frequency__256-hz"
+        },
+        {
+          "name": "512 Hz",
+          "handle": "tuning-fork-frequency__512-hz"
+        },
+        {
+          "name": "Other",
+          "handle": "tuning-fork-frequency__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2607",
+      "name": "Verification technology",
+      "handle": "verification-technology",
+      "description": "Identifies the technology used in banknote verifiers, such as magnetic or infrared",
+      "values": [
+        {
+          "name": "Color",
+          "handle": "verification-technology__color"
+        },
+        {
+          "name": "Infrared",
+          "handle": "verification-technology__infrared"
+        },
+        {
+          "name": "Ink",
+          "handle": "verification-technology__ink"
+        },
+        {
+          "name": "Magnetic",
+          "handle": "verification-technology__magnetic"
+        },
+        {
+          "name": "Metallic thread",
+          "handle": "verification-technology__metallic-thread"
+        },
+        {
+          "name": "Size",
+          "handle": "verification-technology__size"
+        },
+        {
+          "name": "Thickness",
+          "handle": "verification-technology__thickness"
+        },
+        {
+          "name": "UV",
+          "handle": "verification-technology__uv"
+        },
+        {
+          "name": "Watermark",
+          "handle": "verification-technology__watermark"
+        },
+        {
+          "name": "Other",
+          "handle": "verification-technology__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2640",
+      "name": "Viewing area height",
+      "handle": "viewing-area-height",
+      "description": "Specifies the height of the viewing area in products like welding helmets, e.g. medium, large",
+      "values": [
+        {
+          "name": "Large",
+          "handle": "viewing-area-height__large"
+        },
+        {
+          "name": "Medium",
+          "handle": "viewing-area-height__medium"
+        },
+        {
+          "name": "Small",
+          "handle": "viewing-area-height__small"
+        },
+        {
+          "name": "Other",
+          "handle": "viewing-area-height__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2641",
+      "name": "Viewing area width",
+      "handle": "viewing-area-width",
+      "description": "Specifies the width of the viewing area in products like welding helmets, e.g. medium, large",
+      "values": [
+        {
+          "name": "Large",
+          "handle": "viewing-area-width__large"
+        },
+        {
+          "name": "Medium",
+          "handle": "viewing-area-width__medium"
+        },
+        {
+          "name": "Small",
+          "handle": "viewing-area-width__small"
+        },
+        {
+          "name": "Other",
+          "handle": "viewing-area-width__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/2631",
+      "name": "Warning category",
+      "handle": "warning-category",
+      "description": "Classifies the category of security or safety signs, e.g. prohibition, warning",
+      "values": [
+        {
+          "name": "Emergency",
+          "handle": "warning-category__emergency"
+        },
+        {
+          "name": "Mandatory",
+          "handle": "warning-category__mandatory"
+        },
+        {
+          "name": "Prohibition",
+          "handle": "warning-category__prohibition"
+        },
+        {
+          "name": "Warning",
+          "handle": "warning-category__warning"
+        },
+        {
+          "name": "Other",
+          "handle": "warning-category__other"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/TaxonomyAttribute/3059",
+      "name": "Welding helmet features",
+      "handle": "welding-helmet-features",
+      "description": "Identifies special features of welding helmets, e.g. true color, grinding mode",
+      "values": [
+        {
+          "name": "Diopter compatible",
+          "handle": "welding-helmet-features__diopter-compatible"
+        },
+        {
+          "name": "Grinding mode",
+          "handle": "welding-helmet-features__grinding-mode"
+        },
+        {
+          "name": "True color",
+          "handle": "welding-helmet-features__true-color"
+        },
+        {
+          "name": "Other",
+          "handle": "welding-helmet-features__other"
+        }
+      ]
+    }
+  ]
+}

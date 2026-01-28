@@ -558,20 +558,29 @@ VITE_APP_VERSION=1.0.0
 
 ---
 
-### 27. Dynamic Attributes from Shopify Taxonomy 🏷️ IN PROGRESS
+### 27. Dynamic Attributes from Shopify Taxonomy 🏷️ FRONTEND COMPLETE
 **Status:** Frontend Complete ✅, Backend Pending
 **Priority:** P2 - Product Enhancement
-**Estimate:** 9-12 days (Phase 1-3 complete, Phase 4-6: 3-5 days remaining)
+**Estimate:** 9-12 days (Phase 1-3 complete, Phase 4-6: 2-3 days remaining)
 
 **Goal:** Make post/add forms dynamic based on category-specific attributes from Shopify Product Taxonomy (955k line JSON file)
 
-**Completed (Phase 1-3):**
+**Completed (Phase 1-4):**
 
 - ✅ Created comprehensive implementation plan (DYNAMIC_ATTRIBUTES_PLAN.md)
 - ✅ Created taxonomy types (TaxonomyAttribute, TaxonomyCategory, AttributeValue)
 - ✅ Created DynamicAttributeInput component (handles text, select, multi-select, number, boolean, color, textarea)
 - ✅ Enhanced taxonomy API with getCategoryAttributes() and getCategoryWithAttributes()
-- ✅ Lazy-loading architecture for full taxonomy.json (load only when attributes needed)
+- ✅ **SPLIT TAXONOMY FILES** - Created script `scripts/split-taxonomy-attributes.js`
+  - Generated 50+ split files in `packages/shared/src/data/taxonomy/attributes/`
+  - Category-to-attribute mapping files per vertical (el-category-map.json, etc.)
+  - Attribute definition files by vertical (el-attributes.json, shared-attributes.json, etc.)
+  - Global index file (attribute-index.json) for O(1) handle → file lookup
+  - Combined category map (category-attributes-map.json) for 11,627 categories
+- ✅ Updated taxonomy.ts API to use split files instead of full taxonomy.json
+  - Lazy-loads only needed attribute files
+  - Parallel loading of multiple files when needed
+  - Efficient caching by file
 - ✅ Refactored PostAdView to 3-step wizard (Details → Pricing → Attributes)
 - ✅ Integrated DynamicAttributeInput in step 3
 - ✅ Form validation for required attributes
@@ -579,21 +588,27 @@ VITE_APP_VERSION=1.0.0
 - ✅ Smart skip logic (step 3 only shown if category has attributes)
 - ✅ Progress bar shows 3 steps when attributes exist, 2 steps otherwise
 
-**Remaining (Phase 4-6):**
+**Remaining (Phase 5-6):**
 
 - [ ] Backend: Add custom_attributes field to Item doctype
 - [ ] Backend: Update create_draft_item handler to store attributes JSON
-- [ ] Attribute-based search/filtering in HomeView
-- [ ] Performance testing with large taxonomy
+- [ ] Attribute-based search/filtering in HomeView (optional)
 - [ ] Test with real categories (Pet Supplies, Electronics)
 
 **Key Features:**
 
 - Category-driven dynamic forms (Pet Supplies shows "Animal Type", "Color", "Pattern")
 - Smart input type detection (color → color picker, size → number input)
-- Search categories by name (955k lines indexed for O(1) lookup)
+- **Optimized file splitting** - 2,679 attributes split across 21 files by vertical
+- **Efficient loading** - Only loads files needed for selected category
 - Validate required attributes before submission
 - Store as JSON in Item.custom_attributes field
+
+**Split File Stats:**
+- Total attributes: 2,679
+- Total mapped categories: 11,627
+- Shared attributes: 359 (used by multiple verticals)
+- Files generated: 50+ (26 category maps + 21 attribute files + index + summary)
 
 **Reference:** [DYNAMIC_ATTRIBUTES_PLAN.md](DYNAMIC_ATTRIBUTES_PLAN.md)
 
@@ -612,14 +627,35 @@ VITE_APP_VERSION=1.0.0
 
 ---
 
-### 28. API Response Caching
-**Status:** Not Implemented
+### 28. API Response Caching ✅ COMPLETE
+
+**Status:** Implemented
 **Estimate:** 1 day
 
-**Cache:**
-- Categories (15 min TTL)
-- Skills list (15 min TTL)
-- Static data
+**Implemented:**
+
+- ✅ ApiCache class with TTL support (`packages/shared/src/api/cache.ts`)
+- ✅ TTL constants (5min, 15min, 30min, 1hour)
+- ✅ `getCategoriesCached()` - Categories (15 min TTL)
+- ✅ `getSkillsCached()` - Skills list (15 min TTL)
+- ✅ `getConditionsCached()` / `getListingTypesCached()` - Static data
+- ✅ `prefetchStaticData()` - Warm cache on app init
+- ✅ `invalidateMarketCache()` / `invalidateWorkCache()` - Cache invalidation helpers
+- ✅ Request deduplication to prevent duplicate simultaneous requests
+- ✅ Wired prefetch into both market and work main.ts
+
+**Usage:**
+
+```typescript
+import { getCategoriesCached, getSkillsCached, prefetchStaticData } from '@bude/shared/api';
+
+// Get cached data
+const categories = await getCategoriesCached();
+const skills = await getSkillsCached();
+
+// Force refresh
+const fresh = await getCategoriesCached(true);
+```
 
 **Reference:** CLAUDE.md Section 6.1
 

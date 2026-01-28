@@ -1,0 +1,9018 @@
+{
+  "gid://shopify/TaxonomyCategory/sg": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-2": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-2-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-2-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-2-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-2-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-4-6": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-7": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-5-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-5-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-1-6": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-1": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-1-1": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-1-2": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "hand-side",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "hand-side",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-3-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "hand-side",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-5": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-6": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-8": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-8-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-8-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-8-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-8-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-8-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-9-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-10": [
+    "age-group",
+    "bat-material",
+    "bat-standard",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "swing-weighting"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-11": [
+    "ball-material",
+    "ball-size",
+    "baseball-softball-ball-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-12": [
+    "color",
+    "compatible-ball-type",
+    "features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-13": [
+    "age-group",
+    "bat-material",
+    "bat-standard",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "softball-discipline"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-2-14": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-1-1": [
+    "color",
+    "mounting-type",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-1-2": [
+    "age-group",
+    "basketball-equipment-included",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-1-3": [
+    "age-group",
+    "basketball-equipment-included",
+    "color",
+    "pattern",
+    "pole-post-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-1-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-1-5": [
+    "age-group",
+    "color",
+    "material",
+    "mounting-type",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-2": [
+    "age-group",
+    "basketball-equipment-included",
+    "color",
+    "material",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-5": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-3-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-3-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-3-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-3-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-3-4": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-4-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-4-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-4-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-4-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-1-6": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-3-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-3-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-3-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-3": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-4": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-5": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-6": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-7": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-8": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-4-9": [
+    "age-group",
+    "color",
+    "pattern",
+    "punching-training-bag-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-2-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-3-2": [
+    "color",
+    "net-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-3-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-5": [
+    "accessory-size",
+    "age-group",
+    "clothing-accessory-material",
+    "color",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-6-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-6-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-6-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-4-6-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-5-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-5-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-5-3": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-4": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-4-1": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-4-2": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-4-3": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-5": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-5-1": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-5-2": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-7-1": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-7-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-8": [
+    "clothing-accessory-material",
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-9": [
+    "color",
+    "pattern",
+    "scoreboard-features",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-9-1": [
+    "color",
+    "pattern",
+    "scoreboard-features",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-9-2": [
+    "color",
+    "pattern",
+    "scoreboard-features",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-10": [
+    "color",
+    "material",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-10-2": [
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-10-1": [
+    "color",
+    "material",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-10-3": [
+    "color",
+    "material",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-7-11": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-1": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-3": [
+    "age-group",
+    "bat-material",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-4": [
+    "color",
+    "cricket-equipment-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-5-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-5-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-5-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-8": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-6": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-8-7-9": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-26": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-26-2": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-26-3": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-26-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-26-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-9-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-9-2": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "dance-style",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-1-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-1-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-1-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-1-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-1-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-3-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-4": [
+    "accessory-size",
+    "color",
+    "grip-type",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-4-1": [
+    "accessory-size",
+    "color",
+    "grip-type",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-4-2": [
+    "accessory-size",
+    "color",
+    "grip-type",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-4-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-10-4-4": [
+    "accessory-size",
+    "color",
+    "grip-type",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-1-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-1-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-1-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-1-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-12": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-2": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-3": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-4": [
+    "age-group",
+    "color",
+    "pattern",
+    "stick-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-5-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-5-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-5-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-5-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-5-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-6": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-7": [
+    "color",
+    "lacrosse-equipment-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-8": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-9-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-9-2": [
+    "color",
+    "pattern",
+    "player-position",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-9-3": [
+    "color",
+    "hand-side",
+    "pattern",
+    "stick-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-10": [
+    "age-group",
+    "color",
+    "pattern",
+    "stick-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-11": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-11-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-11-11-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-9": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-10": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-11": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-1-12": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-2": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-2-1": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-2-2": [
+    "ball-size",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-3": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-3": [
+    "color",
+    "hockey-equipment-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern",
+    "player-position"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-6": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-7": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-4-8": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "fastener-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-6-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-6-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-7-1": [
+    "age-group",
+    "blade-curve",
+    "blade-material",
+    "color",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-7-2": [
+    "age-group",
+    "color",
+    "hand-side",
+    "pattern",
+    "stick-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-8": [
+    "age-group",
+    "color",
+    "pattern",
+    "stick-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-9-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-9-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-9-3": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-9-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-9-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-10": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-10-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-10-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-10-3": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-10-4": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-10-5": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-12-10-6": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-2-1": [
+    "age-group",
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-2-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-2-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-2-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-1-1": [
+    "age-group",
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-1-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-1-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "stick-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-27-1-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-3": [
+    "bag-case-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-3-1": [
+    "bag-case-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-3-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-3-3": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-4-1": [
+    "color",
+    "hardware-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-5": [
+    "color",
+    "material",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-6-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-6-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-6-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-9": [
+    "color",
+    "mat-base-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-10": [
+    "color",
+    "mounting-type",
+    "net-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-12": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-13": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-14": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "mouthgard-design",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-15": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-15-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-15-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-13-16": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-2-1": [
+    "color",
+    "gear-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-4": [
+    "color",
+    "material-hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-5-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-14-6": [
+    "color",
+    "features",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-1": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "dynamic-level",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-2": [
+    "age-group",
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-7": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-4-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-5": [
+    "age-group",
+    "color",
+    "pattern",
+    "racket-balance",
+    "racket-head-shape",
+    "racket-material",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-15-6": [
+    "age-group",
+    "color",
+    "pattern",
+    "racket-balance",
+    "racket-head-shape",
+    "racket-material",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-16-1": [
+    "age-group",
+    "bat-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-16-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-16-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-16-3-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-16-3-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-16-3-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-1": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-3": [
+    "age-group",
+    "color",
+    "features",
+    "pattern",
+    "pole-post-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-4-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "gear-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-6": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-5-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-17-5-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-1": [
+    "age-group",
+    "ball-material",
+    "ball-size",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-4-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-4-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-4-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-5": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-6-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-6-1-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-6-1-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-8": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-7-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-7-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-7-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-7-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-7-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-18-7-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-1": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-19-2-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-2": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-4": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-5": [
+    "color",
+    "net-mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-1": [
+    "color",
+    "material",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-3": [
+    "color",
+    "pattern",
+    "activity",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-3-1": [
+    "color",
+    "pattern",
+    "activity",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-3-2": [
+    "color",
+    "pattern",
+    "activity",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-3-3": [
+    "color",
+    "pattern",
+    "activity",
+    "tape-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-6-5": [
+    "color",
+    "pattern",
+    "racket-gauge",
+    "racket-string-design",
+    "racket-string-material",
+    "shape",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-7": [
+    "age-group",
+    "color",
+    "pattern",
+    "racket-balance",
+    "racket-head-shape",
+    "racket-material",
+    "recommended-skill-level",
+    "swing-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-9": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-8-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-8-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-8-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-8-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-8-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-20-8-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-4": [
+    "color",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-9": [
+    "color",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-10": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-10-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-10-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-10-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-10-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-11": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-12": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-21-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22-1": [
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22-2-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22-3-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22-3-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-22-4": [
+    "ball-material",
+    "ball-size",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-23": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-23-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-23-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-23-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-1": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-3": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-24-4-9": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-1-1": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-1-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-1-25-2-9": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-1": [
+    "color",
+    "exercise-equipment-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-1-1": [
+    "color",
+    "exercise-equipment-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-1-2": [
+    "color",
+    "exercise-equipment-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-2": [
+    "color",
+    "exercise-equipment-material",
+    "exercise-machine-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-3-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-2-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-2-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-2-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-1-5-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "exercise-machine-features",
+    "pattern",
+    "resistance-system"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-2-1": [
+    "color",
+    "exercise-machine-features",
+    "pattern",
+    "resistance-system"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-2-2": [
+    "color",
+    "exercise-machine-features",
+    "pattern",
+    "resistance-system"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-2-3": [
+    "color",
+    "exercise-machine-features",
+    "pattern",
+    "resistance-system"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-2-4": [
+    "color",
+    "exercise-machine-features",
+    "pattern",
+    "resistance-system"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "exercise-machine-features",
+    "pattern",
+    "resistance-system"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-2-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "exercise-machine-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-4-3": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "exercise-equipment-material",
+    "jump-rope-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-5": [
+    "ball-material",
+    "color",
+    "exercise-equipment-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-6": [
+    "color",
+    "pattern",
+    "resistance-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-7": [
+    "color",
+    "compatible-bench-positions",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-8": [
+    "color",
+    "mat-base-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-8-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-8-2": [
+    "mat-base-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-8-3": [
+    "color",
+    "mat-base-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-8-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-8-5": [
+    "mat-base-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-9": [
+    "color",
+    "exercise-equipment-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-10": [
+    "color",
+    "material-hardness",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-11-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-11-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-11-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-11-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-11-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-12": [
+    "color",
+    "exercise-equipment-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-15": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-15-1": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-15-2": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-15-3": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-15-4": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-15-5": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-15-6": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-16": [
+    "color",
+    "compatible-exercises",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-17": [
+    "bar-mounting-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-18": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-19": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-20": [
+    "accessory-size",
+    "activity",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-20-1": [
+    "accessory-size",
+    "activity",
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-20-2": [
+    "accessory-size",
+    "activity",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-21": [
+    "color",
+    "pattern",
+    "timepiece-features"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-3-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-22-3-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-23": [
+    "color",
+    "exercise-machine-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-23-1": [
+    "color",
+    "exercise-machine-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-23-2": [
+    "color",
+    "exercise-machine-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-1-1": [
+    "color",
+    "material",
+    "pattern",
+    "weight-bar-activity",
+    "weight-bar-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-1-3": [
+    "collar-lock-type",
+    "color",
+    "compatible-weight-lifting-accessory",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-2-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-2-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-2-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-5-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-5-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-6-1": [
+    "color",
+    "j-cup-type",
+    "pattern",
+    "pull-up-bar"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-6-2": [
+    "color",
+    "pattern",
+    "pull-up-bar"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-6-3": [
+    "color",
+    "j-cup-type",
+    "pattern",
+    "pull-up-bar"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-24-6-4": [
+    "color",
+    "j-cup-type",
+    "pattern",
+    "pull-up-bar"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-25": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-25-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-25-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-25-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-3": [
+    "color",
+    "mat-base-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-4": [
+    "accessory-size",
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-2-26-5-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-2": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-2-1": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-2-2": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-2-3": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-2-4": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-2-5": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-1-3": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-2": [
+    "ball-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-3-1": [
+    "bag-case-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-3-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-4-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-4-2": [
+    "color",
+    "cue-style",
+    "cue-type",
+    "cue-wrap",
+    "joint-connection",
+    "joint-face-type",
+    "joint-style",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-4-3": [
+    "color",
+    "cue-style",
+    "cue-type",
+    "joint-connection",
+    "joint-face-type",
+    "joint-style",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-6": [
+    "color",
+    "color",
+    "pattern",
+    "light-temperature",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-7-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-7-4": [
+    "color",
+    "cover-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-2-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-3-2": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-3-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-3-4": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-3-5": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-3-6": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-4-1": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-4-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-4-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-4-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-4-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-5": [
+    "age-group",
+    "color",
+    "furniture-fixture-material",
+    "games-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-5-1": [
+    "age-group",
+    "color",
+    "furniture-fixture-material",
+    "games-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-5-2": [
+    "age-group",
+    "color",
+    "furniture-fixture-material",
+    "games-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-5-3": [
+    "age-group",
+    "color",
+    "furniture-fixture-material",
+    "games-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-2": [
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-2-1": [
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-2-2": [
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-3": [
+    "color",
+    "color",
+    "pattern",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-3-1": [
+    "color",
+    "color",
+    "pattern",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-4": [
+    "color",
+    "pattern",
+    "ping-pong-equipment-included"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-6": [
+    "color",
+    "connectivity-technology",
+    "pattern",
+    "ping-pong-robot-features"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-6-8": [
+    "age-group",
+    "color",
+    "mounting-type",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-7-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-7-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8-2-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8-2-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-3-8-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-2": [
+    "age-group",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-2-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-2-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3-1": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3-7": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3-7-1": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3-7-2": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3-4": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3-5": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-3-6": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-4-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-1": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-2": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-3": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-4": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-5": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-10": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-6": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-7": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-8": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-5-9": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-7": [
+    "color",
+    "paddle-oar-material",
+    "pattern",
+    "suitable-for-boat-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-8": [
+    "color",
+    "pattern",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-9": [
+    "color",
+    "pattern",
+    "watercraft-propulsion-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-1-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-1": [
+    "accessory-size",
+    "color",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-3": [
+    "accessory-size",
+    "color",
+    "inflation-method",
+    "life-jacket-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-6-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-6-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-6-2-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-6-2-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-6-2-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-6-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-7": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-7-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-2-7-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-12-1": [
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-12-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-1": [
+    "accessory-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "display-features",
+    "display-technology",
+    "dive-computer-items-included",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-3": [
+    "color",
+    "diving-snorkeling-equipment-included",
+    "pattern",
+    "water-sport"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-4": [
+    "accessory-size",
+    "color",
+    "fin-material",
+    "fin-pocket-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-4-1": [
+    "accessory-size",
+    "color",
+    "fin-material",
+    "fin-pocket-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-4-2": [
+    "accessory-size",
+    "color",
+    "fin-material",
+    "fin-pocket-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern",
+    "water-sport"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-6": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-7": [
+    "color",
+    "edge-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-7-1": [
+    "color",
+    "edge-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-7-2": [
+    "color",
+    "edge-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-8": [
+    "color",
+    "diving-regulator-style",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-9": [
+    "age-group",
+    "color",
+    "pattern",
+    "snorkel-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-9-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "snorkel-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-9-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "snorkel-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-3-9-3": [
+    "age-group",
+    "color",
+    "pattern",
+    "snorkel-shape"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-2-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-3": [
+    "color",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-4-5": [
+    "accessory-size",
+    "color",
+    "kitesurfing-style",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-1": [
+    "surfboard-features",
+    "color",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "surfboard-features",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-3": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-6": [
+    "accessory-size",
+    "color",
+    "fin-profile",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-8": [
+    "battery-size",
+    "battery-type",
+    "board-concave-shape",
+    "board-profile",
+    "color",
+    "material",
+    "pattern",
+    "surfboard-features"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-8-1": [
+    "board-concave-shape",
+    "board-profile",
+    "color",
+    "material",
+    "pattern",
+    "surfboard-features"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-8-2": [
+    "board-concave-shape",
+    "board-profile",
+    "color",
+    "material",
+    "pattern",
+    "surfboard-features"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-8-3": [
+    "board-concave-shape",
+    "board-profile",
+    "color",
+    "material",
+    "surfboard-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-8-4": [
+    "board-concave-shape",
+    "board-profile",
+    "color",
+    "material",
+    "pattern",
+    "surfboard-features"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-9": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-5-10": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-5": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-6": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-7": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-8": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-9": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-1-10": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-6": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-7": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-8-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-8-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-9": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-11-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-11-2": [
+    "accessory-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-12": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-6-13": [
+    "color",
+    "material",
+    "pattern",
+    "water-sport"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-1-1": [
+    "color",
+    "surfboard-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4-2-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-4-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5-4": [
+    "age-group",
+    "color",
+    "pattern",
+    "rocker-type",
+    "ski-construction"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5-4-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "rocker-type",
+    "ski-construction"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5-4-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "rocker-type",
+    "ski-construction"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-5-4-3": [
+    "age-group",
+    "color",
+    "pattern",
+    "rocker-type",
+    "ski-construction"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-7-6": [
+    "anchor-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-8": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-8-1": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-8-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-5-1": [
+    "bag-case-features",
+    "bag-case-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-5-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-1": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-2": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-4-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-4-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-4-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-11-3": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-9-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-9-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-9-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-9-2": [
+    "color",
+    "pattern",
+    "recommended-skill-level",
+    "windsurfing-board-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-9-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-4-1": [
+    "bag-case-features",
+    "bag-case-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-5": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-2": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-3-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-3-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-3-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-1-10-1": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-1": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-1-1": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-1-1-1": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-1-1-2": [
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-1-2": [
+    "age-group",
+    "air-mattress-features",
+    "battery-size",
+    "battery-type",
+    "bedding-size",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-1-3": [
+    "bedding-size",
+    "color",
+    "cover-material",
+    "pattern",
+    "features",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-2": [
+    "color",
+    "pattern",
+    "product-certifications-standards"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-2-1": [
+    "color",
+    "pattern",
+    "product-certifications-standards"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-2-2": [
+    "color",
+    "pattern",
+    "product-certifications-standards"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-2-3": [
+    "color",
+    "pattern",
+    "product-certifications-standards"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-2-4": [
+    "color",
+    "pattern",
+    "product-certifications-standards"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-19": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-20": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "color",
+    "pattern",
+    "light-temperature",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-7": [
+    "color",
+    "hunting-survival-knife-design",
+    "knife-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-7-1": [
+    "color",
+    "hunting-survival-knife-design",
+    "knife-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-7-2": [
+    "color",
+    "hunting-survival-knife-design",
+    "knife-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-7-3": [
+    "color",
+    "hunting-survival-knife-design",
+    "knife-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-4-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-5": [
+    "color",
+    "hand-warmer-type",
+    "pattern",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-7-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-8": [
+    "age-group",
+    "color",
+    "features",
+    "outdoor-walking-activity",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-9": [
+    "color",
+    "net-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-9-1": [
+    "color",
+    "net-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-9-2": [
+    "color",
+    "net-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-10": [
+    "color",
+    "compass-style",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-10-1": [
+    "color",
+    "compass-style",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-10-2": [
+    "color",
+    "compass-style",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-10-3": [
+    "color",
+    "compass-style",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-1-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-11-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-12-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-12-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-15": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-16-1": [
+    "color",
+    "cover-material",
+    "durability-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-16-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-16-3": [
+    "color",
+    "features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-16-3-1": [
+    "color",
+    "features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-16-3-2": [
+    "color",
+    "features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-16-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-1": [
+    "color",
+    "pattern",
+    "suitable-for-camping-activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-2": [
+    "color",
+    "pattern",
+    "suitable-for-camping-activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-17-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-2-18": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-1": [
+    "assisted-braking-technology",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-1-1": [
+    "assisted-braking-technology",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-1-2": [
+    "assisted-braking-technology",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-1-3": [
+    "assisted-braking-technology",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-2": [
+    "carabiner-gate-type",
+    "carabiner-shape",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-3-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-3-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-3-4": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-3-3": [
+    "color",
+    "crampon-attachment-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-8": [
+    "accessory-size",
+    "climbing-activity",
+    "color",
+    "harness-closure-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-9": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-10": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-11": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-12": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-12-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-12-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-13-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-13-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-13-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-14": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-15": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-3-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-1-1": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-1-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-1-3": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-material",
+    "bag-case-storage-features",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-2": [
+    "bag-closure",
+    "bag-case-features",
+    "bag-case-storage-features",
+    "basket-material",
+    "care-instructions",
+    "carry-options",
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-4-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-4-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-5": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-6": [
+    "child-seat-placement",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-7-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-7-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-7-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-7-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-7-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-7-6": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "connectivity-technology",
+    "display-features",
+    "pattern",
+    "speed-settings"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-9": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-10": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-11": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-12": [
+    "color",
+    "compatible-bike-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-5": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-6": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-7": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-8": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-9": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-13-10": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-14": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-15": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-16": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-17": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-18": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-19": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-20": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-20-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-20-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-20-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-20-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-20-5": [
+    "alcohol-solvent-content",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-21": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-22": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-22-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-22-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-23": [
+    "color",
+    "compatible-bike-type",
+    "hitch-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-24": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-24-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-24-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-24-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-24-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-25": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-26": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-27": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-1-28": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-1-1": [
+    "bicycle-brake-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-1-2": [
+    "bicycle-brake-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-1-3": [
+    "bicycle-brake-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-1-4": [
+    "battery-size",
+    "battery-type",
+    "bicycle-brake-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-2": [
+    "bicycle-brake-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-3": [
+    "cable-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-1": [
+    "color",
+    "compatible-bike-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-2-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-2-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-5": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-4-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-5": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-8": [
+    "color",
+    "compatible-bike-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-9": [
+    "color",
+    "compatible-bike-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-10": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-10-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-10-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-11": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-12": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-13": [
+    "compatible-bike-type",
+    "cycling-style",
+    "color",
+    "saddle-material",
+    "pattern",
+    "color",
+    "saddle-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-14": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-15": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-16": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-16-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-16-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-16-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-17": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-18": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "valve-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-19": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "valve-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-20": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "valve-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-21": [
+    "color",
+    "compatible-bike-type",
+    "cycling-style",
+    "pattern",
+    "tire-bead-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-21-1": [
+    "color",
+    "compatible-bike-type",
+    "cycling-style",
+    "pattern",
+    "tire-bead-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-21-2": [
+    "color",
+    "compatible-bike-type",
+    "cycling-style",
+    "pattern",
+    "tire-bead-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-21-3": [
+    "color",
+    "compatible-bike-type",
+    "cycling-style",
+    "pattern",
+    "tire-bead-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-21-4": [
+    "color",
+    "compatible-bike-type",
+    "cycling-style",
+    "pattern",
+    "tire-bead-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-22": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "valve-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-2-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-2-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-2-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-5": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-6": [
+    "color",
+    "compatible-bike-type",
+    "pattern",
+    "vehicle-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-7": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-23-8": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-24": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-24-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-24-2": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-24-3": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-2-24-4": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-1": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-2": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-3": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-4": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-5": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-6": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-7": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-8": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-9": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-10": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-11": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-12": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-3-13": [
+    "age-group",
+    "bicycle-features",
+    "color",
+    "gearing-type",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4": [
+    "age-group",
+    "color",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-1-1": [
+    "color",
+    "compatible-bike-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-2": [
+    "accessory-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-5": [
+    "accessory-size",
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-6": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-7": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-4-8": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-5-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-5-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-6": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "target-gender",
+    "tricycle-design",
+    "tricycle-propulsion-type",
+    "wheel-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-7-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-4-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-2": [
+    "accessory-size",
+    "age-group",
+    "boot-type",
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-3": [
+    "animal-feed-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-3-1": [
+    "animal-feed-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-1": [
+    "clipper-trimmer-type",
+    "color",
+    "horse-grooming-accessories-included",
+    "pattern",
+    "work-capacity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-2": [
+    "bristle-material",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-2-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-2-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-5-2-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-1-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2": [
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-1": [
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-1-2": [
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-1-3": [
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-2": [
+    "color",
+    "horse-category",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-2-1": [
+    "color",
+    "embellishment-trim-material",
+    "horse-category",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-2-2": [
+    "color",
+    "horse-category",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-4": [
+    "accessory-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-5": [
+    "accessory-size",
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-7": [
+    "color",
+    "horse-category",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-2-9": [
+    "accessory-size",
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-3": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-3-1": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-3-2": [
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-3-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-3-2-2": [
+    "color",
+    "pattern",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-3-2-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-3-2-4": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-4-1": [
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-4-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-4-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-5": [
+    "age-group",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-5-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-5-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-5-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-5-5-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "embellishment-trim-material",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-2": [
+    "accessory-size",
+    "color",
+    "pattern",
+    "target-gender",
+    "wader-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-2-1": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "target-gender",
+    "wader-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-2-2": [
+    "accessory-size",
+    "color",
+    "pattern",
+    "target-gender",
+    "wader-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-2-3": [
+    "accessory-size",
+    "color",
+    "pattern",
+    "target-gender",
+    "wader-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-1": [
+    "color",
+    "needle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-9": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-10": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-11": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-12": [
+    "color",
+    "needle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-13": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-14": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-15": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-16": [
+    "color",
+    "needle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-17": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-18": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-19": [
+    "color",
+    "needle-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-5-20": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-6-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-6-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-6-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-6-4": [
+    "color",
+    "fishing-wire-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "hoop-shape",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-8-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-8-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-8-3": [
+    "angling-style",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9-1": [
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9-2": [
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9-3": [
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9-4": [
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9-5": [
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9-6": [
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-9-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "body-material",
+    "pattern",
+    "gear-ratio",
+    "color",
+    "spool-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-10": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-10-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-10-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "material",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-1": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-2": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-3": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-4": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-5": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-6": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-7": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-9": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-10": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-11": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-11-12": [
+    "color",
+    "butt-cap-material",
+    "pattern",
+    "fishing-rod-action",
+    "fishing-rod-power",
+    "color",
+    "handle-material",
+    "pattern",
+    "color",
+    "rod-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-12": [
+    "color",
+    "pattern",
+    "tip-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-4": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-7": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-8": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-9": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-10": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-1-11": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-3": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-4": [
+    "color",
+    "pattern",
+    "sinker-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-4-1": [
+    "color",
+    "pattern",
+    "sinker-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-4-2": [
+    "color",
+    "pattern",
+    "sinker-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-4-3": [
+    "color",
+    "pattern",
+    "sinker-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-4-4": [
+    "color",
+    "pattern",
+    "sinker-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-4-5": [
+    "color",
+    "pattern",
+    "sinker-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-4-6": [
+    "color",
+    "pattern",
+    "sinker-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-13-5": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-14": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-15": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-15-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-15-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-6-17": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-2": [
+    "color",
+    "golf-equipment-included",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-3-1": [
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-6": [
+    "color",
+    "golf-ball-type",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-7-1": [
+    "club-subset",
+    "club-type",
+    "color",
+    "hand-side",
+    "material",
+    "pattern",
+    "shaft-flex"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-7-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-7-3": [
+    "club-subset",
+    "club-type",
+    "color",
+    "hand-side",
+    "material",
+    "pattern",
+    "shaft-flex"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-8": [
+    "club-subset",
+    "club-type",
+    "color",
+    "hand-side",
+    "material",
+    "pattern",
+    "shaft-flex"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-9": [
+    "club-subset",
+    "club-type",
+    "color",
+    "hand-side",
+    "material",
+    "pattern",
+    "shaft-flex"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-11": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-15": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-13": [
+    "accessory-size",
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-14": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-14-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-14-2": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-14-3": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-7-14-4": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-8-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-8-2": [
+    "color",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-8-3": [
+    "color",
+    "parachuting-activity",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-2": [
+    "paintball-airsoft-equipment-included",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-4-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-4-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-4-3": [
+    "color",
+    "gear-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-7-4-4": [
+    "accessory-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-11": [
+    "age-group",
+    "archery-style",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-11-1": [
+    "accessory-size",
+    "age-group",
+    "archery-style",
+    "color",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-11-2": [
+    "accessory-size",
+    "age-group",
+    "archery-style",
+    "color",
+    "hand-side",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-11-5": [
+    "archery-style",
+    "color",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-11-3": [
+    "age-group",
+    "archery-activity",
+    "archery-style",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-11-4": [
+    "color",
+    "hand-side",
+    "pattern",
+    "quiver-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-10": [
+    "archery-style",
+    "color",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-10-1": [
+    "archery-style",
+    "color",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-10-2": [
+    "archery-style",
+    "color",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-10-3": [
+    "archery-style",
+    "color",
+    "hand-side",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4": [
+    "archery-style",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-1": [
+    "age-group",
+    "archery-style",
+    "arrow-fletching-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-2": [
+    "archery-style",
+    "color",
+    "nock-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-2-1": [
+    "archery-style",
+    "color",
+    "nock-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-2-2": [
+    "archery-style",
+    "color",
+    "nock-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-2-3": [
+    "archery-style",
+    "color",
+    "nock-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-2-4": [
+    "archery-style",
+    "color",
+    "nock-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-2-5": [
+    "archery-style",
+    "color",
+    "nock-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-3": [
+    "archery-style",
+    "broadhead-field-point-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-3-1": [
+    "archery-style",
+    "broadhead-design",
+    "broadhead-field-point-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-4-3-2": [
+    "archery-style",
+    "broadhead-field-point-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-5": [
+    "age-group",
+    "archery-style",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-5-3": [
+    "age-group",
+    "archery-style",
+    "arrow-bolt-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-5-1": [
+    "age-group",
+    "archery-style",
+    "arrow-bolt-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-5-2": [
+    "age-group",
+    "archery-style",
+    "arrow-bolt-material",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-6": [
+    "archery-activity",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-6-2": [
+    "archery-activity",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-6-3": [
+    "archery-activity",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-6-4": [
+    "archery-activity",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-6-5": [
+    "archery-activity",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-6-6": [
+    "archery-activity",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-6-1": [
+    "archery-activity",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-7": [
+    "archery-style",
+    "bow-crossbow-features",
+    "cam-system",
+    "color",
+    "bow-material",
+    "pattern",
+    "hand-side",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-7-1": [
+    "archery-style",
+    "bow-crossbow-features",
+    "cam-system",
+    "color",
+    "bow-material",
+    "pattern",
+    "hand-side",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-7-2": [
+    "archery-style",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-7-3": [
+    "archery-style",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-7-3-1": [
+    "archery-style",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-7-3-2": [
+    "archery-equipment-included",
+    "archery-style",
+    "bow-crossbow-features",
+    "cam-system",
+    "color",
+    "bow-material",
+    "pattern",
+    "hand-side",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-1-7-4": [
+    "archery-equipment-included",
+    "archery-style",
+    "bow-crossbow-features",
+    "cam-system",
+    "color",
+    "bow-material",
+    "pattern",
+    "hand-side",
+    "color",
+    "bow-material",
+    "pattern",
+    "color",
+    "string-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-8-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-8-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-8-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-2-1": [
+    "color",
+    "features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-9-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-9-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-9-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-1": [
+    "animal-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-3": [
+    "color",
+    "fabric",
+    "features",
+    "hunting-blind-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-3-1": [
+    "color",
+    "fabric",
+    "hunting-blind-design",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-6": [
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7-1": [
+    "animal-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7-2": [
+    "animal-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7-3": [
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7-4": [
+    "animal-feed-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7-4-1": [
+    "animal-feed-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7-4-2": [
+    "animal-feed-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-3-7-4-3": [
+    "animal-feed-form",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-4-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-4-2": [
+    "accessory-size",
+    "color",
+    "gear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-3-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-3-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-4": [
+    "color",
+    "paintball-airsoft-equipment-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-7-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-7-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-7-3": [
+    "color",
+    "gear-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-7-4": [
+    "accessory-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-10-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-6-1": [
+    "color",
+    "features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-6-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-6-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-6-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-9-6-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-2": [
+    "activity",
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-3": [
+    "activity",
+    "color",
+    "fabric",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-4": [
+    "activity",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-5": [
+    "activity",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-9": [
+    "activity",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-10-10": [
+    "activity",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-11": [
+    "activity",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-1-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-3": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-3-1": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-3-2": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-3-3": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-3-4": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-5": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-5-1": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-5-2": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-5-3": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-5-4": [
+    "age-group",
+    "boot-type",
+    "color",
+    "footwear-material",
+    "pattern",
+    "inline-skating-style",
+    "color",
+    "shell-frame-material",
+    "pattern",
+    "shoe-size",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-6": [
+    "age-group",
+    "color",
+    "inline-skating-style",
+    "pattern",
+    "rocker-type",
+    "ski-construction",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-6-1": [
+    "age-group",
+    "color",
+    "inline-skating-style",
+    "pattern",
+    "rocker-type",
+    "ski-construction",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-6-2": [
+    "age-group",
+    "color",
+    "inline-skating-style",
+    "pattern",
+    "rocker-type",
+    "ski-construction",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-6-3": [
+    "age-group",
+    "color",
+    "inline-skating-style",
+    "pattern",
+    "rocker-type",
+    "ski-construction",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-12-6-4": [
+    "age-group",
+    "color",
+    "inline-skating-style",
+    "pattern",
+    "rocker-type",
+    "ski-construction",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-13-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-13-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-13-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-13-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-13-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-1": [
+    "color",
+    "mounting-type",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "racket-balance",
+    "racket-head-shape",
+    "racket-material",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-2-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "racket-balance",
+    "racket-head-shape",
+    "racket-material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-2-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "racket-balance",
+    "racket-head-shape",
+    "racket-material",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-4": [
+    "age-group",
+    "care-instructions",
+    "closure-type",
+    "color",
+    "footwear-material",
+    "heel-height-type",
+    "pattern",
+    "shoe-features",
+    "shoe-fit",
+    "shoe-size",
+    "target-gender",
+    "toe-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-1-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-2-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-3-3": [
+    "color",
+    "material",
+    "pattern",
+    "recommended-skill-level"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-4-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-4-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-4-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-5": [
+    "color",
+    "paddle-equipment-included",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-7-1": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-7-2": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-8": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-8-1": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-8-2": [
+    "color",
+    "pattern",
+    "tetherball-equipment-included"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-14-8-3": [
+    "ball-material",
+    "ball-size",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15": [
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-1-1": [
+    "color",
+    "features",
+    "pattern",
+    "wheel-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-1-2": [
+    "color",
+    "features",
+    "pattern",
+    "wheel-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-1-3": [
+    "color",
+    "features",
+    "pattern",
+    "wheel-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-1-4": [
+    "color",
+    "features",
+    "pattern",
+    "wheel-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3": [
+    "battery-size",
+    "battery-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3-1": [
+    "battery-features",
+    "ev-battery-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3-3": [
+    "material",
+    "scooter-brake-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3-7": [
+    "electric-scooter-motor-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3-6": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-3-2": [
+    "wheel-part-type",
+    "wheel-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-15-2": [
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "features",
+    "pattern",
+    "range-type",
+    "wheel-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-1-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-1-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-1-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-1-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-1-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-3": [
+    "color",
+    "features",
+    "pattern",
+    "ramp-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-1": [
+    "board-type",
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-2-7": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-4-4": [
+    "color",
+    "material",
+    "pattern",
+    "skateboarding-style",
+    "wheel-hardness",
+    "wheel-hub-placement"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-5": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-5-1": [
+    "accessory-size",
+    "age-group",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-5-2": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "handwear-material",
+    "pattern",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-16-5-3": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-2-1": [
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-3": [
+    "color",
+    "eyewear-frame-material",
+    "pattern",
+    "color",
+    "eyewear-lens-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-4": [
+    "accessory-size",
+    "age-group",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-1": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-2": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-3": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-4": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-5": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-6": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-7": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-8": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-7-9": [
+    "color",
+    "pattern",
+    "activity"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-8": [
+    "application-method",
+    "color",
+    "pattern",
+    "skiing-style",
+    "activity",
+    "wax-application-method"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-8-1": [
+    "application-method",
+    "color",
+    "pattern",
+    "skiing-style",
+    "activity",
+    "wax-application-method"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-8-2": [
+    "application-method",
+    "color",
+    "pattern",
+    "skiing-style",
+    "activity",
+    "wax-application-method"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-9": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-9-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-10": [
+    "age-group",
+    "color",
+    "pattern",
+    "riding-style"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-11": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "skiing-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-11-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "skiing-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-11-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "skiing-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-11-3": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "skiing-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-12": [
+    "age-group",
+    "color",
+    "material",
+    "pattern",
+    "skiing-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-13": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-13-1": [
+    "age-group",
+    "color",
+    "pattern",
+    "rocker-type",
+    "ski-construction",
+    "skiing-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-13-2": [
+    "age-group",
+    "color",
+    "pattern",
+    "rocker-type",
+    "ski-construction",
+    "skiing-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-14": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-14-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-14-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-14-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-15": [
+    "accessory-size",
+    "age-group",
+    "binding-mount",
+    "color",
+    "flexibility-rating",
+    "material",
+    "pattern",
+    "riding-style",
+    "shoe-binding-type",
+    "toe-strap-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-16": [
+    "age-group",
+    "color",
+    "pattern",
+    "shoe-size",
+    "snowboarding-style",
+    "stiffness",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-2-17": [
+    "age-group",
+    "color",
+    "pattern",
+    "recommended-skill-level",
+    "snowboard-construction",
+    "snowboard-design",
+    "snowboarding-style",
+    "target-gender"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-3-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-3-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-3-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-3-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-3-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-3-6": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-4-1": [
+    "accessory-size",
+    "age-group",
+    "binding-mount",
+    "color",
+    "flexibility-rating",
+    "material",
+    "pattern",
+    "riding-style",
+    "shoe-binding-type",
+    "toe-strap-type"
+  ],
+  "gid://shopify/TaxonomyCategory/sg-4-17-4-2": [
+    "age-group",
+    "color",
+    "material",
+    "pattern",
+    "shoe-binding-type",
+    "suitable-for-snowshoeing-activity",
+    "target-gender",
+    "terrain"
+  ]
+}

@@ -1,0 +1,1802 @@
+{
+  "gid://shopify/TaxonomyCategory/tg": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "timepiece-features",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-2": [
+    "color",
+    "game-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-3": [
+    "color",
+    "game-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-4": [
+    "color",
+    "game-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-4-1": [
+    "color",
+    "game-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-4-2": [
+    "color",
+    "game-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-5": [
+    "board-game-features",
+    "board-game-mechanics",
+    "color",
+    "gameplay-skills",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-7": [
+    "color",
+    "condition",
+    "pattern",
+    "recommended-age-group",
+    "theme",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-8": [
+    "color",
+    "dexterity-skills",
+    "game-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-9": [
+    "color",
+    "dice-shape",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-10": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-10-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-11": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-12": [
+    "color",
+    "connectivity-technology",
+    "video-game-genre",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-13": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-14": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "slot-machine-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-2-15": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "tile-game-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-2": [
+    "color",
+    "outdoor-equipment-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-4": [
+    "color",
+    "outdoor-equipment-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-5": [
+    "color",
+    "outdoor-equipment-features",
+    "pattern",
+    "playhouse-design",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-7": [
+    "color",
+    "furniture-fixture-material",
+    "outdoor-equipment-features",
+    "pattern",
+    "recommended-age-group",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-7-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "furniture-fixture-material",
+    "outdoor-equipment-features",
+    "pattern",
+    "recommended-age-group",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-7-2": [
+    "color",
+    "cover-features",
+    "cover-material",
+    "pattern",
+    "recommended-age-group",
+    "shape"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-8": [
+    "color",
+    "outdoor-equipment-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-9": [
+    "color",
+    "outdoor-equipment-features",
+    "pattern",
+    "play-slide-design",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-10": [
+    "color",
+    "outdoor-equipment-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-11": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-12": [
+    "color",
+    "outdoor-equipment-features",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-13": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "shape",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-14": [
+    "filler-material",
+    "color",
+    "furniture-fixture-material",
+    "pattern",
+    "color",
+    "jumping-surface-material",
+    "pattern",
+    "outdoor-equipment-features",
+    "recommended-age-group",
+    "shape",
+    "trampoline-design"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-15": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-15-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "sprinkler-shape",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-15-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-3-15-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-4": [
+    "color",
+    "difficulty-level",
+    "pattern",
+    "puzzle-theme",
+    "puzzle-type",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-4-6": [
+    "color",
+    "difficulty-level",
+    "pattern",
+    "puzzle-theme",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-4-7": [
+    "color",
+    "difficulty-level",
+    "pattern",
+    "puzzle-theme",
+    "puzzle-type",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-4-9": [
+    "color",
+    "difficulty-level",
+    "pattern",
+    "puzzle-theme",
+    "puzzle-type",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-4-12": [
+    "color",
+    "difficulty-level",
+    "pattern",
+    "puzzle-theme",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-4-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-4-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-4-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-7": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-8": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-9": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-10": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-11": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-1-12": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-3": [
+    "alcohol-solvent-content",
+    "battery-size",
+    "battery-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-6-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-6-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-6-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-6-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-6-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-6-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-7": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-8": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-9": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-10": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "theme",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-2-11": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-3-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "shape",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "shape",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-8": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-9": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-5-10": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-7": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-8": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-9": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-10": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-6-11": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-7": [
+    "building-toy-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-7-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "construction-set-theme",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-7-11": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-7-12": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-7-13": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-7-14": [
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8": [
+    "color",
+    "doll-playset-features",
+    "pattern",
+    "recommended-age-group",
+    "target-gender",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "doll-playset-features",
+    "toy-figure-theme",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-1-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "doll-playset-features",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-1-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "recommended-age-group",
+    "doll-playset-features",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "doll-playset-features",
+    "toy-figure-theme",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "lumber-wood-type",
+    "pattern",
+    "recommended-age-group",
+    "doll-playset-features",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "doll-playset-features",
+    "doll-type",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-7": [
+    "color",
+    "doll-playset-features",
+    "doll-type",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-8": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-9": [
+    "color",
+    "pattern",
+    "puppet-theme",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-10": [
+    "color",
+    "pattern",
+    "puppet-theme",
+    "puppet-type",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-11": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-3": [
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-6": [
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-7": [
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-8": [
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-8-12-9": [
+    "color",
+    "pattern",
+    "doll-playset-features",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-2-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-2-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-2-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-2-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-2-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-2-7": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-4": [
+    "color",
+    "flash-card-theme",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "reading-toy-type",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-6": [
+    "alcohol-solvent-content",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-9-7": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-10": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-10-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-11": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-10": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-3": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-12-8": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13": [
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-1": [
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-2": [
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-4": [
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-6": [
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-9": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-12": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-13": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-14": [
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-13-15": [
+    "color",
+    "pattern",
+    "power-source",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-14": [
+    "color",
+    "compatible-play-vehicle-type",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15": [
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-2": [
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-4": [
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-5": [
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-15-9": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "play-vehicle-propulsion",
+    "recommended-age-group",
+    "remote-technology",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "pretend-electronics-toy-type",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-3": [
+    "color",
+    "pattern",
+    "pretend-housekeeping-toy-type",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-7": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-7-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-7-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-7-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-7-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-16-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-tool-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-17": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-2": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-18-8": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "skill-level",
+    "suitable-space",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-19": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-20": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "riding-toy-propulsion-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-20-1": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "riding-toy-propulsion-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-20-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "riding-toy-propulsion-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-20-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "riding-toy-propulsion-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-20-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "riding-toy-propulsion-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-20-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "riding-toy-propulsion-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-21": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-29": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-22": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-6": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-7": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-8": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "construction",
+    "embellishment-trim-material",
+    "jewelry-material",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-8-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-8-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-8-4": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-8-5": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-8-6": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-9": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-10": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-11": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-12": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-13": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-23-14": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-24": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-25": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-26": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-27": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-27-1": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-27-2": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/tg-5-28": [
+    "color",
+    "pattern",
+    "recommended-age-group",
+    "toy-game-material"
+  ]
+}

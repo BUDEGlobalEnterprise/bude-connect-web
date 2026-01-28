@@ -1,0 +1,2288 @@
+{
+  "gid://shopify/TaxonomyCategory/ap-2": [
+    "animal-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-1": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-1-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-1-2-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-1-2-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-1-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-2": [
+    "accessory-size",
+    "bird-cage-stand-design",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-3": [
+    "bird-food-form",
+    "bird-food-ingredients",
+    "suitable-for-bird-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-4": [
+    "lumber-wood-type",
+    "suitable-for-bird-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-5": [
+    "lumber-wood-type",
+    "suitable-for-bird-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-5-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-5-2": [
+    "lumber-wood-type",
+    "material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6": [
+    "battery-size",
+    "battery-type",
+    "lumber-wood-type",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-1": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-2": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-3": [
+    "battery-size",
+    "battery-type",
+    "lumber-wood-type",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-4": [
+    "battery-size",
+    "battery-type",
+    "lumber-wood-type",
+    "toy-game-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-5": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-7": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-8": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-6-9": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-1-7": [
+    "bird-treat-type",
+    "package-type",
+    "pet-supply-product-form",
+    "suitable-for-bird-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-1": [
+    "cat-age-group",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-form",
+    "pet-food-supplements"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-1-1": [
+    "cat-age-group",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-form",
+    "pet-food-supplements"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-1-2": [
+    "cat-age-group",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-form",
+    "pet-food-supplements"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2-1": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2-2": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2-3": [
+    "color",
+    "furniture-fixture-material",
+    "lumber-wood-type",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2-4": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2-5": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2-6": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-2-7": [
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-4": [
+    "cat-litter-formula",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-4-1": [
+    "care-instructions",
+    "absorbent-hygiene-product-features",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-4-2": [
+    "care-instructions",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-4-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-1": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-2": [
+    "battery-size",
+    "battery-type",
+    "material-treatment",
+    "plant-material",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-3": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-4": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-5": [
+    "battery-size",
+    "battery-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-6": [
+    "battery-size",
+    "battery-type",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-7": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-9": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-10": [
+    "color",
+    "pattern",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-11": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-5-12": [
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-2-6": [
+    "cat-age-group",
+    "material-treatment",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-supplements",
+    "pet-supply-product-form",
+    "pet-treat-type",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-1": [
+    "accessory-size",
+    "care-instructions",
+    "absorbent-hygiene-product-features",
+    "material",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-2": [
+    "accessory-size",
+    "care-instructions",
+    "color",
+    "absorbent-hygiene-product-features",
+    "accessory-size",
+    "dog-diaper-type",
+    "material",
+    "pattern",
+    "usage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-3": [
+    "dog-age-group",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-form",
+    "pet-food-supplements"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-3-1": [
+    "dog-age-group",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-form",
+    "pet-food-supplements"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-3-2": [
+    "dog-age-group",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-form",
+    "pet-food-supplements"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-4": [
+    "color",
+    "outdoor-equipment-features",
+    "material",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-5": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-6": [
+    "color",
+    "outdoor-equipment-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-6-1": [
+    "color",
+    "outdoor-equipment-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-6-2": [
+    "color",
+    "material",
+    "outdoor-equipment-features",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-6-3": [
+    "color",
+    "outdoor-equipment-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-6-4": [
+    "color",
+    "outdoor-equipment-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-6-5": [
+    "color",
+    "outdoor-equipment-features",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-7": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "dog-age-group",
+    "dog-toy-type",
+    "pattern",
+    "suitable-for-breed-size",
+    "toy-game-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-8": [
+    "control-technology",
+    "dog-age-group",
+    "exercise-machine-features",
+    "suitable-for-breed-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-3-9": [
+    "dog-age-group",
+    "package-type",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-food-form",
+    "pet-food-supplements",
+    "pet-supply-product-form",
+    "pet-treat-texture",
+    "pet-treat-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-1-1": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-1-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-1-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-1-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-1-5": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-2": [
+    "accessory-size",
+    "color",
+    "compatible-aquarium",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-2-1": [
+    "accessory-size",
+    "color",
+    "compatible-aquarium",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-2-2": [
+    "accessory-size",
+    "color",
+    "compatible-aquarium",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-2-3": [
+    "accessory-size",
+    "color",
+    "compatible-aquarium",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-2-4": [
+    "accessory-size",
+    "color",
+    "compatible-aquarium",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-2-5": [
+    "accessory-size",
+    "color",
+    "compatible-aquarium",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3": [
+    "alcohol-solvent-content",
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-1": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-2": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-3": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-4": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-5": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-6": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-7": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-3-8": [
+    "compatible-aquarium"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "lumber-wood-type",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-1": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-2": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-3": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-4": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-5": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "material-treatment",
+    "pattern",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-6": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-7": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "lumber-wood-type",
+    "material-treatment",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-8": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "lumber-wood-type",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-4-9": [
+    "accessory-size",
+    "color",
+    "decoration-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-5": [
+    "aquarium-filter-features",
+    "filter-type",
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-5-1": [
+    "aquarium-filter-features",
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-5-2": [
+    "aquarium-filter-features",
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-5-3": [
+    "aquarium-filter-features",
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-5-4": [
+    "aquarium-filter-features",
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-5-5": [
+    "aquarium-filter-features",
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-6": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-6-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-6-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-6-3": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-6-4": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7": [
+    "color",
+    "gravel-substrate-material",
+    "pattern",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7-1": [
+    "color",
+    "material-treatment",
+    "pattern",
+    "plant-material",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7-2": [
+    "color",
+    "pattern",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7-3": [
+    "color",
+    "pattern",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7-4": [
+    "color",
+    "pattern",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7-5": [
+    "color",
+    "pattern",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7-6": [
+    "color",
+    "pattern",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-7-7": [
+    "color",
+    "pattern",
+    "substrate-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-8": [
+    "aquarium-light-spectrum",
+    "light-source",
+    "lighting-features",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-9": [
+    "aquarium-overflow-box-design",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-10": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-10-1": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-10-2": [
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-10-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-10-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-11": [
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-11-1": [
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-11-2": [
+    "power-source",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12": [
+    "alcohol-solvent-content",
+    "material-treatment",
+    "plant-material",
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-1": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-2": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-3": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-4": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-5": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-6": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-7": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-12-8": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-14": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-14-1": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-14-2": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-14-3": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-14-4": [
+    "suitable-for-water-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-15": [
+    "battery-size",
+    "battery-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "pet-supply-product-form",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-1": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-2": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-3": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-4": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-5": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-6": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-7": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-8": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-4-16-9": [
+    "fish-type",
+    "package-type",
+    "pet-food-flavor",
+    "suitable-for-fish-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-1": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-2": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-3": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-4": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-5": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-6": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-7": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-5-8": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-1": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-2": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-3": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-4": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-5": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-6": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-7": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-8": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-9": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-10": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-11": [
+    "accessory-size",
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-12": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-13": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-14": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "footwear-material",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-15": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-16": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-6-17": [
+    "accessory-size",
+    "animal-type",
+    "care-instructions",
+    "color",
+    "fabric",
+    "pattern",
+    "pet-apparel-bedding-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-7": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-8": [
+    "animal-type",
+    "color",
+    "pattern",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-1": [
+    "accessory-size",
+    "animal-type",
+    "basket-material",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-2": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-3": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-4": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-5": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-6": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-7": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-8": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-9": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space",
+    "upholstery-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-10": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-11": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-12": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-9-13": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-apparel-bedding-features",
+    "shape",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-10": [
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-10-1": [
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-10-2": [
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-10-3": [
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-11": [
+    "connectivity-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-11-1": [
+    "connectivity-technology",
+    "sensor-measuring-tool-features",
+    "pet-monitor-items-included"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-11-2": [
+    "connectivity-technology"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-11-3": [
+    "battery-size",
+    "battery-type",
+    "connectivity-technology",
+    "pet-thermometer-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-12": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-13": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-1": [
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-2": [
+    "animal-type",
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-3": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-4": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-5": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-6": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-7": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-14-8": [
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-15": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-1": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-2": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-3": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-4": [
+    "animal-type",
+    "furniture-fixture-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-5": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-8": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-9": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-10": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-11": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-16-12": [
+    "animal-type",
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-1": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-2": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-3": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-4": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-5": [
+    "accessory-size",
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-6": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-7": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-8": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-9": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-17-10": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-18": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-18-1": [
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-18-2": [
+    "animal-type",
+    "color",
+    "lumber-wood-type",
+    "material",
+    "pattern",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-18-3": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-18-4": [
+    "animal-type",
+    "color",
+    "furniture-fixture-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-18-5": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-18-6": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-19": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-20": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "door-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-20-1": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "door-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-20-2": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "door-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-20-3": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "door-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-20-4": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "door-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-20-5": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "door-material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-21": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-21-1": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-21-2": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-21-3": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-21-4": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-21-5": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-21-6": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-22": [
+    "accessory-size",
+    "first-aid-kit-components"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-22-1": [
+    "accessory-size",
+    "first-aid-kit-components"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-22-2": [
+    "accessory-size",
+    "first-aid-kit-components"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-22-3": [
+    "accessory-size",
+    "first-aid-kit-components"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23-1": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23-2": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23-3": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23-4": [
+    "alcohol-solvent-content",
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23-5": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23-6": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-23-7": [
+    "animal-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-24": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-24-1": [
+    "food-storage-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-24-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-24-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-25": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-1": [
+    "animal-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-1-1": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-1-2": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-1-3": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-1-4": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-1-5": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-1-6": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-2": [
+    "alcohol-solvent-content",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-2-1": [
+    "alcohol-solvent-content",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-2-2": [
+    "alcohol-solvent-content",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-2-3": [
+    "alcohol-solvent-content",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-2-4": [
+    "alcohol-solvent-content",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-3-1": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-3-2": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-3-3": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-3-4": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-3-5": [
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-4": [
+    "color",
+    "material",
+    "pattern",
+    "pet-hair-dryer-design",
+    "pet-hair-dryer-speed-settings"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-5": [
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-6": [
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "lumber-wood-type",
+    "pattern",
+    "pet-nail-tool-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-7": [
+    "animal-type",
+    "constitutive-ingredients"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-7-1": [
+    "animal-type",
+    "constitutive-ingredients"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-7-2": [
+    "animal-type",
+    "constitutive-ingredients"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-7-3": [
+    "animal-type",
+    "constitutive-ingredients"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-1": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-2": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-3": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-4": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-5": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-6": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-7": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-26-8-8": [
+    "animal-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-27": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-28": [
+    "accessory-size",
+    "color",
+    "pattern",
+    "power-source"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-29": [
+    "accessory-size",
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-29-1": [
+    "accessory-size",
+    "animal-type",
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-29-2": [
+    "accessory-size",
+    "animal-type",
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-29-3": [
+    "accessory-size",
+    "animal-type",
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-29-4": [
+    "accessory-size",
+    "animal-type",
+    "material",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-30": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-31": [
+    "animal-type",
+    "color",
+    "leash-design",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-31-1": [
+    "animal-type",
+    "color",
+    "leash-design",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-31-2": [
+    "animal-type",
+    "color",
+    "leash-design",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-31-3": [
+    "animal-type",
+    "color",
+    "leash-design",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-31-4": [
+    "animal-type",
+    "color",
+    "leash-design",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-31-5": [
+    "animal-type",
+    "color",
+    "leash-design",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-31-6": [
+    "animal-type",
+    "color",
+    "leash-design",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-32": [
+    "accessory-size",
+    "animal-type",
+    "pet-control-accessory-features",
+    "pet-medical-collar-design"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-33": [
+    "medical-tape-material",
+    "pet-medical-supply-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34-1": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34-2": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34-3": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34-4": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34-5": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34-6": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-34-7": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-35": [
+    "color",
+    "material",
+    "pattern",
+    "pet-control-accessory-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-1": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-2": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-3": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-5": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-6": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-7": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-8": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-36-9": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-49": [
+    "color",
+    "features",
+    "material",
+    "pattern",
+    "suitable-space"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-39": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "stroller-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-39-1": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "stroller-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-39-2": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "stroller-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-39-3": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "stroller-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-39-4": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "stroller-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-39-5": [
+    "accessory-size",
+    "color",
+    "material",
+    "pattern",
+    "stroller-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-40": [
+    "fragrance-level",
+    "pet-supply-product-form",
+    "product-certifications-standards",
+    "spf-level",
+    "skin-care-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41-1": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-trainer-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41-2": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "absorbent-hygiene-product-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41-2-1": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "absorbent-hygiene-product-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41-2-2": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "absorbent-hygiene-product-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41-2-3": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "absorbent-hygiene-product-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41-3": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "absorbent-hygiene-product-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-41-4": [
+    "animal-type",
+    "color",
+    "material",
+    "pattern",
+    "pet-spray-solution-type",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42": [
+    "pet-dietary-preferences",
+    "pet-dietary-requirements",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-11": [
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-2": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-3": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-4": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-5": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-6": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-7": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-8": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-9": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-42-10": [
+    "pet-dietary-preferences",
+    "pet-food-flavor",
+    "pet-supply-product-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-43": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-43-1": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-43-2": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-43-3": [
+    "material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-44": [
+    "accessory-size"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-45": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-45-1": [
+    "color",
+    "disposable-reusable-item-material",
+    "pattern",
+    "disposable-reusable-bag-features"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-45-2": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-45-3": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-45-4": [
+    "color",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-1": [
+    "animal-type",
+    "pet-supply-product-form",
+    "reptile-amphibian-food-form"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-2": [
+    "accessory-size",
+    "animal-type",
+    "material",
+    "material-treatment",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-3": [
+    "animal-type",
+    "battery-size",
+    "battery-type",
+    "color",
+    "pattern",
+    "lighting-features",
+    "material",
+    "reptile-amphibian-habitat-supply-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-4": [
+    "accessory-size",
+    "animal-type",
+    "habitat-material",
+    "lumber-wood-type",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-4-1": [
+    "accessory-size",
+    "animal-type",
+    "habitat-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-4-2": [
+    "accessory-size",
+    "animal-type",
+    "habitat-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-4-3": [
+    "accessory-size",
+    "animal-type",
+    "habitat-material",
+    "material-treatment",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-4-4": [
+    "accessory-size",
+    "animal-type",
+    "habitat-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-46-5": [
+    "color",
+    "material",
+    "material-treatment",
+    "pattern",
+    "plant-material"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-1": [
+    "animal-type",
+    "color",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-2": [
+    "animal-type",
+    "package-type",
+    "pet-food-flavor",
+    "pet-dietary-requirements",
+    "small-animal-food-form",
+    "small-animal-food-ingredients"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-3": [
+    "animal-type",
+    "lumber-wood-type",
+    "material",
+    "wood-finish"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-4": [
+    "animal-type",
+    "material",
+    "small-animal-habitat-cage-type"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-5": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-5-1": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-5-2": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-5-3": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-5-4": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-5-5": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-47-5-6": [
+    "animal-type",
+    "pet-food-flavor"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-48": [
+    "color",
+    "compatible-vehicle",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-48-1": [
+    "color",
+    "compatible-vehicle",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-48-2": [
+    "color",
+    "compatible-vehicle",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-48-3": [
+    "color",
+    "compatible-vehicle",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-48-4": [
+    "color",
+    "compatible-vehicle",
+    "material",
+    "pattern"
+  ],
+  "gid://shopify/TaxonomyCategory/ap-2-48-5": [
+    "color",
+    "compatible-vehicle",
+    "material",
+    "pattern"
+  ]
+}
