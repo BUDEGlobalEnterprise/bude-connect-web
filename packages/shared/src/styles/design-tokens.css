@@ -2,27 +2,65 @@
 
 :root {
   /* Brand Colors (HSL) */
-  --bude-primary: 221 83% 53%; /* Vivid Blue */
-  --bude-secondary: 262 83% 58%; /* Purple-Indigo */
-  --bude-accent: 142 71% 45%; /* Emerald Green */
+  --bude-primary-50: 221 83% 95%;
+  --bude-primary-100: 221 83% 90%;
+  --bude-primary-200: 221 83% 80%;
+  --bude-primary-300: 221 83% 70%;
+  --bude-primary-400: 221 83% 60%;
+  --bude-primary-500: 221 83% 53%; /* Vivid Blue Base */
+  --bude-primary-600: 221 83% 45%;
+  --bude-primary-700: 221 83% 35%;
+  --bude-primary-800: 221 83% 25%;
+  --bude-primary-900: 221 83% 15%;
+  --bude-primary-950: 221 83% 10%;
+
+  --bude-secondary-50: 262 83% 95%;
+  --bude-secondary-100: 262 83% 90%;
+  --bude-secondary-200: 262 83% 80%;
+  --bude-secondary-300: 262 83% 70%;
+  --bude-secondary-400: 262 83% 65%;
+  --bude-secondary-500: 262 83% 58%; /* Purple Base */
+  --bude-secondary-600: 262 83% 50%;
+  --bude-secondary-700: 262 83% 40%;
+  --bude-secondary-800: 262 83% 30%;
+  --bude-secondary-900: 262 83% 20%;
+  --bude-secondary-950: 262 83% 10%;
+
+  --bude-accent-50: 142 71% 95%;
+  --bude-accent-100: 142 71% 90%;
+  --bude-accent-200: 142 71% 80%;
+  --bude-accent-300: 142 71% 70%;
+  --bude-accent-400: 142 71% 55%;
+  --bude-accent-500: 142 71% 45%; /* Emerald Base */
+  --bude-accent-600: 142 71% 35%;
+  --bude-accent-700: 142 71% 25%;
+  --bude-accent-800: 142 71% 20%;
+  --bude-accent-900: 142 71% 15%;
+  --bude-accent-950: 142 71% 10%;
 
   /* Neutral Palette */
-  --bude-neutral-50: 210 40% 98%;
-  --bude-neutral-100: 210 40% 96%;
-  --bude-neutral-200: 214 32% 91%;
-  --bude-neutral-300: 213 27% 84%;
-  --bude-neutral-400: 215 20% 65%;
-  --bude-neutral-500: 215 16% 47%;
-  --bude-neutral-600: 215 19% 35%;
-  --bude-neutral-700: 215 25% 27%;
-  --bude-neutral-800: 217 33% 17%;
-  --bude-neutral-900: 222 47% 11%;
+  --neutral-50: 210 40% 98%;
+  --neutral-100: 210 40% 96%;
+  --neutral-200: 214 32% 91%;
+  --neutral-300: 213 27% 84%;
+  --neutral-400: 215 20% 65%;
+  --neutral-500: 215 16% 47%;
+  --neutral-600: 215 19% 35%;
+  --neutral-700: 215 25% 27%;
+  --neutral-800: 217 33% 17%;
+  --neutral-900: 222 47% 11%;
+  --neutral-950: 222 47% 7%;
 
   /* Functional Colors */
   --error: 0 84% 60%;
   --warning: 38 92% 50%;
   --success: 142 76% 36%;
   --info: 199 89% 48%;
+
+  /* Legacy Mapping for backward compatibility */
+  --bude-primary: var(--bude-primary-500);
+  --bude-secondary: var(--bude-secondary-500);
+  --bude-accent: var(--bude-accent-500);
 
   /* Glassmorphism Presets */
   --glass-bg: rgba(255, 255, 255, 0.7);

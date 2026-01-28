@@ -25,7 +25,7 @@
         v-model="query"
         type="text"
         :placeholder="modelValue.length === 0 ? placeholder : ''"
-        class="flex-1 min-w-[120px] bg-transparent outline-none placeholder:text-muted-foreground ml-1"
+        class="flex-1 min-w-[120px] bg-transparent outline-none placeholder:text-slate-400/50 ml-1"
         @input="handleInput"
         @focus="handleFocus"
         @keydown.backspace="handleBackspace"

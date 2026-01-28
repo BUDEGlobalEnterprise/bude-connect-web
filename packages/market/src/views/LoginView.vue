@@ -363,11 +363,11 @@ onUnmounted(() => {
 
       <p class="text-center text-xs text-gray-500 mt-6">
         By signing in, you agree to our
-        <a href="#" class="text-primary-600 hover:underline"
+        <a href="https://budeglobal.in/terms" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline"
           >Terms of Service</a
         >
         and
-        <a href="#" class="text-primary-600 hover:underline">Privacy Policy</a>
+        <a href="https://budeglobal.in/privacy" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline">Privacy Policy</a>
       </p>
     </div>
   </div>

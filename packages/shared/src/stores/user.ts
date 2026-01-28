@@ -7,6 +7,7 @@ import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
 import type { User } from '../types';
 import * as authApi from '../api/auth';
+import type { UpdateProfileData } from '../api/auth';
 
 export type AuthMethod = 'credentials' | 'google' | 'otp' | null;
 
@@ -149,7 +150,7 @@ export const useUserStore = defineStore('user', () => {
     }
   }
 
-  async function updateProfile(data: Partial<User>) {
+  async function updateProfile(data: UpdateProfileData) {
     isLoading.value = true;
     error.value = null;
     try {

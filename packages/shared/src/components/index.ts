@@ -84,3 +84,5 @@ export { default as NotificationBell } from './NotificationBell.vue';
 export { default as OnboardingWizard } from './OnboardingWizard.vue';
 export { default as ProfileCompletenessMeter } from './ProfileCompletenessMeter.vue';
 export { default as ReviewSection } from './ReviewSection.vue';
+export { default as FavoriteButton } from './FavoriteButton.vue';
+export { default as ReportDialog } from './ReportDialog.vue';

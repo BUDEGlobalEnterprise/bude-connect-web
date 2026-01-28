@@ -11,77 +11,73 @@ let slideInterval: ReturnType<typeof setInterval>;
 const heroSlides = [
   {
     image: "/hero-1.png",
-    title: "Find Expert Talent",
-    subtitle: "Global Freelance Network",
-    description: "Connect with LMS-verified professionals. Developers, designers, marketers — all vetted and ready.",
-    cta: "Browse Talent",
+    title: "Hire India's Elite Freelance Talent",
+    subtitle: "LMS Certified Experts",
+    description: "Connect with professionals who have cleared rigorous BudeGlobal certifications. Quality work, guaranteed.",
+    cta: "Find Talent",
     ctaLink: "/talent",
+    accent: "bg-blue-600"
   },
   {
     image: "/hero-2.png",
-    title: "Build Your Team",
-    subtitle: "Hire with Confidence",
-    description: "From quick gigs to long-term projects. Find the right skills at the right price.",
+    title: "The Project Hub for Modern Business",
+    subtitle: "Fast Matching",
+    description: "Post your job in minutes and get matched with verified developers, designers, and consultants who deliver results.",
     cta: "Post a Job",
     ctaLink: "/post-job",
+    accent: "bg-indigo-600"
   },
   {
     image: "/hero-3.png",
-    title: "Grow Your Career",
-    subtitle: "For Freelancers",
-    description: "Showcase your skills, get certified, and find clients who value quality work.",
-    cta: "Join as Freelancer",
+    title: "Turn Your Skills into a Global Career",
+    subtitle: "For Professionals",
+    description: "Join as a freelancer, get Bude-certified, and work with top companies seeking verified expertise.",
+    cta: "Start Freelancing",
     ctaLink: "/onboarding",
+    accent: "bg-emerald-600"
   },
 ];
 
 const trustStats = [
-  { value: "1,000+", label: "Verified Freelancers", pulse: "green" },
-  { value: "500+", label: "Jobs Posted", pulse: "blue" },
-  { value: "₹5Cr+", label: "Paid to Freelancers", pulse: "purple" },
-  { value: "4.9★", label: "Avg Rating", pulse: "orange" },
+  { value: "15,000+", label: "Tasks Done", icon: "📋" },
+  { value: "4.95", label: "Avg Rating", icon: "⭐" },
+  { value: "Verified", label: "LMS Passed", icon: "🛡️" },
 ];
 
 const features = [
   {
     icon: "🎓",
-    title: "LMS Verified",
-    description: "All freelancers complete our Learning Management System certification",
-    gradient: "from-blue-500 to-blue-600",
+    title: "LMS Certified",
+    description: "Our proprietary Learning Management System ensures every freelancer is truly an expert.",
+    gradient: "from-blue-500 to-indigo-600",
   },
   {
     icon: "🛡️",
-    title: "Secure Payments",
-    description: "Escrow-protected transactions with milestone-based releases",
-    gradient: "from-green-500 to-green-600",
+    title: "Safe Escrow",
+    description: "Payment is held securely and only released when you're 100% satisfied with the work.",
+    gradient: "from-emerald-500 to-teal-600",
   },
   {
     icon: "⚡",
-    title: "Quick Matching",
-    description: "AI-powered matching finds the perfect freelancer in minutes",
-    gradient: "from-purple-500 to-purple-600",
+    title: "AI Matching",
+    description: "Our algorithms find the perfect match for your job requirements within minutes.",
+    gradient: "from-purple-500 to-fuchsia-600",
   },
   {
-    icon: "💬",
-    title: "Built-in Chat",
-    description: "Communicate seamlessly with integrated messaging",
-    gradient: "from-amber-500 to-amber-600",
+    icon: "📈",
+    title: "Career Growth",
+    description: "Dynamic profiles that showcase real project impact and verified skill badges.",
+    gradient: "from-orange-500 to-amber-600",
   },
 ];
 
 const skillCategories = [
-  { name: "Web Development", icon: "💻", count: 250 },
-  { name: "Mobile Apps", icon: "📱", count: 120 },
-  { name: "UI/UX Design", icon: "🎨", count: 180 },
-  { name: "ERPNext", icon: "📊", count: 95 },
-  { name: "IoT & Embedded", icon: "🔌", count: 65 },
-  { name: "Data Science", icon: "📈", count: 85 },
-];
-
-const topFreelancers = [
-  { name: "Priya S.", skill: "React Developer", rate: "₹800/hr", rating: 5.0, jobs: 48, verified: true },
-  { name: "Rahul M.", skill: "ERPNext Expert", rate: "₹1200/hr", rating: 4.9, jobs: 35, verified: true },
-  { name: "Anjali K.", skill: "UI/UX Designer", rate: "₹600/hr", rating: 4.8, jobs: 62, verified: true },
+  { name: "ERPNext", icon: "📈", count: 120 },
+  { name: "Full Stack", icon: "💻", count: 450 },
+  { name: "UI/UX", icon: "🎨", count: 280 },
+  { name: "AI/ML", icon: "🤖", count: 95 },
+  { name: "DevOps", icon: "🚀", count: 150 },
+  { name: "IoT", icon: "🔌", count: 85 },
 ];
 
 function nextSlide() {
@@ -106,7 +102,7 @@ function goToSlide(index: number) {
 }
 
 onMounted(() => {
-  slideInterval = setInterval(nextSlide, 6000);
+  slideInterval = setInterval(nextSlide, 8000);
 });
 
 onUnmounted(() => {
@@ -115,67 +111,74 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <!-- Hero Carousel Section -->
-    <section class="relative h-[60vh] min-h-[500px] overflow-hidden">
-      <!-- Background Images -->
+  <div class="min-h-screen bg-background transition-colors duration-500">
+    <!-- Immersive Hero Area -->
+    <section class="relative h-[75vh] min-h-[600px] overflow-hidden bg-slate-950 dark:bg-black">
+      <!-- High-tech Background effects -->
+      <div class="absolute inset-0 z-0">
+        <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_30%,_hsl(var(--bude-primary-500)/0.15)_0%,_transparent_50%)]"></div>
+        <div class="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_80%_70%,_hsl(var(--bude-secondary-500)/0.15)_0%,_transparent_50%)]"></div>
+      </div>
+
+      <!-- Hero Slides -->
       <div 
         v-for="(slide, index) in heroSlides" 
         :key="index"
-        class="absolute inset-0 transition-opacity duration-700 ease-in-out"
-        :class="currentSlide === index ? 'opacity-100' : 'opacity-0'"
+        class="absolute inset-0 transition-all duration-1000 ease-in-out z-10"
+        :class="currentSlide === index ? 'opacity-100 scale-100' : 'opacity-0 scale-105 pointer-events-none'"
       >
+        <div class="absolute inset-0 bg-slate-950/50 z-20"></div>
         <img 
           :src="slide.image" 
-          :alt="slide.title"
-          class="w-full h-full object-cover scale-105"
+          class="w-full h-full object-cover opacity-50 mix-blend-overlay"
         />
-      </div>
-      
-      <!-- Gradient Overlay -->
-      <div class="absolute inset-0 bg-gradient-to-r from-primary-900/90 via-primary-800/70 to-primary-700/40" />
-      <div class="absolute inset-0 bg-gradient-to-t from-gray-900/50 via-transparent to-transparent" />
-      
-      <!-- Grid Pattern -->
-      <div class="absolute inset-0 opacity-5">
-        <div class="w-full h-full" style="background-image: linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px); background-size: 40px 40px;"></div>
-      </div>
-
-      <!-- Content -->
-      <div class="relative z-10 flex items-center h-full">
-        <div class="max-w-7xl mx-auto px-6 w-full">
-          <div class="max-w-2xl">
-            <div :key="currentSlide" class="space-y-5 animate-fade-in-up">
-              <!-- Badge -->
-              <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-semibold">
-                <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-                {{ heroSlides[currentSlide].subtitle }}
-              </span>
+        
+        <!-- Content Overlay -->
+        <div class="absolute inset-0 flex items-center z-30">
+          <div class="max-w-7xl mx-auto px-6 w-full">
+            <div class="max-w-4xl space-y-8">
+              <div 
+                v-if="currentSlide === index"
+                class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/5 backdrop-blur-2xl border border-white/10 text-white text-sm font-black uppercase tracking-[0.2em] animate-fade-in"
+              >
+                <span class="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse shadow-[0_0_10px_#3b82f6]"></span>
+                {{ slide.subtitle }}
+              </div>
               
-              <!-- Title -->
-              <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight drop-shadow-xl">
-                {{ heroSlides[currentSlide].title }}
+              <h1 
+                v-if="currentSlide === index"
+                class="text-6xl md:text-8xl lg:text-9xl font-black text-white leading-[0.9] tracking-tighter animate-slide-up"
+              >
+                {{ slide.title }}
               </h1>
               
-              <!-- Description -->
-              <p class="text-lg md:text-xl text-white/90 max-w-xl leading-relaxed">
-                {{ heroSlides[currentSlide].description }}
+              <p 
+                v-if="currentSlide === index"
+                class="text-xl md:text-2xl text-slate-300 max-w-2xl leading-relaxed font-medium animate-slide-up"
+                style="animation-delay: 100ms"
+              >
+                {{ slide.description }}
               </p>
               
-              <!-- CTA Buttons -->
-              <div class="flex flex-col sm:flex-row gap-4 pt-4">
+              <div 
+                v-if="currentSlide === index"
+                class="flex flex-wrap gap-6 pt-6 animate-slide-up"
+                style="animation-delay: 200ms"
+              >
                 <RouterLink 
-                  :to="heroSlides[currentSlide].ctaLink"
-                  class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary-600 font-bold rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 group"
+                  :to="slide.ctaLink"
+                  class="group relative px-12 py-6 bg-primary text-primary-foreground font-black rounded-3xl overflow-hidden transition-all hover:scale-105 shadow-xl"
                 >
-                  {{ heroSlides[currentSlide].cta }}
-                  <span class="transition-transform group-hover:translate-x-1">→</span>
+                  <span class="relative z-10 flex items-center gap-3 text-xl">
+                    {{ slide.cta }}
+                    <span class="group-hover:translate-x-2 transition-transform">→</span>
+                  </span>
                 </RouterLink>
                 <RouterLink 
                   to="/login"
-                  class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-md text-white border-2 border-white/30 font-bold rounded-xl hover:bg-white hover:text-primary-600 transition-all duration-300"
+                  class="px-12 py-6 bg-white/5 backdrop-blur-md text-white border-2 border-white/10 font-black rounded-3xl hover:bg-white/10 transition-all text-xl"
                 >
-                  Get Started Free
+                  Watch Demo
                 </RouterLink>
               </div>
             </div>
@@ -183,225 +186,193 @@ onUnmounted(() => {
         </div>
       </div>
 
-      <!-- Navigation Arrows -->
-      <button 
-        @click="prevSlide"
-        class="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/15 backdrop-blur-md hover:bg-white/30 rounded-full transition-all z-20 group"
-      >
-        <span class="text-white text-xl group-hover:-translate-x-0.5 transition-transform">‹</span>
-      </button>
-      <button 
-        @click="nextSlide"
-        class="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/15 backdrop-blur-md hover:bg-white/30 rounded-full transition-all z-20 group"
-      >
-        <span class="text-white text-xl group-hover:translate-x-0.5 transition-transform">›</span>
-      </button>
-
-      <!-- Slide Indicators -->
-      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-3 z-20">
-        <button
-          v-for="(_, index) in heroSlides"
-          :key="index"
-          @click="goToSlide(index)"
-          class="transition-all duration-300 rounded-full"
-          :class="index === currentSlide ? 'w-10 h-3 bg-white' : 'w-3 h-3 bg-white/40 hover:bg-white/60'"
-        />
-      </div>
-
-      <!-- Trust Stats Ticker -->
-      <div class="absolute bottom-0 left-0 right-0 bg-black/40 backdrop-blur-md border-t border-white/10 z-20 py-3 hidden lg:block">
-        <div class="max-w-7xl mx-auto px-6 flex justify-center gap-12 text-white/80 text-sm font-medium">
-          <div v-for="stat in trustStats" :key="stat.label" class="flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-            <span class="font-bold text-white">{{ stat.value }}</span>
-            <span>{{ stat.label }}</span>
+      <!-- Professional Signal Bar -->
+      <div class="absolute bottom-16 left-1/2 -translate-x-1/2 w-full max-w-6xl px-6 z-40 hidden lg:block">
+        <div class="bg-card/20 dark:bg-card/10 backdrop-blur-3xl border border-white/10 rounded-[3rem] p-10 grid grid-cols-3 gap-16 shadow-2xl">
+          <div v-for="stat in trustStats" :key="stat.label" class="flex items-center gap-8 group">
+            <div class="w-20 h-20 rounded-[2rem] bg-primary/20 flex items-center justify-center text-4xl group-hover:scale-110 group-hover:bg-primary/30 transition-all duration-700">
+              {{ stat.icon }}
+            </div>
+            <div>
+              <p class="text-white font-black text-4xl tracking-tighter">{{ stat.value }}</p>
+              <p class="text-white/50 text-xs font-black uppercase tracking-[0.3em] mt-2">{{ stat.label }}</p>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Slide Controls -->
+      <div class="absolute bottom-16 right-16 flex gap-6 z-40">
+        <button @click="prevSlide" class="w-16 h-16 rounded-3xl border-2 border-white/5 flex items-center justify-center text-white hover:bg-white/10 hover:border-white/20 transition-all text-3xl">‹</button>
+        <button @click="nextSlide" class="w-16 h-16 rounded-3xl border-2 border-white/5 flex items-center justify-center text-white hover:bg-white/10 hover:border-white/20 transition-all text-3xl">›</button>
+      </div>
     </section>
 
-    <!-- Skill Categories -->
-    <section class="py-10 bg-white border-b border-gray-100">
+    <!-- Hot Skill Hub -->
+    <section class="relative z-50 -mt-16 pb-24">
       <div class="max-w-7xl mx-auto px-6">
-        <div class="flex items-center gap-4 overflow-x-auto pb-2 scrollbar-hide">
+        <div class="flex items-center gap-6 overflow-x-auto pb-8 scrollbar-hide pt-4">
           <RouterLink
             v-for="category in skillCategories"
             :key="category.name"
             :to="`/talent?skill=${category.name}`"
-            class="flex-shrink-0 flex items-center gap-3 px-6 py-4 rounded-2xl bg-gray-50 hover:bg-primary-50 hover:shadow-md transition-all group"
+            class="flex-shrink-0 flex items-center gap-6 px-10 py-8 rounded-[2.5rem] bg-card border border-border/50 shadow-xl hover:-translate-y-2 hover:shadow-primary/10 transition-all group"
           >
-            <span class="text-2xl">{{ category.icon }}</span>
+            <span class="text-4xl filter group-hover:scale-125 transition-transform duration-500">{{ category.icon }}</span>
             <div>
-              <p class="font-semibold text-gray-900 group-hover:text-primary-600">{{ category.name }}</p>
-              <p class="text-xs text-gray-500">{{ category.count }}+ experts</p>
+              <p class="font-black text-foreground text-xl tracking-tight group-hover:text-primary transition-colors">{{ category.name }}</p>
+              <p class="text-xs font-bold text-muted-foreground uppercase tracking-widest mt-1">{{ category.count }}+ Available</p>
             </div>
           </RouterLink>
         </div>
       </div>
     </section>
 
-    <!-- Why BudeGlobal Work -->
-    <section class="py-16 bg-gray-50">
+    <!-- Why BudeGlobal Work Section -->
+    <section class="py-32 bg-background">
       <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center mb-12">
-          <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-100 text-primary-600 text-sm font-semibold mb-4">
-            ✨ Why Choose BudeGlobal Work
-          </span>
-          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The Smarter Way to Hire</h2>
-          <p class="text-gray-600 max-w-2xl mx-auto">Built for Indian businesses, designed for global standards.</p>
+        <div class="flex flex-col lg:flex-row gap-20 items-center">
+            <div class="flex-1 space-y-10">
+                <span class="px-5 py-2.5 rounded-full bg-primary/10 text-primary-600 text-sm font-black uppercase tracking-widest">The Work Revolution</span>
+                <h2 class="text-5xl md:text-7xl font-black text-foreground tracking-tighter leading-[0.95]">Experience the Best-in-Class Talent Network</h2>
+                <p class="text-xl text-muted-foreground leading-relaxed font-medium">BudeGlobal Work isn't just a job board. It's a high-performance ecosystem where verified skill meets enterprise enterprise-level demand.</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 pt-4">
+                    <div v-for="f in features" :key="f.title" class="space-y-4 group">
+                        <div class="w-16 h-16 rounded-[1.5rem] bg-card border border-border/50 shadow-xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-500">
+                          {{ f.icon }}
+                        </div>
+                        <h3 class="text-2xl font-black text-foreground tracking-tight">{{ f.title }}</h3>
+                        <p class="text-muted-foreground font-medium">{{ f.description }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-1 relative">
+                <div class="absolute inset-0 bg-blue-600/20 rounded-[4rem] rotate-6 scale-95 blur-2xl"></div>
+                <div class="relative bg-white p-4 rounded-[4rem] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] overflow-hidden">
+                    <img src="/hero-1.png" class="rounded-[3rem] w-full" />
+                    <!-- Floating Badge -->
+                    <div class="absolute top-10 right-10 p-6 bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl border border-white space-y-2 animate-float">
+                        <div class="flex gap-1 text-amber-400">
+                            <span v-for="i in 5" :key="i">★</span>
+                        </div>
+                        <p class="font-black text-slate-950">Top Choice 2024</p>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Enterprise Badge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Talent Showcase Carousel -->
+    <section class="py-32 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 mb-20 flex flex-col md:flex-row md:items-end justify-between gap-10">
+            <div class="space-y-4">
+                <h2 class="text-5xl font-black text-slate-950 tracking-tighter">Verified Star Talent</h2>
+                <p class="text-xl text-slate-400 font-bold uppercase tracking-[0.2em]">Recently Certified Experts</p>
+            </div>
+            <RouterLink to="/talent" class="px-10 py-5 bg-slate-100 text-slate-950 font-black rounded-2xl hover:bg-slate-200 transition-all flex items-center gap-3">
+                See All Talent Networks
+                <span>→</span>
+            </RouterLink>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div 
-            v-for="(feature, index) in features" 
-            :key="feature.title"
-            class="p-6 rounded-2xl bg-white shadow-sm hover:shadow-lg transition-all group"
-            :style="{ animationDelay: `${index * 100}ms` }"
-          >
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
             <div 
-              class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-4 shadow-lg group-hover:scale-110 transition-transform"
-              :class="`bg-gradient-to-br ${feature.gradient}`"
+                v-for="(t, i) in [
+                    { name: 'Arjun V.', role: 'Senior ERPNext Architect', tags: ['Gold Certified', '150+ Jobs'] },
+                    { name: 'Saira K.', role: 'Lead UI/UX Strategist', tags: ['Award Winner', 'Design Expert'] },
+                    { name: 'Vikram R.', role: 'AI Integration Master', tags: ['Fast Response', 'Top Rated'] }
+                ]" 
+                :key="t.name"
+                class="group p-10 rounded-[3rem] bg-[#F8FAFC] border-2 border-transparent hover:border-primary-500/20 hover:bg-white hover:shadow-2xl transition-all duration-500"
             >
-              {{ feature.icon }}
-            </div>
-            <h3 class="text-lg font-bold text-gray-900 mb-2">{{ feature.title }}</h3>
-            <p class="text-gray-600 text-sm">{{ feature.description }}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Top Freelancers -->
-    <section class="py-16 bg-white">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="flex items-center justify-between mb-10">
-          <div>
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Top Rated Freelancers</h2>
-            <p class="text-gray-500 mt-1">Hand-picked talent ready to work</p>
-          </div>
-          <RouterLink to="/talent" class="hidden md:flex items-center gap-2 text-primary-600 font-semibold hover:text-primary-700">
-            View All →
-          </RouterLink>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-6">
-          <div 
-            v-for="freelancer in topFreelancers" 
-            :key="freelancer.name"
-            class="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-all group"
-          >
-            <div class="flex items-start gap-4 mb-4">
-              <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center text-white text-2xl font-bold shadow-lg">
-                {{ freelancer.name.charAt(0) }}
-              </div>
-              <div class="flex-1">
-                <div class="flex items-center gap-2">
-                  <h3 class="font-bold text-gray-900">{{ freelancer.name }}</h3>
-                  <span v-if="freelancer.verified" class="text-green-500 text-sm">✓</span>
+                <div class="w-24 h-24 rounded-[2rem] bg-gradient-to-br from-primary-500 to-indigo-600 mb-8 flex items-center justify-center text-white text-4xl font-black shadow-xl group-hover:rotate-6 transition-transform">
+                    {{ t.name[0] }}
                 </div>
-                <p class="text-gray-500 text-sm">{{ freelancer.skill }}</p>
-              </div>
-            </div>
-            
-            <div class="flex items-center justify-between text-sm mb-4">
-              <span class="font-bold text-primary-600">{{ freelancer.rate }}</span>
-              <span class="text-gray-500">{{ freelancer.jobs }} jobs done</span>
-              <span class="flex items-center gap-1 text-amber-500">⭐ {{ freelancer.rating }}</span>
-            </div>
-
-            <RouterLink 
-              to="/talent"
-              class="block w-full text-center py-3 bg-white border border-gray-200 rounded-xl font-medium text-gray-700 hover:bg-primary-600 hover:text-white hover:border-primary-600 transition-all"
-            >
-              View Profile
-            </RouterLink>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- For Freelancers Section -->
-    <section class="py-16 bg-gradient-to-br from-primary-50 to-white">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-100 text-primary-600 text-sm font-semibold mb-4">
-              🚀 For Freelancers
-            </span>
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Take Your Career to New Heights</h2>
-            <p class="text-gray-600 mb-6">Join BudeGlobal's growing community of verified freelancers. Get matched with clients who value quality work.</p>
-            
-            <ul class="space-y-4 mb-8">
-              <li class="flex items-center gap-3">
-                <span class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-sm">✓</span>
-                <span class="text-gray-700">Free to join — no hidden fees</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <span class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-sm">✓</span>
-                <span class="text-gray-700">Get LMS certified for more visibility</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <span class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-sm">✓</span>
-                <span class="text-gray-700">Weekly payouts to your bank</span>
-              </li>
-            </ul>
-
-            <RouterLink 
-              to="/onboarding"
-              class="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl hover:bg-primary-700 transition-all"
-            >
-              Join as Freelancer →
-            </RouterLink>
-          </div>
-          
-          <div class="relative">
-            <img src="/hero-1.png" alt="Freelancers" class="rounded-2xl shadow-2xl" />
-            <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4">
-              <div class="flex items-center gap-3">
-                <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-2xl">💰</div>
-                <div>
-                  <p class="font-bold text-gray-900">₹5Cr+</p>
-                  <p class="text-xs text-gray-500">Paid to Freelancers</p>
+                <h3 class="text-3xl font-black text-slate-950 mb-2 tracking-tight">{{ t.name }}</h3>
+                <p class="text-lg font-bold text-slate-400 mb-8">{{ t.role }}</p>
+                <div class="flex flex-wrap gap-2 mb-10">
+                    <span v-for="tag in t.tags" :key="tag" class="px-4 py-1.5 rounded-full bg-white text-slate-600 text-xs font-black uppercase tracking-widest border border-slate-200">{{ tag }}</span>
                 </div>
-              </div>
+                <RouterLink to="/talent" class="block text-center py-5 bg-slate-950 text-white font-black rounded-2xl group-hover:bg-primary-600 transition-colors tracking-tight">
+                    Hire {{ t.name.split(' ')[0] }}
+                </RouterLink>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-16 bg-gradient-to-r from-primary-600 to-primary-500">
-      <div class="max-w-4xl mx-auto px-6 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Get Started?</h2>
-        <p class="text-white/90 text-lg mb-8">Whether you're hiring or looking for work — BudeGlobal Work has you covered.</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <RouterLink to="/post-job" class="px-8 py-4 bg-white text-primary-600 font-bold rounded-xl shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
-            Post a Job →
-          </RouterLink>
-          <RouterLink to="/talent" class="px-8 py-4 bg-white/20 backdrop-blur text-white border-2 border-white/30 font-bold rounded-xl hover:bg-white hover:text-primary-600 transition-all">
-            Find Talent
-          </RouterLink>
+    <!-- Impact Counter -->
+    <section class="py-40 bg-slate-950 dark:bg-black relative overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,_hsl(var(--bude-primary-500))_0%,_transparent_70%)]"></div>
         </div>
-      </div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10 text-center space-y-16">
+            <h2 class="text-6xl md:text-8xl font-black text-white tracking-tighter leading-[0.9]">Transforming the Digital Gig Economy</h2>
+            <div class="grid md:grid-cols-3 gap-20">
+                <div v-for="c in [
+                    { val: '₹12Cr+', label: 'Volume' },
+                    { val: '2,500', label: 'Certified' },
+                    { val: '98%', label: 'Retention' }
+                ]" :key="c.label" class="space-y-4 p-10 border-l border-white/10 text-left transition-all hover:bg-white/5">
+                    <p class="text-6xl md:text-8xl font-black text-white tracking-widest">{{ c.val }}</p>
+                    <p class="text-white/40 font-black uppercase tracking-[0.5em] text-sm">{{ c.label }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ultimate CTA -->
+    <section class="py-32 bg-background border-t border-border/50">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="p-16 rounded-[4rem] bg-primary text-primary-foreground shadow-2xl text-center space-y-10 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-20 -mt-20 blur-3xl"></div>
+                <div class="relative z-10">
+                    <h2 class="text-5xl md:text-7xl font-black text-primary-foreground tracking-tighter mb-8">Ready to Elevate Your Work?</h2>
+                    <p class="text-primary-foreground/80 text-2xl font-medium max-w-2xl mx-auto mb-12">Whether you're looking for the best talent or your next big project — BudeGlobal Work is your destination.</p>
+                    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                        <RouterLink to="/post-job" class="px-12 py-6 bg-background text-primary-600 font-black rounded-[2rem] shadow-2xl hover:scale-105 transition-all text-xl">
+                            Hire Top Talent Now
+                        </RouterLink>
+                        <RouterLink to="/onboarding" class="px-12 py-6 bg-primary-800/20 text-primary-foreground border-2 border-primary-foreground/20 font-black rounded-[2rem] hover:bg-background hover:text-primary-600 transition-all text-xl">
+                            Join as Freelancer
+                        </RouterLink>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
   </div>
 </template>
 
 <style scoped>
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-.animate-fade-in-up {
-  animation: fade-in-up 0.6s ease-out forwards;
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(60px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(-30px) rotate(2deg); }
+}
+
+.animate-fade-in {
+  animation: fade-in 1.2s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slide-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
 }
 
 .scrollbar-hide {

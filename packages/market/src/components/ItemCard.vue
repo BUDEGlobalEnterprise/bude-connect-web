@@ -3,7 +3,7 @@ import { computed } from "vue";
 import { RouterLink } from "vue-router";
 import type { MarketItem } from "@bude/shared/types";
 import { formatPrice, timeAgo } from "@bude/shared/utils";
-import { LazyImage, Badge } from "@bude/shared/components";
+import { LazyImage, Badge, FavoriteButton } from "@bude/shared/components";
 
 const props = defineProps<{
   item: MarketItem;
@@ -70,22 +70,24 @@ const displayPrice = computed(() => {
       </div>
 
       <!-- Distance Badge (Top Right) -->
-      <div v-if="item.distanceKm" class="absolute top-3 right-3">
+      <div v-if="item.distanceKm" class="absolute top-3 right-3 flex items-center gap-2">
         <span class="bg-black/70 backdrop-blur-sm text-white text-xs font-medium px-2.5 py-1 rounded-full shadow-lg">
           📍 {{ item.distanceKm.toFixed(1) }} km
         </span>
       </div>
 
-      <!-- Wishlist Button (Top Right, shown on hover) -->
-      <button
+      <!-- Favorite Button (Top Right, shown on hover) -->
+      <div
         v-if="!item.distanceKm"
-        class="absolute top-3 right-3 w-8 h-8 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-white hover:scale-110 shadow-md"
-        @click.prevent.stop
+        class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       >
-        <svg class="w-4 h-4 text-gray-400 hover:text-red-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-        </svg>
-      </button>
+        <FavoriteButton
+          reference-doctype="Item"
+          :reference-name="item.name || item.itemCode"
+          size="sm"
+          variant="overlay"
+        />
+      </div>
     </div>
 
     <!-- Content -->

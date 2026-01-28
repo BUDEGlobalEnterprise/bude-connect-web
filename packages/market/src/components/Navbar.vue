@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, ref } from "vue";
 import { RouterLink, useRouter } from "vue-router";
 import { useUserStore, useWalletStore } from "@bude/shared";
-import { SearchBar } from "@bude/shared/components";
+import { SearchBar, NotificationBell } from "@bude/shared/components";
+
+const showMobileSearch = ref(false);
 
 const router = useRouter();
 const userStore = useUserStore();
@@ -41,6 +43,16 @@ async function handleLogout() {
 
         <!-- Actions -->
         <div class="flex items-center gap-4">
+          <!-- Mobile Search Toggle -->
+          <button
+            class="md:hidden p-2 rounded-full hover:bg-gray-100 transition-colors text-gray-600"
+            @click="showMobileSearch = !showMobileSearch"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+
           <RouterLink
             v-if="userStore.isLoggedIn"
             to="/post"
@@ -66,7 +78,7 @@ async function handleLogout() {
             <!-- Wallet Balance -->
             <RouterLink
               to="/wallet"
-              class="flex items-center gap-1 px-3 py-1.5 bg-accent-50 text-accent-700 rounded-full font-medium"
+              class="hidden sm:flex items-center gap-1 px-3 py-1.5 bg-accent-50 text-accent-700 rounded-full font-medium"
             >
               <svg
                 class="w-4 h-4"
@@ -83,6 +95,9 @@ async function handleLogout() {
               </svg>
               {{ balance }} Credits
             </RouterLink>
+
+            <!-- Notifications -->
+            <NotificationBell />
 
             <!-- User Menu -->
             <div class="relative group">
@@ -114,9 +129,24 @@ async function handleLogout() {
                     >My Ads</RouterLink
                   >
                   <RouterLink
+                    to="/favorites"
+                    class="block px-4 py-2 text-gray-700 hover:bg-gray-50"
+                    >Saved Items</RouterLink
+                  >
+                  <RouterLink
+                    to="/messages"
+                    class="block px-4 py-2 text-gray-700 hover:bg-gray-50"
+                    >Messages</RouterLink
+                  >
+                  <RouterLink
                     to="/wallet"
                     class="block px-4 py-2 text-gray-700 hover:bg-gray-50"
                     >Wallet</RouterLink
+                  >
+                  <RouterLink
+                    to="/notifications"
+                    class="block px-4 py-2 text-gray-700 hover:bg-gray-50"
+                    >Notifications</RouterLink
                   >
                   <button
                     @click="handleLogout"
@@ -133,6 +163,14 @@ async function handleLogout() {
             Login
           </RouterLink>
         </div>
+      </div>
+
+      <!-- Mobile Search (expandable) -->
+      <div
+        v-if="showMobileSearch"
+        class="md:hidden pb-3"
+      >
+        <SearchBar placeholder="Search for anything..." />
       </div>
     </div>
   </nav>

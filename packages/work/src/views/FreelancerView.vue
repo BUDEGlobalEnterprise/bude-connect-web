@@ -4,7 +4,7 @@ import { useRoute } from "vue-router";
 import { getFreelancer } from "@bude/shared/api";
 import { useUserStore, useWalletStore } from "@bude/shared";
 import { formatPrice } from "@bude/shared/utils";
-import { Avatar, Badge, LoadingSkeleton, ReviewSection } from "@bude/shared/components";
+import { Avatar, Badge, LoadingSkeleton, ReviewSection, FavoriteButton, ReportDialog } from "@bude/shared/components";
 import type { Freelancer } from "@bude/shared/types";
 import UnlockButton from "../components/UnlockButton.vue";
 import ContactCard from "../components/ContactCard.vue";
@@ -16,6 +16,7 @@ const walletStore = useWalletStore();
 
 const freelancer = ref<Freelancer | null>(null);
 const isLoading = ref(true);
+const showReportDialog = ref(false);
 
 const contactUnlocked = computed(
   () =>
@@ -61,13 +62,32 @@ onMounted(loadFreelancer);
             :verified="freelancer.is_verified_expert"
           />
           <div class="flex-1">
-            <div class="flex items-center gap-3 mb-2">
-              <h1 class="text-2xl font-bold text-gray-900">
-                {{ freelancer.supplier_name }}
-              </h1>
-              <Badge v-if="freelancer.is_verified_expert" variant="success"
-                >Verified Expert</Badge
-              >
+            <div class="flex items-center justify-between mb-2">
+              <div class="flex items-center gap-3">
+                <h1 class="text-2xl font-bold text-gray-900">
+                  {{ freelancer.supplier_name }}
+                </h1>
+                <Badge v-if="freelancer.is_verified_expert" variant="success"
+                  >Verified Expert</Badge
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <FavoriteButton
+                  reference-doctype="Supplier"
+                  :reference-name="freelancer.name"
+                  size="md"
+                  variant="inline"
+                />
+                <button
+                  @click="showReportDialog = true"
+                  class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors"
+                  aria-label="Report profile"
+                >
+                  <svg class="w-4 h-4 text-gray-400 hover:text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+                  </svg>
+                </button>
+              </div>
             </div>
             <p class="text-2xl font-bold text-primary-600 mb-2">
               {{ formatPrice(freelancer.hourly_rate) }}/hr
@@ -113,5 +133,14 @@ onMounted(loadFreelancer);
         />
       </div>
     </div>
+
+    <!-- Report Dialog -->
+    <ReportDialog
+      v-if="freelancer"
+      :open="showReportDialog"
+      :reference-doctype="'Supplier'"
+      :reference-name="freelancer.name"
+      @update:open="showReportDialog = $event"
+    />
   </div>
 </template>

@@ -26,7 +26,7 @@ let observer: IntersectionObserver | null = null;
 
 const selectedCategoryName = computed(() => {
   if (searchQuery.value) return `Results for "${searchQuery.value}"`;
-  if (!selectedCategory.value) return "All Products";
+  if (!selectedCategory.value) return "Premium Recommendations";
   const v = verticals.value.find((v) => v.id === selectedCategory.value);
   return v?.name || selectedCategory.value;
 });
@@ -39,35 +39,44 @@ let slideInterval: ReturnType<typeof setInterval>;
 const heroSlides = [
   {
     image: "/hero-1.png",
-    title: "Trade Globally",
-    subtitle: "B2B Marketplace",
-    description: "Connect with verified suppliers and buyers. Buy, sell, and trade surplus goods across India.",
-    cta: "Browse Products",
+    title: "India's Smartest B2B Marketplace",
+    subtitle: "Verified & Secure",
+    description: "Connect directly with trusted suppliers, liquidators, and businesses. Skip the middlemen and trade with confidence.",
+    cta: "Explore Market",
     ctaLink: "#products",
+    accent: "from-blue-600 to-indigo-600"
   },
   {
     image: "/hero-2.png",
-    title: "Trusted Partners",
-    subtitle: "Secure Transactions",
-    description: "Join 500+ verified businesses on India's growing B2B platform. Safe, secure, reliable.",
-    cta: "Post Your Ad",
+    title: "Turn Your Surplus Into Capital",
+    subtitle: "Liquidate Faster",
+    description: "Got slow-moving inventory or scrap? List it on BudeGlobal and reach thousands of verified professional buyers instantly.",
+    cta: "List Your Surplus",
     ctaLink: "/post",
+    accent: "from-emerald-500 to-teal-600"
   },
   {
     image: "/hero-3.png",
-    title: "Grow Your Business",
-    subtitle: "Empower Local Sellers",
-    description: "Whether you're selling surplus, renting equipment, or trading scrap — we've got you covered.",
-    cta: "Start Selling",
-    ctaLink: "/post",
+    title: "Equipment Rentals Simplified",
+    subtitle: "Asset Optimization",
+    description: "Rent heavy machinery, office equipment, or tools from local businesses. Minimize overhead, maximize output.",
+    cta: "Find Equipment",
+    ctaLink: "#products",
+    accent: "from-amber-500 to-orange-600"
   },
 ];
 
+const listingTypes = [
+  { value: "Sell", label: "Buy & Sell", icon: "🤝", color: "from-blue-500 to-blue-600", desc: "Premium Goods" },
+  { value: "Surplus", label: "Surplus", icon: "📦", color: "from-emerald-500 to-emerald-600", desc: "Bulk Savings" },
+  { value: "Rent", label: "Rentals", icon: "🔄", color: "from-amber-500 to-amber-600", desc: "Flexible Usage" },
+  { value: "Scrap", label: "Scrap/Recycle", icon: "♻️", color: "from-purple-500 to-purple-600", desc: "Resource Recovery" },
+];
+
 const trustStats = [
-  { value: "500+", label: "Verified Businesses", pulse: "green" },
-  { value: "₹10Cr+", label: "Trade Volume", pulse: "blue" },
-  { value: "50+", label: "Categories", pulse: "purple" },
-  { value: "24/7", label: "Support", pulse: "orange" },
+  { value: "5,000+", label: "Wholesalers", icon: "🏢" },
+  { value: "₹25Cr+", label: "Trade Flow", icon: "📈" },
+  { value: "Verified", label: "KYC Only", icon: "🛡️" },
 ];
 
 function nextSlide() {
@@ -106,7 +115,7 @@ async function loadFeed(isInitial = true) {
       listingType: (selectedListingType.value as any) || undefined,
       search: searchQuery.value || undefined,
       lastId: lastId.value || undefined,
-      pageSize: 20
+      pageSize: 24
     });
     
     if (isInitial) {
@@ -141,6 +150,8 @@ async function loadCategories() {
 
 function handleCategorySelect(category: string | null) {
   selectedCategory.value = category;
+  const el = document.getElementById('products');
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   loadFeed();
 }
 
@@ -149,25 +160,20 @@ function handleListingTypeSelect(type: string | null) {
   loadFeed();
 }
 
-/**
- * Keyset Pagination Infinite Scroll
- */
 function setupIntersectionObserver() {
   if (observer) observer.disconnect();
   
   observer = new IntersectionObserver((entries) => {
-    // Trigger when bottom sentinel is visible and we have more data
     if (entries[0].isIntersecting && hasMore.value && !isFetchingMore.value && !isLoading.value) {
       loadFeed(false);
     }
-  }, { threshold: 0.1, rootMargin: '200px' });
+  }, { threshold: 0.1, rootMargin: '400px' });
 
   if (loadMoreSentinel.value) {
     observer.observe(loadMoreSentinel.value);
   }
 }
 
-// React to search query changes from SearchBar navigation
 watch(() => route.query.search, (newSearch) => {
   searchQuery.value = (newSearch as string) || "";
   loadFeed();
@@ -176,9 +182,8 @@ watch(() => route.query.search, (newSearch) => {
 onMounted(() => {
   loadFeed();
   loadCategories();
-  // Wait for DOM to render sentinel
   setTimeout(setupIntersectionObserver, 1000);
-  slideInterval = setInterval(nextSlide, 6000);
+  slideInterval = setInterval(nextSlide, 8000);
 });
 
 onUnmounted(() => {
@@ -188,67 +193,73 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <!-- Hero Carousel Section -->
-    <section class="relative h-[45vh] min-h-[350px] overflow-hidden">
-      <!-- Background Images -->
+  <div class="min-h-screen bg-background transition-colors duration-500">
+    <!-- Immersive Hero Area -->
+    <section class="relative h-[70vh] min-h-[550px] overflow-hidden bg-slate-950 dark:bg-black">
+      <!-- Animated Background Blobs -->
+      <div class="absolute -top-24 -left-24 w-96 h-96 bg-primary-600/20 rounded-full blur-[100px] animate-pulse"></div>
+      <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-indigo-600/20 rounded-full blur-[100px] animate-pulse" style="animation-delay: 2s"></div>
+
+      <!-- Hero Slides -->
       <div 
         v-for="(slide, index) in heroSlides" 
         :key="index"
-        class="absolute inset-0 transition-opacity duration-700 ease-in-out"
-        :class="currentSlide === index ? 'opacity-100' : 'opacity-0'"
+        class="absolute inset-0 transition-all duration-1000 ease-in-out"
+        :class="currentSlide === index ? 'opacity-100 scale-100' : 'opacity-0 scale-105 pointer-events-none'"
       >
+        <div class="absolute inset-0 bg-slate-950/40 z-10"></div>
         <img 
           :src="slide.image" 
-          :alt="slide.title"
-          class="w-full h-full object-cover scale-105"
+          class="w-full h-full object-cover opacity-60 mix-blend-overlay"
         />
-      </div>
-      
-      <!-- Gradient Overlay -->
-      <div class="absolute inset-0 bg-gradient-to-r from-primary-900/90 via-primary-800/70 to-primary-700/40" />
-      <div class="absolute inset-0 bg-gradient-to-t from-gray-900/50 via-transparent to-transparent" />
-      
-      <!-- Grid Pattern -->
-      <div class="absolute inset-0 opacity-5">
-        <div class="w-full h-full" style="background-image: linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px); background-size: 40px 40px;"></div>
-      </div>
-
-      <!-- Content -->
-      <div class="relative z-10 flex items-center h-full">
-        <div class="max-w-7xl mx-auto px-6 w-full">
-          <div class="max-w-xl">
-            <div :key="currentSlide" class="space-y-3 animate-fade-in-up">
-              <!-- Badge -->
-              <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium">
-                <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
-                {{ heroSlides[currentSlide].subtitle }}
-              </span>
+        
+        <!-- Content Overlay -->
+        <div class="absolute inset-0 flex items-center z-20">
+          <div class="max-w-7xl mx-auto px-6 w-full">
+            <div class="max-w-3xl space-y-6">
+              <div 
+                v-if="currentSlide === index"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-semibold animate-fade-in"
+              >
+                <span class="w-2 h-2 rounded-full bg-primary-400"></span>
+                {{ slide.subtitle }}
+              </div>
               
-              <!-- Title -->
-              <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
-                {{ heroSlides[currentSlide].title }}
+              <h1 
+                v-if="currentSlide === index"
+                class="text-6xl md:text-7xl lg:text-8xl font-black text-white leading-[1.1] tracking-tighter animate-slide-up"
+              >
+                {{ slide.title }}
               </h1>
               
-              <!-- Description -->
-              <p class="text-sm md:text-base text-white/90 max-w-lg leading-relaxed">
-                {{ heroSlides[currentSlide].description }}
+              <p 
+                v-if="currentSlide === index"
+                class="text-xl md:text-2xl text-slate-100 max-w-2xl leading-relaxed animate-slide-up"
+                style="animation-delay: 100ms"
+              >
+                {{ slide.description }}
               </p>
               
-              <!-- CTA Buttons -->
-              <div class="flex flex-col sm:flex-row gap-3 pt-2">
+              <div 
+                v-if="currentSlide === index"
+                class="flex flex-wrap gap-5 pt-8 animate-slide-up"
+                style="animation-delay: 200ms"
+              >
                 <RouterLink 
-                  :to="heroSlides[currentSlide].ctaLink"
-                  class="inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-white text-primary-600 text-sm font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 group"
+                  :to="slide.ctaLink"
+                  class="group relative px-10 py-5 bg-primary text-primary-foreground font-black rounded-[2rem] overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(var(--bude-primary-500),0.4)]"
                 >
-                  {{ heroSlides[currentSlide].cta }}
-                  <span class="transition-transform group-hover:translate-x-1">→</span>
+                  <span class="relative z-10 flex items-center gap-2">
+                    {{ slide.cta }}
+                    <span class="group-hover:translate-x-1 transition-transform">→</span>
+                  </span>
+                  <div class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 </RouterLink>
                 <RouterLink 
                   to="/login"
-                  class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-md text-white border-2 border-white/30 font-bold rounded-xl hover:bg-white hover:text-primary-600 transition-all duration-300"
+                  class="px-10 py-5 bg-white/10 backdrop-blur-md text-white border-2 border-white/20 font-black rounded-[2rem] hover:bg-white hover:text-primary-950 transition-all duration-300"
                 >
-                  Join Free
+                  Join the Network
                 </RouterLink>
               </div>
             </div>
@@ -256,66 +267,59 @@ onUnmounted(() => {
         </div>
       </div>
 
-      <!-- Navigation Arrows -->
-      <button 
-        @click="prevSlide"
-        class="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/15 backdrop-blur-md hover:bg-white/30 rounded-full transition-all z-20 group"
-      >
-        <span class="text-white text-xl group-hover:-translate-x-0.5 transition-transform">‹</span>
-      </button>
-      <button 
-        @click="nextSlide"
-        class="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/15 backdrop-blur-md hover:bg-white/30 rounded-full transition-all z-20 group"
-      >
-        <span class="text-white text-xl group-hover:translate-x-0.5 transition-transform">›</span>
-      </button>
-
-      <!-- Slide Indicators -->
-      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-3 z-20">
-        <button
-          v-for="(_, index) in heroSlides"
-          :key="index"
-          @click="goToSlide(index)"
-          class="transition-all duration-300 rounded-full"
-          :class="index === currentSlide ? 'w-10 h-3 bg-white' : 'w-3 h-3 bg-white/40 hover:bg-white/60'"
-        />
-      </div>
-
-      <!-- Trust Stats Ticker -->
-      <div class="absolute bottom-0 left-0 right-0 bg-black/40 backdrop-blur-md border-t border-white/10 z-20 py-3 hidden lg:block">
-        <div class="max-w-7xl mx-auto px-6 flex justify-center gap-12 text-white/80 text-sm font-medium">
-          <div v-for="stat in trustStats" :key="stat.label" class="flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full animate-pulse" :class="`bg-${stat.pulse}-400`"></span>
-            <span class="font-bold text-white">{{ stat.value }}</span>
-            <span>{{ stat.label }}</span>
+      <!-- Floating Stats Bar (Glassmorphism) -->
+      <div class="absolute bottom-16 left-1/2 -translate-x-1/2 w-full max-w-5xl px-6 z-30 hidden lg:block">
+        <div class="bg-card/20 dark:bg-card/10 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] p-8 grid grid-cols-3 gap-12 shadow-2xl">
+          <div v-for="stat in trustStats" :key="stat.label" class="flex items-center gap-6 group">
+            <div class="w-16 h-16 rounded-3xl bg-primary/20 flex items-center justify-center text-3xl group-hover:scale-110 group-hover:bg-primary/30 transition-all duration-500">
+              {{ stat.icon }}
+            </div>
+            <div>
+              <p class="text-white font-black text-3xl tracking-tighter">{{ stat.value }}</p>
+              <p class="text-white/60 text-xs font-black uppercase tracking-[0.2em] mt-1">{{ stat.label }}</p>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Carousel Nav -->
+      <div class="absolute bottom-16 right-16 flex gap-4 z-30">
+        <button @click="prevSlide" class="w-14 h-14 rounded-full border-2 border-white/10 flex items-center justify-center text-white hover:bg-white/10 hover:border-white/30 transition-all text-2xl">‹</button>
+        <button @click="nextSlide" class="w-14 h-14 rounded-full border-2 border-white/10 flex items-center justify-center text-white hover:bg-white/10 hover:border-white/30 transition-all text-2xl">›</button>
+      </div>
     </section>
 
-    <!-- Listing Type Pills -->
-    <section class="py-8 bg-white border-b border-gray-100">
+    <!-- Interactive Quick Hub -->
+    <section class="relative z-40 -mt-20 pb-20">
       <div class="max-w-7xl mx-auto px-6">
-        <div class="flex items-center justify-center gap-4 flex-wrap">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <button
             v-for="type in listingTypes"
             :key="type.value"
             @click="handleListingTypeSelect(type.value)"
-            class="flex items-center gap-2 px-6 py-3 rounded-2xl font-semibold transition-all duration-300"
-            :class="selectedListingType === type.value 
-              ? `bg-gradient-to-r ${type.color} text-white shadow-lg scale-105` 
-              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+            class="group relative h-40 rounded-[2.5rem] overflow-hidden bg-white shadow-2xl transition-all hover:-translate-y-3 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.2)]"
           >
-            <span class="text-xl">{{ type.icon }}</span>
-            <span>{{ type.label }}</span>
+            <div 
+              class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br"
+              :class="type.color"
+            ></div>
+            <div class="relative z-10 p-8 flex flex-col justify-between h-full text-left">
+              <span class="text-4xl filter group-hover:grayscale-0 group-hover:brightness-200 transition-all">{{ type.icon }}</span>
+              <div>
+                <p class="font-black text-slate-900 group-hover:text-white transition-colors text-xl tracking-tight">{{ type.label }}</p>
+                <p class="text-xs font-bold text-slate-400 group-hover:text-white/70 uppercase tracking-widest">{{ type.desc }}</p>
+              </div>
+            </div>
+            <!-- Active Indicator -->
+            <div v-if="selectedListingType === type.value" class="absolute top-6 right-6 w-4 h-4 rounded-full bg-primary-500 ring-4 ring-primary-100 animate-pulse"></div>
           </button>
         </div>
       </div>
     </section>
 
-    <!-- Categories -->
-    <section class="py-6 bg-white">
-      <div class="max-w-7xl mx-auto px-6">
+    <!-- Premium Category Ribbon -->
+    <section class="bg-white border-y border-slate-100 sticky top-0 z-50 shadow-sm backdrop-blur-md bg-white/90">
+      <div class="max-w-7xl mx-auto px-6 py-4">
         <CategoryNav
           :categories="verticals"
           :selected="selectedCategory"
@@ -324,143 +328,158 @@ onUnmounted(() => {
       </div>
     </section>
 
-    <!-- Products Grid -->
-    <section id="products" class="py-12 bg-gray-50">
+    <!-- Product Discovery Engine -->
+    <main id="products" class="py-24">
       <div class="max-w-7xl mx-auto px-6">
-        <!-- Section Header -->
-        <div class="flex items-center justify-between mb-8">
-          <div>
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
+        <!-- Explorer Header -->
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-10 mb-16">
+          <div class="space-y-4">
+            <h2 class="text-5xl font-black text-slate-950 tracking-tighter">
               {{ selectedCategoryName }}
             </h2>
-            <div class="flex items-center gap-3 mt-1">
-              <p class="text-gray-500">{{ items.length }} items found</p>
-              <button
-                v-if="searchQuery"
-                @click="clearSearch"
-                class="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
-              >
-                Clear search
-                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
+            <div class="flex items-center gap-6">
+              <div v-if="!isLoading" class="flex -space-x-4">
+                <div v-for="i in 5" :key="i" class="w-10 h-10 rounded-full border-4 border-white bg-slate-200 overflow-hidden shadow-sm">
+                  <img :src="`https://i.pravatar.cc/40?img=${i+20}`" />
+                </div>
+                <div class="pl-6 flex items-center gap-2 text-sm font-black text-slate-400 uppercase tracking-widest">
+                  <span class="w-2 h-2 rounded-full bg-green-500 animate-ping"></span>
+                  Active Browsers
+                </div>
+              </div>
             </div>
           </div>
-          <RouterLink to="/post" class="hidden md:flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors">
-            <span>+</span> Post Your Ad
-          </RouterLink>
+          
+          <div class="flex items-center gap-4">
+            <button class="px-8 py-4 rounded-2xl bg-slate-100 text-slate-900 font-black hover:bg-slate-200 transition-all flex items-center gap-3">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" /></svg>
+              Sort
+            </button>
+            <RouterLink to="/post" class="px-10 py-4 bg-primary-600 text-white font-black rounded-2xl hover:scale-105 transition-all shadow-[0_15px_30px_-10px_rgba(37,99,235,0.5)]">
+              Create My Ad
+            </RouterLink>
+          </div>
         </div>
 
-        <!-- Initial Loading State (Premium skeletons) -->
-        <div v-if="isLoading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          <ListingSkeleton v-for="i in 8" :key="i" />
+        <!-- Professional Result Grid -->
+        <div v-if="isLoading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+          <ListingSkeleton v-for="i in 12" :key="i" />
         </div>
 
-        <!-- Products -->
-        <div v-else-if="items.length" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div v-else-if="items.length" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-16">
           <ItemCard
             v-for="(item, index) in items"
             :key="item.name"
             :item="item"
             class="animate-fade-in-up"
+            :style="{ animationDelay: `${(index % 8) * 40}ms` }"
           />
         </div>
 
-        <!-- Empty State -->
         <EmptyState
           v-else
-          title="No products found"
-          description="Try adjusting your filters or be the first to post!"
-          icon="📦"
+          title="No Match Found"
+          description="We couldn't find items in this category. Be the first to list and gain maximum visibility!"
+          icon="✨"
         >
-          <RouterLink to="/post" class="mt-4 inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors">
-            Post Your Ad
-          </RouterLink>
+          <button @click="selectedCategory = null; selectedListingType = null; loadFeed()" class="mt-8 px-10 py-4 bg-slate-950 text-white font-black rounded-2xl hover:scale-105 transition-all">
+            Show All Listings
+          </button>
         </EmptyState>
 
-        <!-- Infinite Scroll Skeletons -->
-        <div v-if="isFetchingMore" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
+        <div v-if="isFetchingMore" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-16">
           <ListingSkeleton v-for="i in 4" :key="i" />
         </div>
 
-        <!-- Loading Sentinel -->
-        <div ref="loadMoreSentinel" class="h-20 flex items-center justify-center">
-            <div v-if="hasMore && !isFetchingMore" class="text-gray-400 text-sm">Scroll for more...</div>
+        <div ref="loadMoreSentinel" class="py-32 flex flex-col items-center justify-center gap-6 opacity-30">
+            <div v-if="hasMore" class="w-10 h-10 border-4 border-slate-950 border-t-transparent rounded-full animate-spin"></div>
+            <div v-else class="text-slate-400 font-black tracking-[0.3em] text-xs uppercase">Curated End of Results</div>
         </div>
       </div>
-    </section>
+    </main>
 
-    <!-- Why BudeGlobal Market Section -->
-    <section class="py-16 bg-white border-t border-gray-100">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center mb-12">
-          <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-100 text-primary-600 text-sm font-semibold mb-4">
-            ✨ Why Choose Us
-          </span>
-          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">India's Trusted B2B Marketplace</h2>
-          <p class="text-gray-600 max-w-2xl mx-auto">Connect with verified businesses, secure transactions, and grow your trade network.</p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100 hover:shadow-lg transition-all group">
-            <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 transition-transform">
-              🛡️
+    <!-- Social Proof Section -->
+    <section class="bg-card dark:bg-slate-950 py-32 overflow-hidden relative border-y border-border/50">
+      <div class="absolute inset-0 bg-primary/5 mix-blend-overlay"></div>
+      <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+          <div class="space-y-8">
+            <span class="px-5 py-2 rounded-full bg-primary/10 text-primary-600 dark:text-primary-400 text-xs font-black uppercase tracking-widest border border-primary/20">Why BudeGlobal?</span>
+            <h2 class="text-5xl md:text-6xl font-black text-foreground tracking-tighter leading-tight">Built for Secure High-Stakes Trade</h2>
+            <p class="text-muted-foreground text-xl leading-relaxed">The only platform in India that bridges the gap between surplus inventory and professional liquidators with full KYC transparency.</p>
+            <div class="grid grid-cols-2 gap-8 pt-4">
+              <div v-for="f in ['Instant Liquidity', 'KYC Verified Network', 'Seamless Escrow', 'Bulk Trade Ready']" :key="f" class="flex items-center gap-3">
+                <span class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground text-xs">✓</span>
+                <span class="text-foreground font-bold">{{ f }}</span>
+              </div>
             </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Verified Sellers</h3>
-            <p class="text-gray-600">All sellers are KYC verified for secure transactions</p>
           </div>
           
-          <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-green-50 to-green-100 hover:shadow-lg transition-all group">
-            <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 transition-transform">
-              💰
+          <div class="grid grid-cols-2 gap-6 rotate-3">
+            <div v-for="i in 4" :key="i" class="p-8 rounded-[2.5rem] bg-card border border-border/50 shadow-xl backdrop-blur-sm animate-float" :style="{ animationDelay: `${i * 0.5}s` }">
+              <div class="text-4xl mb-6">{{ ['🏗️', '💼', '📦', '🏢'][i-1] }}</div>
+              <p class="text-foreground font-black text-xl mb-2">{{ ['Industrial', 'Corporate', 'Surplus', 'Wholesale'][i-1] }}</p>
+              <p class="text-muted-foreground text-sm font-bold uppercase tracking-widest">Solutions</p>
             </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Best Prices</h3>
-            <p class="text-gray-600">Direct from sellers — no middlemen, best deals</p>
-          </div>
-          
-          <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-purple-50 to-purple-100 hover:shadow-lg transition-all group">
-            <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 transition-transform">
-              🚀
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Fast & Easy</h3>
-            <p class="text-gray-600">List in minutes, connect instantly</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-16 bg-gradient-to-r from-primary-600 to-primary-500">
-      <div class="max-w-4xl mx-auto px-6 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Start Trading?</h2>
-        <p class="text-white/90 text-lg mb-8">Join thousands of businesses already on BudeGlobal Market</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <RouterLink to="/post" class="px-8 py-4 bg-white text-primary-600 font-bold rounded-xl shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
-            Post Your First Ad →
-          </RouterLink>
-          <RouterLink to="/login" class="px-8 py-4 bg-white/20 backdrop-blur text-white border-2 border-white/30 font-bold rounded-xl hover:bg-white hover:text-primary-600 transition-all">
-            Create Account
-          </RouterLink>
-        </div>
+    <!-- Final CTA -->
+    <section class="py-32 bg-primary dark:bg-primary-700 relative overflow-hidden">
+      <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)]"></div>
+      <div class="max-w-5xl mx-auto px-6 text-center relative z-10 space-y-10">
+          <h2 class="text-5xl md:text-7xl font-black text-primary-foreground tracking-tighter">Ready to Scale Your Trade?</h2>
+          <p class="text-primary-foreground/80 text-xl md:text-2xl font-medium max-w-2xl mx-auto">Join 5,000+ businesses liquidating surplus and finding bulk deals today.</p>
+          <div class="flex flex-col sm:flex-row gap-6 justify-center">
+            <RouterLink to="/post" class="px-12 py-6 bg-background text-primary-600 font-black rounded-3xl shadow-2xl hover:scale-105 transition-all text-xl">
+              Start Listing Now
+            </RouterLink>
+            <RouterLink to="/login" class="px-12 py-6 bg-primary-900/20 text-primary-foreground border-2 border-primary-foreground/20 font-black rounded-3xl hover:bg-background hover:text-primary-600 transition-all text-xl">
+              Create Free Account
+            </RouterLink>
+          </div>
       </div>
     </section>
   </div>
 </template>
 
 <style scoped>
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
 @keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .animate-fade-in-up {
-  animation: fade-in-up 0.6s ease-out forwards;
+  opacity: 0;
+  animation: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 </style>

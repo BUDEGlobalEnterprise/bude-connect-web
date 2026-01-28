@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <div class="listing-skeleton bg-white rounded-xl shadow-sm border border-gray-100 p-4 animate-pulse">
+  <div class="listing-skeleton bg-white/70 backdrop-blur-md border border-white/30 rounded-xl shadow-sm p-4 animate-pulse">
     <!-- Image Skeleton -->
     <div class="aspect-video bg-gray-200 rounded-lg mb-4"></div>
     
@@ -23,7 +23,10 @@
 </template>
 
 <style scoped>
+/* Scoped glass effect for build stability */
 .listing-skeleton {
-  @apply bude-glass;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.7));
+  backdrop-filter: blur(var(--glass-blur, 12px));
+  -webkit-backdrop-filter: blur(var(--glass-blur, 12px));
 }
 </style>

@@ -19,6 +19,9 @@ export default defineConfig(({ mode }) => {
         '@': resolve(__dirname, 'src'),
       },
     },
+    optimizeDeps: {
+      exclude: ['@unhead/vue'],
+    },
     server: {
       port: 3000,
       proxy: {

@@ -376,6 +376,9 @@ onMounted(loadProfile);
           </CardHeader>
         </Card>
 
+        <!-- Profile Completeness -->
+        <ProfileCompletenessMeter :user="userStore.user" @navigate="router.push($event)" />
+
         <!-- Tabs -->
         <Tabs default-value="overview" class="w-full">
           <TabsList class="w-full justify-start">

@@ -1,17 +1,18 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
-import { useUserStore, useWalletStore } from "@bude/shared";
+import { useUserStore, useWalletStore, useFavoritesStore } from "@bude/shared";
 import { Footer, BottomNav } from "@bude/shared/components";
 import Navbar from "./components/Navbar.vue";
 
 const userStore = useUserStore();
 const walletStore = useWalletStore();
+const favoritesStore = useFavoritesStore();
 
 const navItems = [
   { to: "/", label: "Home", icon: "🏠", activeIcon: "🏡" },
-  { to: "/search", label: "Search", icon: "🔍", activeIcon: "🔎" },
+  { to: "/messages", label: "Messages", icon: "💬", activeIcon: "💬" },
   { to: "/post", label: "Post", icon: "➕", activeIcon: "✚" },
-  { to: "/wallet", label: "Wallet", icon: "💰", activeIcon: "💵" },
+  { to: "/notifications", label: "Alerts", icon: "🔔", activeIcon: "🔔" },
   { to: "/profile", label: "Profile", icon: "👤", activeIcon: "👤" },
 ];
 
@@ -22,6 +23,7 @@ onMounted(async () => {
   if (userStore.isLoggedIn) {
     await walletStore.fetchBalance();
     await walletStore.loadUnlockedContacts();
+    favoritesStore.loadFavoriteIds();
   }
 });
 </script>

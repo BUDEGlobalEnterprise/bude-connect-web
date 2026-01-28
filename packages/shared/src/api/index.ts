@@ -11,3 +11,5 @@ export * from './reviews';
 export * from './profile';
 export * from './taxonomy';
 export * from './admin';
+export * from './favorites';
+export * from './report';
