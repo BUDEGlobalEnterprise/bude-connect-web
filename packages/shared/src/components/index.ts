@@ -88,3 +88,4 @@ export { default as FavoriteButton } from './FavoriteButton.vue';
 export { default as ReportDialog } from './ReportDialog.vue';
 export { default as PageTransition } from './PageTransition.vue';
 export { default as PullToRefresh } from './PullToRefresh.vue';
+export { default as DynamicAttributeInput } from './DynamicAttributeInput.vue';

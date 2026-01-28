@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 import { useRouter } from "vue-router";
 import {
   createDraftItem,
   publishItem,
   uploadItemImage,
+  getCategoryAttributes,
 } from "@bude/shared/api";
-import { CascadingCategoryPicker } from "@bude/shared/components";
+import { CascadingCategoryPicker, DynamicAttributeInput } from "@bude/shared/components";
 import type { TaxonomySelection } from "@bude/shared/composables/useTaxonomy";
+import type { TaxonomyAttribute } from "@bude/shared/api/taxonomy";
 import ItemCard from "../components/ItemCard.vue";
 
 const router = useRouter();
@@ -19,13 +21,27 @@ const error = ref("");
 // Taxonomy selection
 const taxonomyId = ref("");
 const taxonomySelection = ref<TaxonomySelection | null>(null);
+const categoryAttributes = ref<TaxonomyAttribute[]>([]);
+const isLoadingAttributes = ref(false);
 
-function onCategorySelect(selection: TaxonomySelection | null) {
+async function onCategorySelect(selection: TaxonomySelection | null) {
   taxonomySelection.value = selection;
   if (selection) {
     form.value.itemGroup = selection.verticalName;
+
+    // Load attributes for selected category
+    isLoadingAttributes.value = true;
+    try {
+      categoryAttributes.value = await getCategoryAttributes(selection.id);
+    } catch (e) {
+      console.error('Failed to load attributes:', e);
+      categoryAttributes.value = [];
+    } finally {
+      isLoadingAttributes.value = false;
+    }
   } else {
     form.value.itemGroup = "";
+    categoryAttributes.value = [];
   }
 }
 
@@ -38,6 +54,14 @@ const form = ref({
   listingType: "Sell" as any,
   standardRate: 0,
   images: [] as string[],
+  attributes: {} as Record<string, any>,
+});
+
+// Watch for category change → reset attributes
+watch(() => taxonomySelection.value?.id, (newId, oldId) => {
+  if (newId !== oldId) {
+    form.value.attributes = {};
+  }
 });
 
 // Mock item for preview
@@ -71,6 +95,15 @@ const isStep2Valid = computed(() => {
   return form.value.standardRate > 0;
 });
 
+const isStep3Valid = computed(() => {
+  // Check if all required attributes are filled
+  const requiredAttrs = categoryAttributes.value.filter(attr => attr.required);
+  return requiredAttrs.every(attr => {
+    const value = form.value.attributes[attr.handle];
+    return value !== undefined && value !== null && value !== '';
+  });
+});
+
 async function handleImageUpload(event: Event) {
   const input = event.target as HTMLInputElement;
   if (!input.files?.length) return;
@@ -94,9 +127,18 @@ function removeImage(index: number) {
 async function handleSubmit() {
   if (step.value === 1) {
     step.value = 2;
-    // Scroll to top of form
     window.scrollTo({ top: 0, behavior: 'smooth' });
     return;
+  }
+
+  if (step.value === 2) {
+    // Only proceed to step 3 if there are attributes to fill
+    if (categoryAttributes.value.length > 0) {
+      step.value = 3;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    // No attributes - proceed directly to publish
   }
 
   isLoading.value = true;
@@ -111,6 +153,7 @@ async function handleSubmit() {
       condition: form.value.condition,
       taxonomyId: taxonomyId.value,
       taxonomyPath: taxonomySelection.value?.path || '',
+      attributes: categoryAttributes.value.length > 0 ? form.value.attributes : undefined,
     });
 
     await publishItem({
@@ -133,15 +176,19 @@ async function handleSubmit() {
     <!-- Top Progress Bar -->
     <div class="bg-white border-b border-slate-200 sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-6 h-1 bg-slate-100">
-         <div 
+         <div
            class="h-full bg-primary-600 transition-all duration-500"
-           :style="{ width: step === 1 ? '50%' : '100%' }"
+           :style="{
+             width: step === 1 ? '33%' : step === 2 ? '67%' : '100%'
+           }"
          ></div>
       </div>
       <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 class="text-xl font-black text-slate-900 tracking-tight">Create Listing</h1>
         <div class="flex items-center gap-4">
-          <span class="text-xs font-black uppercase tracking-widest text-slate-400">Step {{ step }} / 2</span>
+          <span class="text-xs font-black uppercase tracking-widest text-slate-400">
+            Step {{ step }} / {{ categoryAttributes.length > 0 ? '3' : '2' }}
+          </span>
           <button @click="router.back()" class="text-slate-400 hover:text-slate-600 text-sm font-bold uppercase tracking-widest">Cancel</button>
         </div>
       </div>
@@ -287,6 +334,50 @@ async function handleSubmit() {
               </div>
             </div>
 
+            <!-- Step 3: Dynamic Attributes -->
+            <div v-else-if="step === 3" class="space-y-10 animate-fade-in">
+              <div class="space-y-1">
+                <h2 class="text-3xl font-black text-slate-900 tracking-tight">Product Details</h2>
+                <p class="text-slate-500">
+                  Category-specific attributes for
+                  <span class="text-primary-600 font-bold">{{ taxonomySelection?.path }}</span>
+                </p>
+              </div>
+
+              <!-- Loading State -->
+              <div v-if="isLoadingAttributes" class="flex items-center justify-center py-12">
+                <div class="animate-spin rounded-full h-12 w-12 border-4 border-primary-500 border-t-transparent"></div>
+              </div>
+
+              <!-- Dynamic Attributes -->
+              <div v-else-if="categoryAttributes.length > 0" class="space-y-6">
+                <DynamicAttributeInput
+                  v-for="attribute in categoryAttributes"
+                  :key="attribute.id"
+                  :attribute="attribute"
+                  v-model="form.attributes[attribute.handle]"
+                />
+              </div>
+
+              <!-- No Attributes -->
+              <div v-else class="py-12 text-center">
+                <div class="text-6xl mb-4">✨</div>
+                <h3 class="text-lg font-bold text-slate-900 mb-2">No Additional Details Needed</h3>
+                <p class="text-slate-500 text-sm">
+                  This category doesn't require specific attributes. Proceed to publish!
+                </p>
+              </div>
+
+              <!-- Attributes Info -->
+              <div v-if="categoryAttributes.length > 0" class="bg-blue-50 border border-blue-100 rounded-2xl p-4">
+                <p class="text-xs text-blue-800 leading-relaxed">
+                  <strong class="font-black">💡 Tip:</strong>
+                  These attributes help buyers find exactly what they're looking for.
+                  Providing accurate details increases visibility by up to 60%.
+                </p>
+              </div>
+            </div>
+
             <!-- Global Error -->
             <p v-if="error" class="bg-red-50 text-red-600 p-4 rounded-xl text-xs font-bold border border-red-100 mt-8">{{ error }}</p>
 
@@ -304,12 +395,16 @@ async function handleSubmit() {
                 :disabled="
                   (step === 1 && !isStep1Valid) ||
                   (step === 2 && !isStep2Valid) ||
+                  (step === 3 && !isStep3Valid) ||
                   isLoading
                 "
                 class="flex-1 px-8 py-5 bg-slate-950 text-white font-black rounded-2xl shadow-2xl hover:bg-primary-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all text-xs uppercase tracking-widest"
               >
                 <template v-if="isLoading">Processing Listing...</template>
                 <template v-else-if="step === 1">Continue to Pricing</template>
+                <template v-else-if="step === 2 && categoryAttributes.length > 0">
+                  Continue to Details ({{ categoryAttributes.length }} attributes)
+                </template>
                 <template v-else>Publish Master Listing 🚀</template>
               </button>
             </div>

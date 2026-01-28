@@ -13,6 +13,15 @@ export interface TaxonomyVertical {
   count: number;
 }
 
+export interface TaxonomyAttribute {
+  id: string;
+  name: string;
+  handle: string;
+  description: string;
+  extended: boolean;
+  values?: string[];
+}
+
 export interface TaxonomyCategory {
   id: string;
   name: string;
@@ -22,6 +31,7 @@ export interface TaxonomyCategory {
   children: string[];
   has_children?: boolean;
   breadcrumb?: { id: string; name: string }[];
+  attributes?: TaxonomyAttribute[];
 }
 
 // ── Internal: lazy-load per-vertical JSON via Vite glob ───────────────
@@ -122,4 +132,68 @@ export async function searchTaxonomy(query: string, limit = 10): Promise<Taxonom
   }
 
   return results;
+}
+
+// ── Attributes Loading (from full taxonomy.json) ──────────────────
+
+/** Cache for full taxonomy data with attributes */
+let fullTaxonomyCache: Map<string, TaxonomyCategory> | null = null;
+let fullTaxonomyPromise: Promise<void> | null = null;
+
+/**
+ * Load full taxonomy.json with attributes (lazy loaded, cached)
+ * This file is large (955k lines) so we only load it when attributes are needed
+ */
+async function loadFullTaxonomy(): Promise<void> {
+  if (fullTaxonomyCache) return;
+  if (fullTaxonomyPromise) return fullTaxonomyPromise;
+
+  fullTaxonomyPromise = (async () => {
+    try {
+      const response = await fetch('/src/data/taxonomy/en/taxonomy.json');
+      const data = await response.json();
+
+      fullTaxonomyCache = new Map();
+
+      // Index all categories with attributes
+      if (data.verticals && Array.isArray(data.verticals)) {
+        for (const vertical of data.verticals) {
+          if (vertical.categories && Array.isArray(vertical.categories)) {
+            for (const category of vertical.categories) {
+              fullTaxonomyCache.set(category.id, category);
+            }
+          }
+        }
+      }
+    } catch (error) {
+      console.error('Failed to load full taxonomy:', error);
+      fullTaxonomyCache = new Map(); // Empty map to prevent retries
+    }
+  })();
+
+  await fullTaxonomyPromise;
+}
+
+/**
+ * Get attributes for a specific category
+ * Returns empty array if category has no attributes or if taxonomy fails to load
+ */
+export async function getCategoryAttributes(categoryId: string): Promise<TaxonomyAttribute[]> {
+  await loadFullTaxonomy();
+
+  if (!fullTaxonomyCache) return [];
+
+  const category = fullTaxonomyCache.get(categoryId);
+  return category?.attributes || [];
+}
+
+/**
+ * Get category with attributes
+ */
+export async function getCategoryWithAttributes(categoryId: string): Promise<TaxonomyCategory | null> {
+  const category = await getTaxonomyCategory(categoryId);
+  if (!category) return null;
+
+  const attributes = await getCategoryAttributes(categoryId);
+  return { ...category, attributes };
 }

@@ -67,6 +67,7 @@ export async function createDraftItem(data: {
   condition: string;
   taxonomyId?: string;
   taxonomyPath?: string;
+  attributes?: Record<string, any>;
 }): Promise<{ itemCode: string }> {
   return frappe.call('bude_core.market.create_draft_item', {
     item_name: data.itemName,
@@ -76,6 +77,7 @@ export async function createDraftItem(data: {
     condition: data.condition,
     taxonomy_id: data.taxonomyId,
     taxonomy_path: data.taxonomyPath,
+    custom_attributes: data.attributes ? JSON.stringify(data.attributes) : undefined,
   });
 }
 

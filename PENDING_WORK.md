@@ -558,7 +558,48 @@ VITE_APP_VERSION=1.0.0
 
 ---
 
-### 27. Admin Dashboard
+### 27. Dynamic Attributes from Shopify Taxonomy 🏷️ IN PROGRESS
+**Status:** Frontend Complete ✅, Backend Pending
+**Priority:** P2 - Product Enhancement
+**Estimate:** 9-12 days (Phase 1-3 complete, Phase 4-6: 3-5 days remaining)
+
+**Goal:** Make post/add forms dynamic based on category-specific attributes from Shopify Product Taxonomy (955k line JSON file)
+
+**Completed (Phase 1-3):**
+
+- ✅ Created comprehensive implementation plan (DYNAMIC_ATTRIBUTES_PLAN.md)
+- ✅ Created taxonomy types (TaxonomyAttribute, TaxonomyCategory, AttributeValue)
+- ✅ Created DynamicAttributeInput component (handles text, select, multi-select, number, boolean, color, textarea)
+- ✅ Enhanced taxonomy API with getCategoryAttributes() and getCategoryWithAttributes()
+- ✅ Lazy-loading architecture for full taxonomy.json (load only when attributes needed)
+- ✅ Refactored PostAdView to 3-step wizard (Details → Pricing → Attributes)
+- ✅ Integrated DynamicAttributeInput in step 3
+- ✅ Form validation for required attributes
+- ✅ Updated createDraftItem API to accept attributes parameter
+- ✅ Smart skip logic (step 3 only shown if category has attributes)
+- ✅ Progress bar shows 3 steps when attributes exist, 2 steps otherwise
+
+**Remaining (Phase 4-6):**
+
+- [ ] Backend: Add custom_attributes field to Item doctype
+- [ ] Backend: Update create_draft_item handler to store attributes JSON
+- [ ] Attribute-based search/filtering in HomeView
+- [ ] Performance testing with large taxonomy
+- [ ] Test with real categories (Pet Supplies, Electronics)
+
+**Key Features:**
+
+- Category-driven dynamic forms (Pet Supplies shows "Animal Type", "Color", "Pattern")
+- Smart input type detection (color → color picker, size → number input)
+- Search categories by name (955k lines indexed for O(1) lookup)
+- Validate required attributes before submission
+- Store as JSON in Item.custom_attributes field
+
+**Reference:** [DYNAMIC_ATTRIBUTES_PLAN.md](DYNAMIC_ATTRIBUTES_PLAN.md)
+
+---
+
+### 28. Admin Dashboard
 **Status:** Not Started
 **Estimate:** 5-7 days
 
@@ -765,8 +806,8 @@ VITE_APP_VERSION=1.0.0
 
 ### Current Completion Status
 - **Backend:** ~70% complete
-- **Frontend:** ~92% complete
-- **Overall:** ~86% complete
+- **Frontend:** ~95% complete (dynamic attributes fully integrated)
+- **Overall:** ~88% complete
 
 ### Key Strengths
 - ✅ Solid monorepo architecture
@@ -790,6 +831,7 @@ VITE_APP_VERSION=1.0.0
 - ✅ ItemCard animations (hover lift, scale, gradient overlay)
 - ✅ Toast notifications wired to both apps
 - ✅ PullToRefresh component for mobile
+- ✅ Dynamic attributes system (3-step wizard, DynamicAttributeInput, auto input detection, required validation)
 
 ### Remaining Critical Gaps
 - ❌ SMS delivery not implemented (backend)
