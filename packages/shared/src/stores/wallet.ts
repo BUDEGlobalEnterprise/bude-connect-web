@@ -129,17 +129,33 @@ export const useWalletStore = defineStore('wallet', () => {
   async function loadUnlockedContacts() {
     try {
       const result = await walletApi.getUnlockedContacts();
-      const data = Array.isArray(result.data) ? result.data : [];
-      data.forEach((unlock) => {
-        const contact: ContactInfo = {
-          phone: unlock.contact.phone,
-          email: unlock.contact.email,
-        };
-        unlockedContacts.value.set(
-          getUnlockKey(unlock.doctype, unlock.docname),
-          contact
-        );
-      });
+      // Handle various response formats:
+      // - PaginatedResponse: { data: [...], total, page, ... }
+      // - Direct array: [...]
+      // - Nested: { data: { data: [...] } }
+      let data: typeof result.data = [];
+      if (Array.isArray(result)) {
+        data = result;
+      } else if (result && typeof result === 'object') {
+        if (Array.isArray(result.data)) {
+          data = result.data;
+        } else if (result.data && Array.isArray((result.data as any).data)) {
+          data = (result.data as any).data;
+        }
+      }
+
+      for (const unlock of data) {
+        if (unlock && unlock.contact) {
+          const contact: ContactInfo = {
+            phone: unlock.contact.phone,
+            email: unlock.contact.email,
+          };
+          unlockedContacts.value.set(
+            getUnlockKey(unlock.doctype, unlock.docname),
+            contact
+          );
+        }
+      }
     } catch (error) {
       console.error('Failed to load unlocked contacts:', error);
     }
